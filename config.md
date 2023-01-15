@@ -1,0 +1,7 @@
+[title]: <> (Olshansky's website)
+[icon]: <> (http://olshansky.info/images/icon.png)
+[server]: <> (root@olshansky.info)
+[website_root]: <> (/var/www/html)
+[posts_directory]: <> (general)
+[homepage_category]: <> (general)
+[domain]: <> (https://olshansky.info)

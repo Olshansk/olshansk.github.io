@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+<channel>
+  <title>Olshansky's website</title>
+  <link>https://olshansky.info/</link>
+  <description>Olshansky's website</description>
+  <image>
+      <url>http://olshansky.info/images/icon.png</url>
+      <title>Olshansky's website</title>
+      <link>https://olshansky.info/</link>
+  </image>
+
+
+</channel>
+</rss>
