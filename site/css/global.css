@@ -39,7 +39,8 @@ html.dark {
 /*
   Apply colors to general doc selectors
 */
-html, body {
+html,
+body {
   background-color: var(--color-bg);
   color: var(--color-text);
 }
@@ -47,16 +48,32 @@ html, body {
 /*
   Typography & doc elements
 */
-#doc h1, #doc h2, #doc h3, #doc h4, #doc h5, #doc h6 {
+#doc h1,
+#doc h2,
+#doc h3,
+#doc h4,
+#doc h5,
+#doc h6 {
   color: var(--color-heading);
   border-color: var(--color-divider);
 }
 
-#doc, #doc div, #doc span, #doc p, #doc li, #doc th, #doc td, #doc dd, #doc dl {
+#doc,
+#doc div,
+#doc span,
+#doc p,
+#doc li,
+#doc th,
+#doc td,
+#doc dd,
+#doc dl {
   color: var(--color-text);
 }
 
-#doc a:link, #doc a:visited, #doc a:active, #doc a:checked {
+#doc a:link,
+#doc a:visited,
+#doc a:active,
+#doc a:checked {
   color: var(--color-anchor);
 }
 
@@ -64,8 +81,10 @@ html, body {
   background-color: var(--color-divider);
 }
 
-#doc blockquote, .markdown-body blockquote,
-#doc blockquote *, .markdown-body blockquote * {
+#doc blockquote,
+.markdown-body blockquote,
+#doc blockquote *,
+.markdown-body blockquote * {
   border-color: var(--color-divider);
   color: var(--color-blockquote-text);
 }
@@ -73,9 +92,14 @@ html, body {
 /*
   Code blocks and formatted text
 */
-.markdown-body code, .markdown-body code *,
-#doc pre, #doc code, #doc pre code,
-#doc pre *, #doc code *, #doc pre code * {
+.markdown-body code,
+.markdown-body code *,
+#doc pre,
+#doc code,
+#doc pre code,
+#doc pre *,
+#doc code *,
+#doc pre code * {
   background-color: var(--color-code-bg);
   color: var(--color-code-text);
 }
@@ -106,7 +130,7 @@ html, body {
 }
 
 html.dark #doc img.invert {
-  filter: invert(1)
+  filter: invert(1);
 }
 
 /*
@@ -116,28 +140,35 @@ html.dark #doc img.invert {
     - Useful for when using tables for grid layouts
   - Optional: add 'centered' class to center align all the text within the table
 */
-#doc table thead tr, #doc table tr.header {
+#doc table thead tr,
+#doc table tr.header {
   background-color: var(--color-table-row-header);
 }
 
-#doc table tbody tr, #doc table tr.odd {
+#doc table tbody tr,
+#doc table tr.odd {
   background-color: var(--color-table-row-odd);
 }
 
-#doc table tbody tr:nth-child(2n), #doc table tr.even {
+#doc table tbody tr:nth-child(2n),
+#doc table tr.even {
   background-color: var(--color-table-row-even);
 }
 
-#doc table th, #doc table td {
+#doc table th,
+#doc table td {
   border-color: var(--color-table-border);
 }
 
 #doc table.transparent,
 #doc table.transparent th,
 #doc table.transparent td,
-#doc table.transparent thead tr, #doc table.borderless tr.header,
-#doc table.transparent tbody tr, #doc table.borderless  tr.odd,
-#doc table.transparent tbody tr:nth-child(2n), #doc table.borderless tr.even {
+#doc table.transparent thead tr,
+#doc table.borderless tr.header,
+#doc table.transparent tbody tr,
+#doc table.borderless tr.odd,
+#doc table.transparent tbody tr:nth-child(2n),
+#doc table.borderless tr.even {
   border: none;
   background-color: transparent;
 }
@@ -170,7 +201,7 @@ html.dark #doc img.invert {
   margin: 0 4px;
 }
 
-#color-mode-switch input[type=checkbox] {
+#color-mode-switch input[type="checkbox"] {
   height: 0;
   width: 0;
   visibility: hidden;
@@ -189,7 +220,7 @@ html.dark #doc img.invert {
 }
 
 #color-mode-switch label:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 3px;
   left: 3px;

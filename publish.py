@@ -6,12 +6,12 @@ HEADER = """
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-<link rel="stylesheet" type="text/css" href="/css/common-vendor.b8ecfc406ac0b5f77a26.css">
-<link rel="stylesheet" type="text/css" href="/css/font-vendor.b86e2bf451b246b1a88e.css">
-<link rel="stylesheet" type="text/css" href="/css/fretboard.f32f2a8d5293869f0195.css">
-<link rel="stylesheet" type="text/css" href="/css/pretty.0ae3265014f89d9850bf.css">
-<link rel="stylesheet" type="text/css" href="/css/pretty-vendor.83ac49e057c3eac4fce3.css">
-<link rel="stylesheet" type="text/css" href="/css/misc.css">
+<link rel="stylesheet" type="text/css" href="./css/common-vendor.b8ecfc406ac0b5f77a26.css">
+<link rel="stylesheet" type="text/css" href="./css/font-vendor.b86e2bf451b246b1a88e.css">
+<link rel="stylesheet" type="text/css" href="./css/fretboard.f32f2a8d5293869f0195.css">
+<link rel="stylesheet" type="text/css" href="./css/pretty.0ae3265014f89d9850bf.css">
+<link rel="stylesheet" type="text/css" href="./css/pretty-vendor.83ac49e057c3eac4fce3.css">
+<link rel="stylesheet" type="text/css" href="./css/misc.css">
 
 <script type="text/javascript" id="MathJax-script" async
   src="/scripts/mathjax.js">
@@ -106,7 +106,7 @@ def defancify(text):
 def make_toc_item(metadata):
     year, month, day = metadata["date"].split("/")
     month = "JanFebMarAprMayJunJulAugSepOctNovDec"[int(month) * 3 - 3 :][:3]
-    link = os.path.join("/", metadata_to_path(metadata))
+    link = os.path.join("./", metadata_to_path(metadata))
     return TOC_ITEM_TEMPLATE.format(
         year + " " + month + " " + day, link, metadata["title"]
     )

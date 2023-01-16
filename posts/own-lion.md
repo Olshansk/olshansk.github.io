@@ -5,7 +5,7 @@
 
 <br>
 <center>
-<img src="../images/lion-owl/own-lion.jpg" class="padded" /><br><br>
+<img src="../../../../../images/lion-owl/own-lion.jpg" class="padded" /><br><br>
 <center>
 <br>
 

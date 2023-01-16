@@ -37,8 +37,8 @@ def translate(contents):
     )
     body = (
         ("\n".join(lines[pos + 1 :]))
-        .replace("http://olshansky.info/files/posts_files/", "/images/")
-        .replace("https://olshansky.info/files/posts_files/", "/images/")
+        .replace("http://olshansk.github.io/files/posts_files/", "/images/")
+        .replace("https://olshansk.github.io/files/posts_files/", "/images/")
     )
     return header.strip() + "\n" + body
 
