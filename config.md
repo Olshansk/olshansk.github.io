@@ -1,7 +1,0 @@
-[title]: <> (Olshansky's website)
-[icon]: <> (http://olshansk.github.io/images/icon.jpeg)
-[server]: <> (daniel@olshansky.info)
-[website_root]: <> (/var/www/html)
-[posts_directory]: <> (general)
-[homepage_category]: <> (general)
-[domain]: <> (https://olshansk.github.io)
