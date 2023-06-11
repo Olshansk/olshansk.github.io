@@ -1,5 +1,7 @@
-baseurl = "http://www.example.com"
-title = "johndoe"
+# Reference: https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md
+
+baseurl = "http://www.olshansky.info"
+title = "olshansky"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -12,17 +14,17 @@ disqusShortname = "yourdiscussshortname"
 style = "github-dark"
 
 [params]
-  author = "John Doe"
+  author = "Daniel Olshansky"
   info = "Full Stack DevOps and Magician"
-  description = "John Doe's personal website"
+  description = "Olshansky's Personal Site"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
+  avatarurl = "images/charicature.jpeg"
+  gravatar = "olshansky.daniel@gmail.com"
 
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
-  since = 2019
+  since = 1992
 
   enableTwemoji = true
 
@@ -40,28 +42,56 @@ style = "github-dark"
   author = "authors"
 
 # Social links
+
 [[params.social]]
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
-[[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
-  weight = 2
-  url = "https://gitlab.com/johndoe/"
+  url = "https://github.com/olshansky/"
+
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
   weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://twitter.com/olshansky/"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/dolshansky/"
+
+
+[[params.social]]
+  name = "Substack"
+  icon = "fa fa-substack fa-2x"
+  weight = 2
+  url = "https://olshansky.substack.com"
+
+[[params.social]]
+  name = "Medium"
+  icon = "fa fa-medium fa-2x"
+  weight = 2
+  url = "https://olshansky.medium.com"
 
 # Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
+
 [[menu.main]]
   name = "About"
   weight = 2
   url = "about/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+
+[[menu.main]]
+  name = "Books"
+  weight = 2
+  url = "books/"
+
+[[menu.main]]
+  name = "Movies"
+  weight = 2
+  url = "movies/"
