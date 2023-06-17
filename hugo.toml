@@ -1,5 +1,3 @@
-# Reference: https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md
-
 baseurl = "http://www.olshansky.info"
 title = "olshansky"
 theme = "hugo-coder"
@@ -8,32 +6,38 @@ defaultcontentlanguage = "en"
 
 paginate = 20
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "olshansky"
 
 [markup.highlight]
 style = "github-dark"
 
 [params]
   author = "Daniel Olshansky"
-  info = "Full Stack DevOps and Magician"
-  description = "Olshansky's Personal Site"
+  info = "Figuring out what I want to do instead of what I want want to want to do"
+  description = "Everything about Olshansky"
   keywords = "blog,developer,personal"
-  avatarurl = "images/charicature.jpeg"
-  gravatar = "olshansky.daniel@gmail.com"
+  avatarURL = "/images/charicature.jpeg"
+  # gravatar = "olshansky.daniel@gmail.com"
 
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
   since = 1992
 
-  enableTwemoji = true
+  maxSeeAlsoItems = 5
+  commit = false
+  rtl = false
+  math = false
+  katex = false
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+  colorScheme = "dark"
+  hideColorSchemeToggle = false
 
-  # customCSS = ["css/custom.css"]
+  # customCSS = ["css/all.min.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
+
+  enableTwemoji = true
 
 [taxonomies]
   category = "categories"
@@ -47,32 +51,37 @@ style = "github-dark"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/olshansky/"
+  url = "https://github.com/olshansk"
+
+[[params.social]]
+  name = "Substack"
+  icon = "fa fa-pen fa-2x"
+  weight = 2
+  url = "https://olshansky.substack.com"
 
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
   weight = 3
-  url = "https://twitter.com/olshansky/"
+  url = "https://twitter.com/olshansky"
 
 [[params.social]]
   name = "LinkedIn"
   icon = "fa fa-linkedin fa-2x"
   weight = 3
-  url = "https://www.linkedin.com/in/dolshansky/"
-
-
-[[params.social]]
-  name = "Substack"
-  icon = "fa fa-substack fa-2x"
-  weight = 2
-  url = "https://olshansky.substack.com"
+  url = "https://www.linkedin.com/in/dolshansky"
 
 [[params.social]]
   name = "Medium"
   icon = "fa fa-medium fa-2x"
   weight = 2
   url = "https://olshansky.medium.com"
+
+[[params.social]]
+  name = "Instagram"
+  icon = "fa fa-instagram fa-2x"
+  weight = 2
+  url = "https://instagram.com/olshansk"
 
 # Menu links
 
