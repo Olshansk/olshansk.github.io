@@ -95,17 +95,31 @@ style = "github-dark"
 #   weight = 1
 #   url = "contact/"
 
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
+# [[menu.main]]
+#   name = "Blog"
+#   weight = 1
+#   url  = "posts/"
 
 [[menu.main]]
   name = "Books"
   weight = 1
-  url = "books/"
+  # url = "books/"
+  url = "https://www.goodreads.com/user/show/19157738-daniel-olshansky"
 
 [[menu.main]]
-  name = "Movies"
+  name = "Movies & TV"
   weight = 1
-  url = "movies/"
+  # url = "movies/"
+  url = "https://www.rottentomatoes.com/profiles/GeDt0zCK1fenF8NTwehrduK0seeCXJTL4H28fjquRRCzRi1zIknSwBFllCxgFepIjgSZRuYYCdOcNGtk2Fv2HmWu9zSxLTZQfJjIB1FVKuYj"
+
+[[menu.main]]
+  name = "Videos"
+  weight = 1
+  # url = "movies/"
+  url = "https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E"
+
+[[menu.main]]
+  name = "Publications"
+  weight = 1
+  # url = "movies/"
+  url = "https://scholar.google.com.tr/citations?user=pkPj80UAAAAJ&hl=fil"
