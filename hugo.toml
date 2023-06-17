@@ -33,7 +33,7 @@ style = "github-dark"
   colorScheme = "dark"
   hideColorSchemeToggle = false
 
-  # customCSS = ["css/all.min.css"]
+  # customCSS = ["css/all.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
@@ -55,40 +55,45 @@ style = "github-dark"
 
 [[params.social]]
   name = "Substack"
-  icon = "fa fa-pen fa-2x"
-  weight = 2
+  icon = "fa fa-pencil fa-2x"
+  weight = 1
   url = "https://olshansky.substack.com"
 
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
-  weight = 3
+  weight = 1
   url = "https://twitter.com/olshansky"
 
 [[params.social]]
   name = "LinkedIn"
   icon = "fa fa-linkedin fa-2x"
-  weight = 3
+  weight = 1
   url = "https://www.linkedin.com/in/dolshansky"
 
 [[params.social]]
   name = "Medium"
   icon = "fa fa-medium fa-2x"
-  weight = 2
+  weight = 1
   url = "https://olshansky.medium.com"
 
 [[params.social]]
   name = "Instagram"
   icon = "fa fa-instagram fa-2x"
-  weight = 2
+  weight = 1
   url = "https://instagram.com/olshansk"
 
 # Menu links
 
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+# [[menu.main]]
+#   name = "About"
+#   weight = 1
+#   url = "about/"
+
+# [[menu.main]]
+#   name = "Contact"
+#   weight = 1
+#   url = "contact/"
 
 [[menu.main]]
   name = "Blog"
@@ -97,10 +102,10 @@ style = "github-dark"
 
 [[menu.main]]
   name = "Books"
-  weight = 2
+  weight = 1
   url = "books/"
 
 [[menu.main]]
   name = "Movies"
-  weight = 2
+  weight = 1
   url = "movies/"
