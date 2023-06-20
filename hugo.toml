@@ -8,6 +8,8 @@ paginate = 20
 
 disqusShortname = "olshansky"
 
+googleAnalytics = 'G-15DW3DE66X'
+
 [markup.highlight]
 style = "github-dark"
 
@@ -133,5 +135,4 @@ style = "github-dark"
 [[menu.main]]
   name = "Publications"
   weight = 7
-  # url = "movies/"
   url = "https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en&oi=sra"
