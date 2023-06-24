@@ -1,5 +1,5 @@
 baseurl = "http://www.olshansky.info"
-title = "🚧 olshansky 🚧"
+title = "🦉 olshansky 🦁"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -15,7 +15,7 @@ style = "github-dark"
 
 [params]
   author = "Daniel Olshansky"
-  info = "Figuring out what I want to do instead of what I want want to want to do (🏗️ Site is currently under 🏗️)"
+  info = "Figuring out what I want to do instead of what I want want to want to do"
   description = "Everything about Olshansky"
   keywords = "blog,developer,personal"
   avatarURL = "/images/charicature.jpeg"
@@ -105,31 +105,27 @@ style = "github-dark"
 [[menu.main]]
   name = "Books"
   weight = 2
-  # url = "books/"
   url = "https://www.goodreads.com/user/show/19157738-daniel-olshansky"
 
 [[menu.main]]
   name = "Movies"
   weight = 3
   url = "movie/"
-  # url = "https://www.rottentomatoes.com/profiles/GeDt0zCK1fenF8NTwehrduK0seeCXJTL4H28fjquRRCzRi1zIknSwBFllCxgFepIjgSZRuYYCdOcNGtk2Fv2HmWu9zSxLTZQfJjIB1FVKuYj"
 
 [[menu.main]]
   name = "TV"
   weight = 4
   url = "tv/"
-  # url = "https://www.rottentomatoes.com/profiles/GeDt0zCK1fenF8NTwehrduK0seeCXJTL4H28fjquRRCzRi1zIknSwBFllCxgFepIjgSZRuYYCdOcNGtk2Fv2HmWu9zSxLTZQfJjIB1FVKuYj"
+
 
 [[menu.main]]
   name = "Podcasts"
   weight = 5
-  # url = "podcasts/"
   url = "https://www.notion.so/olshansky/768504560fd54cdaa7e24b6c3f31a21e?v=bca5b6cd248c471eb231c8f6fee54102&pvs=4"
 
 [[menu.main]]
   name = "Presentations"
   weight = 6
-  # url = "movies/"
   url = "https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E"
 
 [[menu.main]]

@@ -4,7 +4,13 @@
 - [Deployment](#deployment)
 - [Development](#development)
 - [Resources](#resources)
-- [TODO](#todo)
+  - [TODO / Ideas](#todo--ideas)
+  - [General](#general)
+  - [Blogs](#blogs)
+  - [Personal](#personal)
+    - [Videos](#videos)
+- [TV \& Movies](#tv--movies)
+  - [Inspiration](#inspiration)
 
 ## Source Code
 
@@ -25,10 +31,34 @@ hugo server
 Platform: [gohugo.io](https://gohugo.io/)
 Theme: [hugo-coder](https://github.com/luizdepra/hugo-coder) \* [Configurations](Reference: https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md)
 
-## TODO
+### TODO / Ideas
 
-- [ ] Export everything from rotten tomatoes and embed; https://www.rottentomatoes.com/profiles/GeDt0zCK1fenF8NTwehrduK0seeCXJTL4H28fjquRRCzRi1zIknSwBFllCxgFepIjgSZRuYYCdOcNGtk2Fv2HmWu9zSxLTZQfJjIB1FVKuYj
+### General
+
+- [ ] Add search using LLMs or Algolia
+- [ ] Filters by tag
+
+### Blogs
+
 - [ ] Export everything from substack and embed
 - [ ] Export everything from medium and embed
-- [ ] Link to arxiv, google scholar, etc...
-- [ ] Link to youtube video series
+
+### Personal
+
+- [ ] Link to strava (exercise)
+- [ ] Link to alltrails (hiking)
+- [ ] Link to Apple Health (heart rate)
+- [ ] Link to autosleep (sleep)
+
+#### Videos
+
+- [ ] Get control of my videos and upload to a personal channel
+
+## TV & Movies
+
+- [ ] Show the number of words in my review
+- [ ] Make it look prettier
+
+### Inspiration
+
+https://howisfelix.today/?
