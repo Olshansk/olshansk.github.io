@@ -47,8 +47,8 @@ def create_md_file(
             print("ERROR:", title, e, rating)
 
 
-tag = "movie"
 # Read JSON data
+tag = "movie"  # replace with `tv` if needed
 with open(f"{tag}.json") as f:
     data = json.load(f)
 
