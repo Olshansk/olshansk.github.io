@@ -1,7 +1,7 @@
 +++
 author = "Daniel Olshansky"
 title = "Human Resources: Season 2"
-date = "2023-07-05:00:00.000000"
+date = "2023-07-06:00:00.000000"
 description = "Olshansky's review of Human Resources: Season 2"
 tags = [
     "tv",
