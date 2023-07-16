@@ -35,7 +35,7 @@ style = "github-dark"
   colorScheme = "dark"
   hideColorSchemeToggle = false
 
-  # customCSS = []
+  customCSS = ["css/brands.min.css", "css/fontawesome.min.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
@@ -91,6 +91,11 @@ style = "github-dark"
   icon = "fa fa-strava fa-2x"
   weight = 1
   url = "https://www.strava.com/athletes/65389405"
+
+
+# Instagrram - https://www.instagram.com/olshansk/
+# Telegram - https://t.me/dolshansky
+# RSS - https://olshansky.info/index.xml
 
 # Menu links
 
