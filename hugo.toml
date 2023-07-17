@@ -88,14 +88,21 @@ style = "github-dark"
 # TODO: Need to update css to fix this
 [[params.social]]
   name = "Strava"
-  icon = "fa fa-strava fa-2x"
+  icon = "fab fa-strava fa-2x"
   weight = 1
   url = "https://www.strava.com/athletes/65389405"
 
+[[params.social]]
+  name = "Telegram"
+  icon = "fa fa-telegram fa-2x"
+  weight = 1
+  url = "https://t.me/dolshansky"
 
-# Instagrram - https://www.instagram.com/olshansk/
-# Telegram - https://t.me/dolshansky
-# RSS - https://olshansky.info/index.xml
+[[params.social]]
+  name = "RSS"
+  icon = "fa fa-rss fa-2x"
+  weight = 1
+  url = "https://olshansky.info/index.xml"
 
 # Menu links
 
@@ -128,7 +135,6 @@ style = "github-dark"
   name = "TV"
   weight = 4
   url = "tv/"
-
 
 [[menu.main]]
   name = "Podcasts"
