@@ -22,6 +22,8 @@ Rating: ⭐⭐⭐⭐⭐
 - [Mindset](#mindset)
 - [Follow Ups](#follow-ups)
 
+[📚 GoodReads Info 📚](https://www.goodreads.com/en/book/show/857333)
+
 ## General
 
 Eye-opening and insightful, this book has profoundly changed how I view learning. Although I felt that I had the seeds and inklings of what Josh presented, his decades of experience will help guide my own approach to learning. His experience and views hit home at the right time, with the right words, and with the right framing for what I personally needed.
@@ -82,9 +84,7 @@ The mind is not any different. If we get into a "comfortable spot" in our learni
 
 Josh delves into a deep discussion about the practice of meditation and how he learned to release all tension in his body. His Tai chi classes, though physical in nature, were lessons in awareness. Blurring the line between physical and mental introspection enabled him to manage whatever life threw at him and control his mindset.
 
-There were also a few other insightful takeaways:
-
-- You have to be able to do something slowly in order to do it with speed.
+One other insightful takeaway I had was: **You have to be able to do something slowly in order to do it with speed**.
 
 ## Fear as a Master
 
@@ -110,4 +110,4 @@ Josh emphasized the importance of mental resilience and the art of becoming comf
 
 ---
 
-[📚 GoodReads Info 📚](https://www.goodreads.com/en/book/show/857333)
+This is my first book review on [olshansky.info](https://olshansky.info). You can find my previews reviews on [GoodReads](https://www.goodreads.com/user/show/19157738-daniel-olshansky). While I do not include book reviews as part of my [blog](https://olshansky.substack.com/), you can always subscribe to my [RSS feed](https://olshansky.info/index.xml).

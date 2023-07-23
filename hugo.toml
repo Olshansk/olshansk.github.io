@@ -124,7 +124,7 @@ style = "github-dark"
 [[menu.main]]
   name = "Books"
   weight = 2
-  url = "https://www.goodreads.com/user/show/19157738-daniel-olshansky"
+  url = "book/"
 
 [[menu.main]]
   name = "Movies"
@@ -136,10 +136,11 @@ style = "github-dark"
   weight = 4
   url = "tv/"
 
+# TODO: Figure out why my namecheap URL redirect at podcasts.olshansky.info isn't working
 [[menu.main]]
   name = "Podcasts"
   weight = 5
-  url = "https://www.notion.so/olshansky/768504560fd54cdaa7e24b6c3f31a21e?v=bca5b6cd248c471eb231c8f6fee54102&pvs=4"
+  url = "https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e"
 
 [[menu.main]]
   name = "Presentations"
