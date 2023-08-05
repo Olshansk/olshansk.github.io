@@ -30,10 +30,10 @@ I saw the "Barbie" movie and it's a solid 10/10. Far from bland or generic, it s
 ![26 - Getting a Ryan Gosling mug as a birthday present](/images/barbie_26.png)
 
 28 - Getting a Ryan Gosling poster as a birthday present:
-![28 - Getting a Ryan Gosling poster as a birthday present](/images/barbie_28.png)
+![28 - Getting a Ryan Gosling poster as a birthday present](/images/barbie_28.jpg)
 
 31 - Watching Ryan Gosling on the big screen:
-![31 - Watching Ryan Gosling on the big screen](/images/barbie_31.png)
+![31 - Watching Ryan Gosling on the big screen](/images/barbie_31.jpg)
 
 Still Rocking The Mug:
 ![Still Rocking The Mug](/images/barbie_mug.jpg)
