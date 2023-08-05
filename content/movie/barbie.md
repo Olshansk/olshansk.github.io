@@ -27,15 +27,15 @@ I saw the "Barbie" movie and it's a solid 10/10. Far from bland or generic, it s
 **On Ryan Gosling** - Who doesn't love Ryan Gosling?
 
 26 - Getting a Ryan Gosling mug as a birthday present:
-![26 - Getting a Ryan Gosling mug as a birthday present](https://github.com/Olshansk/olshansk.github.io/assets/1892194/664a7f1a-8dc8-46a4-88a4-bda8bd7a9d41)
+![26 - Getting a Ryan Gosling mug as a birthday present](/images/barbie_26.png)
 
 28 - Getting a Ryan Gosling poster as a birthday present:
-![28 - Getting a Ryan Gosling poster as a birthday present](https://github.com/Olshansk/olshansk.github.io/assets/1892194/bab5feb9-f8f2-4ddb-bed2-34b1bc5c3b0c)
+![28 - Getting a Ryan Gosling poster as a birthday present](/images/barbie_28.png)
 
 31 - Watching Ryan Gosling on the big screen:
-![31 - Watching Ryan Gosling on the big screen](https://github.com/Olshansk/olshansk.github.io/assets/1892194/bf8b9cb1-4eee-4b03-8c3d-c7e97d7af454)
+![31 - Watching Ryan Gosling on the big screen](/images/barbie_31.png)
 
 Still Rocking The Mug:
-![Still Rocking The Mug](https://github.com/Olshansk/olshansk.github.io/assets/1892194/95d5b5af-d091-40d1-95e8-8d96a80273ec)
+![Still Rocking The Mug](/images/barbie_mug.jpg)
 
 [🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/barbie)
