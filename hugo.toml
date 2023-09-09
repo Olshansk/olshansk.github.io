@@ -8,6 +8,7 @@ paginate = 20
 
 disqusShortname = "olshansky"
 
+# https://analytics.google.com/analytics/web
 googleAnalytics = 'G-15DW3DE66X'
 
 [markup.highlight]
