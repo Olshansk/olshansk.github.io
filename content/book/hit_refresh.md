@@ -39,7 +39,7 @@ Regardless, after more than 10 Ballmer years of the company, and its stock doing
 
 Satya joined Microsoft in 1992 (the year I was born). Though he started as an IC, it was small enough that he has personally known Bill Gates since the late 90s.
 
-One of my favorite moments was when he flew back to India and gave up his green card so his wife could come and live with him in the US as the spouse of an H1B visa holder. This was a very humbling moment that showed that his family is his first priority.
+One of my favorite moments was when he flew back to India and gave up his green card so his wife could come and live with him in the US as the spouse of an H1B visa holder. This was a very humbling moment showing that his family is his first priority.
 
 Also, as someone who gains fulfillment & joy out of their career, but also wants to build a family, this book shows that having both at the same time is possible. The important thing is that empathy is required in both families: work family and personal family. More importantly, it is impossible without a supportive partner.
 
@@ -47,11 +47,11 @@ Also, as someone who gains fulfillment & joy out of their career, but also wants
 
 Ballmer appointed Satya to lead Bing in the midst of his career at Microsoft. This was the first real test of his leadership skills. Taking on Google, wading through problems, leading large teams and building a product that people love. Ultimately, it's his success with Bing that made him a candidate to lead the whole company.
 
-There's not too much to write up here, but it was fascinating to learn about how he applied his distributed systems knowledge to the test. He had to scale experimantion, applied ML, discerning intent vs content, and went into a lot of detail around auction based pricing and two sided markets. You should read the book if you want to learn more ;)
+There's not too much to write up here, but it was fascinating to learn about how he applied his distributed systems knowledge to the test. He had to scale experimentation, innovate on applied ML, discern intent vs content, and went into a lot of detail around auction based pricing and two sided markets. You should read the book if you want to learn more ;)
 
 ## Favorite Moments
 
-I remember really enjoying "The Interview" with Seth Rogan and James Franco when it first came out. I was in high school and it was a hilarious movie. I didn't realize that it was a political statement against North Korea. I also didn't the extent to which Microsoft went to release it on xbox, and the risks (technical, political, etc) it took to make a statement related to free speech. This whole section in the book was fun to read and also added to my already very high respect for Satya.
+I remember really enjoying "The Interview" with Seth Rogan and James Franco when it first came out. I was in high school and it was a hilarious movie. I didn't realize that it was a political statement against North Korea. I also didn't know the extent to which Microsoft went to release it on xbox, and the risks (technical, political, etc) it took to make a statement related to free speech. This whole section in the book was fun to read and also added to my already very high respect for Satya.
 
 ## Qualities of a leader
 
@@ -61,13 +61,13 @@ A leader must adapt to new opportunities:
 
 > “ A leader must see the external opportunities and the internal capability and culture—and all of the connections among them—and respond to them before they become obvious parts of the conventional wisdom”
 
-A leader must be empathic, which requires going out and talking to people. They must empower and motivate their team by defining and reinforcing a set of core principles. For Microsoft, they are: mission, ambition, culture.
+A leader must be empathic, which requires going out and talking to people. They must empower and motivate their team by defining and reinforcing a set of core principles. **For Microsoft, they are: mission, ambition, culture**.
 
-WHen taking on new projects or tasks, there needs to be a framework for deciding if it's worthwhile. For Microsoft, it's the three Cs: culture, concept, capabilities:
+WHen taking on new projects or tasks, there needs to be a framework for deciding if it's worthwhile. **For Microsoft, it's the three Cs: culture, concept, capabilities**:
 
 > “Do we have an exciting concept, do we have the capabilities necessary to succeed, and a culture that welcomes these new ideas and approaches?”
 
-But to really succeed, one must be able to unlearn old habits in addition to learning new skills:
+But to really succeed, one must be able to **unlearn old habits in addition to learning new skills**:
 
 > “I realized that in a successful company it is as important to unlearn some old habits as it is to learn new skills.”
 
@@ -83,28 +83,25 @@ He also speaks about the importance of trust and shared context:
 
 ## Artificial Intelligence
 
-In 2023, talking about AI alignment and AGI is pretty mainstream. Satya was very adamnt that this was the not too distant future when he wrote the book back in 2016/2017. There was a whole chapter dedicated to discussing what everyone talks about now, but it was very much under the radar and under appreciated at the time. It made me realize that the $10B investment Microsoft made into OpenAI wasn't a spur of the moment decision, but rather a long term strategy that was in the works for a while. My favorite quote from Satya on this topic is:
+In 2023, talking about AI alignment and AGI is pretty mainstream. Satya was very adamant that this was the not too distant future when he wrote the book back in 2016/2017. There was a whole chapter dedicated to discussing what everyone talks about now, but it was very much under the radar and under appreciated at the time. It made me realize that the $10B investment Microsoft made into OpenAI wasn't a spur of the moment decision, but rather a long term strategy that was in the works for a while. My favorite quote from Satya on this topic is:
 
 > “AI will fail if it can’t complement its IQ with EQ.”
 
-`He who does not know foreign languages does not know anything about his own.`. Full excerpt:
+Another great quote from the context of LLMs and transfer learning is: `he who does not know foreign languages does not know anything about his own.`. Full excerpt:
 
 > “Peter Lee is another gifted AI researcher and thinker at Microsoft. In a meeting one morning in his office, Peter reflected on something the journalist Geoffrey Willans once said. “You can never understand one language until you understand at least two.” Goethe went further. “He who does not know foreign languages does not know anything about his own.” Learning or improvement in one skill or mental function can positively influence another one. The effect is transfer learning, and it’s seen not only in human intelligence but also machine intelligence. Our team, for example, found that if we trained a computer to speak English, learning Spanish or another language became faster.”
 
 ## Taking the Lead
 
-Satya knew he was taking on a difficult task at becoming CEO of Microsoft and turning it around. He knew everyone was burnt out on lack of innovation, and he knew, first hand, that the core of it's soul was absent. He got Bill Gates a little more involved, to create motivation, and he focused on the three areas that he thought would catch the next innovation: AI, MR, Quantum. This was having seen how Microsoft had failed at mobile...
+Satya knew he was taking on a difficult task at becoming CEO of Microsoft and turning it around. He knew everyone was burnt out on lack of innovation, and he knew, first hand, that the core of it's soul was absent. He got Bill Gates a little more involved, to create motivation, and he focused on the **three areas that he thought would catch the next innovation: AI, MR, Quantum**. This was having seen how Microsoft had failed at mobile...
 
 ## Partnership vs Acquisition?
 
-- partnerships with competitots afe only worth it if were providing value to the customer ; apple and office, facebook and minecraft, redhat and dtata centers
-- success can cause people to unlearn the habbits that got them therw - parynerships for mirosofot
-- pertnership vs aqcuosition: gow to provide more value?
-- Supported the acquisition of minecraft
+On the topic of partnerships and acquisitions, Satya was discerning, advocating for collaborations with competitors only if they enhanced customer value; a directive seen in alliances with Apple and Office, Facebook and Minecraft, and RedHat in data centers. He also recognized that success could sometimes foster a neglect for the foundational habits that spurred initial growth. The continuous strategy was to balance partnerships and acquisitions adeptly to maximize value, a principle highlighted in Satya's backing of the Minecraft acquisition.
 
 ## Values & Trust
 
-The definition of trust is: consistency over time. It's how the phrase that `trust is built over decades and lost in an instant` comes from. Products come and go, but trust in a brand and its values are timeless. Satya says it's what separates humans from caveman.
+**The definition of trust is: consistency over time**. It's how the phrase that `trust is built over decades and lost in an instant` comes from. Products come and go, but trust in a brand and its values are timeless. Satya says it's what separates humans from caveman.
 
 > “Fourth, we in the technology industry need to design for transparency. In recent years, technology companies have secured the right to publish aggregate data about the number and types of requests they receive for digital evidence. Governments should ensure that their laws protect this type of transparency by technology companies. Furthermore, governments should also allow companies, except in highly limited cases, to notify users when their information is sought by a government.”
 
