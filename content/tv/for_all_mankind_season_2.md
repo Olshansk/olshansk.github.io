@@ -1,7 +1,7 @@
 +++
 author = "Daniel Olshansky"
 title = "For All Mankind: Season 2"
-date = "2023-12-19:18:01"
+date = "2023-12-19T01:18:01"
 description = "Olshansky's review of For All Mankind: Season 2"
 tags = [
     "tv",

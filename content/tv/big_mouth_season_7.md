@@ -1,7 +1,7 @@
 +++
 author = "Daniel Olshansky"
 title = "Big Mouth: Season 7"
-date = "2023-11-04:16:21"
+date = "2023-11-04T01:16:21"
 description = "Olshansky's review of Big Mouth: Season 7"
 tags = [
     "tv",

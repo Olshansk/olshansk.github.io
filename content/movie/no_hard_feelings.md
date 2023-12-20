@@ -1,7 +1,7 @@
 +++
 author = "Daniel Olshansky"
 title = "No Hard Feelings"
-date = "2023-11-05:16:21"
+date = "2023-11-05T01:16:21"
 description = "Olshansky's review of No Hard Feelings"
 tags = [
     "movie",
