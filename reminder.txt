@@ -1,0 +1,10 @@
+mediumexporter https://olshansky.medium.com/ethereum-is-to-bitcoin-as-the-us-is-to-gold-b35131565392 >>ethereum_is_to_bitcoin_as_the_us_is_to_gold.md
+mediumexporter https://olshansky.medium.com/cryptocurrencies-its-all-about-incentive-77ac47a6adc4 >>cryptocurrencies_its_all_about_incentive.md
+mediumexporter https://olshansky.medium.com/bitcoins-price-isn-t-a-bubble-it-s-an-adoption-curve-f52695df2b01 >>bitcoins_price_isn_t_a_bubble_it_s_an_adoption_curve.md
+mediumexporter https://olshansky.medium.com/monetizing-user-data-on-the-blockchain-3584351a752e >>monetizing_user_data_on_the_blockchain.md
+mediumexporter https://olshansky.medium.com/testiex-easier-test-driven-development-in-elixir-761cd1a9f11b >>testiex_easier_test_driven_development_in_elixir.md
+mediumexporter https://medium.com/analytics-vidhya/python-3-9-statsprofile-my-first-oss-contribution-to-cpython-9dd6847eb802 >>python_3_9_statsprofile_my_first_oss_contribution_to_cpython.md
+mediumexporter https://medium.com/analytics-vidhya/data-science-for-software-engineers-joint-probability-matrices-f4fcb94d1483 >>data_science_for_software_engineers_joint_probability_matrices.md
+mediumexporter https://olshansky.medium.com/hot-reloading-with-local-docker-development-1ec5dbaa4a65 >>hot_reloading_with_local_docker_development.md
+mediumexporter https://olshansky.medium.com/would-you-buy-the-whole-company-for-1-100-1mm-1b-why-price-matters-8a085155ec14 >>would_you_buy_the_whole_company_for_1_100_1mm_1b_why_price_matters.md
+mediumexporter https://olshansky.medium.com/at-t-my-saving-account-3eb035299098 >>at_t_my_saving_account.md
