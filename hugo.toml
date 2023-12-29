@@ -16,7 +16,7 @@ style = "github-dark"
 
 [params]
   author = "Daniel Olshansky"
-  info = "Figuring out what I want to do instead of what I want want to want to do"
+  info = "Figuring out what I want to do instead of what I  want to want to do"
   description = "Everything about Olshansky"
   keywords = "blog,developer,personal"
   avatarURL = "/images/charicature.jpeg"
