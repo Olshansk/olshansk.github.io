@@ -16,7 +16,7 @@ style = "github-dark"
 
 [params]
   author = "Daniel Olshansky"
-  info = "Figuring out what I want to do instead of what I want want to want to do"
+  info = "Figuring out what I want to do instead of what I  want to want to do"
   description = "Everything about Olshansky"
   keywords = "blog,developer,personal"
   avatarURL = "/images/charicature.jpeg"
@@ -122,36 +122,37 @@ style = "github-dark"
 #   weight = 1
 #   url  = "posts/"
 
-[[menu.main]]
-  name = "Books"
-  weight = 2
-  url = "book/"
-
-[[menu.main]]
-  name = "Movies"
-  weight = 3
-  url = "movie/"
-
-[[menu.main]]
-  name = "TV"
-  weight = 4
-  url = "tv/"
-
-# TODO: Figure out why my namecheap URL redirect at podcasts.olshansky.info isn't working
-[[menu.main]]
-  name = "Podcasts"
-  weight = 5
-  url = "https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e"
 
 [[menu.main]]
   name = "Presentations"
-  weight = 6
+  weight = 1
   url = "https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E"
 
 [[menu.main]]
   name = "Publications"
-  weight = 7
+  weight = 2
   url = "https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en&oi=sra"
+
+[[menu.main]]
+  name = "Book Reviews"
+  weight = 3
+  url = "book/"
+
+[[menu.main]]
+  name = "Movie Reviews"
+  weight = 4
+  url = "movie/"
+
+[[menu.main]]
+  name = "Show Reviews"
+  weight = 5
+  url = "tv/"
+
+# TODO: Figure out why my namecheap URL redirect at podcasts.olshansky.info isn't working
+[[menu.main]]
+  name = "Podcast List"
+  weight = 6
+  url = "https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e"
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
