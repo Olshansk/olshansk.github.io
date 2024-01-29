@@ -10,13 +10,22 @@ tags = [
 
 Rating: ⭐⭐⭐⭐⭐
 
+- [Food Myths](#food-myths)
+- [The secret intgredient](#the-secret-intgredient)
 - [Summary](#summary)
 - [Chapter 17](#chapter-17)
+- [1.0 vs 2.0 vs 3.0](#10-vs-20-vs-30)
 - [Diet](#diet)
 - [Training](#training)
+- [Memorable Phrases](#memorable-phrases)
 - [History](#history)
 - [Quotes](#quotes)
 - [Memorable Moments](#memorable-moments)
+- [Chapter 1 – Opening Credits / 00:00](#chapter-1--opening-credits--0000)
+- [Chapter 1 – Opening Credits / 00:02](#chapter-1--opening-credits--0002)
+- [Chapter 13 – Part II: Chapter 8: The Runaway Cell: New Ways to Address the Killer That Is Cancer / 57:29](#chapter-13--part-ii-chapter-8-the-runaway-cell-new-ways-to-address-the-killer-that-is-cancer--5729)
+- [Chapter 14 – Part II: Chapter 9: Chasing Memory: Understanding Alzheimer's Disease and Other Neurodegenerative Diseases / 53:45](#chapter-14--part-ii-chapter-9-chasing-memory-understanding-alzheimers-disease-and-other-neurodegenerative-diseases--5345)
+- [Chapter 21 – Part III: Chapter 16: The Awakening: How to Learn to Love Sleep, the Best Medicine for Your Brain / 42:09](#chapter-21--part-iii-chapter-16-the-awakening-how-to-learn-to-love-sleep-the-best-medicine-for-your-brain--4209)
 
 [📚 GoodReads Info 📚](https://www.goodreads.com/book/show/30835567-hit-refresh)
 
@@ -25,155 +34,70 @@ Rating: ⭐⭐⭐⭐⭐
 - Epiloguqe: hearing what/how he talks about the effort into this is crazy
 - Eating protein
 - Being crazy and mad at his family
--
+- longevity != healthspan
+- proactive medicine instead of preventive medicine
+- Use the words "not skinny" a lot
+- Left medical residency at john hopkins to work at mckinsey
+- argues that cognitive and ohysical decline is avoidable
+
+## Food Myths
+
+- hoe much you eat is more important than what you eat
+- Exercise is more importan than diet
+- longevity is reslly hard to track - no concrete trials
+- good wxperimenta in biology only increase or decrease probability of confidence
+
+## The secret intgredient
+
+- rapamycin is a universal anti-aging drug
+- limiting caloric intake is the biggest secret
+- autophogy - cellular recycling
+- autophpy decreases with age - exercise, fasting and rapimysen is what prokotes it
+- rapimysene makes things better rather than only delay deckine
 
 ## Summary
 
 ## Chapter 17
 
+## 1.0 vs 2.0 vs 3.0
+
+Web 1 vs Web2 vs Web3
+Medicine 1 vs Medicine 2 vs Medicine 3
+
+- Preventive medicine vs proactive medicine
+
 ## Diet
 
 ## Training
 
+## Memorable Phrases
+
+- "Dying fast & slow" really reminded me of "Thinking fast & slow"
+- The comparison of texting and driving to base jumping
+-
+
 ## History
 
 ## Quotes
+
+> “I think people get old when they stop thinking about the future,” Ric told me. “If you want to find someone’s true age, listen to them. If they talk about the past and they talk about all the things that happened that they did, they’ve gotten old. If they think about their dreams, their aspirations, what they’re still looking forward to—they’re young.”
+
+
+> “To achieve our objectives, we first need to have a strategy: an overall approach, a conceptual scaffolding or mental model that is informed by science, is tailored to our goals, and gives us options. Our specific tactics flow from our strategy, and the strategy derives from our objective. We know what the objective is by now, but the strategy is the key to victory.”
+
+> “Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before defeat.
+> —SUN TZU”
+
+> “Everyone has a plan until they get punched in the mouth.”
+> Advice George Foreman could have used.”
+
+> “We’re trying to attack heart disease, cancer, stroke, and Alzheimer’s one disease at a time, as if somehow these diseases are all unrelated to each other,” says S. Jay Olshansky, who studies the demography of aging at the University of Illinois–Chicago, “when in fact the underlying risk factor for almost everything that goes wrong with us as we grow older, both in terms of diseases we experience, and of the frailty and disability associated“with it, is related to the underlying biological process of aging.”
 
 ## Memorable Moments
 
 ## Chapter 1 – Opening Credits / 00:00
 
 ## Chapter 1 – Opening Credits / 00:02
-
-Chapter 6 – Part I: Chapter 1: The Long Game: From Fast Death to Slow Death / 03:18
-Note: thinking fast and slow: dying fast and slow
-
----
-
-Chapter 6 – Part I: Chapter 1: The Long Game: From Fast Death to Slow Death / 08:58
-Note: compares texting and driving to base jumping
-
----
-
-Chapter 6 – Part I: Chapter 1: The Long Game: From Fast Death to Slow Death / 09:10
-Note: longevity is not healthspan
-
----
-
-Chapter 6 – Part I: Chapter 1: The Long Game: From Fast Death to Slow Death / 31:25
-Note: proactive medicine instead of preventive medicine
-
----
-
-Chapter 7 – Part I: Chapter 2: Medicine 3.0: Rethinking Medicine for the Age of Chronic Disease / 05:12
-Note: not skinny
-
----
-
-Chapter 7 – Part I: Chapter 2: Medicine 3.0: Rethinking Medicine for the Age of Chronic Disease / 05:13
-Note: left reaidency at joun hopkins to go eork at mckznie
-
----
-
-Chapter 7 – Part I: Chapter 2: Medicine 3.0: Rethinking Medicine for the Age of Chronic Disease / 19:56
-Note: medicine 1.0 v 2.0 is fascinating
-
----
-
-Chapter 7 – Part I: Chapter 2: Medicine 3.0: Rethinking Medicine for the Age of Chronic Disease / 29:19
-Note: medcicune 3.0 is a lot more about orevention than treatment
-
----
-
-Chapter 7 – Part I: Chapter 2: Medicine 3.0: Rethinking Medicine for the Age of Chronic Disease / 37:21
-Note: the spending in the wolrd would be phenomenal
-
----
-
-Chapter 8 – Part I: Chapter 3: Objective, Strategy, Tactics: A Road Map for Reading This Book / 11:02
-Note: tactics eithout strategy is the noise before defwat - thats what this book is about. searxh for "mental model" in the book
-
----
-
-Chapter 8 – Part I: Chapter 3: Objective, Strategy, Tactics: A Road Map for Reading This Book / 18:46
-Note: tactics without strategy goes jowhere
-
----
-
-Chapter 8 – Part I: Chapter 3: Objective, Strategy, Tactics: A Road Map for Reading This Book / 27:28
-Note: argues that cognitive and ohysical decline is avoidable
-
----
-
-Chapter 8 – Part I: Chapter 3: Objective, Strategy, Tactics: A Road Map for Reading This Book / 29:40
-Note: wxercise is more
-
----
-
-Chapter 8 – Part I: Chapter 3: Objective, Strategy, Tactics: A Road Map for Reading This Book / 29:45
-Note: exercise is more important than diet if you had to order them
-
----
-
-Chapter 8 – Part I: Chapter 3: Objective, Strategy, Tactics: A Road Map for Reading This Book / 31:31
-Note: hoe much you eat is more important than what you eat
-
----
-
-Chapter 8 – Part I: Chapter 3: Objective, Strategy, Tactics: A Road Map for Reading This Book / 36:08
-Note: longevity is reslly hard to track - no concrete trials
-
----
-
-Chapter 8 – Part I: Chapter 3: Objective, Strategy, Tactics: A Road Map for Reading This Book / 41:00
-Note: mendalian randomization
-
----
-
-Chapter 8 – Part I: Chapter 3: Objective, Strategy, Tactics: A Road Map for Reading This Book / 44:48
-Note: good wxperimenta in biology only increase or decrease probability of confidence
-
----
-
-Chapter 9 – Part II: Chapter 4: Centenarians: The Older You Get, the Healthier You Have Been / 00:36
-Note: everyone has a plan until they get punched in the face
-
----
-
-Chapter 9 – Part II: Chapter 4: Centenarians: The Older You Get, the Healthier You Have Been / 15:29
-Note: the older yoi get, the healthier you have been
-
----
-
-Chapter 9 – Part II: Chapter 4: Centenarians: The Older You Get, the Healthier You Have Been / 31:24
-Note: delay onset - says jay olshansky
-
----
-
-Chapter 10 – Part II: Chapter 5: Eat Less, Live Longer: The Science of Hunger and Health / 16:01
-Note: rapidmysene os what extends lifespan
-
----
-
-Chapter 10 – Part II: Chapter 5: Eat Less, Live Longer: The Science of Hunger and Health / 20:25
-Note: limiting caloric intake is the biggest secret
-
----
-
-Chapter 10 – Part II: Chapter 5: Eat Less, Live Longer: The Science of Hunger and Health / 25:37
-Note: autophogy - cellular recycling
-
----
-
-Chapter 10 – Part II: Chapter 5: Eat Less, Live Longer: The Science of Hunger and Health / 27:49
-Note: autophpy decreases with age - exercise, fasting and rapimysen is what prokotes it
-
----
-
-Chapter 10 – Part II: Chapter 5: Eat Less, Live Longer: The Science of Hunger and Health / 33:28
-Note: rapimysene makes things better rather than only delay deckine
-
----
 
 Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 09:47
 Note: hyper likidia causes the same liver as heavy drinking
@@ -537,27 +461,10 @@ Note: dearch for "attachment disorders" and reflect on thise plints
 ---
 
 Chapter 22 – Part III: Chapter 17: Work in Progress: The High Price of Ignoring Emotional Health / 37:17
-Note: anger frustrating or madcarading as frustration
-
----
-
-Chapter 22 – Part III: Chapter 17: Work in Progress: The High Price of Ignoring Emotional Health / 45:25
-Note: eulogy voetues vs tesume virtues
-
----
-
-Chapter 22 – Part III: Chapter 17: Work in Progress: The High Price of Ignoring Emotional Health / 46:16
-Note: need to be great in order to not be worthless. chapyer 17 really hit hard
-
----
-
-Chapter 22 – Part III: Chapter 17: Work in Progress: The High Price of Ignoring Emotional Health / 47:57
-Note: paul kanty, david goggins and petter attia on chaoter 17
-
----
-
-Chapter 23 – Epilogue / 05:00
-Note: people grt old when they stop talking the duture and talk more about rhe past
+- anger frustrating or madcarading as frustration
+- eulogy voetues vs tesume virtues
+- need to be great in order to not be worthless. chapyer 17 really hit hard
+- paul kanty, david goggins and petter attia on chaoter 17
 
 ---
 
