@@ -10,248 +10,170 @@ tags = [
 
 Rating: ⭐⭐⭐⭐⭐
 
-- [Food Myths](#food-myths)
-- [The secret intgredient](#the-secret-intgredient)
-- [Summary](#summary)
-- [Chapter 17](#chapter-17)
-- [1.0 vs 2.0 vs 3.0](#10-vs-20-vs-30)
-- [Diet](#diet)
-- [Training](#training)
-- [Memorable Phrases](#memorable-phrases)
-- [History](#history)
-- [Quotes](#quotes)
-- [Memorable Moments](#memorable-moments)
-- [Chapter 1 – Opening Credits / 00:00](#chapter-1--opening-credits--0000)
-- [Chapter 1 – Opening Credits / 00:02](#chapter-1--opening-credits--0002)
-- [Chapter 13 – Part II: Chapter 8: The Runaway Cell: New Ways to Address the Killer That Is Cancer / 57:29](#chapter-13--part-ii-chapter-8-the-runaway-cell-new-ways-to-address-the-killer-that-is-cancer--5729)
-- [Chapter 14 – Part II: Chapter 9: Chasing Memory: Understanding Alzheimer's Disease and Other Neurodegenerative Diseases / 53:45](#chapter-14--part-ii-chapter-9-chasing-memory-understanding-alzheimers-disease-and-other-neurodegenerative-diseases--5345)
-- [Chapter 21 – Part III: Chapter 16: The Awakening: How to Learn to Love Sleep, the Best Medicine for Your Brain / 42:09](#chapter-21--part-iii-chapter-16-the-awakening-how-to-learn-to-love-sleep-the-best-medicine-for-your-brain--4209)
+- [TODO](#todo)
 
 [📚 GoodReads Info 📚](https://www.goodreads.com/book/show/30835567-hit-refresh)
 
-- Overall: the best
-- Chapter 17: very impactful on me
-- Epiloguqe: hearing what/how he talks about the effort into this is crazy
-- Eating protein
-- Being crazy and mad at his family
-- longevity != healthspan
-- proactive medicine instead of preventive medicine
-- Use the words "not skinny" a lot
-- Left medical residency at john hopkins to work at mckinsey
-- argues that cognitive and ohysical decline is avoidable
+Please note that like my other book reviews, they're very "stream of consciousness"
+and as well crafted as my blog posts.
 
-## Food Myths
+## tl;dr
 
-- hoe much you eat is more important than what you eat
-- Exercise is more importan than diet
-- longevity is reslly hard to track - no concrete trials
-- good wxperimenta in biology only increase or decrease probability of confidence
+I plan to use this book as `the one thing they should read if they'll only read
+one thing` related to everything along the lines of diet, exercised, lifespan,
+healthspan, longevity, etc. This is the key to proactive medicine, not just
+preventative medicine.
 
-## The secret intgredient
+It's Peter's life work. It covers experience, theory, research, history and is
+nuanced just enough that it manages to give actionable advice without being
+"religious" about any one particular approach. It is also the best book I've
+come across that genuinely helps build intuition around all these concepts that
+otherwise only comes with years of experience.
 
-- rapamycin is a universal anti-aging drug
-- limiting caloric intake is the biggest secret
-- autophogy - cellular recycling
-- autophpy decreases with age - exercise, fasting and rapimysen is what prokotes it
-- rapimysene makes things better rather than only delay deckine
+As someone who has been exercising their whole life, and have been following
+the work of the likes of Andrew Huberman, Matthew Walker, Tim Ferris and others,
+I still learnt a lot of new things this book and reinforced.
 
-## Summary
+Lastly, Chapter 17 is the most impactful chapter I've read in a long time. I plan
+to periodically re-listen to just that one, because it really hit home on how
+I've been thinking about my life up to this point.
 
-## Chapter 17
+## Introduction
 
-## 1.0 vs 2.0 vs 3.0
+tl;dr Longevity != Healthspan
 
-Web 1 vs Web2 vs Web3
-Medicine 1 vs Medicine 2 vs Medicine 3
+Hearing the amount of effort he put into this book is crazy. I could almost
+feel the blood and tears he put into the book at various points in time.
 
-- Preventive medicine vs proactive medicine
+The pain, physical, emotional and mental he went through deeply affected both
+him and his family. The prologue and epilogue attest to this extensively. Part
+of healthspan is being happy, emotionally, so even if you live a long and healthy
+(physically) life, one could still argue that the healthspan is short.
 
-## Diet
+As someone who has some "body image issues", hearing "not skinny" so many times
+really did get to me. I'm currently in my "not skinny" phase, and I know it's
+just a mindset shift to get out of it, since I know what to do, but I feel like
+all of my willpower is spent in other parts of life right now.
 
-## Training
+One of the concepts he also drives home is how a nutrition plan should be treated
+as an investment plan. My personal approach to investing is an ability to sleep
+at night. I'm not comfortable investing in the S&P500 because I don't like more
+than 450 of the companies in it. I also don't like the idea of investing 99% of
+my net worth in Bitcoin. There is no right answer to this. It is too individual
 
-## Memorable Phrases
+The fact that Peter left John Hopkins medical school to work at McKinsey with just
+a couple of years left show how strongly he believes in proactive medicine, rather
+than how the medical system works today. I am always frustrated when I go and see
+a doctor myself and am glad to see that I'm not the only one.
 
-- "Dying fast & slow" really reminded me of "Thinking fast & slow"
-- The comparison of texting and driving to base jumping
--
+As someone who works in Web3, and frequently things about the differences, I really
+like to look at this book as Medicine 3.0. Medicine 0.0 is traditional and IMO
+has a lot for us to learn from. Medicine 1.0 (think middle ages) really didn't
+know what it was doing. Medicine 2.0 targets symptoms, not causes and profilirated
+in the 1900s. Now we're entering the first stages of Medicine 3.0 and I can't wait!
 
-## History
+## "Myths"
+
+There are so many "food myths" or "exercise myths" on the internet because an
+individual finds something that works for them and then preaches it as religion.
+The few one line takeaways that I really enjoyed from this book were:
+
+- Starting the day with protein is key
+- Cryohydrate restriction reduces appetite
+- How much you eat is more important than what you eat
+- If you have to pick between exercise and diet, pick exercise
+- It's still too early to have longevity biomarkers
+
+## Memorable Phrases & Moments
+
+- `Dying fast & slow` really reminded me of `Thinking fast & slow`
+- Comparing texting & driving to base jumping really caught your attention
+
+## Everything related to fat, glucose, insulin, etc
+
+There were a lot of technical details about fat metabolization that I've forgotten
+since reading this book, but here are a few points & notes that I made throughout.
+
+- Having low Apo B leads to a decreased likelihood in heart disease
+- We can store 1600 calories worth of glycogen, and then we start relying on the body to metabolize fat or muscle
+- Visceral fat is much more important than body fat
+- A person's capability to store fat determines weather its healthy or not
+- Fructose consumption is REALLY bad for fat gain (something to do with uric acid)
+- Diabetes is a greek word / melting down of the flesh
+- There are different types of fats: those that carry proteins & those that carry lipids
+- Insulin is responsible for pumping glucose from the bloodstream across the cell membrane into the cells
+- Lots of people with a normal BMI are in metabolic danger
+
+Apo B
+
+- Lower insulin levels are better for cancer treatment which can be achieved by limiting caloric intake
+- Reducing igf1 and insukin (tegardless ipk3 inhibtator) was the best way to slow down cancer - diet solved things
+- fastong helps healthy cells resist chemo
+- car t cells (genetically modified t cells from patient) sre some of the most successful results from rodenbergs research
+- search for "checkpoint inhibitors" and "immunitherapy"
+
+## TIL - Secret Terms & Ingredients
+
+- Rapamycin is the closest thing we have to a universal anti-aging drug
+  - Rapamycin makes things better rather than only delaying decline
+- Limiting caloric intake is the biggest secret we have found so far for longevity
+- Autophogy is the process of cellular recycling
+  - Autophogy decreases with age
+  - Exercise, fasting and Rapamycin provokes autophogy to restart
+- Elevated insulin is the closest thing we have to a biomaker to look fo
+- Uricase enzyme removal was an evolutionary advantage for humans: helped us survive winters by easily converting food into fat
+  - This is now a disadvantage in the modern world
 
 ## Quotes
 
-> “I think people get old when they stop thinking about the future,” Ric told me. “If you want to find someone’s true age, listen to them. If they talk about the past and they talk about all the things that happened that they did, they’ve gotten old. If they think about their dreams, their aspirations, what they’re still looking forward to—they’re young.”
+_tl;dr Old people talk about the past, young people talk about the future._
 
+> “I think people get old when they stop thinking about the future,” Ric told me.
+> “If you want to find someone’s true age, listen to them. If they talk about the
+> past and they talk about all the things that happened that they did, they’ve gotten old.
+> If they think about their dreams, their aspirations, what they’re still looking forward to—they’re young.”
 
-> “To achieve our objectives, we first need to have a strategy: an overall approach, a conceptual scaffolding or mental model that is informed by science, is tailored to our goals, and gives us options. Our specific tactics flow from our strategy, and the strategy derives from our objective. We know what the objective is by now, but the strategy is the key to victory.”
+_tl;dr We need a health strategy, not just a plan._
 
-> “Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before defeat.
-> —SUN TZU”
+> “To achieve our objectives, we first need to have a strategy: an overall approach,
+> a conceptual scaffolding or mental model that is informed by science, is tailored
+> to our goals, and gives us options. Our specific tactics flow from our strategy,
+> and the strategy derives from our objective. We know what the objective is by now,
+> but the strategy is the key to victory.”
+
+_tl;dr Wise words from Sun Tzu_
+
+> Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before defeat.
+> —Sun Tzu
+
+_tl;dr Be careful what you plan for_
 
 > “Everyone has a plan until they get punched in the mouth.”
 > Advice George Foreman could have used.”
 
-> “We’re trying to attack heart disease, cancer, stroke, and Alzheimer’s one disease at a time, as if somehow these diseases are all unrelated to each other,” says S. Jay Olshansky, who studies the demography of aging at the University of Illinois–Chicago, “when in fact the underlying risk factor for almost everything that goes wrong with us as we grow older, both in terms of diseases we experience, and of the frailty and disability associated“with it, is related to the underlying biological process of aging.”
-
-## Memorable Moments
-
-## Chapter 1 – Opening Credits / 00:00
-
-## Chapter 1 – Opening Credits / 00:02
-
-Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 09:47
-Note: hyper likidia causes the same liver as heavy drinking
-
----
-
-Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 18:07
-Note: lots if people with a normal BMI have metabolic dangera
-
----
-
-Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 18:25
-Note: metabolica risks - not related to BMI
-
----
-
-Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 19:39
-Note: we can store 1600 calories worth of glycigen - think if exercise and glucise homeostatisis
-
----
-
-Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 27:43
-Note: peoples capacott to store fat determines weather its healthy or not
-
----
-
-Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 28:18
-Note: visceral fat is much more important than bidy fat
-
----
-
-Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 30:55
-Note: insulin pukps glucose from the bloodtsream into cells
-
----
-
-Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 34:14
-Note: diabetes is a greek word / melting down of the flesh
-
----
-
-Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 39:25
-Note: fructose consumption is reslly bad for fat gain - something to do with uric acid
-
----
-
-Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 43:44
-Note: uricase enzyme removal was an rvokutionary advantage - no enzyme, convert more easily into fat, survive winters and evolce
-
----
-
-Chapter 11 – Part II: Chapter 6: The Crisis of Abundance: Can Our Ancient Genes Cope with Our Modern Diet? / 52:39
-Note: elevated insluin is the key biomarker to look for
-
----
-
-Chapter 12 – Part II: Chapter 7: The Ticker: Confronting—and Preventing—Heart Disease, the Deadliest Killer on the Planet / 14:16
-Note: the liver is the cholesterol reposotoey
-
----
-
-Chapter 12 – Part II: Chapter 7: The Ticker: Confronting—and Preventing—Heart Disease, the Deadliest Killer on the Planet / 15:28
-Note: typea of fats - one carries proteins and one carries lipids- searxh this up
-
----
-
-Chapter 12 – Part II: Chapter 7: The Ticker: Confronting—and Preventing—Heart Disease, the Deadliest Killer on the Planet / 15:29
-Note: the book feels like a crash course in med school for health
-
----
-
-Chapter 12 – Part II: Chapter 7: The Ticker: Confronting—and Preventing—Heart Disease, the Deadliest Killer on the Planet / 42:29
-Note: need to check ldl and hdl, for cholesterlo even if pressure is good and not smoking. calcium and apeob sre allso bery important biomarkers for trscking cardiovascular disease
-
----
-
-Chapter 12 – Part II: Chapter 7: The Ticker: Confronting—and Preventing—Heart Disease, the Deadliest Killer on the Planet / 58:19
-Note: having low apeob will basically mena no heart disease
-
----
-
-Chapter 13 – Part II: Chapter 8: The Runaway Cell: New Ways to Address the Killer That Is Cancer / 03:33
-Note: strve rosemburg and the search for sponatenous temission
-
----
-
-Chapter 13 – Part II: Chapter 8: The Runaway Cell: New Ways to Address the Killer That Is Cancer / 26:27
-Note: when the double helix was discovered, cancer research teandfered from chemical to decoding the genes. however, it seems that stidying the chemical process might still be more fruitful
-
----
-
-Chapter 13 – Part II: Chapter 8: The Runaway Cell: New Ways to Address the Killer That Is Cancer / 33:16
-Note: lower insulin levels are better for cancer treatmemt; this can be teeated by likiting caloric intake
-
----
-
-Chapter 13 – Part II: Chapter 8: The Runaway Cell: New Ways to Address the Killer That Is Cancer / 37:12
-Note: reduxing igf1 and insukin (tegardless ipk3 inhibtator) was the best way to slow down cancer - diet solved things
-
----
-
-Chapter 13 – Part II: Chapter 8: The Runaway Cell: New Ways to Address the Killer That Is Cancer / 44:07
-Note: fastong helps healthy cells resist chemo
-
----
-
-Chapter 13 – Part II: Chapter 8: The Runaway Cell: New Ways to Address the Killer That Is Cancer / 49:17
-Note: car t cells (genetically modified t cells from patient) sre some of the most successful results from rodenbergs research
-
----
-
-## Chapter 13 – Part II: Chapter 8: The Runaway Cell: New Ways to Address the Killer That Is Cancer / 57:29
-
-Chapter 13 – Part II: Chapter 8: The Runaway Cell: New Ways to Address the Killer That Is Cancer / 57:32
-Note: search for "checkpoint inhibitors" and "immunitherapy"
-
----
-
-Chapter 13 – Part II: Chapter 8: The Runaway Cell: New Ways to Address the Killer That Is Cancer / 01:10:27
-Note: dearch up sensitivity vs specisifity
-
----
-
-Chapter 14 – Part II: Chapter 9: Chasing Memory: Understanding Alzheimer's Disease and Other Neurodegenerative Diseases / 01:39
-Note: apeob and ap little a
-
----
-
-Chapter 14 – Part II: Chapter 9: Chasing Memory: Understanding Alzheimer's Disease and Other Neurodegenerative Diseases / 06:16
-Note: parkinsons and Alzheimer's arw neru degenrative disprders
-
----
-
-Chapter 14 – Part II: Chapter 9: Chasing Memory: Understanding Alzheimer's Disease and Other Neurodegenerative Diseases / 32:39
-Note: alzhekners is you've as common in women as men
-
----
-
-Chapter 14 – Part II: Chapter 9: Chasing Memory: Understanding Alzheimer's Disease and Other Neurodegenerative Diseases / 53:08
-Note: glucose and oxygen is used by the brain. glucose is transported across the fell memberane instea id insulin yo kperare fastet
-
----
-
-## Chapter 14 – Part II: Chapter 9: Chasing Memory: Understanding Alzheimer's Disease and Other Neurodegenerative Diseases / 53:45
-
-Chapter 16 – Part III: Chapter 11: Exercise: The Most Powerful Longevity Drug / 06:25
-Note: search wuotw by myhammed ali sbout the ring
-
----
-
-Chapter 16 – Part III: Chapter 11: Exercise: The Most Powerful Longevity Drug / 06:26
-Note: exercise is the fiest most important thing anyone xan do
-
----
+_tl;dr Reference to an Olshansky!_
+
+> “We’re trying to attack heart disease, cancer, stroke, and Alzheimer’s one disease
+> at a time, as if somehow these diseases are all unrelated to each other,” says S.
+> Jay Olshansky, who studies the demography of aging at the University of Illinois–Chicago,
+> “when in fact the underlying risk factor for almost everything that goes wrong
+> with us as we grow older, both in terms of diseases we experience, and of the
+> frailty and disability associated“with it, is related to the underlying biological
+> process of aging.”
+
+_tl;dr Using socks for travel._
+
+> Back when I used to fly every week, I tried a clever trick that Michael Rintala
+> showed me: put two tennis balls in an athletic sock about four to six inches
+> apart, and position them just about at the level of my kidneys, or where my
+> thoracic spine meets my lumbar spine. Then, with every breath I try to make
+> sure I expand fully enough to feel the tennis balls on both sides. The idea is
+> that it cues your breathing. When I did this, I could get off a five-hour flight
+> and feel as if I had not been sitting for longer than about five minutes. (It also kept my seatmates from talking to me when I was trying to work.) It’s worth trying on a long flight or drive.
+
+## Sleep & Exercise
+
+Note:
 
 Chapter 16 – Part III: Chapter 11: Exercise: The Most Powerful Longevity Drug / 06:40
 Note: people die in car crashea once wveey 12 mimutes and t bones are mowt common cause - do a reddit TIL on this
@@ -291,47 +213,10 @@ Note: lactate production is what defines zone2
 Chapter 17 – Part III: Chapter 12: Training 101: How to Prepare for the Centenarian Decathlon / 19:00
 Note: chromic blood glucose elevation samages prgans
 
----
-
-Chapter 17 – Part III: Chapter 12: Training 101: How to Prepare for the Centenarian Decathlon / 21:01
-Note: exercise enables glucose across cell membrane without insulin
-
----
-
-Chapter 17 – Part III: Chapter 12: Training 101: How to Prepare for the Centenarian Decathlon / 51:42
-Note: we lose strength 2-3x faster than muscle. we los power 2x faster than strength.
-
----
-
-Chapter 17 – Part III: Chapter 12: Training 101: How to Prepare for the Centenarian Decathlon / 51:45
-Note: compare that to muscle mass
-
----
-
-Chapter 17 – Part III: Chapter 12: Training 101: How to Prepare for the Centenarian Decathlon / 01:04:29
-Note: long steady cardio builds a good vo2 base. geip strength is a proxy for muscle which is also reslly important.
-
----
-
-Chapter 18 – Part III: Chapter 13: The Gospel of Stability: Relearning How to Move to Prevent Injury / 28:20
-Note: yogini - prople who are very flexible always fidget, prone to joint injry and are ancioud
-
----
-
-Chapter 18 – Part III: Chapter 13: The Gospel of Stability: Relearning How to Move to Prevent Injury / 28:21
-Note: look for the "yogini" in chapter 13
-
----
-
-Chapter 18 – Part III: Chapter 13: The Gospel of Stability: Relearning How to Move to Prevent Injury / 37:05
-Note: search for wuote in the book about the "sock"
-
----
-
-Chapter 18 – Part III: Chapter 13: The Gospel of Stability: Relearning How to Move to Prevent Injury / 37:17
-Note: the "sock" on a "plane". also look into recommended wxercises for each body type - like the yogini
-
----
+- we lose strength 2-3x faster than muscle. we los power 2x faster than strength.
+- long steady cardio builds a good vo2 base. geip strength is a proxy for muscle which is also reslly important.
+- exercise enables glucose across cell membrane without insulin
+- yogini - prople who are very flexible always fidget, prone to joint injry and are ancioud
 
 Chapter 18 – Part III: Chapter 13: The Gospel of Stability: Relearning How to Move to Prevent Injury / 46:47
 Note: peter is also not a fan of yoga clasdes
@@ -348,127 +233,31 @@ Note: good wuote about cast on broken arm bs good arm
 
 ---
 
-Chapter 19 – Part III: Chapter 14: Nutrition 3.0: You Say Potato, I Say "Nutritional Biochemistry" / 13:04
-Note: look for comments on "feynman" in rhe epub
-
----
-
-Chapter 19 – Part III: Chapter 14: Nutrition 3.0: You Say Potato, I Say "Nutritional Biochemistry" / 13:24
-Note: figuring out your nuteition plan is like your invesmtnt plan.
-
----
-
-Chapter 19 – Part III: Chapter 14: Nutrition 3.0: You Say Potato, I Say "Nutritional Biochemistry" / 13:44
-Note: espand in nutrition vs investinf
-
----
-
 Chapter 19 – Part III: Chapter 14: Nutrition 3.0: You Say Potato, I Say "Nutritional Biochemistry" / 22:20
 Note: majoring in the minor and mijoring in the major
 
 ---
 
-Chapter 20 – Part III: Chapter 15: Putting Nutritional Biochemistry into Practice: How to Find the Right Eating Pattern for You / 08:00
-Note: eating whatever we want - wheneve we want - as kuch as we want. caloric restriction is key
+## Chapter 17 (personal)
 
----
+_The idea of "eulogy virtues" vs "resume virtues" is something I haven't heard before but are words to live by._
 
-Chapter 20 – Part III: Chapter 15: Putting Nutritional Biochemistry into Practice: How to Find the Right Eating Pattern for You / 23:39
-Note: not esting to escess is key
-
----
-
-Chapter 20 – Part III: Chapter 15: Putting Nutritional Biochemistry into Practice: How to Find the Right Eating Pattern for You / 28:18
-Note: carbohydrate restriction teduces appetite
-
----
-
-Chapter 20 – Part III: Chapter 15: Putting Nutritional Biochemistry into Practice: How to Find the Right Eating Pattern for You / 01:00:24
-Note: search for the hawthorn effect
-
----
-
-Chapter 20 – Part III: Chapter 15: Putting Nutritional Biochemistry into Practice: How to Find the Right Eating Pattern for You / 01:03:26
-Note: search for the hawthorn effect about observations
-
----
-
-Chapter 20 – Part III: Chapter 15: Putting Nutritional Biochemistry into Practice: How to Find the Right Eating Pattern for You / 01:03:46
-Note: survive vs thrive
-
----
-
-Chapter 20 – Part III: Chapter 15: Putting Nutritional Biochemistry into Practice: How to Find the Right Eating Pattern for You / 01:27:45
-Note: saturdatee fats are atirated with hydrogen
-
----
-
-Chapter 20 – Part III: Chapter 15: Putting Nutritional Biochemistry into Practice: How to Find the Right Eating Pattern for You / 01:29:16
-Note: search "hinger virtually dissapears"
-
----
-
-Chapter 20 – Part III: Chapter 15: Putting Nutritional Biochemistry into Practice: How to Find the Right Eating Pattern for You / 01:36:11
-Note: napanese word: "kuxhisabishi"
-
----
-
-Chapter 20 – Part III: Chapter 15: Putting Nutritional Biochemistry into Practice: How to Find the Right Eating Pattern for You / 01:47:36
-Note: the chaltwr on fasting can end so many conversations and perties by having a "silent party" analagous to amazons "silent meeting"
-
----
-
-Chapter 21 – Part III: Chapter 16: The Awakening: How to Learn to Love Sleep, the Best Medicine for Your Brain / 03:42
-Note: the anicdote about the sleepong in the park is awesome
-
----
-
-Chapter 21 – Part III: Chapter 16: The Awakening: How to Learn to Love Sleep, the Best Medicine for Your Brain / 13:56
-Note: search for "genuinely better person" on the book telated to sleep
-
----
-
-Chapter 21 – Part III: Chapter 16: The Awakening: How to Learn to Love Sleep, the Best Medicine for Your Brain / 33:07
-Note: REM sleep helps with procedural memory
-
----
-
-Chapter 21 – Part III: Chapter 16: The Awakening: How to Learn to Love Sleep, the Best Medicine for Your Brain / 42:07
-Note: moroheus is the got of dreams
-
----
-
-## Chapter 21 – Part III: Chapter 16: The Awakening: How to Learn to Love Sleep, the Best Medicine for Your Brain / 42:09
-
-Chapter 21 – Part III: Chapter 16: The Awakening: How to Learn to Love Sleep, the Best Medicine for Your Brain / 42:14
-Note: moroheus feom the mateix and morpheme make anlot more sense jow
-
----
-
-Chapter 22 – Part III: Chapter 17: Work in Progress: The High Price of Ignoring Emotional Health / 21:23
-Note: search about rhe stoey of who numped of the bridge
-
----
-
-Chapter 22 – Part III: Chapter 17: Work in Progress: The High Price of Ignoring Emotional Health / 21:42
-Note: look into the concept of "minimizing"
-
----
-
-Chapter 22 – Part III: Chapter 17: Work in Progress: The High Price of Ignoring Emotional Health / 27:10
-Note: dearch for "attachment disorders" and reflect on thise plints
-
----
-
-Chapter 22 – Part III: Chapter 17: Work in Progress: The High Price of Ignoring Emotional Health / 37:17
 - anger frustrating or madcarading as frustration
 - eulogy voetues vs tesume virtues
 - need to be great in order to not be worthless. chapyer 17 really hit hard
 - paul kanty, david goggins and petter attia on chaoter 17
 
----
+# TODO
 
-Chapter 24 – Acknowledgments / 07:37
-Note: audibooks need to be read as if your teading them for the fiet time
-
----
+- dearch for "attachment disorders" and reflect on thise plints
+- look into the concept of "minimizing"
+- search about rhe stoey of who numped of the bridge
+- earch for "genuinely better person" on the book telated to sleep
+- napanese word: "kuxhisabishi"
+- search "hinger virtually dissapears"
+- search for the hawthorn effect about observations
+- look for comments on "feynman" in rhe epub
+- eating whatever we want - wheneve we want - as kuch as we want. caloric restriction is key
+- not esting to escess is key
+- saturdatee fats are atirated with hydrogen
+- survive vs thrive
