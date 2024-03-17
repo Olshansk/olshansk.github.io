@@ -1,0 +1,16 @@
+/* static/css/style.css */
+.subscribe-form {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.subscribe-form input[type="email"] {
+  margin: 0.5em;
+  padding: 0.25em;
+  width: 20em;
+}
+
+.subscribe-form button {
+  cursor: pointer;
+  padding: 0.5em 1em;
+}

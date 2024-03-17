@@ -36,7 +36,8 @@ style = "github-dark"
   colorScheme = "dark"
   hideColorSchemeToggle = false
 
-  customCSS = ["css/brands.min.css", "css/fontawesome.min.css"]
+customCSS = ["css/style.css"]
+  # customCSS = ["css/brands.min.css", "css/fontawesome.min.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
