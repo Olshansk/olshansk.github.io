@@ -1,6 +1,6 @@
 +++
 author = "Daniel Olshansky"
-title = "Succession: Season 2"
+title = "Succession: Season 3"
 date = "2024-04-30T01:18:01"
 description = "Olshansky's review of Succession: Season 3"
 tags = [
