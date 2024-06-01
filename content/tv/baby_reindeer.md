@@ -1,6 +1,6 @@
 +++
 author = "Daniel Olshansky"
-title = "Succession: Season 4"
+title = "Baby Reindeer"
 date = "2024-06-01T01:18:01"
 description = "Olshansky's review of Baby Reindeer"
 tags = [
