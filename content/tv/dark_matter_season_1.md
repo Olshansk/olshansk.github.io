@@ -26,4 +26,4 @@ Though Jason and Daniela had the most screen time, I'd have to say that Amanda a
 
 Also, Alice Braga (playing Amanda Lucas) has the most beautiful smile I've ever seen.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/dark_matter_2024)
+[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/dark_matter_2024/s01)
