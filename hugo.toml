@@ -93,6 +93,12 @@ style = "github-dark"
   weight = 1
   url = "https://www.strava.com/athletes/65389405"
 
+# TODO: Link to all the things I read.
+# https://medium.com/me/stories/responses
+# https://olshansky.substack.com/notes
+# https://x.com/search?q=%23linkblogging%20from%3Aolshansky&src=typed_query
+
+
 [[params.social]]
   name = "Telegram"
   icon = "fa fa-telegram fa-2x"
