@@ -30,4 +30,4 @@ I'm not over exaggerating when I say that it was EXACTLY the same.
 
 I genuinely cannot wait for the next season.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/3_body_problem)
+[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/3_body_problem/s01)
