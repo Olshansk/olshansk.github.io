@@ -37,4 +37,4 @@ Important details about the website:
 
 ## ChatGPT Conversation
 
-This was generated using this conversation with ChatGPT :https://chatgpt.com/share/66e7503c-a9e0-8002-90e4-ad8ce3c66372
+This was generated using this conversation with ChatGPT: https://chatgpt.com/share/66e7503c-a9e0-8002-90e4-ad8ce3c66372
