@@ -1,6 +1,6 @@
 +++
 author = "Daniel Olshansky"
-title = "Branding that Means Business: Economist Edge: books that give you the edge (2.5/5)"
+title = "Branding that Means Business: A great reader that's worth reading earlier in your career (2.5/5)"
 date = "2024-11-29T00:00:00.000000"
 description = "Olshansky's review of Branding that Means Business"
 tags = [
