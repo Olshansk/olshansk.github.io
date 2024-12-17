@@ -183,7 +183,11 @@ style = "github-dark"
   ]
   prefetchsrc = ["'self'"]
   # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-  connectsrc = ["'self'", "https://www.google-analytics.com"]
+  connectsrc = [
+    "'self'",
+    "https://www.google-analytics.com",
+    "https://api.onedollarstats.com",
+  ]
 
 [params.onedollarstats]
     id = "olshansky.info"
