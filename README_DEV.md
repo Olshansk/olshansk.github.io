@@ -11,6 +11,8 @@
     - [Videos](#videos)
 - [TV \& Movies](#tv--movies)
   - [Inspiration](#inspiration)
+  - [Things I want to change:](#things-i-want-to-change)
+    - [About page:](#about-page)
 
 ## Source Code
 
@@ -62,3 +64,18 @@ Theme: [hugo-coder](https://github.com/luizdepra/hugo-coder) \* [Configurations]
 ### Inspiration
 
 https://howisfelix.today/?
+
+### Things I want to change:
+
+#### About page:
+
+- [ ] Rename it to the now page:
+  - Shorter paragraphs
+  - Make it easier to read
+  - Link to bluskey, mastodon, etc...
+  - References:
+    - https://now.page/
+    - https://sive.rs/nowff
+- [ ] Add a subscribe button that'll mirror the RSS feed
+  - Notify people of book review
+  - Notify people of movie reviews
