@@ -1,6 +1,6 @@
 +++
 author = "Daniel Olshansky"
-title = "KAOS (Netflix Limited Series): Overwhelmed by the Shear Creativity and Originality of the Show (6/5)."
+title = "KAOS: Overwhelmed by the Shear Creativity and Originality of the Show (6/5)"
 date = "2025-01-02T09:47:17.547000"
 description = "Olshansky's review of KAOS ( Netflix Limited Series)"
 tags = [
