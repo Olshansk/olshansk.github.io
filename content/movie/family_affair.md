@@ -1,8 +1,8 @@
 +++
 author = "Daniel Olshansky"
-title = "Family Affair"
+title = "A Family Affair"
 date = "2024-09-16T15:40:33"
-description = "Olshansky's review of Family Affair"
+description = "Olshansky's review of A Family Affair"
 tags = [
     "movie",
 ]

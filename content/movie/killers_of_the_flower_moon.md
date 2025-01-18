@@ -1,7 +1,7 @@
 +++
 author = "Daniel Olshansky"
 title = "Killers of the Flower Moon"
-date = "2021-01-24T06:38:59.515000"
+date = "2025-01-24T06:38:59.515000"
 description = "Olshansky's review of Killers of the Flower Moon"
 tags = [
     "movie",
