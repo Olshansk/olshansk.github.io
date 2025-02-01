@@ -1,7 +1,7 @@
 +++
 author = "Daniel Olshansky"
 title = "Severance: Season 1"
-date = "2022-04-09T15:29:23.523000"
+date = "2024-04-09T15:29:23.523000"
 description = "Olshansky's review of Severance: Season 1"
 tags = [
     "tv",
