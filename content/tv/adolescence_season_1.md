@@ -3,102 +3,83 @@ author = "Daniel Olshansky"
 title = "Adolescence: Season 1"
 date = "2025-03-15T20:34:28.748000"
 description = "Olshansky's review of Adolescence: Season 1"
-tags = [
-    "tv",
-]
+tags = ["tv"]
 +++
 
 Rating: ⭐⭐⭐⭐⭐
 
 Phenomenal.
 
-Exceeded all my expectations.
+It exceeded all my expectations.
 
-Been thinking about it every day since I finished watching it,
-a week as of writing this review.
+I've been thinking about it every day since I finished watching it a week ago.
 
 I also recommend [this interview](https://www.youtube.com/watch?v=NeL_jc1T_KI) with
-William Costello on the [Modern Wisdom Podcast](https://chriswillx.com/podcast/),
-if you feel like you just "need more discussion" after finishing the series.
+William Costello on the [Modern Wisdom Podcast](https://chriswillx.com/podcast/)
+if, after finishing the series, you feel like you “need more discussion.”
 
-## Unanswered Questions and more to be desired?
+## Unanswered Questions and More to Be Desired?
 
-One of the interesting things about the show is that it left a lot of questions unanswered
-and up for interpretation by the viewer:
+One of the most intriguing aspects of the show is how many questions it leaves unanswered, inviting the viewer’s interpretation:
 
-- What is Jamie's pscho-analysis? Is he bi-polar? Is it peer pressure? Was he influenced by social media?
-- What was the motivation? Is there a risk it can happen again?
-- Why did Katie's friend lash out at the other boy in school?
-- Is there more to the story of the knife? Where did it come from? Whose idea was it to get a knife?
+- What is Jamie’s **psychoanalysis**? Is he **bipolar**? Was he succumbing to peer pressure? Was he influenced by social media?
+- What was his motivation, and is there a risk it could happen again?
+- Why did Katie’s friend lash out at the other boy in school?
+- Is there more to the story of the knife? Where did it come from, and whose idea was it to get one?
 
-I don't know how much of this was intentional and by design, a result of lack of funding,
-or an oversight, but it worked nonetheless.
+I’m not sure how much of this ambiguity was intentional, due to limited funding, or simply an oversight, but it works nonetheless.
 
-Bascombe's (the DI) relationship with his son could be a spinoff.
+DI Bascombe’s relationship with his son could support an entire spin-off:
 
 - Why are they distant?
 - How did their relationship change after this case?
+
+The psychoanalysis of Jamie leaves more to be desired:
 
 - What was the first meeting like?
 - What did her notes conclude?
 - How does it relate to her other cases?
 
-So much more to be desired but I love the room it leaves for creativity.
+There’s so much more to explore, but I love the space it leaves for creativity.
 
 ## Growing Up Without Social Media
 
-As a 32 year old, a thought that kept popping into my mind is how grateful I am for
-growing up without social media.
+As a **32-year-old**, I keep thinking about how grateful I am that I grew up without social media.
 
-I remember the days of going to the mall, sending "sup" messages to all my friends
-on MSN messenger and discovering random online communities on a variety of fringe websites.
+I remember going to the mall, sending “sup” messages to all my friends on MSN Messenger, and discovering random online communities on fringe websites. The days felt longer, and signing up for Facebook in 10th grade was exciting.
 
-The days felt longer and signing up for FaceBook.com in 10th grade was cool.
+Today, managing media consumption is a daily challenge. Doing so when you’re young, insecure, susceptible to peer pressure, and still developing must be terrifying.
 
-Today, it's a daily challenge to manage media consumption. Doing so while you're
-young, insecure, susceptible to peer pressure, have a developing mind and in the
-earlier stages of understanding yourself must be terrifying.
+In the same way smoking **cigarettes** has become uncommon among Millennials and younger generations, I expect the same decline for social media in those coming up next.
 
-In the same way that smoking cigarets isn't common by Millennials onwards, I expect
-the same to happen to social media by the upcoming generations.
+_Side note: I also realized how detached I am from certain parts of culture. I had no clue what an “incel” was and would have overlooked the meaning of some emojis used._
 
-_Side note: I also realized how detached I am from certain parts of culture. I had no clue what an incel, and would have overlooked the meaning of the emojis used._
+## Fiction or Not?
 
-## Fiction Or Not?
+The show flirts with **suspension of disbelief** while tiptoeing the line of plausibility.
 
-The show flirted with a suspense of disbelief while tip toeing the line of believability.
+It’s hard to believe a young boy from a good family could commit such an act, yet enough external influence could push anyone that far.
 
-It's hard to believe a young boy from a good family could commit such an action.
-At the same time, enough external influence could push a person to do such a thing.
+Would his friend really try to flee the school while being chased by the police? It sounds silly, but it’s just within the bounds of something a 13-year-old might do.
 
-Would his friend really try to flee the school while running away from the police?
-It's silly, but verges the lines of something a 13 year old would do.
-
-The fact that the UK is showing this in schools and beginning to treat it as
-a source of education w.r.t to mental health issues comes with tradeoffs.
+The fact that the UK is showing this in schools and beginning to use it as educational material on mental-health issues comes with trade-offs.
 
 ## Episode 3
 
-The fact that every episode was shot in one take is masterful.
+Each episode being shot in a single take is masterful.
 
-The third episode stood out to me in particular, because it's almost an entire
-hour spent in one room, watching a sort of therapy session, and it wasn't dull for a moment.
+Episode 3 stood out in particular: almost an entire hour spent in one room watching a therapy-style session that never feels dull.
 
-I won't add much to it, but the performance of both actors (playing Jamie and Briony) deserves an award.
+I won’t add much more, but the performances of both actors (Jamie and Briony) **deserve** an award.
 
 ## Episode 4
 
-In a similar fashion, we forget the last episode was shot in one take as well, but
-the environment varied so much more.
+Likewise, we forget the final episode is also shot in one take, though the environment shifts much more.
 
-Eddie Miller's self battle of wanting to be a good father, grapling with the aftermath, but also the truth
-can only be felt, not described.
+Eddie Miller’s internal battle—wanting to be a good father, grappling with the aftermath, and confronting the truth—can only be felt, not described.
 
-I didn't love the last episode, but got into it after about 30 minutes.
+I didn’t love the episode at first, but I got into it after about 30 minutes.
 
-It also made me realize how old I'm getting as I was able to resonate with the father's
-emotions much more than I expected.
-
-You know you’re getting bold and you can relate more to the parents and the kids, even if someone doesn’t have kids.
+It also made me realize I’m getting older, as I resonated with the father’s emotions far more than I expected.
 
 [🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/adolescence/s01)
