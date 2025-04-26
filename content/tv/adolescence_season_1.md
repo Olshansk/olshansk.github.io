@@ -1,7 +1,7 @@
 +++
 author = "Daniel Olshansky"
 title = "Adolescence: Season 1"
-date = "2025-03-15T20:34:28.748000"
+date = "2025-04-20T16:28:00.748000"
 description = "Olshansky's review of Adolescence: Season 1"
 tags = ["tv"]
 +++
