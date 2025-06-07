@@ -16,7 +16,6 @@ author = "Daniel Olshansky"
 
 **What do I do in my spare time?** In my spare time, I'm either at the gym experimenting with a new workout 🏋🏽, enjoying the outdoors in some fashion 🥾🌲⛰ , reading or tinkering on something new 📚✍️, or just having fun at an improv class 🃏. Check out my blog and other links or feel free to email me at [olshansky.daniel@gmail.com](mailto:olshansky.daniel@gmail.com).
 
-
 ---
 
 Hey, I’m Daniel.
@@ -47,7 +46,6 @@ I don’t associate myself with any specific to me
 If I had to summarize my life mission and one sentence, it would be to achieve my full potential, then find a way to enable anyone else (who wants to). For example, need an NBA player. It’s probably not my potential, when a price is being a good father, hopefully, being a father yes. I think the secret lies in the mind, but I’m still working on myself in this
 
 Intersect and probably the next
-
 
 I built some cool data 11 pipe Ron, build some ahead of its time for the types I won’t be able to magically some fun features at Twitter like for search, and made some cool tutorial videos don’t create anything yet
 
