@@ -2,25 +2,24 @@
 author = "Daniel Olshansky"
 title = "Death of a Unicorn"
 date = "2025-08-08T20:07:00"
-description = "Olshansky's review of Steven Spielberg's The Fabelmans"
+description = "Olshansky's review of Death of a Unicorn"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐
+Rating: ⭐⭐⭐🌟
 
-One of those movies that could have been much better than what it was.
+I didn't love it, but it's hard to hate a time travel film. Subpar acting with
+a cool idea and a lovely ending make it worth the watch.
 
-I really wish this film came out better.
+I loved how the film really portrayed the changing dynamics of gender over the
+last 50 years without feeling neither misogynistic, sexist or feminist.
 
-It was original. The premise was enticing. It had some satirical comedy. It was a bit dark.
-It had Paul Rudd, which I'm personally a big fan of. It had all the ingredients for success.
+Even though the acting was slow and tier 2-ish, I got really invested in the two
+main characters and the journey of their emotions.
 
-Unfortunately, it wasn't. The graphics felt underbudget. The film felt like it was rushed.
-As good as Paul Rudd is, he can't carry a bad cast.
+I'm no going to spoil it, but I absolutely loved the last 10 minutes. Hats off
+to the directors and writers for a well-crafted ending.
 
-Overall, it has potential, but the execution was subpar. If you're on something and want to
-pass the time, it might not be a bad choice though.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/death_of_a_unicorn)
+[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/our_times_2025)
