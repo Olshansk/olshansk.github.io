@@ -1,6 +1,5 @@
 +++
-author = "Daniel Olshansky
-"
+author = "Daniel Olshansky"
 title = "Sirens: Season 1"
 date = "2025-08-07T20:34:28.748000"
 description = "Olshansky's review of Sirens: Season 1"
