@@ -33,6 +33,9 @@ style = "monokai"
   UseHugoToc = true
   ShowToc = true
   TocOpen = false
+  hideSummary = false
+  hideFooter = false
+  ShowFullTextinRSS = false
 
   # Enable search
   [params.fuseOpts]

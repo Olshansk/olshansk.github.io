@@ -4,6 +4,7 @@ description = "About me"
 date = "2023-06-23"
 aliases = ["about-us", "contact"]
 author = "Daniel Olshansky"
+ShowToc = false
 +++
 
 **Where am I from?** Born in 🇷🇺, grew up in 🇮🇱, and spent my formative years 🇨🇦 before moving to the 🇺🇸 to pursue my professional career.

@@ -2,26 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Technological Republic: Hard Power, Soft Belief, and the Future of the West"
 date = "2025-08-31T00:00:00.000000"
-description = "Olshansky's review of The Technological Republic: Hard Power, Soft Belief, and the Future of the West"
+description = ""
 tags = [
     "book",
 ]
+ShowToc = true
 +++
 
 Rating: ⭐⭐
-
-- [Overall Thoughts \& Summary](#overall-thoughts--summary)
-- [Notes \& Quotes](#notes--quotes)
-  - [Innovation and Silicon Valley](#innovation-and-silicon-valley)
-  - [AI and National Identity](#ai-and-national-identity)
-  - [Belief and Leadership](#belief-and-leadership)
-  - [Historical Models of Science \& Politics](#historical-models-of-science--politics)
-  - [Retreat from National Projects](#retreat-from-national-projects)
-  - [Culture, Security, and Action](#culture-security-and-action)
-  - [Global Defense Dynamics](#global-defense-dynamics)
-  - [Software, Hardware, and New Entrepreneurs](#software-hardware-and-new-entrepreneurs)
-  - [Decay of Belief in Institutions](#decay-of-belief-in-institutions)
-  - [Universities and Moral Leadership](#universities-and-moral-leadership)
 
 [📚 GoodReads Info 📚](https://goodreads.com/book/show/213618136)
 
