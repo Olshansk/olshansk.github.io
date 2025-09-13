@@ -6,9 +6,8 @@ description = "Olshansky's review of BoJack Horseman: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Though the show started as a sitcom with the main character and a few supporting actors, I now have a deep sense of compassion as if every character has been a life-long friend.
 

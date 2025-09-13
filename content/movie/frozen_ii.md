@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Frozen II"
 date = "2021-01-07T05:37:28.450000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Frozen II"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 A great feel-good movie that should be on everyone's list though it is not as iconic as the first one.
 

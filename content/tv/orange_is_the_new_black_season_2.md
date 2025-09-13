@@ -6,9 +6,8 @@ description = "Olshansky's review of Orange Is the New Black: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Every character and clique develops in a very unique fashion and never ceases to surprise. The show doesn't necessary grab your attention, but it does maintain your interest and keeps you watching non-stop.
 

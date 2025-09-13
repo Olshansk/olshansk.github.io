@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "CODA"
 date = "2022-04-17T11:51:49.728000"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of CODA"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐🌟
 
 Didn't know what to expect because how interesting could a coming-of-age film of a girl in a deaf family be? However, after it won the best picture I was enticed and was not disappointed.
 

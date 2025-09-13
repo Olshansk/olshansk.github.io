@@ -6,9 +6,8 @@ description = "Olshansky's review of Solar Opposites: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Solar Opposites has grown to be one of those shows that is always fun, entertaining and never fails to live up to my expectations. It is something I don't plan to stop watching anytime soon.
 

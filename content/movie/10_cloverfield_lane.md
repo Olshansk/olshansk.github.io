@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "10 Cloverfield Lane"
 date = "2016-03-13T08:39:28"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of 10 Cloverfield Lane"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 Very interesting film.
 

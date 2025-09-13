@@ -6,9 +6,8 @@ description = "Olshansky's review of The Lazarus Project: Season1 & 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 If you're into time travel, you should definitely watch it. If it's not your favorite genre, you should still watch it.
 

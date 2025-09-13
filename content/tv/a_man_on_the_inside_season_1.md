@@ -6,9 +6,8 @@ description = "Olshansky's review of A Man on the Inside: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐🌟
 
 A light, fun, heart-warming show that still manages to surprise and reminds you
 to appreciate the little things in life.

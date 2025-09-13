@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Our Times"
 date = "2025-08-04T20:07:00"
+rating = "⭐⭐"
+
 description = "Olshansky's review of Our Times"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐
 
 One of those movies that could have been much better than what it was.
 

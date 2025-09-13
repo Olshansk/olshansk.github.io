@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Fabelmans"
 date = "2025-07-11T11:10:30"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Steven Spielberg's The Fabelmans"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 A "semi-autobiographical" film that's more accurate than most biopics.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Chef's Table: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1: I think this show is going to make me develop a different type of appreciation for food and I'm looking forward to having that happen.
 

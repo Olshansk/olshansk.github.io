@@ -6,9 +6,8 @@ description = "Olshansky's review of The Art of Learning"
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 - [General](#general)
 - [Key Takeaway](#key-takeaway)

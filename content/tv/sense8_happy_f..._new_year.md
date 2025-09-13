@@ -6,9 +6,8 @@ description = "Olshansky's review of Sense8: Happy F... New Year"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 To sum up this episode with two words: euphoric ecstasy. 
 

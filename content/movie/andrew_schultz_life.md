@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Andrew Schulz: Life"
 date = "2025-03-26T11:10:30"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Andrew Schulz's Netflix Special: Life"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 I watched this Netflix special over the course of a few nights instead of doom
 scrolling Instagram before bed. I have to say that choosing standup over instagram

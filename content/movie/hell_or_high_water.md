@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Hell or High Water"
 date = "2016-12-09T13:24:42"
+rating = "⭐⭐⭐🌟"
+
 description = "Olshansky's review of Hell or High Water"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐🌟
 
 An honest film with some real character that lacks a point and excitement.
 

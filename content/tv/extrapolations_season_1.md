@@ -6,9 +6,8 @@ description = "Olshansky's review of Extrapolations: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Every single episode was thrilling, thought provoking and original, but holistically
 it was missing something. I can't tell if it was the lack of a central plot, a bit

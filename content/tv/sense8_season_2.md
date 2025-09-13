@@ -6,9 +6,8 @@ description = "Olshansky's review of Sense8: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 One of the best shows that has gone under the radar and doesn't receive the press or credit it deserves.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Gotham: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐
 
 Episodes 1 - 2
 ---------------------

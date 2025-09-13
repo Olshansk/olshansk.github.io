@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Burn After Reading"
 date = "2016-02-14T14:25:00"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Burn After Reading"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 A typical cohen brothers film that checks off all of the cohen checkboxes, yet not their best film to date. It felt a lot like argo, but some of the characters were lacking connection with their plot.
 

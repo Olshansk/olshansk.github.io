@@ -6,9 +6,8 @@ description = "Olshansky's review of Rick and Morty: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1: Best frikking episode ever.
 

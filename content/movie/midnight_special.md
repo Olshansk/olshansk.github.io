@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Midnight Special"
 date = "2016-08-03T12:33:58"
+rating = "⭐🌟"
+
 description = "Olshansky's review of Midnight Special"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐🌟
 
 I saw this on a flight from SFO to YYZ and think this movie was a waste of time.
 

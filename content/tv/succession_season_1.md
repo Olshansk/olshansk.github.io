@@ -6,9 +6,8 @@ description = "Olshansky's review of Succession: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Extremely engaging from the very first scene.
 

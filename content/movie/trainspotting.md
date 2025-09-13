@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Trainspotting"
 date = "2014-10-31T02:35:14"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of Trainspotting"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐🌟
 
 I thought this movie came out in the mid-200s, and was extremely surprised that's is from 1996, just showing how well it aged.
 

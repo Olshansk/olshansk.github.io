@@ -6,9 +6,8 @@ description = "Olshansky's review of Million Dollar Weekend"
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 [📚 GoodReads Info 📚](https://www.goodreads.com/en/book/show/145624504)
 

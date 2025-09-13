@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Barbie"
 date = "2023-07-30T00:00:00"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Barbie"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Not unlike the iconic toy, "Barbie: The Movie," delivers a serious message without taking itself too seriously, all packaged in a plastic and fantastic shell.
 

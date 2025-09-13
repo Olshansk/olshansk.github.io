@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "SPIDER-MAN: ACROSS THE SPIDER-VERSE"
 date = "2023-06-27T00:00:00.000000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of SPIDER-MAN: ACROSS THE SPIDER-VERSE"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐
 
 One of my all-time favorite movies.
 

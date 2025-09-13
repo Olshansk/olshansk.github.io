@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "It's What's Inside"
 date = "2025-06-06T13:43:19"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of the movie It's What's Inside"
 tags = [
 "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 An EXTREMELY original take on the body swap trope.
 

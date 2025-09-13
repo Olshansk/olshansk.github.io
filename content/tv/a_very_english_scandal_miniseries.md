@@ -6,9 +6,8 @@ description = "Olshansky's review of A Very English Scandal: Miniseries"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 It's always exciting when something crazy enough to only be fictional is based on a true story.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Solar Opposites: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 I loved it! The first couple episodes aren't that great but it REALLY picks afterwards. Though it's no Rick & Morty, it has the same feel, the same animation and fills the exact same craving I have for an intelligent but also hilarious show at the same time.
 

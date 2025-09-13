@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Enola Holmes"
 date = "2020-10-04T13:48:18.986000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Enola Holmes"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Millie Bobby Brown carries the movie in the eccentric world of Sherlock Holmes but with her own twist.
 

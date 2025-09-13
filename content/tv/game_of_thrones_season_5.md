@@ -6,9 +6,8 @@ description = "Olshansky's review of Game of Thrones: Season 5"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 It's hard to rate any season of this show anything less than five stars. This show is thrilling, gory, funny, exciting, pensive, miraculous, and awe inspiring. It is the only show that makes me want the weekend to culminate asap, just so that another episode would be released. When the reason ends, I can't bear the thought of knowing that I have to wait 42 weeks, just for another 10 weeks of GoT entertainment. 
 

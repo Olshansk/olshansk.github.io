@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Captain America: The First Avenger"
 date = "2012-09-09T00:43:56"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Captain America: The First Avenger"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 Olshansky was too lazy to write a review for this one...
 

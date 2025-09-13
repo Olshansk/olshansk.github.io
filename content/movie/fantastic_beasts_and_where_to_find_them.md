@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Fantastic Beasts and Where to Find Them"
 date = "2016-11-18T11:59:34"
+rating = "⭐⭐⭐🌟"
+
 description = "Olshansky's review of Fantastic Beasts and Where to Find Them"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐🌟
 
 A great movie that any Harry Potter fan will want to see, but not a must for all the others.
 

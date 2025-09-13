@@ -6,9 +6,8 @@ description = "Olshansky's review of Dark Matter: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 I acknowledge that the multi-verse theme is no longer novel, and may get tiring, but in the meantime, keep it coming!
 

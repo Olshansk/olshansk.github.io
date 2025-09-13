@@ -6,9 +6,8 @@ description = "Olshansky's review of Dear Child: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐"
 +++
-
-Rating: ⭐⭐
 
 Fills the bill if you're looking for a dark German limited series, so the acting and vibe aligned with what I expected.
 

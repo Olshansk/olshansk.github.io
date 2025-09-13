@@ -6,9 +6,8 @@ description = "Olshansky's review of Fullmetal Alchemist Brotherhood: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 One of the best animes of all time. That is all.
 

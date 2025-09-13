@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Golda"
 date = "2023-10-24T13:18:18"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Golda"
 tags = [
     "tv",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Watching this film during the war of 10/7 in 2023 was a lot to take in.
 

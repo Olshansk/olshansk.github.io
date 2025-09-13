@@ -6,9 +6,8 @@ description = "Olshansky's review of Sherlock: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1: This was more of the classic sherlock we know and love, which is exactly what I was hoping for. It was intriguing, exciting and thrilling. Full of plot twists, cool camera angles, mysteries, and a conflict between our favorite protagonists. The ending was very unanticipated so I'm looking forward to see where it'll go from here.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Black Mirror: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1: Not too far from reality. Just taking our facebook/instagram/twitter/tinder likes and ratings and lying completely putting it out there. While it is very close to home, the repercussions just showed that we build up some anger so it didn't seem that bad. Now one of Black Mirror's best episodes.
 

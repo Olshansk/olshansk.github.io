@@ -6,9 +6,8 @@ description = "Olshansky's review of Stranger Things: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Another great season of Stranger Things!
 

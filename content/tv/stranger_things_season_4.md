@@ -6,9 +6,8 @@ description = "Olshansky's review of Stranger Things: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Review #2: I left the first review about halfway through the series, but the second volume was absolutely amazing. The way all the plot lines are connected, and the way all the characters have grown and evolved is impressive. The characters are developing quite a bit, but so are the actors, and it shows. The plotline is unique, the characters are one of a kind, and the visuals are just perfect without over or underdoing it. I really believed that the second volume of Season 4 was going to be the end and was super excited to see that we likely have another season coming!!!
 

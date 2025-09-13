@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Death of a Unicorn"
 date = "2025-08-08T20:07:00"
+rating = "⭐⭐⭐🌟"
+
 description = "Olshansky's review of Death of a Unicorn"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐🌟
 
 I didn't love it, but it's hard to hate a time travel film. Subpar acting with
 a cool idea and a lovely ending make it worth the watch.

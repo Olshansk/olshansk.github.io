@@ -6,9 +6,8 @@ description = "Olshansky's review of Bodkin (Limited Series)"
 tags = [
     "tv",
 ]
+rating = "⭐⭐🌟"
 +++
-
-Rating: ⭐⭐🌟
 
 Took me four months to get through this one between holidays, travel and finishing
 multiple other shows in between.

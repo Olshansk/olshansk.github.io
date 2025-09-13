@@ -6,9 +6,8 @@ description = "Olshansky's review of The Righteous Gemstones: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 I swiftly went through Season 2 and started Season 3 without even realizing it. That probably speaks for itself.
 

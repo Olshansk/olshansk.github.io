@@ -6,9 +6,8 @@ description = "Olshansky's review of The Big Door Prize: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐🌟
 
 Takes a little bit of time to pick up steam, but is otherwise fun, original and different. I feel that the show is still on training wheels but has a lot of untapped potential.
 

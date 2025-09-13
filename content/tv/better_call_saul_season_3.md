@@ -6,9 +6,8 @@ description = "Olshansky's review of Better Call Saul: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1: Even though I love the fact that the show picked up exactly where it left of, I would've liked a bit of a recap. Thought nothing grand happened, there is a lot of tension between Chuck and Jimmy that will definitely go south, and Mike's investigation is thrilling. When you come to think of it, Mike has almost no dialogue yet it's amazing how much informatino and emotion he conveys through his actions.
 

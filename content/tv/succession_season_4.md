@@ -6,9 +6,8 @@ description = "Olshansky's review of Succession: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 It's hard to believe the show is over, but the entire crew ended it at just the right time with a "great capitulation". The entire show and cast shows the complexity and balance between love, self-interest and human nature. The writing is phenomenal.
 

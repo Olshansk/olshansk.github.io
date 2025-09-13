@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Onward"
 date = "2020-05-09T21:59:17.578000"
+rating = "⭐⭐⭐"
+
 description = "Olshansky's review of Onward"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐
 
 One should watch all Pixar movies at one point or another, but this one will not be memorable.
 

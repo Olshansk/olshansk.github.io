@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Kingsman: The Golden Circle"
 date = "2021-02-01T06:40:05.449000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Kingsman: The Golden Circle"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Minus the origin story, this was more of the same as the first Kingsman film, which is exactly what I was looking for!
 

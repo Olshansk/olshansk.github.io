@@ -6,9 +6,8 @@ description = "Olshansky's review of Beef: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Surprising in all the right and wrong ways. It's cathartic, cringy, surprising,
 enticing, real, powerful, sad, thoughtful, retrospective and simply raw.

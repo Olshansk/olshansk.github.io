@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Dragon Ball Super: Broly"
 date = "2019-03-24T12:38:44"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Dragon Ball Super: Broly"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 This movie exceeded all of my expectations!
 

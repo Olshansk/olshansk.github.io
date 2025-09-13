@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Room"
 date = "2016-03-12T09:16:41"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Room"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 This movie was absolutely amazing and is joining the ranks of one of my all time favorite movies.
 

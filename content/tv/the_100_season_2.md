@@ -6,9 +6,8 @@ description = "Olshansky's review of The 100: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 While it is definitely one of the cheesier shows I choose to watch, with a lower budget, and not the strongest cast, it still manages to be very entertaining. Time and time again, I'm pleasantly surprised by the turns the plot takes, and how the characters develop. The show is very smart about choosing which characters can die, which can separate from the group, and how relationships develop and evolve. 
 

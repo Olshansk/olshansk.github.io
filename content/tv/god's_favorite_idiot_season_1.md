@@ -6,9 +6,8 @@ description = "Olshansky's review of God's Favorite Idiot: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐
 
 Silly, stupid, pointless, but still a interesting enough to keep watching as a way to pass the time.
 

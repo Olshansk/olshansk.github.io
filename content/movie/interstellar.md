@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Interstellar"
 date = "2014-11-02T03:42:05"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Interstellar"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Amazing! Suspenseful, emotional, exciting, surprising. A movie with a great message, a great plot, breathtaking graphics and a very interesting take on the aspects of science that are still a mystery to us. A great job by everyone in this film. Would not change a thing.
 

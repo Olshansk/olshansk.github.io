@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Good Will Hunting"
 date = "2013-12-05T09:37:33"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Good Will Hunting"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 A timeless classic.
 

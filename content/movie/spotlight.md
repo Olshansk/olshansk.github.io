@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Spotlight"
 date = "2016-02-21T07:18:03"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Spotlight"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 A strong cast doing a true story justice in a well-directed film.
 

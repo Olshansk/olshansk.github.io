@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Avengers: Infinity War"
 date = "2019-09-02T07:13:12.117000"
+rating = "⭐⭐⭐🌟"
+
 description = "Olshansky's review of Avengers: Infinity War"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐🌟
 
 A glorified high budget version of the runaway Trolley dilemma.
 

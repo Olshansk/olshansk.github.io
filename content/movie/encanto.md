@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Encanto"
 date = "2022-01-23T09:21:34.740000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Encanto"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 My favourite Disney movie since Frozen! The musical numbers simply took it over the top.
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Dune"
 date = "2021-11-20T08:47:58.698000"
+rating = "⭐⭐⭐"
+
 description = "Olshansky's review of Dune"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐
 
 I don't have much to stay about the film other than the fact that it was "Okay" but was entertaining to watch because of the commentary my friends and I included along the way.
 

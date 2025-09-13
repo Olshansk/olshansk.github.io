@@ -6,9 +6,8 @@ description = "Olshansky's review of Black Mirror: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 This show is unlike anything I've ever seen. A dystopic world that makes you sick to the gut, but also one you cannot turn away from. It shows human's truest nature, in it's most hideous form.  As the name implies, it's a black reflection of our world with emphasis on the horrid behavior we are capable of today, and a scary insight into what we may be capable of in the future.  
 

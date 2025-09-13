@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "A Whisker Away"
 date = "2020-10-08T13:03:08.678000"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of A Whisker Away"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 After watching "Your Name", I was really craving another anime.
 

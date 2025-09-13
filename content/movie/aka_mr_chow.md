@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "AKA Mr. Chow"
 date = "2024-07-30T15:40:33"
+rating = "⭐⭐⭐"
+
 description = "Olshansky's review of AKA Mr. Chow"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐
 
 Not bad, but also not my favourite film to watch on an overnight flight.
 

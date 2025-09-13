@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Ready Player One"
 date = "2018-06-03T08:13:14"
+rating = "⭐⭐"
+
 description = "Olshansky's review of Ready Player One"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐
 
 An already childish easy to read book that appeals to the slightly older crowd via 80s pop culture references turned into a blockbuster that has nothing to showy or than millions in flashy graphics. 
 

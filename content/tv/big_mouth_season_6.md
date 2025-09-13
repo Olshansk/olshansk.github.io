@@ -6,9 +6,8 @@ description = "Olshansky's review of Big Mouth: Season 6"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 It's more of the same thing, and I love it.
 

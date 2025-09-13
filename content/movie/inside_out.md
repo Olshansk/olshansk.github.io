@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Inside Out"
 date = "2015-07-12T08:42:40"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Inside Out"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 It's hard not to love this movie. All of Pixar's movies are very good, but this one in particular really stands out. It is an original, beautiful, fun movie that takes you on an emotional rollercoaster. While the main demographic this movie is targeted at are kids, adults will get just as much, if not more, out of watching it. 
 

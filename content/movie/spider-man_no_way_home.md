@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Spider-Man: No Way Home"
 date = "2022-05-12T21:49:20.705000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Spider-Man: No Way Home"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 ABSOLUTELY MIND BLOWN! This film is a must watch, whether you like super heroes or not.
 

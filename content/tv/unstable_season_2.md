@@ -6,9 +6,8 @@ description = "Olshansky's review of Unstable: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 More of the same as in Season 1, and I'm not looking for much more.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Lost: Season 6"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The hype this show had speaks for itself; in a good way.
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Long Shot"
 date = "2019-11-24T15:33:21.959000"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Long Shot"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 Exceeded all of my expectations!
 

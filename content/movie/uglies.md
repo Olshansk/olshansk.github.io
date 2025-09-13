@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Uglies"
 date = "2025-04-06T11:10:30"
+rating = "⭐🌟"
+
 description = "Olshansky's review of Uglies"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐🌟
 
 It's not that common that I don't finish a movie, but I have no interest in finishing this one.
 

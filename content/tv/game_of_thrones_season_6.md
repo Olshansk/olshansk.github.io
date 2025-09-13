@@ -6,9 +6,8 @@ description = "Olshansky's review of Game of Thrones: Season 6"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1: Cant express my excitement about the fact that the time has come for another season. Its no secret that this was a setup episode that touched on and recapped many different stories without delving into any one in a ton of detail. Nonetheless, it was great and enjoyable.
 

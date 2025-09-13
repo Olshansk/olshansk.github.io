@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Killers of the Flower Moon"
 date = "2025-01-24T06:38:59.515000"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Killers of the Flower Moon"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 This film required 3 sittings to watch. It was good, informative, well directed,
 but would have been nothing without Leonardo DiCaprio and Robert De Niro.

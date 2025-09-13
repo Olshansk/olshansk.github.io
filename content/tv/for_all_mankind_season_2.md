@@ -6,9 +6,8 @@ description = "Olshansky's review of For All Mankind: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 When I started watching the first season, I never thought I’d be so emotional by the end of the second season.
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "No Hard Feelings"
 date = "2023-11-05T01:16:21"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of No Hard Feelings"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 No hard feelings really knows how to hit your feelings hard.
 

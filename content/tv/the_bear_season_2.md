@@ -6,9 +6,8 @@ description = "Olshansky's review of The Bear: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The cast found their chemistry and raised in the second season's acidity. Everyone has their own struggles in this world, and the bear caters (pun intended) to everyone.
 

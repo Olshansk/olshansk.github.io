@@ -6,9 +6,8 @@ description = "Olshansky's review of For All Mankind: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Another amazing season for all mankind, and again, they keep raising their own bar.
 

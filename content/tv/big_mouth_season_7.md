@@ -6,9 +6,8 @@ description = "Olshansky's review of Big Mouth: Season 7"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 I don't have much to add that I didn't say in my review of Season 6: it's more of the same thing, and it's why love it.
 

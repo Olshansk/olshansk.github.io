@@ -6,9 +6,8 @@ description = "Olshansky's review of Better Call Saul: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 One of the most underrated shows on TV. A lot of people talk about how good breaking bad was, but this show is very much on par, if not better.
 

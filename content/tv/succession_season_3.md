@@ -6,9 +6,8 @@ description = "Olshansky's review of Succession: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 I don't have anything too insightful to add that add's to my review of season 2,
 other than that it's more of the same, which is a very high bar to keep meeting

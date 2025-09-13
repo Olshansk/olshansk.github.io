@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Deadpool 2"
 date = "2018-08-11T22:40:03"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of Deadpool 2"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐🌟
 
 In a politically correct world where everyone seems to be overly sensitive to the slightest jokes, I'm glad we have films like this.
 

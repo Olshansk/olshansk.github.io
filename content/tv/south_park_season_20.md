@@ -6,9 +6,8 @@ description = "Olshansky's review of South Park: Season 20"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 It's been a few years since I watched a full season of south park from start to finish and must say that I'm extremely impressed! I love the fact that it was one continuous story, with brilliant writing, exploring a few avenues of political discourse that somehow came together at the end. Most importantly, it was fucking hilarious, 'member?
 

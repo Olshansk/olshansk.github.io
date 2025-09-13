@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Somm"
 date = "2021-02-27T11:27:41.339000"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Somm"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 If you have any interest in wine but have never heard of a Master Sommeliers, this film is a must-watch!
 

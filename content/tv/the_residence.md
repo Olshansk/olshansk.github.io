@@ -6,9 +6,8 @@ description = "Olshansky's review of The Residence: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Easily in my top 5 of 2025, alongside shows like The Gentlemen and The White Lotus.
 

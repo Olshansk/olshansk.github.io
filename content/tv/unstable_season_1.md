@@ -6,9 +6,8 @@ description = "Olshansky's review of Unstable: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 As a so called "tech bro" in his 30s and failed (but continually aspiring) entrepreneur I was able to relate with both Ellis and Jackson on deep and superficial levels.
 

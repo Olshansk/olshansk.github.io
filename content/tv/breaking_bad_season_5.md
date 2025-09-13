@@ -6,9 +6,8 @@ description = "Olshansky's review of Breaking Bad: Season 5"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Breaks the boundary to make an Amazing show.
 

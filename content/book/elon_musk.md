@@ -6,9 +6,8 @@ description = "Olshansky's review of Elon Musk by Walter Isaacson"
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 [📚 GoodReads Info 📚](https://www.goodreads.com/book/show/122765395-elon-musk)
 

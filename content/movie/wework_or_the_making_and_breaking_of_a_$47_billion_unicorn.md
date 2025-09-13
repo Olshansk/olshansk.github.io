@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "WeWork: Or the Making and Breaking of a $47 Billion Unicorn"
 date = "2021-06-19T08:53:12.529000"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of WeWork: Or the Making and Breaking of a $47 Billion Unicorn"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 A very entraining look into the rise and fall (and maybe risk again?) of WeWork. At times it was engaging, ridiculous, exciting and educational.
 

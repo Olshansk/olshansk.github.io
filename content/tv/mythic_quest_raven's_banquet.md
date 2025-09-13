@@ -6,9 +6,8 @@ description = "Olshansky's review of Mythic Quest: Raven's Banquet"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Silicon Valley meets Magic Leap: entertaining and cathartic while really hitting home.
 

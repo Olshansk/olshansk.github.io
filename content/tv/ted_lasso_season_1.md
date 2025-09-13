@@ -6,9 +6,8 @@ description = "Olshansky's review of Ted Lasso: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Simply love it. Absolutely exceeds every expectation I had!
 

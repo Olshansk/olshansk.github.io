@@ -6,9 +6,8 @@ description = "Olshansky's review of Inside Job: Part 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐
 
 It's far from being a great cartoon or comparable to the likes of Futurama, but it is entertaining, passes the time and an easy way to turn off the brain before going to bed.
 

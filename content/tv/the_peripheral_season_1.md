@@ -6,9 +6,8 @@ description = "Olshansky's review of The Peripheral: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 I'm biased because I'd give 5 stars to any show or movie Chloe Grace Moretz is part of, but this one is genuinely one of her biggest comebacks.
 

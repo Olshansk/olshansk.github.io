@@ -6,9 +6,8 @@ description = "Olshansky's review of The Big Bang Theory: Season 10"
 tags = [
     "tv",
 ]
+rating = "⭐"
 +++
-
-Rating: ⭐
 
 I was looking for a fun easy to watch show, so I decided to go back to a show I haven't seen in years with supposedly good reviews. It was so bad and boring I can't finish it,,,
 

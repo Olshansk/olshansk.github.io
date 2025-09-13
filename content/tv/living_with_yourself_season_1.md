@@ -6,9 +6,8 @@ description = "Olshansky's review of Living With Yourself: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐
 
 I really like Paul Rudd, and the concept is pretty intriguing. However, this isn't the type of show that I would recommend to someone else, so I'll probably stop watching it myself.
 

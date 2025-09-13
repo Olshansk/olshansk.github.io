@@ -6,9 +6,8 @@ description = "Olshansky's review of Big Mouth: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Just a fun show about kids in middle school going through puberty that becomes oddly entertaining the more you watch it.
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Don't Look Up"
 date = "2022-01-03T20:00:41.267000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Don't Look Up"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Absolutely amazing!
 

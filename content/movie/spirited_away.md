@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Spirited Away"
 date = "2016-12-03T13:10:50"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Spirited Away"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Full disclosure: I do not watch a lot of anime and am not really familiar with Japanese mythology.
 

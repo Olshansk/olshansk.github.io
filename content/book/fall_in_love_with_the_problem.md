@@ -6,12 +6,11 @@ description = "Olshansky's review of Fall in Love with the Problem, Not the Solu
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
 
 _This is one of my book reviews which you can subscribe to via RSS using [this feed](https://olshansky.info/index.xml).
 If you're interested in some of my original writing, check out [my substack](https://olshansky.substack.com/)!_
-
-**Rating (5/5):** ⭐⭐⭐⭐⭐
 
 [📚 GoodReads Info 📚](https://www.goodreads.com/book/show/61131333-fall-in-love-with-the-problem-not-the-solution)
 

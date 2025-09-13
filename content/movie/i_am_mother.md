@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "I Am Mother"
 date = "2019-07-11T15:11:56.588000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of I Am Mother"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 A sci-fi film that seems pretty typical at its surface - "Robots take over the orld" - but is much deeper underneath.
 

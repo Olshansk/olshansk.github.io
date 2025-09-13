@@ -6,9 +6,8 @@ description = "Olshansky's review of Chernobyl: Miniseries"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 A perfect show in every way. It's a shame Legasov did not live the impact of his heroism, and how he is celebrated and seen in modern culture.
 

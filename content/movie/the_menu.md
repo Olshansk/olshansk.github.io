@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Menu"
 date = "2025-03-28T11:10:30"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of The Menu"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 The Menu is reminiscent of "The Bear" if you were to give it a dark twist and
 some thrilling suspense.

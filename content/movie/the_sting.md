@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Sting"
 date = "2016-10-28T13:01:51"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of The Sting"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐🌟
 
 While I can't say that this film aged very well, it's fantastic in every other aspect.
 

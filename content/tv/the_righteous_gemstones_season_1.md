@@ -6,9 +6,8 @@ description = "Olshansky's review of The Righteous Gemstones: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐🌟
 
 A TV show that fits the bill when you want something light-hearted, but funny.
 Something that can get gory but also doesn't take itself too seriously. Something

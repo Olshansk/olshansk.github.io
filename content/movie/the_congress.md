@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Congress"
 date = "2015-08-03T13:30:41"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of The Congress"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 In a world where virtual and augmented reality is still in its infancy, this film is a dystopian allegory challenging the ethics of just how far we're willing to go for eternal happiness and entertainment when we can deal with the hardships of life.
 

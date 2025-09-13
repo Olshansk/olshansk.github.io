@@ -6,9 +6,8 @@ description = "Olshansky's review of Narcos: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1
 -----------

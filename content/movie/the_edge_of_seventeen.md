@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Edge of Seventeen"
 date = "2017-02-04T19:10:05"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of The Edge of Seventeen"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐🌟
 
 This film was too true to real life, especially when you have a 17 year old sister....
 

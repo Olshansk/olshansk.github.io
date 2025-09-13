@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "A Family Affair"
 date = "2024-09-16T15:40:33"
+rating = "⭐⭐⭐🌟"
+
 description = "Olshansky's review of A Family Affair"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐🌟
 
 Exactly what you'd expect out of a fun light-hearted rom-com with Zac Efron
 where he plays a celebrity that's full of himself.

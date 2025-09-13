@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Circle"
 date = "2018-03-23T13:58:05"
+rating = "⭐🌟"
+
 description = "Olshansky's review of The Circle"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐🌟
 
 The book was made up of interesting elements, but was subpar at best. It was meant to convey a distopic future closely correlated to our current world, but was a far cry from 1984.
 

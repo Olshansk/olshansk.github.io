@@ -6,9 +6,8 @@ description = "Olshansky's review of Last Week Tonight With John Oliver: Season 
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 18: Another episode where John Oliver just bashes Trump all day long. While there are no surprises and every he says is indeed true, I would have been interested to hear his opinion on Peter Thiel's speech at the RPC. He was the only person with some sense, whom I also look up to, so John Oliver's analysis of what happened there would have been really interesting to me.
 

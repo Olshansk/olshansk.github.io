@@ -6,9 +6,8 @@ description = "Olshansky's review of The Walking Dead: Season 5"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 Episode 9:  Dont think. Just eat. A slow episode that finally addresses both physical and mental tolls that a the life of the walking dead can take. From hunger, to anger, and sadness, and replete with lethargy, the limitations of a real human being are finally addressed; emotionally and physically. The crew grows pessimistic, but manages to hold on to hope by a thin thread. As always though, there are some surprises.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of The Queen's Gambit: Miniseries"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Absolutely amazing!
 

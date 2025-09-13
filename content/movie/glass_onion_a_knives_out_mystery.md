@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Glass Onion: A Knives Out Mystery"
 date = "2023-01-13T15:22:46.619000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Glass Onion: A Knives Out Mystery"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 A fantastic cast, a hilarious plot, a genuine lead, appropriate accents, and a plot that actually feels original.
 

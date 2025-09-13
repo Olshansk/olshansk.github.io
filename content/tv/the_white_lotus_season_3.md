@@ -6,9 +6,8 @@ description = "Olshansky's review of The White Lotus: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Absolutely loved it.
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Movie 43"
 date = "2018-10-17T13:30:05"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Movie 43"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 I really think this movie is underrated. It's weird and stupid as hell, but it's frikkin hilarious!
 

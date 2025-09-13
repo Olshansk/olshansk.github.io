@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Lion King"
 date = "2019-08-03T07:21:50.367000"
+rating = "⭐⭐🌟"
+
 description = "Olshansky's review of The Lion King"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐🌟
 
 A beautiful "national geographic" film that tries and fails to trigger the inner child and long-lasting connection many of us have had with the film. It definitely did not live up to the original.
 

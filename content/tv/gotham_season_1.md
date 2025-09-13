@@ -6,9 +6,8 @@ description = "Olshansky's review of Gotham: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 You start watching this show because you want to see batman, but you get so much more!
 

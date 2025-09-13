@@ -6,9 +6,8 @@ description = "Olshansky's review of The Umbrella Academy: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 The last season was very much made for the fans.
 

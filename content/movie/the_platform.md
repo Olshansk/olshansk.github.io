@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Platform"
 date = "2020-07-02T17:09:51.754000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of The Platform"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 This film exceeded all of my expectations.
 

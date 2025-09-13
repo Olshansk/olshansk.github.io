@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Host"
 date = "2013-04-21T01:42:57"
+rating = "🌟"
+
 description = "Olshansky's review of The Host"
 tags = [
     "movie",
 ]
 +++
 
-Rating: 🌟
 
 Olshansky was too lazy to write a review for this one...
 

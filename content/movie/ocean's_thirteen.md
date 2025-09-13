@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Ocean's Thirteen"
 date = "2018-07-16T08:49:39"
+rating = "⭐⭐⭐"
+
 description = "Olshansky's review of Ocean's Thirteen"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐
 
 I somehow missed the memo that there was an Ocean's 12 and jumped straight from Ocean's 11 to Oceans' 13.
 

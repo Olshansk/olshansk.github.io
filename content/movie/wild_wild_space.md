@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Wild Wild Space"
 date = "2024-09-15T15:40:33"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of Wild Wild Space"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐🌟
 
 Very fun and informative film if you're not in the aerospace industry.
 

@@ -2,6 +2,8 @@
 author = "Daniel Olshansky"
 title = "Martha: A hard-working perfectionist who got really unlucky (4/5)"
 date = "2025-01-05T00:00:00"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Martha"
 tags = [
     "movie",
@@ -14,7 +16,6 @@ to visit your home for a brunch or dinner if the opportunity ever comes up. ✌�
 
 ---
 
-Rating: ⭐⭐⭐⭐
 
 I'm projecting, but will go ahead and say that if you're a late 80s or early 90s
 millennial from the US, Martha Stewart is most likely one of three things:

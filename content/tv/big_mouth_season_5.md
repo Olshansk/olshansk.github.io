@@ -6,9 +6,8 @@ description = "Olshansky's review of Big Mouth: Season 5"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 After finally catching up on all the released seasons/episodes, I have to admit that Big Mouth has gone from a "I guess I"ll check this out" to "Nothing can match Rick & Morty, but this is definitely an interesting parallel".
 

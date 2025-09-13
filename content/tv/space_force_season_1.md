@@ -6,9 +6,8 @@ description = "Olshansky's review of Space Force: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 A fun, easy-to-watch comedy that won't blow your socks off but also makes for a great past time.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Better Call Saul: Season 5"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 It's all good man!!
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of RocketJump: The Show: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Episode 1
 -------------

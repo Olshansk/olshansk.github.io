@@ -6,9 +6,8 @@ description = "Olshansky's review of Squid Game: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The takes for this game were high but squid game did not disappoint. Loved it,
 and can't wait for the second season to be released already.

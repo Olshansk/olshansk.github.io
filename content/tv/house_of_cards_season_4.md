@@ -6,9 +6,8 @@ description = "Olshansky's review of House of Cards: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 Episode 1
 ------------

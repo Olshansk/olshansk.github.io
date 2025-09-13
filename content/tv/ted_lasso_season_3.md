@@ -6,9 +6,8 @@ description = "Olshansky's review of Ted Lasso: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Easily the most wholesome show I've ever watched. If anything will give you hope that being a good person pays of, it's The Richmond (Lasso?) Way.
 

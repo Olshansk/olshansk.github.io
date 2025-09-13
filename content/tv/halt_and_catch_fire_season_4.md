@@ -6,9 +6,8 @@ description = "Olshansky's review of Halt and Catch Fire: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 (caps not intended but rotten tomatoes is broken at the time of writing this).
 

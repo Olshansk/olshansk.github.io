@@ -6,9 +6,8 @@ description = "Olshansky's review of The Leftovers: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The state of the show mimics it's own plot, which is just a depiction of our understanding of the world around us. There is only chaos, and we are always trying to make sense of whatever is left-over.
 

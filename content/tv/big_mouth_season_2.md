@@ -6,9 +6,8 @@ description = "Olshansky's review of Big Mouth: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 The level of humor increases with every episode where this show becomes not only entertaining but also clever in an interesting way.
 

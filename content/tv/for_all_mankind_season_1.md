@@ -6,9 +6,8 @@ description = "Olshansky's review of For All Mankind: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 The allure of space caught my attention, but I hadn't heard of this show before going into the first season, and it exceeded all my expectations!
 

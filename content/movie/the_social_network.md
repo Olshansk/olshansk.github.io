@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Social Network"
 date = "2022-01-15T09:46:41.526000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of The Social Network"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 I remember watching this movie in 2010 when it just came out, and I just rewatched it in 2022 during its last month of Netflix. It is fascinating how much time has passed, how things have changed.
 

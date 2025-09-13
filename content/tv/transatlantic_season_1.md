@@ -6,9 +6,8 @@ description = "Olshansky's review of Transatlantic: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 The show started with me breaking my brain as to where I know the lead female actress
 from. Took me a couple of episodes to realize that I used to watch Gillian Jacobs

@@ -6,9 +6,8 @@ description = "Olshansky's review of Black Mirror: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Olshansky was too lazy to write a review for this one...
 

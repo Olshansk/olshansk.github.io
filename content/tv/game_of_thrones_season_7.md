@@ -6,9 +6,8 @@ description = "Olshansky's review of Game of Thrones: Season 7"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 If I could give this season more than 6 stars, I would. The storyline, acting CG, music all come together to make something that is unbelivably breathtaking.
 

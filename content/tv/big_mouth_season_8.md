@@ -6,9 +6,8 @@ description = "Olshansky's review of Big Mouth: Season 8"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Big Mouth continues, with every episode of every season, to deliver top-notch quality.
 

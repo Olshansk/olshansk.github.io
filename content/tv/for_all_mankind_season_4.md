@@ -6,9 +6,8 @@ description = "Olshansky's review of For All Mankind: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The show set a very high bar with Season 2 & 3. Season 4 kept the momentum going
 and kept meeting the standards.

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Bill & Ted Face the Music"
 date = "2021-07-05T08:57:51.710000"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Bill & Ted Face the Music"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 I wanted a stupid movie to turn my brain off with Keanu Reeves and this was exactly it.
 

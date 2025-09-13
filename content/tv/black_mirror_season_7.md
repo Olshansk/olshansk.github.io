@@ -6,9 +6,8 @@ description = "Olshansky's review of Black Mirror: Season 7"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 After many years, Black Mirror comes back and does not disappoint. Once again, it's on point.
 

@@ -2,13 +2,13 @@
 author = "Daniel Olshansky"
 title = "Deadpool and Wolverine"
 date = "2025-08-30T11:24:10.289000"
+rating = "⭐⭐⭐⭐⭐"
 description = "Olshansky's review of Deadpool and Wolverine"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 The sort of film you go into with extremely high expectations, and it somehow manages to exceed all of them.
 

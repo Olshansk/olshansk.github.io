@@ -6,9 +6,8 @@ description = "Olshansky's review of Unbreakable Kimmy Schmidt: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Amongst the lines of other shows such ass Modern Family or Community, Unbreakable Kimmy Schmidt was a new and refreshing change. Over-the-top stereotypical characters, in a somewhat unrealistic scenario, facing unlikely issues in life, but solving them in a genuinely humble and funny way. 
 

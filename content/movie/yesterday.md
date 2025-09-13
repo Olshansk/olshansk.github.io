@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Yesterday"
 date = "2022-01-28T19:58:00.778000"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Yesterday"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 An awesome feel-good movie with an extremely original plot twist that takes you down a path you don't expect. 
 

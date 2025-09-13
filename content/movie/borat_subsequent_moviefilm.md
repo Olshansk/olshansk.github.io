@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Borat Subsequent Moviefilm"
 date = "2020-11-09T08:28:10.020000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Borat Subsequent Moviefilm"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Surprisingly exceeded all my expectations!
 

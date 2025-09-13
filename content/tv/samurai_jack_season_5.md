@@ -6,9 +6,8 @@ description = "Olshansky's review of Samurai Jack: Season 5"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 Episode 1: It's nostalgic, exciting and action packed. It managed to maintain it's authentic visual and audio aesthetic, while also feeling modern in the scope of other shows that are released nowadays. Most importantly, the show is not afraid of verging on breaking the 4th walll and being funny, while also being very psychologically deep by addressing Jack's inner conflicts.
 

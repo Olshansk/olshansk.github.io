@@ -6,9 +6,8 @@ description = "Olshansky's review of The White Lotus: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 I rarely watch 2 1 hour episodes back-to-back, but this Season was so good that I had two. The pace and balance between storytelling and character development is perfect.
 

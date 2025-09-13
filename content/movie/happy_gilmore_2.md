@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Happy Gilmore 2"
 date = "2025-08-09T20:07:00"
+rating = "⭐⭐⭐🌟"
+
 description = "Olshansky's review of Happy Gilmore 2"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐🌟
 
 Just Adam Sandler having fun, and spreading his infectious joy to his friends, family and the audience.
 

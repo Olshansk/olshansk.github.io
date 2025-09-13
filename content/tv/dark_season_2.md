@@ -6,9 +6,8 @@ description = "Olshansky's review of Dark: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 HOLY SHIT!!!!!!! This show is mind-blowing.
 

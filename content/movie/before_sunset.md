@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Before Sunset"
 date = "2016-04-30T04:16:12"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Before Sunset"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 I'm so glad I only had to wait a couple months (until I got together with my friend) to watch this film rather than the 9 years real fans had to wait. 
 

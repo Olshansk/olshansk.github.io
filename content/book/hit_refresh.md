@@ -6,9 +6,8 @@ description = "Olshansky's review of Hit Refresh"
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 - [Summary](#summary)
 - [History](#history)

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Dream Scenario"
 date = "2025-07-06T11:24:10.289000"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Dream Scenario"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 Classic Nicolas Cage in a role designed specifically for him, in a plot that's
 engaging and traumatizing at the same time.

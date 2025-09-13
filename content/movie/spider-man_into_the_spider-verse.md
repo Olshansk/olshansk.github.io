@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Spider-Man: Into the Spider-Verse"
 date = "2019-04-19T23:35:23"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Spider-Man: Into the Spider-Verse"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 One word: revolutionary.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of The Kominsky Method: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 A fresh and original feel-good and thoughtful TV show full of amazing actors, peculiar characters, and a plot you get attached to. I absolutely loved every single episode, every character in their own way, and every plot twist.
 

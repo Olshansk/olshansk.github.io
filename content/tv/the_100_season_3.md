@@ -6,9 +6,8 @@ description = "Olshansky's review of The 100: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1
 -------------

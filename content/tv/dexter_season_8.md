@@ -6,9 +6,8 @@ description = "Olshansky's review of Dexter: Season 8"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐🌟
 
 This was one of those shows that started off really good, but kept repeating the same thing too often while taking too long to drive the underlying plot. Only got up to season 5.
 

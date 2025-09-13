@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Shang-Chi and the Legend of the Ten Rings"
 date = "2021-09-15T06:47:52.820000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Shang-Chi and the Legend of the Ten Rings"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 This movie was absolutely amazing in every single way.
 

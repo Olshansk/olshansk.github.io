@@ -6,9 +6,8 @@ description = "Olshansky's review of The People v. O.J. Simpson: American Crime 
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐🌟
 
 Having not known anything about the trial, this ten episode special was a great historical lesson. Based on some googling, it seems to have been true to reality. The show was captivating, engaging and well shot. However, it wasn't breathtaking or thought provoking. It is a good show, but not a memerable one.
 

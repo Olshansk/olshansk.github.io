@@ -6,9 +6,8 @@ description = "Olshansky's review of Baby Reindeer"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 It was captivating, it was discomforting, it was real, it was confusing, it was
 fun, it was raw. It was a story an individual had to tell, and no autobiography

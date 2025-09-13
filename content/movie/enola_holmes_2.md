@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Enola Holmes 2"
 date = "2023-01-13T15:20:20.527000"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Enola Holmes 2"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 Sometimes I forget that Millie Bobby Brown isn't even 18, but is as talented as someone who has been doing this for a decade because she has!
 

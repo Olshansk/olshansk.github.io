@@ -6,9 +6,8 @@ description = "Olshansky's review of The 100: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Episode 1: The first episode has set the stage for a very sci-fi-ish dystopian world, with a very permitting plot that can expand in various directions, and lots of room to, and lots of room to both introduce, kill of, and develop the characters introduced; all smothered with cheesy goodness.
 

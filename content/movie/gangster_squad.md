@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Gangster Squad"
 date = "2013-05-04T13:44:05"
+rating = "⭐⭐🌟"
+
 description = "Olshansky's review of Gangster Squad"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐🌟
 
 Olshansky was too lazy to write a review for this one...
 

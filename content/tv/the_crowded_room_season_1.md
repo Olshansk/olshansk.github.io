@@ -6,9 +6,8 @@ description = "Olshansky's review of The Crowded Room: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Absolutely incredible. Nothing short of of an oscar winning performance by Tom Holland and Amanda Seyfried. This series is what turned me from seeing Tom as a charismatic individual, great actor, good looking guy, to a true artist, a method actor, and one of the best in his field.
 

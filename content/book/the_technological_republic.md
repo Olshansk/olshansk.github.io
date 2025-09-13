@@ -7,9 +7,8 @@ tags = [
     "book",
 ]
 ShowToc = true
+rating = "⭐⭐"
 +++
-
-Rating: ⭐⭐
 
 [📚 GoodReads Info 📚](https://goodreads.com/book/show/213618136)
 

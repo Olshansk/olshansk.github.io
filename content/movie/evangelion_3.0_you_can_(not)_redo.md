@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Evangelion: 3.0 You Can (Not) Redo"
 date = "2021-07-03T08:28:23.384000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Evangelion: 3.0 You Can (Not) Redo"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 My review of the second film sums up exactly how I feel about this one as well.
 

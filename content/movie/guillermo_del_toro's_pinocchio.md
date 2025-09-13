@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Guillermo del Toro's Pinocchio"
 date = "2023-01-21T11:38:35.821000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Guillermo del Toro's Pinocchio"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Surprisingly multi-dimensional.
 

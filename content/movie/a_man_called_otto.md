@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "A Man Called Otto: An omen to a simple but fulfilling life"
 date = "2025-11-07T06:16:21"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of A Man Called Otto"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 There are two reasons I watched this film:
 

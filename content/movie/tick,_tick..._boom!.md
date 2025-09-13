@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Tick, Tick... Boom!"
 date = "2021-12-18T11:50:33.589000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Tick, Tick... Boom!"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 As a musical fanatic, I absolutely loved everything about this movie. It is a must see if you like going to musicals or watching musical Disney films.
 

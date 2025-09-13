@@ -6,9 +6,8 @@ description = "Olshansky's review of The Leftovers: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 With the series finale, I can confidently say The Leftovers is officially one of my favorite shows.
 

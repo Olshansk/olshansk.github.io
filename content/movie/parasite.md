@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Parasite"
 date = "2020-10-04T13:46:36.629000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Parasite"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Deserved every award it won and much more. This high paced thriller is original, beautifully shot, entertaining and surprising at every moment.
 

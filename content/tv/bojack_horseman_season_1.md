@@ -6,9 +6,8 @@ description = "Olshansky's review of BoJack Horseman: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 It requires a bit of a push to get into at first, but then the momentum just flows.
 

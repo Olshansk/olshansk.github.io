@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Roald Dahl's Matilda the Musical"
 date = "2023-01-07T09:44:54.913000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Roald Dahl's Matilda the Musical"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Absolutely Phenomenal!
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Branding that Means Business"
 tags = [
     "book",
 ]
+rating = "⭐⭐🌟"
 +++
-
-Rating: ⭐⭐🌟
 
 [📚 GoodReads Info 📚](https://www.goodreads.com/en/book/show/62697113-branding-that-means-business)
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Tenet"
 date = "2023-01-14T11:04:37.555000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Tenet"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 10/5 The definition of a must-see.
 

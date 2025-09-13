@@ -6,9 +6,8 @@ description = "Olshansky's review of Crisis in Six Scenes: Miniseries"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐🌟
 
 Not particularly good, but a very joyful, entertaining low commitment show that passes the time.
 

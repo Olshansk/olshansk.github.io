@@ -6,9 +6,8 @@ description = "Olshansky's review of Rick and Morty: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episodes 1 - 4: Getting more funny and better with every single episode.
 

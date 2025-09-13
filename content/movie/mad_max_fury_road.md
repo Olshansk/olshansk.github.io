@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Mad Max: Fury Road"
 date = "2019-02-11T11:45:56"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Mad Max: Fury Road"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 This was a very good, original entertaining film. Great cinematography, original concept, a little weird and different from anything I've seen before. However, I can't say it blew me away or provoked some sort of innate feeling or thought. It's worth watching but was overhyped in my opinion.
 

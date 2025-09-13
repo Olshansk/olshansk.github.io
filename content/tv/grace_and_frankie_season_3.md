@@ -6,9 +6,8 @@ description = "Olshansky's review of Grace and Frankie: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Another season, and another step closer to connecting with the characters and their story.
 

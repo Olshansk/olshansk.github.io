@@ -6,9 +6,8 @@ description = "Olshansky's review of The End of the F...ing World: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 It started out very weird, and I wasn't really sure what to expect... Eventually, the way James learned to love Alyssa, I learned to love the show!
 

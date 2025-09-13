@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Machine"
 date = "2014-06-04T01:11:11"
+rating = "⭐⭐"
+
 description = "Olshansky's review of The Machine"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐
 
 They tried to put a lot of meaning into the abyss emptiness of a machine.
 

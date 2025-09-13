@@ -6,9 +6,8 @@ description = "Olshansky's review of Last Week Tonight With John Oliver: Season 
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Regardless of your opinion on President Trump, two words that John Oliver will never come to terms with, it has created for a very entertaining and educational of Last Week Tonight.
 

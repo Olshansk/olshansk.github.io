@@ -6,9 +6,8 @@ description = "Olshansky's review of Dimension 404: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐
 
 Episode 1: While I wasn't really looking for a new show to watch, I decided to check this out because it's produced by Rocket Jump. It was filmed well, the idea is original and it was fairly entertaining. However, in an age where this is so much good tv to choose from and so little time to watch it, this show does pale to impress.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Outlive"
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 - [tl;dr](#tldr)
 - [Introduction](#introduction)

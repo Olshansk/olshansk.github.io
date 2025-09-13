@@ -6,9 +6,8 @@ description = "Olshansky's review of KAOS ( Netflix Limited Series)"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Easily, easily, easily the best show I've seen in years.
 

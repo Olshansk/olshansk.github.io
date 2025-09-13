@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Evangelion: 2.22 You Can (Not) Advance"
 date = "2021-06-27T09:19:58.890000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Evangelion: 2.22 You Can (Not) Advance"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 I thought I loved the first movie in the series but the second one stepped it up to a whole new level. I give it 6 stars :)
 

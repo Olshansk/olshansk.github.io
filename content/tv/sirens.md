@@ -6,9 +6,8 @@ description = "Olshansky's review of Sirens: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 I didn't expect it, but this film exceeded all of my expectations.
 

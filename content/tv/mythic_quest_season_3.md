@@ -6,9 +6,8 @@ description = "Olshansky's review of Mythic Quest: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The relationship between Poppy and Ian brings out deep concealed emotions I didn't know I have. It's character development, friendship, love that only nerds can appreciate and it's beautiful.
 

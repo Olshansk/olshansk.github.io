@@ -6,9 +6,8 @@ description = "Olshansky's review of Eric: Limited Series"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 > Everyone thinks of changing the world, but no one thinks of changing himself.”
 > – Leo Tolstoy

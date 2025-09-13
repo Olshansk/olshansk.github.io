@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Monty Python and the Holy Grail"
 date = "2015-12-26T11:55:24"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Monty Python and the Holy Grail"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 I started watching it because I felt obligated to, but I finished watching it because it was hi-la-rio-us.
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "American Fiction"
 date = "2025-04-26T11:10:30"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of American Fiction"
 tags = [
     "movie",
 ]
 +++
 
-**Rating: ⭐⭐⭐⭐⭐**
 
 I really enjoyed _American Fiction_ and related to the main character more than I ever expected.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Rick and Morty: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1: I've been looking for something to fill the gap left by futurama for some time now, and this may be it.
 

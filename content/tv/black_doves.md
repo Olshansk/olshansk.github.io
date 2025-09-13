@@ -6,9 +6,8 @@ description = "Olshansky's review of Black Doves (Limited Series)"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 It was a great Christmas themed thriller that took a few twists and turns I
 didn't see coming. The story is alright, but it's the cast that makes it worth it.

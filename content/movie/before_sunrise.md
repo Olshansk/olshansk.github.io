@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Before Sunrise"
 date = "2016-04-29T18:42:57"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Before Sunrise"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 This movie is the epidemy of real life and reminds me of a story that could be written by Haruki Murakami. The realism and simplicity is what makes it so great. Romantic but readable. Awkward but relatable. Entertaining but slightly cringy. 
 

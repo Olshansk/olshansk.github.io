@@ -6,9 +6,8 @@ description = "Olshansky's review of Last Week Tonight With John Oliver: Season 
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Olshansky was too lazy to write a review for this one...
 

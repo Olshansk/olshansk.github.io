@@ -6,9 +6,8 @@ description = "Olshansky's review of Genius: Einstein"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 Very elegant. An exciting, interesting and fun 10 episode special that anyone who enjoys television should watch at some point.
 

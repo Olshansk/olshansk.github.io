@@ -6,9 +6,8 @@ description = "Olshansky's review of Dragon Ball Daima: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Dragon Ball Daima gives the fans what they want.
 

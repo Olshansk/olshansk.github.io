@@ -6,9 +6,8 @@ description = "Olshansky's review of Scientific Freedom: The Elixir of Civilizat
 tags = [
     "book",
 ]
+rating = "⭐"
 +++
-
-Rating: ⭐
 
 - [Overall](#overall)
 

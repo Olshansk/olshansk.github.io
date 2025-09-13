@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Laundromat"
 date = "2020-01-06T19:32:58.373000"
+rating = "⭐⭐⭐🌟"
+
 description = "Olshansky's review of The Laundromat"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐🌟
 
 Not at all what I had expected, but it fascinated me and exceeded my expectations in the weirdest of ways.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Sense8: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 Episode 1
 -------------

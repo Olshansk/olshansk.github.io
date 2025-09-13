@@ -6,9 +6,8 @@ description = "Olshansky's review of How to Make a Few Billion Dollars"
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 [📚 GoodReads Info 📚](https://www.goodreads.com/review/show/7068313652)
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Mountainhead"
 date = "2025-05-31T13:43:19"
+rating = "⭐⭐"
+
 description = "Olshansky's review of the movie Mountainhead"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐
 
 AI? Tech? Billionaires? Steve Carell? HBO Max?
 

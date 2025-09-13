@@ -6,9 +6,8 @@ description = "Olshansky's review of Squid Game: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 A phenomenal ending to an already phenomenal series.
 

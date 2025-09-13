@@ -6,9 +6,8 @@ description = "Olshansky's review of The Umbrella Academy: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 I love the plot, the characters, and the amazing balance of gruesome, silly entertaining and funny. This show just keeps getting better and better with every season, and I can't wait for season 4!
 

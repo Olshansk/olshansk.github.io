@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Becoming Warren Buffett"
 date = "2017-03-12T14:21:08"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Becoming Warren Buffett"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Rating this film feels more like rating Warren Buffet as a person.
 

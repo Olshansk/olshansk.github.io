@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Harry Potter 20th Anniversary: Return to Hogwarts"
 date = "2022-01-03T20:50:04.249000"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Harry Potter 20th Anniversary: Return to Hogwarts"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 Can't say it's a must-watch, but if you enjoyed the Harry Potter films growing up, there's no reason you shouldn't watch this one either.
 

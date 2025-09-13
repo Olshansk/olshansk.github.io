@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Ticket to Paradise"
 date = "2025-07-17T11:10:30"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Ticket To Paradise"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 Right place. Right Time. Right Circumstances.
 

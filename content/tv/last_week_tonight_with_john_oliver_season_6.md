@@ -6,9 +6,8 @@ description = "Olshansky's review of Last Week Tonight With John Oliver: Season 
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 John Oliver always delivers on the reason you watch his show: it's cathartic and entertaining, yet still very informative.
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Oppenheimer"
 date = "2023-08-10T00:00:00"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Oppenheimer"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Three hours flew by as you watch a brilliant man with a brilliant team challenging the boundaries of science while being challenged by the world. Projecting myself, feeling for him, wishing to be him and wishing to never experience his main all come about immediately.
 

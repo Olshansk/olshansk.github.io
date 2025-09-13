@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Anyone But You"
 date = "2024-03-22T06:38:59.515000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Anyone But You"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 A rom-com is part of my regular "burnout recovery" routine, and this was exactly what the doctor ordered :)
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Assassin 33 A.D."
 date = "2020-09-13T13:04:38.312000"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Assassin 33 A.D."
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 A low budget film with character that isn't objectively amazing, but entertaining, a lot of fun, and with an original plot line.
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Post"
 date = "2018-12-31T02:23:09"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of The Post"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 I absolutely LOVED the cast! Meryl Streep, Tom Hanks, Alison Brie, Bob Odenkirk (Saul Goodman) , Jesse Plemnos (Game Night, Black Mirror etc...), Zach Woods (Silicon Valley), Carrie Coo-n (The leftovers), etc... As someone who doesn't recognize too many actors, this one was filled with a ton of actors I love.
 

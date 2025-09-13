@@ -6,9 +6,8 @@ description = "Olshansky's review of The Lean Startup"
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 - [Overall](#overall)
 - [The Four Principles](#the-four-principles)

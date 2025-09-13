@@ -6,9 +6,8 @@ description = "Olshansky's review of Black Mirror: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 This season, like all the others, was ABSO-FUCKIN-LUTELY amazing!
 

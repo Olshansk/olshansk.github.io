@@ -6,9 +6,8 @@ description = "Olshansky's review of Mythic Quest: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The entire arc related to Longbottom is what made this an easy 5 star review. Other than that, it's amazing to see all the actors really building on top of the chemistry they built in the first season and having fun on camera.
 

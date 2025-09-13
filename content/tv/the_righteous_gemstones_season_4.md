@@ -6,9 +6,8 @@ description = "Olshansky's review of The Righteous Gemstones: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Phenomenal final season to a show I enjoyed but didn't love until the very end.
 

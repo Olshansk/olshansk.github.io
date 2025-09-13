@@ -6,9 +6,8 @@ description = "Olshansky's review of Exposure: Poisoned Water, Corporate Greed, 
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐
 
 - [Overall](#overall)
 - [Gory Beginnings](#gory-beginnings)

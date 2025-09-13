@@ -6,9 +6,8 @@ description = "Olshansky's review of WandaVision: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 I watched this series about a year ago but my original review was lost. Overall: MUST WATCH!
 

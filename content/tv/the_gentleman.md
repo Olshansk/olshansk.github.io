@@ -6,9 +6,8 @@ description = "Olshansky's review of The Gentlemen: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Instantly in one of my top 5 shows of all time, and it'll likely stay there for a long time.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Westworld: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 In my opinion the second season was much better than the first. At times it felt like they were trying to do too much or seem like they're to achieve an extremely grand vision, but when it all comes together it's simply remarkable.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Silicon Valley: Season 6"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 This show is amazing and cathartic in every single way. The writers and producers did an amazing job, and I'm sad to know that the chemistry of the main cast has come to an end.
 

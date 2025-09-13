@@ -6,9 +6,8 @@ description = "Olshansky's review of The Flash: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐🌟"
 +++
-
-Rating: ⭐⭐🌟
 
 I was initially very excited for this arrow spinoff, but realized shortly after watching the first few episodes how cheesy both shows are. While it does have it's exciting moments, and the big budget allows for very cool effects, the plot has no depth and the characters are very superficial.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of The Leftovers: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 4: An amazing soundtrack, a lot of movement in the plot, and a great distinction between the toll that this takes on people over the short and long term.
 

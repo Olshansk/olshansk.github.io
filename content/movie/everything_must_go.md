@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Everything Must Go"
 date = "2013-12-05T09:37:10"
+rating = "⭐⭐🌟"
+
 description = "Olshansky's review of Everything Must Go"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐🌟
 
 Olshansky was too lazy to write a review for this one...
 

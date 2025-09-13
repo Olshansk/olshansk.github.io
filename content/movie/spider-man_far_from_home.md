@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Spider-Man: Far From Home"
 date = "2019-10-08T19:15:05.321000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Spider-Man: Far From Home"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Surprisingly great!
 

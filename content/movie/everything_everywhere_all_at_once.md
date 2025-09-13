@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Everything Everywhere All at Once"
 date = "2022-06-19T08:41:12.980000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Everything Everywhere All at Once"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Exceeded absolutely every expectation I could have had, and I went in with none going in.
 

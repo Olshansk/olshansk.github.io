@@ -6,9 +6,8 @@ description = "Olshansky's review of Dark: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 As a time travel junkie, my opinion is definitely biased.
 

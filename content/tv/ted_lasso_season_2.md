@@ -6,9 +6,8 @@ description = "Olshansky's review of Ted Lasso: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 More of the same, but different, as season 1, and that's exactly what I was looking for.
 

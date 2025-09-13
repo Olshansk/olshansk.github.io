@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Zootopia"
 date = "2016-06-05T07:37:55"
+rating = "⭐⭐⭐🌟"
+
 description = "Olshansky's review of Zootopia"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐🌟
 
 A good film that Disney can add to its repertoire, but won't have a grand impact on culture or filmmaking as a whole. 
 

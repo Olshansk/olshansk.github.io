@@ -6,9 +6,8 @@ description = "Olshansky's review of Loot: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐🌟
 
 Loot is one of my go-to "I just need to relax and watch something" shows. It won't advance further than that, but I also think I'll keep watching it as long as new episodes keep coming out.
 

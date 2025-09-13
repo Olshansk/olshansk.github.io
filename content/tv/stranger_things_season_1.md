@@ -6,9 +6,8 @@ description = "Olshansky's review of Stranger Things: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1: I've been hearing a lot about this show and finally decided to give it a shot. Supernatural powers set in a small US town in the 80s? Count me in! I was very intrigued since the very first scene, and lam a fan of all the child actors selected. There wasn't that much depth to the first episode but I can't wait to watch the next one!
 

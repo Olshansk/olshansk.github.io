@@ -6,9 +6,8 @@ description = "Olshansky's review of The Walking Dead: Season 6"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Something weird happened with the episode reviews here, so they may be out of order and I also have duplicates for some reason...
 

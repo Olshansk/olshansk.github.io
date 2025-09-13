@@ -6,9 +6,8 @@ description = "Olshansky's review of Silo: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐
 
 I watched the whole seasons but am still unsure if I'll stick around for the second one.
 

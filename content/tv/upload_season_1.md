@@ -6,9 +6,8 @@ description = "Olshansky's review of Upload: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐
 
 Unique and intriguing, but nothing mind-blowing.
 

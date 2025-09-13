@@ -6,9 +6,8 @@ description = "Olshansky's review of BoJack Horseman: Season 6"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 In my honest personal opinion, this is one of the most underrated series I've discovered.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of Big Mouth: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 EDIT: Big Mouth started as a "turn off my brain" show before going to bed, but it has slowly morphed into one that breaks all 4th wall boundaries with original and impressive writing. The last two episodes of the third seasons (the misogynistic play, the sexual tension, big dick boy jokes, the middle school superhero episode, coach Steve's makeover) were absolutely amazing and reminded me of the early days of Community.
 

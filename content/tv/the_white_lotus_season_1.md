@@ -6,9 +6,8 @@ description = "Olshansky's review of The White Lotus: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 An original, dark, twisted, true-to-life mini-series that will definitely invoke different emotions depending on who is watching it, and I absolutely love the after-thought it left in my mind.
 

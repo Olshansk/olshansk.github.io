@@ -6,9 +6,8 @@ description = "Olshansky's review of The Billion Dollar Code: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Not quite Halt and Catch Fire, but a great show nonetheless, telling the story of something we all use and don't know the background of.
 

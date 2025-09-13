@@ -6,9 +6,8 @@ description = "Olshansky's review of Silicon Valley: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 While the first season was something unlike we've ever seen before, the second season was more of the same thing, which is just what it needed to be.
 

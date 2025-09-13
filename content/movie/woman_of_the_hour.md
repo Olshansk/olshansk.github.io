@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Woman of the Hour"
 date = "2025-03-29T11:10:30"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Woman of the Hour"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 This films leaves an impact.
 

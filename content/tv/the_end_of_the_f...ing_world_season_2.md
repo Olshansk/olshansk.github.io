@@ -6,9 +6,8 @@ description = "Olshansky's review of The End of the F...ing World: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Very slow, but somehow both horrifying and funny at the same time. The chemistry between the two leads is unparalleled and they play off each other in an indescribable way.
 

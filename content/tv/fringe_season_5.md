@@ -6,9 +6,8 @@ description = "Olshansky's review of Fringe: Season 5"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 One of the best sci-fi shows on TV.
 

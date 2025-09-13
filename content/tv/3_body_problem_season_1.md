@@ -6,9 +6,8 @@ description = "Olshansky's review of The 3 Body Problem: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Having read the first book and loved it, this didn't just exceed my expectations,
 but left me memorized.

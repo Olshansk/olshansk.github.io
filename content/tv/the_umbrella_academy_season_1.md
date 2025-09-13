@@ -6,9 +6,8 @@ description = "Olshansky's review of The Umbrella Academy: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Just gets better with every episode as you learn to love the characters.
 

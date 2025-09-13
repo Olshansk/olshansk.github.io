@@ -6,9 +6,8 @@ description = "Olshansky's review of Rick and Morty: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Another hilarious, brilliant and original season of Rick & Morty!
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Sixth Sense"
 date = "2019-06-30T19:16:21.545000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of The Sixth Sense"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 A classic that definitely stands the test of time.
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "General Magic"
 date = "2019-09-02T07:43:52.970000"
+rating = "⭐⭐⭐"
+
 description = "Olshansky's review of General Magic"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐
 
 An origin story everyone should know about finally brought to light, but the lack of a happy ending feels like it doesn't do justice to the people behind it.
 

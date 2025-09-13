@@ -6,9 +6,8 @@ description = "Olshansky's review of The Spy: Limited Series"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 A phenomenal, thrilling, and sometimes difficult to watch series. If this were a fictional Hollywood production, I would say that the writing was great. Given the fact that this was based on a true story, it makes every single scene so much more powerful.
 

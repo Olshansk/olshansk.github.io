@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "We Are Your Friends"
 date = "2015-11-30T07:30:25"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of We Are Your Friends"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐
 
 A passionate performance by Zac Efron in a very endearing film that plays by the rules but dares to go beyond traditional expectations.
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Aladdin"
 date = "2019-10-15T20:24:58.966000"
+rating = "⭐⭐🌟"
+
 description = "Olshansky's review of Aladdin"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐🌟
 
 Just a trip down nostalgia lane with nothing special.
 

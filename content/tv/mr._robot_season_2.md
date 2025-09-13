@@ -6,9 +6,8 @@ description = "Olshansky's review of Mr. Robot: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1
 -------------

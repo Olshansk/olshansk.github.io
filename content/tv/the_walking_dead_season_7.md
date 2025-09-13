@@ -6,9 +6,8 @@ description = "Olshansky's review of The Walking Dead: Season 7"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Episode 1
 ?????

@@ -6,9 +6,8 @@ description = "Olshansky's review of The Witcher: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 This somehow exceeded all my expectations.
 

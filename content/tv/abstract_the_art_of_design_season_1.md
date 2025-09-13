@@ -6,9 +6,8 @@ description = "Olshansky's review of Abstract: The Art of Design: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1: A new unique show that really show the other side of something I've never seen before. I can tell how difficult it was for both the artist and director to figure out how to fill an hour, but every moment still managed to be unique, moving and inspirational. Utterly amazing!
 

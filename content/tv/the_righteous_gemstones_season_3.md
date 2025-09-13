@@ -6,9 +6,8 @@ description = "Olshansky's review of The Righteous Gemstones: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 I can’t tell if the show is growing on me or if it’s getting better.
 

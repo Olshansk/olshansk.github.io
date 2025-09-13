@@ -6,9 +6,8 @@ description = "Olshansky's review of Love Is Blind: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐🌟"
 +++
-
-Rating: ⭐⭐🌟
 
 I can't believe I finished the whole first season, but it was indeed something that was mildly entertaining and passed the time. I had the keyboard by my side, constantly skipping over various parts, so I probably watched it at around 2x speed overall.
 

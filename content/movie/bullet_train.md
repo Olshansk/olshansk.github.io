@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Bullet Train"
 date = "2023-01-21T10:20:02.550000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Bullet Train"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 EEE: Exhilarating, Entertaining and Eccentric.
 

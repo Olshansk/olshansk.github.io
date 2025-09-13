@@ -6,9 +6,8 @@ description = "Olshansky's review of The Shrink Next Door: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 A great show with such a throbbing plot that it's hard to believe it's based on a true story. My family watched this together and we constantly wanted it to end but also felt that we can't not finish it.
 

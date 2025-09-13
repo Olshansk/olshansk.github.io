@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Amateur"
 date = "2025-08-16T20:07:00"
+rating = "⭐⭐🌟"
+
 description = "Olshansky's review of The Amateur"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐🌟
 
 Good, but not memorable.
 

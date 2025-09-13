@@ -6,9 +6,8 @@ description = "Olshansky's review of Legion: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐🌟
 
 The first few episodes were extremely captivating, but it started getting a little bit repetitive towards the end.
 

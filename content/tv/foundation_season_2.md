@@ -6,9 +6,8 @@ description = "Olshansky's review of Foundation: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The first season was good, but did leave me craving for more. Alas, I was still looking forward to the second season and it was absolutely incredible! The plot, the acting, the graphics, the actors, the ideas, the suspense, all of it! Absolutely phenomenal and I can't believe I'll have to wait a year for the next one.
 

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Catch Me if You Can"
 date = "2014-05-23T02:08:02"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of Catch Me if You Can"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐🌟
 
 Olshansky was too lazy to write a review for this one...
 

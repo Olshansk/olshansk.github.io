@@ -6,9 +6,8 @@ description = "Olshansky's review of Schitt's Creek: Season 6"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 At first the show was just okay, but as the seasons go on, you really learn to love the characters. Nothing to add moreso than that.
 

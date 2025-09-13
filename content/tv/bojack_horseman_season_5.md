@@ -6,9 +6,8 @@ description = "Olshansky's review of BoJack Horseman: Season 5"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 My friend and I like to recommend each other interesting podcasts, books, tv shows and movies that are not just engaging and fun, but also insightful and thought-provoking.
 

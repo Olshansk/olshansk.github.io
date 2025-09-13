@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Free Guy"
 date = "2022-02-22T13:10:12.839000"
+rating = "⭐⭐⭐🌟"
+
 description = "Olshansky's review of Free Guy"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐🌟
 
 A relatively original idea, led by the always funny Ryan Reynolds, showcasing Joe Keery in a different lens, with a big budget to make everything look cool.
 

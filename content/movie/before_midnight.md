@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Before Midnight"
 date = "2015-08-15T13:07:00"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of Before Midnight"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐🌟
 
 Another beautiful movie in a very moving series.
 

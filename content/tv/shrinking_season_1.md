@@ -6,9 +6,8 @@ description = "Olshansky's review of Shrinking: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 Off to a slow start, but it gets better with every episode. You can sense how the actors became more comfortable with each other over time, and it really came across on screen. It's either amazing acting, or just organic chemistry, but more likely both.
 

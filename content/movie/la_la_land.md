@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "La La Land"
 date = "2016-12-09T23:54:17"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of La La Land"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐🌟
 
 I went to watch this movie because of Ryan Gosling. While I'm not Emma Stone's biggest fan, I love and admire her acting ability. As a lover of musicals, I was very pleasantly surprised 1 minute into the movie when I found out it was also a musical! The music was great, the story was lovely and the camera angles and transitions were both fun and original. 
 

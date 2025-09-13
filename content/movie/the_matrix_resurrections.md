@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Matrix Resurrections"
 date = "2021-12-26T13:42:16.615000"
+rating = "⭐⭐⭐"
+
 description = "Olshansky's review of The Matrix Resurrections"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐
 
 The film did a very good job at appealing to its original fanbase, but similar to how the second and third films in the trilogy were nothing compared to the iconic original, this wasn't any different.
 

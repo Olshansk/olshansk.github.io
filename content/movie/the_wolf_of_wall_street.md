@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Wolf of Wall Street"
 date = "2013-12-11T12:35:53"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of The Wolf of Wall Street"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐🌟
 
 Olshansky was too lazy to write a review for this one...
 

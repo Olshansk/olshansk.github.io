@@ -6,9 +6,8 @@ description = "Olshansky's review of The Bear: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 I never thought that watching people making sandwiches in a small Chicago cafe could be interesting.
 

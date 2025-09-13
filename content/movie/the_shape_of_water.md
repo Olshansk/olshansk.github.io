@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Shape of Water"
 date = "2018-04-23T12:42:06"
+rating = "⭐⭐⭐"
+
 description = "Olshansky's review of The Shape of Water"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐
 
 A really cool fantasy, in a good setting with an intriguing plot. However, the plain cinematography and lack of character development left hungry for more.
 

@@ -6,9 +6,8 @@ description = "Olshansky's review of House of the Dragon: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 While it didn't blow my mind, it was "more of the same" as Game of Thrones which is exactly what I was hoping for. It felt more like a story than a journey of character development, but I'm hoping that will change in future seasons.
 

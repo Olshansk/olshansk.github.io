@@ -6,9 +6,8 @@ description = "Olshansky's review of Space Force: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 A light, fun and feel-good movie that doesn't break new grounds a nice and relaxing way to end the day nonetheless.
 

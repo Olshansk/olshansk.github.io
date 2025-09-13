@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "EVANGELION:3.0+1.01 Thrice Upon a Time"
 date = "2021-10-18T17:46:26.288000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of EVANGELION:3.0+1.01 Thrice Upon a Time"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 The first three movies in the series were exciting, interesting and unique at every single step along the way. This last film, for lack of a better word, was simply INSANE!
 

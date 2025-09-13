@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Pokémon Detective Pikachu"
 date = "2019-07-29T06:16:29.387000"
+rating = "⭐⭐⭐"
+
 description = "Olshansky's review of Pokémon Detective Pikachu"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐
 
 A cliche movie, trying to do to much in too little time, but is still worth watching because POKEMON!
 

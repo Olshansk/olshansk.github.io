@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Crazy, Stupid, Love."
 date = "2014-01-05T09:36:44"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Crazy, Stupid, Love."
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐⭐
 
 Olshansky was too lazy to write a review for this one...
 

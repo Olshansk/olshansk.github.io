@@ -6,9 +6,8 @@ description = "Olshansky's review of Nobody Wants This: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐
 
 I'd classify this under "trash tv" but with a bit of class.
 

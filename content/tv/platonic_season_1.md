@@ -6,9 +6,8 @@ description = "Olshansky's review of Platonic: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Fun, original, real, and honest. It's not an Oscar winner I would ever re-watch, but it's a show I'll remember and recommend to friends.
 

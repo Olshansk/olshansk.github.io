@@ -6,9 +6,8 @@ description = "Olshansky's review of Foundation: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 I read the books when I was a kid and was very excited when I learnt that Apple is going to produce the foundation series. The funniest bit is that I remembered absolutely nothing about the story even though my recollection was that I liked it.
 

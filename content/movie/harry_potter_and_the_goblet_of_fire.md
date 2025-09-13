@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Harry Potter and the Goblet of Fire"
 date = "2012-08-29T02:27:11"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of Harry Potter and the Goblet of Fire"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐⭐⭐🌟
 
 Olshansky was too lazy to write a review for this one...
 

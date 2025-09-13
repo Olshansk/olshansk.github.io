@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Uncut Gems"
 date = "2020-07-01T08:38:14.192000"
+rating = "⭐⭐"
+
 description = "Olshansky's review of Uncut Gems"
 tags = [
     "movie",
 ]
 +++
 
-Rating: ⭐⭐
 
 As an Adam Sandler fan, I was extremely disappointed by this film.
 

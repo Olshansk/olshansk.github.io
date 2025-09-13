@@ -6,9 +6,8 @@ description = "Olshansky's review of Succession: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The first season was fantastic, and the second was was no less. The only difference
 is the relationship I, as the viewer, have built with all the characters making
