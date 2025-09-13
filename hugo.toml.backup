@@ -1,0 +1,193 @@
+baseurl = "http://www.olshansky.info"
+title = "🦉 olshansky 🦁"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "olshansky"
+
+# https://analytics.google.com/analytics/web
+googleAnalytics = 'G-15DW3DE66X'
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Daniel Olshansky"
+  info = "Figuring out what I want to do instead of what I  want to want to do"
+  description = "Everything about Olshansky"
+  keywords = "blog,developer,personal"
+  avatarURL = "/images/charicature.jpeg"
+  # gravatar = "olshansky.daniel@gmail.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 1992
+
+  maxSeeAlsoItems = 5
+  commit = false
+  rtl = false
+  math = false
+  katex = false
+
+  colorScheme = "dark"
+  hideColorSchemeToggle = false
+
+  customCSS = ["css/brands.min.css", "css/fontawesome.min.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+  enableTwemoji = true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/olshansk"
+
+[[params.social]]
+  name = "Substack"
+  icon = "fa fa-pencil fa-2x"
+  weight = 1
+  url = "https://olshansky.substack.com"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 1
+  url = "https://twitter.com/olshansky"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 1
+  url = "https://www.linkedin.com/in/dolshansky"
+
+[[params.social]]
+  name = "Medium"
+  icon = "fa fa-medium fa-2x"
+  weight = 1
+  url = "https://olshansky.medium.com"
+
+[[params.social]]
+  name = "Instagram"
+  icon = "fa fa-instagram fa-2x"
+  weight = 1
+  url = "https://instagram.com/olshansk"
+
+# TODO: Need to update css to fix this
+[[params.social]]
+  name = "Strava"
+  icon = "fab fa-strava fa-2x"
+  weight = 1
+  url = "https://www.strava.com/athletes/65389405"
+
+# TODO: Link to all the things I read.
+# https://medium.com/me/stories/responses
+# https://olshansky.substack.com/notes
+# https://x.com/search?q=%23linkblogging%20from%3Aolshansky&src=typed_query
+
+
+[[params.social]]
+  name = "Telegram"
+  icon = "fa fa-telegram fa-2x"
+  weight = 1
+  url = "https://t.me/dolshansky"
+
+[[params.social]]
+  name = "RSS"
+  icon = "fa fa-rss fa-2x"
+  weight = 1
+  url = "https://olshansky.info/index.xml"
+
+# Menu links
+
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+
+# [[menu.main]]
+#   name = "Contact"
+#   weight = 1
+#   url = "contact/"
+
+# [[menu.main]]
+#   name = "Blog"
+#   weight = 1
+#   url  = "posts/"
+
+
+[[menu.main]]
+  name = "Presentations"
+  weight = 1
+  url = "https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E"
+
+[[menu.main]]
+  name = "Publications"
+  weight = 2
+  url = "https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en&oi=sra"
+
+[[menu.main]]
+  name = "Book Reviews"
+  weight = 3
+  url = "book/"
+
+[[menu.main]]
+  name = "Movie Reviews"
+  weight = 4
+  url = "movie/"
+
+[[menu.main]]
+  name = "Show Reviews"
+  weight = 5
+  url = "tv/"
+
+# TODO: Figure out why my namecheap URL redirect at podcasts.olshansky.info isn't working
+[[menu.main]]
+  name = "Podcast List"
+  weight = 6
+  url = "https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e"
+
+# If you want to implement a Content-Security-Policy, add this section
+[params.csp]
+  childsrc = ["'self'"]
+  fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+  formaction = ["'self'"]
+  framesrc = ["'self'", "https://www.youtube.com"]
+  imgsrc = ["'self'"]
+  objectsrc = ["'none'"]
+  stylesrc = [
+    "'self'",
+    "'unsafe-inline'",
+    "https://fonts.googleapis.com/",
+    "https://cdn.jsdelivr.net/",
+  ]
+  scriptsrc = [
+    "'self'",
+    "'unsafe-inline'",
+    "https://www.google-analytics.com",
+    "https://cdn.jsdelivr.net/",
+    "https://assets.onedollarstats.com",
+  ]
+  prefetchsrc = ["'self'"]
+  # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
+  connectsrc = [
+    "'self'",
+    "https://www.google-analytics.com",
+    "https://api.onedollarstats.com",
+  ]
+
+[params.onedollarstats]
+    id = "olshansky.info"
