@@ -53,13 +53,7 @@
   {{- end }}
   {{- if not ($page.Param "hideMeta") }}
   <footer class="entry-footer">
-    <span>{{ $page.Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</span>
-    {{- if $page.ReadingTime }}
-    <span>&nbsp;·&nbsp;{{ $page.ReadingTime }} min read</span>
-    {{- end }}
-    {{- if .Site.Params.ShowWordCount }}
-    <span>&nbsp;·&nbsp;{{ $page.WordCount }} words</span>
-    {{- end }}
+    {{- partial "post_meta.html" $page -}}
   </footer>
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ $page.Title | plainify }}" href="{{ $page.Permalink }}"></a>
