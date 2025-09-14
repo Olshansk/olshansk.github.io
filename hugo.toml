@@ -5,7 +5,8 @@ languagecode = "en"
 defaultcontentlanguage = "en"
 
 # Disable pagination - show all items on one page
-paginate = 1000
+[pagination]
+  pagerSize = 1000
 
 # Commenting out Disqus for now
 # disqusShortname = "olshansky"

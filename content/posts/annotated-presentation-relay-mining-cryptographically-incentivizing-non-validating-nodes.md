@@ -1,6 +1,6 @@
 +++
 author = "Daniel Olshansky"
-title = "Annotated Presentation: "Relay Mining: Cryptographically Incentivizing Non-Validating Nodes""
+title = "Annotated Presentation: Relay Mining - Cryptographically Incentivizing Non-Validating Nodes"
 date = "2024-07-15T04:45:55.115Z"
 description = "EthCC 7"
 tags = [

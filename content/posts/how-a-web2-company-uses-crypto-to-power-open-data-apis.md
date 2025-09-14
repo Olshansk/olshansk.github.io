@@ -2,7 +2,7 @@
 author = "Daniel Olshansky"
 title = "How a Web2 Company Uses Crypto to Power Open Data APIs"
 date = "2025-08-22T16:23:50.224Z"
-description = "There is a big opportunity to build the "Google home page" for finding and accessing APIS for open data sources and services."
+description = "There is a big opportunity to build the Google home page for finding and accessing APIS for open data sources and services."
 tags = [
     "crypto", "ai", "tech", "investment", "productivity", "book"
 ]
