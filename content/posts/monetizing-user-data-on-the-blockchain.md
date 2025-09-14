@@ -9,7 +9,7 @@ medium_url: "https://medium.com/@olshansky/monetizing-user-data-on-the-blockchai
 ShowToc: true
 ---
 
-*Note: This is a repost of a blog published in early 2018.*
+_Note: This is a repost of a blog published in early 2018._
 
 With the advent of blockchain technology there has been a lot of discussion surrounding the monetization of user data. While this idea is great in theory, it took me a while to understand how something like this could be implemented in practice.
 
@@ -56,27 +56,27 @@ contract UserMonetizationContract {
 
 The complete workflow for storing and monetizing user data would follow these steps:
 
-1. **Key Generation**: User generates a symmetric file encryption key: *Ks*
+1. **Key Generation**: User generates a symmetric file encryption key: _Ks_
 
-2. **Data Encryption**: User Data (UD) is encrypted using the key above: *Ks(UD)*
+2. **Data Encryption**: User Data (UD) is encrypted using the key above: _Ks(UD)_
 
-3. **Hash Creation**: User computes a hash of UD as well: *H(UD)*
+3. **Hash Creation**: User computes a hash of UD as well: _H(UD)_
 
-4. **Cloud Storage**: *Ks(UD)* from step 2 is stored to Hooli's servers. Even though Hooli is hosting the data, it cannot decrypt the data.
+4. **Cloud Storage**: _Ks(UD)_ from step 2 is stored to Hooli's servers. Even though Hooli is hosting the data, it cannot decrypt the data.
 
-5. **Buyer Selection**: User queries the smart contract to retrieve *pendingBuyers* and decides which buyers they'd like to grant access to. Without public key infrastructure and a certificate authority, it is impossible to tell whom a certain public key belongs to, but that problem is outside the scope of this article...
+5. **Buyer Selection**: User queries the smart contract to retrieve _pendingBuyers_ and decides which buyers they'd like to grant access to. Without public key infrastructure and a certificate authority, it is impossible to tell whom a certain public key belongs to, but that problem is outside the scope of this article...
 
 6. **Payment Processing**: In exchange for granting a pending buyer permission to their data, a transfer of funds would take place from the buyer to the user. This could be done in many different ways including a flat upfront fee, a subscription model, a negotiation, or even some sort of bid. A small portion of these funds would go to Hooli in exchange for hosting the user's encrypted data.
 
-7. **Key Distribution**: For each buyer from step 5, the user would encrypt the symmetric key from step 1 with the buyer's public keys: *Kp1(Ks)*, *Kp2(Ks)*, *Kp3(Ks)*, etc...
+7. **Key Distribution**: For each buyer from step 5, the user would encrypt the symmetric key from step 1 with the buyer's public keys: _Kp1(Ks)_, _Kp2(Ks)_, _Kp3(Ks)_, etc...
 
-8. **Contract Update**: All of the encrypted keys along with the buyer addresses from step 7 are stored in *acceptedBuyers*
+8. **Contract Update**: All of the encrypted keys along with the buyer addresses from step 7 are stored in _acceptedBuyers_
 
-9. **Data Updates**: Every time the user creates more data, they would encrypt it with *Ks* and upload it to Hooli's servers. The user would then add the hash, metadata and URI to *userData.*
+9. **Data Updates**: Every time the user creates more data, they would encrypt it with _Ks_ and upload it to Hooli's servers. The user would then add the hash, metadata and URI to _userData._
 
-10. **Data Access**: All of the selected parties from step 6 can query the smart contract at any time, use their private keys to retrieve *Ks*, download the data, decrypt it, and check its integrity by comparing it against the hash in the contract.
+10. **Data Access**: All of the selected parties from step 6 can query the smart contract at any time, use their private keys to retrieve _Ks_, download the data, decrypt it, and check its integrity by comparing it against the hash in the contract.
 
-11. **Access Revocation**: Whenever the user wants to remove someone from the list of accepted buyers, they would need to recompute *Ks* and repeat step 7. All the data would need to be downloaded, re-encrypted and re-uploaded. Alternatively, since the buyer being removed may have previously downloaded the data anyhow, only new data generated from that point on would be encrypted using the new *Ks*. For security purposes, it is good practice to recompute *Ks* on a regular basis anyhow.
+11. **Access Revocation**: Whenever the user wants to remove someone from the list of accepted buyers, they would need to recompute _Ks_ and repeat step 7. All the data would need to be downloaded, re-encrypted and re-uploaded. Alternatively, since the buyer being removed may have previously downloaded the data anyhow, only new data generated from that point on would be encrypted using the new _Ks_. For security purposes, it is good practice to recompute _Ks_ on a regular basis anyhow.
 
 ### Handling Broken Trust
 

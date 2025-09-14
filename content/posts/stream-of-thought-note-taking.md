@@ -9,7 +9,7 @@ tags = [
 substack_url = "https://olshansky.substack.com/p/stream-of-thought-note-taking"
 +++
 
-*tl;dr Stream-of-Thought Note Taking is an opinionated approach to brain-dumping thoughts on paper to aid the process of clarifying your own ideas.*
+_tl;dr Stream-of-Thought Note Taking is an opinionated approach to brain-dumping thoughts on paper to aid the process of clarifying your own ideas._
 
 #### Table of Contents
 
@@ -24,6 +24,7 @@ substack_url = "https://olshansky.substack.com/p/stream-of-thought-note-taking"
 - [Extending to Chain-of-Thought & LLMs](https://olshansky.substack.com/i/150058236/extending-to-chain-of-thought-and-llms)
 
 ## The Power of Deletion
+
 One of my favourite Yuval Noah Harari [quotes](https://youtu.be/Mde2q7GFCrw?si=kRmYnGX0otQX0Q35&t=8345) from his interview with Lex Fridman is on the power of the **delete button**:
 
 > I trust myself that I have, to some extent, the ability to press the delete button. The most important button on the keyboard is delete.
@@ -38,6 +39,7 @@ Before a sculpture is polished or textured, it needs to be blocked, modeled, and
 Writing is no different.
 
 ## Tools for Modeling Thoughts
+
 There is an abundance of tools and options for modeling our ideas, thoughts and words.
 
 I don’t recall where I first heard this quote but I remind myself of it as I work with different people under different circumstances:
@@ -46,9 +48,10 @@ I don’t recall where I first heard this quote but I remind myself of it as I w
 
 Throughout the last couple of decades, you could talk to those around you, yourself, or even a rubber duck. You could write your ideas down on paper or a digital device. You could also speak into an audio recorder and play it back later.
 
-Today, I find myself regularly using tools that weren’t available just a few years ago. I go on walks talking to [OpenAI’s advanced voice mode](https://help.openai.com/en/articles/8400625-voice-mode-faq). I use a [reMarkable tablet](https://remarkable.com/)* *as a replacement for paper. I’ve also, on a few occasions, brain-dumped 30+ minute monologues into a AI-enabled note taker so I can play it back, get a transcript and review the key takeaways without any extra work. I use [fireflies.ai](https://fireflies.ai/), but there are a handful of tools providing a similar service.
+Today, I find myself regularly using tools that weren’t available just a few years ago. I go on walks talking to [OpenAI’s advanced voice mode](https://help.openai.com/en/articles/8400625-voice-mode-faq). I use a [reMarkable tablet](https://remarkable.com/)\* \*as a replacement for paper. I’ve also, on a few occasions, brain-dumped 30+ minute monologues into a AI-enabled note taker so I can play it back, get a transcript and review the key takeaways without any extra work. I use [fireflies.ai](https://fireflies.ai/), but there are a handful of tools providing a similar service.
 
 ## Can you get to the point?
+
 If you’ve made it this far, you’re probably tired of the philosophical life lessons and want me to get to the point. Hopefully you enjoyed the long-winded introduction though :)
 
 The process I’m about to describe is something I’ve been introducing more regularly in the following situations:
@@ -64,7 +67,8 @@ The process I’m about to describe is something I’ve been introducing more re
 - Reviewing something that I’ll need to organize and provie concise feedback on
 
 ## Stream-of-Thought Note Taking
-Stream-of-Thought (SoT) note-taking aims to *model* ideas that can later be *crafted* and *polished*. The goal is just to get the raw ingredients on paper.
+
+Stream-of-Thought (SoT) note-taking aims to _model_ ideas that can later be _crafted_ and _polished_. The goal is just to get the raw ingredients on paper.
 
 It biases towards fast, concise, deliberate written bullet points. It prevents run-on long-winded sentences, limits double-takes and does not allow deletion.
 
@@ -76,17 +80,17 @@ I decided to turn this into a game. Here are the rules:
 
 - Bullet points must be 100 characters or less
 
-- ***Enter***: Start a new thought or idea (i.e. a bullet point)
+- **_Enter_**: Start a new thought or idea (i.e. a bullet point)
 
-- ***Indent (push)***: Provide additional details related to the previous idea
+- **_Indent (push)_**: Provide additional details related to the previous idea
 
-- ***Unindent (pop)***: Start a new idea unrelated to the previous point
+- **_Unindent (pop)_**: Start a new idea unrelated to the previous point
 
 **Disabled controls:**
 
-- ***Up***: You cannot go back and edit a previous bullet point
+- **_Up_**: You cannot go back and edit a previous bullet point
 
-- ***Backspace/delete:** *You cannot edit or delete anything that was written down
+- **\*Backspace/delete:** \*You cannot edit or delete anything that was written down
 
 - Thinking a thought that’s not written down
 
@@ -96,7 +100,7 @@ I decided to turn this into a game. Here are the rules:
 
 At first glance, this might seem like making a bullet point list. The difference lies in the mindset shift when you understand who the target audience is.
 
-***🫵 You 🫵***
+**_🫵 You 🫵_**
 
 These bullet points aren’t meant for anyone else. They don’t need to be presented or grammatically correct. No one other than you will ever read them.
 
@@ -113,9 +117,10 @@ The following is a simple and contrived example where I re-enacted some of the n
 The beauty of this method is its broad applicability to anything you need to think through.
 
 ## Extending to Chain-of-Thought & LLMs
+
 I admit that the name for this method was inspired by the [Chain of Thought](https://arxiv.org/abs/2201.11903) methodology implemented in [OpenAI’s o1](https://openai.com/index/learning-to-reason-with-llms/) model. In every other way, it’s unrelated.
 
-Stream-of-Thought is meant for brain dumping, not reasoning. It aims to support thinking through problems and learning, not finding solutions. The target user is a human, not an LLM or AI agent. 
+Stream-of-Thought is meant for brain dumping, not reasoning. It aims to support thinking through problems and learning, not finding solutions. The target user is a human, not an LLM or AI agent.
 
 Could it be extended to LLMs? Probably. I’ll make sure to post about it here if I ever look into it. You should subscribe if you don’t want to miss out ;)
 

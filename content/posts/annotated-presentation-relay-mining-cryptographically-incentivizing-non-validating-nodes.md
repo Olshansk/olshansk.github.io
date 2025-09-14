@@ -13,11 +13,12 @@ Inspired by Simon Willison’s [How I make annotated Presentations](https://simo
 
 > Even with that quality of presentation, I don’t think a video on its own is enough. My most recent talk was 40 minutes long—I’d love people to watch it, but I myself watch very few 40m long YouTube videos each year
 
-I might also create a Twitter thread similar to what [@_tessr](https://x.com/_tessr) did [for her talk on optimism](https://x.com/_tessr/status/1812081858953331142) if anyone requests it.
+I might also create a Twitter thread similar to what [@\_tessr](https://x.com/_tessr) did [for her talk on optimism](https://x.com/_tessr/status/1812081858953331142) if anyone requests it.
 
 The full video from EthCC is available [here](https://ethcc.io/archive/Relay-Mining-Cryptographically-Incentivizing-Non-Validating-Nodes).
 
 ---
+
 I got my first ETH in 2016 and had to use [Mist](https://github.com/ethereum/mist) to sync a full node so I could actually make use of the network. I don’t remember what I did with it, but I do remember [infura.io](https://infura.io/) coming out around Devcon 2. I managed to dig up the [original video](https://www.youtube.com/watch?v=4efkhhLRmjs) from their first announcement.
 
 Since 2016, web3 infrastructure and RPC providers have become such a large commoditized industry since then that synching full nodes doesn’t even cross anyone’s mind anymore unless it’s their full-time job.
@@ -42,7 +43,7 @@ I made another **joke** about how I spent 15 minutes talking to ChatGPT on how t
 
 **RPC Nodes were meant for reads!**
 
-This is much closer to traditional Web2 companies that provide a service via an API. All of the companies listed in the image I copy-pasted are the ones that *actually* enable web3 applications in production.
+This is much closer to traditional Web2 companies that provide a service via an API. All of the companies listed in the image I copy-pasted are the ones that _actually_ enable web3 applications in production.
 
 **Fun fact**: As [Infura started decentralizing](https://www.infura.io/blog/post/meet-the-decentralized-infrastructure-network-partners-microsoft-chainstack-and-15-more), it became one of our customers at [Grove](https://grove.city/) and I got to meet a lot of their team almost 7 years after first trying out the product. I love how small this world is.
 
@@ -76,7 +77,7 @@ One of the reasons why senior leadership is difficult is because it involves jud
 
 A key distinction to understand is that there is a delineation of responsibilities between the network of suppliers, providing services, and the gateways, providing quality of service. In essence:
 
-Supplier networks (i.e. [POKT Network](https://pokt.network/))  provide services (e.g. access to open data sources) and are incentivized to provide a high quality-of-service through an on-chain verifiable counter.
+Supplier networks (i.e. [POKT Network](https://pokt.network/)) provide services (e.g. access to open data sources) and are incentivized to provide a high quality-of-service through an on-chain verifiable counter.
 
 - Gateways (i.e. [Grove](https://grove.city/)) provide off-chain permissionless quality-of-service and are incentivized through off-chain business deals.
 
@@ -84,7 +85,7 @@ Supplier networks (i.e. [POKT Network](https://pokt.network/))  provide services
 
 **Decentralization is a byproduct of a permissionless & incentivized system**. If we have a supplier network with an N-of-1 or a supplier network with an N-of-1,000,000, both are fine as long as the end user gets a good service. As long as the network is permissionless and incentivized, the supplier network will scale as the needs of end users vary.
 
-Quality and cost are what 99% of customers care about even though 99% of conversations revolve around how permissionless, censorship-resistant, etc a network is; *99% is just an empirical estimation*.
+Quality and cost are what 99% of customers care about even though 99% of conversations revolve around how permissionless, censorship-resistant, etc a network is; _99% is just an empirical estimation_.
 
 **We’ve almost arrived at the deep dive stage, but first, actor topology!**
 
@@ -132,7 +133,7 @@ There’s nothing fancy (i.e. no SNARKS, no ZK) going on here, but we are introd
 
 - Using Ring Signatures (popularized by [Monero](https://github.com/monero-project/research-lab/blob/master/whitepaper/whitepaper.pdf)) for delegation, but not covered in this presentation
 
-- **Step 1: A session pairs an Application and a list of Suppliers for a specific amount of time.** 
+- **Step 1: A session pairs an Application and a list of Suppliers for a specific amount of time.**
 
 Throughout a session, a Supplier has the opportunity, but not the obligation, to service requests from an Application.
 
@@ -146,11 +147,11 @@ Recall that a relay is a (request, response) pair that meets certain difficulty 
 
 **Step 3: Tree insertion.**
 
-Assuming the difficulty (i.e. target hash) is reached, the structure above is inserted as a leaf into the Sparse Merkle Sum Trie. 
+Assuming the difficulty (i.e. target hash) is reached, the structure above is inserted as a leaf into the Sparse Merkle Sum Trie.
 
 **Step 4: Difficulty Modulation.**
 
-A core issue in the current (i.e. Morse) version of POKT Network is scalability. At the moment, all relays are inserted into a tree where the leaves are sorted. Aside from the fact that the [leaves should never be sorted](https://alinush.github.io/2023/02/05/Why-you-should-probably-never-sort-your-Merkle-trees-leaves.html), this has scalability implications if we ever want to get to web2 scale where each Relay Miner coprocessor is handling 100s of millions of requests per session. 
+A core issue in the current (i.e. Morse) version of POKT Network is scalability. At the moment, all relays are inserted into a tree where the leaves are sorted. Aside from the fact that the [leaves should never be sorted](https://alinush.github.io/2023/02/05/Why-you-should-probably-never-sort-your-Merkle-trees-leaves.html), this has scalability implications if we ever want to get to web2 scale where each Relay Miner coprocessor is handling 100s of millions of requests per session.
 
 In the future version of POKT Network (i.e. Shannon, a complete rewrite), this is solved by having every on-chain service maintain an on-chain difficulty that modules as a result of the estimated service traffic.
 
@@ -158,11 +159,11 @@ In the future version of POKT Network (i.e. Shannon, a complete rewrite), this i
 
 **Step 5: Claim & Proof lifecycle.**
 
-The **short story** is that there’s a non-interactive on-chain commit-and-reveal mechanism at the end of every session for every (Application, Supplier, Service)  group. The **long story** is that this is where all the validation and accounting settlement takes place. This is critical with lots of details but not very fun to dive into during a talk.
+The **short story** is that there’s a non-interactive on-chain commit-and-reveal mechanism at the end of every session for every (Application, Supplier, Service) group. The **long story** is that this is where all the validation and accounting settlement takes place. This is critical with lots of details but not very fun to dive into during a talk.
 
 **Step 6: Closest Merkle Proofs**
 
-In a Sparse Merkle Trie, most of the nodes and branches are empty. This is one of the key optimizations from the [Jellyfish Merkle Tree](https://developers.diem.com/papers/jellyfish-merkle-tree/2021-01-14.pdf) whitepaper to enable performance and scalability. This creates an issue when the on-chain entropy requires proving a branch that does not have a populated leaf. In order to account for this, we have devised a mechanism that requires proof an non-deterministic populated closest Merkle branch. 
+In a Sparse Merkle Trie, most of the nodes and branches are empty. This is one of the key optimizations from the [Jellyfish Merkle Tree](https://developers.diem.com/papers/jellyfish-merkle-tree/2021-01-14.pdf) whitepaper to enable performance and scalability. This creates an issue when the on-chain entropy requires proving a branch that does not have a populated leaf. In order to account for this, we have devised a mechanism that requires proof an non-deterministic populated closest Merkle branch.
 
 For those interested in diving deeper, we have more documentation at [dev.poktroll.com/protocol/primitives/claim_and_proof_lifecycle](https://dev.poktroll.com/protocol/primitives/claim_and_proof_lifecycle)
 

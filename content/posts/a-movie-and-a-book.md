@@ -26,6 +26,7 @@ If you want to follow along, subscribe to the [RSS feed](https://olshansky.info/
 # [Barbie](https://olshansky.info/movie/barbie/)
 
 #### **Rating: ⭐⭐⭐⭐⭐**
+
 Not unlike the iconic toy, "Barbie: The Movie," delivers a serious message without taking itself too seriously, all packaged in a plastic and fantastic shell.
 
 The film manages to be funny, uplifting, and entertaining on the outside while rooted in an important message. Delivered by a powerful cast, the writers have found a delicate balance that satisfies or exceeds everyone’s expectations.
@@ -41,19 +42,23 @@ The film manages to be funny, uplifting, and entertaining on the outside while r
 **On Ryan Gosling** - Who doesn't love Ryan Gosling?
 
 26 - Getting a Ryan Gosling mug as a birthday present28 - Getting a Ryan Gosling poster as a birthday present31 - Watching Ryan Gosling on the big screenStill rocking the mug
+
 # [The Art of Learning](https://olshansky.info/book/the_art_of_learning/)
 
 #### Rating: ⭐⭐⭐⭐⭐
 
 ## General
+
 Eye-opening and insightful, this book has profoundly changed how I view learning. Although I had the seeds and inklings of what Josh presented, his decades of experience will help guide my own approach to learning. His experience and views hit home at the right time, with the right words and framing for what I needed.
 
-*I listened to this book at 0.8x (which felt normal) and rewound sections multiple times to take notes. Every chapter was filled with gold. I genuinely believe that what this book presents about the art of learning is what modern education systems worldwide are missing and will hopefully adopt in the future. If not, I'll make it my life's mission to ensure mindfulness is part of the school curriculum*.
+_I listened to this book at 0.8x (which felt normal) and rewound sections multiple times to take notes. Every chapter was filled with gold. I genuinely believe that what this book presents about the art of learning is what modern education systems worldwide are missing and will hopefully adopt in the future. If not, I'll make it my life's mission to ensure mindfulness is part of the school curriculum_.
 
 ## Key Takeaway
+
 Any topic, regardless of one's background and experience, can be learned and mastered as long as one is attentive, focused, persistent, patient, avoids repeating mistakes by learning from them, and approaches things with a beginner's mindset. **It's not just about the hours you put in, but the quality of those hours from the perspective of focus and attention**.
 
 ## Quick Background
+
 Many have heard of the infamous film [Searching for Bobby Fischer](https://www.rottentomatoes.com/m/searching_for_bobby_fischer) based on a book written by Josh's father and released when he was 15. It led to a life of fame alongside the pressure to continue performing as an elite Chess Player. All of this after growing up living a simple life as a poor child in New York. Later, Josh became a Tai Chi push hands world champion and a Brazilian jiu-jitsu black belt. He is now a teacher, an author, a public speaker, and a coach. Throughout the book, Josh reminds us that he is not an expert in any specific domain but a master of learning.
 
 One of the cool things he mentioned is that people knew he was going to be a grandmaster after his first "pickup game" in the park as a young child.
@@ -71,6 +76,7 @@ One of the cool things he mentioned is that people knew he was going to be a gra
 > Muscles and minds need to stretch to grow, but if stretched too thin, they will snap
 
 ## Favourite Moments
+
 **Lawn Mower**: There was a moment in the book when Josh discussed one's ability to focus and tune out distractions. It was ironic that as he was discussing this, a lawn mower started up outside his window, which he chose to mention. Small things like this make the book feel real.
 
 **Tai chi Master**: Josh discussed that as he matured as a Tai chi student, his master would fix his form by simply looking at him, adjusting his form through movement and eyes, and then going back to the practice. For some reason, I was able to visualize and even feel what he must've felt in those moments.
@@ -82,11 +88,13 @@ One of the cool things he mentioned is that people knew he was going to be a gra
 **Broken Arm**: During one of his Tai chi matches, he broke his arm. He was able to visualize the entire event in slow motion and ultimately won the match! Even better, his arm did not atrophy while he had a cast on through deliberate mindful and visualization practices. He ended up winning the championship just three days after it came off by continuing to visualize the movements and training.
 
 ## The Importance of Teachers
+
 **Father figure**: Josh speaks fondly of his father, as a friend, a coach, and a support system. I would love to be the type of father he was to Josh.
 
 **Mentors**: Josh discusses how a good teacher/mentor finds a balance between creating rigid guidelines and also celebrating deviations in just the right amount. This is more of an art than a science, and the balance is always changing.
 
 ## The Importance of Rest
+
 It's no secret, in today's "burnout society," that rest is important. Josh talks about their summer family trips to the ocean to regain creative thoughts and be in nature. However, it is important to note that these provide the most value when great physical and mental exertion bouts supersede them.
 
 In fact, I was listening to the interview between Lex Fridman and Yuval Noah Harari and learned that Yuval meditates for 2 hours a day and goes on 60-day meditation retreats just to create space to really rest the mind and think.The Mind Body Connection
@@ -102,16 +110,19 @@ Josh delves into a deep discussion about the practice of meditation and how he l
 One other insightful takeaway I had was: **You have to be able to do something slowly in order to do it with speed**.
 
 ## Fear as a Master
+
 Josh provided a perspective on fear that only those who are at the top of their field ever experience. Being a beginner, or simply having a beginner's mindset, allows one to make mistakes and have fun while enjoying learning and growing from them. As a renowned master or expert, the expectations are much higher. The chasm between an expert's expectations and a beginner's mistake is what most people fear most, to varying scales.
 
 One sentence that truly resonated with me was when he stated that he couldn't afford to lose after the movie's release. Ambition requires aiming for the stars, inherently expecting numerous losses, pain, and trade-offs along the journey.
 
 ## Mindset
+
 The liberating and exhilarating feeling of being a beginner is incomparable. Preserving this beginner's mindset is difficult but necessary in achieving excellence and finding happiness. When we're truly novice at something, we care less about the results and more about the experience. As we gain recognition and experience, the stakes increase and we become more results oriented. Striking a delicate balance is essential to prevent the loss of learning is key.
 
 Josh emphasized the importance of mental resilience and the art of becoming comfortable with pain. That requires navigating through and becoming comfortable with pain. How one gets through pain varies, but an external trigger (a teacher, a friend, an earthquake) could help. Learning to channel the strength of externalities through intrinsic triggers is what creates unbounded opportunities.
 
 ## Follow Ups
+
 👂 I listened to all of the interviews that Tim Ferris conducted with Josh ([here's one](https://tim.blog/2021/02/16/josh-waitzkin-2/), but there are several). They felt like a more interactive and natural extension of the book and I highly recommend them to anyone who enjoyed the book.
 
 🤔 It was [refreshing to discover](https://twitter.com/george__mack/status/1292206014746558471)) that Josh doesn't maintain any social media accounts.

@@ -1,4 +1,4 @@
 ---
 title: "Movie Reviews"
-description: "My thoughts on films I've watched"
+description: "Thoughts, reviews & ratings on films I've watched"
 ---

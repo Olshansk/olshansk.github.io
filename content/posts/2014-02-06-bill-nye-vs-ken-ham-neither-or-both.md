@@ -3,8 +3,8 @@ title: "Bill Nye vs Ken Ham: neither or both?"
 date: 2014-02-06T06:40:27-07:00
 draft: false
 description: "Reaching a dead end while trying to discover  the origin of life"
-tags: ['bill', 'nye', 'ken']
-categories: ['machine-learning']
+tags: ["bill", "nye", "ken"]
+categories: ["machine-learning"]
 medium_url: "https://medium.com/@olshansky/bill-nye-vs-ken-ham-neither-or-both-9bf63f7f7d7"
 ShowToc: true
 TocOpen: false

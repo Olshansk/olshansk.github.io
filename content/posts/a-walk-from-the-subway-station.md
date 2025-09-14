@@ -21,8 +21,8 @@ On my first day of my senior year in College, I felt an overwhelming sensation t
 
 Without further ado, please enjoy my writing piece dating about 2 years back:
 
-*I came out of the subway and a sense of bewilderment fled through my veins. It's hard to believe a place I've visited so often could feel so foreign. The buildings are the same, the trees and grass have blossomed as the summer bears it's end, with enough rainfall in the last couple months to make this place glimmer with a newborn green. Then a mixed pack of emotions suddenly hit me. This is the place where I've met so many friends, learned many new things, lived some of my most memorable moments. It's the place that defines really who I am today. On the other hand, it's the place that has crushed my mentality, my sense for perfectionism, my drive to always give it 100%. I still want to succeed, but never like I did before.*
+_I came out of the subway and a sense of bewilderment fled through my veins. It's hard to believe a place I've visited so often could feel so foreign. The buildings are the same, the trees and grass have blossomed as the summer bears it's end, with enough rainfall in the last couple months to make this place glimmer with a newborn green. Then a mixed pack of emotions suddenly hit me. This is the place where I've met so many friends, learned many new things, lived some of my most memorable moments. It's the place that defines really who I am today. On the other hand, it's the place that has crushed my mentality, my sense for perfectionism, my drive to always give it 100%. I still want to succeed, but never like I did before._
 
-*As I approach the doors of Bahen lobby, I catch myself taking a deep breath. New year. New start. Let's not fuck it up this time.*
+_As I approach the doors of Bahen lobby, I catch myself taking a deep breath. New year. New start. Let's not fuck it up this time._
 
-*I go to my usual urinal near the common room. I can still navigate this place with my eyes closed. It's been engraved into my senses…*
+_I go to my usual urinal near the common room. I can still navigate this place with my eyes closed. It's been engraved into my senses…_

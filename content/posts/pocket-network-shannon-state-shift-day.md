@@ -13,14 +13,17 @@ ShowToc: true
 
 ### Pocket Network — Shannon State Shift Day
 
-*tl;dr — Pocket Network will hard-fork from Morse MainNet to Shannon MainNet on **June 3, 2025 at 10 a.m. PT**.*
+_tl;dr — Pocket Network will hard-fork from Morse MainNet to Shannon MainNet on **June 3, 2025 at 10 a.m. PT**._
 
 ### Table of Contents
 
+- [Pocket Network — Shannon State Shift Day](#pocket-network--shannon-state-shift-day)
+- [Table of Contents](#table-of-contents)
 - [State Shift Day Announcement](#state-shift-day-announcement)
 - [What happens on State Shift Day?](#what-happens-on-state-shift-day)
 - [What happens after?](#what-happens-after)
-- [Staying up to date & getting help](#staying-up-to-date--getting-help)
+- [Staying up to date \& getting help](#staying-up-to-date--getting-help)
+- [Thank you](#thank-you)
 
 ### State Shift Day Announcement
 
@@ -69,7 +72,7 @@ Large ecosystem participants (exchanges, investors, validators, suppliers) can c
 We're actively publishing and updating a living [FAQ](https://dev.poktroll.com/category/faq--troubleshooting).
 
 ![FAQ Documentation Screenshot](https://cdn-images-1.medium.com/max/800/1*PApy984ama2eqDS54Whu9A.png)
-*[https://dev.poktroll.com/category/faq--troubleshooting](https://dev.poktroll.com/category/faq--troubleshooting)*
+_[https://dev.poktroll.com/category/faq--troubleshooting](https://dev.poktroll.com/category/faq--troubleshooting)_
 
 ### Thank you
 

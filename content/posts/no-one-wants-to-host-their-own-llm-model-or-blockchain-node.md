@@ -12,7 +12,8 @@ substack_url = "https://olshansky.substack.com/p/no-one-wants-to-host-their-own-
 Special thanks to [Gabi](https://twitter.com/_gabalab_), [Mike](https://twitter.com/o_rourke), [Art](https://twitter.com/ArtSabintsev), [Adz](https://twitter.com/adrienne_adz) & ChatGPT for the discussion and feedback.
 
 ---
-*tl;dr*
+
+_tl;dr_
 
 - Self-hosting is not a long-term solution since users just want to pay for whatever is cheaper, faster and easier to use.
 
@@ -37,7 +38,8 @@ Special thanks to [Gabi](https://twitter.com/_gabalab_), [Mike](https://twitter.
 - [So what’s next?](https://olshansky.substack.com/i/141829008/so-whats-next)
 
 # Introduction
-One of the allures of open-source ecosystems is the ability to download and run everything locally. In early 2023, when a new model or tool would pop up every week, I’d set everything up on my laptop and feel a sense of instant gratification. You can tinker around, have full control, and it’s “*free”*!
+
+One of the allures of open-source ecosystems is the ability to download and run everything locally. In early 2023, when a new model or tool would pop up every week, I’d set everything up on my laptop and feel a sense of instant gratification. You can tinker around, have full control, and it’s “_free”_!
 
 But the novelty of running everything myself wore off pretty quickly. As a developer building an LLM-enabled application, all I needed was a **Reliable**, **Performant**, and Cheap black box that does inference for me. ¹
 
@@ -52,16 +54,19 @@ Companies that run Blockchain nodes on a user’s behalf are often known as [RPC
 **The biggest observation our team can’t unsee is that the problem faced by AI inference companies today is a mirror image of what we’ve been solving for blockchain nodes for over half a decade.**
 
 - The RPC Trilemma
+
 # Web3 vs AI Gateway
+
 When the need for RPC node-running companies came about, it caught the attention of a few different parties. Initially, there were just a handful of major companies in the RPC Node Running business ([Infura](https://www.infura.io/), [Alchemy](https://www.alchemy.com/), [QuickNode](https://www.quicknode.com/), [Ankr](https://ankr.com/)), but that number has exploded as cloud infrastructure became commoditized. I don’t even recognize half the companies on [rpclist.com](https://rpclist.com/) today.
 
-Providing a fast and cheap service became a baseline expectation. The *bells and whistles* on top of it are the differentiators that independent developers, small teams and enterprise customers are drawn by
+Providing a fast and cheap service became a baseline expectation. The _bells and whistles_ on top of it are the differentiators that independent developers, small teams and enterprise customers are drawn by
 
 In Turquoise, we see the “bells and whistles” value-add products that attract new customers.Most conversations related to AI x Crypto, such as [Vitalik’s recent post](https://vitalik.eth.limo/general/2024/01/30/cryptoai.html), discuss sci-fi concepts like decentralized agents and their long-term impact on society. However, if we look at where institutional capital is concentrated today, we find a lot of analogs between AI and Web3 companies.
 
 However, before evaluating the tradeoffs across various AI Inference Companies or Blockchain Node Runners, you first need to decide whether self-hosting is a viable option for your use-case.
 
 # Should you self-host?
+
 A lot of new blockchains have come out since the emergence of Ethereum. Each one has a targeted use case and comes with its own tradeoffs, but most are non-trivial to maintain on personal laptops anymore. For instance, [Solana needs a whopping 512GB of RAM](https://docs.solanalabs.com/operations/requirements) with new blocks coming in every 400ms!
 
 In AI, a lot of new LLMs have come out since ChatGPT took the world by storm. Each one comes with its own tradeoffs and performs differently depending on how it was designed, trained and fine-tuned.
@@ -78,7 +83,7 @@ To self-host or not to self-host? That is the question.A non-exhaustive list of 
 
 - **Trust** - Is trusting a 3rd party to act honestly acceptable?
 
-- **Curiosity** - Is giving up the fun and learning that comes with doing everything yourself worth it? *If you know, you know* 🤓
+- **Curiosity** - Is giving up the fun and learning that comes with doing everything yourself worth it? _If you know, you know_ 🤓
 
 On the topic of **trust**, it’s critical to call out that there is a lot of discussion and work around data integrity and verifiability. However, there is no silver bullet solution (that I’m aware of) yet. An AI company may claim to be running Llama 2 with 70B parameters, but how do you know they’re not just running inference on a 7B model behind the scenes? In Web3, Moxie, the founder of Signal, captured this issue very well in a [Jan 2022 blog post](https://moxie.org/2022/01/07/web3-first-impressions.html):
 
@@ -89,7 +94,8 @@ These are real problems, and our team at [Grove](https://grove.city/), along wit
 For now, I want to walk through what the journey was selecting and running your own LLM entails at a high level.
 
 # Selecting an LLM model
-If you decide to run your model locally, you’ll quickly find yourself facing [The Paradox of Choice](https://en.wikipedia.org/wiki/The_Paradox_of_Choice). The following list is just a shortlist of the *easy questions*: ²
+
+If you decide to run your model locally, you’ll quickly find yourself facing [The Paradox of Choice](https://en.wikipedia.org/wiki/The_Paradox_of_Choice). The following list is just a shortlist of the _easy questions_: ²
 
 - **Which model should I choose**? Llama2, Mixtral, Falcon, etc…
 
@@ -114,6 +120,7 @@ You’ll waste time setting up a certain model, only to learn it doesn’t fit y
 Personally, I always found myself defaulting back to GPT-4 either through ChatGPT or [OpenAI’s APIs](https://platform.openai.com/docs/overview). Even though GPT-4 has been out for almost a year, it still ranks at the top of [ChatBot Arena](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) Leaderboard. A small and simple off-the-shelf model a hobbyist would download and configure themselves doesn’t come close to outperforming it. ³
 
 # Who is responsible for optimizing inference time?
+
 As I alluded to above, configuring a machine for optimal inference has a lot of hidden complexity. [Chamath Palihapitiya](https://twitter.com/chamath) discussed this issue in this [60-second snippet](https://share.snipd.com/snip/8aef7bed-b741-4ffc-85c7-e9fbffa8407a?fbclid=IwAR0ELeOmBi8lrxspLo5ZLPKbX_5XjjaOCM1xIqXfkJXPCJslRrtJe0CMORw) on a recent episode of the All-In Podcast, mentioning how consumer-grade experiences are not practical if we’re waiting 30 seconds for an LLM to respond to a query.
 
 However, not everyone in the AI industry today is working on making things faster, and even when we do have sub-second GPT-4 level inference, it’ll be the amalgamation of different factors.
@@ -123,6 +130,7 @@ AI researchers did a lot of the heavy lifting to understand what architecture wo
 Take this diagram with a grain of salt because anyone in the industry would argue the separation of roles is fluid and has a blurry line.Reducing inference time and power consumption is critical, and I’d bet there is a lot of inefficiency due to the amount of redundant work being done across the industry today. In addition to this redundancy, companies are likely struggling to find a way to differentiate themselves in an increasingly commoditized market.
 
 # The AI API Gateway
+
 Aravind, founder of [perplexity.ai](http://perplexity.ai), mentioned in this [50-second](https://share.snipd.com/snip/1f75cb18-87fe-4053-b4c9-a0811ce92ed0) snippet that a major challenge all these companies will face is a lack of moat. ⁵ Looking at [octo.ai](http://octo.ai), [together.ai](http://together.ai) and [fireworks.ai](http://fireworks.ai), we find a lot of overlap:
 
 **Reliability**: Scalability and quality-of-service is a top priority.
@@ -133,10 +141,12 @@ Aravind, founder of [perplexity.ai](http://perplexity.ai), mentioned in this [50
 
 - **Reliability, Performance and Cost are no longer differentiators, but are imperative prerequisites. Brand, Distribution, Specialization and Marketing are the factors that’ll attract customers and enable AI gateways to come out on top.**
 
-Similar to Blockchain Node Runners, a lot of AI API Gateways have started offering *bells and whistles* on top of their core value proposition to differentiate themselves
+Similar to Blockchain Node Runners, a lot of AI API Gateways have started offering _bells and whistles_ on top of their core value proposition to differentiate themselves
 
 In Turquoise, we see the “bells and whistles” value-add products that attract new customers to AI inference providers.
+
 # So what’s next?
+
 In a [recent post](https://morourke.org/unleashing-the-potential-of-pocket-network/) by [@o_rourke](https://twitter.com/o_rourke), he made a conservative estimate that at least $1M a day is spent on maintaining LLM inference infrastructure. With more [recent information](https://contxto.com/en/inteligencia-artificial/anthropics-margins-raise-questions-on-ai-startups-long-term-profitability/) that Anthropic is estimated to generate $850M of ARR and OpenAI at $1.6B, the opportunity might be much bigger.
 
 Companies in AI and Web3 are all splitting their focus around two major verticals:
@@ -154,14 +164,15 @@ This arrangement normally requires a multitude of contracts, deals, negotiations
 There is still a lot of work ahead and open-ended problems on different fronts. **With that said, I see a ton of opportunity to use Web3 incentives to accelerate the innovation of open-source software in AI and other non-crypto use cases. This will be a win for everyone.**
 
 ---
+
 Subscribe for more of Olshansky’s thoughts!
 
 ¹ Inference is a term in Machine Learning synonymous with using a model. It is simply the process of getting output text (a prediction) based on input text (a prompt) from a pre-trained model.
 
 ² This list is intended to be short and incomplete, focusing only on some of the basic technical aspects. In practice, we’d have to consider pricing, licensing, privacy, etc.
 
-³ There is a lot of nuance on which model one should use for different purposes. My personal opinion is that how a model is trained, and how the RLHF fine-tuning data is filtered, is as individualistic as food preference. Prompt engineering has to do a lot with how one thinks and writes. I have personally been most *“aligned”* with GPT-4 since day 1.
+³ There is a lot of nuance on which model one should use for different purposes. My personal opinion is that how a model is trained, and how the RLHF fine-tuning data is filtered, is as individualistic as food preference. Prompt engineering has to do a lot with how one thinks and writes. I have personally been most _“aligned”_ with GPT-4 since day 1.
 
 ⁴ The model we’re describing is oversimplified and doesn’t even consider RLHF or other interim steps required in making a model usable. However, OpenAI has a great [post ](https://openai.com/research/instruction-following)that goes into all the details.
 
-⁵ Other companies offer *“real AI value add”* features on top of basic inference. For example, [perplexity.ai](https://www.perplexity.ai/) challenges Google with a new search paradigm, while [mosaicml.com](https://www.mosaicml.com/) does the work of an ML engineer behind the scenes for you.
+⁵ Other companies offer _“real AI value add”_ features on top of basic inference. For example, [perplexity.ai](https://www.perplexity.ai/) challenges Google with a new search paradigm, while [mosaicml.com](https://www.mosaicml.com/) does the work of an ML engineer behind the scenes for you.

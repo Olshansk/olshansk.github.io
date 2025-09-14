@@ -15,23 +15,26 @@ ShowToc: true
 
 [Pocket Network](https://pokt.network/) will undergo a major, consensus-breaking, non-backwards-compatible migration from Morse to Shannon **before the end of Q2.**
 
-The exact date will be finalized based on community feedback — ***your input matters***. You can read more about our [shadow MainNet launch](https://medium.com/decentralized-infrastructure/pocket-networks-shannon-upgrade-has-been-successfully-soft-launched-f91f1af8039c) or the [history of the migration](https://medium.com/decentralized-infrastructure/an-update-from-grove-on-shannon-beta-testnet-path-the-past-the-future-5bf7ec2a9acf).
+The exact date will be finalized based on community feedback — **_your input matters_**. You can read more about our [shadow MainNet launch](https://medium.com/decentralized-infrastructure/pocket-networks-shannon-upgrade-has-been-successfully-soft-launched-f91f1af8039c) or the [history of the migration](https://medium.com/decentralized-infrastructure/an-update-from-grove-on-shannon-beta-testnet-path-the-past-the-future-5bf7ec2a9acf).
 
 Once a concrete date is set, ecosystem participants will have exactly 14 days to prepare. **This could happen as early as next week**. It is deliberately lower than the 21-day on-chain unstaking time to prevent the gamification of the network.
 
 ### Table Of Contents
 
+- [Pocket Network Shannon Migration Announcement](#pocket-network-shannon-migration-announcement)
+- [Table Of Contents](#table-of-contents)
 - [What's happening to my POKT?](#whats-happening-to-my-pokt)
-- [🏦 Exchanges & Investors](#-exchanges--investors)
+- [🏦 Exchanges \& Investors](#-exchanges--investors)
 - [⚙️ Suppliers (formerly Servicers / Node-Runners)](#️-suppliers-formerly-servicers--node-runners)
-- [🌐 Applications & Gateways](#-applications--gateways)
+- [🌐 Applications \& Gateways](#-applications--gateways)
 - [🔐 Validators](#-validators)
-- [Staying up to date & getting help](#staying-up-to-date--getting-help)
+- [Staying up to date \& getting help](#staying-up-to-date--getting-help)
+- [Thank you](#thank-you)
 
 The docs behind the links in this post are being updated daily. You can also find a mirror of this post [on Notion](https://buildwithgrove.notion.site/Pocket-Network-Shannon-Migration-1e5a36edfff6805b87e0e512340b2c79) in table format.
 
 ![Migration Overview Visual](https://cdn-images-1.medium.com/max/800/1*HSkQUzK1bTadQAyPWiaMHA.png)
-*A single visual of the links and details to get a quick high-level picture of what's happening.*
+_A single visual of the links and details to get a quick high-level picture of what's happening._
 
 ### What's happening to my POKT?
 
@@ -47,7 +50,7 @@ The docs behind the links in this post are being updated daily. You can also fin
 
 1. Create Shannon accounts
 2. Claim Morse accounts
-3. *(Optional)* Run a full node
+3. _(Optional)_ Run a full node
 
 **Key Links:**
 
@@ -108,7 +111,7 @@ We're shipping updates to our docs and tooling daily. Stay current via [Discord]
 
 ### Thank you
 
-This migration is the first step toward our shared vision of a **crypto-native API Layer**. *What does that mean?* It co-exists with Web2 services, supports traditional enterprises, and is gearing up to enable an internet of agentic API requests.
+This migration is the first step toward our shared vision of a **crypto-native API Layer**. _What does that mean?_ It co-exists with Web2 services, supports traditional enterprises, and is gearing up to enable an internet of agentic API requests.
 
 On behalf of **Grove Inc.** and the **Pocket Network Foundation**, thank you for your continued support.
 

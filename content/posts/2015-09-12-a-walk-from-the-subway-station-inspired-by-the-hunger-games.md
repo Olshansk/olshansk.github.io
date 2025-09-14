@@ -3,8 +3,8 @@ title: "A walk from the subway station — inspired by The Hunger Games"
 date: 2015-09-12T23:12:08-07:00
 draft: false
 description: "Prior to my senior year in College, I made my way through the Hunger Games Trilogy. I read all three books back-to-back in a relatively…"
-tags: ['walk', 'from']
-categories: ['machine-learning']
+tags: ["walk", "from"]
+categories: ["machine-learning"]
 medium_url: "https://medium.com/@olshansky/a-walk-from-the-subway-station-inspired-by-the-hunger-games-82c93b94486e"
 ShowToc: true
 TocOpen: false

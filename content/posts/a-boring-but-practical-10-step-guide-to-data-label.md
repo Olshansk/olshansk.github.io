@@ -15,7 +15,7 @@ Below is a very **terse and opinionated** set of steps to data labeling and mode
 
 I’ve found myself repeating this on a few occasions lately, so I’m publishing a short guide [I can link people to](https://simonwillison.net/2024/Jul/13/give-people-something-to-link-to/).
 
-What’s written is applicable to traditional ML models before the infamous “ChatGPT moment,”* but it has become a much more ubiquitous concern nowadays. This omits a ton of details and nuances, but it’s enough to help build an intuitive foundation.
+What’s written is applicable to traditional ML models before the infamous “ChatGPT moment,”\* but it has become a much more ubiquitous concern nowadays. This omits a ton of details and nuances, but it’s enough to help build an intuitive foundation.
 
 You might be wondering [who I am](https://olshansky.info/) and why I’m writing on this topic.
 
@@ -31,7 +31,7 @@ You might be wondering [who I am](https://olshansky.info/) and why I’m writing
 - **Large-Scale Labeling**: Expand to a crowd-sourced pool (hundreds or thousands). Aim for volume.
 - **Labeler Scoring**: Compare the crowd’s labels to your golden data and assign each labeler (not label) a score.
 - **Weighted Integration**: Use those scores to weigh the crowd-sourced labels during training, fine-tuning, RLHF, or downstream evaluations.
-- **Embrace the Boredom**: Labeling is tedious and unsexy. Remind yourself that ‘true ground truth’* may not exist even with the world’s top experts in the same room.
+- **Embrace the Boredom**: Labeling is tedious and unsexy. Remind yourself that ‘true ground truth’\* may not exist even with the world’s top experts in the same room.
 - **Repeat the Cycle**: Keep iterating until you get lucky and see good results.
 
 ### **10-Step Example**
@@ -53,4 +53,4 @@ Nothing here is ground breaking and companies like [Scale AI](https://scale.com/
 
 In the meantime, I hope this helped!
 
-*[Note: Original post contained an AI-generated image here]*
+_[Note: Original post contained an AI-generated image here]_

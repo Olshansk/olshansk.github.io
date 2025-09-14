@@ -4,7 +4,8 @@ date: 2017-07-23T17:16:04.361Z
 draft: false
 description: "One of the major selling points of cryptocurrencies is that everything is decentralized and trust no longer lies in single a third party…"
 medium_url: "https://medium.com/@olshansky/cryptocurrencies-its-all-about-incentive-77ac47a6adc4"
-tags: ["cryptocurrency", "bitcoin", "ethereum", "incentives", "economics", "tokens"]
+tags:
+  ["cryptocurrency", "bitcoin", "ethereum", "incentives", "economics", "tokens"]
 ---
 
 ![Cryptocurrency concept image](https://cdn-images-1.medium.com/max/800/1*SgD8HfxBtvIVWuD-I0is_w.jpeg)
@@ -15,7 +16,7 @@ Below are a few different examples of the role that financial incentive plays in
 
 ## Bitcoin
 
-In Bitcoin, miners insert a *Coinbase* transaction into every block that they mine. This transaction mints new coins and assigns them to the miner in exchange for the work that they did. This block is then broadcasted onto the network, validated by other full nodes, and appended to the blockchain if it's valid. If the miner were to include a non valid transaction in the block, other nodes would reject it, the miner would not been granted the newly minted coins, and all that work would have gone to waste. The miner is therefore incentivized to only expand energy on generating valid blocks.
+In Bitcoin, miners insert a _Coinbase_ transaction into every block that they mine. This transaction mints new coins and assigns them to the miner in exchange for the work that they did. This block is then broadcasted onto the network, validated by other full nodes, and appended to the blockchain if it's valid. If the miner were to include a non valid transaction in the block, other nodes would reject it, the miner would not been granted the newly minted coins, and all that work would have gone to waste. The miner is therefore incentivized to only expand energy on generating valid blocks.
 
 ## BIP148
 

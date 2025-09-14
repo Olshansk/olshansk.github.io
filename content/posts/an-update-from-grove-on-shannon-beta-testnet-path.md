@@ -10,7 +10,7 @@ medium_url: "https://medium.com/@olshansky/an-update-from-grove-on-shannon-beta-
 
 ### An update from Grove on Shannon Beta TestNet, PATH, the Past & the Future
 
-👋 If you’re not ready to spend ~10 minutes reading, I suggest you bookmark this post and return to it later. *You won’t regret it. It’s more than an update; it dives into the problems [Pocket](https://www.pokt.network/) & [Grove](https://www.grove.city/) solve.
+👋 If you’re not ready to spend ~10 minutes reading, I suggest you bookmark this post and return to it later. \*You won’t regret it. It’s more than an update; it dives into the problems [Pocket](https://www.pokt.network/) & [Grove](https://www.grove.city/) solve.
 
 You’ll get a sense of where Shannon Beta TestNet is, but also get historical and technical context on why we need Pocket Network, what Grove’s responsibility is in all of this, and what PATH is. If you’ve ever had any of these questions, you’ll get some — not all — of the answers here.
 

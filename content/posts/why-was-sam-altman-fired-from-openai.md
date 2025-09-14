@@ -21,11 +21,11 @@ Note that I did not end up reaching 1 billion people, but it remains a life goal
 
 **Ilya Sutskever** - OpenAI Chief Scientist & **Co-Founder**
 
-- Adam D’Angelo - Quora CEO 
+- Adam D’Angelo - Quora CEO
 
-- Tasha McCauley - Technology entrepreneur 
+- Tasha McCauley - Technology entrepreneur
 
-- Helen Toner - Georgetown Center for Security and Emerging Technology’s 
+- Helen Toner - Georgetown Center for Security and Emerging Technology’s
 
 - **[Stepped Down] Greg Brockman** - OpenAI President & **Co-Founder**
 
@@ -45,7 +45,7 @@ According to [The Information](https://www.theinformation.com/articles/before-op
 
 > This was the board doing its duty to the mission of the nonprofit, which is to make sure that OpenAI builds AGI that benefits all of humanity.
 
-*Ilya Sutskever*
+_Ilya Sutskever_
 
 Wojceich, one of the other co-founders, publically reinforced that the mission of building a safe AGI to benefit humanity has not changed, but is also sad to see both Sam and Greg go.
 

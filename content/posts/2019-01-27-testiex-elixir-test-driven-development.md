@@ -42,9 +42,9 @@ $ mix test ./path/test/file/test_file_test.exs
 $ mix test ./path/test/file/test_file_test.exs:<line_number>
 ```
 
-When projects are small, *mix* makes test driven development very quick and easy. Mix also has various [test options](https://hexdocs.pm/mix/Mix.Tasks.Test.html) to optimize testing covering a lot of different use-cases. However, as the project grows, you are likely to have a lot of startup operations that may take dozens of seconds, or even minutes, to complete. It's fair to say that when an elixir application takes several minutes to start, one should identify the bottlenecks or split a single service into several microservices, but time is not a luxury we always have.
+When projects are small, _mix_ makes test driven development very quick and easy. Mix also has various [test options](https://hexdocs.pm/mix/Mix.Tasks.Test.html) to optimize testing covering a lot of different use-cases. However, as the project grows, you are likely to have a lot of startup operations that may take dozens of seconds, or even minutes, to complete. It's fair to say that when an elixir application takes several minutes to start, one should identify the bottlenecks or split a single service into several microservices, but time is not a luxury we always have.
 
-One of the things I wanted to achieve was being able to continuously iterate on my code and tests without having to wait for my whole application to start up every time. Introducing *TestIex*. This module provides an easy way to iterate on your test and source code, without ever having to exit an *iex* shell.
+One of the things I wanted to achieve was being able to continuously iterate on my code and tests without having to wait for my whole application to start up every time. Introducing _TestIex_. This module provides an easy way to iterate on your test and source code, without ever having to exit an _iex_ shell.
 
 #### 1. Start an iex session in the test environment
 
@@ -60,7 +60,7 @@ iex> TestIex.start_testing()
 
 #### 3. Load Helpers
 
-By default, TestIex loads the helper located under */usr/src/app/test/test_helper.exs.* Additional helpers can be loaded like so:
+By default, TestIex loads the helper located under _/usr/src/app/test/test_helper.exs._ Additional helpers can be loaded like so:
 
 ```elixir
 iex> TestIex.load_helper("test/test_helper.exs")
@@ -85,11 +85,11 @@ iex> TestIex.test(["./path/test/file/test_file_test.exs", "./path/test/file/test
 
 #### 4. Iterate on test code
 
-Test files are script files (*.exs*), which means that they do not get compiled. Modifying a test file and rerunning *TestIex.test/2* will execute the latest version of the code.
+Test files are script files (_.exs_), which means that they do not get compiled. Modifying a test file and rerunning _TestIex.test/2_ will execute the latest version of the code.
 
 #### 5. Iterate on source code
 
-Source code files (*.ex*) need to be recompiled every they are modified. As I've shown above, you have the option of recompiling either a single Module or the whole project depending on how many files you modified:
+Source code files (_.ex_) need to be recompiled every they are modified. As I've shown above, you have the option of recompiling either a single Module or the whole project depending on how many files you modified:
 
 ```elixir
 # single module

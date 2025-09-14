@@ -2,8 +2,8 @@
 title: "I put together a small sequence diagram using mermaid to help visualize this."
 date: 2022-04-12T03:11:50-07:00
 draft: false
-tags: ['together', 'small']
-categories: ['machine-learning']
+tags: ["together", "small"]
+categories: ["machine-learning"]
 medium_url: "https://medium.com/@olshansky/i-put-together-a-small-sequence-diagram-using-mermaid-to-help-visualize-this-7dad046fdb35"
 ShowToc: true
 TocOpen: false

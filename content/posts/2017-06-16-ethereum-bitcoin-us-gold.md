@@ -60,7 +60,7 @@ Balaji Srinivasan recently wrote a really good [**primer on tokens**](https://me
 
 The [**Enterprise Ethereum Alliance**](https://entethalliance.org/) is an organization that has been helping bridge institutional corporations to blockchain technology via ethereum. Similar to how most companies no longer need to provision their own servers, new companies will no longer need to build their own blockchain from the ground up.
 
-***Disclosure: I am long ETH and ANT.***
+**_Disclosure: I am long ETH and ANT._**
 
 ¹ — It's worth mentioning that there as a caveat to the fact that the ledger cannot be overwritten, but it's highly impractical and we can therefore assume that it'll never happen.
 

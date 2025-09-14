@@ -17,9 +17,10 @@ substack_url = "https://olshansky.substack.com/p/why-im-allocating-10-of-my-port
 
 - The [spot price for Uranium doubled](https://www.cameco.com/invest/markets/uranium-price) over the past year due to a supply-demand imbalance, as current uranium supplies struggle to meet the demand from nuclear reactors.
 
-- I argue that the current market presents a good entry point for diversifying into the uranium sector. Macroeconomic tailwinds could suggest a strong outperformance over the next decade at the cost of short-term volatility. I outline my thought process for choosing   as a vehicle to do so. 
+- I argue that the current market presents a good entry point for diversifying into the uranium sector. Macroeconomic tailwinds could suggest a strong outperformance over the next decade at the cost of short-term volatility. I outline my thought process for choosing as a vehicle to do so.
 
 ---
+
 **Table of Contents**
 
 - [Conversations & Ideas Coming Together](https://olshansky.substack.com/i/144312282/conversations-and-ideas-coming-together)
@@ -37,6 +38,7 @@ substack_url = "https://olshansky.substack.com/p/why-im-allocating-10-of-my-port
 - [Personal Thoughts & Takeaways](https://olshansky.substack.com/i/144312282/personal-thoughts-and-takeaways)
 
 # Conversations & Ideas Coming Together
+
 A few weeks ago, I discussed data center capacity planning with a friend who works for a major tech company. While we initially focused on the scarcity of GPUs—a common topic nowadays—what surprised me was learning how significantly energy consumption factors into the planning process.
 
 Apparently, most large data centers contain vast arrays of unused racks simply because there isn't enough energy available to power everything. My own experience in capacity planning has primarily involved estimating resources like usage, cost, bandwidth, storage, memory, and CPU. However, I've never had to consider the challenges of acquiring hardware, installation, heat dissipation, or energy consumption. It was fascinating to realize that energy is often the critical limiting factor.
@@ -46,10 +48,12 @@ This insight lingered in my mind, but I didn't take any action until watching th
 - Berkshire Hathaway Inc. 2024 First Quarter Operating EarningsThis connection brought to mind a tweet from [@jessefelder](https://twitter.com/jessefelder) about recent rises in commodity prices. Although we are not at the cycle's nadir, I would argue that phases (2), (3), and (4) are just beginning, and (1) is too sensitive of a topic to mention here.
 
 [Tweet by Jesse Felder](https://twitter.com/jessefelder/status/1783532398246056190)
-# Related Reading & Listening
-Over the past few years, I've noticed prominent figures like Satya Nadella, CEO of Microsoft, and Sam Altman, CEO of OpenAI, frequently discuss energy issues. This piqued my curiosity, so I had to spend part of my weekend researching this. I googled something along the lines of *“nuclear power plants and data centers”*, and discovered that Amazon recently spent $650M to [strategically expand into a data center located adjacent to a nuclear power plant.](https://www.microgridknowledge.com/data-center-microgrids/article/33038233/aws-acquiring-hyperscale-data-center-directly-connected-to-nuclear-plant)
 
-*I dove deeper…*
+# Related Reading & Listening
+
+Over the past few years, I've noticed prominent figures like Satya Nadella, CEO of Microsoft, and Sam Altman, CEO of OpenAI, frequently discuss energy issues. This piqued my curiosity, so I had to spend part of my weekend researching this. I googled something along the lines of _“nuclear power plants and data centers”_, and discovered that Amazon recently spent $650M to [strategically expand into a data center located adjacent to a nuclear power plant.](https://www.microgridknowledge.com/data-center-microgrids/article/33038233/aws-acquiring-hyperscale-data-center-directly-connected-to-nuclear-plant)
+
+_I dove deeper…_
 
 I read an article from SeekingAlpha titled “[URA ETF: Profit from AI and Bitocin through Uranium](https://seekingalpha.com/article/4678834-ura-etf-profit-from-ai-and-bitcoin-through-uranium)”, published on 03/18/2024. Here are some of the key takeaways:
 
@@ -80,6 +84,7 @@ Additionally, I listened to an episode of the [Commodity Culture](https://commod
 We've undoubtedly moved past the "bear" phase and the "bottom" of the uranium market, yet we remain distant from a euphoric peak. It was nice to hear an expert in the field provide a grounded perspective, carefully outlining potential risks while maintaining an optimistic outlook without any pretense of "we’re geniuses for making this investment."
 
 # Small Modular Reactors & Microsoft
+
 **Small Modular Reactors** (SMRs) are among the most intriguing learnings I made during my research. SMRs are compact, self-contained nuclear reactors capable of powering localized grids. **What’s an example of a power-hungry localized value-creating area? You’re right, a data center.**
 
 Here’s a quick breakdown of SMRs from a [very informative article:](https://www.captechu.edu/blog/nuclear-powered-data-centers-microsoft-bets-smrs-fuel-cloud)
@@ -98,9 +103,10 @@ Here’s a quick breakdown of SMRs from a [very informative article:](https://ww
 
 - Microsoft’s cloud division is exploring the deployment of [small modular microreactors](https://www.datacenterdynamics.com/en/news/microsoft-cloud-hiring-to-implement-global-small-modular-reactor-and-microreactor-strategy-to-power-data-centers/). I find the allure of a compact, self-contained energy solution quite appealing.
 
-While slightly off-topic, I must mention [Helion](https://www.helionenergy.com/), a new startup focused on fusion power. Microsoft plans to [purchase energy from Helion by 2028](https://www.cnbc.com/2023/05/10/microsoft-agrees-to-buy-power-from-sam-altman-backed-helion-in-2028.html). Fusion uses a hydrogen isotope, differing from the uranium-based approach of SMRs, but it underscores the growing importance of energy solutions. *Helion is backed by Sam Altman, and they’re hiring a [Senior AI Application Engineer](https://boards.greenhouse.io/helionenergy/jobs/4385085005). It’ll be fun once they build their own AI assistant, financed in part by Sam’s investment, powered by their own reactor, using GPT(X) behind the scenes, which again is lead by Sam, while also selling some of the energy from their reactors to Microsoft, which invested in OpenAI, which, in case you’ve forgotten, is lead by Sam 🙃*
+While slightly off-topic, I must mention [Helion](https://www.helionenergy.com/), a new startup focused on fusion power. Microsoft plans to [purchase energy from Helion by 2028](https://www.cnbc.com/2023/05/10/microsoft-agrees-to-buy-power-from-sam-altman-backed-helion-in-2028.html). Fusion uses a hydrogen isotope, differing from the uranium-based approach of SMRs, but it underscores the growing importance of energy solutions. _Helion is backed by Sam Altman, and they’re hiring a [Senior AI Application Engineer](https://boards.greenhouse.io/helionenergy/jobs/4385085005). It’ll be fun once they build their own AI assistant, financed in part by Sam’s investment, powered by their own reactor, using GPT(X) behind the scenes, which again is lead by Sam, while also selling some of the energy from their reactors to Microsoft, which invested in OpenAI, which, in case you’ve forgotten, is lead by Sam 🙃_
 
 # Investment & Exposure Options
+
 At this point, having solidified my uranium and energy investment thesis, I needed to choose an appropriate investment vehicle. Given my limited time and lack of interest in identifying individual miners or dealing with commodity futures, I opted to explore ETF options.
 
 Here’s a breakdown of the top [3 Uranium ETFs](https://www.kiplinger.com/investing/etfs/603434/3-uranium-etfs-that-pack-a-nuclear-punch): URA, URNM and NLR.
@@ -125,7 +131,7 @@ Here’s a breakdown of the top [3 Uranium ETFs](https://www.kiplinger.com/inves
 
 - **Opinion**: Despite a lower dividend yield and a higher expense ratio compared to URA, URNM offers similar diversification. The allocation to KAP is appreciated, but it's not compelling enough for me to choose this ETF over URA.
 
-[NLR](https://www.vaneck.com/us/en/investments/uranium-nuclear-energy-etf-nlr/holdings/): 
+[NLR](https://www.vaneck.com/us/en/investments/uranium-nuclear-energy-etf-nlr/holdings/):
 
 - **Div yield**: 4.05% with a 0.61% expense ratio
 
@@ -138,6 +144,7 @@ Here’s a breakdown of the top [3 Uranium ETFs](https://www.kiplinger.com/inves
 In short, URA seems good enough.
 
 # Risks
+
 This investment is guided more by a thesis than by traditional fundamentals, making it challenging to offer precise ROI expectations, timelines, or figures. However, the major risks include:
 
 - **Timelines**: The next two years are unpredictable. I don't try to time the market, so I consider the present as good a time as any to invest.
@@ -151,16 +158,18 @@ This investment is guided more by a thesis than by traditional fundamentals, mak
 - **Market Stagnation**: There's the risk that the investment could remain flat for years before anything changes, which comes at an opportunity cost to other investments.
 
 - URA chart by MorningStar; https://www.morningstar.com/etfs/arcx/ura/chart
+
 # Position Sizing, Entry & Exit Plan
-Here’s my tailored approach to investing, which diverges from traditional dollar-cost averaging strategies but helps me maintain peace of mind by passing the “*sleep well at night*” test.
 
-I estimate my liquid post-tax*** net worth, decide on a total % allocation depending on much confidence I have in the thesis. In this case, I have settled on 10%, and will do the following:
+Here’s my tailored approach to investing, which diverges from traditional dollar-cost averaging strategies but helps me maintain peace of mind by passing the “_sleep well at night_” test.
 
-**Liquid Net Worth Assessment**: I start by estimating my liquid post-tax net worth**** and decide on a total percentage allocation based on my confidence in the thesis. For this uranium investment, I've chosen a 10% allocation.
+I estimate my liquid post-tax\*\*\* net worth, decide on a total % allocation depending on much confidence I have in the thesis. In this case, I have settled on 10%, and will do the following:
+
+**Liquid Net Worth Assessment**: I start by estimating my liquid post-tax net worth\*\*\*\* and decide on a total percentage allocation based on my confidence in the thesis. For this uranium investment, I've chosen a 10% allocation.
 
 - **Entry Strategy:**:
 
-**Find a reasonable entry poin**:  is at $30.83 as I’m writing this. This isn’t cheap, but doesn’t seem obscenely expensive given their portfolio is structure (refer to the image below).
+**Find a reasonable entry poin**: is at $30.83 as I’m writing this. This isn’t cheap, but doesn’t seem obscenely expensive given their portfolio is structure (refer to the image below).
 
 - **Entry #1**: Invest 60% of my total allocation when the markets open tomorrow.
 
@@ -176,9 +185,10 @@ I estimate my liquid post-tax*** net worth, decide on a total % allocation depen
 
 - **Exit #3**: This is too far out to predict or plan for. I anticipate my circumstances may change significantly, so I prefer to keep this stage flexible.
 
-$URA on Morning Star: https://www.morningstar.com/etfs/arcx/ura/portfolio*** This estimation assumes I would liquidate everything. It also does not take into account any assets related to my current day-to-day work. I believe the upside potential is unparalleled when you have direct impact on the direction and evolution of a product. Investing is a hobby for me, from which I hope to learn and profit. I’ll be satisfied if I match the market after putting all this effort into research.*
+$URA on Morning Star: https://www.morningstar.com/etfs/arcx/ura/portfolio_** This estimation assumes I would liquidate everything. It also does not take into account any assets related to my current day-to-day work. I believe the upside potential is unparalleled when you have direct impact on the direction and evolution of a product. Investing is a hobby for me, from which I hope to learn and profit. I’ll be satisfied if I match the market after putting all this effort into research._
 
 # Personal Thoughts & Takeaways
+
 Over the past few years, I've observed considerable distaste towards the crypto industry due to its energy consumption, yet this criticism doesn't seem to extend to the AI industry. There are some blog posts that compare and predict AI and Crypto electricity demand (e.g., [The Verge](https://www.theverge.com/2024/1/24/24049047/data-center-ai-crypto-bitcoin-mining-electricity-report-iea)), and I'm really curious to see how this will unfold.
 
 My side-quest into Small Modular Reactors (SMRs) really excited me. It's a business that will require significant capital investment and strong government connections, but I genuinely believe it will result in a win-win-win scenario for everyone.
@@ -186,6 +196,7 @@ My side-quest into Small Modular Reactors (SMRs) really excited me. It's a busin
 In conclusion, investing in Uranium is a wager on AI, crypto, commodities, continued inflation, and a clean, sustainable future. I don’t claim to call market bottoms or time the markets, but I invest when I see opportunity.
 
 ---
+
 Subscribe for more of Olshansky's thoughts.
 
-*Disclaimer: I am long URA and none of this is financial advice. However, if you are seeking investment advice, I think it’s highly unlikely (though possible) that a randomly assigned advisor at the local branch of your bank is the right person for you. [Warren Buffet’s shareholder letters](https://www.berkshirehathaway.com/letters/letters.html) are a much better place to start.*
+_Disclaimer: I am long URA and none of this is financial advice. However, if you are seeking investment advice, I think it’s highly unlikely (though possible) that a randomly assigned advisor at the local branch of your bank is the right person for you. [Warren Buffet’s shareholder letters](https://www.berkshirehathaway.com/letters/letters.html) are a much better place to start._

@@ -3,8 +3,8 @@ title: "Experience vs Theory: Lake Tahoe Edition"
 date: 2021-10-17T17:36:12-07:00
 draft: false
 description: "I remember thinking I had the foundation to tackle any problem that came my way around the time that I was graduating from College. Having…"
-tags: ['experience', 'theory', 'lake']
-categories: ['machine-learning']
+tags: ["experience", "theory", "lake"]
+categories: ["machine-learning"]
 medium_url: "https://medium.com/@olshansky/experience-vs-theory-lake-tahoe-edition-6be9216e2f57"
 ShowToc: true
 TocOpen: false
@@ -110,21 +110,19 @@ Aside from having secondary mechanical modes of operation, an idea I had is that
 ### Actions I’ve taken
 
 Some of the actions I’ve taken as a result of this event are:
-1.
-Keep an extra key fob battery inside the car.
-2.
-Keep the jumper cables and jump-start battery under one of the seats inside the car.
-3.
-Thinking about what my next car should be.
+
+1.  Keep an extra key fob battery inside the car.
+2.  Keep the jumper cables and jump-start battery under one of the seats inside the car.
+3.  Thinking about what my next car should be.
 
 A few other things I keep in my car for any potential future events are:
 
-  * First aid kit
-  * Toothbrush & toothpaste
-  * Water & snacks
-  * Pepper spray
-  * Tissue and toilet paper
-  * A rope
+- First aid kit
+- Toothbrush & toothpaste
+- Water & snacks
+- Pepper spray
+- Tissue and toilet paper
+- A rope
 
 Bring it on, world. I’m ready! _I think._
 

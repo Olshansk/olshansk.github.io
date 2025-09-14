@@ -3,8 +3,8 @@ title: "I agree that your reply almost warrants an article of it’s own :)"
 date: 2020-02-17T22:17:07-07:00
 draft: false
 description: "To be honest, the fact that Embed.ly works with multi-file gists when you specify the file name, it really makes me wonder what (and why)…"
-tags: ['agree', 'that', 'your']
-categories: ['general']
+tags: ["agree", "that", "your"]
+categories: ["general"]
 medium_url: "https://medium.com/@olshansky/i-agree-that-your-reply-almost-warrants-an-article-of-its-own-c2b2451ef7a3"
 ShowToc: true
 TocOpen: false

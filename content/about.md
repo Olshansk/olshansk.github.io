@@ -97,22 +97,25 @@ What do I want to do more of:
 
 ### Links & Resources
 
-#### Academic & Professional
+#### Interesting Content
 
 - [Presentations & Talks](https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E) — A YouTube playlist of all my talks and presentations
 - [Publications & Research](https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en&oi=sra) — My Google Scholar profile
 - [Snipd Podcast](https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e) — A collection of short-form podcast episodes
 
-#### Writing & Social
+#### Writing
 
 - [Substack](https://olshansky.substack.com) — Newsletter and long-form writing
 - [Medium](https://olshansky.medium.com) — Technical articles and thoughts
-- [Instagram](https://instagram.com/olshansk) — Visual updates
-- [Telegram](https://t.me/dolshansky) — Direct messaging
-- [Strava](https://www.strava.com/athletes/65389405) — Fitness activities and runs
-- [LinkedIn](https://www.linkedin.com/in/dolshansky/) — Professional profile
-- [CV](/pdfs/resume.pdf) — Professional resume
+
+#### Social
+
 - [Reddit](https://www.reddit.com/user/Olshansk/) — r/u/Olshansk
+- [LinkedIn](https://www.linkedin.com/in/dolshansky/) — Professional profile
+- [Telegram](https://t.me/dolshansky) — Direct messaging
+- [Instagram](https://instagram.com/olshansk) — Visual updates
+- [Strava](https://www.strava.com/athletes/65389405) — Fitness activities and runs
+- [CV](/pdfs/resume.pdf) — Professional resume
 
 ### Reach Out
 

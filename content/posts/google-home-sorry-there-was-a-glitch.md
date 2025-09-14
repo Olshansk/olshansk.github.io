@@ -10,4 +10,4 @@ medium_url: "https://medium.com/@olshansky/google-home-sorry-there-was-a-glitch-
 
 ### Google Home — “Sorry, there was a glitch”
 
-*tl;dr Configure your router to disable IPv6 and use a 2.4 GHz WiFi band if you’re running into the same issue.*
+_tl;dr Configure your router to disable IPv6 and use a 2.4 GHz WiFi band if you’re running into the same issue._

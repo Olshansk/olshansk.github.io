@@ -4,10 +4,11 @@ date: 2020-02-17T19:31:48.783Z
 draft: false
 description: "You can try out all of the code in this article yourself using this Google Colaboratory notebook."
 medium_url: "https://medium.com/@olshansky/python-3-9-statsprofile-my-first-oss-contribution-to-cpython-9dd6847eb802"
-tags: ["python", "cpython", "opensource", "profiling", "performance", "programming"]
+tags:
+  ["python", "cpython", "opensource", "profiling", "performance", "programming"]
 ---
 
-*You can try out all of the code in this article yourself using [this Google Colaboratory notebook](https://colab.research.google.com/drive/1GBxS6UnJOLyztivEheHBEDOHFFqpRG2y#scrollTo=Vmky1qQQzvVt).*
+_You can try out all of the code in this article yourself using [this Google Colaboratory notebook](https://colab.research.google.com/drive/1GBxS6UnJOLyztivEheHBEDOHFFqpRG2y#scrollTo=Vmky1qQQzvVt)._
 
 If you've ever tried to debug and optimize your python application, it's likely that you stumbled upon [Python Profiles](https://docs.python.org/3/library/profile.html#) to understand where most of the execution time is being spent. You enable the profiler at the beginning of a code segment you're interested in profiling with `pr.enable()`, and call `pr.create_stats()` at the end.
 

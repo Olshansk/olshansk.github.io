@@ -10,10 +10,10 @@ medium_url: "https://medium.com/@olshansky/explaining-fully-homomorphic-encrypti
 
 ### Explaining Fully Homomorphic Encryption to my Mom
 
-***tl;dr***
+**_tl;dr_**
 
-- ***Traditional encryption**** = Baking bread by reading & following the recipe
-- ***Homomorphic encryption**** = Baking bread without ever seeing the recipe
+- **Traditional encryption** = Baking bread by reading & following the recipe
+- **Homomorphic encryption** = Baking bread without ever seeing the recipe
 
 ### Traditional Encryption
 
@@ -23,27 +23,29 @@ medium_url: "https://medium.com/@olshansky/explaining-fully-homomorphic-encrypti
 - **I unlock it (decrypt) and read it**
 - I follow the instructions and bake bread
 - I can share the unencrypted recipe with others
-Note that both my mom and I have a version of the key. We can both lock or unlock the recipe. Afterwards, I could theoretically share the recipe with my friends who could bake bread themselves; though whether I should is another story 🙃.*
+  Note that both my mom and I have a version of the key. We can both lock or unlock the recipe. Afterwards, I could theoretically share the recipe with my friends who could bake bread themselves; though whether I should is another story 🙃.\*
 
 ### Traditional Encryption Flow for a Secret Bread Recipe
 
 ![Traditional Encryption Flow for a Secret Bread Recipe](https://cdn-images-1.medium.com/max/1200/1*DPGwqEhmGikgNIX1SDhjJg.png)
+
 ### Homomorphic Encryption
 
 - Mom writes her secret bread recipe
 - She locks it (encrypts it)
 - She sends it to me (no one can steal it along the way)
 - **I do not unlock it**
-- I ***magically*** follow the instructions and bake bread
+- I **_magically_** follow the instructions and bake bread
 - I can share the encrypted recipe with others
-Note that while my mom has a key she used to lock the recipe, I have a “magic key”* that lets me follow the instructions without actually knowing what’s written inside. If I were to share the recipe with others, they’d need a version of the *“magic key” as well.
+  Note that while my mom has a key she used to lock the recipe, I have a “magic key”_ that lets me follow the instructions without actually knowing what’s written inside. If I were to share the recipe with others, they’d need a version of the _“magic key” as well.
 
 ### Homomorphic Encryption Flow for a Secret Bread Recipe
 
 ![Homomorphic Encryption Flow for a Secret Bread Recipe](https://cdn-images-1.medium.com/max/1200/1*bDijSJu81p_u05R6CClBYQ.png)
+
 ### Reality Check
 
-Of course, there’s no literal *“magic key.”* Instead, it’s a mountain of math and cryptography. I don’t fully understand the details, but I do know that it’s slow and expensive.
+Of course, there’s no literal _“magic key.”_ Instead, it’s a mountain of math and cryptography. I don’t fully understand the details, but I do know that it’s slow and expensive.
 
 Right now, homomorphic encryption works for small, simple online tasks. It’ll be a while before it’s fast and efficient enough to protect all of our online data.
 

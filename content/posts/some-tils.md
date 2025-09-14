@@ -29,7 +29,7 @@ medium_url: "https://medium.com/@olshansky/some-tils-b25f8fe535ed"
 
 3. Gleam feels like it’s being led by a “languag maximilalists” rather than “language pragmitists” seeing how much deprecataion there is in the standard library already…
 
-It’s interesting how different my personal language biases are....*
+It’s interesting how different my personal language biases are....\*
 
 **A combination of my experience, what I use at work and what I use for side projects, my approach is:**
 

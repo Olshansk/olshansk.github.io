@@ -3,8 +3,8 @@ title: "Are recent trends in company IPOs signaling an imminent recession?"
 date: 2015-12-06T19:37:02-07:00
 draft: false
 description: "Commodities are tanking, the fed is still contemplating an increase in interest rates, and several countries are either in or on the verge…"
-tags: ['recent', 'trends']
-categories: ['machine-learning', 'business']
+tags: ["recent", "trends"]
+categories: ["machine-learning", "business"]
 medium_url: "https://medium.com/@olshansky/are-recent-trends-in-company-ipos-signaling-an-imminent-recession-7366d99a3246"
 ShowToc: true
 TocOpen: false
@@ -18,7 +18,7 @@ ShowWordCount: true
 
 Commodities are tanking, the fed is still contemplating an increase in interest rates, and several countries are either in or on the verge of entering a recession. Over the past 7 years, a lot of cash has been injected into the US economy through quantitative easing, accompanied by very little inflation. All factors considered it’s difficult to determine where the economy is headed in the near future. Is the bull still raging? Is the US economy on the brink of another recession? Will the bear slowly creep up and take over?
 
-Having recently read the revised version of The Intelligent Investor, the following excerpt from the Appendix, originally taken from the case study [_How to Avoid Losses Buying IPO Stocks_](https://books.google.com/books?id=pvrwCQAAQBAJ&lpg=PT5&ots=N88GPGg1Tz&dq=market%20was%20so%20dead%20that%20only%20nine%20new%20stocks%20were%20created%20all%20year&pg=PP1#v=onepage&q&f=false) __ by _Buddy Setianto_ , caught my eye:
+Having recently read the revised version of The Intelligent Investor, the following excerpt from the Appendix, originally taken from the case study [_How to Avoid Losses Buying IPO Stocks_](https://books.google.com/books?id=pvrwCQAAQBAJ&lpg=PT5&ots=N88GPGg1Tz&dq=market%20was%20so%20dead%20that%20only%20nine%20new%20stocks%20were%20created%20all%20year&pg=PP1#v=onepage&q&f=false) \__ by \_Buddy Setianto_ , caught my eye:
 
 > “In the two years from June 1960, through May 1962, more than 850 companies sold their stock to the public for the first time — an average of more than one per day. In late 1967 the IPO market heated up again; in 1969 an astonishing 781 new stocks were born. That oversupply helped create the bear markets of 1969 and 1973–1974. In 1974 the IPO market was so dead that only nine new stocks were created all year; 1975 saw only 14 stocks born. That undersupply, in turn, helped feed the bull market of the 1980s, when roughly 4,000 new stocks flooded the market — helping to trigger the over-enthusiasm that led to the 1987 crash. Then the cycle swung the other way again as IPOs dried up in 1988–1990. That shortage contributed to the bull market of the 1990s — and, right on cue, Wall Street got back into the business of creating new stocks, cranking out nearly 5,000 IPOs. Then, after the bubble burst in 2000, only 88 IPOs were issued in 2001 — the lowest annual total since 1979. In every case, the public has gotten burned on IPOs, has stayed away for at least two years[…]”
 

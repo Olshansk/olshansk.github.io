@@ -11,26 +11,28 @@ ShowToc: true
 
 ### 7 Pocket Network Analogies
 
-*tl;dr Explaining what [Pocket Network](https://pokt.network/) is through a series of 7 internet networking analogies. Subscribe if you want to be notified of when we post about a series of 7 use-cases!*
+_tl;dr Explaining what [Pocket Network](https://pokt.network/) is through a series of 7 internet networking analogies. Subscribe if you want to be notified of when we post about a series of 7 use-cases!_
 
 ### Table of Contents
 
+- [7 Pocket Network Analogies](#7-pocket-network-analogies)
+- [Table of Contents](#table-of-contents)
 - [The Power of Analogies](#the-power-of-analogies)
 - [Relay Mining — An Incentive for Network Requests](#relay-mining--an-incentive-for-network-requests)
 - [Open Systems Interconnection (OSI) Analogies](#open-systems-interconnection-osi-analogies)
-  - 7. [Application Layer: Uber for Network Requests](#7-application-layer-uber-for-network-requests)
-  - 6. [Presentation Layer: Decentralized Routing](#6-presentation-layer-decentralized-routing)
-  - 5. [Session Layer: Permissionless Digital Highway Toll System](#5-session-layer-permissionless-digital-highway-toll-system)
-  - 4. [Transportation Layer: Incentivized TCP/IP](#4-transportation-layer-incentivized-tcpip)
-  - 3. [Network Layer: Multi-Tenant Rate Limiting](#3-network-layer-multi-tenant-rate-limiting)
-  - 2. [Data Link Layer: Verifiable On-Chain Counter](#2-data-link-layer-verifiable-on-chain-counter)
-  - 1. [Physical Layer: Backbone of Permissionless ISPs](#1-physical-layer-backbone-of-permissionless-isps)
+- [7. Application Layer: Uber for Network Requests](#7-application-layer-uber-for-network-requests)
+- [6. Presentation Layer: Decentralized Routing](#6-presentation-layer-decentralized-routing)
+- [5. Session Layer: Permissionless Digital Highway Toll System](#5-session-layer-permissionless-digital-highway-toll-system)
+- [4. Transportation Layer: Incentivized TCP/IP](#4-transportation-layer-incentivized-tcpip)
+- [3. Network Layer: Multi-Tenant Rate Limiting](#3-network-layer-multi-tenant-rate-limiting)
+- [2. Data Link Layer: Verifiable On-Chain Counter](#2-data-link-layer-verifiable-on-chain-counter)
+- [1. Physical Layer: Backbone of Permissionless ISPs](#1-physical-layer-backbone-of-permissionless-isps)
 
 ### The Power of Analogies
 
-Everyone knows the ability to *ELI5 (Explain Like I'm Five)* is critical, but it's one of those things that's much easier said than done.
+Everyone knows the ability to _ELI5 (Explain Like I'm Five)_ is critical, but it's one of those things that's much easier said than done.
 
-I bet that if Einstein were around today, he'd have a very popular YouTube video titled: *"ELI5 — General Relativity"*.
+I bet that if Einstein were around today, he'd have a very popular YouTube video titled: _"ELI5 — General Relativity"_.
 
 ![Einstein would have had a popular YouTube channel](https://cdn-images-1.medium.com/max/800/1*Zx_Ytu_0IzZCH6zz7KY8Yg.jpeg)
 
@@ -42,7 +44,7 @@ This is when analogies become really useful in addition to explaining things sim
 
 Something I've learnt over the past couple of years is that one good analogy may not always be enough. You should aim to have multiple analogies in your back pocket. Different people have different experiences, so depending on whom you speak to, and when, you may need to pull out a different analogy.
 
-It's like going into a Pokemon battle. You have a bunch of Pokemon of different types. If you're up against a 🔥 type, you need to take out your 💧type. If you're up against a 🌿 type, you need to bring out your 🔥 type. *#CharizardForLife*
+It's like going into a Pokemon battle. You have a bunch of Pokemon of different types. If you're up against a 🔥 type, you need to take out your 💧type. If you're up against a 🌿 type, you need to bring out your 🔥 type. _#CharizardForLife_
 
 ![Pokemon battle analogy - different types for different situations](https://cdn-images-1.medium.com/max/800/1*0V6IfX_67lEH1Yond_FDlQ.jpeg)
 
@@ -65,7 +67,7 @@ Since we're dealing with networking protocols, I decided to use the [OSI Model](
 In case you're unfamiliar with the OSI model, it was made by the [International Organization for Standardization](https://www.iso.org/home.html) to conceptualize the different layers of how computers communicate over the internet.
 
 ![OSI Model 7 Layers Diagram](https://cdn-images-1.medium.com/max/800/1*ur7ZA6r3Seeu2dSPKgL70A.png)
-*[https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)*
+_[https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)_
 
 ### 7. Application Layer: Uber for Network Requests
 
@@ -78,12 +80,12 @@ Just as Uber connects drivers with riders through a platform, Pocket aggregates 
 Put simply, Uber aggregates a lot of different **Drivers,** connects them with **Riders,** and facilitates all the interactions in the middle.
 
 ![Uber Model - Drivers, Riders, Platform](https://cdn-images-1.medium.com/max/800/1*q9hEVoTH8rh__jXqDw4rPA.png)
-*Aggregated Drivers (left) providing rides for Riders (right) via Uber (middle)*
+_Aggregated Drivers (left) providing rides for Riders (right) via Uber (middle)_
 
 Similarly, Pocket Network aggregates a lot of different **Open Source Data/Service Providers**, connects with **Users/Applications** and facilitates all the interactions in the middle.
 
 ![Pocket Network Model - Service Providers, Users, Protocol](https://cdn-images-1.medium.com/max/800/1*0iR3CUnQ19vp5YbysjJBtQ.png)
-*Aggregated Open Source Data/Service providers (left) responding to network requests for Users/Applications (right) via Pocket Network (middle)*
+_Aggregated Open Source Data/Service providers (left) responding to network requests for Users/Applications (right) via Pocket Network (middle)_
 
 ### 6. Presentation Layer: Decentralized Routing
 
@@ -96,13 +98,13 @@ With the help of Gateways such as [Grove.city](https://grove.city/), Pocket help
 There are tons of details we're omitting related to how we maintain a high quality of service, how we determine the set of participating providers, etc. The key point is that the request is routed correctly across a permissionless & decentralized set of providers.
 
 ![Grove and Pocket Network Routing Diagram](https://cdn-images-1.medium.com/max/800/1*QSnDoF27O9VnXrs0udt8HA.png)
-*Grove & Pocket Network routing the iPhone Application's network request to one of the available providers while ensuring a response of high quality. The providers maintain servers that participate in Pocket Network but are not owned by Grove.*
+_Grove & Pocket Network routing the iPhone Application's network request to one of the available providers while ensuring a response of high quality. The providers maintain servers that participate in Pocket Network but are not owned by Grove._
 
 ### 5. Session Layer: Permissionless Digital Highway Toll System
 
 > Maintains connections and is responsible for controlling ports and sessions
 
-In 1995, Bill Gates wrote about the *Information Superhighway* in [*The Road Ahead*](https://en.wikipedia.org/wiki/The_Road_Ahead_%28Gates_book%29).
+In 1995, Bill Gates wrote about the _Information Superhighway_ in [_The Road Ahead_](https://en.wikipedia.org/wiki/The_Road_Ahead_%28Gates_book%29).
 
 If you're reading this, you've likely driven on both **physical and digital highways** — some with tolls, some without.
 
@@ -116,12 +118,12 @@ On physical highways, **entry, exit, maintenance, and payments** are controlled 
 
 Transmission Control Protocol (TCP) is one of the foundational protocols atop of which all internet protocols run. After a handshake between the Client and the Server is complete, we have a channel to reliably transfer **Data**.
 
-However, in the same way that the adoption *internet-native money* is slowly growing, there will likely exist a mechanism to pay for *internet-native data transfer*.
+However, in the same way that the adoption _internet-native money_ is slowly growing, there will likely exist a mechanism to pay for _internet-native data transfer_.
 
 What if there were a way for Clients to pay Servers based on the amount of Data transfered regardless of what the application on top of it is?
 
 ![TCP Handshake with Payment Flow](https://cdn-images-1.medium.com/max/800/1*rCMK4x6b445b4hlniLRG2Q.jpeg)
-*TCP handshake + Data Transfer + Payment using the $POKT token. Original image (before modification) can be found [here](https://www.netburner.com/learn/tcp-vs-udp-battle-of-the-protocols/).*
+_TCP handshake + Data Transfer + Payment using the $POKT token. Original image (before modification) can be found [here](https://www.netburner.com/learn/tcp-vs-udp-battle-of-the-protocols/)._
 
 ### 3. Network Layer: Multi-Tenant Rate Limiting
 
@@ -136,25 +138,25 @@ For permissionless & decentralized networks, the same tactics don't apply direct
 To visualize this, you can see entrypoints (gateways) that work operate along side the protocol to share cloud resources versus major cloud providers that have their own. Neither is necessarily better, but both involve hard tradeoffs; that topic is outside the scope of this blog post though.
 
 ![Decentralized vs Centralized Infrastructure Comparison](https://cdn-images-1.medium.com/max/800/1*3EUY8_UWU-9vtjPP8_B0vg.png)
-*[liquify.io](https://www.liquify.io/) and [grove.city](https://grove.city/) (top half) using [pokt.network](https://pokt.network/) versus AWS & GCP (bottom half) maintaining their own dedicated server fleets.*
+_[liquify.io](https://www.liquify.io/) and [grove.city](https://grove.city/) (top half) using [pokt.network](https://pokt.network/) versus AWS & GCP (bottom half) maintaining their own dedicated server fleets._
 
 ### 2. Data Link Layer: Verifiable On-Chain Counter
 
 > Defines the format of data on the network
 
-In the same way that some (including Satoshi) refer to "*Bitcoin as just a timestamp server*", Pocket Network can be seen as a *"Verifiable Permissionless On-Chain Counter."*
+In the same way that some (including Satoshi) refer to "_Bitcoin as just a timestamp server_", Pocket Network can be seen as a _"Verifiable Permissionless On-Chain Counter."_
 
 ![Bitcoin Whitepaper Quote about Timestamp Server](https://cdn-images-1.medium.com/max/800/1*dDsERFX-vj7nBk2_9UPDrw.png)
-*[https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)*
+_[https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)_
 
-A lot of magic goes behind the scenes to enable this, but if you're one of the 🤓 reading this, I'll throw out all the buzzwords that make this happen: *It's a dynamically scalable, closed, self-modulating system using non-interactive probabilistic fraud-proofs for verification, leveraging on-chain commit-and-reveal schemes with crypto-economic incentive alignment.*
+A lot of magic goes behind the scenes to enable this, but if you're one of the 🤓 reading this, I'll throw out all the buzzwords that make this happen: _It's a dynamically scalable, closed, self-modulating system using non-interactive probabilistic fraud-proofs for verification, leveraging on-chain commit-and-reveal schemes with crypto-economic incentive alignment._
 
 **Details aside, doesn't everyone need a counter?** If it's a network request, we can count it. What if you could get the number of clicks your advertisement got from a public database rather than Google's dashboard?
 
 The following table shows a public database (i.e. a Distributed Ledger) where anyone can read the number of requests served (e.g. server 2 served 42 requests) with the assurance that the number cannot be forged.
 
 ![Public Verifiable Counter Database](https://cdn-images-1.medium.com/max/800/1*51s3xLtw7wOyo-XS_3Qw4Q.png)
-*A verifiable public counter that anyone can read from*
+_A verifiable public counter that anyone can read from_
 
 ### 1. Physical Layer: Backbone of Permissionless ISPs
 

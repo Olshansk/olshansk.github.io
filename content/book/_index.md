@@ -1,4 +1,4 @@
 ---
 title: "Book Reviews"
-description: "My thoughts on books I've read"
+description: "Thoughts, reviews & ratings on books I've read"
 ---

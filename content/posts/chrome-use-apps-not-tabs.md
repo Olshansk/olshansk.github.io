@@ -9,7 +9,8 @@ tags = [
 substack_url = "https://olshansky.substack.com/p/use-apps-not-tabs"
 +++
 
-### *Edit: 08/04/2024 - These instructions are applicable if you have one of the newer versions of Chrome installed.*
+### _Edit: 08/04/2024 - These instructions are applicable if you have one of the newer versions of Chrome installed._
+
 Chrome changed a lot of things recently so the settings from the first “Use Apps, Not Tabs” are no longer applicable.
 
 The final result gives lets me easily “cmd + tab” between all the different AI platforms out there.
@@ -17,9 +18,11 @@ The final result gives lets me easily “cmd + tab” between all the different 
 - There are now two different ways to go about it.
 
 #### 1. Install “…” Option Available
+
 I wanted to install [meta.ai](https://www.meta.ai/) as a separate application. After clicking "⋮" → “Save and Share” → “Install Meta AI”, things were flawlessly out of the box.
 
 #### 2. Install “…” Option Unavailable
+
 I’m not completely sure what distinguishes a website that has an “Install” option from one that doesn’t, but as an example, this infor page from meta does not: [ai.meta.com/blog/segment-anything-2](https://ai.meta.com/blog/segment-anything-2/).
 
 In this scenario, after clicking "⋮" → “Save and Share” → “Install Page as App”, what I had to do was:
@@ -34,10 +37,11 @@ Go to [chrome://apps](http://chrome://apps/)
 
 ---
 
-### *Edit: 08/04/2024 - These instructions are likely outdated unless you have an old version of chrome installed.*
-*tl;dr Follow the instructions on [WikiHow](https://www.wikihow.com/Turn-Your-Favorite-Website-Into-Desktop-Apps-With-Google-Chrome) (or the gif below) to turn any website into a “Native Desktop Application.”*
+### _Edit: 08/04/2024 - These instructions are likely outdated unless you have an old version of chrome installed._
 
-One of the first things I did when ChatGPT first came out (more than a year ago) was turn [chat.openai.com](https://chat.openai.com/) into its own *“Desktop Application.”* This lets you simply `Command + Tab` across open applications without the pain of opening the browser and finding “*that tab,” *or worse, opening up a new one.
+_tl;dr Follow the instructions on [WikiHow](https://www.wikihow.com/Turn-Your-Favorite-Website-Into-Desktop-Apps-With-Google-Chrome) (or the gif below) to turn any website into a “Native Desktop Application.”_
+
+One of the first things I did when ChatGPT first came out (more than a year ago) was turn [chat.openai.com](https://chat.openai.com/) into its own _“Desktop Application.”_ This lets you simply `Command + Tab` across open applications without the pain of opening the browser and finding “*that tab,” *or worse, opening up a new one.
 
 Here’s a screenshot of the open applications on my computer as I’m writing this:
 
@@ -52,4 +56,5 @@ In my humble opinion, I believe this is a very underutilized but very powerful c
 Subscribe to stay up to date on whatever is going through Olshansky’s mind.
 
 ---
-*I wanted to get ahead of the flak I might get for not using other browsers such as [Arc](https://arc.net/), [Sidekick](https://www.meetsidekick.com/) or [Brave](https://brave.com/). All I have to say to that is ¯\_(ツ)_/¯*
+
+_I wanted to get ahead of the flak I might get for not using other browsers such as [Arc](https://arc.net/), [Sidekick](https://www.meetsidekick.com/) or [Brave](https://brave.com/). All I have to say to that is ¯\_(ツ)\_/¯_

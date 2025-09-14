@@ -9,11 +9,11 @@ medium_url: "https://medium.com/@olshansky/hot-reloading-with-local-docker-devel
 ShowToc: true
 ---
 
-*tl;dr You can find the source code for a bare-bones dockerized python HTTP server with hot reloading using fastapi on this Github page.*
+_tl;dr You can find the source code for a bare-bones dockerized python HTTP server with hot reloading using fastapi on this Github page._
 
 I recently came by this tweet:
 
-*[Note: Original post contained a screenshot of a tweet about Docker development environments]*
+_[Note: Original post contained a screenshot of a tweet about Docker development environments]_
 
 While there are many reasons to have separate Docker images for your development and production environments, it may be overkill for a small project you're just starting. Over the past several years, I've been using the [volume mounting](https://docs.docker.com/storage/volumes/) feature in order to:
 
@@ -65,7 +65,7 @@ CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload
 **docker-compose.yaml (initial version):**
 
 ```yaml
-version: '3.7'
+version: "3.7"
 
 services:
   web:
@@ -90,7 +90,7 @@ The above command will override the COPY operation we did while building the ima
 **docker-compose.yaml (final version with hot reloading):**
 
 ```yaml
-version: '3.7'
+version: "3.7"
 
 services:
   web:

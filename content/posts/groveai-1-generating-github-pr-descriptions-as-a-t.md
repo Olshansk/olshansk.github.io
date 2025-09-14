@@ -10,7 +10,7 @@ medium_url: "https://medium.com/@olshansky/groveai-1-generating-github-pr-descri
 
 ### GroveAI #1: Generating GitHub PR Descriptions as a Team
 
-*tl;dr Teams should build their own LLM tooling, starting with GitHub PR Description generators.
+\*tl;dr Teams should build their own LLM tooling, starting with GitHub PR Description generators.
 
 ### **Quick **Preamble
 

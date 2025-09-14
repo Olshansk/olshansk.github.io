@@ -26,7 +26,7 @@ I start by introducing myself as Olshansky, with a quick reminder that my first 
 
 After years of thinking about the problems Gateways solve, I decided to kickoff the **GATE Framework**: **Gateway Abstraction Technical Elements.** It's a starting point to create a shared language so we can categorize and classify the problems, solutions and elements involved.
 
-I proceed to make a *very funny joke:* a screenshot of me [presenting](https://www.youtube.com/watch?v=jVW-3lRzVT0) at [d/infra last year](https://dinfra.xyz/2024), which includes a screenshot of me [presenting](https://www.youtube.com/watch?v=7rQ4Awfx79g) at ETHDenver the year before, which itself has a screenshot of me [presenting](https://www.youtube.com/watch?v=cjuDDdiMbMQ) at ETHDenver the year prior to that.
+I proceed to make a _very funny joke:_ a screenshot of me [presenting](https://www.youtube.com/watch?v=jVW-3lRzVT0) at [d/infra last year](https://dinfra.xyz/2024), which includes a screenshot of me [presenting](https://www.youtube.com/watch?v=7rQ4Awfx79g) at ETHDenver the year before, which itself has a screenshot of me [presenting](https://www.youtube.com/watch?v=cjuDDdiMbMQ) at ETHDenver the year prior to that.
 
 ![Presentation History - Recursive Screenshots](https://cdn-images-1.medium.com/max/800/1*kx1mBrJfRxRn3YLqQexYJQ.png)
 
@@ -46,11 +46,11 @@ We kick things off by talking about the core abstractions used and discussed in 
 
 I'll provide a very quick summary of the three below, but you can skip to the next slide as long as you remember this: **Gateway Abstraction is the off-chain bridge between Account Abstraction, which is on-chain, and Chan Abstraction, which is cross-chain.**
 
-1. [**Account Abstraction**](https://ethereum.org/en/roadmap/account-abstraction/) **(*On-Chain*)**: Convert Externally Owned Accounts (EOAs) into Smart Contract Wallets (SCWs) to enable social recovery, gas sponsorship, etc… The implementation is pretty straightforward via a UserOperation pseudo-transactions in a separate mempool and most wallets have support for it. Lots of easy to learn details at [erc4337.io](https://www.erc4337.io/) if you want to learn more.
+1. [**Account Abstraction**](https://ethereum.org/en/roadmap/account-abstraction/) **(_On-Chain_)**: Convert Externally Owned Accounts (EOAs) into Smart Contract Wallets (SCWs) to enable social recovery, gas sponsorship, etc… The implementation is pretty straightforward via a UserOperation pseudo-transactions in a separate mempool and most wallets have support for it. Lots of easy to learn details at [erc4337.io](https://www.erc4337.io/) if you want to learn more.
 
-2. [**Chain Abstraction**](https://docs.near.org/chain-abstraction/what-is) **(*Cross-Chain*)**: This is a little more amorphous and ill-defined. The high-level goal of "intents" is to make it seamless to send and receive different currencies, across different blockchains, without having any visibility of what happens in the middle. I won't get into the details here, but the [CAKE Framework](https://frontier.tech/the-cake-framework) does a great job at capturing the complexity and necessity of this.
+2. [**Chain Abstraction**](https://docs.near.org/chain-abstraction/what-is) **(_Cross-Chain_)**: This is a little more amorphous and ill-defined. The high-level goal of "intents" is to make it seamless to send and receive different currencies, across different blockchains, without having any visibility of what happens in the middle. I won't get into the details here, but the [CAKE Framework](https://frontier.tech/the-cake-framework) does a great job at capturing the complexity and necessity of this.
 
-3. **Gateway Abstraction (*Off-Chain*)**: This is the piece that Web3 (Crypto) industry inherited from traditional Web2 (Internet) industry. This is the core technology that everyone takes for granted. But, without this product, nothing works. It spans quality-of-service, SLAs, load balancing, user authentication, rate limiting, etc…
+3. **Gateway Abstraction (_Off-Chain_)**: This is the piece that Web3 (Crypto) industry inherited from traditional Web2 (Internet) industry. This is the core technology that everyone takes for granted. But, without this product, nothing works. It spans quality-of-service, SLAs, load balancing, user authentication, rate limiting, etc…
 
 ![Web2.5 - Gateway Abstraction](https://cdn-images-1.medium.com/max/800/1*6P1DHH3B065CB8cVaxzEpA.png)
 
@@ -105,13 +105,13 @@ I call out a few concrete examples the audience may be familiar with just to hel
 
 ![Halfway Through - Still An Unsolved Problem](https://cdn-images-1.medium.com/max/800/1*ANP9xNrJw0R-5B7Ib0ffOQ.png)
 
-*We're halfway through the presentation at this point.*
+_We're halfway through the presentation at this point._
 
 I've been talking about Gateways, Abstractions, RPCs, but why does any of this matter?
 
 **It's still an unsolved problem.**
 
-Everyone agrees that the problem exists. Everyone discusses it. No one argues against it. But, a concrete framework to *"solve it"* has not been defined.
+Everyone agrees that the problem exists. Everyone discusses it. No one argues against it. But, a concrete framework to _"solve it"_ has not been defined.
 
 ![Examples of Gateway Problems Being Called Out](https://cdn-images-1.medium.com/max/800/1*iIiTXJnQEzpx3atyB-vlzA.png)
 
@@ -135,7 +135,7 @@ Three concrete examples from the Web3 industry where gateways are called out inc
 
 ![Audience Engagement Survey](https://cdn-images-1.medium.com/max/800/1*OL1uN_EooIlEFMdwQK7RMg.png)
 
-*This is the last slide before I put everything together and show our approach to solving one small piece of this very big puzzle.*
+_This is the last slide before I put everything together and show our approach to solving one small piece of this very big puzzle._
 
 I wanted to get some audience engagement by having everyone raise or lower their hands, but I only learnt the day prior that my time slot was reduce from 15 minutes to 10 minutes. Luckily, they ended up giving me 12.5 minutes on stage.
 
@@ -151,21 +151,21 @@ This is the "[Let Him Cook](https://knowyourmeme.com/photos/2488659-let-him-cook
 
 We're going to use a cheque (aka a check) as an analogy to put everything together. Assume we have an individual who wants to send funds from one account to another.
 
-On the bottom left of the image, *onchain*, what a individual/user does is:
+On the bottom left of the image, _onchain_, what a individual/user does is:
 
 1. Take a cheque — Prepare a transaction
 2. Specify the balance transfer — Specify the tokens to send
 3. Agree to pay the wire fees — Agree to pay the gas fees
 4. Sign the check — Sign the transaction
 
-On the bottom right of the image, *cross-chain*, what the banks/blockchains do is:
+On the bottom right of the image, _cross-chain_, what the banks/blockchains do is:
 
 1. Validate the check — Validate the transaction
 2. Settle the balance transfer— Settle the token transfer
 3. Collect the wire fees — Collect the gas fees
 4. Abstract away any details relate to crossing the boundaries of different banks, institutions, geographic, geopolitical, or blockchains.
 
-In the top middle part of the image, *offchain*, the Gateways do everything else:
+In the top middle part of the image, _offchain_, the Gateways do everything else:
 
 1. Put the check in an envelope — Provide a mechanism to submit the Transaction via an RPC
 2. Drop in in the mailbox — Accept the RPC Request
@@ -186,7 +186,7 @@ This whole end-to-end process makes a lot of assumptions and leaves a lot of det
 
 The entire Crypto Web3 industry has been using traditional Web2 style solutions to tackle this. This includes things like [OAuth](https://oauth.net/2/), [JWT](https://jwt.io/)s, basic [API Keys](https://en.wikipedia.org/wiki/API_key). **In short, the trust and payment model for delivering these messages has not evolved at all.**
 
-I proceed to make another *very funny joke* that regardless of how decentralized or distributed blockchains are, we are never going to be able to fully obfuscate the need to remove a hard-coded hostname or IP address. Whether it's your [seed node](https://academy.bit2me.com/en/que-es-un-nodo-semilla/), or address book, the trusted endpoints are here to stay.
+I proceed to make another _very funny joke_ that regardless of how decentralized or distributed blockchains are, we are never going to be able to fully obfuscate the need to remove a hard-coded hostname or IP address. Whether it's your [seed node](https://academy.bit2me.com/en/que-es-un-nodo-semilla/), or address book, the trusted endpoints are here to stay.
 
 ![Distributed Ledger Technology Solution](https://cdn-images-1.medium.com/max/800/1*uGyJDb3mjGHbWMOA3Q3ZsQ.png)
 
@@ -196,7 +196,7 @@ To do so, I'm going to bring back a narrative that was really popular in 2017: [
 
 The beauty of a blockchain is that it can act as a permissionless, non-interactive, distributed directory (i.e. a bulletin board) of public keys belonging to various users and institutions. Think of it as a bulletin board of public keys.
 
-*Note: I'm assuming the audience (and you — the reader) are familiar with [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) and [Public Key Infrastructure (PKI)](https://en.wikipedia.org/wiki/Public_key_infrastructure). Not going to dive into those details here.*
+_Note: I'm assuming the audience (and you — the reader) are familiar with [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) and [Public Key Infrastructure (PKI)](https://en.wikipedia.org/wiki/Public_key_infrastructure). Not going to dive into those details here._
 
 In turn, at any point in time, a user can freely submit an onchain transaction that either delegates or undelegates trust from their personal public key to any public keys belonging to other actors. In our case, these other actors are institutions maintaining Gateways. This can be done any number of times at any point in time.
 
@@ -233,11 +233,11 @@ I'm going to tie it back to the original slide:
 
 But wait, there's one more very exciting thing I need to share!
 
-*This was also a pretty cool photo taken at the event, so I figured I'd insert that directly instead of the original slide 😁*
+_This was also a pretty cool photo taken at the event, so I figured I'd insert that directly instead of the original slide 😁_
 
 ![GNAP - Grant Negotiation & Authorization Protocol](https://cdn-images-1.medium.com/max/800/1*Lf1KhPDM__vFhglGt55BvA.png)
 
-In 2019, [Justin Richer](https://medium.com/u/ce3fbf1372f2) did a presentation on [Transactional Authorization](https://www.youtube.com/watch?v=U9i7YaN8v9c) at [Identiverse](https://identiverse.com/). The core idea was to present a path forward to *"OAuth 3"* called GNAP (Grant Negotiation & Authorization Protocol), that is not directly backwards compatible with *OAuth 2*.
+In 2019, [Justin Richer](https://medium.com/u/ce3fbf1372f2) did a presentation on [Transactional Authorization](https://www.youtube.com/watch?v=U9i7YaN8v9c) at [Identiverse](https://identiverse.com/). The core idea was to present a path forward to _"OAuth 3"_ called GNAP (Grant Negotiation & Authorization Protocol), that is not directly backwards compatible with _OAuth 2_.
 
 Over the years, a lot of the core ideas that started GNAP have made their way back to OAuth, but there are a lot more to come. Justin recently wrote about it [here.](https://justinsecurity.medium.com/gnap-a-conversation-of-authorization-5b603d850fe9)
 
@@ -255,6 +255,6 @@ That's it. Putting this together took a lot more time than I expected, but I hop
 
 If you somehow managed to make it this far, and want to work together or learn more, send me an email at either [olshansky.daniel@gmail](mailto:olshansky.daniel@gmail) or [olshansky@grove.city](mailto:olshansky@grove.city).
 
-If you want to *"hop on a call"*, I would prefer that we exchange a few voice notes first. Feel free to send those on telegram: [t.me/dolshansky](https://t.me/dolshansky)
+If you want to _"hop on a call"_, I would prefer that we exchange a few voice notes first. Feel free to send those on telegram: [t.me/dolshansky](https://t.me/dolshansky)
 
 Again, thank you to [1kx.capital](https://1kx.capital/) for hosting [dinfra.xyz](https://dinfra.xyz/), the opportunity to speak, aggregating brilliant minds for conducive discussions, and some great swag as well.

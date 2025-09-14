@@ -16,8 +16,8 @@ Now seems like a good opportunity to remind everyone of Grove’s mission: `Enab
 
 We achieve this with **2 goals**:
 
-- Build a protocol, Pocket Network’s ****Shannon**** upgrade, that attracts and incentivizes high-quality supply (service providers) of open data sources and services.
-- *Build a suite of tools, ****Path (Path API & Toolkit Harness)****, that enables anyone to settle traffic on the protocol’s decentralized supply network.
+- Build a protocol, Pocket Network’s \***\*Shannon\*\*** upgrade, that attracts and incentivizes high-quality supply (service providers) of open data sources and services.
+- \*Build a suite of tools, \***\*Path (Path API & Toolkit Harness)\*\***, that enables anyone to settle traffic on the protocol’s decentralized supply network.
 
 ### Shannon Roadmap
 

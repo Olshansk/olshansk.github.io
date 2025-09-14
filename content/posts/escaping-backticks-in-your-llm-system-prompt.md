@@ -9,11 +9,11 @@ medium_url: "https://medium.com/@olshansky/escaping-backticks-in-your-llm-system
 
 ### Escaping Backticks in your LLM System Prompt
 
-*tl;dr If you ever write documentation, add this to your LLM’s memory, system prompt, project, rules or whatever your equivalent of that is.*
+_tl;dr If you ever write documentation, add this to your LLM’s memory, system prompt, project, rules or whatever your equivalent of that is._
 
-```
+`````
 Always render markdown responses using a method that avoids breaking when triple backticks are nested. Prefer one of the following in order:
 1. Use outer code blocks with four backticks (````) if the content includes nested triple backticks
 2. Escape inner backticks using \```
 3. Use indented code blocks
-```
+`````

@@ -9,9 +9,10 @@ tags = [
 substack_url = "https://olshansky.substack.com/p/creative-copay-coupons"
 +++
 
-*This is a post in a series of articles I’m writing called “5 points & 1 resource” (think tl;dr but 5p;1r), where I summarize a list of 5 concepts that would have helped me start learning or re-learning a certain topic. It is intentionally far from a complete source of data.*
+_This is a post in a series of articles I’m writing called “5 points & 1 resource” (think tl;dr but 5p;1r), where I summarize a list of 5 concepts that would have helped me start learning or re-learning a certain topic. It is intentionally far from a complete source of data._
 
 ---
+
 I recently came by this **one reference** on the nuances between an individual, their insurance plan and a drug company from an article titled *[“Is My Drug Copay Coupon a Form of Charity — Or a Bribe?”](https://kffhealthnews.org/news/article/drug-companies-copay-assistance-program-charity-or-bribe/amp/). *I thought it was important enough to be summarized in 5 points below.
 
 - **Pharma releases a super expensive drug**. While R&D costs are high, the pricing of brand name drugs is still disproportionately high compared to their generic alternatives.

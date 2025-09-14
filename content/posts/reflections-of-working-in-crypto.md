@@ -24,6 +24,7 @@ substack_url = "https://olshansky.substack.com/p/reflections-of-working-in-crypt
 - It’s still early.
 
 # Table of Contents
+
 [The Vent](https://olshansky.substack.com/i/148353632/the-vent)
 [The Ugly](https://olshansky.substack.com/i/148353632/the-ugly)
 [The Fuel](https://olshansky.substack.com/i/148353632/the-fuel)
@@ -34,6 +35,7 @@ substack_url = "https://olshansky.substack.com/p/reflections-of-working-in-crypt
 [The Reasons I’m Still Around](https://olshansky.substack.com/i/148353632/the-reason-im-still-around)
 
 # The Vent
+
 I don’t like trading. I don’t like gambling. I don’t like twitter feuds. I don’t like zero-sum products. I’m not a speculator. I’m not a degen. I’m not a privacy maximalist. I’m not into say “gm”. I look the other way when there’s too much hype. I have better things to do than sit on Telegram all day. I don’t care for decentralization solely for the sake of decentralization.
 
 I’ve been in the crypto industry for almost three full-time years, and it’s hard not to get cynical sometimes. When you’re building a protocol, the question of “why blockchain” pops up at least once a week, and I regularly get into debates with myself where I steelman both sides of the argument.
@@ -46,18 +48,20 @@ When I do run into someone who holds some crypto, they’re usually just looking
 
 To put things into perspective, if you work on AI research, do you really want to start every conversation with "But won’t AI take away all our jobs?” If you work on autonomous vehicles, do you really want to start every conversation with the [trolley problem](https://www.notion.so/Blog-Reflections-of-working-in-Crypto-9b0633acb56a487082ecfaea55ac3c1b?pvs=21)? If you're a philosopher, do you really want to start every conversation with "But how does this relate to the meaning of life?” There’s a time and place to have these conversations, but it’s not conducive to getting shit done.
 
-- 
+-
 
 # The Ugly
+
 There’s beauty to bootstrapping a profitable business. You create a net-positive product, find your [1000 true (paying) fans](https://kk.org/thetechnium/1000-true-fans/), identify product-market fit, grow, and maybe even raise some capital for a venture-scale go-to-market strategy. However, this is easier said than done, and I’ll speak on this matter when I’m actually qualified to do so.
 
-It’s true, the crypto industry is full of scams, hackers, bad actors and tainted leaders. Most of the market is being financed by venture, institutional and retail investors who just want to sell their coin to a higher buyer. 99%* of the crypto’s product-market fit today is just gambling and speculation: the world’s most accessible casino. [Polymarket](https://polymarket.com/) has done a great job at capitalizing on this in the form of prediction markets, but there is a graveyard of forgotten projects that attempted it years ago; Augur, Gnosis, etc…
+It’s true, the crypto industry is full of scams, hackers, bad actors and tainted leaders. Most of the market is being financed by venture, institutional and retail investors who just want to sell their coin to a higher buyer. 99%\* of the crypto’s product-market fit today is just gambling and speculation: the world’s most accessible casino. [Polymarket](https://polymarket.com/) has done a great job at capitalizing on this in the form of prediction markets, but there is a graveyard of forgotten projects that attempted it years ago; Augur, Gnosis, etc…
 
 **If you want to build something outside of the “casino bubble”, you need venture capital to start and sustain yourself for long enough until society hits a critical turning point. This could be months, years or decades from now. For now, external capital is financing the entire industry and top-line revenues are a mirror of nepotistic capital flowing from one infra project to another. Successful businesses in the industry today are financed through the sale of these speculative instruments, either directly or indirectly.**
 
 ** A lot of time and work went into computing this extremely accurate metric.**
 
 # The Fuel
+
 Money is fuel, and there are a few different streams of fuel in crypto:
 
 `Token` : a project that’s reliant on its token treasury, token price and liquidity. Kind of like having ongoing secondary stock offerings in the public markets.
@@ -76,7 +80,7 @@ There are a lot of liberties that pre-token projects can take. Later, financials
 
 Once you are post-token, assuming marketing went well, it creates an avenue for short-term liquidity prior to product-market fit. This is cruicial for financing long-term initiatives. The more hype and marketing you can create around a token, the more runway you have.
 
-This is great, but it’s a double-edged sword. You immediately become a public company where VCs can realize gains or losses, and you become beholden to ensure a return for both institutional and retail investors. These investors become part of your open decentralized community, creating noise, craving attention, but are critical to spreading the word, attracting users, sustaining token price and lengthening the project’s runway. *“Just ignore the noise and focus”* is great advice, but *“the noise”* is part of the *“core and soul”* of an open decentralized community.
+This is great, but it’s a double-edged sword. You immediately become a public company where VCs can realize gains or losses, and you become beholden to ensure a return for both institutional and retail investors. These investors become part of your open decentralized community, creating noise, craving attention, but are critical to spreading the word, attracting users, sustaining token price and lengthening the project’s runway. _“Just ignore the noise and focus”_ is great advice, but _“the noise”_ is part of the _“core and soul”_ of an open decentralized community.
 
 I interned at Twitter before it went public and joined them full-time shortly after they IPOed. I was young and fell into the bandwagon of looking at the stock price every day. Lunch conversation sentiment fluctuated just as much as the price. All-hands conversations started focusing on the price rather than the product. If I had to guess, the Collison brothers are likely putting off Stripe’s IPO to avoid finding themselves in the same situation.
 
@@ -87,6 +91,7 @@ Earlier this year, I attended EthCC and ETHDenver where (tens of?) thousands of 
 Realistically, unfortunately, nothing else matters…
 
 # The Bad
+
 Marketing is critical to the success of any product, but it’s indispensable in crypto. You could probably build a career out of marketing non-existent tech.
 
 I’ve literally been asked by an investor to do due diligence of a whitepaper that falls into the blue dot category of the Venn Diagram below. It was a PEPE (the frog) coin that enables general-purpose multi-party-computation of large-language-model inference using zero-knowledge and fully-homorphic-encryption, all while preserving verifiability, cost and efficiency! To be honest, if they do manage to pull it off, I’ll feel like an idiot writing this.
@@ -108,6 +113,7 @@ You got into the space years ago, for the right reasons, building a real project
 Having broken the fourth wall in the paragraph above, there’s only gif that fits the context.
 
 # The Analogy
+
 Okay, so there’s a game, and we have to play it, but why?
 
 From the 50s through the late 80s, we had Bell Labs and Xerox PARC. Private institutions with money printing machines funded R&D efforts for as long as necessary. These labs were the foundation of modern computing, information theory and so much more. Much like venture capital, they operated based on the [power law](https://www.goodreads.com/book/show/58009109-the-power-law) where a single research effort out of thousands would more than compensate for all the losses.
@@ -117,6 +123,7 @@ In the late 2000s and early 2010s, Google stepped into that role. More recently,
 **In crypto, every token based project is a literal money printing machine. Though there are hundreds of these “money printing machines”, they only have value if there’s liquidity.**
 
 # The Liquidity
+
 I didn’t join the crypto space to think about liquidity, but I don’t think other founders start businesses to think about SEO.
 
 Solving a problem by creating a product is at the core of any business, but there’s a lot more to making it a success. In crypto, your token based project won’t succeed if you don’t focus on liquidity. It’s like an online SaSS company that doesn’t have a marketing budget or spend any time on SEO.
@@ -128,6 +135,7 @@ However, this is a double edged sword. I recently went to an event trying to sta
 **To sum it up, the gambling of today is funding the utility tomorrow.**
 
 # The Good
+
 You might wonder, so what’s good about this industry?
 
 The space is filled with inspirational thought leaders, academics, engineers. I learn from them, I am inspired by them, and I aspire to be one of them. The space is also filled with some of the highest performers I’ve ever met on the ground floor. Shoutout to our team at [Grove](https://www.grove.city/) 🌿
@@ -143,6 +151,7 @@ If you go to the right events at the right conferences, and filter the signal fr
 I mentioned how we need marketing, liquidity and memes to make this work, so here’s another one:
 
 # The Reason I’m Still Around
+
 I recently did a panel moderated by a general partner at a16z crypto. When we spoke after the panel, he said something along the lines of: **“[The services your project provides] is only cheaper because token speculation is financing it.”** Today, he’s completely right. In the future, I want to prove him wrong.
 
 Around the same time, I had a conversation with a senior executive of emerging technologies at Cloudflare. He’s open minded to crypto’s potential, but I got the sense that there needs to be more signal before he’s convinced. I want to show that we can find a signal.
@@ -158,4 +167,5 @@ I recently took on the role of CTO at Grove. Why? Because I believe what Google 
 In parallel to writing this blog post, I listened to Uri Levine’s (founder of Waze) book [Fall In Love with the Problem, Not the Solution](https://urilevine.com/book/). **While crypto does sometimes feel like a hammer looking for a nail, I know speak for many when I say that we fell in love with this problem: “There’s something big here. How do we make it a reality?”.**
 
 ---
+
 If you actually made it all the way to the end, please subscribe! Having a high quality reader base really does mean a lot to me 🙏

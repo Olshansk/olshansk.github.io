@@ -12,11 +12,13 @@ substack_url = "https://olshansky.substack.com/p/why-pocket-is-rolling-with-roll
 This is a cross-post of the original article posted [here](https://www.pokt.network/why-pokt-network-is-rolling-with-rollkit-a-technical-deep-dive/) and announced [here](https://twitter.com/POKTnetwork/status/1704865768457060375) a couple of weeks ago. Some of the tables and diagrams that are presented as screenshots can be viewed in more detail in the markdown GitHub gist [here](https://gist.github.com/Olshansk/8c214ea3cb4685798079faadd6258664).
 
 ---
-*tl;dr The Pocket Network core protocol team has decided to implement the first version of the next iteration of the protocol (Shannon Upgrade) as a “[micro-rollup](https://kautuk.substack.com/p/micro-rollup-a-wave-or-just-a-shameless)” using [Rollkit](https://rollkit.dev/) with [Celestia](https://celestia.org/) as a Data Availability (DA) layer.*
 
-*You can read the announcement by [@MatthewRossi](https://twitter.com/MatthewRossi), our Head of Product (Protocol), on behalf of the Pocket Network Foundation, [here](https://www.pokt.network/a-sovereign-rollup-and-a-modular-future/) to skip the technical history and jump straight to the point.*
+_tl;dr The Pocket Network core protocol team has decided to implement the first version of the next iteration of the protocol (Shannon Upgrade) as a “[micro-rollup](https://kautuk.substack.com/p/micro-rollup-a-wave-or-just-a-shameless)” using [Rollkit](https://rollkit.dev/) with [Celestia](https://celestia.org/) as a Data Availability (DA) layer._
+
+_You can read the announcement by [@MatthewRossi](https://twitter.com/MatthewRossi), our Head of Product (Protocol), on behalf of the Pocket Network Foundation, [here](https://www.pokt.network/a-sovereign-rollup-and-a-modular-future/) to skip the technical history and jump straight to the point._
 
 # **🛑 Taking a Pause to Forge Ahead 🛑**
+
 In early August, the Pocket Network core protocol team made a crucial decision: we temporarily halted all development on the upcoming version of the Pocket Network Protocol: the Shannon upgrade (formerly referred to as v1). We embarked on a 3-week intensive research to evaluate rapid advancements of other projects in the industry and ensure an optimal path forward.
 
 - Our research period was a mix of open exploration, daily research syncs lasting 1-2 hours, in-person discussions at a three-day offsite retreat, extensive deep dives into at least nine projects that caught our attention, calls with core team members from these projects, input from industry experts, and the development of several Proof-of-Concepts (POCs) along the way.
@@ -28,10 +30,12 @@ This post will delve into some of Pocket Network’s history, explain how we got
 We'll also touch on some trending topics, including Data Availability and various Proof methodologies. Though these topics guided our direction, it's essential to note that our decisions were primarily steered by our medium-term product requirements so we can hone in our utility in creating the most powerful decentralized RPC protocol out there.
 
 [Pocket Protocol Perplections](https://docs.google.com/presentation/d/1ik7EaM-b2LB78Pn3AVpa_rDQcTc7XxjvYIJZBONHPns/edit#slide=id.p) (August 9th, 2023)
+
 # What is Pocket ❓
+
 Pocket Network is an open protocol that offers developers **R**eliable, **P**erformant, and **C**ost-effective **RPC** access to the open internet. It’s the decentralized counterpart of your favourite neighborhood centralized node provider, designed to address the **RPC Trilemma**.
 
-Most centralized *“Nodes-as-a-Service”* providers excel in offering **Performant** and **Cost-effective** solutions, but what they lack is **Reliable** multi-tenant decentralization that can only be achieved via token-based incentivization.
+Most centralized _“Nodes-as-a-Service”_ providers excel in offering **Performant** and **Cost-effective** solutions, but what they lack is **Reliable** multi-tenant decentralization that can only be achieved via token-based incentivization.
 
 Pocket's native cryptocurrency, POKT, facilitates access to a wide network of providers supporting more than 42 [blockchain RPC endpoints](https://docs.pokt.network/supported-blockchains/). POKT incentivizes full nodes (non-validators) to exist, pessimistically validate state transitions, replicate data, and make it accessible to developers. It's analogous to a universal API token, granting access to diverse RPC services from multiple providers.
 
@@ -48,14 +52,17 @@ Fig 1. Protocol actor integration post Shannon upgradeCommon questions we usuall
 - **Validators** verify proofs corresponding to the claimed service volume
 
 # Morse (v0️⃣) - Navigating Mainnet for more than 3 years
+
 The genesis of Pocket began in 2017 with the founding team: Michael (currently CEO of [Grove](https://grove.city)), Luis, and Andrew. Back when new Initial Coin Offerings (ICOs) would break the previous day’s record, or when plasma and state channels were all the rage, they sought ways of designing Pocket as a smart-contract-based protocol. Concepts like rollups, modularity, data availability, and even Ethereum as a Proof of Stake chain were mere visions on some distant horizon.
 
-- [https://medium.com/ethereum-optimism/introducing-evm-equivalence-5c2021deb306](https://medium.com/ethereum-optimism/introducing-evm-equivalence-5c2021deb306)However, upon realizing the high costs of smart contracts and recognizing the constraints and nascent state of scaling solutions, the team shipped Pocket Protocol as its own sovereign L1 *“app-chain”* utilizing a **[Tendermint](https://tendermint.com/)** fork.
+- [https://medium.com/ethereum-optimism/introducing-evm-equivalence-5c2021deb306](https://medium.com/ethereum-optimism/introducing-evm-equivalence-5c2021deb306)However, upon realizing the high costs of smart contracts and recognizing the constraints and nascent state of scaling solutions, the team shipped Pocket Protocol as its own sovereign L1 _“app-chain”_ utilizing a **[Tendermint](https://tendermint.com/)** fork.
 
 In three years, Pocket has grown to all-time highs of more than 2B daily relays across dozens of blockchains. One of the coolest achievements is also the fact that none of the nodes currently on the network are run by the corporation that paid for developing the original protocol - which speaks to the substantial growth and strength of the Pocket community, ecosystem, and 60+ person DAO.
 
 [poktscan.com](https://www.notion.so/ba333db3bca440f0addbc32abb985d5e?pvs=21)
+
 # From Morse to Shannon : **Navigating Constraints, Legacy & Insights**
+
 There is a lot of historical context leading to the decision to fork Tendermint in early 2020 (after beginning to design Pocket in 2017), leading to various downstream decisions.
 
 Pocket Network’s first release, Morse (formerly known as v0), encountered a handful of chain halts, has had various scalability limitations, and due to our extensive modifications of Tendermint Core - has not kept up to date with Main.
@@ -81,6 +88,7 @@ Our development [was open source](https://github.com/pokt-network/pocket) since 
 Having tooling, DA layers, settlement layers and interoperability protocols today enables us to delegate the responsibilities of some parts of a blockchain and focus on our utility instead.
 
 # Shannon (v1️⃣) - The Pivot 📐
+
 More than two years after designing the **[new specifications](https://github.com/pokt-network/pocket-network-protocol/)** for a custom L1 blockchain, and dedicating 1.5 years to R&D in our **[OSS repository](https://github.com/pokt-network/pocket)**, we've seen our highs and lows. The biggest realization? The need to focus on our utility, embrace modularity, and iterate on new features; a lesson every engineering org re-learns sooner or later.
 
 Our decisions were always guided by first principles and steadfastly committed to the **[KISS](https://en.wikipedia.org/wiki/KISS_principle)** and **[DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)** methodologies. We're proud of our documentation and the breadth of external contributors who joined along the way. Yet, over time, our development focus shifted towards the blockchain-back-end components of consensus, p2p, and persistence and away from our primary utility of decentralized RPC. Our ambitious move to design a complex system from the outset conflicted with Gall’s law, one of the pivotal **[Hacker Laws](https://github.com/dwmkerr/hacker-laws#galls-law)**:
@@ -90,14 +98,16 @@ Our decisions were always guided by first principles and steadfastly committed t
 As we edged closer to launching the Shannon TestNet, we recognized that things were getting way more complex than we originally intended - a major driver in the decision to pivot to Rollkit was to get back to basics. Despite our vibrant community and committed node runners, we felt isolated as a protocol, navigating through the Ether in a separate Cosmos from leading ecosystems.
 
 # Why now ⁉️
+
 Our team regularly reassesses our trajectory after every major conference, event or significant industry innovation. For example, here are a few slides after Devcon6:
 
 We also kept an eye out on other projects to understand what’s actually being done instead of what’s being advertised and marketed.
 
-While we were making lots of progress toward the Shannon TestNet, we also realized there’s never a right time to Pivot and explore other options - the classic *“sunk-cost fallacy”* at work, so we made the hard call to stop and challenge our base assumptions and approach. In the worst case, we’d lose three weeks of development time, learn a lot along the way, and pick up where we left off afterwards.
+While we were making lots of progress toward the Shannon TestNet, we also realized there’s never a right time to Pivot and explore other options - the classic _“sunk-cost fallacy”_ at work, so we made the hard call to stop and challenge our base assumptions and approach. In the worst case, we’d lose three weeks of development time, learn a lot along the way, and pick up where we left off afterwards.
 
 # Pocket Requirements & Evaluation Criteria ⚖️
-Identifying exact requirements and clearly understanding our needs forms the foundation of any good research spike. However, articulating and defining these is more challenging than it sounds. We began with initial guidelines, and as we progressed, these evolved, raised new questions, became clearer, and re-raised further questions. One of our protocol engineers, Bryan, put it very well when he phrased it as needing to understand the ***“degrees of freedom”*** we can operate around. I think it’s fair to say that everyone on the team self-reflected on both Pocket Network's direction and the broader implications for blockchains sooner or later.
+
+Identifying exact requirements and clearly understanding our needs forms the foundation of any good research spike. However, articulating and defining these is more challenging than it sounds. We began with initial guidelines, and as we progressed, these evolved, raised new questions, became clearer, and re-raised further questions. One of our protocol engineers, Bryan, put it very well when he phrased it as needing to understand the **_“degrees of freedom”_** we can operate around. I think it’s fair to say that everyone on the team self-reflected on both Pocket Network's direction and the broader implications for blockchains sooner or later.
 
 Ultimately, our functional requirements could be summarized as follows:
 
@@ -117,13 +127,14 @@ Ultimately, our functional requirements could be summarized as follows:
 
 - **🌐 Interoperable**: Compatibility at protocol, community, and tooling levels is essential, especially with major ecosystems like IBC and EVM.
 
-Mapping a requirement to a *“blockchain layer”* can be considered a pseudoscience, but I think even an attempt can help build context. In the following table, the *Incentive Layer* can be treated as the design of the actual application, and the *Execution Layer* is what manages the state transition functions.
+Mapping a requirement to a _“blockchain layer”_ can be considered a pseudoscience, but I think even an attempt can help build context. In the following table, the _Incentive Layer_ can be treated as the design of the actual application, and the _Execution Layer_ is what manages the state transition functions.
 
 - Some additional non-functional requirements, applicable to any team (engineering or not), are to move fast, iterate, focus on building what provides value to our users and to quote Albert Einstein:
 
 > Everything should be made as simple as possible, but not simpler.
 
 # Hearing & Comparing 👂
+
 With our requirements at hand, we started evaluating what’s out there.
 
 We looked into the Cosmos Ecosystem (CometBFT, Cosmos SDK, Celestia), the EVM Ecosystem (Arbitrum, Optimism, Polygon, Aztec), compared ourselves against similar Smart Contract projects (LivePeer, TheGraph, Streamr), evaluated some Rollup-as-a-Service options ([Caldera](https://caldera.xyz/) and [Conduit](https://conduit.xyz/)) and also reviewed a few other projects that didn’t fit any of these buckets like Polygon Edge (Side-Chain) and Storj (Decentralized Data Storage).
@@ -133,14 +144,15 @@ Some of our internal and external discussions often had the following phrases co
 However, seeing how supportive everyone we spoke to is of other projects was very refreshing. At the end of the day, we’re all working towards the same vision:
 
 > “Their team has brilliant & hard working individuals.”
-”Their team is providing us with all the support we need asap.”
-”They have great ideas and making a ton of progress.”
-”That framework is very easy to use.”
-”Their docs are very educational & informative.”
+> ”Their team is providing us with all the support we need asap.”
+> ”They have great ideas and making a ton of progress.”
+> ”That framework is very easy to use.”
+> ”Their docs are very educational & informative.”
 
 We realized that there wouldn’t be a clear and definitive answer here, and given the need to examine the ecosystem benefits of choosing one opportunity over another, too, it quickly became apparent that the set of tradeoffs resembled art more so than science.
 
 # Defining Ambiguity in the Search for Data Availability
+
 Partway through our research spike, we had the idea of doing a literature review-like document evaluating all the solutions that either exist or are under active development: smart contracts, L1, L2, L3, various DA layers, various rollup frameworks, etc.… However, it is hard to draw a straightforward comparison. Not only would this be a huge undertaking, but it is very nuanced. We need to compare what exists today vs. what will be available tomorrow. What are our timelines? What level of security risk are we willing to take? How much of a tradeoff will we take in exchange for the true long-term web3 ethos of complete sovereignty, permissionlessness and decentralization? What does settlement really mean? What ecosystem benefits do we expect? And what is the opportunity cost for choosing one option over another?
 
 Settlement is very similar to 🎂. It can be delicious and bring joy, but comes with costs and tradeoffs since it’s not the healthiest food group. It could be a piece of cake if you leverage an existing framework, but could be very burdensome if you bake it from scratch. Some even question whether Settlement is real at all, or if it's just a promise from GLaDOS. Choose your 🍰
@@ -167,8 +179,10 @@ Everyone is starting with Fraud (optimistic) proofs and is aiming to have Validi
 
 - It’s too early to have an analytical comparison of data availability costs across DA layers, sequencer speeds and decentralization, or proof cost and sizes. These will have an impact across various factors, including the censorship resistance of the underlying DA, its ability to enable trustless bridging, etc.
 
-- 
+-
+
 # Why not the EVM?
+
 When the team started its research spike, we were heavily focused on the OP Stack due to the signal in the industry and our bullish view on the EVM ecosystem, its developer community, security and interoperability. We managed to rule out EVM-based solutions after a little bit of work and a lot of great ideas from [@h5law](https://twitter.com/h5law), one of our lead protocol engineers.
 
 We quickly realized that we might need to be an [OP Stack Hack](https://stack.optimism.io/docs/build/hacks/), but it would result in our new chain not being part of the official OP stack and, therefore, losing many of the ecosystem benefits we sought to obtain by joining the Superchain. We also discovered that we don’t need to fork the OP Stack because Pocket is an application-specific chain, and we do not need to be a standalone smart contract EVM rollup. This got us excited by the idea that Pocket could become a Smart Contract that acts as a registry for our on-chain actors deployed on one of the major EVM rollups similar to [The Graph](https://thegraph.com/) and [LivePeer](https://livepeer.org/).
@@ -208,9 +222,9 @@ function stake(ComputeUnit memory offerRate, uint256 serviceId, ActorType actorT
 function unstake(uint256 amount, ActorType actorType) external { ... }
 function submitRelayClaim(RelayClaim memory relayClaim) external { ... }
 function validateRelayProof(RelayProof memory relayProof, bytes32 leaf) external view returns (bool) { ... }
-function verifySumProof(bytes[] memory _sideNodes, bytes memory _root, bytes32 _path, bytes32 _valueHash, uint64 _sum) external pure returns (bool) { ... }
-function getPathBit(bytes32 _path, uint256 _index) internal pure returns (uint8) { ... }
-function getParent(bytes memory _left, bytes memory _right) internal pure returns (bytes memory) { ... }
+function verifySumProof(bytes[] memory \_sideNodes, bytes memory \_root, bytes32 \_path, bytes32 \_valueHash, uint64 \_sum) external pure returns (bool) { ... }
+function getPathBit(bytes32 \_path, uint256 \_index) internal pure returns (uint8) { ... }
+function getParent(bytes memory \_left, bytes memory \_right) internal pure returns (bytes memory) { ... }
 }
 And then found ourselves having discussions around how to optimize for gas.
 
@@ -219,7 +233,8 @@ We realized that we’ll be at the mercy of various gas optimization discussions
 We need EVM compatibility not for the protocol’s core utility but to improve the experience related to wallets, our DAO UX, and access to best-in-class DeFi infra and token liquidity. This was a critical component of why we sought to explore rollups, particularly the OP stack, in the first place. But if we can’t deploy directly where the wallet, DAO or DeFi infra we want to integrate with currently exists (e.g. on ETH L1, OP stack, Arbitrum, Polygon, etc.), we still need a bridge somewhere along the way. Building outside of the EVM ecosystem can get us to a pretty similar spot without needing to be “EVM Native” if sufficiently robust and well-supported bridges like [Axelar](https://axelar.network/) and [Hyperlane](https://www.hyperlane.xyz/) support our network.
 
 # Pocket has always been a Rollup 🧻
-One of our key findings during this exercise, first mentioned by Dylan, is the realization that *“**Pocket is, and always has been, a pseudo-rollup.”***
+
+One of our key findings during this exercise, first mentioned by Dylan, is the realization that \*“**Pocket is, and always has been, a pseudo-rollup.”\***
 
 Needing to handle more than a billion requests a day, with the goal of having the network handle a magnitude more within the next few years, it’s unfathomable (and unnecessary) to have every request be its own independent on-chain transaction. Having an on-chain transaction called `Relay` can be ruled out immediately.
 
@@ -234,9 +249,10 @@ A few of the key things in realizing the above is understanding where Pocket sta
 In Pocket’s utility, the blockchain is used as a distributed registry (i.e. ledger) to transparently track actor properties, optimistically rate limit applications, verify the work done and keep permissionless actors honest through (dis)incentives. We have the leisure of not needing to optimize for milliseconds.
 
 # Committing to a Decision 🧑‍⚖️
+
 **We’ve already started prototyping an [alpha version of the Shannon upgrade](https://github.com/pokt-network/poktroll-alpha) as a rollup using Rollkit and Celestia as a DA layer, and are committed to bringing this to mainnet early next year.**
 
-We had a few *“runners-ups”* and wanted to share the reasons that led to our final decision. After going through the research above, identifying our requirements, and ruling out the need to be “EVM Native,” our top 3 choices were
+We had a few _“runners-ups”_ and wanted to share the reasons that led to our final decision. After going through the research above, identifying our requirements, and ruling out the need to be “EVM Native,” our top 3 choices were
 
 - [Rollkit](https://rollkit.dev/): leveraging the Cosmos SDK and Celestia DA (configurable)
 
@@ -263,6 +279,7 @@ These three solutions would cover all of our functional requirements, but in ter
 I anticipate that over the next 3-9 months, as these frameworks and DA layers mature, there will be a lot more visibility into the costs, scalability, security and decentralization of each solution. For now, we’re making the best decision we can, given the data we have.
 
 # So What’s Happening to the Validators?
+
 Pocket was always committed to being the most decentralized, trustless and censorship-resistant protocol out there. By moving to a rollup, we’re delegating the security and decentralization to the underlying Data Availability layer, which could raise risk with respect to censorship resistance. However, modularity means that Pocket could move from one DA layer to another, use multiple DA layers in parallel for redundancy, and eventually leverage its network of nodes for its own DA layer. It also moves the cost of the validators (on and off-chain) to the underlying Data Availability layer.
 
 Some of the leading projects in the space, with very talented and hardworking teams, are working on solving the problems related to censorship resistance, DDoS attacks, trustless bridging, decentralizing sequencers, and many others while also making sure that these solutions scale. Being able to delegate that responsibility to a project for whom it is their top priority, allows us to focus on our core value add - Portals, Applications & Servicers and Relay Mining, rather than Validators & Sequencers.
@@ -272,6 +289,7 @@ Instead of scaling validators, we can scale the number of relays that the networ
 This shift in work lets us focus solely on Pocket’s utility. We can nail down the core mechanics specific to the Pocket Network, such as the claim & proof lifecycle to validate relays completed, and spend more time listening to the community on how to expand other features over time. For example, we have heard, ideated and experimented with dozens of different ideas related to Quality of Service, but bringing them on-chain takes time and requires finding concrete solutions to various nuances. Offloading core blockchain building blocks to other frameworks in a modular fashion lets us be more productive and collaborate more closely with our community on our specialization. Similar to how Portal (by Valve Corp.) was a great game because it nailed one key game mechanic, we can do the same with Pocket’s utility. In fact, tokenizing gateways (now known as portals) was an [idea first brought](https://github.com/pokt-network/pocket-network-protocol/issues/14) up by one of our community members, [@shane8burger](https://twitter.com/shane8burger).
 
 # Special Thanks 🙏
+
 Shoutout to Matteo for the meticulous edits as well as the protocol team for related discussion and review: Bryan, Dylan, Harry, Dima, Rampey and Red0ne.
 
 Special thanks to Valeriy at [1kx](https://1kx.network/), Adi at [Informal Systems](https://informal.systems/), Cem at [Sovereign Labs](https://www.sovereign.xyz/) and Kautuk at [Stackr](https://www.stackrlabs.xyz/) who jumped on calls, provided a ton of support along the way, and helped review this post.
@@ -279,4 +297,5 @@ Special thanks to Valeriy at [1kx](https://1kx.network/), Adi at [Informal Syste
 If you liked this content and want to read more from me, you’ll find my substack [here](https://olshansky.substack.com/).
 
 # Bonus
-I assume some people might ask: “*What should our team choose?”.* This isn’t an easy question, but below is an opinionated decision tree that does not take lots of things (tooling, maturity, interoperability, security, etc…) into account, but can hopefully help as a rough starting point.
+
+I assume some people might ask: “_What should our team choose?”._ This isn’t an easy question, but below is an opinionated decision tree that does not take lots of things (tooling, maturity, interoperability, security, etc…) into account, but can hopefully help as a rough starting point.

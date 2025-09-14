@@ -9,9 +9,9 @@ tags = [
 substack_url = "https://olshansky.substack.com/p/the-power-of-analogies"
 +++
 
-*tl;dr This is a cross-post from our [blog](https://medium.com/decentralized-infrastructure/7-pocket-network-analogies-14aecd8086ed) at [grove.city](https://grove.city/). An explanation of what [pokt.network](https://pokt.network/) is through a series of analogies. Don’t have enough time to read? See the x-thread [here](https://x.com/olshansky/status/1848738114178621542).*
+_tl;dr This is a cross-post from our [blog](https://medium.com/decentralized-infrastructure/7-pocket-network-analogies-14aecd8086ed) at [grove.city](https://grove.city/). An explanation of what [pokt.network](https://pokt.network/) is through a series of analogies. Don’t have enough time to read? See the x-thread [here](https://x.com/olshansky/status/1848738114178621542)._
 
-*Subscribe if you want to be notified of when we post about a series of 7 use-cases!*
+_Subscribe if you want to be notified of when we post about a series of 7 use-cases!_
 
 ## Table of Contents
 
@@ -38,9 +38,10 @@ substack_url = "https://olshansky.substack.com/p/the-power-of-analogies"
 - [1. Physical Layer: Backbone of Permissionless ISPs](https://olshansky.substack.com/i/150492795/physical-layer-backbone-of-permissionless-isps)
 
 ## The Power of Analogies
-Everyone knows the ability to *ELI5 (Explain Like I’m Five)* is critical, but it’s one of those things that’s much easier said than done.
 
-I bet that if Einstein were around today, he’d have a very popular YouTube video titled: *“ELI5 — General Relativity”*.
+Everyone knows the ability to _ELI5 (Explain Like I’m Five)_ is critical, but it’s one of those things that’s much easier said than done.
+
+I bet that if Einstein were around today, he’d have a very popular YouTube video titled: _“ELI5 — General Relativity”_.
 
 For the sake of discussion, let’s assume you succeed and a 5-year-old (or a friend’s 5-year-old in my case) understands what you’re working on.
 
@@ -50,9 +51,10 @@ This is when analogies become really useful in addition to explaining things sim
 
 Something I’ve learnt over the past couple of years is that one good analogy may not always be enough. You should aim to have multiple analogies in your back pocket. Different people have different experiences, so depending on whom you speak to, and when, you may need to pull out a different analogy.
 
-It’s like going into a Pokemon battle. You have a bunch of Pokemon of different types. If you’re up against a 🔥 type, you need to take out your 💧type. If you’re up against a 🌿 type, you need to bring out your 🔥 type. *#CharizardForLife*
+It’s like going into a Pokemon battle. You have a bunch of Pokemon of different types. If you’re up against a 🔥 type, you need to take out your 💧type. If you’re up against a 🌿 type, you need to bring out your 🔥 type. _#CharizardForLife_
 
 ## Relay Mining — An Incentive for Network Requests
+
 A couple of months ago, I presented [Relay Mining](https://arxiv.org/abs/2305.10672) at EthCC. If you missed it, you can find a recording at [ethcc.io](https://ethcc.io/archives/relay-mining-cryptographically-incentivizing-non-validating-nodes), on [YouTube](https://youtu.be/UoUslw_v__c?si=Ko9xFrH3jutym-F5&t=967), or my annotated presentation [here](https://olshansky.substack.com/p/annotated-presentation-relay-mining).
 
 Over the past few weeks, I’ve found myself referencing one of the slides on multiple occasions. It comes up in various calls when I need to explain what [pokt.network](https://pokt.network/) is.
@@ -62,11 +64,13 @@ I thought it’d be fun to decompose it into multiple parts and create an online
 **If any of these resonate, or you see value in integrating it into your product or service, my DMs are open or leave a comment below!**
 
 ## Open Systems Interconnection (OSI) Analogies
+
 Since we’re dealing with networking protocols, I decided to use the [OSI Model](https://en.wikipedia.org/wiki/OSI_model) and draw a different analogy to every layer.
 
 In case you’re unfamiliar with the OSI model, it was made by the [International Organization for Standardization](https://www.iso.org/home.html) to conceptualize the different layers of how computers communicate over the internet.
 
 [https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+
 ### 7. Application Layer: Uber for Network Requests
 
 > Human-computer interaction layer, where applications can access the network services.
@@ -80,6 +84,7 @@ Put simply, Uber aggregates a lot of different **Drivers, **connects them with *
 Aggregated Drivers (left) providing rides for Riders (right) via Uber (middle)Similarly, Pocket Network aggregates a lot of different **Open Source Data/Service Providers**, connects with **Users/Applications** and facilitates all the interactions in the middle.
 
 Aggregated Open Source Data/Service providers (left) responding to network requests for Users/Applications (right) via Pocket Network (middle)
+
 ### 6. Presentation Layer: Decentralized Routing
 
 > Ensures that data is in a usable format and is where data encryption occur
@@ -91,11 +96,12 @@ With the help of Gateways such as [Grove.city](https://grove.city/), Pocket help
 There are tons of details we’re omitting related to how we maintain a high quality of service, how we determine the set of participating providers, etc. The key point is that the request is routed correctly across a permissionless & decentralized set of providers.
 
 Grove & Pocket Network routing the iPhone Application’s network request to one of the available providers while ensuring a response of high quality. The providers maintain servers that participate in Pocket Network but are not owned by Grove.
+
 ### 5. Session Layer: Permissionless Digital Highway Toll System
 
 > Maintains connections and is responsible for controlling ports and sessions
 
-In 1995, Bill Gates wrote about the *Information Superhighway* in *[The Road Ahead](https://en.wikipedia.org/wiki/The_Road_Ahead_%28Gates_book%29).*
+In 1995, Bill Gates wrote about the _Information Superhighway_ in _[The Road Ahead](https://en.wikipedia.org/wiki/The_Road_Ahead_%28Gates*book%29).*
 
 If you’re reading this, you’ve likely driven on both **physical and digital highways** — some with tolls, some without.
 
@@ -109,11 +115,12 @@ On physical highways, **entry, exit, maintenance, and payments** are controlled 
 
 Transmission Control Protocol (TCP) is one of the foundational protocols atop of which all internet protocols run. After a handshake between the Client and the Server is complete, we have a channel to reliably transfer **Data**.
 
-However, in the same way that the adoption *internet-native money* is slowly growing, there will likely exist a mechanism to pay for *internet-native data transfer*.
+However, in the same way that the adoption _internet-native money_ is slowly growing, there will likely exist a mechanism to pay for _internet-native data transfer_.
 
 What if there were a way for Clients to pay Servers based on the amount of Data transfered regardless of what the application on top of it is?
 
 TCP handshake + Data Transfer + Payment using the $POKT token. Original image (before modification) can be found [here](https://www.netburner.com/learn/tcp-vs-udp-battle-of-the-protocols/).
+
 ### 3. Network Layer: Multi-Tenant Rate Limiting
 
 > Decides which physical path the data will take
@@ -127,19 +134,21 @@ For permissionless & decentralized networks, the same tactics don’t apply dire
 To visualize this, you can see entrypoints (gateways) that work operate along side the protocol to share cloud resources versus major cloud providers that have their own. Neither is necessarily better, but both involve hard tradeoffs; that topic is outside the scope of this blog post though.
 
 [liquify.io](https://www.liquify.io/) and [grove.city](https://grove.city/) (top half) using [pokt.network](https://pokt.network/) versus AWS & GCP (bottom half) maintaining their own dedicated server fleets.
+
 ### 2. Data Link Layer: Verifiable On-Chain Counter
 
 > Defines the format of data on the network
 
-In the same way that some (including Satoshi) refer to “*Bitcoin as just a timestamp server*”, Pocket Network can be seen as a *“Verifiable Permissionless On-Chain Counter.”*
+In the same way that some (including Satoshi) refer to “_Bitcoin as just a timestamp server_”, Pocket Network can be seen as a _“Verifiable Permissionless On-Chain Counter.”_
 
-[https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)A lot of magic goes behind the scenes to enable this, but if you’re one of the 🤓 reading this, I’ll throw out all the buzzwords that make this happen: *It’s a dynamically scalable, closed, self-modulating system using non-interactive probabilistic fraud-proofs for verification, leveraging on-chain commit-and-reveal schemes with crypto-economic incentive alignment. *
+[https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)A lot of magic goes behind the scenes to enable this, but if you’re one of the 🤓 reading this, I’ll throw out all the buzzwords that make this happen: _It’s a dynamically scalable, closed, self-modulating system using non-interactive probabilistic fraud-proofs for verification, leveraging on-chain commit-and-reveal schemes with crypto-economic incentive alignment. _
 
 **Details aside, doesn’t everyone need a counter?** If it’s a network request, we can count it. What if you could get the number of clicks your advertisement got from a public database rather than Google’s dashboard?
 
 The following table shows a public database (i.e. a Distributed Ledger) where anyone can read the number of requests served (e.g. server 2 served 42 requests) with the assurance that the number cannot be forged.
 
 A verifiable public counter that anyone can read from
+
 ### 1. Physical Layer: Backbone of Permissionless ISPs
 
 > Transmits raw bit stream over the physical medium

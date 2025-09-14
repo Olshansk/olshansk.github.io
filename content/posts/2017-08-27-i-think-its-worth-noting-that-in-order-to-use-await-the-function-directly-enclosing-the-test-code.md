@@ -3,8 +3,8 @@ title: "I think it’s worth noting that in order to use await, the function dir
 date: 2017-08-27T22:14:44-07:00
 draft: false
 description: "Helpful resource: https://stackoverflow.com/questions/42299594/await-is-a-reserved-word-error-inside-async-function."
-tags: ['think', 'worth', 'noting']
-categories: ['technology', 'machine-learning']
+tags: ["think", "worth", "noting"]
+categories: ["technology", "machine-learning"]
 medium_url: "https://medium.com/@olshansky/i-think-its-worth-noting-that-in-order-to-use-await-the-function-directly-enclosing-the-test-code-a5b44465399"
 ShowToc: true
 TocOpen: false

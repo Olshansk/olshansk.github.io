@@ -11,7 +11,7 @@ substack_url = "https://olshansky.substack.com/p/the-4-week-project-checklist"
 
 A friend of mine recently asked me this question:
 
-My immediate reaction was: *“How do I respond? People have literally written books about this.”* I asked him to clarify with a few more details so I could direct my response accordingly.
+My immediate reaction was: _“How do I respond? People have literally written books about this.”_ I asked him to clarify with a few more details so I could direct my response accordingly.
 
 Thanks for reading Olshansky's Newsletter! Subscribe for free to receive new posts and support my work.
 
@@ -38,6 +38,7 @@ Thanks for reading Olshansky's Newsletter! Subscribe for free to receive new pos
 Thank you [@P1erreM](https://twitter.com/P1erreM) for continuing to ask hard questions and providing feedback on this list.
 
 ---
-If you made it this far and enjoyed the content, I highly recommend subscribing to [pointer.io](https://pointer.io/), a newsletter that covers similar topics and provides a *tl;dr* of each article directly in your mailbox.
+
+If you made it this far and enjoyed the content, I highly recommend subscribing to [pointer.io](https://pointer.io/), a newsletter that covers similar topics and provides a _tl;dr_ of each article directly in your mailbox.
 
 Thanks for reading Olshansky's Newsletter! Subscribe for free to receive new posts and support my work.

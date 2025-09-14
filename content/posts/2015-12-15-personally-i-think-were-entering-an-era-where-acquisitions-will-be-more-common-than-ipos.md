@@ -3,8 +3,8 @@ title: "Personally, I think we’re entering an era where acquisitions will be m
 date: 2015-12-15T17:01:46-07:00
 draft: false
 description: "The bubble is not bursting, but it's not growing at the same rate as it used to, and there's not much more air to fill it. VC money is…"
-tags: ['personally', 'think', 'entering']
-categories: ['machine-learning', 'business']
+tags: ["personally", "think", "entering"]
+categories: ["machine-learning", "business"]
 medium_url: "https://medium.com/@olshansky/personally-i-think-we-re-entering-an-era-where-acquisitions-will-be-more-common-than-ipos-b49e59b464ab"
 ShowToc: true
 TocOpen: false

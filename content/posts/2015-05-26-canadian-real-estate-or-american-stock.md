@@ -3,8 +3,8 @@ title: "Canadian Real Estate or American Stock?"
 date: 2015-05-26T01:49:03-07:00
 draft: false
 description: "tl;dr Investing in the S&P 500 is more profitable than buying a condo in Toronto with a 25% downpayment and renting it out while still…"
-tags: ['canadian', 'real', 'estate']
-categories: ['technology', 'machine-learning', 'business']
+tags: ["canadian", "real", "estate"]
+categories: ["technology", "machine-learning", "business"]
 medium_url: "https://medium.com/@olshansky/canadian-real-estate-or-american-stock-6cc59f750e43"
 ShowToc: true
 TocOpen: false
@@ -130,7 +130,7 @@ In addition to some of the major indices in the US market, which is what I am co
 
 Both of these companies offer to manage your money for a small service fee. Betterment charges 0.35% for any account with a balance under $10,000, 0.25% for any account under $100,00 or 0.15% otherwise. [10] Similarly, Wealthfront charges a monthly advisory fee based on a 0.25% annual rate on any funds over $10,000. [11]
 
-Both of these services utilize the [Modern Portfolio Theory](http://en.wikipedia.org/wiki/Modern_portfolio_theory) as the basis for their investment, and invest primarily in index funds. While [_The Essays of Warren Buffett: Lessons for Corporate America_](https://www.goodreads.com/book/show/145565.The_Essays_of_Warren_Buffett) __ has a few arguments against this approach to investing, it has it’s upsides as well. According to Betterment, comparing low-cost market-tracking index funds vs actively managed mutual funds which try to outperform the market showed that “overwhelming evidence is found in support of an all index fund strategy.” [12] There are also other benefits from utilizing these services such as tax loss harvesting for example.
+Both of these services utilize the [Modern Portfolio Theory](http://en.wikipedia.org/wiki/Modern_portfolio_theory) as the basis for their investment, and invest primarily in index funds. While [_The Essays of Warren Buffett: Lessons for Corporate America_](https://www.goodreads.com/book/show/145565.The_Essays_of_Warren_Buffett) \_\_ has a few arguments against this approach to investing, it has it’s upsides as well. According to Betterment, comparing low-cost market-tracking index funds vs actively managed mutual funds which try to outperform the market showed that “overwhelming evidence is found in support of an all index fund strategy.” [12] There are also other benefits from utilizing these services such as tax loss harvesting for example.
 
 Wealthfront advertises projected earnings of 4.37%, 23.79%, and 52.94% over the next 1, 5 and 10 years respectively. [13] While this is lower than the S&P 500 (calculated above), it is also safer because risk is greatly reduced through diversification and active rebalancing of the portfolio. For this reason, it could serve as another low risk alternative. Similarly, Betterment’s historical data shows that “investing in a Betterment 100% stock portfolio since the end of Jan 2004 through the end of Apr 2015 would have produced a cumulative return of +135.1%, which is the same as an average annual return of +7.9%.” [15]
 

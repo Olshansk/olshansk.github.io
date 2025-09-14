@@ -3,8 +3,8 @@ title: "While a correction is currently taking place, and it’s impossible to f
 date: 2017-05-28T00:25:39-07:00
 draft: false
 description: "I don’t think we’ll see real stability until it’s adopted by mainstream organizations, which could very well take at least ten years. By…"
-tags: ['while', 'correction', 'currently']
-categories: ['cryptocurrency', 'machine-learning']
+tags: ["while", "correction", "currently"]
+categories: ["cryptocurrency", "machine-learning"]
 medium_url: "https://medium.com/@olshansky/while-a-correction-is-currently-taking-place-and-its-impossible-to-foresee-what-will-happen-over-1e5cea9b8205"
 ShowToc: true
 TocOpen: false

@@ -7,11 +7,11 @@ summary: "Reading this statement made me think why fiction, in the form of films
 medium_url: "https://medium.com/@olshansky/false-rumors-spread-faster-and-wider-than-true-information-f5edb69810ba"
 ---
 
-*> False rumors spread faster and wider than true information
+\*> False rumors spread faster and wider than true information
 
 Reading this statement made me think why fiction, in the form of films, TV, books, games, plays and more have such a big place in our society. In one sense, these are lies that we really want to share with others.
 
-*> They created hundreds and thousands of patents, and built working systems that are often the examplars of what the field will become.*
+_> They created hundreds and thousands of patents, and built working systems that are often the examplars of what the field will become._
 
 Proud to have been a contributor to a little over 10 of those :D
 

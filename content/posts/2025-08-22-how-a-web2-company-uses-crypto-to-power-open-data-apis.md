@@ -3,8 +3,8 @@ title: "How a Web2 Company Uses Crypto to Power Open Data APIs"
 date: 2025-08-22T16:18:09-07:00
 draft: false
 description: "There is a big opportunity to build the “Google home page” for finding and accessing APIs for any open data sources and services."
-tags: ['web2', 'company']
-categories: ['cryptocurrency', 'technology', 'machine-learning', 'business']
+tags: ["web2", "company"]
+categories: ["cryptocurrency", "technology", "machine-learning", "business"]
 medium_url: "https://medium.com/@olshansky/how-a-web2-company-uses-crypto-to-power-open-data-apis-b8307eba173a"
 ShowToc: true
 TocOpen: false
@@ -16,19 +16,16 @@ ShowWordCount: true
 
 ### How a Web2 Company Uses Crypto to Power Open Data APIs
 
- _Thank you to_[ _Art_](https://x.com/ArtSabintsev) _,_[_Fred_](https://x.com/fredt_io) _ & _[_Jake_](https://www.linkedin.com/in/jake-bodanis/) _for reviewing and providing feedback on this post!_
+_Thank you to_[ _Art_](https://x.com/ArtSabintsev) _,_[_Fred_](https://x.com/fredt_io) _ & _[_Jake_](https://www.linkedin.com/in/jake-bodanis/) _for reviewing and providing feedback on this post!_
 
 **Question** : Does your software use [API](https://en.wikipedia.org/wiki/API)s? Where do you find the endpoints? How do you get the specifications? How do you ensure quality? 🤔
 
-### ** _tl;dr_**
-1.
-There is a big opportunity to build the “Google home page” for finding and accessing open data sources and services.
-2.
-An open marketplace of APIs does not exist today.
-3.
-API Discovery and RPC Quality are the two core primitives necessary to enable this.
-4.
-An API marketplace fills a gap alongside the new [HTTP x402](https://www.coinbase.com/developer-platform/discover/launches/x402) standard, championed by Coinbase, for _internet-native network request payments._
+### **_tl;dr_**
+
+1. There is a big opportunity to build the “Google home page” for finding and accessing open data sources and services.
+2. An open marketplace of APIs does not exist today.
+3. API Discovery and RPC Quality are the two core primitives necessary to enable this.
+4. An API marketplace fills a gap alongside the new [HTTP x402](https://www.coinbase.com/developer-platform/discover/launches/x402) standard, championed by Coinbase, for _internet-native network request payments._
 
 My goal with this blog is to give you a sense of how the following graphic fits into today’s internet-native data access landscape. We’re slowly shifting to account for more _human-out-of-the-loop_ workflows, while continuing to accommodate both enterprises and independent developers.
 
@@ -44,22 +41,22 @@ I wanted to gather all that feedback in a blog post that really captures how big
 
 To get started, here are some analogies I found myself using in various conversations at the conference:
 
-  * **Unstoppable Data:** kind of makes sense, but feels a bit cringey.
-  * **API Directory:** Clear but limiting, and makes me sound like a boomer, which there’s nothing wrong with 😏.
-  * **Permissionless APIs:** Sounds cool, but why does anyone need this?
-  * **Decentralized RPC:** This might make sense to someone deep in Web3, but raises more questions than it answers.
+- **Unstoppable Data:** kind of makes sense, but feels a bit cringey.
+- **API Directory:** Clear but limiting, and makes me sound like a boomer, which there’s nothing wrong with 😏.
+- **Permissionless APIs:** Sounds cool, but why does anyone need this?
+- **Decentralized RPC:** This might make sense to someone deep in Web3, but raises more questions than it answers.
 
 My goal with this blog is to provide more answers than questions. It’s written in a way that you don’t have to read it until the very end to get value. This allows non-technical individuals to get the gist, while crypto-native engineers can get the details.
 
 ### Table of Contents
 
-  * What’s the problem in non-technical terms?
-  * What’s the problem in technical terms?
-  * How big is this problem?
-  * What is the solution?
-  * Who is our customer?
-  * What is the moat and differentiator?
-  * Why now?
+- What’s the problem in non-technical terms?
+- What’s the problem in technical terms?
+- How big is this problem?
+- What is the solution?
+- Who is our customer?
+- What is the moat and differentiator?
+- Why now?
 
 ### What’s the problem in non-technical terms?
 
@@ -93,8 +90,8 @@ We have mature ways of measuring performance (e.g. latency), but no standards fo
 
 **The key takeaways** :
 
-  * We have standards for defining API specifications, but no mechanisms for API discovery.
-  * We can measure RPC performance from a trusted provider, but we have no way to guarantee RPC quality from an unknown one.
+- We have standards for defining API specifications, but no mechanisms for API discovery.
+- We can measure RPC performance from a trusted provider, but we have no way to guarantee RPC quality from an unknown one.
 
 The next section will dive into the types of data you might want to access and how our solution addresses these gaps. If you already get the gist, feel free to scroll and just enjoy the pictures.
 
@@ -104,8 +101,8 @@ The next section will dive into the types of data you might want to access and h
 
 To scope the markets we’re tackling, I split them into two categories:
 
-  * **Open Canonical Data Sets** :**** Publicly available data sources that are not user-specific (i.e. tenant-based).
-  * **Open Source Stateless Services:** Open source services accessible via publicly specified APIs.
+- **Open Canonical Data Sets** :\*\*\*\* Publicly available data sources that are not user-specific (i.e. tenant-based).
+- **Open Source Stateless Services:** Open source services accessible via publicly specified APIs.
 
 ![](/images/posts/2025-08-22-how-a-web2-company-uses-crypto-to-power-open-data-apis-image-03.png)Example list of Open Canonical Data Sets (left) and Open Source Stateless Services (right)
 
@@ -133,8 +130,8 @@ The full solution comes together through three components: Pocket Network, PATH 
 
 In practice:
 
-  * Anyone can access Pocket Network directly, but PATH makes it easier.
-  * Anyone can use PATH, but Grove makes it easier.
+- Anyone can access Pocket Network directly, but PATH makes it easier.
+- Anyone can use PATH, but Grove makes it easier.
 
 One of the coolest things? Grove delivers infrastructure quality and performance on par with centralized providers, even though we don’t run the backend service infrastructure ourselves!
 
@@ -143,12 +140,10 @@ One of the coolest things? Grove delivers infrastructure quality and performance
 ### Who is our customer?
 
 **_tl;dr_** _Our customers are enterprises today, independent developers tomorrow, and AI agents in the future._
-1.
-**Enterprises:** Major enterprises already trust Grove to provide reliable infrastructure. For example, we are [XRPL EVM’s primary RPC provider](https://www.xrplevm.org/blog/xrpl-evm-is-live-this-is-how-to-get-started) and are listed on [Google’s Web3 Marketplace](https://cloud.google.com/application/web3/discover).
-2.
-**Independent Developers:** These are pay-as-you-go users who sign up through [portal.grove.city](https://portal.grove.city), add a credit card, and start building. They represent the long tail of developers who want fast, reliable access without heavy setup
-3.
-**AI Agents:** Though still early, this isn’t hype. AI agents will need access to data. They’ll need to know where to find it, how to access it, and they’ll need guarantees that requests succeed with high quality. And importantly, they’ll pay for it using internet-native money.
+
+1.  **Enterprises:** Major enterprises already trust Grove to provide reliable infrastructure. For example, we are [XRPL EVM’s primary RPC provider](https://www.xrplevm.org/blog/xrpl-evm-is-live-this-is-how-to-get-started) and are listed on [Google’s Web3 Marketplace](https://cloud.google.com/application/web3/discover).
+2.  **Independent Developers:** These are pay-as-you-go users who sign up through [portal.grove.city](https://portal.grove.city), add a credit card, and start building. They represent the long tail of developers who want fast, reliable access without heavy setup
+3.  **AI Agents:** Though still early, this isn’t hype. AI agents will need access to data. They’ll need to know where to find it, how to access it, and they’ll need guarantees that requests succeed with high quality. And importantly, they’ll pay for it using internet-native money.
 
 _That last point deserves its own post…_
 
@@ -162,7 +157,7 @@ Supabase is a development platform built on PostgreSQL. Postgres has been around
 
 So how did Supabase, founded in 2020, offering “little differentiation”, end up onboarding [3M+ developers](https://www.linkedin.com/posts/paulcopplestone_the-journey-to-3-million-developers-supabase-activity-7352971832536326146--ESs/) and reaching a [$2B valuation](https://techcrunch.com/2025/04/22/vibe-coding-helps-supabase-nab-200m-at-2b-valuation-just-seven-months-after-its-last-raise/) in under five years? There’s no single answer. For one, it obfuscates the details of how a database works, enabling anyone (non-technical individual or AI agents) to seamlessly spin up a database. Even as a developer, I default to their product because of the superior and simple user experience.
 
-Similarly, just as there was once no obvious answer to _“Where can I easily get a hosted instance of Postgres?”_ , today there’s no obvious answer to _“Where can I find a reliable API provider for ___?”_
+Similarly, just as there was once no obvious answer to _“Where can I easily get a hosted instance of Postgres?”_ , today there’s no obvious answer to \_“Where can I find a reliable API provider for _\_\_?”_
 
 A sustainable API ecosystem can’t be maintained by a single entity, which is why you need **Pocket Network**. It can’t rely on a single entity for quality either, which is why you need **PATH**. And most enterprises and developers don’t want to manage gateways themselves, which is how **Grove** fills the gap.
 

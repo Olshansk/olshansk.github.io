@@ -18,7 +18,7 @@ However, today, interest rates are at 0% and are not likely to increase anytime 
 
 There is no such thing as free lunch, and definitely no such thing as a risk-free investment, but the downsides of holding cash could be offset by accounting for the risk and volatility of a certain investment vehicle.
 
-[@stig_brodersen](http://twitter.com/stig_brodersen) mentioned that he uses Vanguard’s value and momentum ETFs as a place to park cash while he is *“shopping around”. My alternative to this is AT&T ($T). At today’s price of approximately $29, you would get a 7% dividend yield, so even if the stock trades horizontally for the foreseeable future, you would still be earning 7% (taxed) every single year. Their valuation is neither cheap nor expensive, but from a technicals perspective, it is a stock that trades horizontally and has had a reliable dividend for decades now. The company’s fundamentals aren’t amazing, but the revenue stream is reliable. Though the stock is unlikely to break out anytime soon, it provides a fundamental service (e.g. broadband) that is unlikely to go away in the near future.
+[@stig_brodersen](http://twitter.com/stig_brodersen) mentioned that he uses Vanguard’s value and momentum ETFs as a place to park cash while he is \*“shopping around”. My alternative to this is AT&T ($T). At today’s price of approximately $29, you would get a 7% dividend yield, so even if the stock trades horizontally for the foreseeable future, you would still be earning 7% (taxed) every single year. Their valuation is neither cheap nor expensive, but from a technicals perspective, it is a stock that trades horizontally and has had a reliable dividend for decades now. The company’s fundamentals aren’t amazing, but the revenue stream is reliable. Though the stock is unlikely to break out anytime soon, it provides a fundamental service (e.g. broadband) that is unlikely to go away in the near future.
 
 **Market Crash**: If you park all of your cash in AT&T and the market crashes as it did in March of 2020, you will definitely take a loss on your principal, but I believe it’ll be much smaller than that of the broader index. For example, if the market crashes by 30% tomorrow, I anticipate the $T won’t fall by more than 10% because of its current valuation and the types of investors (i.e. likely not day traders) that hold the stock. If this happens, you can take a loss on $T, and invest in a better opportunity.
 
@@ -32,6 +32,6 @@ Lastly, as described in this [SureDividend post](https://www.suredividend.com/di
 
 In short, there is potential to have an upside on your principal, the downside on your principal is relatively low, you get a reliable 7% dividend yield, and your spare cash won’t be devalued if inflation picks up.
 
-Please note that if you actually need cash as a rainy day fund or to fund your day-to-day life (i.e. a house purchase), none of this applies.*
+Please note that if you actually need cash as a rainy day fund or to fund your day-to-day life (i.e. a house purchase), none of this applies.\*
 
-*Disclosure: I am long T.*
+_Disclosure: I am long T._

@@ -3,8 +3,8 @@ title: "When I read the title, I was thinking the article would discuss how ever
 date: 2021-10-14T02:59:56-07:00
 draft: false
 description: "I agree with Nate's comment that ethereum contracts are indeed public and immutable. Whether an individual chooses to sync a node, inspect…"
-tags: ['when', 'read']
-categories: ['cryptocurrency', 'technology']
+tags: ["when", "read"]
+categories: ["cryptocurrency", "technology"]
 medium_url: "https://medium.com/@olshansky/when-i-read-the-title-i-was-thinking-the-article-would-discuss-how-everyone-uses-and-interacts-a452d8b9188f"
 ShowToc: true
 TocOpen: false

@@ -9,13 +9,13 @@ tags = [
 substack_url = "https://olshansky.substack.com/p/5p1r-bitcoins-elliptic-curve-cryptography"
 +++
 
-This is the first of a potential series of articles I want to call “*5 points & 1 resource*” (think tl;dr but 5p;1r) where I summarize a list of bullet points that would have helped me start learning a new topic. It is intentionally far from a complete source of data.
+This is the first of a potential series of articles I want to call “_5 points & 1 resource_” (think tl;dr but 5p;1r) where I summarize a list of bullet points that would have helped me start learning a new topic. It is intentionally far from a complete source of data.
 
 ---
 
 - This is an **Elliptic Curve**: `y^2 = x^3 + ax + b`; see the continuous function Image 1.
 
-- **Elliptic Curve Cryptography** is defined over a **Finite Field** (very large prime) **p** along with a **Generator Point **((x,y) coordinate) **G like so**:  `y^2 ≡ (x^3 + ax + b) mod p` ; see the scatter plot Image 2.
+- **Elliptic Curve Cryptography** is defined over a **Finite Field** (very large prime) **p** along with a **Generator Point **((x,y) coordinate) **G like so**: `y^2 ≡ (x^3 + ax + b) mod p` ; see the scatter plot Image 2.
 
 - Bitcoin uses a **secp256k1**, which is an Elliptic Curve with carefully selected parametesr to achieve certain security guarantees:
 
@@ -32,9 +32,9 @@ This is the first of a potential series of articles I want to call “*5 points 
 - The **Elliptic Curve Discrete Logarim Problem** makes it hard to find the integer **pk** when you know (x,y) coordinates of **P** and **G** fitting the equation in (2) using the parameters in (3) or some other elliptic curve.
 
 ---
+
 If I only had to recommend one resource out of all the references I looked through, it would be: [https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc#the-generator-point-in-ecc](https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc#the-generator-point-in-ecc)
 
 ---
 
-Image 1Image 2
----
+## Image 1Image 2

@@ -70,4 +70,5 @@ Most importantly, it is an opportunity for the team to learn the most effective 
 A code review is just as much about the journey as it is about the destination.
 
 ---
+
 If you’ve made it this far, you can come join us at [pokt.network](http://pokt.network) in building a truly censorship resistant Web3 middleware stack that enables decentralized RPC access to more than 40 blockchains (quickly growing) with more than 40,000 nodes (also quickly growing) by applying [here](https://angel.co/company/pocket-network) or DM me directly [@Olshansky](https://twitter.com/olshansky)

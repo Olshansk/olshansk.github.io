@@ -9,25 +9,26 @@ tags = [
 substack_url = "https://olshansky.substack.com/p/vibe-checks-are-all-you-need"
 +++
 
-I’ve been using [ChatGPT since the first day it launched](https://olshansky.substack.com/p/24-hours-of-chatgpt), have gone to dozens of AI events over the last couple of years, and feel like I finally have to say quite part out loud: ***vibe checks***** are how 99% of LLM “evals” are done in practice today**.
+I’ve been using [ChatGPT since the first day it launched](https://olshansky.substack.com/p/24-hours-of-chatgpt), have gone to dozens of AI events over the last couple of years, and feel like I finally have to say quite part out loud: **\*vibe checks\*\*\*** are how 99% of LLM “evals” are done in practice today\*\*.
 
-Quantitative benchmarks, evaluations, and verification are critical to the 1% tail-end, but a ***vibe check*** is the good enough solution. This is what most LLM developers and day-to-day but are afraid to admit due to the lack of rigour.
+Quantitative benchmarks, evaluations, and verification are critical to the 1% tail-end, but a **_vibe check_** is the good enough solution. This is what most LLM developers and day-to-day but are afraid to admit due to the lack of rigour.
 
 This is not new to the field of Machine Learning.
 I’ve experienced this firsthand across other domains over the past decade.
 
-At Twitter in 2014, our initial spam filtering algorithms relied on word matches manually curated based on the ***"that's not nice test."*** At Magic Leap in 2017, while building out one of the world’s earliest mixed reality experiences with spatial mapping and object recognition, the ***"that looks good test"*** often sufficed. At Waymo in 2020, I joined the planner eval team focused on evaluating risky autonomous vehicle interactions - we used the ***"that looks safe test"*** to build out a golden ground truth dataset.
+At Twitter in 2014, our initial spam filtering algorithms relied on word matches manually curated based on the **_"that's not nice test."_** At Magic Leap in 2017, while building out one of the world’s earliest mixed reality experiences with spatial mapping and object recognition, the **_"that looks good test"_** often sufficed. At Waymo in 2020, I joined the planner eval team focused on evaluating risky autonomous vehicle interactions - we used the **_"that looks safe test"_** to build out a golden ground truth dataset.
 
 Rigours KPIs, metrics, analyses, etc are great and necessary. It’s the only way towards, publication, automation and regression testing at scale. However, on a day-to-day basis, I’d bet that most ML engineers just leverage their intuition.
 
 The big difference today is that generative AI turned all software engineers into ML engineers. You no longer need to know Bayesian statistics or classification metrics. You no longer need to know how to design loss functions or tune hyperparameters. A little bit of prompting, context building and maybe even fine-tuning will take you a long way. After doing so, a bit of back and forth with the LLM will give you a general sense of whether or not it’s more or less useful.
 
-**Most of you can stop reading here. Hopefully you got the *****vibe***** of the point I’m trying to make.** 
+**Most of you can stop reading here. Hopefully you got the \*\*\***vibe**\*** of the point I’m trying to make.\*\*
 
 ---
+
 Now that I’ve gotten that out of the way, I wanted to get ahead of some of the bold statements I made above and have a more serious conversation.
 
-There’s no question that we need leaderboards to separate the *A’s* from the *B’s*. Thankfully, we have [chat.lmsys.org](https://chat.lmsys.org/), and more recently [scale.com/leaderboard](https://scale.com/leaderboard).
+There’s no question that we need leaderboards to separate the _A’s_ from the _B’s_. Thankfully, we have [chat.lmsys.org](https://chat.lmsys.org/), and more recently [scale.com/leaderboard](https://scale.com/leaderboard).
 
 Screenshot from chat.lmsys.org on May 28th, 2024Screenshot from scale.com/leaderboard on May 29th, 2024It’s also true that when Llama 3 was first released, this is exactly the sort of table I was looking for to get a sense of where it ranks next to the other leading models.
 
@@ -41,7 +42,7 @@ Ideally, all of us would have our own holdout data sets and convert our individu
 
 https://x.com/minimaxir/status/1795178516838756387I also came by this [lengthy discussion](https://www.reddit.com/r/ChatGPT/comments/17nzewn/a_theory_on_why_gpt4_got_worse/) on Reddit concerning the quality of GPT-4. The takeaway is that a model can easily overfit to an “official benchmark”, but our subjective interaction with it is still what ultimately matters at the end of the day:
 
-> **This is more subjective, but the writing has gotten less creative, and the code worse and lazier**. Since we know that "All Tools" will have 32k context, I find it highly unlikely that it will be using the existing GPT-4-32k model, as that would be very expensive. I think what we're seeing is a dumbed down, GPT-4.5-turbo version, which is what will be used from now on. 
+> **This is more subjective, but the writing has gotten less creative, and the code worse and lazier**. Since we know that "All Tools" will have 32k context, I find it highly unlikely that it will be using the existing GPT-4-32k model, as that would be very expensive. I think what we're seeing is a dumbed down, GPT-4.5-turbo version, which is what will be used from now on.
 
 Putting a lot of these concepts together, Andrej Karpathy’s at Tesla from a recent [tweet](https://x.com/karpathy/status/1795873666481402010) speaks volumes:
 

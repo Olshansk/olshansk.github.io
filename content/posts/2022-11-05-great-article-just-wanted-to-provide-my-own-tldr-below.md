@@ -3,8 +3,8 @@ title: "Great article! Just wanted to provide my own tl;dr below"
 date: 2022-11-05T20:26:00-07:00
 draft: false
 description: "▪ MPT Ingredients: Merkle Tree + Prefix Tree + Custom Modification"
-tags: ['great', 'article', 'just']
-categories: ['cryptocurrency']
+tags: ["great", "article", "just"]
+categories: ["cryptocurrency"]
 medium_url: "https://medium.com/@olshansky/great-article-just-wanted-to-provide-my-own-tl-dr-below-1c35fd5c74a"
 ShowToc: true
 TocOpen: false

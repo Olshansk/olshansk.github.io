@@ -13,9 +13,9 @@ Whenever I get really excited about something, I tend to tell all my friends abo
 
 Over the past couple of years, I’ve been slowly turning [olshansky.info](http://olshansky.info) into the one place to find and search through my resources, but there is still a lot of work ahead, and I expect it to be a lifelong endeavour.
 
-In the meantime, I wanted to use this post to capture a list of *X things* I mentioned numerous times in the last year. **These aren’t failures, ideas, achievements, or goals but just things (outside of work) that I didn’t stop getting excited about and kept needing to tell everyone.**
+In the meantime, I wanted to use this post to capture a list of _X things_ I mentioned numerous times in the last year. **These aren’t failures, ideas, achievements, or goals but just things (outside of work) that I didn’t stop getting excited about and kept needing to tell everyone.**
 
-Some items here were old, while others were new. It’s also not an exhaustive list of everything. If I brought it up more than a dozen times, it is either something I was passionate about or really happy spending $$$ on after it became part of my day-to-day life. 
+Some items here were old, while others were new. It’s also not an exhaustive list of everything. If I brought it up more than a dozen times, it is either something I was passionate about or really happy spending $$$ on after it became part of my day-to-day life.
 
 # Devices
 
@@ -29,7 +29,7 @@ Some items here were old, while others were new. It’s also not an exhaustive l
 
 - [snipd](https://www.snipd.com/) - My favourite iOS podcast app for tracking, reviewing and sharing what I listen to. The UX is as slick as double-clicking on my headphone to make a snippet, so I can share a small portion of the podcast rather than sending a full 3-hour episode to someone. It also has the functionality of exporting to notion so others can follow what I listen to via my website.
 
-- [ChatGPT](https://chat.openai.com/) - I’ve tried many other models and interfaces, but OpenAI’s GPT-4 is still my go-to for when I need a companion LLM. My gut feeling is that the dataset they use in the final stages of RLHF and fine-tuning *“aligns”* with how I interact with these models.
+- [ChatGPT](https://chat.openai.com/) - I’ve tried many other models and interfaces, but OpenAI’s GPT-4 is still my go-to for when I need a companion LLM. My gut feeling is that the dataset they use in the final stages of RLHF and fine-tuning _“aligns”_ with how I interact with these models.
 
 - [Fireflies.ai](https://fireflies.ai/) - Fireflies joins our meetings at work and provides a transcript, summary, takeaways and a lot of extra features to capture the conversation. It takes the weight off of needing to take notes of everything and makes it super easy to loop others in if they didn’t attend the meeting. Only the people who actually need to be at the meeting attend, but no one misses out.
 
@@ -49,7 +49,7 @@ Some items here were old, while others were new. It’s also not an exhaustive l
 
 - [Vitalik Buterin](https://vitalik.eth.limo/) - As the co-founder of Ethereum, Vitalik needs no introduction. His monthly blog posts vary from thought leadership to technical ideas or investigations. He manages to be very extensive with his writing while keeping the reader engaged. The fact that he continues to do this regularly, keeping the quality bar so high, is under-appreciated in my opinion. I still get excited every time he publishes a new post.
 
-- [Mitchell Hashimoto](https://mitchellh.com/) - A co-founder and former CEO of HashiCorp, and one of my favorite engineers out there. Alongside other technical leaders like John Carmack or Greg Brockman, he shows that the best way to create great and impactful products is to just *“fucking give a shit and do it.”*
+- [Mitchell Hashimoto](https://mitchellh.com/) - A co-founder and former CEO of HashiCorp, and one of my favorite engineers out there. Alongside other technical leaders like John Carmack or Greg Brockman, he shows that the best way to create great and impactful products is to just _“fucking give a shit and do it.”_
 
 - [Julia Evans](https://jvns.ca/) - Julia is the author of [wizardzines.com](https://wizardzines.com/) which is the best example I’ve found of translating hard, confusing or complex things into simple words. She learns in public, unafraid to ask the questions we all have. Unlike others however, she puts in a ton of work into sharing her learnings through tools, comics and blogs. I’ve purchased them and recommend others do as well.
 
@@ -81,9 +81,9 @@ Some items here were old, while others were new. It’s also not an exhaustive l
 
 - [BoJack Horseman](https://www.rottentomatoes.com/tv/bojack_horseman) - I’ve been hearing about this show for years, but a cartoon about a horse that starred in a 90s TV show didn’t quite appeal to me. After powering through the first couple seasons, the characters drew me in. The second half of the series became one of the deepest and most emotional shows I’ve ever watched. Following BoJack’s journey can be difficult and forces a ton of self-reflection as I saw parts of myself in him. It ended up becoming one of my favourite shows to date.
 
-- [For All Mankind](https://en.wikipedia.org/wiki/For_All_Mankind_(TV_series)) - A parallel universe of what would have happened if the space race were to continue if the Soviet Union were to land on the moon first. This is the sci-fi USSR-meets-US space-show I didn’t know I needed.
+- [For All Mankind](<https://en.wikipedia.org/wiki/For_All_Mankind_(TV_series)>) - A parallel universe of what would have happened if the space race were to continue if the Soviet Union were to land on the moon first. This is the sci-fi USSR-meets-US space-show I didn’t know I needed.
 
-- [Spider-Man: Across the Spider-Verse](https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse) - The Spider-Verse film series is at the top of my list. Simon Willison said it best, it demonstrates *“what happens when a group of creative people get together, rewrite the rules and elevate the quality bar for an entire industry.”*
+- [Spider-Man: Across the Spider-Verse](https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse) - The Spider-Verse film series is at the top of my list. Simon Willison said it best, it demonstrates _“what happens when a group of creative people get together, rewrite the rules and elevate the quality bar for an entire industry.”_
 
 - [The Bear](https://www.rottentomatoes.com/tv/the_bear) - This show opened my eyes to the difficulties of running a restaurant and made me appreciate fine dining. I usually don’t binge TV, but I made my way really fast through this one because the cinematography and characters kept you on your toes the whole time.
 
@@ -102,6 +102,7 @@ Some items here were old, while others were new. It’s also not an exhaustive l
 Subscribe for more of Olshansky’s thoughts!
 
 # Videos
-I’m going to leave 4 videos I recommend everyone watch. 
+
+I’m going to leave 4 videos I recommend everyone watch.
 
 - [How to think computationally about AI, the universe and everything](https://www.ted.com/talks/stephen_wolfram_how_to_think_computationally_about_ai_the_universe_and_everything) by Stephen Wolfram

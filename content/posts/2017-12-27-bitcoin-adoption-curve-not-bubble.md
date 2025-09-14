@@ -23,7 +23,7 @@ Bitcoin's growing market cap and increasingly diverse set of holders is a self r
 
 With all of that said, it doesn't mean that Bitcoin's market cap should be at $10T tomorrow. It's price and adoption rate should grow at a similar pace, but the recent hype by the media brought on a ton of speculation that pushed its price to ridiculous heights.
 
-I decided to see how Bitcoin's recent price action relates to its adoption rate. Like I mentioned earlier, there is no right way to determine what the adoption rate is, so I chose to use the *number of unique transactions* and the *number of unique addresses used* because it was easily accessible via [blockchain.info](https://blockchain.info/).
+I decided to see how Bitcoin's recent price action relates to its adoption rate. Like I mentioned earlier, there is no right way to determine what the adoption rate is, so I chose to use the _number of unique transactions_ and the _number of unique addresses used_ because it was easily accessible via [blockchain.info](https://blockchain.info/).
 
 Below is a graph of the percent change in Bitcoin's price, number of transactions and the number of unique addresses used between any two consecutive days over the past three years. A 25 day moving average was arbitrarily chosen to smooth out the data.
 
@@ -38,10 +38,10 @@ There are few interesting observations from the above chart.
 Below is another way of looking at the same dataset.
 
 ![Complete dataset for the ratios over the past three years.](https://cdn-images-1.medium.com/max/800/1*VSGDD4YNBTY6UoyenbzIkg.png)
-*Complete dataset for the ratios over the past three years.*
+_Complete dataset for the ratios over the past three years._
 
 ![Same data as the graph above, but stretched horizontally and excludes 7 outliers where | % Δ price | is more than 300 and | % Δ trans | is near zero.](https://cdn-images-1.medium.com/max/800/1*jAxOztkdfBAQzO2x-4cMUw.png)
-*Same data as the graph above, but stretched horizontally and excludes 7 outliers where | % Δ price | is more than 300 and | % Δ trans | is near zero.*
+_Same data as the graph above, but stretched horizontally and excludes 7 outliers where | % Δ price | is more than 300 and | % Δ trans | is near zero._
 
 Overall, it does look the recent price movement is historically high, but still reasonable relative to it's adoption rate. [1]
 
@@ -53,4 +53,4 @@ Bitcoin's market cap is currently fluctuating around the $250B ± $50B mark. As 
 
 [1] It's reasonable to say that these transactions don't provide real utility because they're the result of short term trading, but I would argue that it's a form of adoption in itself.
 
-[2] *The script used to generated the charts can be found [here](https://gist.github.com/Olshansk/9b0c8e15fdb05ee735b6b547c4add8a6).*
+[2] _The script used to generated the charts can be found [here](https://gist.github.com/Olshansk/9b0c8e15fdb05ee735b6b547c4add8a6)._
