@@ -28,6 +28,10 @@
 {{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">Rotten Tomatoes</a>" .Params.rotten_tomatoes_url .Params.rotten_tomatoes_url)) }}
 {{- end }}
 
+{{- if .Params.medium_url -}}
+{{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">Medium</a>" .Params.medium_url .Params.medium_url)) }}
+{{- end }}
+
 {{- with ($scratch.Get "meta") }}
 {{- delimit . " · " | safeHTML -}}
 {{- end -}}

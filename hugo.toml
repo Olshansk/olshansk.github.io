@@ -4,9 +4,8 @@ theme = "PaperMod"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-# paginate = 20
-[pagination]
-  pagerSize = 20
+# Disable pagination - show all items on one page
+paginate = 1000
 
 # Commenting out Disqus for now
 # disqusShortname = "olshansky"
