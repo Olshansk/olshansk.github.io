@@ -27,6 +27,7 @@ Note that both my mom and I have a version of the key. We can both lock or unloc
 
 ### Traditional Encryption Flow for a Secret Bread Recipe
 
+![Traditional Encryption Flow for a Secret Bread Recipe](https://cdn-images-1.medium.com/max/1200/1*DPGwqEhmGikgNIX1SDhjJg.png)
 ### Homomorphic Encryption
 
 - Mom writes her secret bread recipe
@@ -39,6 +40,7 @@ Note that while my mom has a key she used to lock the recipe, I have a “magic 
 
 ### Homomorphic Encryption Flow for a Secret Bread Recipe
 
+![Homomorphic Encryption Flow for a Secret Bread Recipe](https://cdn-images-1.medium.com/max/1200/1*bDijSJu81p_u05R6CClBYQ.png)
 ### Reality Check
 
 Of course, there’s no literal *“magic key.”* Instead, it’s a mountain of math and cryptography. I don’t fully understand the details, but I do know that it’s slow and expensive.
