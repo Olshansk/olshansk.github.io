@@ -1,0 +1,109 @@
+/* Year Headers Styling */
+.year-section {
+  margin-bottom: 2rem;
+}
+
+.year-header {
+  position: relative;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.year-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin: 0;
+  padding: 0.5rem 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background: var(--theme);
+  display: inline-block;
+  width: 100%;
+}
+
+.year-divider {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--border);
+  z-index: 0;
+}
+
+.year-title::before,
+.year-title::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 1px;
+  background: var(--border);
+  transform: translateY(-50%);
+}
+
+.year-title::before {
+  left: 0;
+}
+
+.year-title::after {
+  right: 0;
+}
+
+.year-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.year-title::before,
+.year-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.year-title::before {
+  margin-right: 1rem;
+}
+
+.year-title::after {
+  margin-left: 1rem;
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .year-title {
+  color: var(--primary);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .year-title {
+    font-size: 1.5rem;
+  }
+
+  .year-header {
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Smooth transitions */
+.year-section {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

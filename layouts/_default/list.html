@@ -1,0 +1,125 @@
+{{- define "main" }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{ .Content }}
+</div>
+{{- end }}
+
+{{- $pages := union .RegularPages .Sections }}
+
+{{- if .IsHome }}
+{{- $pages = where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{- end }}
+
+{{- $paginator := .Paginate $pages }}
+
+{{- if and .IsHome .Site.Params.profileMode.enabled }}
+<!-- Profile Mode Home Page -->
+{{- partial "home_info.html" . }}
+{{- else }}
+
+{{- if (and (not .IsHome) (.Title)) }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- if $paginator.Pages }}
+
+<main class="main">
+
+{{- $currentYear := "" }}
+{{- range $index, $page := $paginator.Pages }}
+
+{{- $year := $page.Date.Format "2006" }}
+{{- if ne $year $currentYear }}
+  {{- $currentYear = $year }}
+
+  {{- if ne $index 0 }}
+  </div> <!-- Close previous year section -->
+  {{- end }}
+
+  <div class="year-section">
+    <div class="year-header">
+      <h2 class="year-title">{{ $year }}</h2>
+    </div>
+{{- end }}
+
+<article class="post-entry">
+  {{- $class := "post-entry" }}
+
+  {{- $user_preferred := or .Site.Params.disableSpecial1stPost .Site.Params.homeInfoParams }}
+  {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+  {{- $class = "first-entry" }}
+  {{- else if $page.Weight }}
+  {{- $class = "post-entry tag-entry" }}
+  {{- end }}
+
+  <div class="{{ $class }}">
+    {{- if (not .Site.Params.hideSummary) }}
+    <header class="entry-header">
+      <h3>
+        <a href="{{ $page.Permalink }}" aria-label="{{ $page.Title | plainify }}">{{ $page.Title }}</a>
+      </h3>
+    </header>
+    {{- if (not (.Param "hideSummary")) }}
+    <div class="entry-content">
+      <p>{{ .Summary | plainify | htmlUnescape }}{{ if $page.Truncated }}...{{ end }}</p>
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <footer class="entry-footer">
+      <span>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</span>
+      {{- if .ReadingTime }}
+      <span>&nbsp;·&nbsp;{{ .ReadingTime }} min read</span>
+      {{- end }}
+      {{- if .Site.Params.ShowWordCount }}
+      <span>&nbsp;·&nbsp;{{ .WordCount }} words</span>
+      {{- end }}
+    </footer>
+    {{- end }}
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+    {{- end }}
+  </div>
+</article>
+
+{{- end }}
+
+{{- if gt (len $paginator.Pages) 0 }}
+</div> <!-- Close final year section -->
+{{- end }}
+
+</main>
+
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}{{/* end profileMode */}}
+
+{{- end }}{{/* end main */}}
