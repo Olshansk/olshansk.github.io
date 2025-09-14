@@ -173,3 +173,6 @@ style = "monokai"
 
 [params.onedollarstats]
     id = "olshansky.info"
+
+[params.social]
+  twitter = "olshansky"

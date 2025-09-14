@@ -112,6 +112,7 @@ What do I want to do more of:
 - [Strava](https://www.strava.com/athletes/65389405) — Fitness activities and runs
 - [LinkedIn](https://www.linkedin.com/in/dolshansky/) — Professional profile
 - [CV](/pdfs/resume.pdf) — Professional resume
+- [Reddit](https://www.reddit.com/user/Olshansk/) — r/u/Olshansk
 
 ### Reach Out
 
