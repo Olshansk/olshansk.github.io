@@ -46,7 +46,9 @@ Large Language Models feel like they’ve been an overnight success these past f
 
 The special not-so-secret ingredient that tops all of it off is [Reinforcement Learning From Human feedback (RLHF)](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback). Lex Fridman called it the “little magic ingredient” in a [recent interview with Sam Altman](https://youtu.be/L_Guz73e6fw?t=363), and Chamath Palihapitiya called it the “White Truffle” in a [recent episode of the All-In Podcast](https://youtu.be/qQ544sWC8ZQ?t=1349). Just a little bit of RLHF sprinkled atop a massive amount of data and training is one of the significant differentiators that help with alignment and makes our newfound assistant so helpful in answering questions.
 
-Here’s an example from Jan 2022 of how an older version of GPT3 performed before and after humans were in the loop.
+Here's an example from Jan 2022 of how an older version of GPT3 performed before and after humans were in the loop.
+
+![GPT3 Before and After RLHF](https://substack-post-media.s3.amazonaws.com/public/images/b69327de-b2b3-4992-b490-631f96c78f4e_1966x1124.png)
 
 - [https://openai.com/research/instruction-following#sample1](https://openai.com/research/instruction-following#sample1)
 
@@ -55,11 +57,17 @@ Despite all this work and advances, one crucial aspect that deserves more attent
 # The Life of A Data Plumber
 The unsexy truth everyone in the AI/ML industry knows is that most of your time will be spent doing data plumbing and filtering for high-quality labels. This infographic says it all.
 
-[@schmarzo](https://twitter.com/schmarzo/status/1029948710254329856)Andrej Karaphy, who recently returned to OpenAI after a 5-year stint as Director of AI at Tesla, famously coined the term [Software 2.0](https://karpathy.medium.com/software-2-0-a64152b37c35) in a 2017 blog post:
+![Data Plumbing Infographic](https://substack-post-media.s3.amazonaws.com/public/images/a9ef32af-ddf4-4703-a10e-20d97e19a5ff_913x611.png)
+
+[@schmarzo](https://twitter.com/schmarzo/status/1029948710254329856)
+
+Andrej Karpathy, who recently returned to OpenAI after a 5-year stint as Director of AI at Tesla, famously coined the term [Software 2.0](https://karpathy.medium.com/software-2-0-a64152b37c35) in a 2017 blog post:
 
 > In most practical applications today, the neural net architectures and the training systems are increasingly standardized into a commodity, so most of the active “software development” takes the form of curating, growing, massaging and cleaning labeled datasets. This is fundamentally altering the programming paradigm by which we iterate on our software, as the teams split in two: the 2.0 programmers (data labelers) edit and grow the datasets, while a few 1.0 programmers maintain and iterate on the surrounding training code infrastructure, analytics, visualizations and labeling interfaces.
 
 Now that LLMs can write a good portion of the code for us, this statement rings even more true than it did six years ago. However, with more than a dozen daily announcements related to new product launches using LLMs or optimizations to their performance, I’m hearing very few conversations about acquiring higher-quality human annotations. As someone who has seen the importance of smooth infrastructure and high-quality labels, I believe it will be one of the catalysts to seeing the next step function.
+
+![Software 2.0 Diagram](https://substack-post-media.s3.amazonaws.com/public/images/7ae95769-f7ba-46aa-8486-ba0c62a82d8f_1219x700.png)
 
 [https://karpathy.medium.com/software-2-0-a64152b37c35](https://karpathy.medium.com/software-2-0-a64152b37c35)
 
@@ -94,6 +102,8 @@ With that said, the process of label collection is non-trivial.
 
 - **Subjectivity**. The hard questions are the subjective ones. For example, asking whether an on-road situation is risky depends on personal preferences/biases (e.g. age, driving experience, personality, etc.) and cultural ones (e.g. US vs India).
 
+![Data Science Challenges](https://substack-post-media.s3.amazonaws.com/public/images/2044ba8e-a56e-4272-947d-cd945c6dcb1a_1200x333.png)
+
 [@data36_com](https://twitter.com/data36_com/status/1098220523811729408)
 
 # OpenAI - Ahead of the Game
@@ -104,6 +114,8 @@ In an [article from June 2017](https://openai.com/research/learning-from-human-p
 > Our algorithm’s performance is only as good as the human evaluator’s intuition about what behaviors *look* correct, so if the human doesn’t have a good grasp of the task they may not offer as much helpful feedback.
 
 And in [January of 2022](https://openai.com/research/instruction-following#sample1), they presented the flow that showed promising results in aligning language models to follow instructions
+
+![OpenAI Instruction Following Flow](https://substack-post-media.s3.amazonaws.com/public/images/e1f4e00f-b0ba-4351-94fd-a52937744889_1140x677.png)
 
 - https://openai.com/research/instruction-following#sample1
 
@@ -134,12 +146,20 @@ Labelers put down a deposit before doing any work
 
 - Outliers lose a portion of their deposit
 
-- An illustrative example outputted by a Python program generated by ChatGPTIt’s worth noting that this is not an original idea. [2] Two projects I was excited about in the earlier days of Ethereum were [Augur](https://augur.net/) and [Gnosis](https://www.gnosis.io/), leveraging ideas from the [Wisdom of the Crowds](https://www.goodreads.com/book/show/68143.The_Wisdom_of_Crowds) through public and permissionless prediction markets.
+![Python Program Example](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d2b1b8d5-123c-4a28-b99f-72418a815a95_576x455.png)
+
+*An illustrative example outputted by a Python program generated by ChatGPT*
+
+It's worth noting that this is not an original idea. [2] Two projects I was excited about in the earlier days of Ethereum were [Augur](https://augur.net/) and [Gnosis](https://www.gnosis.io/), leveraging ideas from the [Wisdom of the Crowds](https://www.goodreads.com/book/show/68143.The_Wisdom_of_Crowds) through public and permissionless prediction markets.
 
 # Where do Blockchains fit in?
-You might ask why this even needs a blockchain, and if you’re snarky, point me to this image:
+You might ask why this even needs a blockchain, and if you're snarky, point me to this image:
 
-[https://circo.io/gigo/](https://circo.io/gigo/)Suppose we focus solely on product and do not consider institutional or geopolitical censorship. In that case, I can steelman the case for why we could build this as a traditional web2 SaaS. However, there are a handful of primitives in the Crypto industry which make it a good contender as the platform to build on.
+![Do you need a blockchain?](https://substack-post-media.s3.amazonaws.com/public/images/1e17d3f9-a133-4982-bf85-d927a43f592b_1060x610.png)
+
+[https://circo.io/gigo/](https://circo.io/gigo/)
+
+Suppose we focus solely on product and do not consider institutional or geopolitical censorship. In that case, I can steelman the case for why we could build this as a traditional web2 SaaS. However, there are a handful of primitives in the Crypto industry which make it a good contender as the platform to build on.
 
 **Money is a first-class citizen**. Depositing, earning and slashing are core primitives of any blockchain, making things like value transfer and micropayments cheaper and simpler.
 
@@ -150,6 +170,8 @@ You might ask why this even needs a blockchain, and if you’re snarky, point me
 - **Zero Knowledge Technology**. A lot is being done in the zk space which can be utilized here. For example, the tasks could be designed so that the experimenter only gets the final results without being able to tie a label to any single user, while still enabling an ongoing reputation system. Alternatively, the labels could be completely hidden from everyone but still be used in reinforcement learning by leveraging [fully homomorphic encryption](https://fhe.org/); *note that this is not easy.*
 
 - **Distributed Ledger Technology**. Anyone can design a set of labeling tasks or sign up as a labeler. Depending on the type of encryption, it could also enable downstream use cases, such as data markets.
+
+![Blockchain Labeling System Diagram](https://substack-post-media.s3.amazonaws.com/public/images/75ca8b8c-01fc-4800-af00-402fc3deb7d5_6350x2756.png)
 
 # Tuning User Interfaces (TUIs)
 While some things like math and science are objective and true, others, such as *safe* driving patterns, are nuanced and vary depending on the context. You might imagine how this extends to even more difficult political topics.
