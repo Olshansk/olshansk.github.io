@@ -16,6 +16,18 @@
 {{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
 {{- end }}
 
+{{- if .Params.goodreads_url -}}
+{{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">GoodReads</a>" .Params.goodreads_url .Params.goodreads_url)) }}
+{{- end }}
+
+{{- if .Params.imdb_url -}}
+{{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">IMDb</a>" .Params.imdb_url .Params.imdb_url)) }}
+{{- end }}
+
+{{- if .Params.rotten_tomatoes_url -}}
+{{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">Rotten Tomatoes</a>" .Params.rotten_tomatoes_url .Params.rotten_tomatoes_url)) }}
+{{- end }}
+
 {{- with ($scratch.Get "meta") }}
-{{- delimit . " · " -}}
+{{- delimit . " · " | safeHTML -}}
 {{- end -}}

@@ -1,0 +1,43 @@
+/* Fix for making links in post metadata clickable on list pages */
+.post-entry {
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Dark mode specific shadow */
+.dark .post-entry:hover {
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+.post-entry .entry-footer {
+    position: relative;
+    z-index: 10;
+}
+
+.post-entry .entry-footer a {
+    position: relative;
+    z-index: 10;
+    pointer-events: auto;
+}
+
+.post-entry .entry-link {
+    z-index: 1;
+}
+
+/* Ensure the metadata links are styled properly */
+.entry-footer a {
+    color: var(--primary);
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.entry-footer a:hover {
+    text-decoration: underline;
+    background-color: var(--code-bg);
+}

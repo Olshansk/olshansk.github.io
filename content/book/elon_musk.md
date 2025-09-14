@@ -7,9 +7,8 @@ tags = [
     "book",
 ]
 rating = "⭐⭐⭐⭐"
+goodreads_url = "https://www.goodreads.com/book/show/122765395-elon-musk"
 +++
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/book/show/122765395-elon-musk)
 
 - [Overall](#overall)
 - [The Elon Musk Formula](#the-elon-musk-formula)
