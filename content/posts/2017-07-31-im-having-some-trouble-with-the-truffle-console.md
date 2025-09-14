@@ -18,6 +18,6 @@ I’m having some trouble with the truffle console.
 
 When I type “Vo” and click tab, it autocompletes to Voting as expecting.
 
-When I type “Voting.d” and click tab, it redeployes all the contracts rather than autocompleting to “Voting.deployed” as expected.
+When I type "Voting.d" and click tab, it redeploys all the contracts rather than autocompleting to "Voting.deployed" as expected.
 
 [Mahesh Murthy](https://medium.com/u/14d83a8fab8c), could you confirm whether this is the expected behaviour or is it potentially some sort of weird configuration on my end?

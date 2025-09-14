@@ -25,7 +25,7 @@ Amazing episode. I could not constrain my laughter throughout. While a lot of wh
 
 Episode 4
 --------------
-While I do love the reality of this show, it has started to fade in favor of more exciting absurd situations. The company no longer has a CEO!? Bighead magically got $20MM and started an incubator. The characters are as entertaining as funny as always and I just can't wait to see how everything plays out. It's also worth mentioning that the show probably tries to appeal to the envy of a lot of developers by portraying the Piper Piper team as a bunch that just "can't do a bad job" when they were building the box.
+While I do love the reality of this show, it has started to fade in favor of more exciting absurd situations. The company no longer has a CEO!? Bighead magically got $20MM and started an incubator. The characters are as entertaining as funny as always and I just can't wait to see how everything plays out. It's also worth mentioning that the show probably tries to appeal to the envy of a lot of developers by portraying the Pied Piper team as a bunch that just "can't do a bad job" when they were building the box.
 
 Episode 5
 -------------

@@ -212,7 +212,7 @@ For reference, similar to the web3 infrastructure space, there is a huge industr
 
 Lastly, Uri Levine (founder of Waze) recently [appeared](https://www.youtube.com/watch?v=Cj4ORGGEJcA) on ’s newsletter and had a key insight: **the first and last slight of the presentation is where most of the focus will be**. I took his advice and added a call to action at the very end. To my surprise, it worked! I literally had people come up to me after the presentation and tell me about their idle GPUs.
 
-Also, turns out someone out there is doing their phd on Relay Mining and decentralized RPC. If you’re reading this, let’s take this work tot he next level!
+Also, turns out someone out there is doing their phd on Relay Mining and decentralized RPC. If you're reading this, let's take this work to the next level!
 
 ---
 

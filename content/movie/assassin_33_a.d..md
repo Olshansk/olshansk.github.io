@@ -11,8 +11,8 @@ tags = [
 rotten_tomatoes_url = "https://www.rottentomatoes.com//m/assassin_33_ad"
 +++
 
-A low budget film with character that isn't objectively amazing, but entertaining, a lot of fun, and with an original plot line.
+A low budget film with characters that aren't objectively amazing, but entertaining, a lot of fun, and with an original plot line.
 
-The intersection of terrorism, time travel and religion is a big undertaking. At times, the movie as hilarious, cringy, querky, or just outright serious trying to deliver a real message.
+The intersection of terrorism, time travel and religion is a big undertaking. At times, the movie was hilarious, cringy, quirky, or just outright serious trying to deliver a real message.
 
 My emotions are really mixed, but I would say that it's worth it if the premise of the plot entices you.

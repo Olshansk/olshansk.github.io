@@ -48,7 +48,9 @@ The special not-so-secret ingredient that tops all of it off is [Reinforcement L
 
 Here’s an example from Jan 2022 of how an older version of GPT3 performed before and after humans were in the loop.
 
-- [https://openai.com/research/instruction-following#sample1](https://openai.com/research/instruction-following#sample1)Despite all this work and advances, one crucial aspect that deserves more attention is the quality, not just the quantity, of human-generated labels used to align these models. 
+- [https://openai.com/research/instruction-following#sample1](https://openai.com/research/instruction-following#sample1)
+
+Despite all this work and advances, one crucial aspect that deserves more attention is the quality, not just the quantity, of human-generated labels used to align these models. 
 
 # The Life of A Data Plumber
 The unsexy truth everyone in the AI/ML industry knows is that most of your time will be spent doing data plumbing and filtering for high-quality labels. This infographic says it all.
@@ -84,7 +86,7 @@ With that said, the process of label collection is non-trivial.
 
 - **Question Design**. The right question needs to be asked so it is useful in training or reinforcing the model. For example, should there be a scale of the situation's risk or a true/false or multiple-choice question? Should there be an open-ended text field that explains the risk? This requires iteration and experimentation. For reference, I find the [question design OpenAI did for backflips](https://openai.com/research/learning-from-human-preferences) brilliant.
 
-- **Labeler Training**. Lablers need to be trained to understand what’s being asked and the expectation of what/how they should be answering.
+- **Labeler Training**. Labelers need to be trained to understand what’s being asked and the expectation of what/how they should be answering.
 
 - **Label Filtering.** Even highly trained labelers make mistakes, and these outliers need to be filtered out from the dataset.
 
@@ -103,7 +105,9 @@ In an [article from June 2017](https://openai.com/research/learning-from-human-p
 
 And in [January of 2022](https://openai.com/research/instruction-following#sample1), they presented the flow that showed promising results in aligning language models to follow instructions
 
-- https://openai.com/research/instruction-following#sample1They did highlight that this issue was not entirely eliminated:
+- https://openai.com/research/instruction-following#sample1
+
+They did highlight that this issue was not entirely eliminated:
 
 > Further, in many cases aligning to the average labeler preference may not be desirable. For example, when generating text that disproportionately affects a minority group, the preferences of that group should be weighted more heavily. Right now, InstructGPT is trained to follow instructions in English; thus, it is biased towards the cultural values of English-speaking people.
 

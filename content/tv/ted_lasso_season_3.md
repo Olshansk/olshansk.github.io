@@ -11,5 +11,5 @@ rating = "⭐⭐⭐⭐⭐"
 rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/ted_lasso/s03"
 +++
 
-Easily the most wholesome show I've ever watched. If anything will give you hope that being a good person pays of, it's The Richmond (Lasso?) Way.
+Easily the most wholesome show I've ever watched. If anything will give you hope that being a good person pays off, it's The Richmond (Lasso?) Way.
 

@@ -11,4 +11,4 @@ tags = [
 rotten_tomatoes_url = "https://www.rottentomatoes.com//m/how_to_train_your_dragon_2"
 +++
 
-The prequel to this movie was a heart felt, original, story that introduced you to a whole new world. While this film did bring you back into the same immersive world of dragons, handling the level of cheesiness in some parts made you cringe a little.
+The first movie was a heartfelt, original, story that introduced you to a whole new world. While this film did bring you back into the same immersive world of dragons, handling the level of cheesiness in some parts made you cringe a little.

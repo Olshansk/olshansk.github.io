@@ -11,4 +11,4 @@ tags = [
 rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_machine_2013"
 +++
 
-They tried to put a lot of meaning into the abyss emptiness of a machine.
+They tried to put a lot of meaning into the abyssal emptiness of a machine.

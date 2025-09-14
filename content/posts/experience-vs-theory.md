@@ -122,4 +122,4 @@ In theory, I thought I was prepared. But, in practice, without the experience of
 
 In the worse case, we could have called Geico roadside assistance, but it would have taken longer and been a bit of a hassle. All-in-all, we lost a couple of hours, but I learnt something and now have a memorable experience with my friends.
 
-This whole situation resonates well with how I feel at work. Reading, building, studying and preparing are fun and necessary, but some things can only be learnt through experience, which can sometime be stressful but also what gets me excited every single day.
+This whole situation resonates well with how I feel at work. Reading, building, studying and preparing are fun and necessary, but some things can only be learnt through experience, which can sometimes be stressful but also what gets me excited every single day.

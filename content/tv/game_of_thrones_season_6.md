@@ -21,7 +21,7 @@ Episode 4
 -------------
 I finally got what I was looking for! 
 
-I absolutely loved Daenerys's rebirth as she soon like a God in the burning flames. She has been mistreated and mistrusted the past little while, and I feel that at times even she lost faith in herself. However, we now see that she is as strong as ever. Tyrion's skillset is still undervalued as he is essentially governing the state while the Queen is gone. Little finger is finally back and seems to have a complete hold over the Vale. John snow and Sansa's reunion was extremely touching. This was an episode filled with both emotion adn power and moved a few plot lines very far along. 
+I absolutely loved Daenerys's rebirth as she stood like a God in the burning flames. She has been mistreated and mistrusted the past little while, and I feel that at times even she lost faith in herself. However, we now see that she is as strong as ever. Tyrion's skillset is still undervalued as he is essentially governing the state while the Queen is gone. Little finger is finally back and seems to have a complete hold over the Vale. John snow and Sansa's reunion was extremely touching. This was an episode filled with both emotion and power and moved a few plot lines very far along. 
 
 Episode 5
 -------------
@@ -32,9 +32,9 @@ I'm glad to see Aria's story progress a bit, but what we see is that she well ne
 
 Daenerys and Jorah finally make up in what is a very confusing friend-friend, father-daughter, lover-lovedone relationship. This is a great opportunity for Tyrion to finally showcase his leadership skills. He is one of my favorite characters and I can't wait for him to get the credit he deserves.
 
-The Greyjoys are finally trusting each other and taking action. I'm glad that Theon finally got his tonge back. Unfortunately there are some things he just won't be able to get back... 
+The Greyjoys are finally trusting each other and taking action. I'm glad that Theon finally got his tongue back. Unfortunately there are some things he just won't be able to get back... 
 
-The last season was simply stunning. An action packed thrilling runaway scene, intertwined with the deaths of many characters (the tree dwellers, the old man who lives in the tree, Hodor...), that flips back and forth between the present and a flashback that tells us the story of how Hodor got his name along with the fate that awaited him all these years. So much in such a shorter scene, but it was so well done that I was left speechless.
+The last scene was simply stunning. An action packed thrilling runaway scene, intertwined with the deaths of many characters (the tree dwellers, the old man who lives in the tree, Hodor...), that flips back and forth between the present and a flashback that tells us the story of how Hodor got his name along with the fate that awaited him all these years. So much in such a shorter scene, but it was so well done that I was left speechless.
 
 Episode 6
 
@@ -42,7 +42,7 @@ The biggest question I have after watching this episode is where the hell is Ari
 
 Episode 7
 -------------
-John is slowly building an army building up the anticipating for the battle ahead. Arya looks like she's about to die. The hound's anger keeps accumulates furthermore even as he tries to find peace. Jaime is being a boss, and Margeary has a plan. Just another typical episode of Game of Thrones.
+John is slowly building an army building up the anticipating for the battle ahead. Arya looks like she's about to die. The hound's anger keeps accumulating furthermore even as he tries to find peace. Jaime is being a boss, and Margeary has a plan. Just another typical episode of Game of Thrones.
 
 Episode 8
 -------------
