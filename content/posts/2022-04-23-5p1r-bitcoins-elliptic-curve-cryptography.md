@@ -30,7 +30,13 @@ This is the first of a potential series of articles I want to call “ _5 points
 
 If I only had to recommend one resource out of all the references I looked through, it would be: <https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc#the-generator-point-in-ecc>
 
-![](/images/posts/2022-04-23-5p1r-bitcoins-elliptic-curve-cryptography-image-01.png)Image 1: Elliptic curve over real numbers![](/images/posts/2022-04-23-5p1r-bitcoins-elliptic-curve-cryptography-image-02.png)Image 2: Elliptic curve over a finite field
+![Elliptic curve over real numbers showing continuous smooth curve](/images/posts/2022-04-23-5p1r-bitcoins-elliptic-curve-cryptography-image-01.png)
+
+Image 1: Elliptic curve over real numbers
+
+![Elliptic curve over a finite field showing discrete points in a scatter plot](/images/posts/2022-04-23-5p1r-bitcoins-elliptic-curve-cryptography-image-02.png)
+
+Image 2: Elliptic curve over a finite field
 
 > Join Coinmonks[ Telegram Channel](https://t.me/coincodecap) and[ Youtube Channel](https://www.youtube.com/c/coinmonks/videos) learn about crypto trading and investing
 

@@ -36,13 +36,17 @@ With the observation made above, and the turmoil concerning the future of both t
 
 A couple months ago, the [WSJ reported](http://link.crunchbase.com/click/5125899.209986/aHR0cDovL2Jsb2dzLndzai5jb20vZGlnaXRzLzIwMTUvMDkvMTAvdGVjaC1ib29tLW5vdC1pbi10aGUtaXBvLW1hcmtldC8_dXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwmdXRtX3NvdXJjZT1jYl9kYWlseQ/55e3fa4017893f4b358b4d7eB37abf92b) that tech companies only represented 11% of all U.S. IPOs this year, nearly matching the previous low since 2008. While there are still some big tech IPOs up ahead, including Atlassian and Uber, the market for fresh tech companies on the market is definitely contracting.
 
-![](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-01.png)Percentage of Tech IPOs as a fraction of total IPOs according to Renaissance Capital IPO Center. <http://www.renaissancecapital.com/ipohome/press/ipoindustryhistory.aspx>
+![Tech IPO percentage declining from 2013-2015, showing market contraction](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-01.png)
+
+Percentage of Tech IPOs as a fraction of total IPOs according to Renaissance Capital IPO Center. <http://www.renaissancecapital.com/ipohome/press/ipoindustryhistory.aspx>
 
 Tech companies have arguably been more volatile and take longer to produce profits than companies in more traditional industries, meaning that an increase in tech IPOs could be expected in bull markets, when there is no lack of spendthrifts. This is however not a very well founded argument, and it’s unfair to isolate just the tech community when evaluating overall trends in IPOs.
 
 [Renaissance Capital reported](http://www.renaissancecapital.com/news/renaissance-capitals-3q-2015-quarterly-us-ipo-market-review-35621.html) that in Q3 US IPOs were down 43% YOY, many IPOs were pulled back or delayed due to market conditions, and for the first time since 2011, average IPO returns were negative. This follows a Q1 that hit a [two-year low](http://www.renaissancecapital.com/news/us-ipo-market-takes-off-again-in-the-second-quarter:-renaissance-capitals-2q-2015-review-33286.html) in terms of the number of IPOs, and a Q2 that only showed mild recovery.
 
-![](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-02.png)Total number of IPOs per year according to Renaissance Capital IPO Center. Source: <http://www.renaissancecapital.com/ipohome/press/ipoindustryhistory.aspx>
+![Total IPO numbers showing decline from 2014 peak to 2015 low](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-02.png)
+
+Total number of IPOs per year according to Renaissance Capital IPO Center. Source: <http://www.renaissancecapital.com/ipohome/press/ipoindustryhistory.aspx>
 
 With the holidays approaching, and only a brief time left before the end of the year, it is unlikely that the number of IPOs for 2015 will catch up to levels from the prior two years. This will be the greatest drop in IPO numbers since The Great Recession.
 
@@ -50,13 +54,17 @@ Since the information above was very limited and inconclusive, I decided to cont
 
 _It’s important to note that the charts below do not reflect total shareholder return; dividends paid out are not accounted for. The charts only represent the change in the company’s stock price, adjusted for stock splits and_[ _inflation rates_](http://www.usinflationcalculator.com/inflation/historical-inflation-rates/) _._
 
-![](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-03.png) Average % change in stock price between close on day of IPO and November 27th, 2015. Adjusted for inflation and splits. Data source: Yahoo finance.
+![Long-term IPO performance showing volatility and post-2008 recovery spike](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-03.png)
+
+Average % change in stock price between close on day of IPO and November 27th, 2015. Adjusted for inflation and splits. Data source: Yahoo finance.
 
 It’s quite evident and expected that any company going public immediately after the crash was probably undervalued, which explains the spike around the end of 2008. On either side of that spike, average returns are quite volatile and indistinguishable from each other. This pattern dies off around the beginning of 2013 for one of two reasons: 1. Companies that IPOed so recently haven’t had enough time to grow yet. 2. Companies that IPOed so recently were overvalued to start with, so any growth or improvement in the company’s efficiency only fulfills the company’s previous evaluation rather than raising it.
 
 To validate whether point #1 was the cause of the trailing tail, I calculated the average % change in stock price between the close on the date of the IPO, and the close on the first trading day exactly one year later. There’s a lot of craziness here: Inconsistent growth prior to 2007, a huge drop in 2008, a huge spike in 2009, the small dip of 2011, growth in 2012–2013 and stagnation over the last couple years.
 
-![](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-04.png)Average % change in stock price between close on day of IPO and on the first trading day a year after the IPO. Adjusted for inflation and splits. Data source: Yahoo finance.
+![One-year IPO performance showing extreme volatility with 2008-2009 crash and recovery](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-04.png)
+
+Average % change in stock price between close on day of IPO and on the first trading day a year after the IPO. Adjusted for inflation and splits. Data source: Yahoo finance.
 
 All in all, it’s difficult to discern a pattern or predict what’s going to happen. It seems that we’ll be seeing less IPOs in the coming years, so IPO cancelations or delays are likely to become more common, which could be a signal of a recession or a bearish market. It’s also possible that companies going public in the near future will have to deal with short-term drops in their stock price, but such effects of the market or the economy subside as long as the company’s fundamentals remain strong.
 
