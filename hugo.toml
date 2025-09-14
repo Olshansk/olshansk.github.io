@@ -4,6 +4,9 @@ theme = "PaperMod"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
+# Suppress raw HTML warnings
+ignoreLogs = ['warning-goldmark-raw-html']
+
 # Disable pagination - show all items on one page
 [pagination]
   pagerSize = 1000
