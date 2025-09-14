@@ -7,12 +7,11 @@ tags = [
     "book",
 ]
 rating = "⭐⭐⭐⭐⭐"
+goodreads_url = "https://www.goodreads.com/book/show/61131333-fall-in-love-with-the-problem-not-the-solution"
 +++
 
 _This is one of my book reviews which you can subscribe to via RSS using [this feed](https://olshansky.info/index.xml).
 If you're interested in some of my original writing, check out [my substack](https://olshansky.substack.com/)!_
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/book/show/61131333-fall-in-love-with-the-problem-not-the-solution)
 
 - [Summary - A Must Read for Entrepreneurs](#summary---a-must-read-for-entrepreneurs)
 - [Uri's Entrepreneurship Journey - Not very sexy but realistic](#uris-entrepreneurship-journey---not-very-sexy-but-realistic)

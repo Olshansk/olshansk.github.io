@@ -8,9 +8,7 @@ description = "Olshansky's review of Serenity"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/serenity"
 +++
 
-
 A great way to wrap up the series. Though the film was entertaining, and the characters were as intriguing as always, I felt that it lacked some sort of edge that would set it apart from other cliches.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/serenity)

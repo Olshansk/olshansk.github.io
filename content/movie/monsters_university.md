@@ -8,9 +8,7 @@ description = "Olshansky's review of Monsters University"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/monsters_university"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/monsters_university)

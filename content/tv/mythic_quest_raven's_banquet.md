@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Mythic Quest: Raven's Banquet"
 date = "2023-05-20T18:25:56.776000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/mythic_quest/s01"
 +++
 
 Silicon Valley meets Magic Leap: entertaining and cathartic while really hitting home.
@@ -19,4 +21,3 @@ The episode where a robot was writing backstories had a happy ending but it's cr
 
 The episode where everyone was quarantining seemed like it would be fun to watch as it was coming out, but watching it after COVID ended was too painful and I had to fully skip those episodes.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/mythic_quest/s01)

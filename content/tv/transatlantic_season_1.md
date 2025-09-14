@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Transatlantic: Season 1"
 date = "2024-10-23T12:16:57.110000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/transatlantic/s01"
 +++
 
 The show started with me breaking my brain as to where I know the lead female actress
@@ -30,4 +32,3 @@ The whole series is very enticing, but ultimately, it's a buildup to the last ep
 The last episode is a combination of love and hate, sadness and victory, trauma and
 healing, truth and lies. It's life. It's reality. It's a masterpiece.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/transatlantic/s01)

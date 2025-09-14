@@ -8,9 +8,7 @@ description = "Olshansky's review of The Nice Guys"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_nice_guys"
 +++
 
-
 An original story line with two great actors, a solid supporting cast, and just entertaining overall.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_nice_guys)

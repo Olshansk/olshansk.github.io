@@ -7,6 +7,7 @@ tags = [
     "book",
 ]
 rating = "⭐⭐⭐⭐⭐"
+goodreads_url = "https://www.goodreads.com/en/book/show/857333"
 +++
 
 - [General](#general)
@@ -20,8 +21,6 @@ rating = "⭐⭐⭐⭐⭐"
 - [Fear as a Master](#fear-as-a-master)
 - [Mindset](#mindset)
 - [Follow Ups](#follow-ups)
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/en/book/show/857333)
 
 ## General
 

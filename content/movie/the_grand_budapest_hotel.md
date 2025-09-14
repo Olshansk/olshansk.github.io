@@ -8,9 +8,7 @@ description = "Olshansky's review of The Grand Budapest Hotel"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_grand_budapest_hotel"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_grand_budapest_hotel)

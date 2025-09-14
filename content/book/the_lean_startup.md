@@ -7,6 +7,7 @@ tags = [
     "book",
 ]
 rating = "⭐⭐⭐⭐"
+goodreads_url = "https://www.goodreads.com/book/show/10127019-the-lean-startup"
 +++
 
 - [Overall](#overall)
@@ -20,8 +21,6 @@ rating = "⭐⭐⭐⭐"
 - [Management vs Entrepreneurship](#management-vs-entrepreneurship)
 - [Notable Quotes](#notable-quotes)
 - [Other Takeaways](#other-takeaways)
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/book/show/10127019-the-lean-startup)
 
 ## Overall
 

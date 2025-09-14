@@ -8,8 +8,8 @@ description = "Olshansky's review of Dragon Ball Super: Broly"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/dragon_ball_super_broly"
 +++
-
 
 This movie exceeded all of my expectations!
 
@@ -22,5 +22,3 @@ The animation was on point and one of the final fighting scenes was really remin
 It's worth mentioning that this movie picks up exactly where the first half of Dragon Ball Super stopped and the show will continue where this movie ended. This makes it the first DBZ movie that is part of cannon and maintains a coherent plot. I'm extremely happy the producers of DBZ are creating so much great content for the fans.
 
 With all of that said, it is important to note that it does come with all the cheesy parts of anime, and if you're not a Dragon Ball fan it's not for you. However, if you are a DBZ fan, this movie is fantastic!
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/dragon_ball_super_broly)

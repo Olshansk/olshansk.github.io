@@ -8,9 +8,7 @@ description = "Olshansky's review of Frequency"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/frequency"
 +++
 
-
 Not one of the best known time travel movies, but it touches on all the points it needs to, and it does so very well!
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/frequency)

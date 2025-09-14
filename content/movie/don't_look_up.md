@@ -8,8 +8,8 @@ description = "Olshansky's review of Don't Look Up"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/dont_look_up_2021"
 +++
-
 
 Absolutely amazing!
 
@@ -20,5 +20,3 @@ I haven't been able to stop thinking about this film since I watched it and neit
 As much as I am a fan of the Steve Jobs meets Elon Musk character and was personally excited by BASH's initiatives, I really like that there wasn't a "happy ending" since it served as a wake-up call for what's happening in the world today.
 
 If we don't take action now, literally right now, it'll be too late.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/dont_look_up_2021)

@@ -8,8 +8,8 @@ description = "Olshansky's review of A Man Called Otto"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/a_man_called_otto"
 +++
-
 
 There are two reasons I watched this film:
 
@@ -29,5 +29,3 @@ I don't think this film would succeed without Tom Hanks, but all the supporting
 characters are what make it worth watching.
 
 When you're in the mood for a heartfelt story, this is definitely a go-to.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/a_man_called_otto)

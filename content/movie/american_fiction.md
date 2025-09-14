@@ -8,8 +8,8 @@ description = "Olshansky's review of American Fiction"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/american_fiction"
 +++
-
 
 I really enjoyed _American Fiction_ and related to the main character more than I ever expected.
 
@@ -40,5 +40,3 @@ There are three quotes from the film that perfectly capture how I feel about it:
 > “You think relating to others is beyond you.”
 
 I couldn’t find a clip, but this was paraphrased from a quote during Jeffrey and his girlfriend’s final scene together.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/american_fiction)

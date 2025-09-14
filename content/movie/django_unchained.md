@@ -8,9 +8,7 @@ description = "Olshansky's review of Django Unchained"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/django_unchained_2012"
 +++
 
-
 It's nice to see an original movie once in a while.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/django_unchained_2012)

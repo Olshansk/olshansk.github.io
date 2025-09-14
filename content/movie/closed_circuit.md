@@ -8,9 +8,7 @@ description = "Olshansky's review of Closed Circuit"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/closed_circuit_2013"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/closed_circuit_2013)

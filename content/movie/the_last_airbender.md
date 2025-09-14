@@ -8,9 +8,7 @@ description = "Olshansky's review of The Last Airbender"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/last_airbender"
 +++
 
-
 A kids movie that felt like a middle school play throughout. Their is no depth to the characters and their is nothing to the story aside aside from the blatantly obvious.  Graphic effects look cheap but nonetheless, I found the film somewhat entertaining.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/last_airbender)

@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Succession: Season 3"
 date = "2024-04-30T01:18:01"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/succession/s03"
 +++
 
 I don't have anything too insightful to add that add's to my review of season 2,
@@ -35,4 +37,3 @@ names I couldn't remember just to show how influential that movie was on society
 and my personal upbringing. The fact that I'm excited about this fun fact speaks
 for itself.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/succession/s03)

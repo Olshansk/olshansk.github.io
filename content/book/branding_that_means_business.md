@@ -7,9 +7,8 @@ tags = [
     "book",
 ]
 rating = "⭐⭐🌟"
+goodreads_url = "https://www.goodreads.com/en/book/show/62697113-branding-that-means-business"
 +++
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/en/book/show/62697113-branding-that-means-business)
 
 - [Summary](#summary)
 - [Key Takeaways \& Reflections](#key-takeaways--reflections)

@@ -8,9 +8,7 @@ description = "Olshansky's review of Marvel's the Avengers"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/marvels_the_avengers"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/marvels_the_avengers)

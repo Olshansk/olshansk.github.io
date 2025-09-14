@@ -8,9 +8,7 @@ description = "Olshansky's review of Hercules"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/hercules_the_thracian_wars"
 +++
 
-
 The rock was jacked: check. Nice concept on the hole hercules was just a plain mortal: check. My favorite model (Barbara Palvin) made a short 1 second appearance: check. Big fighting scene: Meh, it's 2014, I expected more. I think that was all.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/hercules_the_thracian_wars)

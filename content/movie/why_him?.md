@@ -8,9 +8,7 @@ description = "Olshansky's review of Why Him?"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/why_him"
 +++
 
-
 I'm not really sure why I watched this film, but I do have to admit that it was very fun and laid back.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/why_him)

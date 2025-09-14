@@ -8,11 +8,9 @@ description = "Olshansky's review of The Professional"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/leon_the_professional"
 +++
-
 
 One of my all-time favorite movies. No crazy gadgets, or 10 minute fighting sequences. No unrealistic evil villains with superficial car chase scenes. It is a complex, realistic, down to earth entanglement of emotions of a despondent girl and a man doing his job while trying not to get too attached. It's the realism and truth behind that movie that makes it the classic that it is.
 
 Make sure to pick up the director's cut when you do decide to watch this movie!
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/leon_the_professional)

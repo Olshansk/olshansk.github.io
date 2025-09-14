@@ -8,8 +8,8 @@ description = "Olshansky's review of Bullet Train"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/bullet_train_2022"
 +++
-
 
 EEE: Exhilarating, Entertaining and Eccentric.
 
@@ -20,5 +20,3 @@ The pace never slowed down and the amount of effort and originality was peaking 
 There was not a second in the film that where the producers or directors got lazy.
 
 A frikking must watch.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/bullet_train_2022)

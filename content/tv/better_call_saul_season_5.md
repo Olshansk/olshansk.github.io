@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Better Call Saul: Season 5"
 date = "2020-05-05T21:33:54.141000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/better_call_saul/s05"
 +++
 
 It's all good man!!
@@ -19,4 +21,3 @@ The difference between every season is how it is not repetitive at all. Some cha
 
 I love Jimmy, Kim, Hamlin, Nacho, and Mike all in their own way. Currently. Currently, I'm most interested to see how Nacho is going to manage to survive Lalo's rampage, and what happens to Kim Wexler!
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/better_call_saul/s05)

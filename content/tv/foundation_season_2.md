@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Foundation: Season 2"
 date = "2023-10-14T16:26:33.519000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/foundation/s02"
 +++
 
 The first season was good, but did leave me craving for more. Alas, I was still looking forward to the second season and it was absolutely incredible! The plot, the acting, the graphics, the actors, the ideas, the suspense, all of it! Absolutely phenomenal and I can't believe I'll have to wait a year for the next one.
@@ -17,4 +19,3 @@ The drops of physics in the plot really fed to the scientists within me. The sup
 
 I genuinely can't wait for the next seasons, but I've got to say that the directors and actors have set a high bar for themselves!
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/foundation/s02)

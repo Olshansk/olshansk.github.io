@@ -8,8 +8,8 @@ description = "Olshansky's review of Killers of the Flower Moon"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/killers_of_the_flower_moon"
 +++
-
 
 This film required 3 sittings to watch. It was good, informative, well directed,
 but would have been nothing without Leonardo DiCaprio and Robert De Niro.
@@ -23,5 +23,3 @@ entire film and the rest of the cast kind of just revolved around them.
 
 I can't say it's a must watch, but if you want to see a couple of masters practicing
 their craft, this is one way to do it.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/killers_of_the_flower_moon)

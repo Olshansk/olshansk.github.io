@@ -8,9 +8,7 @@ description = "Olshansky's review of Captain America: The First Avenger"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/captain_america_the_first_avenger"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/captain_america_the_first_avenger)

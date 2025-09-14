@@ -8,9 +8,7 @@ description = "Olshansky's review of (500) Days of Summer"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/500_days_of_summer"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/500_days_of_summer)

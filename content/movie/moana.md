@@ -8,9 +8,7 @@ description = "Olshansky's review of Moana"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/moana_2016"
 +++
 
-
 I don't think it'll stand the test of time, but it was still very fun, light-hearted, beautiful animated, and has a great soundtrack.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/moana_2016)

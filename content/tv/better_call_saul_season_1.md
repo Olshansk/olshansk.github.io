@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Better Call Saul: Season 1"
 date = "2014-12-06T06:14:31"
@@ -7,8 +8,8 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/better_call_saul/s01"
 +++
 
 Olshansky was too lazy to write a review for this one...
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/better_call_saul/s01)

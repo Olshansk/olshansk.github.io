@@ -8,8 +8,8 @@ description = "Olshansky's review of Evangelion: 2.22 You Can (Not) Advance"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/evangelion_222_you_can_not_advance"
 +++
-
 
 I thought I loved the first movie in the series but the second one stepped it up to a whole new level. I give it 6 stars :)
 
@@ -20,5 +20,3 @@ You can tell that everyone involved wanted to be as creative as possible and not
 The characters and plot are both fun but also really deep. As the plot evolves, you can tell there are a lot of Christian undertones, and the concept of Angels, God and human meaning begins to really take the front stage. At the same time, there is a lot of comic relief related to penguins, nudes and sexual insinuations.
 
 Overall, this film is a 5/5 for me on every single front and I can't wait to keep watching the series.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/evangelion_222_you_can_not_advance)

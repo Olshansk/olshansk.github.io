@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Ted Lasso: Season 1"
 date = "2022-03-08T16:17:17.269000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/ted_lasso/s01"
 +++
 
 Simply love it. Absolutely exceeds every expectation I had!
@@ -15,4 +17,3 @@ At a time when television shows are either very dramatic, cinematic, educational
 
 Seeing the clash between characters who are drastically different is entertaining, but also a good reminder that everyone in life is dealing with a lot that others may not be able to comprehend. It is a reminder that we all have friends & family to whom we can provide or look to for support, and with whom we can celebrate both small and big wins.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/ted_lasso/s01)

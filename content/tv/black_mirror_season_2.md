@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Black Mirror: Season 2"
 date = "2015-09-21T14:30:12"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/black_mirror/s02"
 +++
 
 This show is unlike anything I've ever seen. A dystopic world that makes you sick to the gut, but also one you cannot turn away from. It shows human's truest nature, in it's most hideous form.  As the name implies, it's a black reflection of our world with emphasis on the horrid behavior we are capable of today, and a scary insight into what we may be capable of in the future.  
@@ -15,4 +17,3 @@ I really like the structure of the show: very few, relatively long, completely i
 
 I absolutely cannot commend the directors, actors and writers enough for creating such a brilliant piece of work. Definitely one of my favorite shows at the moment, and I can't wait to see what the future holds.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/black_mirror/s02)

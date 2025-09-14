@@ -8,8 +8,8 @@ description = "Olshansky's review of No Hard Feelings"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/no_hard_feelings_2023"
 +++
-
 
 No hard feelings really knows how to hit your feelings hard.
 
@@ -18,5 +18,3 @@ As a single 31 year old male that would like to have a family one day, I felt ev
 Throughout the film, I laughed, cried, while feeling inspired and depressed at different times. I could tell the actors were pushed outside their comfort zones, and so was I from the comfort of my own home.
 
 I'd struggle to make the case that it's a timeless classis, but it was exactly what I needed to watch right now. It's a coming of age for the 19-something late bloomer, and a maturing of age for the 30-something. I was the former, and am the latter. The important thing is to keep having fun, always keep going, and reminding oneself that it'll all work out sooner or later.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/no_hard_feelings_2023)

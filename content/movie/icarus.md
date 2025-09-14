@@ -8,9 +8,7 @@ description = "Olshansky's review of Icarus"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/icarus_2017"
 +++
 
-
 Very well produced, provides an interesting view of things, but not very insightful.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/icarus_2017)

@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Dexter: Season 8"
 date = "2014-11-27T04:40:44"
@@ -7,8 +8,8 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/dexter/s08"
 +++
 
 This was one of those shows that started off really good, but kept repeating the same thing too often while taking too long to drive the underlying plot. Only got up to season 5.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/dexter/s08)

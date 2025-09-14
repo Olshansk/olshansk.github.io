@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Righteous Gemstones: Season 3"
 date = "2025-05-01T15:24:22"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/the_righteous_gemstones/s03"
 +++
 
 I can’t tell if the show is growing on me or if it’s getting better.
@@ -15,4 +17,3 @@ It feels like as the actors get more comfortable with their roles, and the story
 
 It’s the sort of show only HBO can pull off, and it has transitioned from something I watch passively when there’s nothing else to something I genuinely enjoy and look forward to.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/the_righteous_gemstones/s03)

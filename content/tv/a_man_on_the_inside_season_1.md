@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "A Man on the Inside: Season 1"
 date = "2025-03-02T20:34:28.748000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/a_man_on_the_inside/s01"
 +++
 
 A light, fun, heart-warming show that still manages to surprise and reminds you
@@ -20,4 +22,3 @@ This one hit all the spots: family friendly, engaging, familial, etc. A few char
 stood out, but a few felt really fake. Not going to get into the details, but I'll
 definitely watch the second season, when I need a "recovery" from another top-tier show.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/a_man_on_the_inside/s01)

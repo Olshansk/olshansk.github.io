@@ -8,9 +8,7 @@ description = "Olshansky's review of The Theory of Everything"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_theory_of_everything_2014"
 +++
 
-
 This film evokes a state of ambivalence somewhere between utter sympathy and deep respect. A brilliant performance beginning you to choose where you see a brilliant mind trapped in a crippled body or a clever flamboyant young man with jocular manners.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_theory_of_everything_2014)

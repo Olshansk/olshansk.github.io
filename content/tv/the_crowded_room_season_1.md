@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Crowded Room: Season 1"
 date = "2023-07-23T00:00:00.000000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/the_crowded_room"
 +++
 
 Absolutely incredible. Nothing short of of an oscar winning performance by Tom Holland and Amanda Seyfried. This series is what turned me from seeing Tom as a charismatic individual, great actor, good looking guy, to a true artist, a method actor, and one of the best in his field.
@@ -25,4 +27,3 @@ There were so many memorable scenes, but a few that really stood out to me, impr
 
 The entire cast was incredible and supported Tom Holland in his performance. However, Tom had to take on each individual character, as well as the actor's representation of those characters, and I'd be amazed if he does not end up winning multiple awards for it.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/the_crowded_room)

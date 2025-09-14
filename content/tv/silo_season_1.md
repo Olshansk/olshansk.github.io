@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Silo: Season 1"
 date = "2023-07-23T00:00:00.000000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/silo/s01"
 +++
 
 I watched the whole seasons but am still unsure if I'll stick around for the second one.
@@ -17,4 +19,3 @@ Even in a world where everyone lives in a silo with no knowledge of what happene
 
 Everything was mediocre, and it passed the time before going to bed, but nothing stood out.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/silo/s01)

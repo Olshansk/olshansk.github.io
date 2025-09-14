@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Eric (Netflix Limited Series): Inner conflicts in New York's Landscape"
 date = "2024-11-03T12:16:57.110000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/eric"
 +++
 
 > Everyone thinks of changing the world, but no one thinks of changing himself.”
@@ -47,4 +49,3 @@ The series starts off slow, with many branches, but momentum continually builds.
 To reiterate, the last couple of episodes are a pure masterpiece of storytelling
 and filmography.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/eric)

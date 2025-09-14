@@ -8,9 +8,7 @@ description = "Olshansky's review of The Machine"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_machine_2013"
 +++
 
-
 They tried to put a lot of meaning into the abyss emptiness of a machine.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_machine_2013)

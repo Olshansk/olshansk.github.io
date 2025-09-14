@@ -8,8 +8,8 @@ description = "Olshansky's review of The Menu"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/the_menu"
 +++
-
 
 The Menu is reminiscent of "The Bear" if you were to give it a dark twist and
 some thrilling suspense.
@@ -28,5 +28,3 @@ A couple moments that stuck out are:
 
 - The monologue about "not eating" was something I'll never forget
 - The entire cheesburger subplot was masterfully done and executed
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/the_menu)

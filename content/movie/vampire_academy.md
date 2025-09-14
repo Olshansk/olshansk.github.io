@@ -8,9 +8,7 @@ description = "Olshansky's review of Vampire Academy"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/vampire_academy"
 +++
 
-
 Cliche acting. Typical storyline. Vampires that don't sparkle. Still mildly entertaining.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/vampire_academy)

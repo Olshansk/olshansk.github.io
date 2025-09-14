@@ -8,9 +8,7 @@ description = "Olshansky's review of Transformers: Age of Extinction"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/transformers_age_of_extinction"
 +++
 
-
 Transformers. Explosions. A predictable story. Mark Wahlberg. That is all.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/transformers_age_of_extinction)

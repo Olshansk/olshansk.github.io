@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Game of Thrones: Season 6"
 date = "2016-04-28T16:41:21"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/game_of_thrones/s06"
 +++
 
 Episode 1: Cant express my excitement about the fact that the time has come for another season. Its no secret that this was a setup episode that touched on and recapped many different stories without delving into any one in a ton of detail. Nonetheless, it was great and enjoyable.
@@ -68,4 +70,3 @@ John Snow. John Stark? John Targaryen? A man who dwindles in both and ice. The k
 
 Amazing season that far exceeded any expectations I had, which were pretty high to start with.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/game_of_thrones/s06)

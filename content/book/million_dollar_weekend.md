@@ -7,9 +7,8 @@ tags = [
     "book",
 ]
 rating = "⭐⭐⭐⭐⭐"
+goodreads_url = "https://www.goodreads.com/en/book/show/145624504"
 +++
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/en/book/show/145624504)
 
 - [Overall](#overall)
 - [Noah's Backstory](#noahs-backstory)

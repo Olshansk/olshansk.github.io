@@ -1,10 +1,12 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Adolescence: Season 1"
 date = "2025-04-20T16:28:00.748000"
 description = "Olshansky's review of Adolescence: Season 1"
 tags = ["tv"]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/adolescence/s01"
 +++
 
 Phenomenal.
@@ -81,4 +83,3 @@ I didn’t love the episode at first, but I got into it after about 30 minutes.
 
 It also made me realize I’m getting older, as I resonated with the father’s emotions far more than I expected.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/adolescence/s01)

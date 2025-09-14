@@ -8,9 +8,7 @@ description = "Olshansky's review of Chronicle"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/chronicle"
 +++
 
-
 Very powerful and original film. Love the cinematography and special effects. A superhero experience for the common Joe. This is the epitome of a low budget, original, sci-fi, with not very well known actors film that other directors should strive for.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/chronicle)

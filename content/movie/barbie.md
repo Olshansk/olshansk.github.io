@@ -8,8 +8,8 @@ description = "Olshansky's review of Barbie"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/barbie"
 +++
-
 
 Not unlike the iconic toy, "Barbie: The Movie," delivers a serious message without taking itself too seriously, all packaged in a plastic and fantastic shell.
 
@@ -38,5 +38,3 @@ I saw the "Barbie" movie and it's a solid 10/10. Far from bland or generic, it s
 
 Still Rocking The Mug:
 ![Still Rocking The Mug](/images/barbie_mug.jpg)
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/barbie)

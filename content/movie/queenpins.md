@@ -8,8 +8,8 @@ description = "Olshansky's review of Queenpins"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/queenpins"
 +++
-
 
 I've been on a "light-hearted" movie kick lately, and Queenpins is was a great addition
 to the set. It's easy watch, entertaining, funny, but also surpsinginly informative.
@@ -30,5 +30,3 @@ for him to let that character shine.
 
 Overall, definitely worth watching for almost everyone when you're in the mood for
 a light-hearted movie, based on a true story, with a few surprising twists.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/queenpins)

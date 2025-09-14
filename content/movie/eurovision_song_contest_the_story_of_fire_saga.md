@@ -8,9 +8,7 @@ description = "Olshansky's review of Eurovision Song Contest: The Story of Fire 
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/eurovision_song_contest_the_story_of_fire_saga"
 +++
 
-
 A silly but light hearted, fun, and surprisingly entertaining film. It helps being a Rachel Mcadams fanboy.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/eurovision_song_contest_the_story_of_fire_saga)

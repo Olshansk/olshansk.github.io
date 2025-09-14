@@ -8,9 +8,7 @@ description = "Olshansky's review of The Jacket"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/jacket"
 +++
 
-
 Makes you question, wonder and ultimately gives you no answers. Though the budget was a little short, the acting defied reality, like it should.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/jacket)

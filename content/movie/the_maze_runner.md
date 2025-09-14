@@ -8,9 +8,7 @@ description = "Olshansky's review of The Maze Runner"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_maze_runner"
 +++
 
-
 Felt like a less interesting version of the hunger games. Some of the cinematic shots looked a little fake, and felt like they were "trying to hard." Though I was relieved that the plot had more than meets the eye, the story is very ambitious and tried to do much. That being said, it is right on point to satisfy the target demographic: teens.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_maze_runner)

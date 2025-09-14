@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Stranger Things: Season 3"
 date = "2019-11-23T08:42:46.999000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/stranger_things/s03"
 +++
 
 Another great season of Stranger Things!
@@ -17,4 +19,3 @@ Even though the show is targeted at both younger and older audiences, it had a G
 
 My favorite season is definitely Dustin's and Suzie's NeverEnding story scene. The car with everyone in it is being chased by the Mind Flayer, Dustin is handling all the communication at the top of a hill, Hopper is at the center of a Russian military base, Murray is racing for time, and they start singing a song! The balance of fun, scary, realistic, fantasy and entertaining comic relief is done extremely well!
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/stranger_things/s03)

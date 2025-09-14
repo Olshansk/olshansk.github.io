@@ -8,9 +8,7 @@ description = "Olshansky's review of Magic in the Moonlight"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/magic_in_the_moonlight"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/magic_in_the_moonlight)

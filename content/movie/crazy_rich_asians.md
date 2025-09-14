@@ -8,9 +8,7 @@ description = "Olshansky's review of Crazy Rich Asians"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/crazy_rich_asians"
 +++
 
-
 A classic feel-good rom-com with an original twist. I really enjoyed it.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/crazy_rich_asians)

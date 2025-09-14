@@ -8,9 +8,7 @@ description = "Olshansky's review of My Oxford Year"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/my_oxford_year"
 +++
 
-
 I wanted to watch a cliche rom-com with a couple of good looking people who fall in love, and that's exactly what I got.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/my_oxford_year)

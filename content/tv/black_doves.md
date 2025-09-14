@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Black Doves (Limited Series): A dovish review during a red Christmas (4.5/5)"
 date = "2024-12-19T09:47:17.547000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/black_doves"
 +++
 
 It was a great Christmas themed thriller that took a few twists and turns I
@@ -28,4 +30,3 @@ It's unclear if he's a double (triple? quadruple?) agent above everyone else,
 is simply ignorant and oblivious, or make the conscious choice to look the other
 way. The depth comes from the fact that I'm not sure if the character had any depth.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/black_doves)

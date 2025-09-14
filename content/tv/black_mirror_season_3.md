@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Black Mirror: Season 3"
 date = "2016-11-27T13:04:15"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/black_mirror/s03"
 +++
 
 Episode 1: Not too far from reality. Just taking our facebook/instagram/twitter/tinder likes and ratings and lying completely putting it out there. While it is very close to home, the repercussions just showed that we build up some anger so it didn't seem that bad. Now one of Black Mirror's best episodes.
@@ -21,4 +23,3 @@ Episode 5: An episode that makes you question whether happiness is more valuable
 
 Episode 6: What a way to end the season! This was by far my favorite episode. I loved grit and conflict between the main characters even though they shared the same goal but approached it from completely different angles. The decline in bees' population is a problem we may really have to deal with and the solution proposed is not too far fetched. The hack is very feasible, especially given that it was via a backdoor designed by an insider. Black mirror nailed all the parallels to the real world, filming the episode in a very realistic manner and really making you think of what could go wrong as technology advances.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/black_mirror/s03)

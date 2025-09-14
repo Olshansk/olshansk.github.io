@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Walking Dead: Season 7"
 date = "2016-11-08T22:46:12"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/the_walking_dead/s07"
 +++
 
 Episode 1
@@ -79,4 +81,3 @@ Episode 15
 -------------
 Solid overall season. While the second half was not as exciting as the first, a lot has happened. We're no longer just stuck in the prison, but the world is actually changing. Alliances are forming, leaders are disappearing, new leaders are forming and a war is on the brink. Main characters died, others took a hundred and eighty degree turn in their personalities, and what I'd expect out of a post-apocalyptic world really did happen. The turn of events in the season finale really took me by surprise and am really impressed by it.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/the_walking_dead/s07)

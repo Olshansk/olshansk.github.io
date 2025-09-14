@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Nobody Wants This: Season 1"
 date = "2025-02-15T17:23:22.401000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/nobody_wants_this/s01"
 +++
 
 I'd classify this under "trash tv" but with a bit of class.
@@ -25,4 +27,3 @@ Would I ever recommend this to anyone? No.
 
 Am I looking forward to season 2? Yes.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/nobody_wants_this/s01)

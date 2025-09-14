@@ -8,8 +8,8 @@ description = "Olshansky's review of Before Sunset"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/before_sunset"
 +++
-
 
 I'm so glad I only had to wait a couple months (until I got together with my friend) to watch this film rather than the 9 years real fans had to wait. 
 
@@ -18,5 +18,3 @@ It was definitely different, but still managed to capture the real essence of pe
 The ending did leave a slight sense of unsatisfaction and felt like it was cut a bit short, but is making me think that Jesse is ready to just throw away his life back in America and move to Europe.
 
 I'm really glad I won't have to wait another 9 years to see the third film. :)
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/before_sunset)

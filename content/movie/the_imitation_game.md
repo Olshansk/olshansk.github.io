@@ -8,9 +8,7 @@ description = "Olshansky's review of The Imitation Game"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_imitation_game"
 +++
 
-
 A quirky and eccentric collection of characters, played by a great set of actors, led by an inspiring story that feels stripped and dismantled of authenticity and detail, leads to a film it slightly disappointing but worth watching.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_imitation_game)

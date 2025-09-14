@@ -8,9 +8,7 @@ description = "Olshansky's review of That Awkward Moment"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/that_awkward_moment"
 +++
 
-
 The chemistry in the crew showed obvious evidence that they all enjoyed filming this film, which is all that is necessary to resonate with the audience.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/that_awkward_moment)

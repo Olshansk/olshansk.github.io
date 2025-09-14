@@ -8,11 +8,9 @@ description = "Olshansky's review of CODA"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/coda_2021"
 +++
-
 
 Didn't know what to expect because how interesting could a coming-of-age film of a girl in a deaf family be? However, after it won the best picture I was enticed and was not disappointed.
 
 I'm not sure it'll stand the test of time, but was very enjoyable and made me feel good.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/coda_2021)

@@ -8,9 +8,7 @@ description = "Olshansky's review of X-Men: First Class"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/x_men_first_class"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/x_men_first_class)

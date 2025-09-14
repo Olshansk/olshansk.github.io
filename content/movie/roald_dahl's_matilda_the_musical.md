@@ -8,8 +8,8 @@ description = "Olshansky's review of Roald Dahl's Matilda the Musical"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/roald_dahls_matilda_the_musical"
 +++
-
 
 Absolutely Phenomenal!
 
@@ -18,5 +18,3 @@ Alisha Weir is nothing less than a prodigy, and I'm excited to follow how her ca
 The entire production is fun and captivating. Every actor aced their role (acting, singing, dancing) and every character had just the right amount of screen time, and played the right part to tell Matilda's story. 
 
 I will very happily rewatch this film if the opportunity arises.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/roald_dahls_matilda_the_musical)

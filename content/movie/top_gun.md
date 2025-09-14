@@ -8,9 +8,7 @@ description = "Olshansky's review of Top Gun"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/top_gun"
 +++
 
-
 It's hard not to love a performance by Tom Cruise from a classic hit. However, even though its name and fame has stood the test of time, I don't think the actual film did quite as well.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/top_gun)

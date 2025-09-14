@@ -8,9 +8,7 @@ description = "Olshansky's review of Let the Right One In"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/let_the_right_one_in"
 +++
 
-
 One of my favourite films to date.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/let_the_right_one_in)

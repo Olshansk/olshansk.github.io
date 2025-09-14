@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Upload: Season 1"
 date = "2020-10-08T13:00:07.179000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/upload/s01"
 +++
 
 Unique and intriguing, but nothing mind-blowing.
@@ -15,4 +17,3 @@ I was looking for a light comedic show with a sci-fi angle. On the drama/comedy 
 
 Hard to recommend, but I definitely enjoyed it and will consider watching the second season.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/upload/s01)

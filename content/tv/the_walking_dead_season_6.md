@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Walking Dead: Season 6"
 date = "2015-11-19T12:30:57"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/the_walking_dead/s06"
 +++
 
 Something weird happened with the episode reviews here, so they may be out of order and I also have duplicates for some reason...
@@ -92,4 +94,3 @@ Episode 16
 
 Holy Fuck.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/the_walking_dead/s06)

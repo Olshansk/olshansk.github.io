@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Leftovers: Season 2"
 date = "2015-10-19T16:33:10"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/the-leftovers/s02"
 +++
 
 Episode 4: An amazing soundtrack, a lot of movement in the plot, and a great distinction between the toll that this takes on people over the short and long term.
@@ -19,4 +21,3 @@ Episode 9: Another great episode where things feel like they're finally coming t
 
 Episode 10: Speechless.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/the-leftovers/s02)

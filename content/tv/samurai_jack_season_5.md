@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Samurai Jack: Season 5"
 date = "2017-03-15T14:32:41"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/samurai_jack/s05"
 +++
 
 Episode 1: It's nostalgic, exciting and action packed. It managed to maintain it's authentic visual and audio aesthetic, while also feeling modern in the scope of other shows that are released nowadays. Most importantly, the show is not afraid of verging on breaking the 4th walll and being funny, while also being very psychologically deep by addressing Jack's inner conflicts.
@@ -17,4 +19,3 @@ Episodes 3 - 4: I thought the season was off to a good start, but it just keeps 
 
 A beautiful, emotional, meaningful ending. The show culminated in a way that did not disappoint, linking everything back to the very start while keeping the essence of the characters and storyline intact.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/samurai_jack/s05)

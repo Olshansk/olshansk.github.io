@@ -8,9 +8,7 @@ description = "Olshansky's review of How to Train Your Dragon"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/how_to_train_your_dragon"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/how_to_train_your_dragon)

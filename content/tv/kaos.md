@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "KAOS (Limited Series): Overwhelmed by the Shear Creativity and Originality of the Show (6/5)"
 date = "2025-01-02T09:47:17.547000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/kaos"
 +++
 
 Easily, easily, easily the best show I've seen in years.
@@ -67,4 +69,3 @@ thought-provoking shows is my mom. We'd pause the show, discuss every episode,
 and simply reflect by how amazing every moment of every scene was. This had both
 of us in awe after every episode.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/kaos)

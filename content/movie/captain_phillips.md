@@ -8,9 +8,7 @@ description = "Olshansky's review of Captain Phillips"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/captain_phillips"
 +++
 
-
 Solid start, emotional ending, and a lot of filler in between that left me unengaged, and even bored to some extent.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/captain_phillips)

@@ -8,9 +8,7 @@ description = "Olshansky's review of The Fountain"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_fountain"
 +++
 
-
 A very simple and widely reiterated message of acceptance delivered in an original and authentic medium. The symbolism in this film is a little bit excessive and was poorly organized, but intriguing nonetheless. It leaves you in a state of thoughtfulness and reflection, which is a quality in feels I seek endlessly and adore.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_fountain)

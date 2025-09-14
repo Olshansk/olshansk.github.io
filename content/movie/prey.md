@@ -8,9 +8,7 @@ description = "Olshansky's review of Prey"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/prey_2022"
 +++
 
-
 A thriller that's shot beautifully and progresses slowly. Didn't blow me away, but it's a good 1.5 hour film, and I'm excited to see the franchise grow.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/prey_2022)

@@ -8,9 +8,7 @@ description = "Olshansky's review of Birdman or (The Unexpected Virtue of Ignora
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/birdman_2014"
 +++
 
-
 Don't have much to say other than: Bravo!
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/birdman_2014)

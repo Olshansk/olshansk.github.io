@@ -8,11 +8,9 @@ description = "Olshansky's review of The Disaster Artist"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_disaster_artist"
 +++
-
 
 I did not watch "The room" prior to this film, but this was simply amazing.
 
 It was historical, cringy, captivating and confusing all at the same time. James Franco is a phenomenal actor!
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_disaster_artist)

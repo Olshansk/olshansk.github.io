@@ -8,9 +8,7 @@ description = "Olshansky's review of American Reunion"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/american_reunion_2012"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/american_reunion_2012)

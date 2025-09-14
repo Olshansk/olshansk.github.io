@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Spy: Limited Series"
 date = "2020-01-03T08:52:36.158000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/the_spy/s01"
 +++
 
 A phenomenal, thrilling, and sometimes difficult to watch series. If this were a fictional Hollywood production, I would say that the writing was great. Given the fact that this was based on a true story, it makes every single scene so much more powerful.
@@ -17,4 +19,3 @@ The recreation of both Israel and Syria in the 1960s, and the color contrasts be
 
 As a short 6 episode limited series, there is no reason not to watch this!
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/the_spy/s01)

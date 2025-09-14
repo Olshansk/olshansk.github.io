@@ -8,8 +8,8 @@ description = "Olshansky's review of Love Actually"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/love_actually"
 +++
-
 
 One of the best feel-good holiday-season rom-com chick-flicks. A must watch for everyone :)
 
@@ -20,5 +20,3 @@ The humility that an early 2000s movie makes it feel real, authentic, relatable 
 doesn't feel like it's trying to aim for high box-office returns.
 
 I also have to say that whoever put together the cast had a great eye for talent.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/love_actually)

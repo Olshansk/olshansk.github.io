@@ -7,6 +7,7 @@ tags = [
     "book",
 ]
 rating = "⭐⭐⭐⭐"
+goodreads_url = "https://www.goodreads.com/book/show/30835567-hit-refresh"
 +++
 
 - [Summary](#summary)
@@ -20,8 +21,6 @@ rating = "⭐⭐⭐⭐"
 - [Partnership vs Acquisition?](#partnership-vs-acquisition)
 - [Values \& Trust](#values--trust)
 - [Favorite Quotes](#favorite-quotes)
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/book/show/30835567-hit-refresh)
 
 ## Summary
 

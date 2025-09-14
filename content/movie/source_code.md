@@ -8,9 +8,7 @@ description = "Olshansky's review of Source Code"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/source_code"
 +++
 
-
 Really enjoyed the fact that this movie went beyond the standard time-travel plot and offered a creative story that went beyond what I expected after seeing the trailer.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/source_code)

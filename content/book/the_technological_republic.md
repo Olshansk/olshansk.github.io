@@ -8,9 +8,8 @@ tags = [
 ]
 ShowToc = true
 rating = "⭐⭐"
+goodreads_url = "https://goodreads.com/book/show/213618136"
 +++
-
-[📚 GoodReads Info 📚](https://goodreads.com/book/show/213618136)
 
 ## Overall Thoughts & Summary
 

@@ -8,9 +8,7 @@ description = "Olshansky's review of Safety Not Guaranteed"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/safety_not_guaranteed"
 +++
 
-
 Beautiful and touching.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/safety_not_guaranteed)

@@ -8,9 +8,7 @@ description = "Olshansky's review of Harry Potter and the Chamber of Secrets"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/harry_potter_and_the_chamber_of_secrets"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/harry_potter_and_the_chamber_of_secrets)

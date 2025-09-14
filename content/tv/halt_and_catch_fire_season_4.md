@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Halt and Catch Fire: Season 4"
 date = "2018-03-23T14:02:04"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/halt_and_catch_fire/s04"
 +++
 
 (caps not intended but rotten tomatoes is broken at the time of writing this).
@@ -21,4 +23,3 @@ Every single characters matters in a completely different way. there are qualiti
 
 this is by far one of my favorite shows and simply left me speechless by the end. It hits really close to home.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/halt_and_catch_fire/s04)

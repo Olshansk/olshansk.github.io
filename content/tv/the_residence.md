@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Residence: Season 1"
 date = "2025-06-07T14:05:14"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/the_residence/s01"
 +++
 
 Easily in my top 5 of 2025, alongside shows like The Gentlemen and The White Lotus.
@@ -19,4 +21,3 @@ The plot is engaging. The writing is sharp. The direction is masterful. The cine
 
 I genuinely can’t wait for Season 2.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/the_residence/s01)

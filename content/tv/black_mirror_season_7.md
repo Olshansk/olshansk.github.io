@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Black Mirror: Season 7"
 date = "2025-05-05T20:34:28.748000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/black_mirror/s07"
 +++
 
 After many years, Black Mirror comes back and does not disappoint. Once again, it's on point.
@@ -22,4 +24,3 @@ In particular, I recommended the movie episode to my parents, and they loved it!
 At the same time, I know they'd never watch some of the darker ones. Being able
 to target such a wide audience is a testament to the brilliance of the show.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/black_mirror/s07)

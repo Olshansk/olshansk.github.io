@@ -8,9 +8,7 @@ description = "Olshansky's review of As Good as It Gets"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/as_good_as_it_gets"
 +++
 
-
 An original film I'd recommend others to watch, but it made me feel so uncomfortable that it was hard to justify a high rating.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/as_good_as_it_gets)

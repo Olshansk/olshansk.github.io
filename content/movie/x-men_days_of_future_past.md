@@ -8,9 +8,7 @@ description = "Olshansky's review of X-Men: Days of Future Past"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/x_men_days_of_future_past"
 +++
 
-
 A solid, cheesy, beautiful, cliche, entertaining x-men film.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/x_men_days_of_future_past)

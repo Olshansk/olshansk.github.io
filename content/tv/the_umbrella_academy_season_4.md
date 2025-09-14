@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Umbrella Academy (Season 4): Not the best but for the fans (4/5)"
 date = "2024-11-25T09:47:17.547000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/the_umbrella_academy/s04"
 +++
 
 The last season was very much made for the fans.
@@ -38,4 +40,3 @@ I found some [fan fiction on reddit](https://www.reddit.com/r/UmbrellaAcademy/co
 
 > The subway is fixed and continues it's route. It reaches its destination and all of the siblings move on with their normal lives, and that's where the season ends.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/the_umbrella_academy/s04)

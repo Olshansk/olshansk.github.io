@@ -8,9 +8,7 @@ description = "Olshansky's review of Limitless"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/limitless"
 +++
 
-
 A short fast paced film that is limited to the camera's lens and does not offer much outside of the plot itself. Regardless of the lack of brain activity required to watch this film or the disappointing ending, it is still very entertaining and definitely worth a watch.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/limitless)

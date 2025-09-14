@@ -8,9 +8,7 @@ description = "Olshansky's review of Kubo and the Two Strings"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/kubo_and_the_two_strings_2016"
 +++
 
-
 An original story with vibrant colors, beautiful animations and a soothing soundtrack that was a tad too cheesy and cliche to keep me engaged.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/kubo_and_the_two_strings_2016)

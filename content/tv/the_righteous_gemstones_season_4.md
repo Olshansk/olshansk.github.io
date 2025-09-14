@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Righteous Gemstones: Season 4"
 date = "2025-07-09T15:24:22"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/the_righteous_gemstones/s04"
 +++
 
 Phenomenal final season to a show I enjoyed but didn't love until the very end.
@@ -25,4 +27,3 @@ My favorite moment was when the three of them were lying on the floor, bleeding 
 
 Some endings are bittersweet, but this one was just sweet. The only thing I would have loved is a slight expansion of the golden bible. Feels like there a stone left unturned.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/the_righteous_gemstones/s04)

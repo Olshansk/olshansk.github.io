@@ -8,6 +8,7 @@ description = "Olshansky's review of Martha"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/martha_2024"
 +++
 
 **To Martha**: In case you ever read this, I just wanted to say that you deserve
@@ -71,5 +72,3 @@ Apparently it was her return to relevancy and I had no clue.
 I don't have much to add other than the fact that Martha is a badass. In the
 documentary, I could tell her mind is still sharp but her body is aging. If the
 opportunity to meet her ever comes up, I'd take it in a heart beat.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/martha_2024)

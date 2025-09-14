@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The 100: Season 1"
 date = "2015-01-03T03:15:14"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/the_100/s01"
 +++
 
 Episode 1: The first episode has set the stage for a very sci-fi-ish dystopian world, with a very permitting plot that can expand in various directions, and lots of room to, and lots of room to both introduce, kill of, and develop the characters introduced; all smothered with cheesy goodness.
@@ -15,4 +17,3 @@ Episodes 2 - 4: The show is getting heated, and it becomes increasingly difficul
 
 Episode 5: As the much anticipated love triangle begins to form, the writers surprised me by following through with the murder of the volunteers. While some characters are still very clearly immune, there may be more to this show than meets the eye.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/the_100/s01)

@@ -8,9 +8,7 @@ description = "Olshansky's review of The Conjuring"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_conjuring"
 +++
 
-
 A truly suspenseful horror film that does everything right.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_conjuring)

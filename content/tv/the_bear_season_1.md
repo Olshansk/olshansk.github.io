@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Bear: Season 1"
 date = "2023-04-26T10:59:57.634000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/the_bear/s01"
 +++
 
 I never thought that watching people making sandwiches in a small Chicago cafe could be interesting.
@@ -15,4 +17,3 @@ Both the character development and the character dynamics are amazing, so hats o
 
 Honestly cannot wait for the second season!
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/the_bear/s01)

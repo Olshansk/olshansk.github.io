@@ -8,9 +8,7 @@ description = "Olshansky's review of Before I Fall"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/before_i_fall"
 +++
 
-
 I was hoping for a new and interesting take on groundhog day, but got another teenage drama instead...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/before_i_fall)

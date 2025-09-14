@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "For All Mankind: Season 2"
 date = "2023-12-19T01:18:01"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/for_all_mankind/s02"
 +++
 
 When I started watching the first season, I never thought I’d be so emotional by the end of the second season.
@@ -28,4 +30,3 @@ the ones that follow orders, the ones the want to defect, and so many more. The 
 
 The first season was good but the second one was fantastic, and I can't wait to keep watching!
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/for_all_mankind/s02)

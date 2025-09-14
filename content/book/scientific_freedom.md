@@ -7,11 +7,10 @@ tags = [
     "book",
 ]
 rating = "⭐"
+goodreads_url = "https://www.goodreads.com/book/show/55520463-scientific-freedom"
 +++
 
 - [Overall](#overall)
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/book/show/55520463-scientific-freedom)
 
 ## Overall
 

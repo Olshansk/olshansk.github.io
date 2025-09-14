@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "WandaVision: Season 1"
 date = "2022-03-15T17:47:02.991000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/wandavision/s01"
 +++
 
 I watched this series about a year ago but my original review was lost. Overall: MUST WATCH!
@@ -15,4 +17,3 @@ Though I love the Marvel Universe, I've stopped watching most of the films and s
 
 In fact, my mom, who hasn't watched any of the Marvel movies/series very much enjoyed it as well. Though she was lost at certain parts, I believe the first half of the season is a must watch for everyone.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/wandavision/s01)

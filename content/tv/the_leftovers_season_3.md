@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Leftovers: Season 3"
 date = "2017-12-03T09:36:12"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/the-leftovers/s03"
 +++
 
 With the series finale, I can confidently say The Leftovers is officially one of my favorite shows.
@@ -17,4 +19,3 @@ Mixing weird scientific incidents with historical biblical references in a moder
 
 All the questions that should've been answered were, and all the other ones that shouldn't have were not. The ending is beautiful, and I wouldn't have it any other way.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/the-leftovers/s03)

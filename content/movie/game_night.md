@@ -8,9 +8,7 @@ description = "Olshansky's review of Game Night"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/game_night_2018"
 +++
 
-
 This movie had a few moments that made me lol, but it wasn't good by any means. The overall concept was pretty meta, but the movie was really dumb. I'm really surprised that it had such good reviews...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/game_night_2018)

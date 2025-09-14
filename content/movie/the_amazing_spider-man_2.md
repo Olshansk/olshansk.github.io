@@ -8,9 +8,7 @@ description = "Olshansky's review of The Amazing Spider-Man 2"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_amazing_spider_man_2"
 +++
 
-
 Though the plot does provide minimal intrigue and lacks surprises, the beauty of this film lies in the special effects, captivating cinematography, and the iconic humor that comes with the amazing Spider-Man.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_amazing_spider_man_2)

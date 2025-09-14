@@ -8,11 +8,9 @@ description = "Olshansky's review of Aladdin"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/aladdin"
 +++
-
 
 Just a trip down nostalgia lane with nothing special.
 
 I was very impressed by the graphics though!
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/aladdin)

@@ -8,9 +8,7 @@ description = "Olshansky's review of The Hobbit: An Unexpected Journey"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_hobbit_an_unexpected_journey"
 +++
 
-
 A lot like watching a flower grow. It's beautiful, but takes too long.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_hobbit_an_unexpected_journey)

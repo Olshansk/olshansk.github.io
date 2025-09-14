@@ -8,9 +8,7 @@ description = "Olshansky's review of The Boxtrolls"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the_boxtrolls"
 +++
 
-
 An overly simple storyline filmed in a very creative with somewhat bizarre characters.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the_boxtrolls)

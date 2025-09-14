@@ -8,9 +8,7 @@ description = "Olshansky's review of Moonrise Kingdom"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/moonrise_kingdom"
 +++
 
-
 Just made me feel good inside.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/moonrise_kingdom)

@@ -8,9 +8,7 @@ description = "Olshansky's review of Napoleon Dynamite"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/napoleon_dynamite"
 +++
 
-
 Olshansky was too lazy to write a review for this one...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/napoleon_dynamite)

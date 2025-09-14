@@ -8,9 +8,7 @@ description = "Olshansky's review of Donnie Darko"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/donnie_darko"
 +++
 
-
 A dark, illusive and stunning film.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/donnie_darko)

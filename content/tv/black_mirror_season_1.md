@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Black Mirror: Season 1"
 date = "2015-09-21T14:30:02"
@@ -7,8 +8,8 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/black_mirror/s01"
 +++
 
 Olshansky was too lazy to write a review for this one...
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/black_mirror/s01)

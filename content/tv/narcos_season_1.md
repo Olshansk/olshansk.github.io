@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Narcos: Season 1"
 date = "2015-09-16T13:58:38"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/narcos/s01"
 +++
 
 Narcos:
@@ -19,4 +21,3 @@ I cannot speak for the historical accuracy of this show, but I thought it was ph
 
 I'm really looking forward to the next season!
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/narcos/s01)

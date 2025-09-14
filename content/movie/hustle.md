@@ -8,9 +8,7 @@ description = "Olshansky's review of Hustle"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/hustle_2022"
 +++
 
-
 An unexpectedly awesome movie. As an Adam Sandler fan, who doesn't watch sports, this film was fun, engaging, inspiring and definitely worth a watch.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/hustle_2022)

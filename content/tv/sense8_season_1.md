@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Sense8: Season 1"
 date = "2016-06-17T16:38:10"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/sense8/s01"
 +++
 
 Episode 1
@@ -59,4 +61,3 @@ I'm usually pretty content with show endings, even when they're not stelar, but 
 
 I really hope a second season is in the works.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/sense8/s01)

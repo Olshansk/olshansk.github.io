@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Queen's Gambit: Miniseries"
 date = "2021-01-07T05:31:56.821000"
@@ -7,6 +8,7 @@ tags = [
     "tv",
 ]
 rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/the_queens_gambit/s01"
 +++
 
 Absolutely amazing!
@@ -17,4 +19,3 @@ Anya Taylor‑Joy killed it. Everything from the way she spoke, the way she look
 
 More importantly, there's something really attractive to me about watching a show where an individual is extremely devoted to one task and just wants to be the best at it. The dedication and persistance is motivating and something I want to keep watching.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/the_queens_gambit/s01)

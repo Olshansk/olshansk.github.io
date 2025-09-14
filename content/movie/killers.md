@@ -8,9 +8,7 @@ description = "Olshansky's review of Killers"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/killers_2010"
 +++
 
-
 Not sure why I watched the whole movie.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/killers_2010)

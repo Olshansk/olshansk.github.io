@@ -8,9 +8,7 @@ description = "Olshansky's review of Hell or High Water"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/hell_or_high_water"
 +++
 
-
 An honest film with some real character that lacks a point and excitement.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/hell_or_high_water)
