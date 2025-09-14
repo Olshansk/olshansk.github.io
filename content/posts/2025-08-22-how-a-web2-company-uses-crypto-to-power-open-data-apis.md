@@ -5,7 +5,7 @@ draft: false
 description: "There is a big opportunity to build the “Google home page” for finding and accessing APIs for any open data sources and services."
 tags: ["web2", "company"]
 categories: ["cryptocurrency", "technology", "machine-learning", "business"]
-medium_url: "https://medium.com/@olshansky/how-a-web2-company-uses-crypto-to-power-open-data-apis-b8307eba173a"
+substack_url: "https://olshansky.substack.com/p/how-a-web2-company-uses-crypto-to"
 ShowToc: true
 TocOpen: false
 ShowReadingTime: true

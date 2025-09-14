@@ -1,13 +1,18 @@
-+++
-author = "Daniel Olshansky"
-title = "Every Mantra has a Counter-Mantra"
-date = "2024-12-02T00:21:51.520Z"
-description = "Including this one"
-tags = [
-    "ai", "startup", "research", "productivity", "book", "personal"
-]
-substack_url = "https://olshansky.substack.com/p/every-mantra-has-a-counter-mantra"
-+++
+---
+title: "Every Mantra has a Counter-Mantra"
+date: 2024-12-02T00:21:51.520Z
+draft: false
+description: "Including this one"
+tags: ["ai", "startup", "research", "productivity", "book", "personal"]
+categories: ["business", "productivity"]
+substack_url: "https://olshansky.substack.com/p/every-mantra-has-a-counter-mantra"
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+---
 
 _tl;dr Next time you read, see, hear, give, get, ideate or invent a mantra, just remember that “every mantra has a counter-mantra, including this one.”_
 
@@ -67,7 +72,9 @@ My new approach is to treat them as tools more so than anything else: suggestion
 
 In the same way that there is no universal wrench that can be used for everything, there is no universal mantra that can be applied at all points in time. It’s very circumstantial, time-sensitive and likely biased by recent events or experiences in one’s life. Personally, I’ve found that the exact same person saying the exact same thing had profoundly different effects on how I internalized it at different points in my life.
 
-As we grow older, more mature and experienced, the number of tools we have in our shed grows. When life throws something at us, we have a wider selection of tools to deal with it. **We become less reliant on rules and instructions, but offload more to our gut and intuition.** As Picasso said: “_Learn the rules like a pro, so you can break them like an artist.”_
+As we grow older, more mature and experienced, the number of tools we have in our shed grows. When life throws something at us, we have a wider selection of tools to deal with it. **We become less reliant on rules and instructions, but offload more to our gut and intuition.** As Picasso said: "_Learn the rules like a pro, so you can break them like an artist."_
+
+![Visual representation of a toolshed filled with various tools representing different mantras and approaches to life](/images/posts/every-mantra-has-a-counter-mantra-image-01.png)
 
 # For every Mantra, there is an equal and opposite Counter-Mantra
 
@@ -79,7 +86,9 @@ Though he was primarily referring to forces on physical bodies in space, I’d a
 
 There will always be stressors coming from all directions. One will always sway too much to the left or right at different points in time. Perfect balance will never be found. True calm is momentary.
 
-Every mantra on one side will find an equal and opposite counter-mantra on the other side. The tools we have around not about finding balance but maintaining it. The more we have, the easier it’ll be.
+Every mantra on one side will find an equal and opposite counter-mantra on the other side. The tools we have around not about finding balance but maintaining it. The more we have, the easier it'll be.
+
+![Newton's third law animation demonstrating equal and opposite reactions](/images/posts/every-mantra-has-a-counter-mantra-image-02.gif)
 
 # Concluding Thoughts
 
@@ -87,9 +96,11 @@ Every mantra on one side will find an equal and opposite counter-mantra on the o
 
 Add the tool to your toolshed and use it at the *“right” *time, for yourself, taking all external and internal factors into consideration. This last part is _“easier said than done”_, so it’s a classic _“do as I say, not as I do”_ sort of situation.
 
-Lastly, take everything I said here with a grain of 🧂. I’m just a dude in his early 30s who makes 🍆 jokes with his friends who think they have life figured out.
+Lastly, take everything I said here with a grain of 🧂. I'm just a dude in his early 30s who makes 🍆 jokes with his friends who think they have life figured out.
 
-## The conversation that inspired this post.
+![Screenshot of a conversation that inspired this post about mantras and counter-mantras](/images/posts/every-mantra-has-a-counter-mantra-image-03.jpg)
+
+The conversation that inspired this post.
 
 # Appendix
 
