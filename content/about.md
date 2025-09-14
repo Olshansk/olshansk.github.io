@@ -4,7 +4,7 @@ description = "About me"
 date = "2025-09-13"
 aliases = ["about-us", "contact"]
 author = "Daniel Olshansky"
-ShowToc = false
+ShowToc = true
 +++
 
 ## Hey, I’m Daniel, and I usually go by Olshansky

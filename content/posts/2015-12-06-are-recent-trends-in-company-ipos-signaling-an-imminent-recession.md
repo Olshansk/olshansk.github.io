@@ -1,0 +1,71 @@
+---
+title: "Are recent trends in company IPOs signaling an imminent recession?"
+date: 2015-12-06T19:37:02-07:00
+draft: false
+description: "Commodities are tanking, the fed is still contemplating an increase in interest rates, and several countries are either in or on the verge…"
+tags: ['recent', 'trends']
+categories: ['machine-learning', 'business']
+medium_url: "https://medium.com/@olshansky/are-recent-trends-in-company-ipos-signaling-an-imminent-recession-7366d99a3246"
+ShowToc: true
+TocOpen: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+---
+
+## Are recent trends in company IPOs signaling an imminent recession?
+
+Commodities are tanking, the fed is still contemplating an increase in interest rates, and several countries are either in or on the verge of entering a recession. Over the past 7 years, a lot of cash has been injected into the US economy through quantitative easing, accompanied by very little inflation. All factors considered it’s difficult to determine where the economy is headed in the near future. Is the bull still raging? Is the US economy on the brink of another recession? Will the bear slowly creep up and take over?
+
+Having recently read the revised version of The Intelligent Investor, the following excerpt from the Appendix, originally taken from the case study [_How to Avoid Losses Buying IPO Stocks_](https://books.google.com/books?id=pvrwCQAAQBAJ&lpg=PT5&ots=N88GPGg1Tz&dq=market%20was%20so%20dead%20that%20only%20nine%20new%20stocks%20were%20created%20all%20year&pg=PP1#v=onepage&q&f=false) __ by _Buddy Setianto_ , caught my eye:
+
+> “In the two years from June 1960, through May 1962, more than 850 companies sold their stock to the public for the first time — an average of more than one per day. In late 1967 the IPO market heated up again; in 1969 an astonishing 781 new stocks were born. That oversupply helped create the bear markets of 1969 and 1973–1974. In 1974 the IPO market was so dead that only nine new stocks were created all year; 1975 saw only 14 stocks born. That undersupply, in turn, helped feed the bull market of the 1980s, when roughly 4,000 new stocks flooded the market — helping to trigger the over-enthusiasm that led to the 1987 crash. Then the cycle swung the other way again as IPOs dried up in 1988–1990. That shortage contributed to the bull market of the 1990s — and, right on cue, Wall Street got back into the business of creating new stocks, cranking out nearly 5,000 IPOs. Then, after the bubble burst in 2000, only 88 IPOs were issued in 2001 — the lowest annual total since 1979. In every case, the public has gotten burned on IPOs, has stayed away for at least two years[…]”
+
+A company’s purpose for going public is usually to maximize shareholder value, provide shareholders with liquidity, as well as raise capital to fund existing and future operations or acquisitions. What better time to do so than at the peak of a bull market when everything is overpriced? While there is some truth to that statement, it’s not always in the company’s or shareholders best interest for the IPO to be priced at the highest possible price. Most recently, Square Inc was priced at a significantly lower evaluation than their latest funding rounds, and there were both [Winners and Losers](http://www.forbes.com/sites/ryanmac/2015/11/19/the-winners-and-losers-of-the-square-ipo/) as a result of the decision to do so. Personally, I also believe that if a company IPOs at a price that’s too high, it will most likely drop in the short-term regardless of how well things are going, which would introduce an onslaught of negative stigma.
+
+There have been plenty of IPOs since The Great Recession, including some high profile tech companies such as Facebook, Twitter, Box, Fitbit, GoPro, Alibaba, Zynga, Hortonworks, GoDaddy, LendingClub and GrubHub. While this is a very biased sample of companies that first popped to mind, I noticed an immediate pattern. With the exception of GoDaddy and Facebook, the valuation of all the other companies is either unchanged or below their initial public offering.
+
+This observation does not necessarily mean that the company’s fundamentals have deteriorated, but it could mean that the market’s outlook for the company’s future has dwindled, or that Mr. Market plays a larger role than anticipated when a company first goes public. As stated by [Jason Zweig](https://twitter.com/jasonzweigwsj), in a very satirical manner,
+
+> IPO does not stand only for “initial public offering.” More accurately, it is also shorthand for: It’s Probably Overpriced, Imaginary Profits Only, Insiders’ Private Opportunity, or Idiotic, Preposterous, and Outrageous.
+
+> \- Jason Zweig. The Intelligent Investor Revised Edition [Chapter 6 Commentary].
+
+With the observation made above, and the turmoil concerning the future of both the US and global economy, I decided to investigate whether recent trends in IPO growth and performance are signaling an oncoming recession, stagnation or steady growth.
+
+A couple months ago, the [WSJ reported](http://link.crunchbase.com/click/5125899.209986/aHR0cDovL2Jsb2dzLndzai5jb20vZGlnaXRzLzIwMTUvMDkvMTAvdGVjaC1ib29tLW5vdC1pbi10aGUtaXBvLW1hcmtldC8_dXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwmdXRtX3NvdXJjZT1jYl9kYWlseQ/55e3fa4017893f4b358b4d7eB37abf92b) that tech companies only represented 11% of all U.S. IPOs this year, nearly matching the previous low since 2008. While there are still some big tech IPOs up ahead, including Atlassian and Uber, the market for fresh tech companies on the market is definitely contracting.
+
+![](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-01.png)Percentage of Tech IPOs as a fraction of total IPOs according to Renaissance Capital IPO Center. <http://www.renaissancecapital.com/ipohome/press/ipoindustryhistory.aspx>
+
+Tech companies have arguably been more volatile and take longer to produce profits than companies in more traditional industries, meaning that an increase in tech IPOs could be expected in bull markets, when there is no lack of spendthrifts. This is however not a very well founded argument, and it’s unfair to isolate just the tech community when evaluating overall trends in IPOs.
+
+[Renaissance Capital reported](http://www.renaissancecapital.com/news/renaissance-capitals-3q-2015-quarterly-us-ipo-market-review-35621.html) that in Q3 US IPOs were down 43% YOY, many IPOs were pulled back or delayed due to market conditions, and for the first time since 2011, average IPO returns were negative. This follows a Q1 that hit a [two-year low](http://www.renaissancecapital.com/news/us-ipo-market-takes-off-again-in-the-second-quarter:-renaissance-capitals-2q-2015-review-33286.html) in terms of the number of IPOs, and a Q2 that only showed mild recovery.
+
+![](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-02.png)Total number of IPOs per year according to Renaissance Capital IPO Center. Source: <http://www.renaissancecapital.com/ipohome/press/ipoindustryhistory.aspx>
+
+With the holidays approaching, and only a brief time left before the end of the year, it is unlikely that the number of IPOs for 2015 will catch up to levels from the prior two years. This will be the greatest drop in IPO numbers since The Great Recession.
+
+Since the information above was very limited and inconclusive, I decided to continue my investigation and determine whether companies that IPOed in the midst of a bull market were overpriced and ultimately underperformed companies that IPOed during a bear market. The data set is limited to the last decade so as to limit the scope of the analysis, keep the data relatively recent, and avoid the ridiculousness that took place during the dot-com bubble.
+
+_It’s important to note that the charts below do not reflect total shareholder return; dividends paid out are not accounted for. The charts only represent the change in the company’s stock price, adjusted for stock splits and_[ _inflation rates_](http://www.usinflationcalculator.com/inflation/historical-inflation-rates/) _._
+
+![](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-03.png) Average % change in stock price between close on day of IPO and November 27th, 2015. Adjusted for inflation and splits. Data source: Yahoo finance.
+
+It’s quite evident and expected that any company going public immediately after the crash was probably undervalued, which explains the spike around the end of 2008. On either side of that spike, average returns are quite volatile and indistinguishable from each other. This pattern dies off around the beginning of 2013 for one of two reasons: 1. Companies that IPOed so recently haven’t had enough time to grow yet. 2. Companies that IPOed so recently were overvalued to start with, so any growth or improvement in the company’s efficiency only fulfills the company’s previous evaluation rather than raising it.
+
+To validate whether point #1 was the cause of the trailing tail, I calculated the average % change in stock price between the close on the date of the IPO, and the close on the first trading day exactly one year later. There’s a lot of craziness here: Inconsistent growth prior to 2007, a huge drop in 2008, a huge spike in 2009, the small dip of 2011, growth in 2012–2013 and stagnation over the last couple years.
+
+![](/images/posts/2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession-image-04.png)Average % change in stock price between close on day of IPO and on the first trading day a year after the IPO. Adjusted for inflation and splits. Data source: Yahoo finance.
+
+All in all, it’s difficult to discern a pattern or predict what’s going to happen. It seems that we’ll be seeing less IPOs in the coming years, so IPO cancelations or delays are likely to become more common, which could be a signal of a recession or a bearish market. It’s also possible that companies going public in the near future will have to deal with short-term drops in their stock price, but such effects of the market or the economy subside as long as the company’s fundamentals remain strong.
+
+The most interesting key takeaway is that IPO numbers are definitely decreased, along with the returns on new public companies. With that said, let me leave you with one more quote by the infamous Warren Buffet:
+
+> It’s almost a mathematical impossibility to imagine that, out of the thousands of things for sale on a given day, the most attractively priced is the one being sold by a knowledgeable seller (company insiders) to a less-knowledgeable buyer (investors).
+
+> \- Warren Buffet
+
+The scripts I used to collect the data for the last two graphs can be accessed [here](https://github.com/Olshansk/ipo_data_analysis).
+
+I omitted about 20 companies from the graphs above that experienced growth exceeding 1000% since the day of their IPO, adjusted for splits and inflation. In case you’re curious, here they are: PARR, ANAC, BIDU, CBPO, HGSH, HTWR, TREE, NVCN, PRFZ, PTCT, RTRX, STRZA, STRZB, VRTS, CVE, CF, MA, TDG, UA, VIPS.
