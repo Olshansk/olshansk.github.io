@@ -3,7 +3,8 @@ title: "Escaping Backticks in your LLM System Prompt"
 date: 2025-05-06T20:12:32-07:00
 draft: false
 categories: ["Technology"]
-summary: "tl;dr If you ever write documentation, add this to your LLM’s memory, system prompt, project, rules or whatever your equivalent of that is."
+summary: "tl;dr If you ever write documentation, add this to your LLM's memory, system prompt, project, rules or whatever your equivalent of that is."
+medium_url: "https://medium.com/@olshansky/escaping-backticks-in-your-llm-system-prompt-6507a25b7bc8"
 ---
 
 ### Escaping Backticks in your LLM System Prompt

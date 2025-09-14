@@ -5,6 +5,7 @@ draft: false
 tags: ["grove", "ai", "shannon"]
 categories: ["Technology", "AI", "Pocket Network"]
 summary: "tl;dr Teams should build their own LLM tooling, starting with GitHub PR Description generators."
+medium_url: "https://medium.com/@olshansky/groveai-1-generating-github-pr-descriptions-as-a-team-9566273a7a80"
 ---
 
 ### GroveAI #1: Generating GitHub PR Descriptions as a Team

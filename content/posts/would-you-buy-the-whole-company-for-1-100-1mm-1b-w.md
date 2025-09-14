@@ -5,6 +5,7 @@ draft: false
 tags: ["ai"]
 categories: ["Technology", "AI"]
 summary: "For lack of a better word, 2020 has been very interesting for financial markets. Volatility hit all-time highs, some fortunes were wiped…"
+medium_url: "https://medium.com/@olshansky/would-you-buy-the-whole-company-for-1-100-1mm-1b-why-price-matters-8a085155ec14"
 ---
 
 ### Would you buy the whole company for $1? $100? $1MM? $1B? Why price matters.

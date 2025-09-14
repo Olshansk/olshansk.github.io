@@ -4,7 +4,8 @@ date: 2025-02-03T19:09:28-07:00
 draft: false
 tags: ["pocket-network", "grove", "ai", "shannon"]
 categories: ["Technology", "AI", "Blockchain"]
-summary: "👋 If you’re not ready to spend ~10 minutes reading, I suggest you bookmark this post and return to it later. You won’t regret it. It’s…"
+summary: "👋 If you're not ready to spend ~10 minutes reading, I suggest you bookmark this post and return to it later. You won't regret it. It's…"
+medium_url: "https://medium.com/@olshansky/an-update-from-grove-on-shannon-beta-testnet-path-the-past-the-future-5bf7ec2a9acf"
 ---
 
 ### An update from Grove on Shannon Beta TestNet, PATH, the Past & the Future

@@ -5,6 +5,7 @@ draft: false
 tags: ["homomorphic", "crypto", "ai", "encryption"]
 categories: ["Cryptography", "Technology", "Security"]
 summary: "Baking bread by reading & following the recipe VS Baking bread without ever seeing the recipe"
+medium_url: "https://medium.com/@olshansky/explaining-fully-homomorphic-encryption-to-my-mom-c14ebb724910"
 ---
 
 ### Explaining Fully Homomorphic Encryption to my Mom

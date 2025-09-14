@@ -2,9 +2,11 @@
 title: "A Boring but Practical 10-Step Guide to Data Labeling & Evaluation"
 date: 2025-03-03T01:42:57-07:00
 draft: false
-tags: ["ai"]
+tags: ["ai", "data-science", "machine-learning"]
 categories: ["Technology", "AI"]
 summary: "Below is a very terse and opinionated set of steps to data labeling and model evaluation."
+medium_url: "https://medium.com/@olshansky/the-unsexy-truth-a-10-step-guide-to-data-labeling-that-actually-works-47f75828fd16"
+ShowToc: true
 ---
 
 ### A Boring but Practical 10-Step Guide to Data Labeling & Evaluation
@@ -43,4 +45,12 @@ You might be wondering [who I am](https://olshansky.info/) and why I’m writing
 - **Labeler Scoring**: Compare the crowd labels to the golden dataset; grade each labeler’s [precision and recall](https://en.wikipedia.org/wiki/Precision_and_recall).
 - **Weighted Integration**: Develop an internal, proprietary metric and discard labels that fall below a quality threshold.
 - **Embrace the Boredom**: Acknowledge repetitive, unglamorous work and the absence of a perfect ground truth.
-- **Repeat the Cycle**: Keep looping until the model behaves “good enough.”
+- **Repeat the Cycle**: Keep looping until the model behaves "good enough."
+
+## Conclusion
+
+Nothing here is ground breaking and companies like [Scale AI](https://scale.com/) are heavily leaning in this direction. I wouldn't be surprised if we'll see a marketplace of small but very expensive labeled data sets in the near future.
+
+In the meantime, I hope this helped!
+
+*[Note: Original post contained an AI-generated image here]*

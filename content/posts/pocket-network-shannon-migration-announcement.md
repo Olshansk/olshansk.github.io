@@ -5,6 +5,7 @@ draft: false
 tags: ["pocket-network", "grove", "ai", "shannon"]
 categories: ["Technology", "AI", "Blockchain"]
 summary: "Pocket Network will undergo a major, consensus-breaking, non-backwards-compatible migration from Morse to Shannon before the end of Q2."
+medium_url: "https://medium.com/@olshansky/pocket-network-shannon-migration-announcement-139c25e4166c"
 ---
 
 ### Pocket Network Shannon Migration Announcement

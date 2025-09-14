@@ -2,9 +2,11 @@
 title: "7 Pocket Network Analogies"
 date: 2024-10-22T14:40:47-07:00
 draft: false
-tags: ["google", "encryption", "grove", "crypto", "ai"]
+tags: ["blockchain", "pocket-network", "web3", "analogies", "networking"]
 categories: ["Blockchain", "Pocket Network", "Products"]
 summary: "tl;dr Explaining what Pocket Network is through a series of 7 internet networking analogies. Subscribe if you want to be notified of when…"
+medium_url: "https://medium.com/@olshansky/7-pocket-network-analogies-14aecd8086ed"
+ShowToc: true
 ---
 
 ### 7 Pocket Network Analogies

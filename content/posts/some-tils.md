@@ -4,7 +4,8 @@ date: 2024-12-22T05:21:16-07:00
 draft: false
 tags: ["python", "crypto", "ai", "data-science"]
 categories: ["Programming", "Data Science", "Technology"]
-summary: "1. Ulysses pact: a freely made decision to bind yourself in the future. Used for “living wills” in modern day but originated from Greek…"
+summary: "1. Ulysses pact: a freely made decision to bind yourself in the future. Used for "living wills" in modern day but originated from Greek…"
+medium_url: "https://medium.com/@olshansky/some-tils-b25f8fe535ed"
 ---
 
 **Some TILs:**

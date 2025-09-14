@@ -4,7 +4,8 @@ date: 2025-03-08T23:27:05-07:00
 draft: false
 tags: ["crypto"]
 categories: ["Technology", "Cryptocurrency"]
-summary: "I recently gave a talk at dinfra.xyz, a side event hosted by 1kx.capital alongside Denver’s annual ETHDenver conference."
+summary: "I recently gave a talk at dinfra.xyz, a side event hosted by 1kx.capital alongside Denver's annual ETHDenver conference."
+medium_url: "https://medium.com/@olshansky/gate-gateway-abstraction-technical-elements-annotated-presentation-2c1ee2e27373"
 ---
 
 ### **GATE**: Gateway Abstraction Technical Elements — Annotated Presentation

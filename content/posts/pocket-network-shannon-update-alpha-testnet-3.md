@@ -5,6 +5,7 @@ draft: false
 tags: ["docker", "google", "grove", "ai", "shannon"]
 categories: ["DevOps", "Blockchain", "Pocket Network"]
 summary: "Enable Gateways by streamlining access to a decentralized supply network 🌿"
+medium_url: "https://medium.com/@olshansky/pocket-network-shannon-update-alpha-testnet-3-eca539a9e111"
 ---
 
 ### Pocket Network Shannon Update — Alpha TestNet #3

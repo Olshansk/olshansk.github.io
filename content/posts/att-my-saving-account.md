@@ -4,7 +4,8 @@ date: 2021-02-20T17:28:16-07:00
 draft: false
 tags: ["ai"]
 categories: ["Technology", "AI"]
-summary: "On the most recent episode of The Investor’s Podcast Mastermind Discussion, one of the big topics of discussion were cash alternatives."
+summary: "On the most recent episode of The Investor's Podcast Mastermind Discussion, one of the big topics of discussion were cash alternatives."
+medium_url: "https://medium.com/@olshansky/at-t-my-saving-account-3eb035299098"
 ---
 
 ### AT&T — My Saving Account
