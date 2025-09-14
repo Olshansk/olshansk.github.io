@@ -1,0 +1,46 @@
+title,source,export_has_images,export_image_count,site_has_images,site_image_count,status,markdown_file
+5P;1R — Bitcoin’s Elliptic Curve Cryptography,Medium,YES,2,YES,2,HAS_IMAGES,2022-04-23-5p1r-bitcoins-elliptic-curve-cryptography.md
+Are recent trends in company IPOs signaling an imminent recession?,Medium,YES,4,YES,4,HAS_IMAGES,2015-12-06-are-recent-trends-in-company-ipos-signaling-an-imminent-recession.md
+Bill Nye vs Ken Ham: neither or both?,Medium,YES,1,YES,1,HAS_IMAGES,2014-02-06-bill-nye-vs-ken-ham-neither-or-both.md
+"Bitcoin’s price isn’t a bubble, it’s an adoption curve",Medium,YES,3,YES,3,HAS_IMAGES,2017-12-27-bitcoin-adoption-curve-not-bubble.md
+Canadian Real Estate or American Stock?,Medium,YES,20,YES,20,HAS_IMAGES,2015-05-26-canadian-real-estate-or-american-stock.md
+Cryptocurrencies: It’s all about incentive,Medium,YES,1,YES,1,HAS_IMAGES,2017-07-23-cryptocurrencies-all-about-incentive.md
+Experience vs Theory: Lake Tahoe Edition,Medium,YES,1,YES,1,HAS_IMAGES,2021-10-17-experience-vs-theory-lake-tahoe-edition.md
+How a Web2 Company Uses Crypto to Power Open Data APIs,Medium,YES,5,YES,5,HAS_IMAGES,2025-08-22-how-a-web2-company-uses-crypto-to-power-open-data-apis.md
+Python 3.9 StatsProfile — My first OSS Contribution to cPython,Medium,YES,2,YES,2,HAS_IMAGES,2020-02-17-python-statsprofile-cpython-contribution.md
+5P1R Stackr Micro Rollups,Substack,YES,2,NO,0,MISSING_IMAGES,5p1r-stackr-micro-rollups.md
+5P;1R Jellyfish Merkle Tree,Medium,YES,6,NO,0,MISSING_IMAGES,5p1r-jellyfish-merkle-tree.md
+5P;1R — Celestia (LazyLedger) White Paper,Medium,YES,2,NO,0,MISSING_IMAGES,5p1r-celestia-lazyledger-white-paper.md
+5P;1R — Ethereum’s Modified Merkle Patricia Trie,Medium,YES,2,NO,0,MISSING_IMAGES,5p1r-ethereums-modified-merkle-patricia-trie.md
+7 Pocket Network Analogies,Medium,YES,12,NO,0,MISSING_IMAGES,7-pocket-network-analogies.md
+A Boring but Practical 10-Step Guide to Data Labeling &amp; Evaluation,Medium,YES,1,NO,0,MISSING_IMAGES,a-boring-but-practical-10-step-guide-to-data-label.md
+A Life Changing Trip To Mexico On,Substack,YES,3,NO,0,MISSING_IMAGES,a-life-changing-trip-to-mexico-on-the-day-of-the-dead.md
+AT&amp;T — My Saving Account,Medium,YES,1,NO,0,MISSING_IMAGES,att-my-saving-account.md
+An Incentive to Label,Medium,YES,8,NO,0,MISSING_IMAGES,an-incentive-to-label.md
+"An update from Grove on Shannon Beta TestNet, PATH, the Past &amp; the Future",Medium,YES,6,NO,0,MISSING_IMAGES,an-update-from-grove-on-shannon-beta-testnet-path.md
+Code Reviews Come In All Shapes And,Substack,YES,2,NO,0,MISSING_IMAGES,code-reviews-come-in-all-shapes-sizes.md
+Creative Copay Coupons,Substack,YES,2,NO,0,MISSING_IMAGES,creative-copay-coupons.md
+Data Science for Software Engineers — Joint Probability Matrices,Medium,YES,7,NO,0,MISSING_IMAGES,data-science-for-software-engineers-joint-probabil.md
+Escaping Backticks in your LLM System Prompt,Medium,YES,3,NO,0,MISSING_IMAGES,escaping-backticks-in-your-llm-system-prompt.md
+GATE: Gateway Abstraction Technical Elements — Annotated Presentation,Medium,YES,21,NO,0,MISSING_IMAGES,gate-gateway-abstraction-technical-elements-annota.md
+Gateway Abstraction,Substack,YES,2,NO,0,MISSING_IMAGES,gate-gateway-abstraction-technical-elements-annota.md
+"Google Home — “Sorry, there was a glitch”",Medium,YES,3,NO,0,MISSING_IMAGES,google-home-sorry-there-was-a-glitch.md
+GroveAI #1: Generating GitHub PR Descriptions as a Team,Medium,YES,4,NO,0,MISSING_IMAGES,groveai-1-generating-github-pr-descriptions-as-a-t.md
+Help A Family Create A Memory,Substack,YES,2,NO,0,MISSING_IMAGES,help-a-family-create-a-memory.md
+Hot Reloading with Local Docker Development,Medium,YES,1,NO,0,MISSING_IMAGES,hot-reloading-with-local-docker-development.md
+How You Should End Every Claude Project Conversation,Medium,YES,1,NO,0,MISSING_IMAGES,how-you-should-end-every-claude-project-conversati.md
+My Top X 2024 Recommendations,Substack,YES,2,NO,0,MISSING_IMAGES,my-top-x-2024-recommendations.md
+Pocket Network Shannon Migration Announcement,Medium,YES,3,NO,0,MISSING_IMAGES,pocket-network-shannon-migration-announcement.md
+Pocket Network Shannon Update — Alpha TestNet #3,Medium,YES,2,NO,0,MISSING_IMAGES,pocket-network-shannon-update-alpha-testnet-3.md
+Pocket Network — Shannon State Shift Day,Medium,YES,3,NO,0,MISSING_IMAGES,pocket-network-shannon-state-shift-day.md
+Prompt Writer: The single most important Claude Code agent you’ll have.,Medium,YES,2,NO,0,MISSING_IMAGES,2025-03-10-this-post-convinced-me-to-go-down-the-claude-code-learning-curve.md
+Stream Of Thought Note Taking,Substack,YES,2,NO,0,MISSING_IMAGES,stream-of-thought-note-taking.md
+The Graph LA Fitness Doesn’t Want You To See,Medium,YES,2,NO,0,MISSING_IMAGES,2017-06-11-i-like-the-price-ceiling-and-floor-approach-but-see-two-issues-with-it.md
+Use Git LFS on Github Carefully,Medium,YES,2,NO,0,MISSING_IMAGES,no-rss-feed-no-problem-using-claude-sync-claude-projects-and-github-copilot-workspace-to-automate-everything.md
+tl;dr,Medium,YES,9,NO,0,MISSING_IMAGES,tldr-use-anrok-for-a-solution-to-global-sales-tax.md
+Explaining Fully Homomorphic Encryption to My mom,Medium,YES,3,YES,2,PARTIAL_IMAGES,explaining-fully-homomorphic-encryption-to-my-mom.md
+A week of bugs,Medium,YES,2,NO,0,POST_NOT_FOUND,NOT_FOUND
+Chatgpt And Schools,Substack,YES,2,NO,0,POST_NOT_FOUND,NOT_FOUND
+Day And Night Switch,Medium,YES,1,NO,0,POST_NOT_FOUND,NOT_FOUND
+Hands on with Perplexity Deep Research,Medium,YES,1,NO,0,POST_NOT_FOUND,NOT_FOUND
+Time Boxing Engineers,Substack,YES,3,NO,0,POST_NOT_FOUND,NOT_FOUND
