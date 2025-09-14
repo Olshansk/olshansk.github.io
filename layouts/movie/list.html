@@ -1,0 +1,91 @@
+{{- define "main" }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{ .Content }}
+</div>
+{{- end }}
+
+{{- $paginator := .Paginate .RegularPages }}
+
+{{- if (and (.Title)) }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- if $paginator.Pages }}
+
+<main class="main">
+
+{{- $currentYear := "" }}
+{{- range $index, $page := $paginator.Pages }}
+
+{{- $year := $page.Date.Format "2006" }}
+{{- if ne $year $currentYear }}
+  {{- $currentYear = $year }}
+
+  {{- if ne $index 0 }}
+  </div> <!-- Close previous year section -->
+  {{- end }}
+
+  <div class="year-section">
+    <div class="year-header">
+      <h2 class="year-title">{{ $year }}</h2>
+    </div>
+{{- end }}
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>
+      <a href="{{ $page.Permalink }}" aria-label="{{ $page.Title | plainify }}">{{ $page.Title }}</a>
+    </h2>
+  </header>
+  {{- if (not ($page.Param "hideSummary")) }}
+  <div class="entry-content">
+    <p>{{ $page.Summary | plainify | htmlUnescape }}{{ if $page.Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+  {{- if not ($page.Param "hideMeta") }}
+  <footer class="entry-footer">
+    <span>{{ $page.Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</span>
+    {{- if $page.ReadingTime }}
+    <span>&nbsp;·&nbsp;{{ $page.ReadingTime }} min read</span>
+    {{- end }}
+    {{- if .Site.Params.ShowWordCount }}
+    <span>&nbsp;·&nbsp;{{ $page.WordCount }} words</span>
+    {{- end }}
+  </footer>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ $page.Title | plainify }}" href="{{ $page.Permalink }}"></a>
+</article>
+
+{{- end }}
+
+{{- if gt (len $paginator.Pages) 0 }}
+</div> <!-- Close final year section -->
+{{- end }}
+
+</main>
+
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}{{/* end main */}}
