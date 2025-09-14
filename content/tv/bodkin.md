@@ -1,7 +1,7 @@
 +++
 
 author = "Daniel Olshansky"
-title = "Bodkin (Limited Series): (2.5/5)"
+title = "Bodkin (Limited Series)"
 date = "2025-03-03T09:47:17.547000"
 description = "Olshansky's review of Bodkin (Limited Series)"
 tags = [

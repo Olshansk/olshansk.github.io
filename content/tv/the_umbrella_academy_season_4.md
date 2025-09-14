@@ -1,7 +1,7 @@
 +++
 
 author = "Daniel Olshansky"
-title = "The Umbrella Academy (Season 4): Not the best but for the fans (4/5)"
+title = "The Umbrella Academy (Season 4): Not the best but for the fans"
 date = "2024-11-25T09:47:17.547000"
 description = "Olshansky's review of The Umbrella Academy: Season 4"
 tags = [

@@ -1,6 +1,6 @@
 +++
 author = "Daniel Olshansky"
-title = "Queenpins: Entertaining and Surprisingly Informative (4/5)"
+title = "Queenpins: Entertaining and Surprisingly Informative"
 date = "2024-11-30T00:00:00"
 rating = "⭐⭐⭐⭐"
 

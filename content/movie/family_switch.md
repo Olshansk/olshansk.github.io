@@ -1,6 +1,6 @@
 +++
 author = "Daniel Olshansky"
-title = "Family Switch: A new and fun cast for a classic old story (3/5)"
+title = "Family Switch: A new and fun cast for a classic old story"
 date = "2024-12-07T00:00:00"
 rating = "⭐⭐⭐"
 

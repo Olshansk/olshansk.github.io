@@ -1,7 +1,7 @@
 +++
 
 author = "Daniel Olshansky"
-title = "Black Doves (Limited Series): A dovish review during a red Christmas (4.5/5)"
+title = "Black Doves (Limited Series): A dovish review during a red Christmas"
 date = "2024-12-19T09:47:17.547000"
 description = "Olshansky's review of Black Doves (Limited Series)"
 tags = [

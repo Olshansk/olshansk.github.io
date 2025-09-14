@@ -1,9 +1,9 @@
 +++
 
 author = "Daniel Olshansky"
-title = "The Lazarus Project: Season1 & 2"
+title = "The Lazarus Project: Seasons 1 & 2"
 date = "2025-08-28T20:34:28.748000"
-description = "Olshansky's review of The Lazarus Project: Season1 & 2"
+description = "Olshansky's review of The Lazarus Project: Seasons 1 & 2"
 tags = [
     "tv",
 ]
@@ -23,4 +23,3 @@ The take on "groundhog day" was unlike I've seen before, and I could literally f
 
 Season 2 ended on a cliffhanger because they were expecting a Season 3, but somehow, I'm still not mad.
 It was two seasons of amazing, refreshing original content.
-

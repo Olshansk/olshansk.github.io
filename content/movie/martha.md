@@ -1,6 +1,6 @@
 +++
 author = "Daniel Olshansky"
-title = "Martha: A hard-working perfectionist who got really unlucky (4/5)"
+title = "Martha: A hard-working perfectionist who got really unlucky"
 date = "2025-01-05T00:00:00"
 rating = "⭐⭐⭐⭐"
 

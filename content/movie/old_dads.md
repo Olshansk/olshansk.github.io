@@ -1,6 +1,6 @@
 +++
 author = "Daniel Olshansky"
-title = "Old Dads: Not an Old Movie, but it's good those good ol' vibes (3.5/5)"
+title = "Old Dads: Not an Old Movie, but it's good those good ol' vibes"
 date = "2024-11-28T00:00:00"
 rating = "⭐⭐⭐🌟"
 
