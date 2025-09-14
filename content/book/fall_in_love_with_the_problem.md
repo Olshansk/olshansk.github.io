@@ -1,6 +1,6 @@
 +++
 author = "Daniel Olshansky"
-title = "Fall in Love with the Problem, Not the Solution (5/5)"
+title = "Fall in Love with the Problem, Not the Solution"
 date = "2024-09-01T00:00:00.000000"
 description = "Olshansky's review of Fall in Love with the Problem, Not the Solution"
 tags = [
