@@ -1,0 +1,5 @@
+post_id,timestamp,email,post_type,post_audience,active_subscription
+44684779,2021-11-29T16:04:55.584Z,zomgtacoliscious@gmail.com,newsletter,everyone,true
+44684779,2021-11-29T16:04:55.956Z,david810@gmail.com,newsletter,everyone,true
+44684779,2021-11-29T16:04:55.974Z,olshansky.daniel@gmail.com,newsletter,everyone,false
+44684779,2021-11-29T16:04:56.199Z,tom.lesch99@gmail.com,newsletter,everyone,true

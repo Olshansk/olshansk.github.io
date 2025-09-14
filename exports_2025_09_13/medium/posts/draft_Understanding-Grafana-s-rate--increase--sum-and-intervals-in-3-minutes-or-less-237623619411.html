@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Understanding Grafana’s rate, increase, sum and intervals in 3 minutes or less</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Understanding Grafana’s rate, increase, sum and intervals in 3 minutes or less</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+tl;dr
+</section>
+<section data-field="body" class="e-content">
+<section name="7dd7" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="7c48" id="7c48" class="graf graf--h3 graf--leading graf--title">Understanding Grafana’s rate, increase, sum and intervals in 3 minutes or less</h3><h3 name="64f3" id="64f3" class="graf graf--h3 graf-after--h3">tl;dr</h3><ul class="postList"><li name="7ace" id="7ace" class="graf graf--li graf-after--h3">Use <code class="markup--code markup--li-code">rate</code> when measuring <code class="markup--code markup--li-code">reuests-per-second</code> </li><li name="08c6" id="08c6" class="graf graf--li graf-after--li">Use <code class="markup--code markup--li-code">increase</code></li></ul><h3 name="cff4" id="cff4" class="graf graf--h3 graf-after--li"><strong class="markup--strong markup--h3-strong">tips</strong></h3><ul class="postList"><li name="e597" id="e597" class="graf graf--li graf-after--h3"><strong class="markup--strong markup--li-strong">Always use</strong> an explicit time interval to reduce ambiguity of how you’re measuring things <code class="markup--code markup--li-code">[10m]</code></li><li name="b59b" id="b59b" class="graf graf--li graf-after--li">Avoid using <code class="markup--code markup--li-code">$__rate_interval </code>Avoid using this in production dashboards. It can mislead you unless you know what’s happening</li><li name="6818" id="6818" class="graf graf--li graf-after--li"><code class="markup--code markup--li-code">AAvoid </code></li><li name="fdd1" id="fdd1" class="graf graf--li graf-after--li graf--trailing">You need to add guards </li></ul></div></div></section><section name="9586" class="section section--body"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="79fc" id="79fc" class="graf graf--p graf--leading">If you’ve ever set up queries in Grafana using VictoriaMetrics, you’ve probably seen things like:</p><ul class="postList"><li name="5c70" id="5c70" class="graf graf--li graf-after--p"><code class="markup--code markup--li-code">rate(...)</code></li><li name="2d28" id="2d28" class="graf graf--li graf-after--li"><code class="markup--code markup--li-code">increase(...)</code></li><li name="2080" id="2080" class="graf graf--li graf-after--li"><code class="markup--code markup--li-code">sum(rate(...)</code></li><li name="439b" id="439b" class="graf graf--li graf-after--li"><code class="markup--code markup--li-code">`…[$__rate_interval]…</code></li></ul><p name="2f65" id="2f65" class="graf graf--p graf-after--li">I never put the mental effort to truly understand them and somehow managed for years, primarily relying on our DevOps engineer(s) to setup the dashboards.</p><p name="7f7a" id="7f7a" class="graf graf--p graf-after--p">When ChatGPT came out, it becamse dangerous since I could trial and error things until they looked correct.</p><p name="082a" id="082a" class="graf graf--p graf-after--p graf--trailing">The time has come to flex my brain and really understand what I’m doing and why. This is going to be a non-exhaustive and optionated reference for my past and future self.</p></div></div></section><section name="6808" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="7c85" id="7c85" class="graf graf--h3 graf--leading">rate() — line charts</h3><p name="355e" id="355e" class="graf graf--p graf-after--h3"><strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">tl;dr</em></strong><em class="markup--em markup--p-em"> Use for average request-per-second over the last N minutes.</em></p><ul class="postList"><li name="ea02" id="ea02" class="graf graf--li graf-after--p">rate(my_metric_total[5m]) = “per second average increase over the last 5 minutes.”</li><li name="5647" id="5647" class="graf graf--li graf-after--li">Use for line charts</li></ul><h3 name="1696" id="1696" class="graf graf--h3 graf-after--li">increase() — histograms</h3><p name="4973" id="4973" class="graf graf--p graf-after--h3"><strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">tl;dr</em></strong><em class="markup--em markup--p-em"> Use for total counts-per-window where a window is N minutes</em></p><ul class="postList"><li name="092a" id="092a" class="graf graf--li graf-after--p">increase(my_metric_total[5m]) = “total increase over the last 5 minutes.”</li><li name="7c04" id="7c04" class="graf graf--li graf-after--li">If your counter went from 100 → 160 in that window, increase = 60.</li><li name="bfae" id="bfae" class="graf graf--li graf-after--li">Use for historgrams</li><li name="a030" id="a030" class="graf graf--li graf-after--li">increase(X[W]) ≈ rate(X[W]) * W_seconds</li></ul><h3 name="5f8d" id="5f8d" class="graf graf--h3 graf-after--li">sum() — areas charts</h3><p name="3a78" id="3a78" class="graf graf--p graf-after--h3"><strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">tl;dr</em></strong><em class="markup--em markup--p-em"> Use for total counts-per-window where a window is N minutes</em></p><ul class="postList"><li name="4344" id="4344" class="graf graf--li graf-after--p">sum(rate(my_metric_total[5m])) = add up all time series.</li><li name="721a" id="721a" class="graf graf--li graf-after--li">Example: if you have one metric per service ID, sum aggregates across all IDs.</li></ul><h3 name="32fc" id="32fc" class="graf graf--h3 graf-after--li">$__rate_interval</h3><p name="2fd2" id="2fd2" class="graf graf--p graf-after--h3"><strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">tl;dr </em></strong>A grafana macro</p><ul class="postList"><li name="290d" id="290d" class="graf graf--li graf-after--p">Example: if you zoom out to 1 week, $__rate_interval might become 5m or 1h.</li><li name="c726" id="c726" class="graf graf--li graf-after--li">Purpose: avoid using a hardcoded [5m] everywhere, so dashboards look correct at different zoom levels.</li></ul><h3 name="7a86" id="7a86" class="graf graf--h3 graf-after--li">$__range</h3><p name="9523" id="9523" class="graf graf--p graf-after--h3"><strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">tl;dr </em></strong>Another grafana macro</p><ul class="postList"><li name="6724" id="6724" class="graf graf--li graf--empty graf-after--p"><br></li><li name="68e9" id="68e9" class="graf graf--li graf-after--li">It represents the <strong class="markup--strong markup--li-strong">total time span of the panel/dashboard</strong> you’re looking at.</li><li name="e094" id="e094" class="graf graf--li graf-after--li">If your dashboard is showing <strong class="markup--strong markup--li-strong">Last 1h</strong>, then $__range = 1h.</li><li name="9a36" id="9a36" class="graf graf--li graf-after--li">If you zoom out to <strong class="markup--strong markup--li-strong">Last 7d</strong>, then $__range = 7d.</li></ul><p name="406e" id="406e" class="graf graf--p graf-after--li">It’s literally the <em class="markup--em markup--p-em">start to end</em> of the visible time window.</p><p name="4a97" id="4a97" class="graf graf--p graf--empty graf-after--p"><br></p><h3 name="03c4" id="03c4" class="graf graf--h3 graf-after--p">Putting things together</h3><p name="e520" id="e520" class="graf graf--p graf-after--h3">Imagine you have:</p><pre data-code-block-mode="1" spellcheck="false" data-code-block-lang="scss" name="e869" id="e869" class="graf graf--pre graf-after--p graf--preV2"><span class="pre--content">sum <span class="hljs-built_in">by</span>(service_id) (<br />  increase(requests_total[$__rate_interval])<br />)</span></pre><ul class="postList"><li name="4131" id="4131" class="graf graf--li graf-after--pre">requests_total = counter of requests.</li><li name="6643" id="6643" class="graf graf--li graf-after--li">increase(…[$__rate_interval]) = how many requests happened in that interval.</li><li name="624d" id="624d" class="graf graf--li graf-after--li">sum by(service_id) = group by service.</li></ul><p name="51c5" id="51c5" class="graf graf--p graf-after--li">If instead you wrote:</p><pre data-code-block-mode="1" spellcheck="false" data-code-block-lang="scss" name="6690" id="6690" class="graf graf--pre graf-after--p graf--preV2"><span class="pre--content">sum <span class="hljs-built_in">by</span>(service_id) (<br />  rate(requests_total[$__rate_interval])<br />)</span></pre><p name="4eec" id="4eec" class="graf graf--p graf-after--pre">That would give you <em class="markup--em markup--p-em">requests per second</em> instead of raw counts.</p><h3 name="9cd3" id="9cd3" class="graf graf--h3 graf-after--p">Mental Model</h3><ul class="postList"><li name="c57e" id="c57e" class="graf graf--li graf-after--h3"><strong class="markup--strong markup--li-strong">rate = speedometer (per second).</strong></li><li name="772c" id="772c" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">increase = odometer delta (how much distance traveled).</strong></li><li name="013a" id="013a" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">sum = add it all up.</strong></li><li name="335b" id="335b" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">by(…) = keep the groups separated.</strong></li><li name="e452" id="e452" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">$__rate_interval = smart auto-window from Grafana.</strong></li></ul><p name="a7a8" id="a7a8" class="graf graf--p graf-after--li graf--trailing">👉 Want me to show you a few <strong class="markup--strong markup--p-strong">common query patterns</strong> (like “requests per second per service” vs “percent errors” vs “latency p95”) with real formulas? That way you’ll have templates you can drop in.</p></div></div></section>
+</section>
+<footer><p><a href="https://medium.com/p/237623619411">View original.</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 13, 2025.</p></footer></article></body></html>

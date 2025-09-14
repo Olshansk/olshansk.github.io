@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Use Git LFS on Github Carefully</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Use Git LFS on Github Carefully</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+&lt; Insert Screenshot of Git LFS&gt;
+</section>
+<section data-field="body" class="e-content">
+<section name="12b3" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="9b3d" id="9b3d" class="graf graf--h3 graf--leading graf--title">Use Git LFS on Github Carefully</h3><p name="e6c7" id="e6c7" class="graf graf--p graf-after--h3">&lt; Insert Screenshot of Git LFS&gt;</p><p name="6ca4" id="6ca4" class="graf graf--p graf-after--p"><a href="https://git-lfs.github.com/" data-href="https://git-lfs.github.com/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Git Large File System</a> is a great solution when you need to store large files (audio files, PDFs, test fixtures, binaries, etc…) as part of your repo. You should probably be using some sort of object storage system when the number of size of the files exceeds some threshold, but it’s a very quick and easy way to get going and can take you far.</p><p name="6f52" id="6f52" class="graf graf--p graf-after--p">I create a new repo called <a href="https://github.com/Olshansk/git-lfs-test" data-href="https://github.com/Olshansk/git-lfs-test" class="markup--anchor markup--p-anchor" rel="nofollow noopener noopener" target="_blank">git-lfs-test</a> and confirmed that my Git LFS usage is currently empty using the instructions provided by <a href="https://docs.github.com/en/billing/managing-billing-for-git-large-file-storage/viewing-your-git-large-file-storage-usage" data-href="https://docs.github.com/en/billing/managing-billing-for-git-large-file-storage/viewing-your-git-large-file-storage-usage" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Github</a> and visiting the <a href="https://github.com/settings/billing" data-href="https://github.com/settings/billing" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">billing</a> page.</p><figure name="12dc" id="12dc" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*T6o-9DLcv_gz4cCvIGFdWA.png" data-width="1858" data-height="618" src="https://cdn-images-1.medium.com/max/800/1*T6o-9DLcv_gz4cCvIGFdWA.png"></figure><p name="5458" id="5458" class="graf graf--p graf-after--figure">I then created a 50Mb file, commit it and pushed it. My usage remained at 0.0GB, so I assumed it was likely because GitHub round 0.05GB down.</p><p name="096c" id="096c" class="graf graf--p graf-after--p">Since every account only comes with 1GB of alloted Git LFS storage, you need to be very careful because of how the data is versioned.From the <a href="https://docs.github.com/en/github/managing-large-files/versioning-large-files/about-storage-and-bandwidth-usage" data-href="https://docs.github.com/en/github/managing-large-files/versioning-large-files/about-storage-and-bandwidth-usage" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">docs</a>:</p><blockquote name="0be9" id="0be9" class="graf graf--blockquote graf-after--p">If you push a 500 MB file to Git LFS, you’ll use 500 MB of your allotted storage and none of your bandwidth. If you make a 1 byte change and push the file again, you’ll use another 500 MB of storage and no bandwidth, bringing your total usage for these two pushes to 1 GB of storage and zero bandwidth.</blockquote><p name="1779" id="1779" class="graf graf--p graf-after--blockquote">Commit and push</p><p name="e0fd" id="e0fd" class="graf graf--p graf--empty graf-after--p"><br></p><p name="bcf2" id="bcf2" class="graf graf--p graf-after--p">No changes on the billing page…</p><p name="9ca9" id="9ca9" class="graf graf--p graf-after--p">git lfs ls-files</p><p name="db48" id="db48" class="graf graf--p graf-after--p">Using git lfs for some fixtures I use for testing</p><div name="6cca" id="6cca" class="graf graf--mixtapeEmbed graf-after--p"><a href="https://docs.github.com/en/billing/managing-billing-for-git-large-file-storage/viewing-your-git-large-file-storage-usage" data-href="https://docs.github.com/en/billing/managing-billing-for-git-large-file-storage/viewing-your-git-large-file-storage-usage" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://docs.github.com/en/billing/managing-billing-for-git-large-file-storage/viewing-your-git-large-file-storage-usage"><strong class="markup--strong markup--mixtapeEmbed-strong">Viewing your Git Large File Storage usage</strong><br><em class="markup--em markup--mixtapeEmbed-em">Bandwidth and storage usage only count against the repository owner&#39;s quotas. In forks, bandwidth and storage usage…</em>docs.github.com</a><a href="https://docs.github.com/en/billing/managing-billing-for-git-large-file-storage/viewing-your-git-large-file-storage-usage" class="js-mixtapeImage mixtapeImage u-ignoreBlock" data-media-id="05c53677cf5b550b311aa73ae97d0e9f" data-thumbnail-img-id="0*XglnCU3f5qo9rr0u" style="background-image: url(https://cdn-images-1.medium.com/fit/c/160/160/0*XglnCU3f5qo9rr0u);"></a></div><p name="6621" id="6621" class="graf graf--p graf--empty graf-after--mixtapeEmbed"><br></p><p name="2cff" id="2cff" class="graf graf--p graf-after--p">I rm — cached all the files, untracked them with git lfs, and then unisntalled git lfs in my repo before pushing. Unfortunately, didn’t work..</p><figure name="fdcb" id="fdcb" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*M0ZlELzuuRj4f6MpUMEBkw.png" data-width="2270" data-height="1008" src="https://cdn-images-1.medium.com/max/800/1*M0ZlELzuuRj4f6MpUMEBkw.png"></figure><p name="07ed" id="07ed" class="graf graf--p graf-after--figure">I do want to say that GitHub was extremeley proactive, very helpful and responded fast, and gave me a refund for data I didn’t need.</p><p name="47ac" id="47ac" class="graf graf--p graf--empty graf-after--p"><br></p><p name="cc7f" id="cc7f" class="graf graf--p graf-after--p graf--trailing">Currently, this is not on our public roadmap(<a href="https://github.com/github/roadmap/projects/1" data-href="https://github.com/github/roadmap/projects/1" class="markup--anchor markup--p-anchor" rel="noreferrer noopener" target="_blank">https://github.com/github/roadmap/projects/1</a>) but I think this a feedback worth sharing with the GitHub LFS team.</p></div></div></section>
+</section>
+<footer><p><a href="https://medium.com/p/caa059bf7915">View original.</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 13, 2025.</p></footer></article></body></html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>5P;1R — Bitcoin’s Elliptic Curve Cryptography</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">5P;1R — Bitcoin’s Elliptic Curve Cryptography</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+This is the first of a potential series of articles I want to call “5 points &amp; 1 resource” (think tl;dr but 5p;1r) where I summarize a…
+</section>
+<section data-field="body" class="e-content">
+<section name="bbed" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="5f10" id="5f10" class="graf graf--h3 graf--leading graf--title">5P;1R — Bitcoin’s Elliptic Curve Cryptography</h3><p name="9ad8" id="9ad8" class="graf graf--p graf-after--h3 graf--trailing">This is the first of a potential series of articles I want to call “<em class="markup--em markup--p-em">5 points &amp; 1 resource</em>” (think tl;dr but 5p;1r) where I summarize a list of bullet points that would have helped me start learning a new topic. It is intentionally far from a complete source of data.</p></div></div></section><section name="2901" class="section section--body"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><ol class="postList"><li name="91a2" id="91a2" class="graf graf--li graf--leading">This is an <strong class="markup--strong markup--li-strong">Elliptic Curve</strong>: <code class="markup--code markup--li-code">y^2 = x^3 + ax + b</code>; see the continuous function Image 1.</li><li name="4f7e" id="4f7e" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">Elliptic Curve Cryptography</strong> is defined over a <strong class="markup--strong markup--li-strong">Finite Field</strong> (very large prime) <strong class="markup--strong markup--li-strong">p</strong> along with a <strong class="markup--strong markup--li-strong">Generator Point </strong>((x,y) coordinate) <strong class="markup--strong markup--li-strong">G like so</strong>: <code class="markup--code markup--li-code">y^2 ≡ (x^3 + ax + b) mod p</code> ; see the scatter plot Image 2.</li><li name="5ebe" id="5ebe" class="graf graf--li graf-after--li">Bitcoin uses a <strong class="markup--strong markup--li-strong">secp256k1</strong>, which is an Elliptic Curve with carefully selected parameters to achieve certain security guarantees:<br>• <code class="markup--code markup--li-code">a=0<br></code>• <code class="markup--code markup--li-code">b = 7<br></code>• <code class="markup--code markup--li-code">p = 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 - 1<br></code>• <code class="markup--code markup--li-code">G = 04 79BE667E F9DCBBAC 55A06295 CE870B07 029BFCDB 2DCE28D9 59F2815B 16F81798 483ADA77 26A3C465 5DA4FBFC 0E1108A8 FD17B448 A6855419 9C47D08F FB10D4B8</code></li><li name="e3c0" id="e3c0" class="graf graf--li graf-after--li">A public key <strong class="markup--strong markup--li-strong">P</strong> (a point on the curve) is just a private key <strong class="markup--strong markup--li-strong">pk </strong>(a random integer) multiplied by the <strong class="markup--strong markup--li-strong">Generator Point (</strong>the pre-selected point on the curve): <code class="markup--code markup--li-code">P = pk * G.</code></li><li name="0fd4" id="0fd4" class="graf graf--li graf-after--li graf--trailing">The <strong class="markup--strong markup--li-strong">Elliptic Curve Discrete Logarim Problem</strong> makes it hard to find the integer <strong class="markup--strong markup--li-strong">pk</strong> when you know (x,y) coordinates of <strong class="markup--strong markup--li-strong">P</strong> and <strong class="markup--strong markup--li-strong">G</strong> fitting the equation in (2) using the parameters in (3) or some other elliptic curve.</li></ol></div></div></section><section name="2965" class="section section--body"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="c4ae" id="c4ae" class="graf graf--p graf--leading graf--trailing">If I only had to recommend one resource out of all the references I looked through, it would be: <a href="https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc#the-generator-point-in-ecc" data-href="https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc#the-generator-point-in-ecc" class="markup--anchor markup--p-anchor" rel="nofollow ugc noopener noopener" target="_blank">https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc#the-generator-point-in-ecc</a></p></div></div></section><section name="3f44" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><figure name="7256" id="7256" class="graf graf--figure graf--leading"><img class="graf-image" data-image-id="0*9SNPT5S-okGs20yu.png" data-width="520" data-height="620" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/0*9SNPT5S-okGs20yu.png"><figcaption class="imageCaption">Image 1: Elliptic curve over real numbers</figcaption></figure><figure name="9354" id="9354" class="graf graf--figure graf-after--figure"><img class="graf-image" data-image-id="0*_YghsHMSB44MrxXN.png" data-width="617" data-height="621" src="https://cdn-images-1.medium.com/max/800/0*_YghsHMSB44MrxXN.png"><figcaption class="imageCaption">Image 2: Elliptic curve over a finite field</figcaption></figure><blockquote name="9e5c" id="9e5c" class="graf graf--pullquote graf-after--figure">Join Coinmonks<a href="https://t.me/coincodecap" data-href="https://t.me/coincodecap" class="markup--anchor markup--pullquote-anchor" rel="noopener ugc nofollow noopener noopener noopener noopener noopener noopener noopener noopener" target="_blank"> Telegram Channel</a> and<a href="https://www.youtube.com/c/coinmonks/videos" data-href="https://www.youtube.com/c/coinmonks/videos" class="markup--anchor markup--pullquote-anchor" rel="noopener ugc nofollow noopener noopener noopener noopener noopener noopener noopener noopener" target="_blank"> Youtube Channel</a> learn about crypto trading and investing</blockquote><h3 name="1fcb" id="1fcb" class="graf graf--h3 graf-after--pullquote">Also, Read</h3><ul class="postList"><li name="f37f" id="f37f" class="graf graf--li graf-after--h3"><a href="https://medium.com/coinmonks/bitcoin-margin-trading-exchange-bcbfcbf7b8e3" data-href="https://medium.com/coinmonks/bitcoin-margin-trading-exchange-bcbfcbf7b8e3" class="markup--anchor markup--li-anchor" rel="noopener" target="_blank">Best Bitcoin Margin Trading</a> |<a href="https://medium.com/coinmonks/lolli-review-e6ddc7895ad8" data-href="https://medium.com/coinmonks/lolli-review-e6ddc7895ad8" class="markup--anchor markup--li-anchor" rel="noopener" target="_blank"> Lolli Review</a> |<a href="https://coincodecap.com/bityard-margin-trading" data-href="https://coincodecap.com/bityard-margin-trading" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank"> Bityard Margin Trading</a></li><li name="5ca9" id="5ca9" class="graf graf--li graf-after--li"><a href="https://coincodecap.com/create-nft" data-href="https://coincodecap.com/create-nft" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank">Create and sell your first NFT</a> |<a href="https://coincodecap.com/best-crypto-trading-bots" data-href="https://coincodecap.com/best-crypto-trading-bots" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank"> Crypto Trading Bot</a></li><li name="2a50" id="2a50" class="graf graf--li graf-after--li"><a href="https://coincodecap.com/buy-shiba-coindcx" data-href="https://coincodecap.com/buy-shiba-coindcx" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank">How to buy Shiba (SHIB) Coin on CoinDCX?</a></li><li name="b33d" id="b33d" class="graf graf--li graf-after--li"><a href="https://coincodecap.com/cbet-casino-review" data-href="https://coincodecap.com/cbet-casino-review" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank">CBET Review</a> | <a href="https://coincodecap.com/kucoin-vs-coinbase" data-href="https://coincodecap.com/kucoin-vs-coinbase" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank">KuCoin vs Coinbase</a> | <a href="https://coincodecap.com/bybit-vs-coinbase" data-href="https://coincodecap.com/bybit-vs-coinbase" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank">Bybit vs Coinbase</a></li><li name="09c7" id="09c7" class="graf graf--li graf-after--li"><a href="https://coincodecap.com/fold-app-review" data-href="https://coincodecap.com/fold-app-review" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank">Fold App Review</a> |<a href="https://medium.com/coinmonks/localbitcoins-review-6cc001c6ed56" data-href="https://medium.com/coinmonks/localbitcoins-review-6cc001c6ed56" class="markup--anchor markup--li-anchor" rel="noopener" target="_blank"> LocalBitcoins review</a> |<a href="https://coincodecap.com/bybit-binance-moonxbt" data-href="https://coincodecap.com/bybit-binance-moonxbt" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank"> Bybit vs Binance</a></li><li name="7a7d" id="7a7d" class="graf graf--li graf-after--li graf--trailing"><a href="https://medium.com/coinmonks/crypto-margin-trading-exchanges-428b1f7ad108" data-href="https://medium.com/coinmonks/crypto-margin-trading-exchanges-428b1f7ad108" class="markup--anchor markup--li-anchor" rel="noopener" target="_blank">Crypto Margin Trading Exchanges</a> |<a href="https://medium.com/coinmonks/earn-bitcoin-6e8bd3c592d9" data-href="https://medium.com/coinmonks/earn-bitcoin-6e8bd3c592d9" class="markup--anchor markup--li-anchor" rel="noopener" target="_blank"> Earn Bitcoin</a> |<a href="https://coincodecap.com/mudrex-invest-review-the-best-way-to-invest-in-crypto" data-href="https://coincodecap.com/mudrex-invest-review-the-best-way-to-invest-in-crypto" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank"> Mudrex Invest</a></li></ul></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@olshansky" class="p-author h-card">Daniel Olshansky</a> on <a href="https://medium.com/p/196fc74a1bf1"><time class="dt-published" datetime="2022-04-23T15:26:37.186Z">April 23, 2022</time></a>.</p><p><a href="https://medium.com/@olshansky/5p-1r-bitcoins-elliptic-curve-cryptography-196fc74a1bf1" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 13, 2025.</p></footer></article></body></html>

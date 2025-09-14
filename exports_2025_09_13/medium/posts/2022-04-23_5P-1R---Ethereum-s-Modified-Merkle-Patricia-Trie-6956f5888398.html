@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>5P;1R — Ethereum’s Modified Merkle Patricia Trie</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">5P;1R — Ethereum’s Modified Merkle Patricia Trie</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+This is the second of a series of articles I’m trying out called “5 points &amp; 1 resource” (think tl;dr but 5p;1r) where I summarize a list…
+</section>
+<section data-field="body" class="e-content">
+<section name="d58a" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="747c" id="747c" class="graf graf--h3 graf--leading graf--title">5P;1R — Ethereum’s Modified Merkle Patricia Trie</h3><p name="885e" id="885e" class="graf graf--p graf-after--h3 graf--trailing">This is the second of a series of articles I’m trying out called “<em class="markup--em markup--p-em">5 points &amp; 1 resource</em>” (think tl;dr but 5p;1r) where I summarize a list of bullet points that would have helped me start learning a new topic. It is intentionally far from a complete source of data. You can find the first one here: <a href="https://olshansky.medium.com/5p-1r-bitcoins-elliptic-curve-cryptography-196fc74a1bf1" data-href="https://olshansky.medium.com/5p-1r-bitcoins-elliptic-curve-cryptography-196fc74a1bf1" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">5P;1R — Bitcoin’s Elliptic Curve Cryptography</a>.</p></div></div></section><section name="0f4e" class="section section--body"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><ol class="postList"><li name="195e" id="195e" class="graf graf--li graf--leading">A <strong class="markup--strong markup--li-strong">Patricia Trie</strong> is a prefix tree where edge values are concatenated as you navigate down the tree to form a key associated with the node’s value. All leaf nodes must have a value while it remains optional for parent nodes.</li><li name="3317" id="3317" class="graf graf--li graf-after--li">A <strong class="markup--strong markup--li-strong">Merkle Tree</strong> is a hash tree where the value of every non-leaf node is the hash of the sum of hashes of all of its children.</li><li name="eae7" id="eae7" class="graf graf--li graf-after--li">A <strong class="markup--strong markup--li-strong">Merkle Patricia Tree (MPT)</strong> is used to store <strong class="markup--strong markup--li-strong">keys</strong> (hashes of values) and <strong class="markup--strong markup--li-strong">values</strong> (serialized data structures) using <strong class="markup--strong markup--li-strong">Leaf Nodes</strong> (containing a <em class="markup--em markup--li-em">key-end</em> <em class="markup--em markup--li-em">&amp;</em> <em class="markup--em markup--li-em">value</em>) and <strong class="markup--strong markup--li-strong">Branch Nodes</strong> (containing <em class="markup--em markup--li-em">pointers to other nodes &amp; optional value</em>).</li><li name="e07e" id="e07e" class="graf graf--li graf-after--li">Assuming the <strong class="markup--strong markup--li-strong">key is of size N bits</strong> (e.g. <code class="markup--code markup--li-code">N = 256 bits</code>) and the <strong class="markup--strong markup--li-strong">encoding chosen is M bits</strong> (e.g. <code class="markup--code markup--li-code">M = 2^4 =&gt; hex / base 16)</code>, a branch node can have at most <strong class="markup--strong markup--li-strong">M + 1 elements</strong> (e.g. <code class="markup--code markup--li-code">1 optional value + 16 hex digits / nibbles</code>)and the Tree can have a <strong class="markup--strong markup--li-strong">maximum depth of N / M</strong> (e.g. <code class="markup--code markup--li-code">256 / 4 = 64</code>).</li><li name="cb40" id="cb40" class="graf graf--li graf-after--li">Ethereum’s <strong class="markup--strong markup--li-strong">Modified MPT</strong> also contains <strong class="markup--strong markup--li-strong">Extension Nodes</strong> which is an optimization of Branch Nodes that only have one child by compressing them into a <em class="markup--em markup--li-em">Leaf-Node-like structure</em> while replacing the <strong class="markup--strong markup--li-strong">key-end with shared-nibbles</strong> and <strong class="markup--strong markup--li-strong">node value with the child path/hash</strong>, and using a special <strong class="markup--strong markup--li-strong">hex prefix</strong> value to differentiate Extension Nodes from Leaf Nodes:</li></ol><figure name="d14d" id="d14d" class="graf graf--figure graf-after--li graf--trailing"><img class="graf-image" data-image-id="0*YzqW0Ds1OB1wDpf1.png" data-width="1256" data-height="238" src="https://cdn-images-1.medium.com/max/800/0*YzqW0Ds1OB1wDpf1.png"></figure></div></div></section><section name="7ce9" class="section section--body"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="6b55" id="6b55" class="graf graf--p graf--leading graf--trailing">If I only had to recommend one resource out of all the references I looked through, it would be: <a href="https://medium.com/@chiqing/merkle-patricia-trie-explained-ae3ac6a7e123" data-href="https://medium.com/@chiqing/merkle-patricia-trie-explained-ae3ac6a7e123" class="markup--anchor markup--p-anchor" rel="nofollow ugc noopener" target="_blank">https://medium.com/@chiqing/merkle-patricia-trie-explained-ae3ac6a7e123</a></p></div></div></section><section name="41a9" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><figure name="ee0e" id="ee0e" class="graf graf--figure graf--leading"><img class="graf-image" data-image-id="0*D9w10XcMLB8aeIfl.png" data-width="1456" data-height="1028" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/0*D9w10XcMLB8aeIfl.png"><figcaption class="imageCaption"><a href="https://ethereum.stackexchange.com/questions/6415/eli5-how-does-a-merkle-patricia-trie-tree-work" data-href="https://ethereum.stackexchange.com/questions/6415/eli5-how-does-a-merkle-patricia-trie-tree-work" class="markup--anchor markup--figure-anchor" rel="noopener" target="_blank">https://ethereum.stackexchange.com/questions/6415/eli5-how-does-a-merkle-patricia-trie-tree-work</a></figcaption></figure><blockquote name="a1be" id="a1be" class="graf graf--pullquote graf-after--figure">Join Coinmonks<a href="https://t.me/coincodecap" data-href="https://t.me/coincodecap" class="markup--anchor markup--pullquote-anchor" rel="noopener ugc nofollow noopener noopener noopener noopener noopener noopener noopener noopener noopener noopener" target="_blank"> Telegram Channel</a> and<a href="https://www.youtube.com/c/coinmonks/videos" data-href="https://www.youtube.com/c/coinmonks/videos" class="markup--anchor markup--pullquote-anchor" rel="noopener ugc nofollow noopener noopener noopener noopener noopener noopener noopener noopener noopener noopener" target="_blank"> Youtube Channel</a> learn about crypto trading and investing</blockquote><h3 name="1fcb" id="1fcb" class="graf graf--h3 graf-after--pullquote">Also, Read</h3><ul class="postList"><li name="0306" id="0306" class="graf graf--li graf-after--h3"><a href="https://coincodecap.com/smithbot-review" data-href="https://coincodecap.com/smithbot-review" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank">SmithBot Review</a> |<a href="https://coincodecap.com/free-open-source-trading-bots" data-href="https://coincodecap.com/free-open-source-trading-bots" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank"> 4 Best Free Open Source Trading Bots</a></li><li name="b08c" id="b08c" class="graf graf--li graf-after--li"><a href="https://medium.com/coinmonks/leveraged-token-3f5257808b22" data-href="https://medium.com/coinmonks/leveraged-token-3f5257808b22" class="markup--anchor markup--li-anchor" rel="noopener" target="_blank">Leveraged Token</a> |<a href="https://medium.com/coinmonks/crypto-exchange-dd2f9d6f3769" data-href="https://medium.com/coinmonks/crypto-exchange-dd2f9d6f3769" class="markup--anchor markup--li-anchor" rel="noopener" target="_blank"> Best Crypto Exchange</a> |<a href="https://medium.com/coinmonks/paxful-review-4daf2354ab70" data-href="https://medium.com/coinmonks/paxful-review-4daf2354ab70" class="markup--anchor markup--li-anchor" rel="noopener" target="_blank"> Paxful Review</a></li><li name="963d" id="963d" class="graf graf--li graf-after--li"><a href="https://medium.com/coinmonks/crypto-arbitrage-guide-how-to-make-money-as-a-beginner-62bfe5c868f6" data-href="https://medium.com/coinmonks/crypto-arbitrage-guide-how-to-make-money-as-a-beginner-62bfe5c868f6" class="markup--anchor markup--li-anchor" rel="noopener" target="_blank">Crypto arbitrage</a> Guide |<a href="https://medium.com/coinmonks/how-to-short-bitcoin-568a2d0b4ae5" data-href="https://medium.com/coinmonks/how-to-short-bitcoin-568a2d0b4ae5" class="markup--anchor markup--li-anchor" rel="noopener" target="_blank"> How to Short Bitcoin</a></li><li name="bcbf" id="bcbf" class="graf graf--li graf-after--li"><a href="https://coincodecap.com/binance-futures-trading" data-href="https://coincodecap.com/binance-futures-trading" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank">Binance Futures Trading</a> |<a href="https://coincodecap.com/mudrex-3commas-etoro" data-href="https://coincodecap.com/mudrex-3commas-etoro" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank"> 3Commas vs Mudrex vs eToro</a></li><li name="bd91" id="bd91" class="graf graf--li graf-after--li graf--trailing"><a href="https://coincodecap.com/buy-monero" data-href="https://coincodecap.com/buy-monero" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank">How to buy Monero</a> |<a href="https://coincodecap.com/idex-review" data-href="https://coincodecap.com/idex-review" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank"> IDEX Review</a> |<a href="https://coincodecap.com/bitkan-trading-bot" data-href="https://coincodecap.com/bitkan-trading-bot" class="markup--anchor markup--li-anchor" rel="noopener ugc nofollow noopener noopener" target="_blank"> BitKan Trading Bot</a></li></ul></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@olshansky" class="p-author h-card">Daniel Olshansky</a> on <a href="https://medium.com/p/6956f5888398"><time class="dt-published" datetime="2022-04-23T15:31:50.880Z">April 23, 2022</time></a>.</p><p><a href="https://medium.com/@olshansky/5p-1r-ethereums-modified-merkle-patricia-trie-6956f5888398" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 13, 2025.</p></footer></article></body></html>
