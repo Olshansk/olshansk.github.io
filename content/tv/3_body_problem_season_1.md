@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "3 Body Problem: Season 1"
 date = "2024-09-07T08:52:36.158000"
@@ -6,9 +7,9 @@ description = "Olshansky's review of The 3 Body Problem: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/3_body_problem/s01"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Having read the first book and loved it, this didn't just exceed my expectations,
 but left me memorized.
@@ -30,4 +31,3 @@ I'm not over exaggerating when I say that it was EXACTLY the same.
 
 I genuinely cannot wait for the next season.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/3_body_problem/s01)

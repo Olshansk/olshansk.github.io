@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Woman of the Hour"
 date = "2025-03-29T11:10:30"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Woman of the Hour"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/woman_of_the_hour"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 This films leaves an impact.
 
@@ -27,5 +28,3 @@ after the fact.
 
 Lastly, Anna Kendrick killed it: both as a direct as an actress. This film really
 made me want to watch more of her work.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/woman_of_the_hour)

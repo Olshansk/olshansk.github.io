@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Platonic: Season 1"
 date = "2023-07-23T00:00:00.000000"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Platonic: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/platonic/s01"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Fun, original, real, and honest. It's not an Oscar winner I would ever re-watch, but it's a show I'll remember and recommend to friends.
 
@@ -20,4 +21,3 @@ The relationship that never was. The hookup that never happened. It's bitterswee
 
 Not all good things have to last forever, but joyful memories do.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/platonic/s01)

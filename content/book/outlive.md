@@ -6,9 +6,9 @@ description = "Olshansky's review of Outlive"
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐⭐"
+goodreads_url = "https://www.goodreads.com/book/show/30835567-hit-refresh"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 - [tl;dr](#tldr)
 - [Introduction](#introduction)
@@ -19,8 +19,6 @@ Rating: ⭐⭐⭐⭐⭐
 - [TIL - Secret Terms \& Ingredients](#til---secret-terms--ingredients)
 - [Exercise \& Muscle](#exercise--muscle)
 - [Quotes](#quotes)
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/book/show/30835567-hit-refresh)
 
 Please note that like my other book reviews, they're very "stream of consciousness"
 and as well crafted as my blog posts.

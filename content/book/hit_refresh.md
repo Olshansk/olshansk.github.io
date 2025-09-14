@@ -6,9 +6,9 @@ description = "Olshansky's review of Hit Refresh"
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐"
+goodreads_url = "https://www.goodreads.com/book/show/30835567-hit-refresh"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 - [Summary](#summary)
 - [History](#history)
@@ -21,8 +21,6 @@ Rating: ⭐⭐⭐⭐
 - [Partnership vs Acquisition?](#partnership-vs-acquisition)
 - [Values \& Trust](#values--trust)
 - [Favorite Quotes](#favorite-quotes)
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/book/show/30835567-hit-refresh)
 
 ## Summary
 

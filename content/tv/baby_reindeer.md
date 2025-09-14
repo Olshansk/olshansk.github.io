@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Baby Reindeer"
 date = "2024-06-01T01:18:01"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Baby Reindeer"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/baby_reindeer/s01"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 It was captivating, it was discomforting, it was real, it was confusing, it was
 fun, it was raw. It was a story an individual had to tell, and no autobiography
@@ -23,4 +24,3 @@ of myself in the main characters. Though it's not the case here, I'm still
 at a lost for words to describe the experience that Baby Reindeer is. You have
 to watch it to understand.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/baby_reindeer/s01)

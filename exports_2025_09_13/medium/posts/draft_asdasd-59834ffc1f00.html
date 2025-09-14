@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>asdasd</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">asdasd</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Monetizing User Data on the Blockchain
+</section>
+<section data-field="body" class="e-content">
+<section name="828e" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="1f94" id="1f94" class="graf graf--h3 graf--leading graf--title">asdasd</h3><h3 name="ed62" id="ed62" class="graf graf--h3 graf-after--h3">Monetizing User Data on the Blockchain</h3><p name="ef42" id="ef42" class="graf graf--p graf-after--h3">With the advent of blockchain technology there has been a lot of discussion surrounding the monetization of user data. While this idea is great in theory, it took me a while to understand how something like this could be implemented in practice.</p><p name="3608" id="3608" class="graf graf--p graf-after--p">Depending on the type of user data at hand, it could be hundreds of megabytes or gigabytes in size. Blockchain is a distributed ledger and should not be thought of as an alternative to cloud storage. Though there are projects such as <a href="https://sia.tech/" data-href="https://sia.tech/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Sia</a>, <a href="https://storj.io/" data-href="https://storj.io/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Storj</a> and <a href="https://filecoin.io/" data-href="https://filecoin.io/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Filecoin</a> working to build a distributed cloud, these projects are nascent and transfer the burden of paying for data storage directly to the user. There is a reason why Google is willing to store your photos for free, and it’s not a form of altruism. However, most of the people I’ve talked to still opt for using Google’s services.</p><p name="96f8" id="96f8" class="graf graf--p graf-after--p graf--trailing">As long as people care more about saving money than having self sovereignty over their data, they will have to sacrifice censorship resistance. If you choose to use Google to store your photos, you must understand that they can delete your photos or lock out your account at any point in time. Even if you encrypt all of your photos before saving them to the cloud, they are still in control of your data. For the rest of this article assume that the user is willing to sacrifice censorship resistance to a company named Hooli, who is offering to host the user’s data in exchange for a small cut.</p></div></div></section><section name="40ca" class="section section--body"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="e0de" id="e0de" class="graf graf--p graf--leading">This data monetization platform can be built using a relatively basic smart contract in conjunction with basic public key cryptography and a flew lessons from OpenPGP.</p><h4 name="4d76" id="4d76" class="graf graf--h4 graf-after--p">Smart Contract</h4><p name="f746" id="f746" class="graf graf--p graf-after--h4">At a high level, the smart contract schema would look something like this:</p><pre name="65a2" id="65a2" class="graf graf--pre graf-after--p">contract UserMonetizationContract {</pre><pre name="debd" id="debd" class="graf graf--pre graf-after--pre">struct UserData {<br>  string URI;<br>  string metadata;<br>  string hash;<br> }</pre><pre name="11ba" id="11ba" class="graf graf--pre graf-after--pre">struct AcceptedBuyer {<br>  address acceptedBuyer;<br>  string key;<br> }<br>    <br> address[] userAddresses;<br> mapping(address =&gt; AcceptedBuyer[]) acceptedBuyers;<br> mapping(address =&gt; address[]) pendingBuyers;<br> mapping(address =&gt; UserData[]) userData;<br>}</pre><ul class="postList"><li name="1627" id="1627" class="graf graf--li graf-after--pre"><em class="markup--em markup--li-em">userAddresses</em> is a list of addresses belonging to users willing to sell their data</li><li name="97e2" id="97e2" class="graf graf--li graf-after--li"><em class="markup--em markup--li-em">acceptedBuyers</em> is a list of structs containing the buyers the user has agreed to share their data with along with a decryption key</li><li name="e609" id="e609" class="graf graf--li graf-after--li"><em class="markup--em markup--li-em">pendingBuyers</em> is a list of buyers who want to get access to the user’s data but have not been granted permission yet</li><li name="696c" id="696c" class="graf graf--li graf-after--li"><em class="markup--em markup--li-em">userData </em>is a list of structs pointing to a URI where the encrypted data is stored along with some metadata the user is willing to publicize (this can be used for buyers to find which user’s data they’d like to buy)</li></ul><h4 name="7406" id="7406" class="graf graf--h4 graf-after--li">Data Storage Flow</h4><ol class="postList"><li name="4c41" id="4c41" class="graf graf--li graf-after--h4">User generates a symmetric file encryption key: <em class="markup--em markup--li-em">Ks</em></li><li name="ea33" id="ea33" class="graf graf--li graf-after--li">User Data (UD) is encrypted using the key above: <em class="markup--em markup--li-em">Ks(UD)</em></li><li name="f401" id="f401" class="graf graf--li graf-after--li">User computes a hash of UD as well: <em class="markup--em markup--li-em">H(UD)</em></li><li name="240d" id="240d" class="graf graf--li graf-after--li"><em class="markup--em markup--li-em">Ks(UD)</em> from step 2 is stored to Hooli’s servers. Even though Hooli is hosting the data, it cannot decrypt the data.</li><li name="0791" id="0791" class="graf graf--li graf-after--li">User queries the smart contract to retrieve <em class="markup--em markup--li-em">pendingBuyers</em> and decides which buyers they’d like to grant access to. Without public key infrastructure and a certificate authority, it is impossible to tell whom a certain public key belongs to, but that problem is outside the scope of this article…</li><li name="2ed6" id="2ed6" class="graf graf--li graf-after--li">In exchange for granting a pending buyer permission to their data, a transfer of funds would take place from the buyer to the user. This could be done in many different ways including a flat upfront fee, a subscription model, a negotiation, or even some sort of bid. A small portion of these funds would go to Hooli in exchange for hosting the user’s encrypted data.</li><li name="6464" id="6464" class="graf graf--li graf-after--li">For each buyer from step 5, the user would encrypt the symmetric key from step 1 with the buyer’s public keys: <em class="markup--em markup--li-em">Kp1(Ks)</em>, <em class="markup--em markup--li-em">Kp2(Ks)</em>, <em class="markup--em markup--li-em">Kp3(Ks)</em>, etc…</li><li name="516b" id="516b" class="graf graf--li graf-after--li">All of the encrypted keys along with the buyer addresses from step 7 are stored in <em class="markup--em markup--li-em">acceptedBuyers</em></li><li name="c01e" id="c01e" class="graf graf--li graf-after--li">Every time the user creates more data, they would encrypt it with <em class="markup--em markup--li-em">Ks</em> and upload it to Hooli’s servers. The user would then add the hash, metadata and URI to <em class="markup--em markup--li-em">userData.</em></li><li name="7923" id="7923" class="graf graf--li graf-after--li">All of the selected parties from step 6 can query the smart contract at any time, use their private keys to retrieve <em class="markup--em markup--li-em">Ks</em>, download the data, decrypt it, and check it’s integrity by comparing it against the hash in the contract.</li><li name="d892" id="d892" class="graf graf--li graf-after--li">Whenever the user wants to remove someone from the list of accepted buyers, they would need to recompute <em class="markup--em markup--li-em">Ks </em>and repeat step 7. All the data would need to be downloaded, re-encrypted and re-uploaded. Alternatively, since the buyer being removed may have previously downloaded the data anyhow, only new data generated from that point on would be encrypted using the new <em class="markup--em markup--li-em">Ks</em>. For security purposes, it is good practice to recompute <em class="markup--em markup--li-em">Ks</em> on a regular basis anyhow.</li></ol><h4 name="f114" id="f114" class="graf graf--h4 graf-after--li">Broken Trust</h4><p name="4d36" id="4d36" class="graf graf--p graf-after--h4">When you share a secret with someone, you are trusting the other person to keep that secret private. If you agreed to give someone your data in exchange for a payment, the buyer is technically free to do as they wish with the data. This is a human factor that cannot be solved by any blockchain or form of cryptography.</p><p name="aac0" id="aac0" class="graf graf--p graf-after--p graf--trailing">The only solution to this problem is to have a Decentralized Autonomous Organization (DAO) make decisions regarding whether there was a breach of trust. At the time of the transaction, the user and buyer will need to stake some amount of tokens. If the buyer shares the user’s data without their consent, the user can make a claim to the DAO that there was a breach of trust. Alternatively, if the user is saving unintelligible or bogus data, the buyer can make a similar claim to the DAO. Using a platform being developed by the likes of <a href="https://openzeppelin.org/" data-href="https://openzeppelin.org/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">OpenZeppelin</a> or <a href="https://aragon.one/" data-href="https://aragon.one/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Aragon</a>, the DAO will decide who is at fault and whether the staked funds should be transferred or burnt.</p></div></div></section><section name="17e1" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="f95e" id="f95e" class="graf graf--p graf--leading">Most importantly, Hooli can be completely cut out of the picture once decentralized cloud solutions become fast, cheap and scalable enough. The user will be in control of who has has access to their data, and be able to monetize it in a secure manner if they choose to.</p><p name="7e4a" id="7e4a" class="graf graf--p graf-after--p graf--trailing"><a href="http://twitter.com/olshansky" data-href="http://twitter.com/olshansky" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">@olshansky</a></p></div></div></section>
+</section>
+<footer><p><a href="https://medium.com/p/59834ffc1f00">View original.</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 13, 2025.</p></footer></article></body></html>

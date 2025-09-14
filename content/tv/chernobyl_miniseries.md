@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Chernobyl: Miniseries"
 date = "2019-07-24T20:12:19.918000"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Chernobyl: Miniseries"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/chernobyl/s01"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 A perfect show in every way. It's a shame Legasov did not live the impact of his heroism, and how he is celebrated and seen in modern culture.
 
@@ -22,4 +23,3 @@ A combination of the actors and cinematography really managed to sway my emotion
 
 A few of my favourite scenes were the slow-motion groups of people who enjoyed viewing the "beautiful" explosion, not knowing that they were soaking tons of radiation and bound to die in the very near future.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/chernobyl/s01)

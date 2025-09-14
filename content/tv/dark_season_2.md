@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Dark: Season 2"
 date = "2020-02-17T19:51:40.261000"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Dark: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/dark/s02"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 HOLY SHIT!!!!!!! This show is mind-blowing.
 
@@ -22,4 +23,3 @@ I realize there is a lot of messed up shit going on, and that everyone in the sh
 
 It's really interesting to see how so many people manage to accept the fact that they play a very small role in the grand scheme of things. Only Jonas/Adam are truly key to everything, and I honestly still can't make up my mind about Adam. The only thing that bothers me about the interactions between Adam and Jonas is why Adam is being so secretive. It shouldn't have been a surprise to Jonas that there is a "parallel world". Why did middle age Jonas tell him about it? Why didn't Claudia tell him about it? This is the only "loophole" that bothers me.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/dark/s02)

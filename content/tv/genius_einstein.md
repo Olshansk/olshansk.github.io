@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Genius: Einstein"
 date = "2017-04-25T00:59:45"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Genius: Einstein"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/genius/s01"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 Very elegant. An exciting, interesting and fun 10 episode special that anyone who enjoys television should watch at some point.
 
@@ -20,4 +21,3 @@ A few astounding facts I learnt from this show:
 3. I never knew what a pimp Einstein was.
 4. I'm very impressed by how politically involved he was in "world peace" towards his later years, and never knew he was such a zionist.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/genius/s01)

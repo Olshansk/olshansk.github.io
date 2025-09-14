@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Squid Game: Season 3"
 date = "2025-07-05T20:34:28.748000"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Squid Game: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/squid_game/s03"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 A phenomenal ending to an already phenomenal series.
 
@@ -22,4 +23,3 @@ It's a cult classic, and every moment of every scene was embodied by both power 
 
 I'll end it here. This is a must watch.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/squid_game/s03)

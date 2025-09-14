@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Succession: Season 2"
 date = "2024-04-09T01:18:01"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Succession: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/succession/s02"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The first season was fantastic, and the second was was no less. The only difference
 is the relationship I, as the viewer, have built with all the characters making
@@ -43,4 +44,3 @@ in all of them.
   just takes it and hopes for the best. He's always smart enough to have a bakup
   plan and explore his options though.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/succession/s02)

@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>5P;1R Jellyfish Merkle Tree</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">5P;1R Jellyfish Merkle Tree</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+This is a post in a series of articles I’m writing called “5 points &amp; 1 resource” (think tl;dr but 5p;1r), where I summarize a list of 5…
+</section>
+<section data-field="body" class="e-content">
+<section name="9785" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><figure name="7918" id="7918" class="graf graf--figure graf--leading"><img class="graf-image" data-image-id="1*d7p7nYd6nYC6P-CY1ZEp4A.png" data-width="1024" data-height="1024" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/1*d7p7nYd6nYC6P-CY1ZEp4A.png"><figcaption class="imageCaption">Generate with the keywords “a binary tree of jellyfish, digital art, drawing, vibrant” by <a href="https://labs.openai.com/" data-href="https://labs.openai.com/" class="markup--anchor markup--figure-anchor" rel="nofollow noopener" target="_blank">labs.openai.com</a></figcaption></figure><h3 name="707b" id="707b" class="graf graf--h3 graf-after--figure graf--title">5P;1R Jellyfish Merkle Tree</h3><p name="ab07" id="ab07" class="graf graf--p graf-after--h3 graf--trailing"><em class="markup--em markup--p-em">This is a post in a series of articles I’m writing called “5 points &amp; 1 resource” (think tl;dr but 5p;1r), where I summarize a list of 5 concepts that would have helped me start learning or re-learning a certain topic. It is intentionally far from a complete source of data.</em></p></div></div></section><section name="d670" class="section section--body"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><ol class="postList"><li name="e775" id="e775" class="graf graf--li graf--leading">An <strong class="markup--strong markup--li-strong">Addressable Merkle Tree (AMT)</strong> is a cryptographically authenticated deterministic data structure backed by a key-value store database used for account-based (non-UTXO-based) systems to map keys (i.e. addresses) to arbitrary binary data in each leaf node.</li><li name="0443" id="0443" class="graf graf--li graf-after--li">An <strong class="markup--strong markup--li-strong">Addressable Radix Merkle Tree (ARᵣMT) </strong>[Fig. 3] is a generalization of an AMT, a binary tree, where <em class="markup--em markup--li-em">r &gt; 2</em>. With a key size of <em class="markup--em markup--li-em">h</em> bits, and each node having at most <em class="markup--em markup--li-em">r</em> children, the height of the tree is <em class="markup--em markup--li-em">logᵣ(2ʰ)</em>. The tradeoffs of <em class="markup--em markup--li-em">r</em> are:</li></ol><ul class="postList"><li name="529c" id="529c" class="graf graf--li graf-after--li">A <strong class="markup--strong markup--li-strong">large r</strong> is good for read-heavy applications but results in greater write amplification and higher storage costs when updating internal path nodes.</li><li name="c0e8" id="c0e8" class="graf graf--li graf-after--li">A <strong class="markup--strong markup--li-strong">small r</strong> is good for write-heavy applications, but results in higher I/O when querying or updating the tree.</li></ul><p name="0de2" id="0de2" class="graf graf--p graf-after--li">3. A <strong class="markup--strong markup--p-strong">Sparse Merkle Tree (SMT) </strong>[Fig. 2] is an AMT which accounts for the fact that Perfect Merkle Trees are never needed for account-based models since most keys will not have data, thereby removing the need to store <em class="markup--em markup--p-em">2ʰ </em>keys. The two main optimizations are:</p><ul class="postList"><li name="9341" id="9341" class="graf graf--li graf-after--p"><strong class="markup--strong markup--li-strong">Empty Subtrees</strong> are replaced with a constant default placeholder node value.</li><li name="fe11" id="fe11" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">Single-Leaf Subtrees</strong> are replaced with one node reflecting the one leaf value.</li></ul><p name="a733" id="a733" class="graf graf--p graf-after--li">4. A <strong class="markup--strong markup--p-strong">Jellyfish Merkle Tree (JMT)</strong> is a Sparse Addressable Radix Merkle Tree with <em class="markup--em markup--p-em">r=16</em> (<strong class="markup--strong markup--p-strong">Sparse AR₁₆MT) </strong>that balances the tradeoff of storage, compute, read and write operations using two node types: <strong class="markup--strong markup--p-strong">Internal Node</strong> and <strong class="markup--strong markup--p-strong">Leaf (Data) Node. </strong>It optimizes for Log-Structured Merge-tree (LSM-tree) based key-value storage databases (e.g. RocksDB) by using <strong class="markup--strong markup--p-strong">Version-Based Node Keys</strong> whereby a monotonically increasing version number (i.e. # of transaction applied to the state) is prefixed to the node path in order to [Table 1]:</p><ul class="postList"><li name="94c0" id="94c0" class="graf graf--li graf-after--p">Enable version-based sharding</li><li name="35a8" id="35a8" class="graf graf--li graf-after--li">Automatically sort node updates written (i.e. appended) to disk in lexicographic order, reducing the disk bandwidth and IOPS of LSM-tree compaction.</li></ul><p name="b32c" id="b32c" class="graf graf--p graf-after--li">5. A JMT has an average <strong class="markup--strong markup--p-strong">Merkle Proof size of Θ(𝑙𝑜𝑔(num_existent_leaves))</strong> and is split into three types [Fig. 4,5]:</p><ul class="postList"><li name="f152" id="f152" class="graf graf--li graf-after--p"><strong class="markup--strong markup--li-strong">Inclusion proof</strong> — A path to the node leaf with the appropriate key exists.</li><li name="878e" id="878e" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">Exclusion proof (other node)</strong> — The leaf node in the path followed contains a key different from what’s expected.</li><li name="e947" id="e947" class="graf graf--li graf-after--li graf--trailing"><strong class="markup--strong markup--li-strong">Exclusion proof (empty node)</strong> — An empty (i.e. default placeholder) node exists along the path to the leaf node with the expected key.</li></ul></div></div></section><section name="4264" class="section section--body"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="020d" id="020d" class="graf graf--p graf--leading graf--trailing">There’s no better reference than the original white paper: <a href="https://developers.diem.com/papers/jellyfish-merkle-tree/2021-01-14.pdf" data-href="https://developers.diem.com/papers/jellyfish-merkle-tree/2021-01-14.pdf" class="markup--anchor markup--p-anchor" rel="noopener noreferrer nofollow noopener" target="_blank">Jellyfish Merkle Tree</a>, but personally, I’d use my annotated version of the available at bafybeid5cdhsbqskrwwn5m2q7md5g2ldt6hihvzrt26ty6jbxqnza4gaie or <a href="https://s3.olshansky.info/JellyfishMerkleTreeWhitepaperReview.pdf" data-href="https://s3.olshansky.info/JellyfishMerkleTreeWhitepaperReview.pdf" class="markup--anchor markup--p-anchor" rel="noopener noreferrer nofollow noopener" target="_blank">s3.olshansky.info/JellyfishMerkleTreeWhitepaperReview.pdf</a>.</p></div></div></section><section name="47b5" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><figure name="1021" id="1021" class="graf graf--figure graf--leading"><img class="graf-image" data-image-id="0*dvGRttvtgFjcID9_.png" data-width="1456" data-height="527" src="https://cdn-images-1.medium.com/max/800/0*dvGRttvtgFjcID9_.png"></figure><figure name="ee72" id="ee72" class="graf graf--figure graf-after--figure"><img class="graf-image" data-image-id="0*IJONiaAn9ic0Ad_B.png" data-width="1188" data-height="494" src="https://cdn-images-1.medium.com/max/800/0*IJONiaAn9ic0Ad_B.png"></figure><figure name="e1db" id="e1db" class="graf graf--figure graf-after--figure"><img class="graf-image" data-image-id="0*XS_4KuQ3rUPAw3w6.png" data-width="1202" data-height="180" src="https://cdn-images-1.medium.com/max/800/0*XS_4KuQ3rUPAw3w6.png"><figcaption class="imageCaption">Table 1</figcaption></figure><figure name="1627" id="1627" class="graf graf--figure graf-after--figure"><img class="graf-image" data-image-id="0*pciRvp9Bey5kdMZV.png" data-width="486" data-height="456" src="https://cdn-images-1.medium.com/max/800/0*pciRvp9Bey5kdMZV.png"></figure><figure name="be1e" id="be1e" class="graf graf--figure graf-after--figure graf--trailing"><img class="graf-image" data-image-id="0*fBTsUfi-fykLLdua.png" data-width="1248" data-height="404" src="https://cdn-images-1.medium.com/max/800/0*fBTsUfi-fykLLdua.png"></figure></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@olshansky" class="p-author h-card">Daniel Olshansky</a> on <a href="https://medium.com/p/d2d7dc7dfa8e"><time class="dt-published" datetime="2022-09-15T14:32:24.441Z">September 15, 2022</time></a>.</p><p><a href="https://medium.com/@olshansky/5p-1r-jellyfish-merkle-tree-d2d7dc7dfa8e" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 13, 2025.</p></footer></article></body></html>

@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Sense8: Season 2"
 date = "2017-11-05T00:18:10"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Sense8: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/sense8/s02"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 One of the best shows that has gone under the radar and doesn't receive the press or credit it deserves.
 
@@ -18,4 +19,3 @@ The cinematography is out of this world. Ranging from slow beautiful scenic scen
 
 It's unfortunate that the show was cancelled after Season 2, but I loved every minute of the first two seasons.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/sense8/s02)

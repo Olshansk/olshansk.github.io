@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Shang-Chi and the Legend of the Ten Rings"
 date = "2021-09-15T06:47:52.820000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Shang-Chi and the Legend of the Ten Rings"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/shang_chi_and_the_legend_of_the_ten_rings"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 This movie was absolutely amazing in every single way.
 
@@ -23,5 +24,3 @@ This movie was absolutely amazing in every single way.
 - It felt both heart warming, relaxing but also invigorating at the same time. I love Tai Chi aspects combined with magical creatures, and magical powers.
 
 The best part is that my sister and I had to run from the theatre to the car after the film because it was pouring outside. We ended up yelling at the top of our lungs, embracing the whole situation, and really extended the film's ambiance even after leaving the theatre :)
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/shang_chi_and_the_legend_of_the_ten_rings)

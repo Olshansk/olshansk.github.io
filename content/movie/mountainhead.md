@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Mountainhead"
 date = "2025-05-31T13:43:19"
+rating = "⭐⭐"
+
 description = "Olshansky's review of the movie Mountainhead"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/mountainhead"
 +++
-
-Rating: ⭐⭐
 
 AI? Tech? Billionaires? Steve Carell? HBO Max?
 
@@ -30,5 +31,3 @@ If you're deep in the field, it'll feel so cathartic that it may be worth watchi
 For others, it may be a bit of a letdown.
 
 It's the first time HBO has let me down in a while.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/mountainhead)

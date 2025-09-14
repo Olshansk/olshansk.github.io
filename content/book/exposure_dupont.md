@@ -6,17 +6,15 @@ description = "Olshansky's review of Exposure: Poisoned Water, Corporate Greed, 
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐"
+goodreads_url = "https://www.goodreads.com/book/show/50782151-exposure"
 +++
-
-Rating: ⭐⭐⭐
 
 - [Overall](#overall)
 - [Gory Beginnings](#gory-beginnings)
 - [Plaintiff vs Defense Lawyers](#plaintiff-vs-defense-lawyers)
 - [Chemistry \& History](#chemistry--history)
 - [DuPont vs Google: Don't be evil?](#dupont-vs-google-dont-be-evil)
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/book/show/50782151-exposure)
 
 ## Overall
 

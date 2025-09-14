@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Mr. Robot: Season 2"
 date = "2016-07-17T14:28:48"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Mr. Robot: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/mr_robot/s02"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1
 -------------
@@ -116,4 +117,3 @@ An amazing second season. There's nothing I can say that I haven't already said 
 
 I'm really glad Tyrell is back because I like the character and would like to see what's more to come from him. I also didn't realize I watched the last episode of the season. While there were cliff hangers, I didn't feel like it paused on a crescendo right before the ball was about to drop. The story has reached a series of milestones, and I have a lot to digest and think about until the show is back.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/mr_robot/s02)

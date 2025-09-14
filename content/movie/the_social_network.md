@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Social Network"
 date = "2022-01-15T09:46:41.526000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of The Social Network"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/the-social-network"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 I remember watching this movie in 2010 when it just came out, and I just rewatched it in 2022 during its last month of Netflix. It is fascinating how much time has passed, how things have changed.
 
@@ -21,5 +22,3 @@ I remember watching this movie in 2010 when it just came out, and I just rewatch
 4. Facebook has been renamed to Meta Platforms.
 
 5. Justin Timberlake was only 27 when the movie was being filmed, and I'm 29 as of writing this review. I feel old...
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/the-social-network)

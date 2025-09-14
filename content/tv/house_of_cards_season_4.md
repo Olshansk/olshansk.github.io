@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "House of Cards: Season 4"
 date = "2016-03-05T15:38:04"
@@ -6,9 +7,9 @@ description = "Olshansky's review of House of Cards: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/house-of-cards/s04"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 Episode 1
 ------------
@@ -20,4 +21,3 @@ I don't have too much too much say other than the fact that the whole season was
 
 A rollercoaster of emotions and events, from Frank's & Claire's fight, to the battle with Conway, the death of Claire's wife, the president being shot, and many different affairs affiliated with many different emotions. The cinematography was great, the storyline was thrilling, and I could never predict what was going to happen next. After a poor third season, the writers came out with what is potentially the best season of HoC so far.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/house-of-cards/s04)

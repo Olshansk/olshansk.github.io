@@ -1,16 +1,14 @@
 +++
 author = "Daniel Olshansky"
-title = "Branding that Means Business: A great reader that's worth reading earlier in your career (2.5/5)"
+title = "Branding that Means Business: A great reader that's worth reading earlier in your career"
 date = "2024-11-29T00:00:00.000000"
 description = "Olshansky's review of Branding that Means Business"
 tags = [
     "book",
 ]
+rating = "⭐⭐🌟"
+goodreads_url = "https://www.goodreads.com/en/book/show/62697113-branding-that-means-business"
 +++
-
-Rating: ⭐⭐🌟
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/en/book/show/62697113-branding-that-means-business)
 
 - [Summary](#summary)
 - [Key Takeaways \& Reflections](#key-takeaways--reflections)

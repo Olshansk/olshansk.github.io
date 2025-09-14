@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "For All Mankind: Season 3"
 date = "2024-01-27T01:18:01"
@@ -6,9 +7,9 @@ description = "Olshansky's review of For All Mankind: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/for_all_mankind/s03"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Another amazing season for all mankind, and again, they keep raising their own bar.
 
@@ -32,4 +33,3 @@ surface, the number of "bams" here was even bigger.
 
 The craziest thing is that all of this seems kind of reasonable.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/for_all_mankind/s03)

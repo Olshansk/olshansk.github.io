@@ -6,9 +6,9 @@ description = "Olshansky's review of The Art of Learning"
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐⭐"
+goodreads_url = "https://www.goodreads.com/en/book/show/857333"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 - [General](#general)
 - [Key Takeaway](#key-takeaway)
@@ -21,8 +21,6 @@ Rating: ⭐⭐⭐⭐⭐
 - [Fear as a Master](#fear-as-a-master)
 - [Mindset](#mindset)
 - [Follow Ups](#follow-ups)
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/en/book/show/857333)
 
 ## General
 

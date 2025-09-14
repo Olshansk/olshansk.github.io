@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The White Lotus: Season 3"
 date = "2025-04-06T20:34:28.748000"
@@ -6,9 +7,9 @@ description = "Olshansky's review of The White Lotus: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/the_white_lotus/s03"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Absolutely loved it.
 
@@ -21,4 +22,3 @@ Fun fact: one thing I didn't realize up until the very end is that the older bro
 
 Can't wait for the next season, and I'll wait patiently for it.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/the_white_lotus/s03)

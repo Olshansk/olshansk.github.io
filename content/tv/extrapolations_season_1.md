@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Extrapolations: Season 1"
 date = "2024-01-20T04:45:11"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Extrapolations: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/extrapolations/s01"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Every single episode was thrilling, thought provoking and original, but holistically
 it was missing something. I can't tell if it was the lack of a central plot, a bit
@@ -62,4 +63,3 @@ no free lunch. It was a strong cast overall. It didn't blow your mind, but wrapp
 everything up as well as one could. The moment that stood out most to me was
 when the CEO of Alpha said: `everything in life is a transaction`.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/extrapolations/s01)

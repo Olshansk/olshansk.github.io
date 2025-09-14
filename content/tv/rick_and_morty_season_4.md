@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Rick and Morty: Season 4"
 date = "2020-09-26T19:14:06.238000"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Rick and Morty: Season 4"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/rick_and_morty/s04"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Another hilarious, brilliant and original season of Rick & Morty!
 
@@ -20,4 +21,3 @@ The only things that really stood out are that the first episode of the season m
 
 This is by far my favorite cartoon and is probably the only one I'm willing to rewatch.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/rick_and_morty/s04)

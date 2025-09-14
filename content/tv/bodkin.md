@@ -1,14 +1,15 @@
 +++
+
 author = "Daniel Olshansky"
-title = "Bodkin (Limited Series): (2.5/5)"
+title = "Bodkin (Limited Series)"
 date = "2025-03-03T09:47:17.547000"
 description = "Olshansky's review of Bodkin (Limited Series)"
 tags = [
     "tv",
 ]
+rating = "⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/bodkin"
 +++
-
-Rating: ⭐⭐🌟
 
 Took me four months to get through this one between holidays, travel and finishing
 multiple other shows in between.
@@ -27,4 +28,3 @@ but it doesn't mean that they don't care about the people around them, because t
 I don't see myself recommending this to anyone, and I also wouldn't commit to season
 2 if it were to ever come out.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/bodkin)

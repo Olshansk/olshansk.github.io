@@ -6,11 +6,9 @@ description = "Olshansky's review of Million Dollar Weekend"
 tags = [
     "book",
 ]
+rating = "⭐⭐⭐⭐⭐"
+goodreads_url = "https://www.goodreads.com/en/book/show/145624504"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
-
-[📚 GoodReads Info 📚](https://www.goodreads.com/en/book/show/145624504)
 
 - [Overall](#overall)
 - [Noah's Backstory](#noahs-backstory)

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Midnight Special"
 date = "2016-08-03T12:33:58"
+rating = "⭐🌟"
+
 description = "Olshansky's review of Midnight Special"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/midnight_special_2015"
 +++
-
-Rating: ⭐🌟
 
 I saw this on a flight from SFO to YYZ and think this movie was a waste of time.
 
@@ -19,5 +20,3 @@ The plot is dry and simple: get the kid with visions from point A to point B for
 It was not suspenseful or intriguing in any sense. There was very little surprise because it was always clear how things would turn out in the end.
 
 A couple cool scenes, raw ideas and nice visual effects from far from saving this movie.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/midnight_special_2015)

@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Succession: Season 1"
 date = "2024-03-29T01:18:01"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Succession: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/succession/s01"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Extremely engaging from the very first scene.
 
@@ -25,4 +26,3 @@ engaging, original, fun to watch and I'd recommend it to all my friends, it's no
 on the same level (yet) as those who truly deserve five stars; Game of Thrones,
 Breaking Bad, The Leftovers, etc...
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/succession/s01)

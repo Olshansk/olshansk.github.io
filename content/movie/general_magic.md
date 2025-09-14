@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "General Magic"
 date = "2019-09-02T07:43:52.970000"
+rating = "⭐⭐⭐"
+
 description = "Olshansky's review of General Magic"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/general_magic"
 +++
-
-Rating: ⭐⭐⭐
 
 An origin story everyone should know about finally brought to light, but the lack of a happy ending feels like it doesn't do justice to the people behind it.
 
@@ -25,6 +26,4 @@ An origin story everyone should know about finally brought to light, but the lac
 \n\nA lot of successful engineers speak of how they simply like to "tinker with things" and "follow their passion". Tony Fadell is the most classic example of how true and false that is. He desperately wanted to join and contribute to the company even though he was a lot less qualified than everyone else. He followed his passion, he tinkered with things, and learnt a lot in the meantime. However, towards the end of the film, he briefly speaks about a business plan he came up with (which was rejected) about how to bring a simpler, but cheaper, product to the market in a shorter period of time. He ultimately brings his experience and mindset back to Apple to release the iPhone, iPod and achieve great success. This shows the fine balance and tradeoffs that need to be made between passion and success. This also questions Peter Thiel's thesis of "Zero To One". Arguably, General Magic was trying to make that leap, but while the leap from 0 to 1 wouldn't been impressive, the leap from 0 to 0.1 would have had the same magnitude.
 
 
-\n\nAt the time of writing this review, I've been at Magic Leap for about three years. If I had a nickel for every moment I wanted to say "this is just like Magic Leap",  I would probably have a few dollars by the end of the film. Most notably, I kept asking myself what the Magic Link was actually useful for at the time. Similarly, a lot of people ask me what the Magic Leap can be used for. There are a few basic use cases, with some very intriguing first party content, but both products are just very expensive proof of concepts that are paving the path forward. The flipping coin in the Magic Link was cool, as are the floating islands in the Magic Leap boot up sequence, but is it really necessary? 
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/general_magic)
+\n\nAt the time of writing this review, I've been at Magic Leap for about three years. If I had a nickel for every moment I wanted to say "this is just like Magic Leap",  I would probably have a few dollars by the end of the film. Most notably, I kept asking myself what the Magic Link was actually useful for at the time. Similarly, a lot of people ask me what the Magic Leap can be used for. There are a few basic use cases, with some very intriguing first party content, but both products are just very expensive proof of concepts that are paving the path forward. The flipping coin in the Magic Link was cool, as are the floating islands in the Magic Leap boot up sequence, but is it really necessary?

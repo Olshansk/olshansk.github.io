@@ -1,0 +1,4 @@
+post_id,timestamp,email,post_type,post_audience,active_subscription,country,city,region,device_type,client_os,client_type,user_agent
+51887479,2022-04-08T23:06:12.229Z,tom.lesch99@gmail.com,newsletter,everyone,true,CA,Unknown,BC,mobile,Android,mobile browser,"Mozilla/5.0 (Linux; Android 11; HD1905) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Mobile Safari/537.36"
+51887479,2022-04-09T01:19:52.367Z,david810@gmail.com,newsletter,everyone,true,US,Seattle,WA,desktop,OS X,browser,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36"
+51887479,2022-04-09T10:13:48.813Z,quijote35@gmail.com,newsletter,everyone,true,US,Seattle,WA,mobile,Android,mobile browser,"Mozilla/5.0 (Linux; Android 11; SM-A515F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Mobile Safari/537.36"

@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Narcos: Season 2"
 date = "2016-11-16T21:51:58"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Narcos: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/narcos/s02"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1
 -----------
@@ -28,4 +29,3 @@ That was quite the ride! I love the angles in the shooting scenes. I love how ev
 
 It was a great ending that was true to real life (if you see the pictures) , and there might even be mroe!
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/narcos/s02)

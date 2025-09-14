@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Google Home — “Sorry, there was a glitch”</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Google Home — “Sorry, there was a glitch”</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+tl;dr Configure your router to disable IPv6 and use a 2.4 GHz WiFi band if you’re running into the same issue.
+</section>
+<section data-field="body" class="e-content">
+<section name="fbb0" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="b8e2" id="b8e2" class="graf graf--h3 graf--leading graf--title">Google Home — “Sorry, there was a glitch”</h3><p name="5a28" id="5a28" class="graf graf--p graf-after--h3 graf--trailing"><em class="markup--em markup--p-em">tl;dr Configure your router to disable IPv6 and use a 2.4 GHz WiFi band if you’re running into the same issue.</em></p></div></div></section><section name="cd31" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="9607" id="9607" class="graf graf--h3 graf--leading">Background</h3><p name="7be0" id="7be0" class="graf graf--p graf-after--h3">I got my parents a <a href="https://store.google.com/product/google_nest_hub_max" data-href="https://store.google.com/product/google_nest_hub_max" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Google Nest Hub Max</a> about a year ago, and have been very happy with the purchase. We use it for setting timers, making calls, fact-checking each other over dinner, and listening to exciting interviews/podcasts when we all need to take a break from socializing.</p><p name="92a1" id="92a1" class="graf graf--p graf-after--p">While visiting my family for the holidays, none of the voice commands worked. The <em class="markup--em markup--p-em">“Hey Google”</em> or <em class="markup--em markup--p-em">“Ok Google”</em> hot commands were consistently recognized, but the speech-to-text wasn’t functioning. The responses I got resulted in either an <strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">“I’m sorry, there was a glitch”</em></strong> or a <strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">“Hmm, something went wrong,”</em></strong> prompting me to try again in a few seconds.</p><p name="2c39" id="2c39" class="graf graf--p graf-after--p">I tried the basics: turning it off &amp; on, doing a factory reset, etc. It would work intermittently before settling back into its non-functional patterns.</p><h3 name="1882" id="1882" class="graf graf--h3 graf-after--p">Searching for a Solution</h3><p name="a28d" id="a28d" class="graf graf--p graf-after--h3">Having tried to use Google forums in the past, or opening tickets internally while working under the Alphabet umbrella, I knew that I’d have to figure this out myself.</p><p name="f951" id="f951" class="graf graf--p graf-after--p">There are countless <a href="https://www.reddit.com/r/googlehome/comments/pz9m6n/i_found_a_fix_for_the_there_was_a_glitch_try/" data-href="https://www.reddit.com/r/googlehome/comments/pz9m6n/i_found_a_fix_for_the_there_was_a_glitch_try/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Reddit threads</a>, <a href="https://www.googlenestcommunity.com/t5/Speakers-and-Displays/quot-There-was-a-glitch-quot-on-first-try-but-works-second-time/td-p/19093" data-href="https://www.googlenestcommunity.com/t5/Speakers-and-Displays/quot-There-was-a-glitch-quot-on-first-try-but-works-second-time/td-p/19093" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Google community</a> forum posts, and <a href="https://piunikaweb.com/2022/06/27/google-home-nest-devices-display-something-went-wrong-error/" data-href="https://piunikaweb.com/2022/06/27/google-home-nest-devices-display-something-went-wrong-error/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">articles</a> covering potential solutions, so I figured I’d share mine to help someone in the future.</p><h3 name="49a5" id="49a5" class="graf graf--h3 graf-after--p">My Solution</h3><p name="c6a1" id="c6a1" class="graf graf--p graf-after--h3">Please note that this is what worked for me and is not a universal solution to everyone’s situation.</p><p name="19e9" id="19e9" class="graf graf--p graf-after--p">I logged into my router’s admin portal at <a href="http://192.168.0.1" data-href="http://192.168.0.1" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">192.168.0.1</a>.</p><p name="1b80" id="1b80" class="graf graf--p graf-after--p">I had to disable <a href="https://www.rogers.com/support/internet/understanding-dual-band-and-band-steering" data-href="https://www.rogers.com/support/internet/understanding-dual-band-and-band-steering" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Band Steering</a>, which creates two WiFi band frequencies (2.4G and 5G) under a single SSID. To have two separate network names visible when selecting a WiFi network, you may have to disable this feature as well:</p><figure name="6f16" id="6f16" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*u2DMiJeRtL_QKbb2iGLkbQ.png" data-width="1364" data-height="1150" data-is-featured="true" alt="Disable band steering on a Hitron router" src="https://cdn-images-1.medium.com/max/800/1*u2DMiJeRtL_QKbb2iGLkbQ.png"><figcaption class="imageCaption">Disable band steering on a Hitron router</figcaption></figure><p name="2f4d" id="2f4d" class="graf graf--p graf-after--figure">This enabled me to force the 2.4G network to always use a 20 MHz Channel Bandwidth with the suffix <em class="markup--em markup--p-em">-2.4G:</em></p><figure name="ce40" id="ce40" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*xvLBRH9lWvv5p6_AI2F9aQ.png" data-width="2388" data-height="1626" src="https://cdn-images-1.medium.com/max/800/1*xvLBRH9lWvv5p6_AI2F9aQ.png"></figure><p name="5f03" id="5f03" class="graf graf--p graf-after--figure">And the 5G network to always use an 80 MHz bandwidth channel:</p><figure name="cf3f" id="cf3f" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*7p0gqvSPje34qRpQ1lWzJA.png" data-width="2388" data-height="1634" src="https://cdn-images-1.medium.com/max/800/1*7p0gqvSPje34qRpQ1lWzJA.png"></figure><p name="d448" id="d448" class="graf graf--p graf-after--figure graf--trailing">I didn’t investigate why this was the solution, but I would guess that it has to do with how Google optimizes streaming data to/from its servers. Hopefully, it helps you out as well!</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@olshansky" class="p-author h-card">Daniel Olshansky</a> on <a href="https://medium.com/p/7e77245692f7"><time class="dt-published" datetime="2022-12-26T17:58:14.306Z">December 26, 2022</time></a>.</p><p><a href="https://medium.com/@olshansky/google-home-sorry-there-was-a-glitch-7e77245692f7" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 13, 2025.</p></footer></article></body></html>

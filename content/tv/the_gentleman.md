@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The Gentlemen: Season 1"
 date = "2025-01-16T23:20:26"
@@ -6,9 +7,9 @@ description = "Olshansky's review of The Gentlemen: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/the_gentlemen/s01"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Instantly in one of my top 5 shows of all time, and it'll likely stay there for a long time.
 
@@ -44,4 +45,3 @@ mattered, was cared for, was thought through and executed to perfection.
 I'll be talking about this show all year long, at the very least, and really hope
 there's a season 2 in the works.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/the_gentlemen/s01)

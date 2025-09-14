@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Our Times"
 date = "2025-08-04T20:07:00"
+rating = "⭐⭐"
+
 description = "Olshansky's review of Our Times"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/our_times_2025"
 +++
-
-Rating: ⭐⭐
 
 One of those movies that could have been much better than what it was.
 
@@ -22,5 +23,3 @@ As good as Paul Rudd is, he can't carry a bad cast.
 
 Overall, it has potential, but the execution was subpar. If you're on something and want to
 pass the time, it might not be a bad choice though.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/our_times_2025)

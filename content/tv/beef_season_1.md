@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Beef: Season 1"
 date = "2024-01-27T01:18:01"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Beef: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/beef/s01"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Surprising in all the right and wrong ways. It's cathartic, cringy, surprising,
 enticing, real, powerful, sad, thoughtful, retrospective and simply raw.
@@ -25,4 +26,3 @@ Lastly, as Chekhov said, "If in the first act you have hung a pistol on the wall
 then in the following one it should be fired. Otherwise don't put it there." It
 continues to hold true.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/beef/s01)

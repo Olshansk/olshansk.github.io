@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Silicon Valley: Season 3"
 date = "2016-04-25T02:02:17"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Silicon Valley: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/silicon_valley/s03"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 Episode 1
 -------------
@@ -48,4 +49,3 @@ A great way to finish off the season. I love the sense of realism in the show, r
 
 Overall, I'm really excited about how things ended, with Bachmanity buying the company and a new company structure to look forward to next year. :) Man, what an emotional rollecoaster though.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/silicon_valley/s03)

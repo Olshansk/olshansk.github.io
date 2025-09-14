@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "The 100: Season 3"
 date = "2016-01-22T15:32:26"
@@ -6,9 +7,9 @@ description = "Olshansky's review of The 100: Season 3"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/the_100/s03"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1
 -------------
@@ -101,4 +102,3 @@ It's difficult to write a thrilling, entertaining, partially unexpected ending t
 
 The final episode was action packed, forcing all the characters to really show their true colors and make difficult decisions. The ending, in my opinion, was the best move they could have made. It wasn't a sappy / cheesy and happy ending, but nor did everything go to shit. It was the perfect balance of reality fiction that's not making me itch for more but still look forward to the next season.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/the_100/s03)

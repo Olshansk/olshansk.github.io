@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Dark Matter: Season 1"
 date = "2024-07-24T10:27:03"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Dark Matter: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/dark_matter_2024/s01"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 I acknowledge that the multi-verse theme is no longer novel, and may get tiring, but in the meantime, keep it coming!
 
@@ -26,4 +27,3 @@ Though Jason and Daniela had the most screen time, I'd have to say that Amanda a
 
 Also, Alice Braga (playing Amanda Lucas) has the most beautiful smile I've ever seen.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/dark_matter_2024/s01)

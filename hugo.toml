@@ -1,46 +1,106 @@
 baseurl = "http://www.olshansky.info"
 title = "🦉 olshansky 🦁"
-theme = "hugo-coder"
+theme = "PaperMod"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
+# Disable pagination - show all items on one page
+[pagination]
+  pagerSize = 1000
 
-disqusShortname = "olshansky"
+# Commenting out Disqus for now
+# disqusShortname = "olshansky"
 
 # https://analytics.google.com/analytics/web
 googleAnalytics = 'G-15DW3DE66X'
 
 [markup.highlight]
-style = "github-dark"
+style = "monokai"
 
 [params]
   author = "Daniel Olshansky"
-  info = "Figuring out what I want to do instead of what I  want to want to do"
   description = "Everything about Olshansky"
-  keywords = "blog,developer,personal"
-  avatarURL = "/images/charicature.jpeg"
-  # gravatar = "olshansky.daniel@gmail.com"
+  keywords = ["blog", "developer", "personal"]
 
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  # Show reading time and word count
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  ShowToc = true
+  TocOpen = false
+  hideSummary = false
+  hideFooter = false
+  ShowFullTextinRSS = false
 
-  since = 1992
+  # Enable search
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
 
-  maxSeeAlsoItems = 5
-  commit = false
-  rtl = false
-  math = false
-  katex = false
+  # Home page configuration
+  mainSections = ["posts"]
 
-  colorScheme = "dark"
-  hideColorSchemeToggle = false
+  # Color scheme
+  defaultTheme = "dark"
+  disableThemeToggle = false
 
-  customCSS = ["css/brands.min.css", "css/fontawesome.min.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+  # Custom date format
+  DateFormat = "January 2, 2006"
 
-  enableTwemoji = true
+  # Favicon
+  favicon = "/img/favicon-32x32.png"
+  favicon16x16 = "/img/favicon-16x16.png"
+  favicon32x32 = "/img/favicon-32x32.png"
+
+  # Profile mode configuration for home page
+  [params.profileMode]
+    enabled = true
+    title = "Daniel Olshansky"
+    subtitle = "Figuring out what I want to do instead of what I want to want to do"
+    imageUrl = "/images/charicature.jpeg"
+    imageWidth = 200
+    imageHeight = 200
+    imageTitle = "Daniel Olshansky"
+
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "posts"
+    [[params.profileMode.buttons]]
+      name = "Books"
+      url = "book"
+    [[params.profileMode.buttons]]
+      name = "Movies"
+      url = "movie"
+    [[params.profileMode.buttons]]
+      name = "Shows"
+      url = "tv"
+
+  # Social Icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/olshansk"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/olshansky"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/dolshansky"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "https://olshansky.info/index.xml"
 
 [taxonomies]
   category = "categories"
@@ -48,119 +108,42 @@ style = "github-dark"
   tag = "tags"
   author = "authors"
 
-# Social links
+# Search page
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
-[[params.social]]
-  name = "Github"
-  icon = "fa fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/olshansk"
-
-[[params.social]]
-  name = "Substack"
-  icon = "fa fa-pencil fa-2x"
-  weight = 1
-  url = "https://olshansky.substack.com"
-
-[[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 1
-  url = "https://twitter.com/olshansky"
-
-[[params.social]]
-  name = "LinkedIn"
-  icon = "fa fa-linkedin fa-2x"
-  weight = 1
-  url = "https://www.linkedin.com/in/dolshansky"
-
-[[params.social]]
-  name = "Medium"
-  icon = "fa fa-medium fa-2x"
-  weight = 1
-  url = "https://olshansky.medium.com"
-
-[[params.social]]
-  name = "Instagram"
-  icon = "fa fa-instagram fa-2x"
-  weight = 1
-  url = "https://instagram.com/olshansk"
-
-# TODO: Need to update css to fix this
-[[params.social]]
-  name = "Strava"
-  icon = "fab fa-strava fa-2x"
-  weight = 1
-  url = "https://www.strava.com/athletes/65389405"
-
-# TODO: Link to all the things I read.
-# https://medium.com/me/stories/responses
-# https://olshansky.substack.com/notes
-# https://x.com/search?q=%23linkblogging%20from%3Aolshansky&src=typed_query
-
-
-[[params.social]]
-  name = "Telegram"
-  icon = "fa fa-telegram fa-2x"
-  weight = 1
-  url = "https://t.me/dolshansky"
-
-[[params.social]]
-  name = "RSS"
-  icon = "fa fa-rss fa-2x"
-  weight = 1
-  url = "https://olshansky.info/index.xml"
-
-# Menu links
-
+# Menu configuration
 [[menu.main]]
   name = "About"
   weight = 1
-  url = "about/"
-
-# [[menu.main]]
-#   name = "Contact"
-#   weight = 1
-#   url = "contact/"
-
-# [[menu.main]]
-#   name = "Blog"
-#   weight = 1
-#   url  = "posts/"
-
+  url = "/about/"
 
 [[menu.main]]
-  name = "Presentations"
-  weight = 1
-  url = "https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E"
-
-[[menu.main]]
-  name = "Publications"
+  name = "Posts"
   weight = 2
-  url = "https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en&oi=sra"
+  url = "/posts/"
 
 [[menu.main]]
-  name = "Book Reviews"
+  name = "Books"
   weight = 3
-  url = "book/"
+  url = "/book/"
 
 [[menu.main]]
-  name = "Movie Reviews"
+  name = "Movies"
   weight = 4
-  url = "movie/"
+  url = "/movie/"
 
 [[menu.main]]
-  name = "Show Reviews"
+  name = "Shows"
   weight = 5
-  url = "tv/"
+  url = "/tv/"
 
-# TODO: Figure out why my namecheap URL redirect at podcasts.olshansky.info isn't working
 [[menu.main]]
-  name = "Podcast List"
+  name = "Search"
   weight = 6
-  url = "https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e"
+  url = "/search/"
 
-# If you want to implement a Content-Security-Policy, add this section
+# CSP Configuration (if needed later)
 [params.csp]
   childsrc = ["'self'"]
   fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
@@ -182,7 +165,6 @@ style = "github-dark"
     "https://assets.onedollarstats.com",
   ]
   prefetchsrc = ["'self'"]
-  # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
   connectsrc = [
     "'self'",
     "https://www.google-analytics.com",

@@ -1,11 +1,14 @@
 +++
 author = "Daniel Olshansky"
-title = "Martha: A hard-working perfectionist who got really unlucky (4/5)"
+title = "Martha: A hard-working perfectionist who got really unlucky"
 date = "2025-01-05T00:00:00"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Martha"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/martha_2024"
 +++
 
 **To Martha**: In case you ever read this, I just wanted to say that you deserve
@@ -14,7 +17,6 @@ to visit your home for a brunch or dinner if the opportunity ever comes up. ✌�
 
 ---
 
-Rating: ⭐⭐⭐⭐
 
 I'm projecting, but will go ahead and say that if you're a late 80s or early 90s
 millennial from the US, Martha Stewart is most likely one of three things:
@@ -70,5 +72,3 @@ Apparently it was her return to relevancy and I had no clue.
 I don't have much to add other than the fact that Martha is a badass. In the
 documentary, I could tell her mind is still sharp but her body is aging. If the
 opportunity to meet her ever comes up, I'd take it in a heart beat.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/martha_2024)

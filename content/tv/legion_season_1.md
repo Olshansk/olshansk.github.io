@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Legion: Season 1"
 date = "2018-01-14T06:43:49"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Legion: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/legion/s01"
 +++
-
-Rating: ⭐⭐⭐🌟
 
 The first few episodes were extremely captivating, but it started getting a little bit repetitive towards the end.
 
@@ -18,4 +19,3 @@ The show started off deep, emotional, confusing and challenging to comprehend. H
 
 Entertaining but would not recommend.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/legion/s01)

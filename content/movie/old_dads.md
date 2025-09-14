@@ -1,14 +1,15 @@
 +++
 author = "Daniel Olshansky"
-title = "Old Dads: Not an Old Movie, but it's good those good ol' vibes (3.5/5)"
+title = "Old Dads: Not an Old Movie, but it's good those good ol' vibes"
 date = "2024-11-28T00:00:00"
+rating = "⭐⭐⭐🌟"
+
 description = "Olshansky's review of Old Dads"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/old_dads"
 +++
-
-Rating: ⭐⭐⭐🌟
 
 A great film for the guys out there when you're looking for something lighthearted and fun.
 
@@ -27,5 +28,3 @@ Aside from all the serious reflection stuff, I had two other favorite moments th
 
 1. The entire "Hella Mike" scene
 2. The scene at the end related to the "No cap" handshake
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/old_dads)

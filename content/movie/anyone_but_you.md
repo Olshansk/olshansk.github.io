@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Anyone But You"
 date = "2024-03-22T06:38:59.515000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of Anyone But You"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/anyone_but_you_2023"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 A rom-com is part of my regular "burnout recovery" routine, and this was exactly what the doctor ordered :)
 
@@ -23,5 +24,3 @@ Thirdly, you need some originality in the script. This whole wedding getaway, wi
 Last, you need the case to be good looking. That's not a problem ;)
 
 Highly recommend watching this interview after watching the film: https://www.youtube.com/watch?v=9U855AUQrvA
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/anyone_but_you_2023)

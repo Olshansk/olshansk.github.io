@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Rick and Morty: Season 1"
 date = "2016-11-17T11:00:15"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Rick and Morty: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/rick_and_morty/s01"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 Episode 1: I've been looking for something to fill the gap left by futurama for some time now, and this may be it.
 
@@ -26,4 +27,3 @@ Episode 10: As a big fan of parallel universes and time-travel movies, this defi
 
 Episode 11: Amazing first season! Would not have changed a single thing.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/rick_and_morty/s01)

@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "The Menu"
 date = "2025-03-28T11:10:30"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of The Menu"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/the_menu"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The Menu is reminiscent of "The Bear" if you were to give it a dark twist and
 some thrilling suspense.
@@ -27,5 +28,3 @@ A couple moments that stuck out are:
 
 - The monologue about "not eating" was something I'll never forget
 - The entire cheesburger subplot was masterfully done and executed
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/the_menu)

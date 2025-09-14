@@ -1,0 +1,41 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat))) }}
+{{- end }}
+
+{{- if .Params.rating -}}
+{{- $scratch.Add "meta" (slice .Params.rating) }}
+{{- end }}
+
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+{{- end }}
+
+{{- if (.Param "ShowWordCount") -}}
+{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
+{{- end }}
+
+{{- if .Params.goodreads_url -}}
+{{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">GoodReads</a>" .Params.goodreads_url .Params.goodreads_url)) }}
+{{- end }}
+
+{{- if .Params.imdb_url -}}
+{{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">IMDb</a>" .Params.imdb_url .Params.imdb_url)) }}
+{{- end }}
+
+{{- if .Params.rotten_tomatoes_url -}}
+{{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">Rotten Tomatoes</a>" .Params.rotten_tomatoes_url .Params.rotten_tomatoes_url)) }}
+{{- end }}
+
+{{- if .Params.medium_url -}}
+{{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">Medium</a>" .Params.medium_url .Params.medium_url)) }}
+{{- end }}
+
+{{- if .Params.substack_url -}}
+{{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">Substack</a>" .Params.substack_url .Params.substack_url)) }}
+{{- end }}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . " · " | safeHTML -}}
+{{- end -}}

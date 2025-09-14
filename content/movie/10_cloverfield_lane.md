@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "10 Cloverfield Lane"
 date = "2016-03-13T08:39:28"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of 10 Cloverfield Lane"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/10_cloverfield_lane"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Very interesting film.
 
@@ -19,5 +20,3 @@ Howard, a nice, psychotic, trained, prepared and absurd individual really made m
 The sequence of events was extremely realistic and never farfetched; except for perhaps the liquor bomb at the very end.
 
 I'm really excited to see what's next for Michelle, but more importantly, I think this film proved that Cloverfield is a brand that'll stay with us for quite a while. There have been so many films over the years that address alien invasion, but Cloverfield takes away the cliches and only leaves behind the raw aspects of survival, which differ greatly between every set of individuals. There could be dozens of different films revolving around the same set of events, and being one grander plot, we might see a lot of interesting overlap between the various storylines. Lots of opportunities for discussion and fanboism.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/10_cloverfield_lane)

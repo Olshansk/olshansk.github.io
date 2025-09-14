@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Explaining Fully Homomorphic Encryption to My mom</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Explaining Fully Homomorphic Encryption to My mom</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Baking bread by reading &amp; following the recipe VS Baking bread without ever seeing the recipe
+</section>
+<section data-field="body" class="e-content">
+<section name="7c0c" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="254b" id="254b" class="graf graf--h3 graf--leading graf--title">Explaining Fully Homomorphic Encryption to my Mom</h3><p name="c17b" id="c17b" class="graf graf--p graf-after--h3"><strong class="markup--strong markup--p-strong"><em class="markup--em markup--p-em">tl;dr</em></strong></p><ul class="postList"><li name="f01e" id="f01e" class="graf graf--li graf-after--p"><strong class="markup--strong markup--li-strong"><em class="markup--em markup--li-em">Traditional encryption</em></strong><em class="markup--em markup--li-em"> = Baking bread by reading &amp; following the recipe</em></li><li name="b9af" id="b9af" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong"><em class="markup--em markup--li-em">Homomorphic encryption</em></strong><em class="markup--em markup--li-em"> = Baking bread without ever seeing the recipe</em></li></ul><h3 name="68df" id="68df" class="graf graf--h3 graf-after--li">Traditional Encryption</h3><ol class="postList"><li name="902d" id="902d" class="graf graf--li graf-after--h3">Mom writes her secret bread recipe</li><li name="e1e4" id="e1e4" class="graf graf--li graf-after--li">She locks it (encrypts it)</li><li name="b516" id="b516" class="graf graf--li graf-after--li">She sends it to me (no one can steal it along the way)</li><li name="e359" id="e359" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">I unlock it (decrypt) and read it</strong></li><li name="c496" id="c496" class="graf graf--li graf-after--li">I follow the instructions and bake bread</li><li name="b223" id="b223" class="graf graf--li graf-after--li">I can share the unencrypted recipe with others</li></ol><p name="6bef" id="6bef" class="graf graf--p graf-after--li">Note that both my mom and I have a version of the key. We can both lock or unlock the recipe. Afterwards, I could theoretically share the recipe with my friends who could bake bread themselves; <em class="markup--em markup--p-em">though whether I should is another story 🙃.</em></p></div><div class="section-inner sectionLayout--outsetColumn"><figure name="60b3" id="60b3" class="graf graf--figure graf--layoutOutsetCenter graf-after--p"><img class="graf-image" data-image-id="1*DPGwqEhmGikgNIX1SDhjJg.png" data-width="2606" data-height="636" src="https://cdn-images-1.medium.com/max/1200/1*DPGwqEhmGikgNIX1SDhjJg.png"><figcaption class="imageCaption">Traditional Encryption Flow for a Secret Bread Recipe</figcaption></figure></div><div class="section-inner sectionLayout--insetColumn"><h3 name="8c3a" id="8c3a" class="graf graf--h3 graf-after--figure">Homomorphic Encryption</h3><ol class="postList"><li name="0e9a" id="0e9a" class="graf graf--li graf-after--h3">Mom writes her secret bread recipe</li><li name="0b47" id="0b47" class="graf graf--li graf-after--li">She locks it (encrypts it)</li><li name="1960" id="1960" class="graf graf--li graf-after--li">She sends it to me (no one can steal it along the way)</li><li name="da35" id="da35" class="graf graf--li graf-after--li"><strong class="markup--strong markup--li-strong">I do not unlock it</strong></li><li name="2705" id="2705" class="graf graf--li graf-after--li">I <strong class="markup--strong markup--li-strong"><em class="markup--em markup--li-em">magically</em></strong> follow the instructions and bake bread</li><li name="6d6d" id="6d6d" class="graf graf--li graf-after--li">I can share the encrypted recipe with others</li></ol><p name="6b0d" id="6b0d" class="graf graf--p graf-after--li">Note that while my mom has a key she used to lock the recipe, I have a <em class="markup--em markup--p-em">“magic key”</em> that lets me follow the instructions without actually knowing what’s written inside. If I were to share the recipe with others, they’d need a version of the <em class="markup--em markup--p-em">“magic key”</em> as well.</p></div><div class="section-inner sectionLayout--outsetColumn"><figure name="6a16" id="6a16" class="graf graf--figure graf--layoutOutsetCenter graf-after--p"><img class="graf-image" data-image-id="1*bDijSJu81p_u05R6CClBYQ.png" data-width="2305" data-height="636" data-is-featured="true" src="https://cdn-images-1.medium.com/max/1200/1*bDijSJu81p_u05R6CClBYQ.png"><figcaption class="imageCaption">Homomorphic Encryption Flow for a Secret Bread Recipe</figcaption></figure></div><div class="section-inner sectionLayout--insetColumn"><h3 name="f3bb" id="f3bb" class="graf graf--h3 graf-after--figure">Reality Check</h3><p name="5d69" id="5d69" class="graf graf--p graf-after--h3">Of course, there’s no literal <em class="markup--em markup--p-em">“magic key.”</em> Instead, it’s a mountain of math and cryptography. I don’t fully understand the details, but I do know that it’s slow and expensive.</p><p name="31a0" id="31a0" class="graf graf--p graf-after--p">Right now, homomorphic encryption works for small, simple online tasks. It’ll be a while before it’s fast and efficient enough to protect all of our online data.</p><p name="b925" id="b925" class="graf graf--p graf-after--p">And just for the record: I don’t actually bake bread. Here’s what usually happens instead…</p></div><div class="section-inner sectionLayout--outsetColumn"><figure name="7987" id="7987" class="graf graf--figure graf--layoutOutsetCenter graf-after--p graf--trailing"><img class="graf-image" data-image-id="1*2cNs0QBdMa-B_n_rfzv0PQ.png" data-width="1311" data-height="531" src="https://cdn-images-1.medium.com/max/1200/1*2cNs0QBdMa-B_n_rfzv0PQ.png"></figure></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@olshansky" class="p-author h-card">Daniel Olshansky</a> on <a href="https://medium.com/p/c14ebb724910"><time class="dt-published" datetime="2025-08-26T03:45:34.921Z">August 26, 2025</time></a>.</p><p><a href="https://medium.com/@olshansky/explaining-fully-homomorphic-encryption-to-my-mom-c14ebb724910" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 13, 2025.</p></footer></article></body></html>

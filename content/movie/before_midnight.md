@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Before Midnight"
 date = "2015-08-15T13:07:00"
+rating = "⭐⭐⭐⭐🌟"
+
 description = "Olshansky's review of Before Midnight"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com//m/before_midnight_2013"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 Another beautiful movie in a very moving series.
 
@@ -19,5 +20,3 @@ The scene where they were driving just shows a couple that's been together for a
 I love that the tone and the characters remain the same but the themes change. It shows that we, as people, never really change, but it is only what we're concerned with around us that's mutable. Our view and perspective of the world may develop and become more well grounded, but for the most part it is still the same. Jesse was a horny teenager in 1994, 2003 and 2012. At first he had no worries and no plans, then he had a bad marriage with a kid and a best seller, and eventually he moved on to two marriages, established as an author, but still a horny teenager. Celine was always a crazy political feminist/activist, and nothing changed. The only difference is that she simply had more responsibilities and shit to deal with after the twins were born. 
 
 If not for the very last scene, I'd have a very difficult time letting go of the movie, but it's relieving to see that they found a way to reconnect and reignite the flame of passion from almost two decades ago. Can't wait for the next one :)
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//m/before_midnight_2013)

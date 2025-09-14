@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Andrew Schulz: Life"
 date = "2025-03-26T11:10:30"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Andrew Schulz's Netflix Special: Life"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/andrew_schulz_life"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 I watched this Netflix special over the course of a few nights instead of doom
 scrolling Instagram before bed. I have to say that choosing standup over instagram
@@ -40,5 +41,3 @@ two separate podcasts: Modern Wisdom and the All-In Podcast. There was some over
 but the combination of all three gave me a 360 view of him, and my impression is that
 he's genuine, hard-working, has a ton of grit, resilience, is truly kind and loves
 his family.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/andrew_schulz_life)

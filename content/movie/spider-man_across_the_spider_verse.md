@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "SPIDER-MAN: ACROSS THE SPIDER-VERSE"
 date = "2023-06-27T00:00:00.000000"
+rating = "⭐⭐⭐⭐⭐"
+
 description = "Olshansky's review of SPIDER-MAN: ACROSS THE SPIDER-VERSE"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse"
 +++
-
-Rating: ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐
 
 One of my all-time favorite movies.
 
@@ -21,5 +22,3 @@ Romance - The relationship between Gwen and Miles almost made me cry. The scene 
 Character Development - 🕷️👨 is an ⬇️🐕 story, but when you have spider-man fighting all the other spider-man, that's the true ⬇️⬇️⬇️🐕. It was amazing.
 
 Plot - The film was 2.5 hours in length and ended with a "to be continued...". Any film that does this know they made a great movie and are confident there will be another. They know they killed it and didn't have to rush to start and end the story in 2.5 hours, so it's essentially turning to be the same length as a short Netflix mini-series. They set an extremely high bar, and more of the same is the best they can do. I already can't wait for the next one.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse)

@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Rebound: Season 2"
 date = "2015-11-10T13:54:42"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Rebound: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/the_returned/s02"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 Episode 1
 -------------
@@ -40,4 +41,3 @@ Do the returned have powers to make you do/think something that's not real or wh
 
 Episode 7: The first half is a little slow and not moves really slowly. The second half is pretty ridiculous though. We're finally beginning to learn more and more of everyone's powers and their past, but the connections are still very lose. I can't wait to learn more about the Victor's history!
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/the_returned/s02)

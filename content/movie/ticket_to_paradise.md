@@ -2,13 +2,14 @@
 author = "Daniel Olshansky"
 title = "Ticket to Paradise"
 date = "2025-07-17T11:10:30"
+rating = "⭐⭐⭐⭐"
+
 description = "Olshansky's review of Ticket To Paradise"
 tags = [
     "movie",
 ]
+rotten_tomatoes_url = "https://www.rottentomatoes.com/m/ticket_to_paradise_2022"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 Right place. Right Time. Right Circumstances.
 
@@ -19,5 +20,3 @@ lovely cast led by George Clooney and Julia Roberts.
 
 It's funny. It's real. It's silly. It has a great cast. It's no masterpiece, but
 it's filled with surprised and totally worth watching.
-
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/m/ticket_to_paradise_2022)

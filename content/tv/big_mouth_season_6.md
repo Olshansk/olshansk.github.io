@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Big Mouth: Season 6"
 date = "2023-02-11T11:55:20.349000"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Big Mouth: Season 6"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/big_mouth/s06"
 +++
-
-Rating: ⭐⭐⭐⭐
 
 It's more of the same thing, and I love it.
 
@@ -18,4 +19,3 @@ The writers make it light, funny, entertaining, and occasionally break the fourt
 
 I'm just going to keep on watching and can't wait for the next season!
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/big_mouth/s06)

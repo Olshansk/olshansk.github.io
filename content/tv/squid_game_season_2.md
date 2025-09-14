@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Squid Game: Season 2"
 date = "2025-02-23T20:34:28.748000"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Squid Game: Season 2"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐⭐"
+rotten_tomatoes_url = "https://www.rottentomatoes.com//tv/squid_game/s02"
 +++
-
-Rating: ⭐⭐⭐⭐⭐
 
 The takes for this game were high but squid game did not disappoint. Loved it,
 and can't wait for the second season to be released already.
@@ -38,4 +39,3 @@ Some of my favorite moments and themes:
 5. The ship captain being a man on the inside is mind-blowing.
 6. The fact that the organizer of everything was one of my favorite plot twists.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com//tv/squid_game/s02)

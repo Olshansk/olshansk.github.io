@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>TestIex — Easier Test Driven Development in Elixir</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">TestIex — Easier Test Driven Development in Elixir</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+One of my favorite features of elixir is being able to start a shell that loads the entire context of my project:
+</section>
+<section data-field="body" class="e-content">
+<section name="dc57" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="5977" id="5977" class="graf graf--h3 graf--leading graf--title">TestIex — Easier Test Driven Development in Elixir</h3><p name="0e57" id="0e57" class="graf graf--p graf-after--h3">One of my favorite features of elixir is being able to start a shell that loads the entire context of my project:</p><pre name="8179" id="8179" class="graf graf--pre graf-after--p">$ iex -S mix</pre><p name="1afc" id="1afc" class="graf graf--p graf-after--pre">It provides easy access to all of the project&#39;s modules so you could easily iterate on your code by compiling it directly from within the shell. You have the option to recompile the whole project or just a single module:</p><pre name="4e7a" id="4e7a" class="graf graf--pre graf-after--p"># single module<br>$ r MyModulesNameSpace.MyModule</pre><pre name="cc71" id="cc71" class="graf graf--pre graf-after--pre"># whole project<br>$ recompile</pre><p name="1af0" id="1af0" class="graf graf--p graf-after--pre">The other great thing about elixir is how easy it is to run unit tests:</p><pre name="1d35" id="1d35" class="graf graf--pre graf-after--p"># all tests<br>$ mix test</pre><pre name="1040" id="1040" class="graf graf--pre graf-after--pre"># single file<br>$ mix test ./path/test/file/test_file_test.exs</pre><pre name="d874" id="d874" class="graf graf--pre graf-after--pre"># single test<br>$ mix test ./path/test/file/test_file_test.exs:&lt;line_number&gt;</pre><p name="4d4c" id="4d4c" class="graf graf--p graf-after--pre">When projects are small, <em class="markup--em markup--p-em">mix </em>makes test driven development very quick and easy. Mix also has various <a href="https://hexdocs.pm/mix/Mix.Tasks.Test.html" data-href="https://hexdocs.pm/mix/Mix.Tasks.Test.html" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">test options</a> to optimize testing covering a lot of different use-cases. However, as the project grows, you are likely to have a lot of startup operations that may take dozens of seconds, or even minutes, to complete. It’s fair to say that when an elixir application takes several minutes to start, one should identify the bottlenecks or split a single service into several microservices, but time is not a luxury we always have.</p><p name="d7db" id="d7db" class="graf graf--p graf-after--p">One of the things I wanted to achieve was being able to continuously iterate on my code and tests without having to wait for my whole application to start up every time. Introducing <em class="markup--em markup--p-em">TestIex</em><strong class="markup--strong markup--p-strong">. </strong>This module provides an easy way to iterate on your test and source code, without ever having to exit an <em class="markup--em markup--p-em">iex</em> shell.</p><h4 name="a9dd" id="a9dd" class="graf graf--h4 graf-after--p">1. Start an iex session in the test environment</h4><pre name="d499" id="d499" class="graf graf--pre graf-after--h4">$ MIX_ENV=test iex -S mix</pre><h4 name="ebac" id="ebac" class="graf graf--h4 graf-after--pre">2. Execute the start testing command</h4><pre name="ee0b" id="ee0b" class="graf graf--pre graf-after--h4">iex&gt; TestIex.start_testing()</pre><h4 name="3cb2" id="3cb2" class="graf graf--h4 graf-after--pre">3. Load Helpers</h4><p name="a076" id="a076" class="graf graf--p graf-after--h4">By default, TestIex loads the helper located under <em class="markup--em markup--p-em">/usr/src/app/test/test_helper.exs. </em>Additional helpers can be loaded like so:</p><pre name="e875" id="e875" class="graf graf--pre graf-after--p">iex&gt; TestIex.load_helper(“test/test_helper.exs”)</pre><h4 name="ce00" id="ce00" class="graf graf--h4 graf-after--pre">4. Run the test</h4><pre name="c32c" id="c32c" class="graf graf--pre graf-after--h4"># Run a single test<br>iex&gt; TestIex.test(&quot;./path/test/file/test_file_test.exs&quot;, line_number)</pre><pre name="4166" id="4166" class="graf graf--pre graf-after--pre"># Run the whole test file<br>iex&gt; TestIex.test(&quot;./path/test/file/test_file_test.exs&quot;)</pre><pre name="8021" id="8021" class="graf graf--pre graf-after--pre"># Run multiple whole test files<br>iex&gt; TestIex.test([&quot;./path/test/file/test_file_test.exs&quot;, &quot;./path/test/file/test_file_2_test.exs&quot;])</pre><h4 name="8888" id="8888" class="graf graf--h4 graf-after--pre">4. Iterate on test code</h4><p name="d0f4" id="d0f4" class="graf graf--p graf-after--h4">Test files are script files (<em class="markup--em markup--p-em">.exs</em>), which means that they do not get compiled. Modifying a test file and rerunning <em class="markup--em markup--p-em">TestIex.test/2 </em>will execute the latest version of the code.</p><h4 name="4214" id="4214" class="graf graf--h4 graf-after--p">5. Iterate on source code</h4><p name="47e1" id="47e1" class="graf graf--p graf-after--h4">Source code files (<em class="markup--em markup--p-em">.ex</em>) need to be recompiled every they are modified. As I’ve shown above, you have the option of recompiling either a single Module or the whole project depending on how many files you modified:</p><pre name="c21e" id="c21e" class="graf graf--pre graf-after--p"># single module<br>$ r MyModulesNameSpace.MyModule</pre><pre name="7b24" id="7b24" class="graf graf--pre graf-after--pre"># whole project<br>$ recompile</pre><h4 name="4f77" id="4f77" class="graf graf--h4 graf-after--pre">TestIex — Source Code</h4><p name="c6bf" id="c6bf" class="graf graf--p graf-after--h4">Here it the source code for test_iex.ex. I hope it helps you and your team in your TDD endeavors:</p><pre name="87d3" id="87d3" class="graf graf--pre graf-after--p">defmodule TestIex do<br>  def start_testing() do<br>    ExUnit.start()Code.eval_file(&quot;test/test_helper.exs&quot;, File.cwd!())<br>    :ok<br>  end</pre><pre name="0a30" id="0a30" class="graf graf--pre graf-after--pre">  def load_helper(file_name) do<br>    Code.eval_file(file_name, File.cwd!())<br>  end</pre><pre name="37ca" id="37ca" class="graf graf--pre graf-after--pre">  def test(path, line \\ nil)<br>  def test(path, line) when is_binary(path) do<br>    if line do<br>      ExUnit.configure(exclude: [:test], include: [line: line])<br>    else<br>      ExUnit.configure(exclude: [], include: [])<br>    end</pre><pre name="30c7" id="30c7" class="graf graf--pre graf-after--pre">    Code.load_file(path)</pre><pre name="7bdc" id="7bdc" class="graf graf--pre graf-after--pre">    if v6_or_higher?() do<br>      ExUnit.Server.modules_loaded()<br>    else<br>      ExUnit.Server.cases_loaded()<br>    end</pre><pre name="7e17" id="7e17" class="graf graf--pre graf-after--pre">    ExUnit.run()<br>  end<br>  def test(paths, _line) when is_list(paths) do<br>    ExUnit.configure(exclude: [], include: [])<br>    Enum.map(paths, &amp;Code.load_file/1)</pre><pre name="5aa4" id="5aa4" class="graf graf--pre graf-after--pre">    if v6_or_higher?() do<br>      ExUnit.Server.modules_loaded()<br>    else<br>      ExUnit.Server.cases_loaded()<br>    end</pre><pre name="764f" id="764f" class="graf graf--pre graf-after--pre">    ExUnit.run()<br>  end</pre><pre name="67aa" id="67aa" class="graf graf--pre graf-after--pre graf--trailing">  def v6_or_higher?(), do:<br>    if System.version() |&gt; String.split(&quot;.&quot;) |&gt; Enum.at(1) |&gt; String.to_integer &gt;= 6 do<br>  end<br>end</pre></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@olshansky" class="p-author h-card">Daniel Olshansky</a> on <a href="https://medium.com/p/761cd1a9f11"><time class="dt-published" datetime="2019-01-27T23:13:21.105Z">January 27, 2019</time></a>.</p><p><a href="https://medium.com/@olshansky/testiex-easier-test-driven-development-in-elixir-761cd1a9f11" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on September 13, 2025.</p></footer></article></body></html>

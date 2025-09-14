@@ -1,4 +1,5 @@
 +++
+
 author = "Daniel Olshansky"
 title = "Sirens: Season 1"
 date = "2025-08-07T20:34:28.748000"
@@ -6,9 +7,9 @@ description = "Olshansky's review of Sirens: Season 1"
 tags = [
     "tv",
 ]
+rating = "⭐⭐⭐⭐🌟"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/sirens_2025/s01"
 +++
-
-Rating: ⭐⭐⭐⭐🌟
 
 I didn't expect it, but this film exceeded all of my expectations.
 
@@ -22,4 +23,3 @@ straight off the bat.
 
 I've seen Milly Alcock in the past, but am not becoming a true fan.
 
-[🍅 Rotten Tomatoes Info 🍅](https://www.rottentomatoes.com/tv/sirens_2025/s01)
