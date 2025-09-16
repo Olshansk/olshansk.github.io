@@ -45,23 +45,33 @@ I spent [the first 6 months at Pocket](https://olshansky.substack.com/p/infracon
 
 In the past 6 months, I [hosted a panel](https://www.youtube.com/watch?v=PDSIwOMBQ40) of crypto OGs at [Infracon](http://infracon.org) on “The Demand Side of Protocols,” gave a [lightning talk](https://www.youtube.com/watch?v=062r5J3Z3mc&t=14139s) at [The Science of Blockchain](https://cbr.stanford.edu/sbc22/) conference introducing **The RPC Trilemma** to the world and planted a bunch of seeds in my [research on Merkle Trees](https://github.com/pokt-network/pocket/discussions/216) that are still germinating. I also wracked my brain for a few weeks as to whether a custom in-house built blockchain is really the right way to go after absorbing more information than I could handle attending [Devcon](https://devcon.org/); _spoiler for a future talk: it is._
 
-Daniel Olshansky | olshansky.eth 🐙 @olshanskyThe RPC Trilemma aims to capture everything we need from RPCs.
+> The RPC Trilemma aims to capture everything we need from RPCs.
+>
+> Reliable encompasses all the things we have come to expect of blockchains.
+>
+> Performant contains all the nice things we get from Web2 scale.
+>
+> Cheap is self-explanatory and just my two cents.
+>
+> — Daniel Olshansky | olshansky.eth 🐙 (@olshansky) [September 4, 2022](https://twitter.com/olshansky/status/1566402344455217157)
 
-Reliable encompasses all the things we have come to expect of blockchains.
-
-Performant contains all the nice things we get from Web2 scale.
-
-Cheap is self-explanatory and just my two cents. [12:26 PM ∙ Sep 4, 2022](https://twitter.com/olshansky/status/1566402344455217157)Behind the scenes, the entire organization was restructured, the team took a few different shapes, and we started to really define how to make our processes & operations both constructive & effective.
+Behind the scenes, the entire organization was restructured, the team took a few different shapes, and we started to really define how to make our processes & operations both constructive & effective.
 
 Over the years, I’ve been at slow _research-driven_ organizations, fast _mobile-first_ companies, and _top-down_ management structures that aren’t quite sure what velocity they’re trying to move at. Pocket is a _tech-driven_ movement where both the product and the engineering need to balance each other out so we can move, both fast & slow. Pocket is still small enough to adapt quickly but big enough that there’s no single voice (internal or external) paving the entire path of the project. Within the core team, Arthur structured the three technical pillars (supply, demand, protocol) via a buddy system that is co-led by both product and eng. Though we’re still figuring out some of the kinks, I’m constantly exhilarated during moments of cross-team alignment and euphoric moments of ideation where product meets eng and eng meets product. As this continues to improve, I genuinely believe it’s the most optimal design at this stage of the company, enabling us to move both fast & slow.
 
 One of the best things that happened to the Protocol team in the past 6 months is having [@jalde\_\_](https://twitter.com/jalde__) join as our PM. I’m not sure if the appropriate title is Product, Project or Program Manager, so it’s fortunate that Protocol Manager fits the acronym of PM just as well. It’s only been a few months, but I’ve heard people say that crypto operates at 168 hours a week (24/7), so it already feels like ages of having a partner in crime. Roadmaps are aligning, structures are being put in place, and velocity is slowly increasing, allowing us to move both fast & slow.
 
-@jalde** This really means a ton, and with Thanksgiving right around the corner, not too early to say that I'm thankful we're doing this together side by side💙🦃 ","username":"olshansky","name":"Daniel Olshansky | olshansky.eth 🐙","date":"Wed Nov 23 02:54:13 +0000 2022","photos":[],"quoted_tweet":{"full_text":"Meet a lot of smart people in crypto but it's rare to find people who are as generous as they are brilliant. @olshansky gives everything to everyone around him and if I had to choose 1 person to be stuck in a hard situation with, it's him every time and it's not even close. https://t.co/agBjKcvyIU","username":"jalde**","name":"jessica | pocket 🐙✨"},"retweet_count":1,"like_count":14,"expanded_url":{},"video_url":null,"belowTheFold":true}">Daniel Olshansky | olshansky.eth 🐙 @olshanskyIf the last few months have been any indicator, get ready for some deep trenches and wild highs next year.
+> If the last few months have been any indicator, get ready for some deep trenches and wild highs next year.
+>
+> @jalde__ This really means a ton, and with Thanksgiving right around the corner, not too early to say that I'm thankful we're doing this together side by side💙🦃
+>
+> — Daniel Olshansky | olshansky.eth 🐙 (@olshansky) [November 23, 2022](https://twitter.com/olshansky/status/1595249330465951744)
 
-## @jalde** This really means a ton, and with Thanksgiving right around the corner, not too early to say that I'm thankful we're doing this together side by side💙🦃 jessica | pocket 🐙✨ @jalde**Meet a lot of smart people in crypto but it's rare to find people who are as generous as they are brilliant. @olshansky gives everything to everyone around him and if I had to choose 1 person to be stuck in a hard situation with, it's him every time and it's not even close. https://t.co/agBjKcvyIU[2:54 AM ∙ Nov 23, 2022
+> Meet a lot of smart people in crypto but it's rare to find people who are as generous as they are brilliant. @olshansky gives everything to everyone around him and if I had to choose 1 person to be stuck in a hard situation with, it's him every time and it's not even close.
+>
+> — jessica | pocket 🐙✨ (@jalde__)
 
-14Likes1Retweet](https://twitter.com/olshansky/status/1595249330465951744)On the technical side, one of my personal favourite changes on the Protocol team is starting to leverage [Github discussions](https://github.com/pokt-network/pocket/discussions) for longer-term ongoing research-driven conversations while keeping most of the day-to-day technical back & forths almost entirely in public via GitHub PRs and Issues. I’m also excited to start leveraging [Dework](https://app.dework.xyz/pokt-network) more on the protocol side to get the community involved in tasks I’d classify as “_Important But Not Urgent”_ per the [Eisenhower Matrix](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method). I’m envisioning interoperability, zk-SNARK approaches to volume validation, applying BFT forensics research, and large-scale DKG, but I’ll stop here before I get too off-track.
+On the technical side, one of my personal favourite changes on the Protocol team is starting to leverage [Github discussions](https://github.com/pokt-network/pocket/discussions) for longer-term ongoing research-driven conversations while keeping most of the day-to-day technical back & forths almost entirely in public via GitHub PRs and Issues. I’m also excited to start leveraging [Dework](https://app.dework.xyz/pokt-network) more on the protocol side to get the community involved in tasks I’d classify as “_Important But Not Urgent”_ per the [Eisenhower Matrix](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method). I’m envisioning interoperability, zk-SNARK approaches to volume validation, applying BFT forensics research, and large-scale DKG, but I’ll stop here before I get too off-track.
 
 _Oh yea_, it’s worth mentioning that the whole company and community came together to solve a [Chain Halt](https://www.blog.pokt.network/retrospective-on-non-custodial-activation-issues/). The root cause was found relatively fast, but applying it to a distributed network was slow. Though it’s no badge of honour, I think it speaks to the fact even though finding the root cause was on par with any bug in a _traditional_ company, our [validator set](https://twitter.com/POKTValidators/status/1596255908425875457/photo/1) is decentralized enough that we can’t just restart all the nodes ourselves.
 

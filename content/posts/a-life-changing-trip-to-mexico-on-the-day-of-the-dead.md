@@ -81,13 +81,13 @@ Even after leaving Florida, Mike and I kept in touch and would jump on a call on
 
 In August, he invited me to join his team's offsite in Mexico, planned for October. I was a bit hesitant because I already had other vacation trips planned, and there was a lot of work to do at Waymo, but the latter point is moot because it'll always be the case. I was contemplating as to whether I should go and ended up booking my ticket 3 days before the offsite began. You can get a small glimpse of what happened at the offsite in the following thread:
 
-@POKTnetwork fam was last week?🧵\n\nWe were busy planning our next big moves at our yearly offsite👀\n\nThis year it was in a gorgeous hacienda in Malinalco, then spent a few days at a hotel in the heart of Mexico City - just in time for día de los muertos! ","username":"POKTnetwork","name":"Pocket Network | Is Hiring 👀🚀","date":"Wed Nov 10 17:23:33 +0000 2021","photos":[{"img_url":"https://pbs.substack.com/media/FD2UyvlXsA060v6.jpg","link_url":"https://t.co/ksw9ppnNHe","alt_text":null},{"img_url":"https://pbs.substack.com/media/FD2Uyv9XsAcObL_.jpg","link_url":"https://t.co/ksw9ppnNHe","alt_text":null}],"quoted_tweet":{},"retweet_count":9,"like_count":73,"expanded_url":{},"video_url":null,"belowTheFold":true}">Pocket Network | Is Hiring 👀🚀 @POKTnetworkHola! Wondering where the @POKTnetwork fam was last week?🧵
-
-We were busy planning our next big moves at our yearly offsite👀
-
-## This year it was in a gorgeous hacienda in Malinalco, then spent a few days at a hotel in the heart of Mexico City - just in time for día de los muertos! [5:23 PM ∙ Nov 10, 2021
-
-73Likes9Retweets](https://twitter.com/POKTnetwork/status/1458485493226741768)
+> Hola! Wondering where the @POKTnetwork fam was last week?🧵
+>
+> We were busy planning our next big moves at our yearly offsite👀
+>
+> This year it was in a gorgeous hacienda in Malinalco, then spent a few days at a hotel in the heart of Mexico City - just in time for día de los muertos!
+>
+> — Pocket Network | Is Hiring 👀🚀 (@POKTnetwork) [November 10, 2021](https://twitter.com/POKTnetwork/status/1458485493226741768)
 
 **Going on this trip was one of the best decisions I ever made.**
 

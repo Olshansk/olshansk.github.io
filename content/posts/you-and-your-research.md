@@ -79,6 +79,10 @@ As the saying goes, history doesn't repeat itself, but it does rhyme, and this s
 
 ---
 
-_In his memory, I hope he would’ve appreciated the fun I had with the thumbnail for this post._
+_In his memory, I hope he would've appreciated the fun I had with the thumbnail for this post._
 
-Stably DiffusedOriginal
+![Stably Diffused](/images/you-and-your-research/stably-diffused.png)
+*Stably Diffused*
+
+![Original](/images/you-and-your-research/original.jpeg)
+*Original*
