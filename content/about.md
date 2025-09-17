@@ -54,12 +54,15 @@ The things that bother me most: **laziness, incompetence, lack of appreciation, 
 
 ### Who inspires me?
 
-My biggest inspiration is **Rahul Goel**, founder of NordSpace.
+The individual who continues to show me, day in and day out, that there are no
+bounds to what one can do is **Rahul Goel**, founder of NordSpace. I'm privelaged
+to call him a friend. Whatever you dream, you can do. It won't be easy, it'll take
+time, it'll be painful, but there is no limit.
 
 If I could spend a month working with anyone, it would be **Tobias Lütke**, CEO of Shopify.
 If I could have dinner with anyone, it would be **Peter Thiel**.
 
-Other people I learn from and who inspire me regularly:
+Other people I learn from and who inspire me on a regular basis:
 
 - **Dharmesh Shah** — CTO of Shopify
 - **John Carmack** — legendary programmer and game developer
