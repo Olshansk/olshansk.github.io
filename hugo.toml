@@ -111,44 +111,55 @@ style = "monokai"
   tag = "tags"
   author = "authors"
 
+# Sitemap configuration
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename  = "sitemap.xml"
+
 # Search page
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
 # Menu configuration
 [[menu.main]]
-  name = "About"
+  name = "Start Here"
   weight = 1
+  url = "/start/"
+
+[[menu.main]]
+  name = "About"
+  weight = 2
   url = "/about/"
 
 [[menu.main]]
   name = "Posts"
-  weight = 2
+  weight = 3
   url = "/posts/"
 
 [[menu.main]]
   name = "Thoughts"
-  weight = 3
+  weight = 4
   url = "/thoughts/"
 
 [[menu.main]]
   name = "Books"
-  weight = 4
+  weight = 5
   url = "/book/"
 
 [[menu.main]]
   name = "Movies"
-  weight = 5
+  weight = 6
   url = "/movie/"
 
 [[menu.main]]
   name = "Shows"
-  weight = 6
+  weight = 7
   url = "/tv/"
 
 [[menu.main]]
   name = "Search"
-  weight = 7
+  weight = 8
   url = "/search/"
 
 # CSP Configuration (if needed later)

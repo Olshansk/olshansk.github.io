@@ -1,0 +1,32 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Person",
+    "name": "Daniel Olshansky",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Daniel Olshansky",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "url": "{{ .Permalink }}",
+  {{ with .Summary }}
+  "description": "{{ . | plainify | htmlUnescape | truncate 160 }}",
+  {{ end }}
+  {{ with .Params.tags }}
+  "keywords": {{ . | jsonify }},
+  {{ end }}
+  "wordCount": "{{ .WordCount }}",
+  "articleBody": "{{ .Plain | htmlUnescape }}"
+}
+</script>

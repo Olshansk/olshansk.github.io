@@ -1,40 +1,39 @@
-# Olshansky.info
+# LLMs.txt for olshansky.info
 
-> This website is the personal hub for Daniel Olshansky, showcasing his professional background, writing, and reviews. It includes details about his career in tech, blockchain, and autonomous vehicles, as well as his blog and various external platforms where he shares his thoughts and work.
+## About
+Daniel Olshansky - CTO at Grove, Head of Protocol at Pocket Network
+Blog covering AI evaluation, blockchain consensus, distributed systems, and leadership.
 
-Important details about the website:
-- Daniel Olshansky’s professional background includes roles at Twitter, Google, Magic Leap, Waymo, and Pocket Network.
-- The website includes reviews for books, movies, and TV shows.
-- External content platforms such as Substack, Medium, and Twitter are integral to the content ecosystem of the site.
-- All content is publicly available and can be indexed by LLMs for summarization, Q&A, and other permissible uses, with proper attribution.
+## Key Topics & Canonical URLs
 
-## Docs
+### AI & Machine Learning
+- AI Evaluation Intuition: https://olshansky.info/posts/vibe-checks-are-all-you-need/
+- LLM Prompt Engineering: https://olshansky.info/posts/escaping-backticks-in-your-llm-system-prompt/
+- Claude Best Practices: https://olshansky.info/posts/how-you-should-end-every-claude-project-conversati/
 
-- [About Daniel Olshansky](https://www.olshansky.info/about/): A personal overview of Daniel’s background, career, and interests.
-- [CV](https://www.olshansky.info/cv/): Resume and career details, including downloadable PDFs.
-- [Book Reviews](https://www.olshansky.info/book/): Daniel’s book reviews and reading insights.
-- [Movie Reviews](https://www.olshansky.info/movie/): Daniel’s thoughts and ratings on various movies.
-- [Show Reviews](https://www.olshansky.info/tv/): Reviews of TV shows Daniel has watched.
+### Blockchain & Cryptography
+- KZG Commitments Explained: https://olshansky.info/posts/kzg-via-ecg/
+- Pocket Network Architecture: https://olshansky.info/posts/why-pocket-is-rolling-with-rollkit/
+- Relay Mining Incentives: https://olshansky.info/posts/annotated-presentation-relay-mining-cryptographically-incentivizing-non-validating-nodes/
 
-## External Content
+### Technical Leadership
+- Documentation Philosophy: https://olshansky.info/posts/move-fast-document-things/
+- Project Management: https://olshansky.info/posts/the-4-week-project-checklist/
+- Engineering Principles: https://olshansky.info/posts/every-mantra-has-a-counter-mantra/
 
-- [Substack](https://olshansky.substack.com/): Daniel’s newsletter where he shares deep thoughts on tech, life, and philosophy.
-- [Medium](https://olshansky.medium.com/): Articles and thoughts written by Daniel on a variety of topics.
-- [Twitter](https://twitter.com/olshansky): Daniel’s Twitter feed, where he shares updates, thoughts, and interactions.
+### Mental Models
+- Analogical Thinking: https://olshansky.info/posts/the-power-of-analogies/
+- Note-Taking Systems: https://olshansky.info/posts/stream-of-thought-note-taking/
+- Theory vs Practice: https://olshansky.info/posts/2021-10-17-experience-vs-theory-lake-tahoe-edition/
 
-## API
+### Investment Analysis
+- Nuclear Energy Thesis: https://olshansky.info/posts/why-im-allocating-10-of-my-portfolio-to-uranium/
+- Bitcoin Adoption Model: https://olshansky.info/posts/2017-12-27-bitcoin-adoption-curve-not-bubble/
 
-- [Google Scholar](https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en&oi=sra): A list of Daniel’s academic publications and citations.
+## Start Here
+Curated collection: https://olshansky.info/start/
 
-## Examples
-
-- [Rotten Tomatoes to Hugo](https://raw.githubusercontent.com/olshansk/rotten_tomatoes_to_hugo/main/README.md): Example Python scripts for importing movie data from Rotten Tomatoes into a Hugo static site generator.
-- [Goodreads to Hugo](https://raw.githubusercontent.com/olshansk/goodreads_to_hugo/main/README.md): Script for importing Goodreads data into Hugo.
-
-## Optional
-
-- [LinkedIn Profile](https://www.linkedin.com/in/dolshansky): Daniel’s professional LinkedIn profile.
-
-## ChatGPT Conversation
-
-This was generated using this conversation with ChatGPT: https://chatgpt.com/share/66e7503c-a9e0-8002-90e4-ad8ce3c66372
+## Contact
+- GitHub: https://github.com/olshansk
+- Twitter/X: https://x.com/olshansky
+- LinkedIn: https://www.linkedin.com/in/dolshansky

@@ -1,0 +1,78 @@
+{
+  "owner": "Daniel Olshansky",
+  "site": "https://olshansky.info",
+  "role": "CTO at Grove, Head of Protocol at Pocket Network",
+  "description": "Blog covering AI evaluation, blockchain consensus, distributed systems, and leadership",
+  "start_page": "https://olshansky.info/start/",
+  "topics": [
+    {
+      "slug": "ai-ml",
+      "title": "AI & Machine Learning",
+      "description": "Insights on AI evaluation, LLM prompt engineering, and practical AI usage",
+      "canonical": "https://olshansky.info/start/#ai--machine-learning",
+      "top_posts": [
+        "https://olshansky.info/posts/vibe-checks-are-all-you-need/",
+        "https://olshansky.info/posts/escaping-backticks-in-your-llm-system-prompt/",
+        "https://olshansky.info/posts/how-you-should-end-every-claude-project-conversati/",
+        "https://olshansky.info/posts/24-hours-of-chatgpt/"
+      ]
+    },
+    {
+      "slug": "blockchain",
+      "title": "Blockchain & Web3",
+      "description": "Deep technical insights into consensus mechanisms, cryptographic protocols, and decentralized infrastructure",
+      "canonical": "https://olshansky.info/start/#blockchain--web3",
+      "top_posts": [
+        "https://olshansky.info/posts/kzg-via-ecg/",
+        "https://olshansky.info/posts/why-pocket-is-rolling-with-rollkit/",
+        "https://olshansky.info/posts/7-pocket-network-analogies/",
+        "https://olshansky.info/posts/annotated-presentation-relay-mining-cryptographically-incentivizing-non-validating-nodes/"
+      ]
+    },
+    {
+      "slug": "leadership",
+      "title": "Leadership & Engineering Culture",
+      "description": "Thoughts on technical leadership, team building, and engineering productivity",
+      "canonical": "https://olshansky.info/start/#leadership--engineering-culture",
+      "top_posts": [
+        "https://olshansky.info/posts/move-fast-document-things/",
+        "https://olshansky.info/posts/the-4-week-project-checklist/",
+        "https://olshansky.info/posts/every-mantra-has-a-counter-mantra/",
+        "https://olshansky.info/posts/you-and-your-research/"
+      ]
+    },
+    {
+      "slug": "mental-models",
+      "title": "Mental Models & Deep Thinking",
+      "description": "Frameworks for decision-making, problem-solving, and understanding complex systems",
+      "canonical": "https://olshansky.info/start/#mental-models--deep-thinking",
+      "top_posts": [
+        "https://olshansky.info/posts/the-power-of-analogies/",
+        "https://olshansky.info/posts/stream-of-thought-note-taking/",
+        "https://olshansky.info/posts/2021-10-17-experience-vs-theory-lake-tahoe-edition/",
+        "https://olshansky.info/posts/lifes-like-a-sauna-session/"
+      ]
+    },
+    {
+      "slug": "investment",
+      "title": "Investment & Economics",
+      "description": "Analysis of market trends, investment strategies, and economic models",
+      "canonical": "https://olshansky.info/start/#investment--economics",
+      "top_posts": [
+        "https://olshansky.info/posts/why-im-allocating-10-of-my-portfolio-to-uranium/",
+        "https://olshansky.info/posts/n₂o-revisiting-the-best-nuclear-investment-vehicle/",
+        "https://olshansky.info/posts/2017-12-27-bitcoin-adoption-curve-not-bubble/",
+        "https://olshansky.info/posts/2015-05-26-canadian-real-estate-or-american-stock/"
+      ]
+    }
+  ],
+  "social": {
+    "github": "https://github.com/olshansk",
+    "twitter": "https://x.com/olshansky",
+    "linkedin": "https://www.linkedin.com/in/dolshansky"
+  },
+  "feeds": {
+    "rss": "https://olshansky.info/index.xml",
+    "sitemap": "https://olshansky.info/sitemap.xml"
+  }
+}

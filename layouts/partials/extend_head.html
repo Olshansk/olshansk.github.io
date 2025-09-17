@@ -1,2 +1,12 @@
 {{- /* Custom CSS for fixing link clickability */ -}}
 <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+
+{{- /* Structured Data */ -}}
+{{- partial "structured-person.html" . -}}
+{{- partial "structured-website.html" . -}}
+{{- if .IsPage -}}
+  {{- partial "structured-article.html" . -}}
+{{- end -}}
+
+{{- /* Social Meta Tags */ -}}
+{{- partial "social-meta.html" . -}}
