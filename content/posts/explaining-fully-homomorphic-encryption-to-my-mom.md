@@ -27,7 +27,7 @@ medium_url: "https://medium.com/@olshansky/explaining-fully-homomorphic-encrypti
 
 ### Traditional Encryption Flow for a Secret Bread Recipe
 
-![Traditional Encryption Flow for a Secret Bread Recipe](https://cdn-images-1.medium.com/max/1200/1*DPGwqEhmGikgNIX1SDhjJg.png)
+![Traditional Encryption Flow for a Secret Bread Recipe](/images/posts/explaining-fully-homomorphic-encryption-to-my-mom-image-01.png)
 
 ### Homomorphic Encryption
 
@@ -41,7 +41,7 @@ medium_url: "https://medium.com/@olshansky/explaining-fully-homomorphic-encrypti
 
 ### Homomorphic Encryption Flow for a Secret Bread Recipe
 
-![Homomorphic Encryption Flow for a Secret Bread Recipe](https://cdn-images-1.medium.com/max/1200/1*bDijSJu81p_u05R6CClBYQ.png)
+![Homomorphic Encryption Flow for a Secret Bread Recipe](/images/posts/explaining-fully-homomorphic-encryption-to-my-mom-image-02.png)
 
 ### Reality Check
 

@@ -189,7 +189,7 @@ I've been thinking about printing these images and putting them on my wall:
   - If they say yes, I won't to be around them because they're either lucky, persistent or both. **#Optimism**
   - If they no, I don't want to be around them because they're either unlucky or don't try hard enough. **#Pessimism**
 
-![normal distribution](/images/normal_distribution.png)
+![normal distribution](/images/fall_in_love_with_the_problem-normal_distribution.png)
 
 ## Founder Mistakes - A few notes & takeaways
 

@@ -30,14 +30,4 @@ If I only had to recommend one resource out of all the references I looked throu
 
 ![Ethereum Merkle Patricia Trie tree structure visualization showing node types and relationships](/images/posts/2022-04-23-5p1r-ethereums-modified-merkle-patricia-trie-image-02.png)
 
-<https://ethereum.stackexchange.com/questions/6415/eli5-how-does-a-merkle-patricia-trie-tree-work>
-
-> Join Coinmonks[ Telegram Channel](https://t.me/coincodecap) and[ Youtube Channel](https://www.youtube.com/c/coinmonks/videos) learn about crypto trading and investing
-
-### Also, Read
-
-- [SmithBot Review](https://coincodecap.com/smithbot-review) |[ 4 Best Free Open Source Trading Bots](https://coincodecap.com/free-open-source-trading-bots)
-- [Leveraged Token](https://medium.com/coinmonks/leveraged-token-3f5257808b22) |[ Best Crypto Exchange](https://medium.com/coinmonks/crypto-exchange-dd2f9d6f3769) |[ Paxful Review](https://medium.com/coinmonks/paxful-review-4daf2354ab70)
-- [Crypto arbitrage](https://medium.com/coinmonks/crypto-arbitrage-guide-how-to-make-money-as-a-beginner-62bfe5c868f6) Guide |[ How to Short Bitcoin](https://medium.com/coinmonks/how-to-short-bitcoin-568a2d0b4ae5)
-- [Binance Futures Trading](https://coincodecap.com/binance-futures-trading) |[ 3Commas vs Mudrex vs eToro](https://coincodecap.com/mudrex-3commas-etoro)
-- [How to buy Monero](https://coincodecap.com/buy-monero) |[ IDEX Review](https://coincodecap.com/idex-review) |[ BitKan Trading Bot](https://coincodecap.com/bitkan-trading-bot)
+Further reading: [ELI5: How does a Merkle Patricia Trie tree work?](https://ethereum.stackexchange.com/questions/6415/eli5-how-does-a-merkle-patricia-trie-tree-work)

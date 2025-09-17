@@ -18,7 +18,7 @@ The [list of speakers](https://dinfra.xyz/) includes individuals like Kurt Rohlo
 
 You can find the [presentation on YouTube](https://www.youtube.com/watch?v=8Axy3TF_Itk&t=5s) for the full 12 minute talk. This is a [Simon Willison](https://medium.com/u/d0634905149a) [inspired annotated presentation](https://simonwillison.net/2023/Aug/6/annotated-presentations/), in case you just want to read or scroll through the pictures.
 
-![GATE Introduction Slide](https://cdn-images-1.medium.com/max/800/1*PMw6zNDqJafM37IKcTGCAg.png)
+![GATE Introduction Slide](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-01.png)
 
 For context, anyone who works in a technical capacity in an internet-adjacent industry has likely heard or used the term "**Gateway.**" I wouldn't say it's overused, but it means different things to different people.
 
@@ -28,7 +28,7 @@ After years of thinking about the problems Gateways solve, I decided to kickoff 
 
 I proceed to make a _very funny joke:_ a screenshot of me [presenting](https://www.youtube.com/watch?v=jVW-3lRzVT0) at [d/infra last year](https://dinfra.xyz/2024), which includes a screenshot of me [presenting](https://www.youtube.com/watch?v=7rQ4Awfx79g) at ETHDenver the year before, which itself has a screenshot of me [presenting](https://www.youtube.com/watch?v=cjuDDdiMbMQ) at ETHDenver the year prior to that.
 
-![Presentation History - Recursive Screenshots](https://cdn-images-1.medium.com/max/800/1*kx1mBrJfRxRn3YLqQexYJQ.png)
+![Presentation History - Recursive Screenshots](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-02.png)
 
 Abstractions, Gateways, Trust Delegation, Ring Signatures and [GNAP](https://datatracker.ietf.org/doc/rfc9635/) ([oauth.xyz](https://oauth.xyz/)) are on the agenda.
 
@@ -36,11 +36,11 @@ The most likely reason why I even got into this side event is because I [nerd-sn
 
 Technical audiences often get wary of new standards. I reiterate and assure everyone that my goal isn't to create a new standard, but to provide a framework, a language, for what already exists. Too many things are conflated into the term **Gateway**.
 
-![Don't Worry - Jackie Chan Assurance](https://cdn-images-1.medium.com/max/800/1*zHffrXQNrAO4jKAJnvFRpw.png)
+![Don't Worry - Jackie Chan Assurance](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-03.png)
 
 To double down on the assurance, I brought in Jackie Chan. He can save us from anything while also providing some comic relief.
 
-![Core Abstractions](https://cdn-images-1.medium.com/max/800/1*7ieaKrJVysrVTlLpPhfViw.png)
+![Core Abstractions](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-04.png)
 
 We kick things off by talking about the core abstractions used and discussed in the crypto industry.
 
@@ -52,7 +52,7 @@ I'll provide a very quick summary of the three below, but you can skip to the ne
 
 3. **Gateway Abstraction (_Off-Chain_)**: This is the piece that Web3 (Crypto) industry inherited from traditional Web2 (Internet) industry. This is the core technology that everyone takes for granted. But, without this product, nothing works. It spans quality-of-service, SLAs, load balancing, user authentication, rate limiting, etc…
 
-![Web2.5 - Gateway Abstraction](https://cdn-images-1.medium.com/max/800/1*6P1DHH3B065CB8cVaxzEpA.png)
+![Web2.5 - Gateway Abstraction](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-05.png)
 
 I refer to Gateway Abstraction as Web2.5 because it's responsible for enabling Web3 products by bridging Web2 technology.
 
@@ -62,13 +62,13 @@ He called out that the entire distributed and permissionless blockchain industry
 
 Over the past three years, in some ways, everything has changed, and in other ways, nothing has changed. Most crypto applications still use centralized and permissioned gateways, but instead of two, we have hundreds. In fact, 1kx, the organizer of this event, has a [dashboard](http://atlas.1kx.capital/) that compares their performance.
 
-![Conspiracy Keanu - Gateways](https://cdn-images-1.medium.com/max/800/1*VHnbsPkNaklevVZhxJ_MZA.png)
+![Conspiracy Keanu - Gateways](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-06.png)
 
 Now that we're done talking about abstractions, it's time to move on to Gateways.
 
 This meme is called "[Conspiracy Keanu](https://thefunnyist.fandom.com/wiki/Conspiracy_Keanu)". I thought it was appropriate because while Gateways are an abstract and overloaded term, they're definitely not a conspiracy.
 
-![Why Do We Need Gateways?](https://cdn-images-1.medium.com/max/800/1*ak_yBgksQZTw_hG9-cdduA.png)
+![Why Do We Need Gateways?](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-07.png)
 
 Before we zoom into concrete problems and solutions Gateways tackle, I wanted to zoom out into why we need them at all.
 
@@ -78,7 +78,7 @@ Anyone who has ever gone to one of my talks has likely seen me bring up **The RP
 
 Everything we need from a **R**emote **P**rocedure **C**all (RPC) is for it be **R**eliable, **P**erformant and **C**ost-Efficient (RPC Trilemma). All the other things (permissiones, incentives, etc) fall somewhere in between.
 
-![RPC Trilemma](https://cdn-images-1.medium.com/max/800/1*9FG8oZKKt8VKHvIAh-fZPQ.png)
+![RPC Trilemma](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-08.png)
 
 I spent quite a bit of time looking for an online categorization of Gateways.
 
@@ -88,7 +88,7 @@ With that said, I did come across some cool findings during my research. [CloudF
 
 This is just one, of many, Gateways out there and it excludes the hyperscalers with multi billion dollar cloud services; Google, Amazon, Microsoft, etc. This really underlines the magnitude of the problem Gateways serve, and how large the opportunity is.
 
-![GATE Framework Introduction](https://cdn-images-1.medium.com/max/800/1*0wEzRdqF5mgubdXHuIst3Q.png)
+![GATE Framework Introduction](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-09.png)
 
 Since a general-purpose framework to classify and categorize Gateways does not exist, I decided to create one myself.
 
@@ -103,7 +103,7 @@ I call out a few concrete examples the audience may be familiar with just to hel
 - **Web2 Couriers**: [Tor](https://www.torproject.org/) & [Signal](https://signal.org/)
 - **Web3 Courier**: [Pocket](https://pokt.network/) & [Nostr](https://nostr.com/)
 
-![Halfway Through - Still An Unsolved Problem](https://cdn-images-1.medium.com/max/800/1*ANP9xNrJw0R-5B7Ib0ffOQ.png)
+![Halfway Through - Still An Unsolved Problem](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-10.png)
 
 _We're halfway through the presentation at this point._
 
@@ -113,7 +113,7 @@ I've been talking about Gateways, Abstractions, RPCs, but why does any of this m
 
 Everyone agrees that the problem exists. Everyone discusses it. No one argues against it. But, a concrete framework to _"solve it"_ has not been defined.
 
-![Examples of Gateway Problems Being Called Out](https://cdn-images-1.medium.com/max/800/1*iIiTXJnQEzpx3atyB-vlzA.png)
+![Examples of Gateway Problems Being Called Out](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-11.png)
 
 I present three concrete examples where other projects and ecosystems call this out.
 
@@ -133,7 +133,7 @@ Three concrete examples from the Web3 industry where gateways are called out inc
 >
 > For most people, no, it's better to just pick a few public relays or relays from people you know and trust, or even relays that offer paid services.
 
-![Audience Engagement Survey](https://cdn-images-1.medium.com/max/800/1*OL1uN_EooIlEFMdwQK7RMg.png)
+![Audience Engagement Survey](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-12.png)
 
 _This is the last slide before I put everything together and show our approach to solving one small piece of this very big puzzle._
 
@@ -143,11 +143,11 @@ The idea here was to have me predict if a majority of audience (🟢), about hal
 
 This was also my opportunity to promote the services we're building at Grove. Check it out at [grove.city/pricing](http://grove.city/pricing) 😉
 
-![Let Him Cook Meme](https://cdn-images-1.medium.com/max/800/1*IPaOO0dT9ZPsxALIfn93PA.png)
+![Let Him Cook Meme](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-13.png)
 
 This is the "[Let Him Cook](https://knowyourmeme.com/photos/2488659-let-him-cook-let-that-boy-cook)" meme because the buildup of all the context we've been cooking is heating up. 🧑‍🍳️🍳🌡🔥
 
-![Cheque Analogy - Onchain, Offchain, Cross-chain](https://cdn-images-1.medium.com/max/800/1*FU6YzGySucdmaTtirmKOqQ.png)
+![Cheque Analogy - Onchain, Offchain, Cross-chain](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-14.png)
 
 We're going to use a cheque (aka a check) as an analogy to put everything together. Assume we have an individual who wants to send funds from one account to another.
 
@@ -175,7 +175,7 @@ In the top middle part of the image, _offchain_, the Gateways do everything else
 6. Ensure delivery to the destination bank or blockchain
 7. Receive acknowledgment of settlement — Recieve a signed RPC Response
 
-![Gateway Trust and Payment Problems](https://cdn-images-1.medium.com/max/800/1*QxL0Bi0Y9fmARqZ507uyzQ.png)
+![Gateway Trust and Payment Problems](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-15.png)
 
 This whole end-to-end process makes a lot of assumptions and leaves a lot of details left to figure out. For example:
 
@@ -188,7 +188,7 @@ The entire Crypto Web3 industry has been using traditional Web2 style solutions 
 
 I proceed to make another _very funny joke_ that regardless of how decentralized or distributed blockchains are, we are never going to be able to fully obfuscate the need to remove a hard-coded hostname or IP address. Whether it's your [seed node](https://academy.bit2me.com/en/que-es-un-nodo-semilla/), or address book, the trusted endpoints are here to stay.
 
-![Distributed Ledger Technology Solution](https://cdn-images-1.medium.com/max/800/1*uGyJDb3mjGHbWMOA3Q3ZsQ.png)
+![Distributed Ledger Technology Solution](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-16.png)
 
 Finally, I'm going to show a solution to a small part of this big puzzle!
 
@@ -202,7 +202,7 @@ In turn, at any point in time, a user can freely submit an onchain transaction t
 
 Unlike other trust delegation approaches I've seen, this doesn't require complex setups like [Shamir Secret Sharing (SSS)](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing), [Threshold Cryptography](https://en.wikipedia.org/wiki/Threshold_cryptosystem), or [Multi Party Computation (MPC)](https://en.wikipedia.org/wiki/Secure_multi-party_computation).
 
-![Trust Delegation via Blockchain](https://cdn-images-1.medium.com/max/800/1*JbyuKkwuKKoLP2OE6eZSog.png)
+![Trust Delegation via Blockchain](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-17.png)
 
 Next, we're finally going to use ring signatures to create an abstraction for the **Universal API Key**!
 
@@ -220,7 +220,7 @@ It doesn't matter who signed the message (i.e. the envelope), it's impossible to
 
 **This anonymous ring signature acts as a Universal API Key where the ownerships, onus and trust of signing the message and paying for it is delegated by the user to one more Gateways at once.**
 
-![Ring Signatures - Universal API Key](https://cdn-images-1.medium.com/max/800/1*njxe2JDNEVBIfPxBbOth5w.png)
+![Ring Signatures - Universal API Key](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-18.png)
 
 I'm going to tie it back to the original slide:
 
@@ -229,13 +229,13 @@ I'm going to tie it back to the original slide:
 3. The golden key is the universal API key representing the ring formed by the green and blue kes
 4. When signing the envelope and paying for the stamp, we use the golden key so the courier and destination bank don't know whether it was the user or Gateway that did so, nor does it matter!
 
-![Photo from the Event](https://cdn-images-1.medium.com/max/800/1*KNNmVl2ukDnxVROoAug5DQ.jpeg)
+![Photo from the Event](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-19.jpeg)
 
 But wait, there's one more very exciting thing I need to share!
 
 _This was also a pretty cool photo taken at the event, so I figured I'd insert that directly instead of the original slide 😁_
 
-![GNAP - Grant Negotiation & Authorization Protocol](https://cdn-images-1.medium.com/max/800/1*Lf1KhPDM__vFhglGt55BvA.png)
+![GNAP - Grant Negotiation & Authorization Protocol](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-20.png)
 
 In 2019, [Justin Richer](https://medium.com/u/ce3fbf1372f2) did a presentation on [Transactional Authorization](https://www.youtube.com/watch?v=U9i7YaN8v9c) at [Identiverse](https://identiverse.com/). The core idea was to present a path forward to _"OAuth 3"_ called GNAP (Grant Negotiation & Authorization Protocol), that is not directly backwards compatible with _OAuth 2_.
 
@@ -249,7 +249,7 @@ When you dive into the details, you learn that there are multiple ways to approa
 
 I think there's a really big opportunity to connect the ring-signature based universal API key, with GNAP and a distributed ledger for us to not only bridge Web2 products and technologies Web3, but bridge Web3 OAuth to back to Web2.
 
-![Thank You Slide](https://cdn-images-1.medium.com/max/800/1*pk512MLJfjbV2IwqNhC6mg.png)
+![Thank You Slide](/images/posts/gate-gateway-abstraction-technical-elements-annota-image-21.png)
 
 That's it. Putting this together took a lot more time than I expected, but I hope it was worth the read!
 

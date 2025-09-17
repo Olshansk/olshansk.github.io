@@ -9,7 +9,7 @@ medium_url: "https://medium.com/@olshansky/pocket-network-shannon-state-shift-da
 ShowToc: true
 ---
 
-![Shannon State Shift Day Banner](https://cdn-images-1.medium.com/max/800/1*em-561cFxCmQH42gv-My0w.png)
+![Shannon State Shift Day Banner](/images/posts/pocket-network-shannon-state-shift-day-image-01.png)
 
 ### Pocket Network — Shannon State Shift Day
 
@@ -71,11 +71,11 @@ Large ecosystem participants (exchanges, investors, validators, suppliers) can c
 
 We're actively publishing and updating a living [FAQ](https://dev.poktroll.com/category/faq--troubleshooting).
 
-![FAQ Documentation Screenshot](https://cdn-images-1.medium.com/max/800/1*PApy984ama2eqDS54Whu9A.png)
+![FAQ Documentation Screenshot](/images/posts/pocket-network-shannon-state-shift-day-image-02.png)
 _[https://dev.poktroll.com/category/faq--troubleshooting](https://dev.poktroll.com/category/faq--troubleshooting)_
 
 ### Thank you
 
 State Shift Day is the first concrete step toward a [**crypto-native API layer**](https://dev.poktroll.com/). On behalf of Grove Inc. and the Pocket Network Foundation, thank you for building the next internet with us. 🌿🌀
 
-![Grove and Pocket Network Footer](https://cdn-images-1.medium.com/max/800/1*0wtR-jL4Ars4Vbw3g-D-Xg.png)
+![Grove and Pocket Network Footer](/images/posts/pocket-network-shannon-state-shift-day-image-03.png)

@@ -27,7 +27,7 @@ I decided to see how Bitcoin's recent price action relates to its adoption rate.
 
 Below is a graph of the percent change in Bitcoin's price, number of transactions and the number of unique addresses used between any two consecutive days over the past three years. A 25 day moving average was arbitrarily chosen to smooth out the data.
 
-![Bitcoin price and adoption correlation chart](https://cdn-images-1.medium.com/max/800/1*cG7LDLBOQg6oP4sUBAVYNA.png)
+![Bitcoin price and adoption correlation chart](/images/posts/2017-12-27-bitcoin-adoption-curve-not-bubble-image-01.png)
 
 There are few interesting observations from the above chart.
 
@@ -37,10 +37,10 @@ There are few interesting observations from the above chart.
 
 Below is another way of looking at the same dataset.
 
-![Complete dataset for the ratios over the past three years.](https://cdn-images-1.medium.com/max/800/1*VSGDD4YNBTY6UoyenbzIkg.png)
+![Complete dataset for the ratios over the past three years.](/images/posts/2017-12-27-bitcoin-adoption-curve-not-bubble-image-02.png)
 _Complete dataset for the ratios over the past three years._
 
-![Same data as the graph above, but stretched horizontally and excludes 7 outliers where | % Δ price | is more than 300 and | % Δ trans | is near zero.](https://cdn-images-1.medium.com/max/800/1*jAxOztkdfBAQzO2x-4cMUw.png)
+![Same data as the graph above, but stretched horizontally and excludes 7 outliers where | % Δ price | is more than 300 and | % Δ trans | is near zero.](/images/posts/2017-12-27-bitcoin-adoption-curve-not-bubble-image-03.png)
 _Same data as the graph above, but stretched horizontally and excludes 7 outliers where | % Δ price | is more than 300 and | % Δ trans | is near zero._
 
 Overall, it does look the recent price movement is historically high, but still reasonable relative to it's adoption rate. [1]

@@ -88,7 +88,7 @@ mean_absolute_error:  21.54
 explained_variance_score:  -1.15
 ```
 
-![Grade Distribution Comparison and Scatter Plot](https://cdn-images-1.medium.com/max/800/1*O_W3XR3dDvAT73YwpdvehQ.png)
+![Grade Distribution Comparison and Scatter Plot](/images/posts/data-science-for-software-engineers-joint-probabil-image-01.png)
 
 From the graphs above, we see that the two data sets follow a similar pattern, which is expected because they're both normally distributed with the same mean and standard deviation. However, the regression analysis metrics (i.e. Mean Squared Error) are showing that our data is essentially senseless, which is also expected because we generated our data randomly. This means that while our on aggregate, the distribution is similar, individual values (e.g. predicted grade of Student A vs actual grade of StudentA) are very different.
 
@@ -98,7 +98,7 @@ In order to determine where the biggest variations lie, we can use a joint proba
 
 The joint probability matrix for the data above will look as follows:
 
-![Joint Probability Matrix Heatmap](https://cdn-images-1.medium.com/max/800/1*1JPRowHYciToCXH36VqdaQ.png)
+![Joint Probability Matrix Heatmap](/images/posts/data-science-for-software-engineers-joint-probabil-image-02.png)
 
 How do we interpret this data? For example, the red title on the 2nd last row, with a value of 0.07 means that 7% of the students (2 in our case) who actually received a grade between 80%-90%, were predicted to receive a grade between 50%-60% by our model. Next, one would manually inspect this small portion of hand-picked outliers and start drawing conclusions about changes that need to be made to the prediction model. This sort of analysis could lead to interesting followup investigations, but was obfuscated by the regression analysis done above. Perhaps the model is is very biased to under-predict the grade of high performers, perhaps it is just a bug in the code, etc…
 
@@ -154,7 +154,7 @@ In the ideal scenario, where our model is 100% accurate in predicting our ground
 create_joint_probability_matrix(grades_GT, grades_GT, bins)
 ```
 
-![Perfect Diagonal Joint Probability Matrix](https://cdn-images-1.medium.com/max/800/1*rv5AU7L9NM4fcaO_DB_vhQ.png)
+![Perfect Diagonal Joint Probability Matrix](/images/posts/data-science-for-software-engineers-joint-probabil-image-03.png)
 
 For example, the table above shows that 27% of students who had an actual grade between 60–70%, were also predicted to have a grade between 60–70%. More importantly, all cells outside of the diagonal above are 0, meaning our model made no mistakes (because we're comparing the exact same set of values).
 
@@ -177,7 +177,7 @@ pred_cut = pd.cut(grades_P, bins, include_lowest=True)
 
 The output of the the cut function will simply assign a range (i.e. a bucket) to each value. The output of the above code snippet will output:
 
-![Bucket Assignments Table](https://cdn-images-1.medium.com/max/800/1*nxWf05lxYsnHXJch19JGVw.png)
+![Bucket Assignments Table](/images/posts/data-science-for-software-engineers-joint-probabil-image-04.png)
 
 Next, we need to transform the DataFrames so they can be merged together:
 
@@ -203,7 +203,7 @@ I personally found it easiest to understand what the commands above do by inspec
 2. Merge the two tables based on the student ID.
 3. Create a multi-leveled pandas DataFrame that provides a count of the number of students
 
-![DataFrame Screenshot](https://cdn-images-1.medium.com/max/800/1*Gr4WqRcm1mt6rv1VDpJJEw.png)
+![DataFrame Screenshot](/images/posts/data-science-for-software-engineers-joint-probabil-image-05.png)
 
 Next, we take the 2D array and convert the count values to percentages based on the total number of students in our dataset:
 
@@ -218,7 +218,7 @@ joint_prob = pd.crosstab(
 
 This will produce the following output:
 
-![Probability Matrix Table](https://cdn-images-1.medium.com/max/800/1*BtQ7bTImSg8vp2PJUf7Gmg.png)
+![Probability Matrix Table](/images/posts/data-science-for-software-engineers-joint-probabil-image-06.png)
 
 A quick check to make sure this step is correct is by verifying that the sum of all values in your DataFrame add up to 1.
 
@@ -232,4 +232,4 @@ display(styled_matrix)
 
 Will format the table above into this one:
 
-![Final Formatted Heatmap](https://cdn-images-1.medium.com/max/800/1*iOSRMdGfWEoTVqHvv2c0IA.png)
+![Final Formatted Heatmap](/images/posts/data-science-for-software-engineers-joint-probabil-image-07.png)

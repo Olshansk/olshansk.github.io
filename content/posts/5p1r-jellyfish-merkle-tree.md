@@ -9,7 +9,7 @@ tags = [
 substack_url = "https://olshansky.substack.com/p/5p1r-jellyfish-merkle-tree"
 +++
 
-![Jellyfish Tree Digital Art](https://cdn-images-1.medium.com/max/800/1*d7p7nYd6nYC6P-CY1ZEp4A.png)
+![Jellyfish Tree Digital Art](/images/posts/5p1r-jellyfish-merkle-tree-image-01.png)
 *Generate with the keywords "a binary tree of jellyfish, digital art, drawing, vibrant" by [labs.openai.com](https://labs.openai.com/)*
 
 _This is a post in a series of articles I'm writing called "5 points & 1 resource" (think tl;dr but 5p;1r), where I summarize a list of 5 concepts that would have helped me start learning or re-learning a certain topic. It is intentionally far from a complete source of data._
@@ -52,12 +52,12 @@ There's no better reference than the original white paper: [Jellyfish Merkle Tre
 
 ---
 
-![Sparse Merkle Tree (SMT) - Fig 2](https://cdn-images-1.medium.com/max/800/0*dvGRttvtgFjcID9_.png)
+![Sparse Merkle Tree (SMT) - Fig 2](/images/posts/5p1r-jellyfish-merkle-tree-image-02.png)
 
-![Addressable Radix Merkle Tree (ARᵣMT) - Fig 3](https://cdn-images-1.medium.com/max/800/0*IJONiaAn9ic0Ad_B.png)
+![Addressable Radix Merkle Tree (ARᵣMT) - Fig 3](/images/posts/5p1r-jellyfish-merkle-tree-image-03.png)
 
-![Version-Based Node Keys - Table 1](https://cdn-images-1.medium.com/max/800/0*XS_4KuQ3rUPAw3w6.png)
+![Version-Based Node Keys - Table 1](/images/posts/5p1r-jellyfish-merkle-tree-image-04.png)
 
-![Merkle Proof Types - Fig 4](https://cdn-images-1.medium.com/max/800/0*pciRvp9Bey5kdMZV.png)
+![Merkle Proof Types - Fig 4](/images/posts/5p1r-jellyfish-merkle-tree-image-05.png)
 
-![Merkle Proof Examples - Fig 5](https://cdn-images-1.medium.com/max/800/0*fBTsUfi-fykLLdua.png)
+![Merkle Proof Examples - Fig 5](/images/posts/5p1r-jellyfish-merkle-tree-image-06.png)

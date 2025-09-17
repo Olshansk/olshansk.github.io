@@ -9,7 +9,7 @@ medium_url: "https://medium.com/@olshansky/pocket-network-shannon-migration-anno
 ShowToc: true
 ---
 
-![Pocket Network Shannon Migration Banner](https://cdn-images-1.medium.com/max/800/1*XeKFihpgfYWf-VnOsPY4UQ.png)
+![Pocket Network Shannon Migration Banner](/images/posts/pocket-network-shannon-migration-announcement-image-01.png)
 
 ### Pocket Network Shannon Migration Announcement
 
@@ -33,7 +33,7 @@ Once a concrete date is set, ecosystem participants will have exactly 14 days to
 
 The docs behind the links in this post are being updated daily. You can also find a mirror of this post [on Notion](https://buildwithgrove.notion.site/Pocket-Network-Shannon-Migration-1e5a36edfff6805b87e0e512340b2c79) in table format.
 
-![Migration Overview Visual](https://cdn-images-1.medium.com/max/800/1*HSkQUzK1bTadQAyPWiaMHA.png)
+![Migration Overview Visual](/images/posts/pocket-network-shannon-migration-announcement-image-02.png)
 _A single visual of the links and details to get a quick high-level picture of what's happening._
 
 ### What's happening to my POKT?
@@ -115,4 +115,4 @@ This migration is the first step toward our shared vision of a **crypto-native A
 
 On behalf of **Grove Inc.** and the **Pocket Network Foundation**, thank you for your continued support.
 
-![Grove and Pocket Network Footer](https://cdn-images-1.medium.com/max/800/1*0wtR-jL4Ars4Vbw3g-D-Xg.png)
+![Grove and Pocket Network Footer](/images/posts/pocket-network-shannon-migration-announcement-image-03.png)

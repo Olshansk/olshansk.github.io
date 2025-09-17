@@ -12,11 +12,11 @@ _You can try out all of the code in this article yourself using [this Google Col
 
 If you've ever tried to debug and optimize your python application, it's likely that you stumbled upon [Python Profiles](https://docs.python.org/3/library/profile.html#) to understand where most of the execution time is being spent. You enable the profiler at the beginning of a code segment you're interested in profiling with `pr.enable()`, and call `pr.create_stats()` at the end.
 
-<script src="https://gist.github.com/9e693eaaca3153a8ff9a2584629388f9.js"></script>
+[View code on GitHub Gist](https://gist.github.com/olshansky/9e693eaaca3153a8ff9a2584629388f9)
 
 Afterwards, you can create a [Stats](https://docs.python.org/3/library/profile.html#the-stats-class) object, and print the results in a human readable format with `ps.print_stats()`.
 
-![Python profile stats output](https://cdn-images-1.medium.com/max/800/1*xFXn9qUiognDmqEFkhPlkw.png)
+![Python profile stats output](/images/posts/2020-02-17-python-statsprofile-cpython-contribution-image-01.png)
 
 The output above is quite useful and can take you a long way. However, what if you don't know what kind of data inputs cause a bottleneck in your application? What if you're interested in aggregating and evaluating profiling data over some period of time? What if you want to profile your application while your team is dogfooding it? I found that there isn't an easy way to use this data in an ETL pipeline where you'd be able to do further offline analysis over a larger dataset.
 
@@ -24,27 +24,27 @@ I recently made my first [open source cPython contribution](https://github.com/p
 
 If you're not on Python3.9 yet, the following code snippet is a slightly modified version of the code in the pull request that you can start using today by importing it directly into your project.
 
-<script src="https://gist.github.com/31266d61542bbcddb3f57ae684ca0917.js"></script>
+[View code on GitHub Gist](https://gist.github.com/olshansky/31266d61542bbcddb3f57ae684ca0917)
 
 Now, rather than inspecting the profile of a single execution of our code snippet, we can aggregate and analyze the profiles over several different iterations. In a real production service, depending on which logging tool you use, you would likely need to format and stringify the `StatsProfile` dataclass before logging it, but for the purposes of this example, everything is stored in memory.
 
 To simulate timestamped logging, `(timestamp, stats_profile)` tuples are appended to a `timestamped_stats_profile` list with every execution of the loop.
 
-<script src="https://gist.github.com/867a1ec17e3cc470d051c41d62c94896.js"></script>
+[View code on GitHub Gist](https://gist.github.com/olshansky/867a1ec17e3cc470d051c41d62c94896)
 
 After the data is logged, it needs to be aggregated over a certain timeslice. Most logging/visualization platforms have their functions to process timeseries data, so this would be platform specific. Sumologic has the [timeslice](https://help.sumologic.com/05Search/Search-Query-Language/Search-Operators/timeslice) function, Elasticsearch has examples of how to do [date histogram aggregation](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket-datehistogram-aggregation.html), Datadog has an [aggregate across time dropdown](https://www.datadoghq.com/blog/summary-graphs-metric-graphs-101/#distributions), etc...
 
 For the purposes of this example, I'm doing the aggregation manually in python. I bucket all the logged (i.e. saved) `StatsProfile` objects over 10 second intervals, aggregate the cumulative execution time, `cumtime`, per function call and store the resultant counters in `time_slices_counters`. If you're interested in inspecting the number of calls to certain functions rather than the cumulative execution time spent in it, you would simply modify the parameter being access on `line 21` in the code snippet below.
 
-<script src="https://gist.github.com/f34671bf3cb569796acff30bfb4ea178.js"></script>
+[View code on GitHub Gist](https://gist.github.com/olshansky/f34671bf3cb569796acff30bfb4ea178)
 
 In my opinion, a stacked bar graph is a great way to visualize and easily interpret this data. Using the following code snippet:
 
-<script src="https://gist.github.com/39d51402401ce69262acafd0b824279e.js"></script>
+[View code on GitHub Gist](https://gist.github.com/olshansky/39d51402401ce69262acafd0b824279e)
 
 We can generate a graph that looks like this:
 
-![Stacked bar chart showing Python profile data over time](https://cdn-images-1.medium.com/max/800/1*I2-Se8MVV8MlrqoUVtSmxg.png)
+![Stacked bar chart showing Python profile data over time](/images/posts/2020-02-17-python-statsprofile-cpython-contribution-image-02.png)
 
 The results aren't very interesting or surprising given the simplicity of a script calling `sleep` a bunch of times, but hopefully it'll be more useful in more complex applications.
 

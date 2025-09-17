@@ -37,14 +37,3 @@ Image 1: Elliptic curve over real numbers
 ![Elliptic curve over a finite field showing discrete points in a scatter plot](/images/posts/2022-04-23-5p1r-bitcoins-elliptic-curve-cryptography-image-02.png)
 
 Image 2: Elliptic curve over a finite field
-
-> Join Coinmonks[ Telegram Channel](https://t.me/coincodecap) and[ Youtube Channel](https://www.youtube.com/c/coinmonks/videos) learn about crypto trading and investing
-
-### Also, Read
-
-- [Best Bitcoin Margin Trading](https://medium.com/coinmonks/bitcoin-margin-trading-exchange-bcbfcbf7b8e3) |[ Lolli Review](https://medium.com/coinmonks/lolli-review-e6ddc7895ad8) |[ Bityard Margin Trading](https://coincodecap.com/bityard-margin-trading)
-- [Create and sell your first NFT](https://coincodecap.com/create-nft) |[ Crypto Trading Bot](https://coincodecap.com/best-crypto-trading-bots)
-- [How to buy Shiba (SHIB) Coin on CoinDCX?](https://coincodecap.com/buy-shiba-coindcx)
-- [CBET Review](https://coincodecap.com/cbet-casino-review) | [KuCoin vs Coinbase](https://coincodecap.com/kucoin-vs-coinbase) | [Bybit vs Coinbase](https://coincodecap.com/bybit-vs-coinbase)
-- [Fold App Review](https://coincodecap.com/fold-app-review) |[ LocalBitcoins review](https://medium.com/coinmonks/localbitcoins-review-6cc001c6ed56) |[ Bybit vs Binance](https://coincodecap.com/bybit-binance-moonxbt)
-- [Crypto Margin Trading Exchanges](https://medium.com/coinmonks/crypto-margin-trading-exchanges-428b1f7ad108) |[ Earn Bitcoin](https://medium.com/coinmonks/earn-bitcoin-6e8bd3c592d9) |[ Mudrex Invest](https://coincodecap.com/mudrex-invest-review-the-best-way-to-invest-in-crypto)

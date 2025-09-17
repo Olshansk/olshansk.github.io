@@ -8,7 +8,7 @@ tags:
   ["cryptocurrency", "bitcoin", "ethereum", "incentives", "economics", "tokens"]
 ---
 
-![Cryptocurrency concept image](https://cdn-images-1.medium.com/max/800/1*SgD8HfxBtvIVWuD-I0is_w.jpeg)
+![Cryptocurrency concept image](/images/posts/2017-07-23-cryptocurrencies-all-about-incentive-image-01.jpeg)
 
 One of the major selling points of cryptocurrencies is that everything is decentralized and trust no longer lies in single a third party. However, the trust didn't simply dissipate, it got distributed to participants of the network. In my opinion, the incentive structure built into cryptoeconomics is one of its most overlooked benefits. The fundamental idea can be summarized as follows: **no one wants to lose money, and everyone wants to maximize the profit they receive for the work that they do.**
 
