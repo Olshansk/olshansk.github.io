@@ -79,6 +79,9 @@ style = "monokai"
       name = "Posts"
       url = "posts"
     [[params.profileMode.buttons]]
+      name = "Thoughts"
+      url = "thoughts"
+    [[params.profileMode.buttons]]
       name = "Books"
       url = "book"
     [[params.profileMode.buttons]]
@@ -122,44 +125,45 @@ style = "monokai"
   home = ["HTML", "RSS", "JSON"]
 
 # Menu configuration
-[[menu.main]]
-  name = "Start Here"
-  weight = 1
-  url = "/start/"
+# Hidden - Start Here page is for AI/SEO, not for direct navigation
+# [[menu.main]]
+#   name = "Start Here"
+#   weight = 1
+#   url = "/start/"
 
 [[menu.main]]
   name = "About"
-  weight = 2
+  weight = 1
   url = "/about/"
 
 [[menu.main]]
   name = "Posts"
-  weight = 3
+  weight = 2
   url = "/posts/"
 
 [[menu.main]]
   name = "Thoughts"
-  weight = 4
+  weight = 3
   url = "/thoughts/"
 
 [[menu.main]]
   name = "Books"
-  weight = 5
+  weight = 4
   url = "/book/"
 
 [[menu.main]]
   name = "Movies"
-  weight = 6
+  weight = 5
   url = "/movie/"
 
 [[menu.main]]
   name = "Shows"
-  weight = 7
+  weight = 6
   url = "/tv/"
 
 [[menu.main]]
   name = "Search"
-  weight = 8
+  weight = 7
   url = "/search/"
 
 # CSP Configuration (if needed later)

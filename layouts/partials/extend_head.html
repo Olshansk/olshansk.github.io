@@ -10,3 +10,10 @@
 
 {{- /* Social Meta Tags */ -}}
 {{- partial "social-meta.html" . -}}
+
+{{- /* One Dollar Stats Analytics */ -}}
+<script
+  defer
+  src="https://assets.onedollarstats.com/stonks.js"
+  data-domain="{{ .Site.Params.onedollarstats.id }}"
+></script>
