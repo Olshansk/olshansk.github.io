@@ -44,3 +44,9 @@ Links:
 
 - 📖 [Blog explainer](https://aminagroup.com/research/clarity-act-explained-what-u-s-crypto-investors-and-builders-need-to-know/)
 - 📜 [Bill text](https://www.congress.gov/bill/119th-congress/house-bill/3633/text)
+
+---
+
+You can [subscribe to my Substack](https://olshansky.substack.com), follow [my RSS feed](https://olshansky.info/index.xml), or join my email list for those really special updates:
+
+{{< mailerlite >}}

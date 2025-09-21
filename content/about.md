@@ -125,3 +125,9 @@ What do I want to do more of:
 I don't like meetings. I love voice notes. I'm also down to do an adhoc call.
 
 Send me a voice note [on WhatsApp](https://wa.me/4157355911) or an email to [olshansky.daniel@gmail.com](mailto:olshansky.daniel@gmail.com).
+
+### Subscribe
+
+You can [subscribe to my Substack](https://olshansky.substack.com), follow [my RSS feed](https://olshansky.info/index.xml), or join my email list for those really special updates:
+
+{{< mailerlite >}}
