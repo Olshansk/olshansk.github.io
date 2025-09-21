@@ -1,15 +1,20 @@
 ---
 title: "CLARITY Act Token Trilemma"
 date: 2025-09-19T18:19:06-07:00
+ShowToc: true
 draft: false
 categories: ["Technology", "Blockchain"]
 ---
 
 Just read the CLARITY Act and was impressed by how much technical detail Congress baked in.
 
+## CLARITY Act Summary
+
 This table nails how SEC and CFTC responsibilities split across digital assets. A level of clarity this space has badly needed.
 
 ![CLARITY Table](/images/clarity_table.jpeg)
+
+## Token Trilemma
 
 I break tokens into 3 buckets:
 
@@ -31,21 +36,19 @@ Some other fun facts from the Act:
 - Insiders trained is locked until **mature blockchain status**
 - The Howey Test is being replaced with a **Validator Decentralization Test**
 
----
-
-Terminology:
+## Terminology
 
 - **SEC**: Securities & Exchange Commission
 - **CFTC**: Commodity Futures Trading Commission
 - **Howey Test**: A test used to determine whether a security is an investment contract or a commodity
 - **Validator Decentralization Test**: A test used to determine whether a token is a security or a commodity
 
-Links:
+## Links
 
 - 📖 [Blog explainer](https://aminagroup.com/research/clarity-act-explained-what-u-s-crypto-investors-and-builders-need-to-know/)
 - 📜 [Bill text](https://www.congress.gov/bill/119th-congress/house-bill/3633/text)
 
----
+## Follow Me
 
 You can [subscribe to my Substack](https://olshansky.substack.com), follow [my RSS feed](https://olshansky.info/index.xml), or join my email list for those really special updates:
 
