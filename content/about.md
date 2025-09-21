@@ -25,7 +25,7 @@ I'm not a nomad, but I do move around a lot, so I'd classify my nationality as a
 
 That said, I connect with people and ideas rather than geographies or backgrounds.
 
-### What drives me?
+## What drives me?
 
 I’m a lifelong learner 🧑‍🎓 with a goal of creating a generational brand with global impacts.
 
@@ -33,7 +33,7 @@ Founders and generational companies inspire me to do my best work, and I need to
 
 How do we do it? Technological innovation, hard work, operational excellence, while cultivating environments that push and enable individuals to do their best work.
 
-### Where did I work?
+## Where did I work?
 
 I've worked across social, augmented reality, autonomous vehicles, crypto, and large-scale systems.
 
@@ -46,13 +46,13 @@ None of it has (yet) moved the needle on a global scale, but I’m proud of the 
 - 2021 - 2022: **GetSoils**; I built a construction soil marketplace. I learnt how hard it is to sell to old industries.
 - 2022 - Present: **Grove** & **Pocket Network**; I led a small team and a large ecosystem in the R&D of a blockchain that enables decentralized access to data and API discovery. I learnt that EQ is much more important than IQ when it comes to leadership.
 
-### What do I value?
+## What do I value?
 
 I believe in **mind-body connection**. Training, reflection, writing, building—these are all forms of the same pursuit. I hold myself and others to high standards, sometimes too high. My weaknesses are clear to me: I burn out, I’m impatient, and I can struggle with EQ. But I try to balance that by being kind, even when I’m not “nice.”
 
 The things that bother me most: **laziness, incompetence, lack of appreciation, lack of humility.**
 
-### Who inspires me?
+## Who inspires me?
 
 The individual who continues to show me, day in and day out, that there are no
 bounds to what one can do is **Rahul Goel**, founder of NordSpace. I'm privelaged
@@ -77,7 +77,7 @@ Other people I learn from and who inspire me on a regular basis:
 I don’t put any of these people on a pedestal—they’re human, flawed, but deeply impactful.
 I study them because they’ve carved unique paths, thought differently, and created enduring value.
 
-### What do I do in my spare time?
+## What do I do in my spare time?
 
 - Go to the gym focusing on movement 🏋🏽🤸💪
 - Spend time outdoors on short hikes and lakesides 🥾🌲⛰🏊🌊
@@ -98,20 +98,20 @@ What do I want to do more of:
 - Meditating 🧘
 - Executing on my next big idea ⚡
 
-### Links & Resources
+## Links & Resources
 
-#### Interesting Content
+### Interesting Content
 
 - [Presentations & Talks](https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E) — A YouTube playlist of all my talks and presentations
 - [Publications & Research](https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en&oi=sra) — My Google Scholar profile
 - [Snipd Podcast](https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e) — A collection of short-form podcast episodes
 
-#### Writing
+### Writing
 
 - [Substack](https://olshansky.substack.com) — Newsletter and long-form writing
 - [Medium](https://olshansky.medium.com) — Technical articles and thoughts
 
-#### Social
+### Social
 
 - [Reddit](https://www.reddit.com/user/Olshansk/) — r/u/Olshansk
 - [LinkedIn](https://www.linkedin.com/in/dolshansky/) — Professional profile
@@ -120,13 +120,13 @@ What do I want to do more of:
 - [Strava](https://www.strava.com/athletes/65389405) — Fitness activities and runs
 - [CV](/pdfs/resume.pdf) — Professional resume
 
-### Reach Out
+## Reach Out
 
 I don't like meetings. I love voice notes. I'm also down to do an adhoc call.
 
 Send me a voice note [on WhatsApp](https://wa.me/4157355911) or an email to [olshansky.daniel@gmail.com](mailto:olshansky.daniel@gmail.com).
 
-### Subscribe
+## Subscribe
 
 You can [subscribe to my Substack](https://olshansky.substack.com), follow [my RSS feed](https://olshansky.info/index.xml), or join my email list for those really special updates:
 
