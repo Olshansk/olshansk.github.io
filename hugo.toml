@@ -4,7 +4,11 @@ theme = "PaperMod"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-# Mount demos directory to be served as static content
+# Mount demos directory AND preserve default static mounts
+[[module.mounts]]
+  source = "static"
+  target = "static"
+
 [[module.mounts]]
   source = "demos"
   target = "static/demos"
