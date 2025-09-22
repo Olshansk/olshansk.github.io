@@ -1,175 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XSwipe - Smart Gesture Navigation</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>X Swipe — Clean your X feed with a swipe</title>
+    <meta
+      name="description"
+      content="Swipe right to keep. Swipe left to unfollow. Clean up X in minutes."
+    />
+    <link rel="icon" href="app_icon.png" type="image/png" />
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      :root {
+        --bg: #0b0d10;
+        --panel: rgba(255, 255, 255, 0.06);
+        --panel-strong: rgba(255, 255, 255, 0.12);
+        --text: #e6e8ea;
+        --muted: #aab0b6;
+        --accent: #8ab4ff;
+        --accent-2: #a78bfa;
+        --success: #7bf1a8;
+        --warning: #ffd166;
+        --danger: #ff7b9c;
+        --radius-lg: 16px;
+        --radius-md: 12px;
+        --radius-sm: 10px;
+        --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+          Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji;
+        color: var(--text);
+        background: radial-gradient(
+            1200px 1200px at 10% 0%,
+            rgba(100, 116, 255, 0.12),
+            transparent 45%
+          ),
+          radial-gradient(
+            900px 900px at 100% 0%,
+            rgba(168, 85, 247, 0.12),
+            transparent 40%
+          ),
+          var(--bg);
+        line-height: 1.55;
+      }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+      .container {
+        width: min(1100px, calc(100% - 32px));
+        margin: 0 auto;
+      }
 
-        header {
-            padding: 2rem 0;
-            text-align: center;
-            color: white;
-        }
+      header {
+        position: sticky;
+        top: 0;
+        backdrop-filter: saturate(150%) blur(8px);
+        background: linear-gradient(
+          180deg,
+          rgba(11, 13, 16, 0.75),
+          rgba(11, 13, 16, 0.35)
+        );
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        z-index: 10;
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 0;
+      }
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 700;
+        letter-spacing: 0.2px;
+      }
+      .logo-badge {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: conic-gradient(from 160deg, var(--accent), var(--accent-2));
+        display: grid;
+        place-items: center;
+        color: #0b0d10;
+        font-weight: 900;
+      }
+      .top-cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, var(--accent), var(--accent-2));
+        border: none;
+        color: #0b0d10;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: var(--shadow);
+        text-decoration: none;
+      }
+      .top-cta:hover {
+        filter: brightness(1.05);
+        transform: translateY(-1px);
+      }
 
-        .logo {
-            font-size: 3rem;
-            font-weight: bold;
-            margin-bottom: 0.5rem;
-        }
+      /* Sections */
+      section {
+        padding: 72px 0;
+      }
+      .hero {
+        padding: 96px 0 72px;
+      }
 
-        .tagline {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
+      h1 {
+        font-size: clamp(36px, 6vw, 56px);
+        line-height: 1.05;
+        margin: 0 0 12px;
+        letter-spacing: -0.02em;
+      }
+      h2 {
+        font-size: clamp(24px, 4vw, 34px);
+        line-height: 1.15;
+        margin: 0 0 16px;
+        letter-spacing: -0.01em;
+      }
+      p.lead {
+        font-size: clamp(16px, 2.4vw, 20px);
+        color: var(--muted);
+        margin: 0 0 28px;
+      }
 
-        .hero {
-            background: white;
-            border-radius: 20px;
-            padding: 4rem 2rem;
-            margin: 2rem 0;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            text-align: center;
-        }
+      .hero-wrap {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 32px;
+        align-items: center;
+      }
+      .cta-row {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 18px;
+        border-radius: 12px;
+        background: linear-gradient(90deg, var(--accent), var(--accent-2));
+        border: none;
+        color: #0b0d10;
+        font-weight: 800;
+        cursor: pointer;
+        box-shadow: var(--shadow);
+        text-decoration: none;
+        font-size: 16px;
+      }
+      .cta.secondary {
+        background: var(--panel-strong);
+        color: var(--text);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        font-weight: 600;
+      }
+      .cta:hover {
+        filter: brightness(1.05);
+        transform: translateY(-1px);
+      }
 
-        .hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #2d3748;
-        }
+      .demo-box {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.06),
+          rgba(255, 255, 255, 0.02)
+        );
+        border: 1px dashed rgba(255, 255, 255, 0.25);
+        border-radius: var(--radius-lg);
+        height: min(58vh, 520px);
+        display: grid;
+        place-items: center;
+        color: var(--muted);
+        text-align: center;
+        padding: 18px;
+      }
+      .demo-box small {
+        opacity: 0.8;
+      }
 
-        .hero p {
-            font-size: 1.1rem;
-            color: #4a5568;
-            margin-bottom: 2rem;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+      /* Pillars / Why cards */
+      .cards {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        margin-top: 24px;
+      }
+      .card {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.07),
+          rgba(255, 255, 255, 0.03)
+        );
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: var(--radius-md);
+        padding: 18px 18px 20px;
+        transition: transform 160ms ease, box-shadow 160ms ease,
+          border-color 160ms ease;
+        will-change: transform;
+      }
+      .card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow);
+        border-color: rgba(255, 255, 255, 0.16);
+      }
+      .card h3 {
+        margin: 4px 0 6px;
+        font-size: 18px;
+        letter-spacing: -0.01em;
+      }
+      .card p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 15px;
+      }
+      .icon {
+        width: 28px;
+        height: 28px;
+        border-radius: 8px;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(90deg, var(--accent), var(--accent-2));
+        color: #0b0d10;
+        font-weight: 900;
+      }
 
-        .cta-button {
-            display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 1rem 2rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: transform 0.3s ease;
-        }
+      /* Before/After demo */
+      .before-after {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin-top: 12px;
+      }
+      .ba {
+        background: var(--panel);
+        border: 1px dashed rgba(255, 255, 255, 0.2);
+        border-radius: var(--radius-md);
+        height: 240px;
+        display: grid;
+        place-items: center;
+        color: var(--muted);
+        text-align: center;
+        padding: 12px;
+      }
+      .caption {
+        color: var(--muted);
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: center;
+      }
 
-        .cta-button:hover {
-            transform: translateY(-2px);
-        }
+      /* Features list */
+      .features {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 24px;
+        align-items: start;
+      }
+      .feature-list {
+        list-style: none;
+        padding: 0;
+        margin: 8px 0 0;
+      }
+      .feature-list li {
+        display: flex;
+        align-items: start;
+        gap: 10px;
+        padding: 10px 0;
+        border-bottom: 1px dashed rgba(255, 255, 255, 0.07);
+      }
+      .feature-list li:last-child {
+        border-bottom: none;
+      }
+      .badge {
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.08);
+        color: var(--muted);
+      }
 
+      /* Signup */
+      .signup {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.07),
+          rgba(255, 255, 255, 0.02)
+        );
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: var(--radius-lg);
+        padding: 24px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 14px;
+        align-items: center;
+      }
+      .signup p {
+        color: var(--muted);
+        margin: 0;
+      }
+      form.waitlist {
+        display: flex;
+        gap: 10px;
+      }
+      input[type="email"] {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        color: var(--text);
+        padding: 12px 14px;
+        border-radius: 12px;
+        outline: none;
+        width: clamp(220px, 28vw, 360px);
+      }
+      input[type="email"]::placeholder {
+        color: #c8cdd3;
+        opacity: 0.6;
+      }
+
+      footer {
+        color: var(--muted);
+        padding: 36px 0 56px;
+        text-align: center;
+      }
+      footer a {
+        color: var(--muted);
+        text-decoration: none;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 880px) {
+        .hero-wrap {
+          grid-template-columns: 1fr;
+        }
         .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin: 3rem 0;
+          grid-template-columns: 1fr;
         }
-
-        .feature {
-            background: white;
-            padding: 2rem;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        .before-after {
+          grid-template-columns: 1fr;
         }
-
-        .feature-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+        .cards {
+          grid-template-columns: 1fr;
         }
-
-        .feature h3 {
-            color: #2d3748;
-            margin-bottom: 1rem;
+        .signup {
+          grid-template-columns: 1fr;
         }
-
-        .feature p {
-            color: #4a5568;
+        .top-cta {
+          display: none;
         }
-
-        footer {
-            text-align: center;
-            padding: 2rem 0;
-            color: white;
-            opacity: 0.8;
-        }
-
-        @media (max-width: 768px) {
-            .logo {
-                font-size: 2rem;
-            }
-
-            .hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero {
-                padding: 2rem 1rem;
-            }
-        }
+      }
     </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <div class="logo">XSwipe</div>
-            <div class="tagline">Smart Gesture Navigation</div>
-        </header>
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="logo">
+          <img
+            src="app_icon.png"
+            alt="X Swipe"
+            style="width: 32px; height: 32px; border-radius: 50%"
+          />
+          X Swipe
+        </div>
+        <a class="top-cta" href="#signup" aria-label="Join the waitlist">
+          <span>👉 Join the Waitlist</span>
+        </a>
+      </div>
+    </header>
 
-        <main>
-            <section class="hero">
-                <h1>Navigate Your World with Intuitive Gestures</h1>
-                <p>XSwipe revolutionizes how you interact with your devices through intelligent gesture recognition. Experience seamless, natural navigation that adapts to your workflow.</p>
-                <a href="#" class="cta-button">Get Early Access</a>
-            </section>
+    <main>
+      <section class="hero">
+        <div class="container hero-wrap">
+          <div>
+            <h1>Clean up your X feed with a simple swipe</h1>
+            <p class="lead">
+              Swipe right to keep following. Swipe left to unfollow. Transform
+              your timeline from chaotic to curated in minutes.
+            </p>
+            <div class="cta-row">
+              <a class="cta" href="#signup">👉 Join the Waitlist</a>
+              <a class="cta secondary" href="#demo">See a quick demo</a>
+            </div>
+          </div>
+          <div style="display: grid; place-items: center">
+            <img
+              src="output2.gif"
+              alt="X Swipe app icon"
+              style="
+                width: 100%;
+                max-width: 420px;
+                border-radius: 24px;
+                box-shadow: var(--shadow);
+                border: 1px solid rgba(255, 255, 255, 0.12);
+                background: var(--panel);
+              "
+            />
+          </div>
+        </div>
+      </section>
 
-            <section class="features">
-                <div class="feature">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Lightning Fast</h3>
-                    <p>Sub-millisecond gesture recognition with advanced machine learning algorithms.</p>
+      <section id="why">
+        <div class="container">
+          <h2>Why X Swipe?</h2>
+          <div class="cards">
+            <div class="card" aria-label="Save Time">
+              <div class="icon">⚡</div>
+              <h3>Save Hours of Time</h3>
+              <p>
+                What takes hours manually takes minutes with X Swipe. Clean up
+                1000+ accounts in under 10 minutes.
+              </p>
+            </div>
+            <div class="card" aria-label="Take Control">
+              <div class="icon">🎯</div>
+              <h3>Laser-Focused Feed</h3>
+              <p>
+                Remove the noise. Keep only accounts that add value to your
+                timeline and life.
+              </p>
+            </div>
+            <div class="card" aria-label="Better Feed">
+              <div class="icon">✨</div>
+              <h3>Quality Over Quantity</h3>
+              <p>
+                A curated timeline means higher engagement, better discussions,
+                and content you actually want to read.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="demo">
+        <div class="container">
+          <h2>See it in action</h2>
+          <div class="before-after">
+            <div
+              class="ba"
+              style="
+                background: linear-gradient(
+                  180deg,
+                  rgba(255, 123, 156, 0.1),
+                  rgba(255, 123, 156, 0.05)
+                );
+                border-color: rgba(255, 123, 156, 0.3);
+              "
+            >
+              <div>
+                <strong style="color: var(--danger)">😵‍💫 Before</strong>
+                <div><small>Following 2,847 accounts</small></div>
+                <div>
+                  <small>Timeline full of noise & irrelevant posts</small>
                 </div>
-
-                <div class="feature">
-                    <div class="feature-icon">🎯</div>
-                    <h3>Precision Control</h3>
-                    <p>Fine-tuned gesture mapping that learns and adapts to your unique patterns.</p>
+                <div>
+                  <small>Struggling to find content you care about</small>
                 </div>
-
-                <div class="feature">
-                    <div class="feature-icon">🔧</div>
-                    <h3>Fully Customizable</h3>
-                    <p>Create custom gestures for any application or workflow. Your gestures, your rules.</p>
+              </div>
+            </div>
+            <div
+              class="ba"
+              style="
+                background: linear-gradient(
+                  180deg,
+                  rgba(123, 241, 168, 0.1),
+                  rgba(123, 241, 168, 0.05)
+                );
+                border-color: rgba(123, 241, 168, 0.3);
+              "
+            >
+              <div>
+                <strong style="color: var(--success)">✨ After</strong>
+                <div>
+                  <small>Following 247 carefully curated accounts</small>
                 </div>
-            </section>
-        </main>
+                <div>
+                  <small>Timeline shows content you actually want</small>
+                </div>
+                <div><small>More engagement, less scrolling</small></div>
+              </div>
+            </div>
+          </div>
+          <div class="caption">Your X feed, but better.</div>
+        </div>
+      </section>
 
-        <footer>
-            <p>&copy; 2025 XSwipe. Built by <a href="https://olshansky.info" style="color: white;">Daniel Olshansky</a></p>
-        </footer>
-    </div>
-</body>
+      <section id="features">
+        <div class="container features">
+          <div>
+            <h2>Features & Roadmap</h2>
+            <ul class="feature-list">
+              <li>
+                <div class="icon" aria-hidden="true">✅</div>
+                <div>
+                  <strong>Swipe to Keep or Unfollow</strong>
+                  <div class="badge">Available</div>
+                </div>
+              </li>
+              <li>
+                <div class="icon" aria-hidden="true">🔜</div>
+                <div>
+                  <strong>Swipe to Mute/Unmute</strong>
+                  <div class="badge">Coming soon</div>
+                </div>
+              </li>
+              <li>
+                <div class="icon" aria-hidden="true">🔜</div>
+                <div>
+                  <strong>Swipe to Enable/Disable Retweets</strong>
+                  <div class="badge">Coming soon</div>
+                </div>
+              </li>
+              <li>
+                <div class="icon" aria-hidden="true">🔜</div>
+                <div>
+                  <strong>Swipe to Block/Unblock</strong>
+                  <div class="badge">Coming soon</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="signup">
+              <div>
+                <h3 style="margin: 0 0 6px; letter-spacing: -0.01em">
+                  Free vs Pro
+                </h3>
+                <p>
+                  Free: 50 swipes per day · Pro: unlimited swipes + batch
+                  actions + analytics.
+                </p>
+              </div>
+              <div>
+                <a class="cta" href="#signup">Join the Waitlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="signup">
+        <div class="container">
+          <h2>Be the first to transform your X experience</h2>
+          <p class="lead">
+            Join thousands of early users who want to reclaim their timeline.
+            Get notified when we launch + early access perks.
+          </p>
+          <form
+            class="waitlist"
+            action="#"
+            method="post"
+            onsubmit="return false"
+            aria-label="Join waitlist (placeholder form)"
+          >
+            <input
+              type="email"
+              name="email"
+              placeholder="you@domain.com"
+              required
+            />
+            <button class="cta" type="submit">👉 Join the Waitlist</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div>Made with ❤️ by the X Swipe team</div>
+        <div style="opacity: 0.8; margin-top: 8px; font-size: 14px">
+          <a href="#">Privacy</a> · <a href="#">Terms</a> ·
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
