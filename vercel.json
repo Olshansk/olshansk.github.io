@@ -7,8 +7,13 @@
   "buildCommand": "hugo --gc --minify",
   "outputDirectory": "public",
   "framework": null,
-  "trailingSlash": true,
+  "trailingSlash": false,
   "rewrites": [
+    {
+      "source": "/",
+      "destination": "/demos/xswipe/index.html",
+      "has": [{"type": "host", "value": "xswipe.olshansky.info"}]
+    },
     {
       "source": "/(.*)",
       "destination": "/demos/xswipe/$1",
