@@ -4,6 +4,11 @@ theme = "PaperMod"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
+# Mount demos directory to be served as static content
+[[module.mounts]]
+  source = "demos"
+  target = "static/demos"
+
 # Suppress raw HTML warnings
 ignoreLogs = ['warning-goldmark-raw-html']
 
