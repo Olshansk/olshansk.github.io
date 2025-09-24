@@ -1,11 +1,5 @@
 {{- define "main" }}
 
-{{- if .Content }}
-<div class="post-content">
-  {{ .Content }}
-</div>
-{{- end }}
-
 {{- $paginator := .Paginate .RegularPages }}
 
 {{- if (and (.Title)) }}
@@ -17,6 +11,12 @@
   </div>
   {{- end }}
 </header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{ .Content }}
+</div>
 {{- end }}
 
 {{- if $paginator.Pages }}

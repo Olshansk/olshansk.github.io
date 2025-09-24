@@ -1,9 +1,10 @@
 +++
-title = "About"
-description = "About me"
+title = "About Daniel Olshansky"
+description = "About Daniel Olshansky - Software Engineer, CTO at Grove, Head of Protocol at Pocket Network. Learn about my background, experience, and what drives me."
 date = "2025-09-13"
-aliases = ["about-us", "contact"]
+aliases = ["about-us", "contact", "daniel-olshansky", "olshansky"]
 author = "Daniel Olshansky"
+keywords = ["Daniel Olshansky", "about Daniel Olshansky", "software engineer", "CTO Grove", "Pocket Network", "blockchain developer", "AI developer"]
 ShowToc = true
 +++
 

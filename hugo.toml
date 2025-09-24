@@ -31,8 +31,8 @@ style = "monokai"
 
 [params]
   author = "Daniel Olshansky"
-  description = "Everything about Olshansky"
-  keywords = ["blog", "developer", "personal"]
+  description = "Daniel Olshansky - Software Engineer, AI Developer, and Tech Blog. Posts about software development, AI, distributed systems, and technology insights."
+  keywords = ["Daniel Olshansky", "Olshansky", "software engineer", "developer", "AI", "machine learning", "distributed systems", "blockchain", "technology", "tech blog", "programming"]
 
   # Show reading time and word count
   ShowReadingTime = true
