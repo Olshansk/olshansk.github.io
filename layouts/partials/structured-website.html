@@ -3,15 +3,31 @@
   "@context": "https://schema.org",
   "@type": "WebSite",
   "url": "{{ .Site.BaseURL }}",
-  "name": "{{ .Site.Title }}",
+  "name": "Daniel Olshansky - Personal Website and Tech Blog",
+  "alternateName": ["Olshansky Blog", "Daniel Olshansky's Blog"],
   "description": "{{ .Site.Params.description }}",
+  "publisher": {
+    "@type": "Person",
+    "name": "Daniel Olshansky",
+    "url": "{{ .Site.BaseURL }}"
+  },
   "author": {
     "@type": "Person",
-    "name": "Daniel Olshansky"
+    "name": "Daniel Olshansky",
+    "givenName": "Daniel",
+    "familyName": "Olshansky",
+    "url": "{{ .Site.BaseURL }}about/"
   },
+  "inLanguage": "en-US",
+  "copyrightYear": "2024",
+  "datePublished": "2020-01-01",
+  "dateModified": "{{ now.Format "2006-01-02" }}",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "{{ .Site.BaseURL }}search/?q={search_term_string}",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ .Site.BaseURL }}search/?q={search_term_string}"
+    },
     "query-input": "required name=search_term_string"
   }
 }

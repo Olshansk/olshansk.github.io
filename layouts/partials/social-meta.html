@@ -1,6 +1,8 @@
 {{ $title := .Title }}
 {{ if .IsHome }}
-  {{ $title = .Site.Title }}
+  {{ $title = "Daniel Olshansky - Software Engineer, AI Developer, Tech Blog" }}
+{{ else if .Title }}
+  {{ $title = printf "%s | Daniel Olshansky" .Title }}
 {{ end }}
 
 {{ $description := .Summary | default .Site.Params.description | plainify | htmlUnescape }}
