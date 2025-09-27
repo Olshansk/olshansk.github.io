@@ -1,6 +1,6 @@
 +++
 title = "About Daniel Olshansky"
-description = "About Daniel Olshansky - Software Engineer, CTO at Grove, Head of Protocol at Pocket Network. Learn about my background, experience, and what drives me."
+description = "Means a lot that you want to learn about me :)"
 date = "2025-09-13"
 aliases = ["about-us", "contact", "daniel-olshansky", "olshansky"]
 author = "Daniel Olshansky"
