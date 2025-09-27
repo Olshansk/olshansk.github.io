@@ -20,13 +20,6 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-- [On Charlie Munger](#on-charlie-munger)
-- [Incentives in Humans](#incentives-in-humans)
-- [Incentives in AI](#incentives-in-ai)
-- [Incentives in Crypto](#incentives-in-crypto)
-- [Putting it all together](#putting-it-all-together)
-  - [Art, Science \& Tradeoffs](#art-science--tradeoffs)
-
 ## On Charlie Munger
 
 Charlie Munger once said:
@@ -138,3 +131,7 @@ Similarly, the process of defining and verifying slashing conditions in Crypto i
 also both an art and a science with tradeoffs.
 
 The beauty is that whether in humans, machines, or markets, progress comes from iterating incentives until they align with outcomes.
+
+---
+
+{{< mailerlite >}}
