@@ -3,7 +3,14 @@ title: "Incentives & Outcomes in Humans, AI, and Crypto"
 date: 2025-09-27T09:15:00-0700
 draft: false
 description: ""
-tags: ["post", "ai", "crypto", "behaviour", "incentives", "psychology"]
+tags:
+  - "post"
+  - "ai"
+  - "crypto"
+  - "behaviour"
+  - "incentives"
+  - "psychology"
+  - "economics"
 categories: []
 ShowToc: true
 TocOpen: false
@@ -28,7 +35,8 @@ Charlie Munger once said:
 
 If he were in his prime today, he’d be the Czar of AI & Crypto.
 
-David Sacks is doing a phenomenal job, especially on the legislative front, but Charlie would have embodied it differently.
+[David Sacks](https://en.wikipedia.org/wiki/David_O._Sacks), the current Czar of AI & Crypto in 2025,
+is doing a phenomenal job on the legislative front, but Charlie would have embodied it differently.
 
 Incentives run the world. They're innate to human nature. What I find intriguing is
 how this core understanding translates to other domains.
@@ -45,11 +53,11 @@ get delayed as well.
 
 But what if we leverage two tools: Bonuses & [Loss Aversion](https://en.wikipedia.org/wiki/Loss_aversion)?
 
-**Bonus** — What if we give each of those 10 people an extra $1,000 per day for each day they complete the task before the deadline? That may actually be a way to circumvent Parkinson's Law and get shit done.
+**Bonus** — What if we give each of those 10 people an extra $1,000 per day for each day they complete the task before the deadline? That may actually be a way to circumvent Parkinson's Law and get things done.
 
 **Loss Aversion** — What if we give each of those 10 people an extra $10,000 on day 1,
 and take away $1,000 a day for each day the timeline extends after day 30? Since the money is
-already in the bank, losses will hurt more than bonuses, so things are likely to be on time.
+already in the bank, losses sting more than equivalent gains, making deadlines harder to slip.
 
 Two completely different tactics targeting different parts of human behavior.
 
@@ -66,7 +74,7 @@ You can think of it like this:
 - **Reward function**: what is the definition of success?
 - **Reinforcement learning**: a repeating feedback loop that tries random things to increase its reward.
 
-The hard part is actually defining this function and kicking off the loop.
+The hard part is defining the function correctly — everything else flows from it.
 It's what thousands of the world's smartest people are working on.
 
 The most recent example of incentives in AI that I found fascinating was OpenAI's
@@ -79,8 +87,8 @@ The results:
 - Abstention rate went from 1% (o4-mini) to 52% (gpt-5-thinking-mini)
 - Error rate decreased from 75% (o4-mini) to 26% (gpt-5-thinking-mini)
 
-The change in the reward function to **abstain from answering** instead of **giving the best answer it could**
-aligned incentives that led to a reduction in hallucinations.
+This shifted the model’s incentive from “always answer” to “only answer when confident,”
+which directly cut hallucinations.
 
 ## Incentives in Crypto
 
@@ -89,8 +97,7 @@ evolve and take many different forms — from [Bitcoin Mining](https://en.wikipe
 to [Yield Farming](https://hedera.com/learning/decentralized-finance/defi-yield-farming),
 and the entire **Proof-of-X** [verifiability ecosystem](https://vitalik.eth.limo/general/2025/09/24/openness_and_verifiability.html) in between.
 
-However, I believe most of the value will come from the extension and integration
-of [Proof-of-Stake](https://en.wikipedia.org/wiki/Proof_of_stake) components applied from first principles:
+I believe most future value will come from applying [Proof-of-Stake](https://en.wikipedia.org/wiki/Proof_of_stake) mechanics from first principles:
 
 1. **Fees**: Rewards and payments for providing utility or value-add services.
 2. **Staking**: Putting money in escrow — locking up funds that can be rewarded or taken away.
@@ -99,10 +106,11 @@ of [Proof-of-Stake](https://en.wikipedia.org/wiki/Proof_of_stake) components app
 **Fees** are pretty self-explanatory. No different than the 2–3% that credit cards charge.
 
 **Staking** is similar to a security deposit or an insurance premium. It's not
-leveraged heavily in day-to-day life, and often relies on lengthy legal/banking processes,
-so there is quite a big opportunity here.
+leveraged heavily in day-to-day life, and often relies on lengthy legal or banking processes,
+so there is a big opportunity here.
 
-**Slashing** is even less common. It usually relies on courts, litigation, or contractual clawbacks.
+**Slashing** is even less common. The closest real-world equivalent would be losing a rental deposit
+for damaging an apartment, or court-ordered damages for breaking a contract.
 
 ## Putting it all together
 
@@ -117,9 +125,9 @@ Assume the following scenario:
 The real-world flow would be:
 
 1. You put $10,000 in escrow for completion of the job. **Staking. Fees.**
-2. You put an extra $10,000 in escrow as a potential bonus payout. For every day that passes, $1,000 of it is returned to you. **Staking. Incentives. Reward Function.**
-3. An agent puts $10,000 in escrow as proof they won’t misbehave. **Staking.**
-4. Anytime the agent does something faulty or wrong, you take a part of their stake. **Reinforcement Learning. Slashing.**
+2. You put an extra $10,000 in escrow as a potential bonus payout. For every day that passes, the worker earns $1,000 less of it. **Staking. Incentives. Reward Function.**
+3. The worker puts $10,000 in escrow as proof they won’t misbehave. **Staking.**
+4. Anytime the worker does something faulty or wrong, you take a part of their stake. **Reinforcement Learning. Slashing.**
 
 ### Art, Science & Tradeoffs
 
@@ -129,4 +137,4 @@ a reward function is both an art and a science with tradeoffs.
 Similarly, the process of defining and verifying slashing conditions in Crypto is
 also both an art and a science with tradeoffs.
 
-The beauty is seeing it all come together through constant iteration.
+The beauty is that whether in humans, machines, or markets, progress comes from iterating incentives until they align with outcomes.
