@@ -80,15 +80,9 @@
         font-weight: 700;
         letter-spacing: 0.2px;
       }
-      .logo-badge {
-        width: 32px;
+      .logo-image {
         height: 32px;
-        border-radius: 50%;
-        background: conic-gradient(from 160deg, var(--accent), var(--accent-2));
-        display: grid;
-        place-items: center;
-        color: #0b0d10;
-        font-weight: 900;
+        width: auto;
       }
       .top-cta {
         display: inline-flex;
@@ -369,7 +363,11 @@
     <header>
       <div class="container nav">
         <div class="logo">
-          <span class="logo-badge" aria-hidden="true">X</span>
+          <img
+            src="/images/xswipe_logo.png"
+            alt="X Swipe logo"
+            class="logo-image"
+          />
           X Swipe
         </div>
         <a class="top-cta" href="#signup" aria-label="Join the waitlist">
@@ -394,7 +392,7 @@
           </div>
           <div style="display: grid; place-items: center">
             <img
-              src="xswipe_gif.gif"
+              src="/images/xswipe_gif.gif"
               alt="X Swipe demo"
               style="
                 width: 100%;

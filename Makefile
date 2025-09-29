@@ -16,6 +16,8 @@ hugo_server:  ## Run Hugo server (kills any existing server first)
 	@echo "Killing any existing Hugo server processes..."
 	@pkill -f "hugo server" 2>/dev/null || true
 	@sleep 1
+	@echo "Cleaning previous Hugo build artifacts..."
+	@rm -rf public resources/_gen
 	@echo "Starting Hugo server on port 1313..."
 	hugo server -D --port 1313
 
