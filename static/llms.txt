@@ -37,7 +37,7 @@ This site contains technical blog posts, book/movie reviews, and curated thought
 - [Nuclear Energy Investment Thesis](https://olshansky.info/posts/why-im-allocating-10-of-my-portfolio-to-uranium/): Personal uranium allocation rationale
 - [Bitcoin Adoption Curve](https://olshansky.info/posts/2017-12-27-bitcoin-adoption-curve-not-bubble/): 2017 Bitcoin adoption analysis
 
-## Leave a tip
+## Leave a Tip
 
 - Ethereum: olshansky.eth
 - Zcash: t1P7gJhVUUSrNbWvYtPkk4yfu2UVR9kxtRz
