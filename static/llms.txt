@@ -1,39 +1,44 @@
-# LLMs.txt for olshansky.info
+# olshansky.info
 
-## About
-Daniel Olshansky - CTO at Grove, Head of Protocol at Pocket Network
-Blog covering AI evaluation, blockchain consensus, distributed systems, and leadership.
+> Daniel Olshansky's personal site covering AI evaluation, blockchain consensus, distributed systems, and technical leadership. CTO at Grove, Head of Protocol at Pocket Network.
 
-## Key Topics & Canonical URLs
+This site contains technical blog posts, book/movie reviews, and curated thoughts on technology and engineering leadership.
 
-### AI & Machine Learning
-- AI Evaluation Intuition: https://olshansky.info/posts/vibe-checks-are-all-you-need/
-- LLM Prompt Engineering: https://olshansky.info/posts/escaping-backticks-in-your-llm-system-prompt/
-- Claude Best Practices: https://olshansky.info/posts/how-you-should-end-every-claude-project-conversati/
+## AI & Machine Learning
 
-### Blockchain & Cryptography
-- KZG Commitments Explained: https://olshansky.info/posts/kzg-via-ecg/
-- Pocket Network Architecture: https://olshansky.info/posts/why-pocket-is-rolling-with-rollkit/
-- Relay Mining Incentives: https://olshansky.info/posts/annotated-presentation-relay-mining-cryptographically-incentivizing-non-validating-nodes/
+- [Vibe Checks Are All You Need](https://olshansky.info/posts/vibe-checks-are-all-you-need/): AI evaluation intuition and practical approaches
+- [Escaping Backticks in LLM System Prompts](https://olshansky.info/posts/escaping-backticks-in-your-llm-system-prompt/): LLM prompt engineering techniques
+- [How to End Every Claude Project Conversation](https://olshansky.info/posts/how-you-should-end-every-claude-project-conversati/): Claude best practices
 
-### Technical Leadership
-- Documentation Philosophy: https://olshansky.info/posts/move-fast-document-things/
-- Project Management: https://olshansky.info/posts/the-4-week-project-checklist/
-- Engineering Principles: https://olshansky.info/posts/every-mantra-has-a-counter-mantra/
+## Blockchain & Cryptography
 
-### Mental Models
-- Analogical Thinking: https://olshansky.info/posts/the-power-of-analogies/
-- Note-Taking Systems: https://olshansky.info/posts/stream-of-thought-note-taking/
-- Theory vs Practice: https://olshansky.info/posts/2021-10-17-experience-vs-theory-lake-tahoe-edition/
+- [KZG via ECG](https://olshansky.info/posts/kzg-via-ecg/): KZG commitments explained through an analogy
+- [Why Pocket is Rolling with Rollkit](https://olshansky.info/posts/why-pocket-is-rolling-with-rollkit/): Pocket Network architecture decisions
+- [Relay Mining: Cryptographically Incentivizing Non-Validating Nodes](https://olshansky.info/posts/annotated-presentation-relay-mining-cryptographically-incentivizing-non-validating-nodes/): Annotated presentation on relay mining incentives
 
-### Investment Analysis
-- Nuclear Energy Thesis: https://olshansky.info/posts/why-im-allocating-10-of-my-portfolio-to-uranium/
-- Bitcoin Adoption Model: https://olshansky.info/posts/2017-12-27-bitcoin-adoption-curve-not-bubble/
+## Technical Leadership
+
+- [Move Fast, Document Things](https://olshansky.info/posts/move-fast-document-things/): Documentation philosophy for engineering teams
+- [The 4-Week Project Checklist](https://olshansky.info/posts/the-4-week-project-checklist/): Project management framework
+- [Every Mantra Has a Counter-Mantra](https://olshansky.info/posts/every-mantra-has-a-counter-mantra/): Engineering principles and trade-offs
+
+## Mental Models
+
+- [The Power of Analogies](https://olshansky.info/posts/the-power-of-analogies/): Analogical thinking in technical communication
+- [Stream of Thought Note-Taking](https://olshansky.info/posts/stream-of-thought-note-taking/): Personal knowledge management systems
+- [Experience vs Theory (Lake Tahoe Edition)](https://olshansky.info/posts/2021-10-17-experience-vs-theory-lake-tahoe-edition/): Balancing theory and practice
 
 ## Start Here
-Curated collection: https://olshansky.info/start/
 
-## Contact
-- GitHub: https://github.com/olshansk
-- Twitter/X: https://x.com/olshansky
-- LinkedIn: https://www.linkedin.com/in/dolshansky
+- [Curated Collection](https://olshansky.info/start/): Best posts organized by topic
+
+## Optional
+
+- [Nuclear Energy Investment Thesis](https://olshansky.info/posts/why-im-allocating-10-of-my-portfolio-to-uranium/): Personal uranium allocation rationale
+- [Bitcoin Adoption Curve](https://olshansky.info/posts/2017-12-27-bitcoin-adoption-curve-not-bubble/): 2017 Bitcoin adoption analysis
+
+## Leave a Tip
+
+- Ethereum: olshansky.eth
+- Zcash: t1P7gJhVUUSrNbWvYtPkk4yfu2UVR9kxtRz
+- USDC on base: 0xC90F9C04bb4E392133cAb1C3533B1FAA7cCBe7CC

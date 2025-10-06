@@ -21,4 +21,3 @@ a simple recovery show, but it needs to pass some base level quality.
 This one hit all the spots: family friendly, engaging, familial, etc. A few characters
 stood out, but a few felt really fake. Not going to get into the details, but I'll
 definitely watch the second season, when I need a "recovery" from another top-tier show.
-
