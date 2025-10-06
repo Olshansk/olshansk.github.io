@@ -34,3 +34,12 @@ If you are the leader of a large company, you will eventually need to navigate n
 Depending on the work your company does, you may need to navigate internal politics.
 
 There is such a thing as bad politics, but there's no such thing as no politics.
+
+### Edit #1 - 2025-10-05
+
+I came by a post titled [Stop Avoiding Politics](https://terriblesoftware.org/2025/10/01/stop-avoiding-politics)
+that was, ironically, published just 3 days after I wrote the thought above.
+
+I don't have much to add to it, other than saying that I completely agree with the author.
+
+It led me to [post this fun thought](./2025-10-05-young-and-old.md) on politics as a young and old engineer.
