@@ -23,3 +23,8 @@ ShowWordCount: true
 - Happy to surround myself with operators
 - I’m an engineer, but not the type to whom@you give direction
 - I don’t want to be told want to do, but I want to cooperate with someone on it
+- I don’t just want to execute on technical plans
+- I want to set strategic priorities
+- I have ideas
+- I have visions
+- I want to see certain things happen in the world
