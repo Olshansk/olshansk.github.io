@@ -28,3 +28,6 @@ ShowWordCount: true
 - I have ideas
 - I have visions
 - I want to see certain things happen in the world
+- Been writing this for a little while
+- A founder needs to wear a different hat every day, or every hour
+- Similarly, I was finding a different reason every day as well

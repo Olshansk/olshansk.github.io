@@ -8,6 +8,8 @@ keywords = ["Daniel Olshansky", "about Daniel Olshansky", "software engineer", "
 ShowToc = true
 +++
 
+- Get my live threads: nuclear, sauna sessions, chatgptip
+
 ## Hey, I’m Daniel, and I usually go by Olshansky
 
 I live by a few mantras:
