@@ -31,3 +31,11 @@ ShowWordCount: true
 - Been writing this for a little while
 - A founder needs to wear a different hat every day, or every hour
 - Similarly, I was finding a different reason every day as well
+- Some days it’s needing to make a decision
+- Other days it’s having freedom to follow@my curiosity
+- Some days it’s the opportunity to build capital that’ll let me work on anything
+- Some days its@to@inspire others
+- Others it’s for@the journey
+- Ultimately, it’s because I can’t see myself being fulfilled or happy on any other role
+- There’s not just one reason to want to be a founder
+- Mention a friend of mine asking me
