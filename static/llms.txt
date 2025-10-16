@@ -39,6 +39,7 @@ This site contains technical blog posts, book/movie reviews, and curated thought
 
 ## Leave a Tip
 
-- Ethereum: olshansky.eth
-- Zcash: t1P7gJhVUUSrNbWvYtPkk4yfu2UVR9kxtRz
-- USDC on base: 0xC90F9C04bb4E392133cAb1C3533B1FAA7cCBe7CC
+- ETH: olshansky.eth
+- ZEC: t1P7gJhVUUSrNbWvYtPkk4yfu2UVR9kxtRz
+- USDC (base): 0xC90F9C04bb4E392133cAb1C3533B1FAA7cCBe7CC
+- POKT: pokt1nmtj4m57t06fg023rqfdhhqkcyxqd5xna0spvz
