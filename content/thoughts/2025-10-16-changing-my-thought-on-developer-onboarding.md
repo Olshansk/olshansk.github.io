@@ -1,5 +1,5 @@
 ---
-title: "Changing my thought on developer onboarding: code vs product"
+title: "Changing my mind on developer onboarding: code vs product"
 date: 2025-10-16T10:22:39-0700
 draft: false
 description: ""
@@ -13,25 +13,25 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-Onboarding engineers is hard.
+**Onboarding engineers is hard.**
 
-You need to setup your development environment, build context, navigate the codebase, navigate the organization, understand the system, the product, and the list goes on....
+You need to set up your development environment, build context, navigate the codebase, navigate the organization, understand the system, the product — and the list goes on.
 
-I used to be of the opinion that the best way to onboard an engineer on day one is to make sure they:
+I used to believe that the best way to onboard an engineer on day one is to make sure they:
 
-1. Get their development environment setup
+1. Get their development environment set up
 2. Make a pull request to the codebase
 3. Merge and deploy to production
 
 You get an immediate hit of dopamine and experience the end-to-end flow of shipping a feature or fixing a bug.
 
-There is still a lot of value in this process, but it biases towards engineers who want to do engineering.
+There is still a lot of value in this process, but it biases toward engineers who want to do engineering.
 
 At a large company, where a new engineering hire is needed to solve a specialized problem, this is still the way to go.
-At a small startup, where the product is the company, every engineer needs to be product minded.
+At a small startup, where the product is the company, every engineer needs to be product-minded.
 
-Rather than getting your development environment setup, get your user account setup.
+Rather than getting your development environment set up, get your user account set up.
 Rather than making a pull request to the codebase, use the product.
 Rather than deploying to production, find a bug in production.
 
-**Get the engineers to use the product before they dive into the code.**
+**Get engineers to use the product before they dive into the code.**
