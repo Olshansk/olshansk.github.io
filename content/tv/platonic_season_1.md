@@ -20,4 +20,3 @@ The montage that the show presents at the end of the last episode captures every
 The relationship that never was. The hookup that never happened. It's bittersweet, but I believe the show teaches us that the person we need to let off some steam with may not necessarily be the one who should be a lifelong partner. A "best friend" can come in many different shapes and forms, and while our partner is a "best friend" in our everyday life, we can have another "best friend" who plays a different role, under different circumstances, and on different timelines.
 
 Not all good things have to last forever, but joyful memories do.
-
