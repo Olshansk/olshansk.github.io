@@ -39,3 +39,4 @@ ShowWordCount: true
 - Ultimately, it’s because I can’t see myself being fulfilled or happy on any other role
 - There’s not just one reason to want to be a founder
 - Mention a friend of mine asking me
+- If the business isn't working (i.e. the equity is worthless), it was out of control. In this case, it's in my control to make the decisions to fix things.
