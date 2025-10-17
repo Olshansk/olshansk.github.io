@@ -13,10 +13,15 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+Rough notes for the update:
+
+- https://x.com/paramonoww/status/1975575772971573437?utm_source=tldrcrypto
 - Add a note on USDC being enough
 - Add a note on it giving us the security we need
 - Part of security is governance, we don't need anything else there
 - Add USDC market cap to the table below: https://threadreaderapp.com/thread/1974983137458639182.html?utm_source=tldrcrypto
+
+--
 
 A couple of weeks ago I [posted some thoughts](https://olshansky.info/posts/2025-09-19-clarity-trilemma) after looking through the [CLARITY act](https://www.congress.gov/bill/119th-congress/house-bill/3633/text).
 
