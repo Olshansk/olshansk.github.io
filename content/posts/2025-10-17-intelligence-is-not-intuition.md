@@ -15,6 +15,7 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+- It’s artificial. It’s general. It’s intelligent. It’s not intuitive. It’d be fun if openai released a rubber duck that sits on your desk.
 - AGI is already here
 - Superintelligence is not here
 - I used LLMs in a general matter
