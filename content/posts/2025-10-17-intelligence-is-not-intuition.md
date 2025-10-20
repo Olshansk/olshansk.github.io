@@ -15,6 +15,8 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+Artificial General Intelligence is here. Artificial General Intuition is not. Read on to find out why.
+
 ## The Adoption Gap of AI in Other Industries
 
 When you work at a small startup in the software space, it feels like everyone is using LLMs and agents for absolutely everything ever day.
@@ -88,3 +90,10 @@ Between the two, I've recently been spending a lot of time around people who are
 - Augmented intelligence
 - There’s no artificial intuition or trifocals intelligence
 - Intelligence does not equal intuition
+Other rough notes:
+- Training
+- Pre-training
+- Learning
+
+The only thing we don't do or say is "experience", and that's intuition
+

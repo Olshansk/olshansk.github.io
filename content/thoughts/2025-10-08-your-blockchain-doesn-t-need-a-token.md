@@ -20,6 +20,9 @@ Rough notes for the update:
 - Add a note on it giving us the security we need
 - Part of security is governance, we don't need anything else there
 - Add USDC market cap to the table below: https://threadreaderapp.com/thread/1974983137458639182.html?utm_source=tldrcrypto
+- Buybacks are how you handle tokenomics
+- Start with a stablecoin, figure out what works, and then add a token. Similar to what polymarket is doing.
+- Hyperliquid is a great example of a team that seemed to figure it out quickly.
 
 --
 
