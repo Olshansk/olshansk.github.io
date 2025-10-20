@@ -2,7 +2,7 @@
 title: "Intelligence is not Intuition"
 date: 2025-10-17T10:26:53-0700
 draft: false
-description: ""
+description: "AGI is not the same as AGI"
 tags: ["AI", "Philosophy", "Posts"]
 categories: ["AI", "Philosophy", "Posts"]
 medium_url: ""
@@ -15,85 +15,63 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-Artificial General Intelligence is here. Artificial General Intuition is not. Read on to find out why.
+Artificial General Intelligence (AGI) is here, and nothing changed.
 
-## The Adoption Gap of AI in Other Industries
+Artificial General Intuition (AGI) is not here yet, but will change everything.
 
-When you work at a small startup in the software space, it feels like everyone is using LLMs and agents for absolutely everything ever day.
+How do we get there?
 
-I've been using [GitHub Copilot since the day it launched on Beta. I've been using ChatGPT since the first day it launched. I use agents to do all of my coding for me and no longer write code from scratch myself. There's no looking back.
+## When will AGI be here?
 
-However, when I look sideways, I am struck by the gap of adoption.
+If you're reading this, you've most certainly listened to Andrej Karpathy's conversation with Dwarkesh about [how AGI is still a decade away](https://www.dwarkesh.com/p/andrej-karpathy).
 
-Is it a function of age? The company size? The industry? The individual's innate curiosity? The list goes on...
+It's one of the highest signal-to-noise conversations I've heard on the topic. But, I'd push hard that Artificial General Intelligence (AGI) is already here. Intuition is a decade away.
 
-In reality, it's all of the above.
+Whether you're using ChatGPT to draft an email, an online tool to generate videos, or a CLI driven LLM agent to write code, we're using an **Artificial** tool in a **General** way that has some degree of **Intelligence**. Sometimes I feel like people were more impressed by [Alex the parrot](<https://en.wikipedia.org/wiki/Alex_(parrot)>) than the tools we're using today.
 
-I've had a lot of conversations with different people, in diverse industries, with various degrees of experience, and the only common pattern I see is:
+Billions of dollars are being poured into engineering efforts to move from Intelligence to Superintelligence, but the gap between Superintelligence and Intuition is where a new breakthrough is needed, and I don't know when (if?) it will happen.
 
-> But it goes X wrong.
+In the meantime, this distinction is critical because **Intuition** is what we need to use Artificial General Intelligence in full capacity.
 
-## AGI is already here
+## Terminology Used in AI
 
-Artificial General Intelligence (AGI) is already here.
+If you think through the terminology used in and around the field of AI, you notice how the gap in the focus on intuition.
 
-All of the "agentic tools" build on top of Large Language Models (LLMs) are AGI.
+We used **Reward Functions**
 
-It's **Artificial**. It's **General**. It's **Intelligent**.
+In [**Reinforcement Learning**](https://en.wikipedia.org/wiki/Reinforcement_learning), we use **Reward Functions** to **train** models
+to achieve a particular goal. This is done through **learning** in either **supervised** or **unsupervised** manners.
 
-It is not **Superintelligent**. Most importantly, it is not **Intuitive**.
+When the models are **applied** in the real world, we call it **inference**, which is a fancy way of saying **prediction** based on past experience.
 
-## Intuition cannot be trained or learnt, it is built
+One could argue that the above is a form of intuition, but it still feels like it's missing something.
 
-If you pay close attention to all of the words used in and around the field of AI, they all start pointing to the fact that Intuition is the missing gap.
+Intuition is not something that's taught, learnt, trained or built, it is something that's acquired over time.
 
-In [Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning), the
+## 10,000 hours
 
-> The typical framing of a reinforcement learning (RL) scenario: an agent takes actions in an environment, which is interpreted into a reward and a state representation, which are fed back to the agent.
+As I was thinking through this, [Malcom Gladwell's famous 10-000 hour rule](https://pmc.ncbi.nlm.nih.gov/articles/PMC4662388/).
 
-- Reward Functions
-- Reinforcement Learning
-- Training
-- Supervised and unsupervised learning
-- There’s a reason it’s called training and inference, not learning and applying
+It's great for framing the difference between raw intelligence, experience, expertise and intuition.
 
-[Malcom Gladwell's famous 10-000 hour rule](https://pmc.ncbi.nlm.nih.gov/articles/PMC4662388/) lays the foundation for this, but it has to be called out explicitly.
+With a bit of effort, most people can be trained to do most things if there's a clear, repeatable process. It doesn't take
+10-000 hours. In fact, I remember my first job at McDonald's as a 15 year old who was trained to salt some french fries
+and it only took an hour or so to get the hang of it 🍟.
 
-The most important thing that happens during those 10-000 hours are not the skills we learn, but the intuition we build.
+What 10,000 hours gives you is a tool, but a toolbox and experience. Intuition is how you translate experience to decide which tool to use given the circumstances.
 
-In the same way that that it is hard, if not impossible, to interview for this, it
-is also not something we can build a benchmark for.
+This reminds me of one of my favorite quotes by Pablo Picasso:
 
-## The gap between
+> “Learn the rules like a pro, so you can break them like an artist.”
 
-We already have Artificial General Intelligence (AGI) in the form of LLMs,
-and we have Augmented Intelligence in the form of agents.
+## Intuition in AI vs Intuition in Using AI
 
-- TODO: link to Simon's post defining this.
+All of that is cool, but how is anything I said above relevant today?
 
-I anticipate that we will have Super Intelligence at some point in the coming years, but I'm not sure if we'll ever have Artificial General Intuition. This is
-the human touch. This is expertise. This is something that takes time to build
-and I'm not even sure how to introspect on it. It really depends on my mood and
-energy levels those days.
+Understanding that these LLMs are intelligent but not intuitive is critical to deliniating how we use them.
 
-Between the two, I've recently been spending a lot of time around people who are not in the software industry and am struck by
+The only way to leverage AI to its full capacity is by spending 10,000 hours with them.
 
-- It’s artificial. It’s general. It’s intelligent. It’s not intuitive. It’d be fun if openai released a rubber duck that sits on your desk.
-- AGI is already here
-- Superintelligence is not here
-- I used LLMs in a general matter
-- What these models have are tools, and they can be trained to use tools and have knowledge
-- I don’t know if there’s a way to build intuition, because there’s no definitive reward function
-- Time spent with them
-- Experience in life
-- 10,000 hours
-- Augmented intelligence
-- There’s no artificial intuition or trifocals intelligence
-- Intelligence does not equal intuition
-Other rough notes:
-- Training
-- Pre-training
-- Learning
+You build intuitition of what they can or cannot do. You build intuition of when to take their result verbatim and when to question it. It's no different than hiring a brilliant new graduate out of college.
 
-The only thing we don't do or say is "experience", and that's intuition
-
+Remember, AI is intelligent but not intuitive. You are.
