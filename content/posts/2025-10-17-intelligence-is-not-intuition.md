@@ -69,4 +69,12 @@ The only way to leverage AI to its full capacity is by spending 10,000 hours wit
 
 You build intuition for what it can and cannot do. You build intuition for when to take its results verbatim and when to question them. It’s no different from hiring a brilliant new graduate fresh out of college.
 
-Remember, AI is intelligent but not intuitive. You are.
+**Remember, AI is intelligent but not intuitive. You are.**
+
+## Concluding thoughts on what's next
+
+We’ve built intelligence. Everyone is working on SuperIntelligence. Some people are working on [Safe SuperIntelligence](https://ssi.inc/).
+
+The next frontier is going to be Artificial General Intuition.
+
+I don't know how we'll get there, yet, but I'm excited to play a part in creating it.
