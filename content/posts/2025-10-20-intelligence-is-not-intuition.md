@@ -19,9 +19,9 @@ Everyone's waiting for _Artificial General Intelligence (AGI)_.
 
 The reality is that it's already here, and it hasn't changed a thing.
 
-No one is talking - or even thinking - about _Artificial General intuition (AGi)_ yet.
+No one is talking about _Artificial General intuition (AGi)_ - yet.
 
-What happens when it arrives?
+When it arrives, it'll change everything.
 
 {{< figure src="/images/agi-venn.png" alt="AGI Diagram" width="60%" class="center" >}}
 
