@@ -1,0 +1,11 @@
+/* Centered figures */
+figure.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure.center img {
+  margin-left: auto;
+  margin-right: auto;
+}

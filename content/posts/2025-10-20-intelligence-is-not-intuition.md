@@ -21,7 +21,7 @@ The reality is that it's already here, and some people say it hasn't changed a t
 
 _Artificial General Intuition (AGI)_, once it's here, will change everything.
 
-![AGI Venn Diagram](/images/agi.png)
+{{< figure src="/images/agi-venn.png" alt="AGI Diagram" width="60%" class="center" >}}
 
 ## When will _AGI_ be here?
 
@@ -80,3 +80,9 @@ The next frontier is **Artificial General Intuition**.
 Intelligence scales logic. Intuition scales judgment. Judgment can't really be measured, it can only be acquired.
 
 We don't yet know how we'll get there, but I'm excited to help create it.
+
+---
+
+If you enjoyed this, you can [subscribe to my Substack](https://olshansky.substack.com), follow [my RSS feed](https://olshansky.info/index.xml), or join my email list for those really special updates:
+
+{{< mailerlite >}}
