@@ -1,6 +1,6 @@
 ---
 title: "Intelligence is not Intuition"
-date: 2025-10-17T10:26:53-0700
+date: 2025-10-20T10:26:53-0700
 draft: false
 description: "AGI is not the same as AGI"
 tags: ["AI", "AGI", "Intuition", "Intelligence", "Posts"]
@@ -20,6 +20,8 @@ Everyone's waiting for _Artificial General Intelligence (AGI)_.
 The reality is that it's already here, and some people say it hasn't changed a thing.
 
 _Artificial General Intuition (AGI)_, once it's here, will change everything.
+
+![AGI Venn Diagram](/images/agi.png)
 
 ## When will _AGI_ be here?
 
