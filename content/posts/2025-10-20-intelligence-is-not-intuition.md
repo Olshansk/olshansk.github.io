@@ -1,9 +1,9 @@
 ---
-title: "Intelligence is not Intuition"
+title: "Intelligence is not intuition"
 date: 2025-10-20T10:26:53-0700
 draft: false
-description: "AGI is not the same as AGI"
-tags: ["AI", "AGI", "Intuition", "Intelligence", "Posts"]
+description: "AGI is here. AGi is not. No one is talking about it and it will change everything."
+tags: ["AI", "AGI", "AGi", "intuition", "Intelligence", "Posts"]
 categories: ["AI", "Posts"]
 medium_url: ""
 substack_url: ""
@@ -17,17 +17,19 @@ ShowWordCount: true
 
 Everyone's waiting for _Artificial General Intelligence (AGI)_.
 
-The reality is that it's already here, and some people say it hasn't changed a thing.
+The reality is that it's already here, and it hasn't changed a thing.
 
-_Artificial General Intuition (AGI)_, once it's here, will change everything.
+No one is talking - or even thinking - about _Artificial General intuition (AGi)_ yet.
+
+What happens when it arrives?
 
 {{< figure src="/images/agi-venn.png" alt="AGI Diagram" width="60%" class="center" >}}
 
-## When will _AGI_ be here?
+## When will _AGi_ be here?
 
 If you're reading this, you've most likely listened to Andrej Karpathy's conversation with Dwarkesh about [how AGI is still a decade away](https://www.dwarkesh.com/p/andrej-karpathy).
 
-It's one of the highest signal-to-noise conversations I've heard on the topic. But I'd argue that Artificial General Intelligence (AGI) is already here. Intuition is a decade away.
+It's one of the highest _signal-to-noise_ conversations I've heard on the topic. But I'd argue that Artificial General Intelligence (AGI) is already here. Intuition is a decade away.
 
 Whether you're using ChatGPT to draft an email, an online tool to generate videos, or a CLI-driven LLM agent to write code, we're using an **Artificial** tool in a **General** way that shows some degree of **Intelligence**. Sometimes I feel like people were more impressed by [Alex the parrot](<https://en.wikipedia.org/wiki/Alex_(parrot)>) than by the tools we're using today.
 
@@ -75,7 +77,7 @@ You build intuition for what they can and cannot do. You build intuition for whe
 
 We've built intelligence. Everyone’s racing toward Superintelligence. Some are even working on [Safe Superintelligence](https://ssi.inc/).
 
-The next frontier is **Artificial General Intuition**.
+The next frontier is **Artificial General intuition**.
 
 Intelligence scales logic. Intuition scales judgment. Judgment can't really be measured, it can only be acquired.
 
