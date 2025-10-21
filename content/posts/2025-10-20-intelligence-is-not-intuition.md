@@ -2,7 +2,7 @@
 title: "Intelligence is not intuition"
 date: 2025-10-20T10:26:53-0700
 draft: false
-description: "AGI is here. AGi is not. No one is talking about it and it will change everything."
+description: "AGI is here. AGi is not. No one is talking about it, and it will change everything."
 tags: ["AI", "AGI", "AGi", "intuition", "Intelligence", "Posts"]
 categories: ["AI", "Posts"]
 medium_url: ""
