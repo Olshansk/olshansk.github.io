@@ -40,3 +40,7 @@ ShowWordCount: true
 - There’s not just one reason to want to be a founder
 - Mention a friend of mine asking me
 - If the business isn't working (i.e. the equity is worthless), it was out of control. In this case, it's in my control to make the decisions to fix things.
+- Todo tch forward for construction
+- Not tech for we’d enough for labs
+- Feeling like a misfit
+- Founder because I don’t quite belong in a community, so I need to create my own
