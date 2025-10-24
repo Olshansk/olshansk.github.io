@@ -84,3 +84,19 @@ new_book:  ## Create new book review (usage: make new_book TITLE="Book Name")
 		exit 1; \
 	fi
 	@./scripts/create_content.sh book "$(TITLE)"
+
+#########################
+### Code Maintenance  ###
+#########################
+
+.PHONY: todo
+todo:  ## Grep codebase for TODO comments
+	@echo "=== Searching for TODO items ==="
+	@grep -rn "TODO" . \
+		--exclude-dir=.git \
+		--exclude-dir=node_modules \
+		--exclude-dir=public \
+		--exclude-dir=resources \
+		--exclude-dir=vendor \
+		--exclude="*.log" \
+		--color=always || echo "No TODO items found"
