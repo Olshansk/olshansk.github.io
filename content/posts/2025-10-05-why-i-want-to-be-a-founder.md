@@ -44,3 +44,5 @@ ShowWordCount: true
 - Not tech for we’d enough for labs
 - Feeling like a misfit
 - Founder because I don’t quite belong in a community, so I need to create my own
+
+- p until now, I’ve always acted as an owner of every job I’ve had to the point that it consumed my life and existence. Regardless of whether this is for better or for worse, it’s the case and I don’t think I have other modes of operation. Especially when I actually care about the the success of the company, business and its people. But, up until now, I’ve never actually been a real owner with the exception of GetSoils; Grove is a weird situation in between. If we do this, it’s not just a 3 year stint, but would likely (hopefully) be at least 10 years to really achieve significant impact, so it’s I’m taking this factor into consideration so heavily.
