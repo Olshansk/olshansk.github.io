@@ -3,7 +3,16 @@ title: "Founder vs Operator"
 date: 2025-10-26T14:00:26-0700
 draft: false
 description: ""
-tags: ["startups", "reflection", "founders", "operators"]
+tags:
+  [
+    "startups",
+    "leadership",
+    "founders",
+    "operators",
+    "entrepreneurship",
+    "reflection",
+  ]
+
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
@@ -33,10 +42,10 @@ But a great operator doesn't have to embody the qualities of a great founder.
 
 ---
 
-Note that this is an intentionally oversimplified and provocative way to frame it, but it does capture something real.
+This is an intentionally oversimplified and provocative way to frame it, but it captures something real.
 
-I could argue a founder is one who should find unmet needs in the world, or be driven by a mission.
+You could argue that a founder is someone who finds unmet needs in the world, or is driven by a mission.
 
-Similarly, saying that operators don't create problems is a disservice to those who excel at what they do.
+And saying operators don't create problems undervalues those who innovate within systems and make them stronger.
 
-If you're reading this, I hope you you have the ability and opportunity to do both.
+If you're reading this, I hope you have the ability — and the opportunity — to do both.
