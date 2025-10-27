@@ -85,6 +85,23 @@ new_book:  ## Create new book review (usage: make new_book TITLE="Book Name")
 	fi
 	@./scripts/create_content.sh book "$(TITLE)"
 
+######################
+### CV/Resume      ###
+######################
+
+.PHONY: resume
+resume:  ## Convert cv/resume.tex to PDF
+	@echo "=== Converting resume.tex to PDF ==="
+	@cd cv && pdflatex resume.tex
+	@echo ""
+	@echo "=== PDF generated at cv/resume.pdf ==="
+
+.PHONY: resume_clean
+resume_clean:  ## Clean LaTeX auxiliary files
+	@echo "=== Cleaning LaTeX auxiliary files ==="
+	@rm -f cv/*.aux cv/*.log cv/*.out cv/*.toc
+	@echo "Done!"
+
 #########################
 ### Code Maintenance  ###
 #########################
