@@ -1,7 +1,7 @@
 ---
 title: "Inside Amazon's Engineering Culture: Lessons from Their Senior Principals"
 date: 2025-10-25T19:59:06-0700
-draft: true
+draft: false
 description: ""
 tags:
   [
