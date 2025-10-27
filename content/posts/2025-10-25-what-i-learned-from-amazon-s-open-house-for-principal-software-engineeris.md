@@ -1,5 +1,5 @@
 ---
-title: "What I Learned from Amazon's Open House for Senior Principal Software Engineers"
+title: "Inside Amazon's Open House: Engineering Culture at Scale"
 date: 2025-10-25T19:59:06-0700
 draft: true
 description: ""
@@ -22,23 +22,23 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-I was recently invited to Amazon's Open House for Engineering Leaders.
+Last week I attended an invitation-only Open House at Amazon’s headquarters. It was an exclusive eye-opener into how the company actually thinks about its engineering culture at scale.
 
-I didn't know what to expect—but who would say no to a nice dinner with smart people and insightful conversations in [Seattle's Spheres](https://www.seattlespheres.com)? I suppose some would, but this is my version of a great night out. [1]
-
-_TODO: Insert a photo of the Spheres_
+I didn't know what to expect—but who would say no to a nice dinner with smart people and insightful conversations in [Seattle's Spheres](https://www.seattlespheres.com)? This is my version of a great night out. [1]
 
 I was pleasantly surprised. It was a firsthand look into the senior engineering culture Jeff Bezos catalyzed—one that continues to be embodied by those leading the company today.
 
 Three key takeaways stood out:
 
-1. The space industry is the definition of a mission-driven culture.
-2. A Senior Principal Engineer is not a Director is not a Vice President.
-3. Amazon remains deeply focused on customer and craft—without the frills.
+1. **Purpose**: Mission Driven Work
+2. **Structure**: The clear alignment between titles and roles
+3. **Focus**: Craft over perks
 
 Amazon didn’t ask me to write this. I just wanted to capture my thoughts while they’re fresh. If you’ve ever been curious about what their culture feels like from a third-party perspective, this might help.
 
-## Missionary Space Culture
+## Purpose: Mission Driven Work
+
+**The space industry is the definition of a mission-driven culture**.
 
 [MiMi Aung](https://en.wikipedia.org/wiki/MiMi_Aung), a 30-year NASA veteran and Director of Technical Program Management for [Project Kuiper](https://www.aboutamazon.com/what-we-do/devices-services/project-kuiper), gave a presentation I’ll never forget.
 
@@ -46,13 +46,15 @@ She oversaw the development of [Ingenuity](<https://en.wikipedia.org/wiki/Ingenu
 
 She’s one of the most mission-driven people I’ve ever met. You could tell she had hundreds of stories to share but only 15 minutes to do it. The world is lucky to have people like her. **A three-hour podcast (Lex? Tim? Any takers?) is what we need but don’t yet have.**
 
-I spoke with a Director from Blue Origin, an engineer from the Jet Propulsion Laboratory, and a Principal SDE from Project Kuiper—and I could tell I was among people building the future.
+In one circle, I spoke with a Director from Blue Origin, an engineer from the Jet Propulsion Laboratory, and a Principal SDE from Project Kuiper—and I could tell I was among people building the future.
 
-Best of all, I love that private companies like Amazon are both willing and able to provide the resources to ensure execution isn’t limited in the short term, while remaining pragmatic enough to demand financial returns in the mid to long term.
+Best of all, I'm grateful to live in a time where the private sector, and companies like Amazon, are both able and willing to provide the resources to ensure execution isn’t limited in the short term, while remaining pragmatic enough to demand financial returns in the mid to long term.
 
 This reinforced some ideas I’ve been mulling over. After this event, I can’t let them go. More on that in another post. [2]
 
-## A Senior Principal Engineer Is Not a Director Is Not a Vice President
+## **Structure**: The clear alignment between titles and roles
+
+**A Senior Principal Engineer is not a Director is not a Vice President.**
 
 At a small startup, a CTO might wear many hats—CTO, VP, Director, Principal SDE, Test Engineer, or even salesperson—depending on the time of day.
 
@@ -76,9 +78,11 @@ When I asked a VP at Amazon for examples, they gave me bigger ones:
 - **Product selection** – Shutting down a product can disband entire organizations.
 - **Letting go of a customer** – Once you deprioritize a customer, that trust may never return.
 
-## Amazon Truly Focuses on Customer and Craft—Without the Frills
+## **Focus**: Craft over perks
 
-**Amazon’s founding team built the culture—but it outlives those who set it in motion.** There’s power and beauty in witnessing that firsthand.
+**Amazon remains deeply focused on customer and craft—without the frills.**
+
+Amazon’s founding team built the culture—but it outlives those who set it in motion. There’s power and beauty in witnessing that firsthand.
 
 On my drive home, I reflected on what was said—and just as importantly, what wasn’t.
 No talk of lunches, gyms, benefits, or flexible hours. The word _balance_ didn’t come up once.
@@ -104,6 +108,8 @@ Mostly, I’m just grateful—for the people I met, the conversations I had, and
 I’m on my entrepreneurial journey, and I’d love to create the same kind of Principal Engineering community Amazon has.
 
 If you’re a Principal+ Software Engineer, I highly recommend reaching out to their recruiting team. No frills, no fluff, no games—just a chance to chat with some of the smartest people in the industry.
+
+**For all Amazon’s scale, their success still rests on something primitive: curiosity, clarity, and execution. Everything else—AI, perks, org charts—is scaffolding.**
 
 ---
 
