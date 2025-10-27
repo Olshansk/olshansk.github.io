@@ -52,9 +52,9 @@ She's one of the most mission-driven people I've ever met. You could tell she ha
 
 At one point, I found myself in a circle with a Director from Blue Origin, an engineer from the Jet Propulsion Laboratory, and a Principal SDE from Project Kuiper. It was clear I was among people building the future.
 
-It's inspiring to live in a time when the private sector—and companies like Amazon—are both willing and able to provide resources so that execution isn't limited in the short term, while remaining pragmatic enough to demand returns in the long term.
+It's inspiring to live in a time when the private sector—and companies like Amazon—are both willing and able to provide resources so that execution isn't limited in the short term, while remaining pragmatic enough to demand returns in the long term.²
 
-This reinforced a few ideas I've been mulling over. After this event, I can't let them go. More on that in another post. [2]
+This reinforced a few ideas I've been mulling over. After this event, I can't let them go. More on that in another post.³
 
 ![ingenuity](/images/ingenuity.jpg)
 
@@ -134,6 +134,8 @@ _Written after attending Amazon's October 2025 Engineering Open House in Seattle
 
 [1] I like to call the Amazon Spheres “Bezos' Balls.” To build a company as big as Amazon, you need some big ones—and two isn't enough. 🙃
 
-[2] As a software-first individual, I test and use the _latest and greatest_ AI tools on a daily basis. I've been using GitHub Copilot since 2021 and can't imagine working without my ChatGPT or Claude subscriptions. I asked engineers across Amazon, NASA, and Blue Origin about their AI experiences. Many on the ground floor in _“real engineering”_ disciplines are still slow to adopt these tools. The opportunity here is massive—it's only a matter of time. I'll save the details for another post, but now I have a goal: to earn a spot at the [MARS Conference](https://marsconference.com/).
+[2] Speaking of the space industry in the private sector, one of my friend's is building Canada's sovereign launch capabilities at [NordSpace](https://nordspace.com/) and its inspiring to see things coming to fruition.
+
+[3] As a software-first individual, I test and use the _latest and greatest_ AI tools on a daily basis. I've been using GitHub Copilot since 2021 and can't imagine working without my ChatGPT or Claude subscriptions. I asked engineers across Amazon, NASA, and Blue Origin about their AI experiences. Many on the ground floor in _“real engineering”_ disciplines are still slow to adopt these tools. The opportunity here is massive—it's only a matter of time. I'll save the details for another post, but now I have a goal: to earn a spot at the [MARS Conference](https://marsconference.com/).
 
 ![inside_spheres](/images/inside_spheres.JPG)
