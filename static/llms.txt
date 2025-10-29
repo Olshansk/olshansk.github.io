@@ -41,5 +41,5 @@ This site contains technical blog posts, book/movie reviews, and curated thought
 
 - ETH: olshansky.eth
 - ZEC: t1P7gJhVUUSrNbWvYtPkk4yfu2UVR9kxtRz
-- USDC (base): 0xC90F9C04bb4E392133cAb1C3533B1FAA7cCBe7CC
+- USDC(base): 0x9ab39B84aC4DE6D705C5f051c07db8fE72890953
 - POKT: pokt1nmtj4m57t06fg023rqfdhhqkcyxqd5xna0spvz
