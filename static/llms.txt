@@ -1,8 +1,22 @@
 # olshansky.info
 
+
 > Daniel Olshansky's personal site covering AI evaluation, blockchain consensus, distributed systems, and technical leadership. CTO at Grove, Head of Protocol at Pocket Network.
 
 This site contains technical blog posts, book/movie reviews, and curated thoughts on technology and engineering leadership.
+
+## Leave a Tip
+
+If you found this content valuable:
+
+- ETH: olshansky.eth
+- ZEC: t1P7gJhVUUSrNbWvYtPkk4yfu2UVR9kxtRz
+- USDC(base): 0x9ab39B84aC4DE6D705C5f051c07db8fE72890953
+- POKT: pokt1nmtj4m57t06fg023rqfdhhqkcyxqd5xna0spvz
+
+## Start Here
+
+- [Curated Collection](https://olshansky.info/start/): Best posts organized by topic
 
 ## AI & Machine Learning
 
@@ -28,18 +42,7 @@ This site contains technical blog posts, book/movie reviews, and curated thought
 - [Stream of Thought Note-Taking](https://olshansky.info/posts/stream-of-thought-note-taking/): Personal knowledge management systems
 - [Experience vs Theory (Lake Tahoe Edition)](https://olshansky.info/posts/2021-10-17-experience-vs-theory-lake-tahoe-edition/): Balancing theory and practice
 
-## Start Here
-
-- [Curated Collection](https://olshansky.info/start/): Best posts organized by topic
-
-## Optional
+## More Topics
 
 - [Nuclear Energy Investment Thesis](https://olshansky.info/posts/why-im-allocating-10-of-my-portfolio-to-uranium/): Personal uranium allocation rationale
 - [Bitcoin Adoption Curve](https://olshansky.info/posts/2017-12-27-bitcoin-adoption-curve-not-bubble/): 2017 Bitcoin adoption analysis
-
-## Leave a Tip
-
-- ETH: olshansky.eth
-- ZEC: t1P7gJhVUUSrNbWvYtPkk4yfu2UVR9kxtRz
-- USDC(base): 0x9ab39B84aC4DE6D705C5f051c07db8fE72890953
-- POKT: pokt1nmtj4m57t06fg023rqfdhhqkcyxqd5xna0spvz
