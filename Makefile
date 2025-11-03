@@ -89,10 +89,39 @@ new_book:  ## Create new book review (usage: make new_book TITLE="Book Name")
 ### CV/Resume      ###
 ######################
 
+.PHONY: resume_deps
+resume_deps:  ## Install LaTeX dependencies (BasicTeX via Homebrew)
+	@echo "=== Checking for pdflatex ==="
+	@if command -v pdflatex >/dev/null 2>&1; then \
+		echo "✓ pdflatex already installed at $$(which pdflatex)"; \
+	else \
+		echo "✗ pdflatex not found. Installing BasicTeX (~100MB download)..."; \
+		echo "This may take a few minutes..."; \
+		brew install --cask basictex; \
+		echo ""; \
+		echo "=== Installation complete! ==="; \
+		echo ""; \
+		echo "IMPORTANT: Update your PATH to use pdflatex"; \
+		echo "Run one of the following:"; \
+		echo ""; \
+		echo "  # For current shell:"; \
+		echo "  eval \"\$$(/usr/libexec/path_helper)\""; \
+		echo ""; \
+		echo "  # Or add to ~/.zshrc (permanent):"; \
+		echo "  echo 'export PATH=\"/Library/TeX/texbin:\$$PATH\"' >> ~/.zshrc"; \
+		echo "  source ~/.zshrc"; \
+		echo ""; \
+		echo "Then run: make resume"; \
+	fi
+
 .PHONY: resume
 resume:  ## Convert cv/resume.tex to PDF
 	@echo "=== Converting resume.tex to PDF ==="
-	@cd cv && pdflatex resume.tex
+	@if ! command -v pdflatex >/dev/null 2>&1; then \
+		echo "Error: pdflatex not found. Run 'make resume_deps' first."; \
+		exit 1; \
+	fi
+	@cd cv && pdflatex -interaction=nonstopmode resume.tex
 	@echo ""
 	@echo "=== PDF generated at cv/resume.pdf ==="
 
