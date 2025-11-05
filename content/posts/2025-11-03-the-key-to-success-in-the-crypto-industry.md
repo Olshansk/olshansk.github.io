@@ -17,11 +17,13 @@ I've seen dozens of crypto projects fail.
 
 I've seen a handful crypto companies succeed.
 
-To achieve success, a lot of things need to happen and align. But, a system is only ever as weak as it's weakest link.
+Failure can be the result of just one thing, but success always needs to be the outcome of many things.
 
-There is one differentiating which I've seen, time and time again, lead to failure. I, for one, also held on to it for years before being able to let it go.
+There is one differentiating factor which I've seen, time and time again, lead to failure...
 
-**A sure way to failure in the Crypto industry is to bias to Idealism over Pragmatism.**
+**A sure way to fail in the Crypto industry is to bias to Idealism over Pragmatism.**
+
+I was also at fault of this, for years, so learn from my mistakes.
 
 ## Not about Memes & Casinos
 
@@ -59,7 +61,7 @@ The following is a non-exhaustive list of successes that really shaped how I thi
 
 ## It's not that simple
 
-As I said earlier, failure can be the result of just one thing, but success is almost always the result of many things.
+As I said earlier, a lot of things need to happen and align to achieve success. But, a system is only ever as brittle as it's weakest link.
 
 You need to have a good UI, UX and educate your users. Timing is critical. You need a team that can execute. You need to build a product people actually need. The list goes on...
 
@@ -92,3 +94,11 @@ Note: This is a quick thought of a longer post I plan to write reflecting on fou
 [1] It's ironic becase Signal, the messaging app considered to be the most privacy focused, hosts most of their infrastructure on [AWS as well](https://www.theverge.com/news/807147/signal-aws-outage-meredith-whittaker). Putting aside their somewhat unlucky October 2025, it clearly provides what customer need to build privacy preserving Clearly it's a good solution if
 
 ot too different from how signal uses AWS infrasstructure.
+
+To sum it up:
+
+1. Don’t create a token
+2. Don’t decentralize prematurely
+3. Don’t over engineer
+
+You can do all those things after you get adoption.
