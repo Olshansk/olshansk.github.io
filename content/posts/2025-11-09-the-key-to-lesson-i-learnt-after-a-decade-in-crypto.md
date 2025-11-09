@@ -1,8 +1,8 @@
 ---
-title: "The key mindset to success in the Crypto industry"
-date: 2025-11-03T10:10:24-0700
+title: "The Key Lesson I Learned After Nearly a Decade in Crypto"
+date: 2025-11-09T10:10:24-0700
 draft: true
-description: ""
+description: "Biasing to Pragmatism over Idealism in the Crypto Industry"
 tags: ["Crypto", "Reflection", "Experience"]
 categories: ["posts"]
 ShowToc: true
