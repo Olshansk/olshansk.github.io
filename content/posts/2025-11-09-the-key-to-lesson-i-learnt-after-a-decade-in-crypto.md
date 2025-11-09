@@ -58,11 +58,9 @@ Below are examples I often bring up when discussing how **pragmatism (not purity
 
 **[Privy](https://www.privy.io/)** is arguably one of the most successful wallets in crypto. Its mission is to bring people onchain, and I've heard dozens of founders say it's the best thing that's happened to the industry in years. Yet it doesn't have a token, it isn't _"crypto-native,"_ and it relies heavily on AWS to store user keys [1]. Its CEO and co-founder, [Henri Stern](https://sequoiacap.com/founder/henri-stern/), spent four years as a protocol research engineer at FileCoin, a project that embodied true crypto ideals. That experience likely gave him a clear sense of when decentralization helps and when it only slows you down. Privy succeeded by focusing on the user experience over crypto ideals.
 
----
-
-In crypto, pragmatism isn't about compromise, it's about sequencing.
+**In crypto, pragmatism isn't about compromise, it's about sequencing.
 You can decentralize later. You can tokenize later.
-But you have to survive in the beginning.
+But you have to survive in the beginning.**
 
 ## It's Never That Simple
 
@@ -79,7 +77,7 @@ The only true exceptions? Bitcoin and Ethereum. [2]
 **Decentralization is a byproduct of a permissionless and incentivized system.**
 It's an end to a means, not a means to an end.
 
-A fully private, decentralized, permissionless world sounds perfect in theory. In practice, it stalls progress, innovation, and usability.
+A fully privacy-preserving, decentralized, permissionless world sounds perfect in theory. In practice, it stalls progress, innovation, and usability.
 
 In crypto, as in life, **survival belongs to the pragmatists.**
 
@@ -91,6 +89,6 @@ In crypto, as in life, **survival belongs to the pragmatists.**
 
 ---
 
-[1] Ironically, the world's most private messenger (Signal) runs mostly on [AWS](https://www.theverge.com/news/807147/signal-aws-outage-meredith-whittaker). It works because users value reliability over purity.
+[1] Ironically, the world's most private messenger (Signal) [runs mostly on AWS](https://www.theverge.com/news/807147/signal-aws-outage-meredith-whittaker). It works because users value reliability over purity.
 
 [2] I'd argue that Zcash is a third exception, but one that's not known as well (yet). I remember listening to the podcast episode on [The Ceremony: Birth of Zcash](https://ma.ttias.be/podcast-ceremony-birth-zcash/) back in 2017 and being blown away by the amount of work that went into it.
