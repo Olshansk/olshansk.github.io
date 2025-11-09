@@ -1,7 +1,7 @@
 ---
 title: "The Key Lesson I Learned After Nearly a Decade in Crypto"
 date: 2025-11-09T10:10:24-0700
-draft: true
+draft: false
 description: "Why Pragmatism Beats Idealism in the Crypto Industry"
 tags: ["Crypto", "Reflection", "Experience"]
 categories: ["posts"]
@@ -44,7 +44,7 @@ That transition, from observer to participant, is when you start facing real tra
 It's when you stop quoting whitepapers and start debugging production systems.
 And it's when your ideals begin to meet reality.
 
-Below are examples I often bring up when discussing how **pragmatism (not purity) led to success** I've been learning from.
+Below are examples I often bring up when discussing how **pragmatism (not purity) led to success.** These are lessons I’ve been learning from.
 
 ## Pragmatic Successes
 
@@ -56,7 +56,7 @@ Below are examples I often bring up when discussing how **pragmatism (not purity
 
 **[Coinbase](https://www.coinbase.com/)** thrived by offering custody and compliance instead of maximalist purity. Crypto said: _Not your keys, not your coins._ Coinbase said: _Most people don't want to manage keys._ They made the pragmatic choice to build for real users, not ideals, and onboarded millions because of it.
 
-**[Privy](https://www.privy.io/)** is arguably one of the most successful wallets in crypto. Its mission is to bring people onchain, and I've heard dozens of founders say it's the best thing that's happened to the industry in years. Yet it doesn't have a token, it isn't _"crypto-native,"_ and it relies heavily on AWS to store user keys [1]. Its CEO and co-founder, [Henri Stern](https://sequoiacap.com/founder/henri-stern/), spent four years as a protocol research engineer at FileCoin; a project that embodied true crypto ideals. That experience likely gave him a clear sense of when decentralization helps and when it only slows you down. Privy succeeded by focusing on the user experience over crypto ideals.
+**[Privy](https://www.privy.io/)** is arguably one of the most successful wallets in crypto. Its mission is to bring people onchain, and I've heard dozens of founders say it's the best thing that's happened to the industry in years. Yet it doesn't have a token, it isn't _"crypto-native,"_ and it relies heavily on AWS to store user keys [1]. Its CEO and co-founder, [Henri Stern](https://sequoiacap.com/founder/henri-stern/), spent four years as a protocol research engineer at FileCoin, a project that embodied true crypto ideals. That experience likely gave him a clear sense of when decentralization helps and when it only slows you down. Privy succeeded by focusing on the user experience over crypto ideals.
 
 ---
 
@@ -93,4 +93,4 @@ In crypto, as in life, **survival belongs to the pragmatists.**
 
 [1] Ironically, the world's most private messenger (Signal) runs mostly on [AWS](https://www.theverge.com/news/807147/signal-aws-outage-meredith-whittaker). It works because users value reliability over purity.
 
-[2] I'd argue that Zcash is a third exception, but one that's not known as well (yet). I remember listening the podcast episode on [The Ceremony: Birth of Zcash](https://ma.ttias.be/podcast-ceremony-birth-zcash/) back in 2017 and being blown away by the amount of work that went into it.
+[2] I'd argue that Zcash is a third exception, but one that's not known as well (yet). I remember listening to the podcast episode on [The Ceremony: Birth of Zcash](https://ma.ttias.be/podcast-ceremony-birth-zcash/) back in 2017 and being blown away by the amount of work that went into it.
