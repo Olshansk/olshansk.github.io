@@ -121,8 +121,8 @@ resume:  ## Convert cv/resume.tex to PDF
 		echo "Error: pdflatex not found. Run 'make resume_deps' first."; \
 		exit 1; \
 	fi
-	@cd cv && pdflatex -interaction=nonstopmode resume.tex
-	@echo ""
+	@cd cv && pdflatex -interaction=nonstopmode -halt-on-error resume.tex > /dev/null 2>&1 || \
+		(echo "Error: LaTeX compilation failed. Check cv/resume.log for details." && exit 1)
 	@echo "=== PDF generated at cv/resume.pdf ==="
 
 .PHONY: resume_clean
