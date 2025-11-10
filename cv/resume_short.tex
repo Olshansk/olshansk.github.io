@@ -2,7 +2,7 @@
 %   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt]{resume}
+\documentclass[10pt]{resume}
 
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -14,7 +14,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{anysize}
-\marginsize{1.2em}{1.2em}{1.2em}{1.2em}
+\marginsize{1em}{1em}{1em}{1em}
 
 % Make itemize more compact
 \setlength{\parskip}{0pt}
@@ -25,11 +25,11 @@
 %   Resume Definitions
 %----------------------------------------------------------------------------------------
 \newenvironment{rSectionCompact}[1]{
-  \smallskip
+  \medskip
   \textbf{\textcolor{Cerulean}{\MakeUppercase{#1}}}
   \vspace{0.1em}
   {\color{Blue}\hrule height 0.7pt}
-  \vspace{0.1em}
+  \vspace{0.3em}
   \begin{list}{}{
     \setlength{\leftmargin}{0em}
   }
@@ -42,11 +42,11 @@
 \newenvironment{rJobCompact}[2]{
   \normalsize
   \textcolor{Blue}{\textbf{#1}}\hfill\textit{#2}
-  \vspace{0.1em}
-  \begin{list}{--}{\leftmargin=1.5em}
-  \itemsep 0em
+  \vspace{0.05em}
+  \begin{list}{$\bullet$}{\leftmargin=1.5em}
+  \itemsep -0.1em
 }{
-    \vspace{0.3em}
+    \vspace{0.2em}
     \end{list}
 }
 
@@ -57,20 +57,20 @@
 %----------------------------------------------------------------------------------------
 
 \name{Daniel Olshansky}
-\address{olshansky.daniel@gmail.com \\ 415-735-5911 \\ \href{https://olshansky.info}{olshansky.info} \\ Bellevue, WA}
+\address{} % Empty address to avoid default address formatting
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
 
+\vspace{-1.5em}
+
 \begin{center}
     \small
-    \includegraphics[scale=0.2]{github-icon.png} \href{https://github.com/olshansk}{@olshansk} \Hquad
-    \includegraphics[scale=0.2]{twitter-icon.png} \href{https://twitter.com/olshansky}{@olshansky} \Hquad
-    \includegraphics[scale=0.2]{linkedin-icon.png} \href{https://www.linkedin.com/in/dolshansky/}{dolshansky}
+    olshansky.daniel@gmail.com $\diamond$ 415-735-5911 $\diamond$ \href{https://olshansky.info}{olshansky.info} $\diamond$ \includegraphics[scale=0.2]{github-icon.png} \href{https://github.com/olshansk}{@olshansk} $\diamond$ \includegraphics[scale=0.2]{twitter-icon.png} \href{https://twitter.com/olshansky}{@olshansky} $\diamond$ \includegraphics[scale=0.2]{linkedin-icon.png} \href{https://www.linkedin.com/in/dolshansky/}{dolshansky}
 \end{center}
 
-\vspace{-1em}
+\vspace{0.3em}
 
 %----------------------------------------------------------------------------------------
 %   About Me
@@ -78,7 +78,7 @@
 
 \begin{rSectionCompact}{About Me}
     \small
-    \textbf{Superpower}: Reflection, writing, and adaptation. Work integrated into life—slower but deep, long hours. Tough decisions after sleep and workouts. Through training, I learnt the mind-body connection; through small companies, I learnt to understand myself. This extends to understanding others and shaping environments so each individual does their best work. \textbf{Drive}: Build a generational brand; inspired by founders, want to inspire others. \textbf{Success}: When quirks become traits to learn from.
+    \textbf{Superpower}: Working, learning, reflecting, and adapting. \textbf{Approach}: Work is integrated into my life. I operate through long, focused stretches of deep work punctuated by intense sprints. I gather context throughout the day and make tough decisions by constantly weighing the tradeoffs between execution and ideology, often after a good night's sleep and a morning workout. \textbf{Mindset}: Physical training taught me the mind-body connection; mental training taught me self-awareness. I extend this to understanding context and people, creating environments that drive the best outcomes and push others to do their best work. \textbf{Craft}: Deep software tech; building systems, tools, and infrastructure that scale ideas from zero to lasting impact. \textbf{Drive}: To build a generational company with a timeless brand that inspires future founders as I push the frontier forward. \textbf{Success}: When personality quirks become traits others seek to learn from.
 \end{rSectionCompact}
 
 %----------------------------------------------------------------------------------------
@@ -87,34 +87,34 @@
 
 \begin{rSectionCompact}{Experience}
 
-    \begin{rJobCompact}{CTO @Grove / Head of Protocol @ Pocket Network}{2022 - Present}
-        \item \textbf{What I learnt}: EQ matters far more than IQ when it comes to leadership
-        \item \textbf{What I did}: Led a small team and large ecosystem in R\&D of a blockchain enabling decentralized data access and API discovery
-        \item \textbf{Result}: Migrated and launched a \$100M+ protocol across dozens of exchanges and hundreds of ecosystem members; built protocol handling 1.5B+ daily requests; published multiple specifications; rebuilt team of 6 engineers after CTO departure
+    \begin{rJobCompact}{CTO @ Grove | Head of Protocol @Pocket Network}{2022 - Present}
+        \item \textbf{What I learned}: Emotional intelligence matters more than raw intellect when leading teams and organizations
+        \item \textbf{What I did}: Led R\&D for a permissionless API marketplace, bridging a small core team and a large ecosystem to enable decentralized data access at scale
+        \item \textbf{Result}: Oversaw the migration and launch of a \$100M+ protocol powering over \$1B in daily network requests across dozens of exchanges and hundreds of stakeholders
     \end{rJobCompact}
 
-    \begin{rJobCompact}{GetSoils}{2021 - 2022}
-        \item \textbf{What I learnt}: How hard it is to sell to old industries
-        \item \textbf{What I did}: Built a construction soil marketplace from scratch
-        \item \textbf{Result}: Validated market demand but learned critical lessons about industry adoption cycles
+    \begin{rJobCompact}{Founder \& CEO @ GetSoils}{2021 - 2022}
+        \item \textbf{What I learned}: Selling new technology to legacy industries is far harder than building it
+        \item \textbf{What I did}: Built a construction marketplace for excess soil from zero to one, connecting contractors and disposal sites
+        \item \textbf{Result}: Validated market demand but uncovered critical lessons about adoption cycles in traditional industries
     \end{rJobCompact}
 
-    \begin{rJobCompact}{Waymo (Alphabet)}{2020 - 2022}
-        \item \textbf{What I learnt}: Built intuition around AI, ML, evals, and how the smartest people in the world think
-        \item \textbf{What I did}: Built data science infrastructure for the Planner Eval team
-        \item \textbf{Result}: Created labeling and test set tooling used by 100+ data scientists, established org-wide test set initiative
+    \begin{rJobCompact}{Senior Software Engineer @ Waymo (Alphabet)}{2020 - 2022}
+        \item \textbf{What I learned}: Developed deep intuition around AI, ML, and evaluation frameworks, and how to enable data science teams to focus on research instead of infrastructure
+        \item \textbf{What I did}: Built the test-set data corpus and labeling infrastructure that streamlined evaluation workflows for the Planner Eval team
+        \item \textbf{Result}: Created a data corpus spanning thousands of real and synthetic datasets, used by dozens of data scientists across the company to run hundreds of evaluations; this work laid the foundation for an organization-wide evaluation initiative
     \end{rJobCompact}
 
-    \begin{rJobCompact}{Magic Leap}{2016 - 2020}
-        \item \textbf{What I learnt}: How to navigate politics, what too much premature money can do, and how to innovate technically
-        \item \textbf{What I did}: Helped build a shareable digital world for cross-reality experiences
-        \item \textbf{Result}: Led team of 5 engineers, contributed to \href{https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en}{12+ patents}, built device management system from factory to thousands of end-users
+    \begin{rJobCompact}{Lead Software Engineer @ Magic Leap}{2016 - 2020}
+        \item \textbf{What I learned}: How to collaborate across hardware, research, product, and gaming teams; how to navigate cross-organizational politics; and what happens when a company raises too much, too early
+        \item \textbf{What I did}: Architected and built a cloud-based digital twin of the real world, leveraging raw sensor data for object recognition and both sparse and dense mapping to enable cross-reality experiences
+        \item \textbf{Result}: Supported the launch of the Magic Leap One (ML1), released the first version of Magic Leap's Shared World SDK, and led a team of five engineers while contributing to more than \href{https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en}{fifteen patents}
     \end{rJobCompact}
 
-    \begin{rJobCompact}{Twitter}{2014 - 2015}
-        \item \textbf{What I learnt}: How big corporations operate and what it means to design systems
-        \item \textbf{What I did}: Worked on mobile and shipped features like GIF Search
-        \item \textbf{Result}: Built backend systems and APIs used by tens of millions daily, automated data pipelines driving product decisions
+    \begin{rJobCompact}{Software Engineer @ Twitter}{2014 - 2015}
+        \item \textbf{What I learned}: How large organizations operate, how to design scalable systems, and how to evolve from simply coding to true engineering
+        \item \textbf{What I did}: Designed and built features across the entire stack - mobile, web, and backend
+        \item \textbf{Result}: Delivered GIF search, custom timelines, and follow-graph features for verified users; prototyped emoji reactions and new profile page functionality
     \end{rJobCompact}
 
 \end{rSectionCompact}
@@ -125,11 +125,23 @@
 
 \begin{rSectionCompact}{Education}
     \textbf{University of Toronto} \hfill \textit{2010 - 2014} \\
-    B.A.Sc in Engineering Science, Electrical \& Computer Engineering • GPA: 3.84 • N$\Psi$ 1T4
+    B.A.Sc in Engineering Science, Electrical \& Computer Engineering • GPA: 3.84 • Dean's List • N$\Psi$ 1T4
 
-    \vspace{0.3em}
+    \vspace{0.2em}
     \textbf{William Lyon Mackenzie CI} \hfill \textit{2006 - 2010} \\
-    Awards: Chemistry, Physics, Math, Top Overall Average • President of Programming Club • VP of Ping Pong Club
+    \textbf{Awards}: Chemistry, Physics, Math, Top Overall Average • \textbf{Extracurriculars}: President of Programming Club • VP of Ping Pong Club
+\end{rSectionCompact}
+
+%----------------------------------------------------------------------------------------
+%   Additional Resources
+%----------------------------------------------------------------------------------------
+
+\begin{rSectionCompact}{Additional Resources}
+    \small
+    \textbf{Writing}: \href{https://olshansky.info/posts}{Posts}, \href{https://olshansky.info/thoughts}{Thoughts}, \href{https://olshansky.substack.com/}{Substack}, \href{https://olshansky.medium.com/}{Medium} \\
+    \textbf{Consuming}: \href{https://olshansky.info/book}{Books}, \href{https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e}{Podcasts}, \href{https://olshansky.info/movie}{Movies}, \href{https://olshansky.info/tv}{TV} \\
+    \textbf{Presenting}: \href{https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E}{YouTube playlist of Talks \& Interviews} \\
+    \textbf{Publishing}: \href{https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en&oi=sra}{Google Scholar}
 \end{rSectionCompact}
 
 %----------------------------------------------------------------------------------------
@@ -138,8 +150,8 @@
 
 \begin{rSectionCompact}{Skills \& Interests}
     \small
-    \textbf{Core}: First-principles thinking, System design, Technical leadership, Cross-functional collaboration \\
-    \textbf{Tech}: Go, Python, Blockchain, ML/AI, Infrastructure, Kubernetes \\
+    \textbf{Soft}: First-principles thinking, System design, Technical leadership, Cross-functional collaboration \\
+    \textbf{Hard}: Go, Python, Blockchain, ML/AI, Infrastructure, Kubernetes \\
     \textbf{Interests}: Writing, Hiking, Value investing, Calisthenics, Meditation, Improv, Biographies \\
     \textbf{Languages}: English, Russian, Hebrew
 \end{rSectionCompact}
