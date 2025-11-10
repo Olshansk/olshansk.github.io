@@ -125,6 +125,17 @@ resume:  ## Convert cv/resume.tex to PDF
 		(echo "Error: LaTeX compilation failed. Check cv/resume.log for details." && exit 1)
 	@echo "=== PDF generated at cv/resume.pdf ==="
 
+.PHONY: resume_short
+resume_short:  ## Convert cv/resume_short.tex to PDF
+	@echo "=== Converting resume_short.tex to PDF ==="
+	@if ! command -v pdflatex >/dev/null 2>&1; then \
+		echo "Error: pdflatex not found. Run 'make resume_deps' first."; \
+		exit 1; \
+	fi
+	@cd cv && pdflatex -interaction=nonstopmode -halt-on-error resume_short.tex > /dev/null 2>&1 || \
+		(echo "Error: LaTeX compilation failed. Check cv/resume_short.log for details." && exit 1)
+	@echo "=== PDF generated at cv/resume_short.pdf ==="
+
 .PHONY: resume_clean
 resume_clean:  ## Clean LaTeX auxiliary files
 	@echo "=== Cleaning LaTeX auxiliary files ==="
