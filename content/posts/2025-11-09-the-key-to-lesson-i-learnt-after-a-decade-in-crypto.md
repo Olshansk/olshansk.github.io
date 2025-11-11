@@ -24,6 +24,8 @@ After nearly a decade in this space, one pattern repeats itself:
 
 I joined the industry for its ideals. It took years - and a few hard lessons - to unlearn them.
 
+![Key Lesson in Crypto](/images/key_crypto_lesson.webp)
+
 ## Not About Memes or Casinos
 
 This is about projects trying to _create_ value, not extract it.
