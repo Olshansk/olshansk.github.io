@@ -38,3 +38,5 @@ I could try to explain the plot in more detail, but it would only flatten it. Th
 [The Far Side of the Moon](https://www.canadianstage.com/show/the-far-side-of-the-moon) is a once-in-a-lifetime performance carried by a single actor and supported by a dozen invisible collaborators.
 
 I hadn’t heard of Robert Lepage before this. I am grateful this world opened up to me.
+
+![The Far Side of the Moon](/images/the_far_side_of_the_moon.jpg)
