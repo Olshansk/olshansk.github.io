@@ -15,15 +15,15 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-One thing I am building a muscle in is converting repetative tasks into [Claude Slash Commands](https://code.claude.com/docs/en/slash-commands).
+One habit I am building is converting repetitive tasks into [Claude Slash Commands](https://code.claude.com/docs/en/slash-commands).
 
-Even though I don't write code by hand, I still direct and architect how the critical parts of the code are written.
+Even though I do not write code by hand anymore, I still direct and architect how the critical parts of the codebase are written. _When it comes to frontend, it's mostly vibe-coded without looking inside._
 
-Part of this involves resolving merge conflicts. I'm sharing that slash command below.
+Part of this involves resolving merge conflicts. I am sharing that slash command below in the hope that it will be useful to others.
 
-**A general purpose trick which I've found to work very well is to permit AI agents to ask for clarification, help and direction if they are unsure**. It enables me to avoid doing the work myself, while preventing the ping-pong back and forth of errors.
+An interesting part of this is **a general purpose trick I have found to work very well. Explicitly permitting AI agents to ask for clarification, help, and direction if they are unsure.** It lets me avoid doing the work myself, while preventing the ping pong back and forth of errors.
 
-Here is how I ended my prompt for reference:
+Here is how I end most of my complex prompts nowadays:
 
 > If you are not sure how a conflict should be resolved, stop and ask me for direction or clarification.
 >
@@ -34,7 +34,7 @@ Here is how I ended my prompt for reference:
 The full `~/.claude/commands/cmd_merge_conflict_resolver.md` is below:
 
 <details>
-<summary>Click to slash command</summary>
+<summary>Click to view slash command</summary>
 
 ```markdown
 # Resolve Merge Conflicts <!-- omit in toc -->
