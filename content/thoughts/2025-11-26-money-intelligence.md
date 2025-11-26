@@ -1,10 +1,10 @@
 ---
-title: "Money {{TITLE}} Intelligence"
+title: "Money and Intelligence"
 date: 2025-11-26T09:32:08-0500
 draft: false
-description: ""
-tags: []
-categories: []
+description: "A thought on money and intelligence."
+tags: ["curiosity", "money", "ai"]
+categories: ["thoughts"]
 ShowToc: true
 TocOpen: false
 ShowReadingTime: true
@@ -12,25 +12,6 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ---
-
-Here’s a cleaned up, sharper version that keeps your structure but fixes the rough edges and tightens the flow. No fluff, no hedging. Practical and forward facing.
-
-⸻
-
-title: “Money {{TITLE}} Intelligence”
-date: 2025-11-26T09:32:08-0500
-draft: false
-description: “”
-tags: []
-categories: []
-ShowToc: true
-TocOpen: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-
-⸻
 
 **Money Magnifies You. AI Amplifies Your Intelligence.**
 
