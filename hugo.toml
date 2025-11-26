@@ -29,6 +29,9 @@ googleAnalytics = 'G-15DW3DE66X'
 [markup.highlight]
 style = "monokai"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
   author = "Daniel Olshansky"
   description = "Daniel Olshansky - Software Engineer, AI Developer, and Tech Blog. Posts about software development, AI, distributed systems, and technology insights."
