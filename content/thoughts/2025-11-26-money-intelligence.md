@@ -25,7 +25,7 @@ AI works the same way:
 
 > AI doesn’t change your intelligence; it amplifies your intelligence.
 
---
+---
 
 When you see both as tools to expand who you are rather than define you,
 the whole picture snaps into place.
