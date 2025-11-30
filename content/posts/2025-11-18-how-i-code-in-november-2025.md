@@ -82,3 +82,39 @@ Meta takeaways on how teams will change:
 - You won’t need anyone who doesn’t have agency of their own
 - But, it’s a very great sounding board. No longer do we need to use people as rubber ducks, because we have digital gizmoducks
 - It’s still your job to get a picture of the product, codebase, and and user problem
+
+## Personalities & Responsibilities
+
+Claude
+
+- Claude for implementation and features
+- You have an army of Claude mi/senior engineers. You have a dozen Gemini principals. You have a handful of hands on codex directors and managers.
+  Claude has style and taste.
+
+Codex
+
+- Codex for me planning and scaffolding
+- Codex is the best orchestration.
+
+Gemini
+
+- Gemini for bug tracking
+- Gemini is smart and can go into the details (bugs, security, hard problems).
+
+## Roles
+
+CLI:
+
+- Gemini, codex, claude
+
+UI:
+
+- Gemini: yes, for nano banna
+- ChatGPT: Main driver. Lots of projects where I can just copy-paste stuff and it knows what to do
+- Claude: used to use it but no more.
+
+Engineering leaders
+
+- Often graduate from writing code to giving directions and making plans.
+- Periodically check in
+- Now that’s everyone
