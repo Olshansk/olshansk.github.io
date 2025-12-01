@@ -15,6 +15,17 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+IDE:
+
+- Was on VSCode
+- Switched to Windsurf
+- Now on antigravity
+
+When do I look at the code:
+
+- It works and I'm ready to review
+- It's in a non working spiral and there's no need to keep burning tree
+
 Potential Titles:
 
 - Reflections on coding in 2025
@@ -89,7 +100,8 @@ Claude
 
 - Claude for implementation and features
 - You have an army of Claude mi/senior engineers. You have a dozen Gemini principals. You have a handful of hands on codex directors and managers.
-  Claude has style and taste.
+- Claude has style and taste.
+- Easier tasks AND more tasks
 
 Codex
 
@@ -100,6 +112,7 @@ Gemini
 
 - Gemini for bug tracking
 - Gemini is smart and can go into the details (bugs, security, hard problems).
+- TODO finder
 
 ## Roles
 
