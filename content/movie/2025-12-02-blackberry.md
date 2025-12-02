@@ -10,14 +10,14 @@ tags = [
 rotten_tomatoes_url = "https://www.rottentomatoes.com/m/blackberry"
 +++
 
-Though I'm sure this movie was overdramatized in certain parts, it was entertaining, nostalgic and educational all at the same time.
+Though I'm sure this movie was over-dramatized in places, it was entertaining, nostalgic, and educational all at once.
 
-I abosolutely loved it and would recommend to any of my friends.
+I absolutely loved it and would recommend it to any of my friends.
 
-The series of events between 2000 - 2007 really took me back as I was finally able to reflect on what was happening from a professional point of view, even though I was just a kid seeing the world change at the time.
+The stretch from 2000 to 2007 really pulled me back. Watching it now, with a professional lens, helped me finally process what was happening back then, even though I was just a kid watching the world shift.
 
-The innovator's dillema encountered by Mike Lazaridis was so real. If I ever have the opportunity, I'd love to know what was actually going through his mind during the iPhone release.
+The innovator’s dilemma Mike Lazaridis faced was painfully real. If I ever get the chance, I’d love to know what was actually going through his mind during the iPhone reveal.
 
-The downfall of such a large company just show that nothing is ever too big to fail.
+The downfall of such a huge company shows that nothing is ever too big to fail.
 
-Tons of good stuff around nerding out, team culture, selling and just the vibe shift of the late 90s and early 2000s. It's nice to know that Telecoms are no longer at the help of technological innovation.
+The movie is packed with great moments about nerd culture, team dynamics, selling, and the vibe shift of the late 90s and early 2000s. And it’s strangely comforting to see a time when telecom giants weren’t at the helm of technological innovation.
