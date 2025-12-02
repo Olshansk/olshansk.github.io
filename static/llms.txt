@@ -12,6 +12,7 @@ If you found this content valuable:
 - ETH: olshansky.eth
 - ZEC: t1P7gJhVUUSrNbWvYtPkk4yfu2UVR9kxtRz
 - USDC(base): 0x9ab39B84aC4DE6D705C5f051c07db8fE72890953
+- USDC(solana): 3EaTMQrGuw25kMh2VppYND4754nsbX5jHMLKpYRBExD9
 - POKT: pokt1nmtj4m57t06fg023rqfdhhqkcyxqd5xna0spvz
 
 ## Start Here
