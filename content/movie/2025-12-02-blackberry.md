@@ -21,3 +21,10 @@ The innovator’s dilemma Mike Lazaridis faced was painfully real. If I ever get
 The downfall of such a huge company shows that nothing is ever too big to fail.
 
 The movie is packed with great moments about nerd culture, team dynamics, selling, and the vibe shift of the late 90s and early 2000s. And it’s strangely comforting to see a time when telecom giants weren’t at the helm of technological innovation.
+
+--- Edits ---
+
+Since writing the original review, I have some edits:
+
+1. The importance of finding "super nerds" is so critical for these companies.
+2. The imporance of having a fun culture earli on is so critical.
