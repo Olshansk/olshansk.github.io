@@ -15,6 +15,14 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+Visual to create:
+
+- Create an image of a tree show me, codex, Gemini and then Claude
+- 1 codex
+- 2 Gemini
+- 4 claude
+- In the future, many more
+
 IDE:
 
 - Was on VSCode
@@ -131,3 +139,29 @@ Engineering leaders
 - Often graduate from writing code to giving directions and making plans.
 - Periodically check in
 - Now that’s everyone
+
+Rough
+
+- Ryan Perry, when I was 19: "You will review a lot more code than youw rite"
+- Up until recently, I had 5 senior engineers on my team, and I was reveiwign a lot of cod
+- Today, I:
+  - Write a long prompt/spec
+  - Ask it to review the code in depth
+  - take its time
+  - Build a plan
+  - Ask quesitons
+- We go back and forth
+- I focu on:
+  - not shitty documentaiton
+  - Good toold & make commands
+  - Easy for me to run tets
+- Once the product works
+  - I start reviewing on githb
+  - I tell it how to rename, refactor, rewrite
+  - I go line by line
+  - I structure it well
+- This is very necesary so future lLMs follow good pattens
+- BUT, I don't write code myself...
+- It kind of feels like how tony stark operated
+- I don't write code anymore
+- Par
