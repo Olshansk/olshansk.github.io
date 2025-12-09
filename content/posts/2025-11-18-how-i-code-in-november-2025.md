@@ -23,6 +23,14 @@ Visual to create:
 - 4 claude
 - In the future, many more
 
+All about I/O:
+
+- I define the inputs and outputs
+- I use make commands
+- I have extensive integration tests
+- I only look in the code when something works, is stuck or it’s time for a major checkpoint
+- I don’t look at code for front end frameworks but also don’t work on big he’s
+
 IDE:
 
 - Was on VSCode
