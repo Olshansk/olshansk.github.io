@@ -15,6 +15,11 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+Tests:
+
+- I ask to add unit tests, but I don't look at the code of unit tests anymore.
+- I iterate heavily on the input/output of E2E tests, but I don't look at the code.
+
 Visual to create:
 
 - Create an image of a tree show me, codex, Gemini and then Claude

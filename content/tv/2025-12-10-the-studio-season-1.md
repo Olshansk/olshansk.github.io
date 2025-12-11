@@ -9,17 +9,17 @@ tags = [
     "Seth Rogan",
 ]
 rating = "⭐️⭐️⭐️⭐️⭐️"
-rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/the_studio"
+rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/the_studio/s01"
 +++
 
 This show is the embodiment of Seth Rogan in a fancy suit.
 
-Funny. Witty. Original. Stylish. Cringy at times, but just enough for it to be entertaining without crossing any lines.
+Funny. Witty. Original. Stylish. Just the right amount of cringe to keep you entertained without drifting into self-parody.
 
-I'm increasingly seeing Seth Rogan in more and more shows, as an actor, director, producer, and writer. He's the definition of what experience, time, age, wisdom and a sprinkle (;)) of talent can do.
+Rogan keeps showing up everywhere lately as actor, director, producer, writer. This show is a prime example of what time, experience, age, and a touch of talent can compound into ;)
 
-This show wasn't just an inside scoop into how Hollywood operates, but it was also a view into what Seth Rogan loves and hates about the industry from a satirical perspective.
+The show gives you a peek into how Hollywood works, but it also feels like a tour of what Rogan loves and hates about the industry told through satire.
 
-I also love how it's an opportunity for him to choose which of his Hollywood friends he gets to cast, make silly jokes with, and rather than buying a bunch of fancy cars, he just gets to rent them.
+It also doubles as his playground. He picks which friends to cast, trades inside jokes, and instead of buying expensive cars, he just rents them for the bits.
 
-I loved everything about the show and would recommend it to all my friends.
+I loved the whole thing and would recommend it to all my friends.
