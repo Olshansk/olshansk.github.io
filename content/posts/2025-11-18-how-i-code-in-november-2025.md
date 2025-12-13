@@ -15,6 +15,24 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+Orchestrator
+
+- It’s not automation, and not semi automation, it’s orchestration.
+- Like a conductor with a lot of skilled musicians
+
+AI Driven engineering is not vibe coding
+
+- One is for backend, core Haines logic and production
+- The other is for front end (simple) and prototypes
+- Caveat is large frontend codebases that need to scale
+
+Make targets:
+
+- Make targets for everything
+- Make bandaids easily removable
+- Add todos everywhere, more important than before
+- Be careful of production code vs prototypes, different mindsets
+
 Tests:
 
 - I ask to add unit tests, but I don't look at the code of unit tests anymore.
