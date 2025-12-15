@@ -10,10 +10,12 @@ rating = "⭐⭐⭐🌟"
 rotten_tomatoes_url = "https://www.rottentomatoes.com/tv/loot/s03"
 +++
 
-Another season of Loot that delivered what I wanted - a "pallete cleanser" between some of the deeper shows I'm watching in parallel like Severance and Foundation.
+Another season of Loot that delivered exactly what I wanted: a palate cleanser between heavier shows I’m watching in parallel like Severance and Foundation.
 
-As with previous seasons, this isn't a show I can recommend, but it is a show I enjoy watching, and will keep watching as new seasons come out.
+As with previous seasons, this isn’t a show I actively recommend to people. It is a show I enjoy watching, and one I’ll keep returning to as new seasons come out.
 
-It's a simple, funny, satertical show that doesn't take itself seriously, and is interspersed with some deeper life lessons. The overarching idea is pretty original, so even though the show itself is an "globe nomane", it's refreshing.
+It’s simple, funny, and satirical without taking itself seriously. Every so often, it sneaks in a surprisingly grounded life lesson. The core premise remains fairly original, so even though the show itself can feel a bit globe-nomadic and episodic, it still feels fresh enough to justify its place in the rotation.
 
-It's intersting to see how Adam Scott only had an appearance or two across the whole season. He's been on a tear recently, and I wouldn't be surprised if he was either too expensive or too busy for Loot.
+It was also interesting to see how little Adam Scott appeared this season. Given how much of a run he’s been on lately, I wouldn’t be surprised if it came down to availability or cost rather than creative choice.
+
+In short: not prestige TV, not trying to be. Solid, lightweight entertainment that knows exactly what it is.
