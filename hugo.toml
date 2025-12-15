@@ -102,6 +102,9 @@ unsafe = true
     [[params.profileMode.buttons]]
       name = "Shows"
       url = "tv"
+    [[params.profileMode.buttons]]
+      name = "Podcasts"
+      url = "https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e"
 
   # Social Icons
   [[params.socialIcons]]
