@@ -1,6 +1,6 @@
 ---
 title: "Addiction, ADHD, Discipline and Obsession"
-date: 2025-12-23T22:49:06-0800
+date: 2025-12-23T09:00:00-0800
 draft: false
 description: "On routines, stimulants, and the thin line between discipline and obsession."
 tags: ["ADHD", "addiction", "discipline", "obsession", "founders", "stimulants"]
