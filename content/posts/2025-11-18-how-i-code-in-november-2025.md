@@ -15,6 +15,16 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+Other pro tips:
+
+- Hotkeys for switching between plan & thinkin mode
+- Telling the AI to spend a bunch of time
+- Show a diagram but also a tree screenshot of codex, gemini and claudes
+- --yolo mode in codex is great
+- Resuming conversations is great.
+- People ask how I automate communication between agents. I just ask thhem to give me a blurb that I cpy opaste
+- Periodically tell CLAUDE to remember patterns. E.g. I really like emojis and colors in my log lines, so I build patterns along the way. "Teaching it" to your team is as simple as #memorize
+
 There's no going back to a world where we write code.
 
 If I don't access to an internet connection where I can leverage the leading models from frontier labs, I use it
