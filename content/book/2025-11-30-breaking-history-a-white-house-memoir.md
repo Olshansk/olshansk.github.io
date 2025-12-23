@@ -7,7 +7,7 @@ tags = [
     "book",
 ]
 rating = ""
-goodreads_url = https://www.goodreads.com/review/show/7997532903
+goodreads_url = "https://www.goodreads.com/review/show/7997532903"
 +++
 
 3.5 stars
