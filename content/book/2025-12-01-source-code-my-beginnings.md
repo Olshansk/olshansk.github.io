@@ -17,3 +17,8 @@ goodreads_url = ""
 - The untold story of bills family
 - He definitely had adhd as a child
 - Can’t think of a better family
+
+- Listen to the book about Bill Gates
+- Relatable from living in Seattle, visiting Victoria, and going to Vancouver.
+- Reflect on escaping death multiple times in the last 5-10 years. Talk about how Ken kept pushing himself to his love
+- Email Bill: https://share.snipd.com/snip/dcbd1959-b1b1-49e9-a9dd-252e27accfe3
