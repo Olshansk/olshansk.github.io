@@ -7,11 +7,11 @@
     11pt, % Default font size, can use 10pt, 11pt or 12pt
 ]{resume} % Use the resume class
 
-\usepackage{ebgaramond} % Use the EB Garamond font
+% \usepackage{ebgaramond} % Use the EB Garamond font - commented out due to missing package
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{tabularx}
-\usepackage{fullpage}
+% \usepackage{fullpage} % Commented out due to missing package
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{textcomp}
@@ -20,10 +20,11 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{tabularx}
-\usepackage{enumitem}
+% \usepackage{enumitem} % Commented out due to missing package
 \usepackage{amssymb}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{anysize}
+\usepackage{booktabs}
 \marginsize{3.5em}{3.5em}{3.5em}{3.5em}
 
 %----------------------------------------------------------------------------------------
@@ -31,7 +32,7 @@
 %----------------------------------------------------------------------------------------
 \newenvironment{rSectionCustom}[1]{
   \Large
-  \sectionskip
+  \medskip
   \textbf{\textcolor{Cerulean}{\MakeUppercase{#1}}}
   \vspace{0.5em}
   {\color{Blue}\hrule height 0.9pt}
@@ -58,9 +59,9 @@
     \end{list}
 }
 
-\newenvironment{rSubsectionT}[1]{
-  \normalsize{#1}
-}
+\newenvironment{rSubsectionT}{
+  \normalsize
+}{}
 
  \newcommand{\Hquad}{\hspace{0.5em}}
 
@@ -85,7 +86,7 @@
     \includegraphics[scale=0.25]{github-icon.png} \href{https://github.com/olshansk}{@olshansk} \Hquad
     \includegraphics[scale=0.25]{twitter-icon.png} \href{https://twitter.com/olshansky}{@olshansky}
     \Hquad
-    \includegraphics[scale=0.25]{linkedin-icon2.png} \href{https://www.linkedin.com/in/dolshansky/}{dolshansky}
+    \includegraphics[scale=0.25]{linkedin-icon.png} \href{https://www.linkedin.com/in/dolshansky/}{dolshansky}
     \Hquad
     \includegraphics[scale=0.25]{substack-icon.png} \href{https://olshansky.substack.com}{olshansky.substack.com}
     \Hquad
@@ -120,7 +121,7 @@
     \begin{rSubsection2}{Pocket Network}{November 2021 - Present}{Head of Protocol}{Bellevue, WA}
 
         \item[] \textcolor{RoyalBlue}{\textbf{Summary}}: Led the protocol team, focusing on blockchain R\&D, OSS development and enabling 3rd party businesses
-        \begin{itemize}[leftmargin=*]
+        \begin{itemize}
             \item Managed the development \& maintenance of a decentralized RPC Network Protocol handling \textbf{1.5B+ daily requests}
             \item Architected, designed and published \textbf{multiple specifications} later presenting at \textbf{various conferences}
             \item Designed and implemented \textbf{MVPs of all the L1 blockchain components} and developer tools
@@ -132,7 +133,7 @@
 
     \begin{rSubsection2}{Waymo (Alphabet Subsidiary)}{January 2020 - November 2021}{Senior Software Engineer, Planner Evaluation}{Mountain View, CA}
         \item[] \textcolor{RoyalBlue}{\textbf{Summary}}: Supported the Planner Eval Data Science team to understand, visualize and track on-road risk evaluation
-        \begin{itemize}[leftmargin=*]
+        \begin{itemize}
             \item Built labeling and test set tooling used by over a \textbf{hundred data scientists}, collaborating closely with a \textbf{dozen data scientists daily}
             \item Spearheaded the cross-org Test Set initiative, establishing an org-wide system to catalogue and access \textbf{thousands of real and simulated annotated vehicle runs}
             \item Engineered a \textbf{bespoke video rendering library} and labeling pipeline, enhancing simulated VRU risk evaluation
@@ -143,7 +144,7 @@
 
     \begin{rSubsection2}{Magic Leap}{August 2016 - January 2020}{Lead Software Engineer, AR Cloud \& Connected Services}{Plantation, FL}
         \item[] \textcolor{RoyalBlue}{\textbf{Summary}}: Led a team of \textbf{5 engineers} in the design and implementation of cloud and device management solutions for augmented-reality devices
-        \begin{itemize}[leftmargin=*]
+        \begin{itemize}
             \item Contributed to more than \textbf{12 patents} in the field of cross-reality system interaction and localization
             \item Drove cross-organizational efforts across \textbf{more than half a dozen teams} in designing and building cloud infrastructure that enabled on-device persistence coordinate frames and object recognition through sparse and dense map localization
             \item Architected and implemented a device management system for building, tracking, shipping, and upgrading devices \textbf{from factory production to thousands end-users}
@@ -154,7 +155,7 @@
 
     \begin{rSubsection2}{Twitter}{July 2014 - August 2016}{Software Engineer, Full Stack}{San Francisco, CA}
         \item[] \textcolor{RoyalBlue}{\textbf{Summary}}: Worked on a variety of backend systems, client APIs, data analytics, and features across multiple platforms.
-        \begin{itemize}[leftmargin=*]
+        \begin{itemize}
             \item Designed and implemented robust and scalable backend systems and client APIs for the GIF Search and Stickers used by \textbf{10s of millions} of users daily
             \item Built and maintained \textbf{dozens of automated Scalding jobs} for data collection and analysis, driving key product decisions through a deep understanding of user behavior.
             \item Contributed to various feature across Android and Web platforms, including VIP accounts, profile pages, and notifications timelines.
@@ -166,7 +167,7 @@
     \begin{rSubsection2}{Internships}{2013; 2012; 2011}{Software Engineer Intern}{Mountain View; San Francisco; Toronto}
         \item[] \textcolor{RoyalBlue}{\textbf{Google}}: Developed, open-sourced \& released \textbf{6 videos} demoing animations on behalf of the Android core graphics team
         \item[] \textcolor{RoyalBlue}{\textbf{Twitter}}: Developed the public \textbf{Twitter Safari extension} and an \textbf{internal iOS direct messaging}  app
-        \item[] \textcolor{RoyalBlue}{\textbf{ModiFace}}: Developed & \released \textbf{3 iOS applications} featuring computer vision algorithms built by ModiFace
+        \item[] \textcolor{RoyalBlue}{\textbf{ModiFace}}: Developed \& released \textbf{3 iOS applications} featuring computer vision algorithms built by ModiFace
     \end{rSubsection2}
 
 

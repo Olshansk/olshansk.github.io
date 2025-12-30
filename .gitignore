@@ -3,3 +3,8 @@ TIX
 .DS_Store
 public
 resources/_gen
+
+# LaTeX auxiliary files
+cv/*.aux
+cv/*.log
+cv/*.out

@@ -29,6 +29,9 @@ googleAnalytics = 'G-15DW3DE66X'
 [markup.highlight]
 style = "monokai"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
   author = "Daniel Olshansky"
   description = "Daniel Olshansky - Software Engineer, AI Developer, and Tech Blog. Posts about software development, AI, distributed systems, and technology insights."
@@ -99,6 +102,9 @@ style = "monokai"
     [[params.profileMode.buttons]]
       name = "Shows"
       url = "tv"
+    [[params.profileMode.buttons]]
+      name = "Podcasts"
+      url = "https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e"
 
   # Social Icons
   [[params.socialIcons]]

@@ -8,17 +8,30 @@ keywords = ["Daniel Olshansky", "about Daniel Olshansky", "software engineer", "
 ShowToc = true
 +++
 
+TODO:
+
 - Get my live threads: nuclear, sauna sessions, chatgptip
 
-## Hey, I’m Daniel, and I usually go by Olshansky
+Hey, I’m Daniel, and I usually go by Olshansky 👋
+
+## My Mission
+
+My mission is to enable every human being to achieve their full potential.
+
+As a 5'7 guy, being an NBA player is not within my potential, nor is it really a goal. But, a lot of other things are.
+
+Whether it's a lack of capital, focus, intrinstic motivation, neural plasticity, a physical accident, insufficient time, misalignment of priorities, or anything else, everyone should be able to achieve their full potential if they want to.
+
+## Mantras I live by
 
 I live by a few mantras:
 
-1. Figure out what you _want-to do_ instead of what you _want-to want-to do_. **Now do it**.
-2. Learn your limit, push yourself to the limit, up your limit. Rinse and repeat.
-3. Live in a way such that your future self inspires your present self.
-4. Experience is building a toolbox, expertise is mastering each tool, and leadership is knowing which tool to use when.
-5. Strive to create generational impact while staying kind to the people around you.
+1. Anything can be learnt and mastered with enough time, effort and focus.
+2. Figure out what you _want-to do_ instead of what you _want-to want-to do_. **Now do it**.
+3. Learn your limit, push yourself to the limit, up your limit. Rinse and repeat.
+4. Live a life such that your future self inspires your present self.
+5. Expertise is building a toolbox of skills. Experience is having the intuition of knowing which tool to use.
+6. Strive to create generational impact while staying kind to the people around you.
 
 ## Where am I from?
 
@@ -30,17 +43,17 @@ That said, I connect with people and ideas rather than geographies or background
 
 ## What drives me?
 
-I’m a lifelong learner 🧑‍🎓 with a goal of creating a generational brand with global impacts.
+I’m a lifelong learner 🧑‍🎓 with a goal of creating generational impact.
 
-Founders and generational companies inspire me to do my best work, and I need to do the same for future generations.
+Founders and generational brands inspire me to do my best work. I need to do the same for future generations.
 
-How do we do it? Technological innovation, hard work, operational excellence, while cultivating environments that push and enable individuals to do their best work.
+How do we do it? Human relationships. Personal connections. Surrounding yourself with the best people. Being in the right environment at the right time. Technological breakthroughs. Precise Engineering. Hard work. Operational excellence. Cultivating culture that pushes and enables individuals to do their best work. Finding a balance. Taking a break every once in a while.
 
 ## Where did I work?
 
-I've worked across social, augmented reality, autonomous vehicles, crypto, and large-scale systems.
+I've worked across engineering, research, distributed systems, social, augmented reality, autonomous vehicles, crypto and construction.
 
-None of it has (yet) moved the needle on a global scale, but I’m proud of the work and the teams I’ve been part of.
+None of it has (yet) moved the needle on a global scale, but I see all the work up until now as milestones to set me up for the future.of.
 
 - 2010 - 2014: **University of Toronto**; Engineering Science; _NΨ 1T4_
 - 2014 - 2015: **Twitter**; I worked on 📱 and shipped things like Gif Search. I learnt how big corporations operate and what it means to design systems.
@@ -49,33 +62,43 @@ None of it has (yet) moved the needle on a global scale, but I’m proud of the 
 - 2021 - 2022: **GetSoils**; I built a construction soil marketplace. I learnt how hard it is to sell to old industries.
 - 2022 - Present: **Grove** & **Pocket Network**; I led a small team and a large ecosystem in the R&D of a blockchain that enables decentralized access to data and API discovery. I learnt that EQ is much more important than IQ when it comes to leadership.
 
-## What do I value?
+## What do I believe is very important?
 
-I believe in **mind-body connection**. Training, reflection, writing, building—these are all forms of the same pursuit. I hold myself and others to high standards, sometimes too high. My weaknesses are clear to me: I burn out, I’m impatient, and I can struggle with EQ. But I try to balance that by being kind, even when I’m not “nice.”
+**The mind-body connection.**
+
+Training, reflection, writing, building, eating, working, talking, etc... Mastering the mind body connection is so critical.
+
+Being able to train, eat, think or work intuitively is more powerful than anyone believes.
+
+I'm still working on my weaknesses: I burn out, I’m impatient, I have high standards of myself nad those around me. I'm working on my EQ. I'm somewhere on the spectrum with ADHD, but I can't do much about that.
 
 The things that bother me most: **laziness, incompetence, lack of appreciation, lack of humility.**
 
 ## Who inspires me?
 
 The individual who continues to show me, day in and day out, that there are no
-bounds to what one can do is **Rahul Goel**, founder of NordSpace. I'm privelaged
-to call him a friend. Whatever you dream, you can do. It won't be easy, it'll take
+bounds to what one can do is **Rahul Goel**, founder of NordSpace. People say that Jeff
+Bezos was always able to think long-term (really long term), and I'm privelaged to have
+a friend who is no different. Whatever you dream, you can do. It won't be easy, it'll take
 time, it'll be painful, but there is no limit.
 
-If I could spend a month working with anyone, it would be **Tobias Lütke**, CEO of Shopify.
-If I could have dinner with anyone, it would be **Peter Thiel**.
+If I could have dinner with anyone alive today, it would be with **Peter Thiel** to discuss all the contrarian thoughts he comes across.
+
+If I could spend a month working with anyone, it would be **Elon Musk**, to see what intensity is really like.
 
 Other people I learn from and who inspire me on a regular basis:
 
-- **Dharmesh Shah** — CTO of Shopify
-- **John Carmack** — legendary programmer and game developer
-- **Andrej Karpathy** — AI researcher
-- **Vitalik Buterin** — founder of Ethereum
-- **Mitchell Hashimoto** — creator of HashiCorp
-- **Simon Willison** — co-creator of Django, thoughtful builder
-- **Stephen Wolfram** — founder of Wolfram Research
-- **Edward Thorp** — mathematician, investor, and blackjack pioneer
-- **Richard Feynman** — physicist, teacher, storyteller
+- **Dharmesh Shah** — A big-time hacker
+- **Tobias Lütke** - A big-time builder
+- **John Carmack** — A big-time legend
+- **Andrej Karpathy** — The clearest thinker
+- **Vitalik Buterin** — The weirdest thinker
+- **Ilya Sutskever** - A monk at heart
+- **Mitchell Hashimoto** — Your friendlist open source developer
+- **Simon Willison** — There's no better RSS feed
+- **Stephen Wolfram** — The definition of a polymath in modern times
+- **Edward Thorp** — Mathematician, investor, and blackjack pioneer
+- **Richard Feynman** — Physicist, teacher, storyteller
 
 I don’t put any of these people on a pedestal—they’re human, flawed, but deeply impactful.
 I study them because they’ve carved unique paths, thought differently, and created enduring value.
@@ -100,6 +123,19 @@ What do I want to do more of:
 - Reflecting 📝
 - Meditating 🧘
 - Executing on my next big idea ⚡
+
+## Some of my favorite quotes
+
+> "Humans over machines."
+
+> "Show me the incentive and I'll show you the future."
+
+> "The best way to predict the future is to invent it."
+
+> "The future is already here, but just not evenly distributed."
+
+> “Most people overestimate what they can do in one year and underestimate what they can do in ten years.”
+> ― Bill Gates
 
 ## Links & Resources
 
