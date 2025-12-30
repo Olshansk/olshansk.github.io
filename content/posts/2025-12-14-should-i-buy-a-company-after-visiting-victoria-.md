@@ -33,11 +33,12 @@ Strap in, because this post is about making plans without expectations, how that
 
 - [Discovering "Never Enough"](#discovering-never-enough)
 - [Make plans without expectatiosn](#make-plans-without-expectatiosn)
-- [Reflecting on something I should've said better](#reflecting-on-something-i-shouldve-said-better)
 - [Should I buy a company?](#should-i-buy-a-company)
+- [Reflecting on something I should've said better](#reflecting-on-something-i-shouldve-said-better)
 - [Showing Up and Building Relationships](#showing-up-and-building-relationships)
 - [Making things happn](#making-things-happn)
 - [Travel Recommendations](#travel-recommendations)
+- [Bonus: The Fate of Ophelia](#bonus-the-fate-of-ophelia)
 
 ## Discovering "Never Enough"
 
@@ -59,66 +60,82 @@ Luckily, I just needed to take a ferry instead of a plane 🛳
 
 Since Andrew's blog first came out, I replied to over half a dozen of his emails.
 
-Even though my messages were sometimes witty, fun or insightful, busy people don't have time to reply to everyone's two cents.
+Even though my messages were sometimes witty, fun or insightful, busy people don't have time to get distracted by everyone's two cents, even if they're made of gold coins.
 
-One day, I was a lot more deliribrate and direct with my ask (I paraphrase): _"Can we meet up if I visit Vancouver?"_
+One day, I was a lot more deliberate and direct with my ask (I paraphrase): _"Can we meet if I get a ticket to Victoria?"_
 
-After a couple of followups, lots of patience, and a bit of luck, his assistant jumped in and I got invited to Victoria's Enetrepneruship Lunch Cub (ELC).
+After a couple of followups, lots of patience, and a bit of luck, his assistant jumped in. I got invited to Victoria's Enetrepneruship Lunch Club (ELC).
 
-Though I was originally hoping for a 1:1 coffee, lunch or sauna session, I figured there would be a ton of interesting people at this event and was pumped.
+Though I was originally hoping for a 1:1 with Andrew (coffee, lunch or sauna session), I figured there would be a ton of interesting people at this event, and was equally pumped.
 
-I figure out some logistics, grab the black friday deal from [clippervacations.com](https://www.clippervacations.com) for a ferry and a two night stay at a hotel, and deided I'd make a whole vacation out of it.
+I planned out some logistics, grabbed the black friday deal from [clippervacations.com](https://www.clippervacations.com) for a roundtrip ferry, a two night stay, and decided I'd make a whole mini-vacation out of it. Best part: I had no plans other than that lunch.
 
-I take the Ferry Thursday morning and arrive in Victoria at 11am. Feels like a Canadian version of Manchester.
+I took the Ferry Thursday morning and arrived in Victoria at 11am. As I walked to my hotel, the vibe I got was like a Canadian version of Manchester.
 
-I wake my way to the hotel and ask about a flyer they have related to [Butchart Gardens](butchartgardens.com/). After a long hot shower, I decide to buy a pass and have a mesmorizing evening filled with colors and light. I highly recommend it to anyone visiting during the holidays.
+At the hotel, I saw a flyer for [Butchart Gardens](butchartgardens.com/). Turns out it's one of Victoria's most iconic landmarks, and they were having a christmas special
 
-While I way, I explore the city and discover [Fan Tan Alley](https://en.wikipedia.org/wiki/Fan_Tan_Alley), the narrowest commercial street in North America that's only 3 feet wide.
+I bought a ticket and had some time to kill. I started exploring the city and discover [Fan Tan Alley](https://en.wikipedia.org/wiki/Fan_Tan_Alley), the narrowest commercial street in North America that's only 3 feet wide.
 
-I wake up to a text from my friend, the founder of [Shinzo Labs](https://shinzolabs.com) that he took me up on the offer to crash at my hotel. I said I got him an invite to ELC as well, but he neve confirmed, so I just let it go. I work out, he shows up, and we start making our way over to [Part and Parcel](https://www.partandparcel.ca).
+I go to Butchart Gardens, and caught up with some friends over the phone as I was walking around the beautiful gardens, with mesmerizing colors, and some funny exhibitions.
 
-Along the way, we find [Epic Games & More](https://www.epicgamesvic.com/), which was a fun and overhwleming blast of Nostaligia and childhood from video games to Pokemon cards.
+The next morning, as I head down to the gym, I wake up to a text from my friend Austin, the founder at [Shinzo Labs](https://shinzolabs.com). I invited him to tag along for ELC, and he took me up on that last minute offer to crash at my hotel. I work out, he shows up, and we start making our way over to [Part and Parcel](https://www.partandparcel.ca).
 
-When I show up at Part and Parcel, I didn't get the memo that need to be at least 6 feet to tall to be part of ELC.
+Along the way, we discovered [Epic Games & More](https://epicgamesvic.com/). It was a fun and overhwleming blast of Nostaligia and childhood from video games to Pokemon cards. The world of cards and collectibles amazes me because it's the clearest textbook example of the power of branding, and the importance of human emotion in product design. Some Pokemon cards go for hundreds of dollars, and apparently Marvel vs Capcom 2 for Xbox is also a collectible, which I might actually have lying around somewhere.
 
-Jokes aside, we dive straight into a conversation and my first conversation was with someone expanding their in-person fitness brand that's focused on mobility and longevity. As someone who has experience many physical traumas in their life, I loved it.
+When we show up at Part and Parcel, Austin and I joke that we didn't get the memo that you need need to be at least 6 feet to tall to be part of ELC 🙃.
 
-Once the officiall event kicks off, the first thing I hear is: **"Andrew won't be able to make it today."**
+We dive straight into a conversation with some of the other entpreneurs. Someone just moved to Victoria from Vancouver to expand their in-person fitness brand that's focused on mobility, longevity, and not posting things on instagram. As someone who used to go to the ER every year until the age of 18, followed by some "career ending" injures in my 20s, I loved it.
 
-My heart sinks a bit, but it's alright, I'm already having a great time.
+The official event kicks off and the first thing I hear is: **"Andrew won't be able to make it today."**
 
-Newcomers get to introduce themselves to the group, and everyone can share wins if they have them.
+My heart sinks a bit... I made it all this way to meet him. But, the group there is so great that I decide to make the best of it.
 
-With about 30-40 people in total, each table had 4-6 people, and there are two rules:
+Newcomers introduce themselves to the group, share a fun fact, and anyone at the event can share a win. One guy speaks up saying "my investment in SpaceX at $30B looks like it'll be alright" a day after the rumors came out that they're looking to IPO at $1.5T next year. _I paraphrase for some dramatic effect, but you get the point._
+
+With about 30-40 people in total, we split into groups of 4-6, and there are two rules:
 
 1. One conversation per table
-2. Discuss the topic provided
+2. Discuss the topic provided on the cards
 
-I sit down at a table of people I've never met or heard of before. Very quickly, I realize I'm surrounded by extremeley seasoned entrepeneurs.
+I quickly realize that I'm surrounded by extremeley seasoned entrepeneurs. One person is bulding a company that has promising results to cure a form of cancer, another built a successful app for management of anxiety, adtech, identity tech, and so much more. Everyone but one individual has ADHD, we all (mostly) relate, but that conversation ran a tad too long IMO.
 
-- Anniya: Health
-- Claire: ADHD
-- Rajeev: investor
-- Big guy
-- Scard guy
+As we leave, I asked Rajeev, whom I was sitting next to, if he knew where/how I can reach Andrew. He added me to the ELC WhatsApp Group.
 
-As we leave, I ask ed Rajeev if he knows where/how I can reach Andrew, and he suggested I text him as he adds me to the ELC WhatsApp Group.
+I figured the group will have names tied to the numbers, but alas, I was wrong. I try to Google the numbers of all the admins, but couldn't find anything pointing to Andrew.
 
-I figured the group will have names tied to the numbers, but alas, I was wrong. I try to Google the numbers of all the admins, but can't find anything pointing to Andrew.
+I end up sending a "Hey Andrew" number to a couple of people, including one of the Admins, who ultimately directed me to the right person. I sent Andrew a message on WhatsApp and the patience game begins again.
 
-I end up sending a "Hey Andrew" number to a couple of people, including one of the Admins, who points me in the right direction. I send him a message on WhatsApp and the waiting game begings agan.
+As Austin and I head out, he mentions there's a chance Andrew will be at a comedy event that evening. I remember Andrew's last newsletter mentioning a local comedian who had a show that evening. As a lover of comedy, and an occassinoal improv practitioner, I was thinking of attending it either way. I get a ticket, and spend a few hours at a nearby Starbucks doing some work.
 
-As my friend and I head out, I remember Andrew's last newsletter mentioning a local comedian who had a show that evening. As a lover of comedy and improv, I was thinking of attending it either, and figured there'd be a non-zero chance I can run into Andrew there as well.
+We go to the [Late Night Show with Nash Park](https://www.lamppostsocial.com/events/the-late-night-show-with-nash-park-72445). The show had it's moments (both good and bad), but I appreciated every skit and would recommend it to anyone visiting the city.
 
-We go to the [Late Night Show with Nash Park](https://www.lamppostsocial.com/events/the-late-night-show-with-nash-park-72445). The show had it's moments (both good and bad), but I appreciated every skit and would recommend it to anyone.
+We didn't run into Andrew, but I'd call the day a success. We grab a late night slice of pizza and crash at the hotel for my last night.
 
-We didn't run into Andrew, but it was a successfull day nontheless.
+The next day, I wake up, and as usual, head to the gym. As I'm jumping some rope, I get a response from Andrew! We set up a time to meet at a local coffee shop.
 
-My friend and I grab a slice of pizza and head back to the hotel
+## Should I buy a company?
 
-The next day, I wake up, head to the gym, and get a response! We set up a time to meet at a local coffee shop.
+We meet up at [Hey Happy](https://www.heyhappycoffee.com/), and get straight into the conversation.
 
-The conversation was a ton of fun and the hour flew by. Since I know a lot about Andrew's story, I got to share some of mine. We covered how Vyvanse is an open secret for anyone with ADHD, alongside other parts of our supplement stack. If you're an entrepenuer, you're likely a workaholic, which comes with having an addictive personality. This translates into other types of addictions in life, both good and bad.
+Since I know basically every Andrew has ever shared publically about himself via his book, blogs or poscasts, I got to share a bit about myself.
+
+We dived into how Vyvanse is an open secret to "hapinness" for anyone with ADHD, alongside other parts of our supplement stack. At one point he took about a dozen pills out of his pocket and put them on the table. As someone who's been starting looking into Protein Powder, Creating and BCAA back in 2005, I thought: "This is my guy."
+
+If you're an entrepenuer, you're likely a workaholic, which comes with having an addictive personality. This translates into other types of addictions in life, both good and bad. I wrote a bit more about this topic [here](./../thoughts/addicti)
+
+By the end of our conversation, Andrew could tell I have ambitions to build impactful companies founded on deep-tech, but I don't have the financial freedom I need to do that effectively.
+
+That's when he planted a seed: why not buy an existing company, cleanup the operations, cut the burn, and milk the cigar butt for everything that remains.
+
+At first, I questioned how there could be a revenue generating company that needs this much help.
+
+Companies require luck, and doing a true zero-to-one is non-trivial. Some people persevere their way into it, while others
+
+There are plenty of founders who got lucky, are tired, and would be happy to let go for the price for someone to come in and cleanup their mess in exchange for some liquidity. Let's see if [reddit post](https://www.reddit.com/r/SideProject/) on [r/SideProject](https://www.reddit.com/r/sideproject/) comes up with anything.
+
+There are also a lot of people in the older generation who might have built up a small business over years, or decades, and don't know what to do with. I don't think a reddit post would do, but I'm contemplating putting an ad in the paper :thinking_emoji:.
+
+For the longest time, I've also thought of starting another company in the construction space, after [my first one (GetSoils)](https://www.linkedin.com/company/getsoils/posts/?feedView=images&viewAsMember=true) didn't quite work out. Rather than selling AI tech to these companies, maybe buying them and automating internal processes E2E using AI-enabled tech is the play.
 
 ## Reflecting on something I should've said better
 
@@ -142,22 +159,6 @@ I understand that an investor's sole goal is to create ROI, but personally, I on
 In crypto, I feel like I've gotten burn by investors who only care about a quick ROI through pump and dumps. They create the illusion of caring about the product behind the scenes, but it's all smoke and mirrors.
 
 _I'm not very experience on this front, so I'm sure I'm making quite a few mistakes here. I hope I'm not burning any bridges here..._
-
-## Should I buy a company?
-
-By the end of our conversation, Andrew could tell I have ambitions to build impactful companies founded on deep-tech, but I don't have the financial freedom I need to do that effectively.
-
-That's when he planted a seed: why not buy an existing company, cleanup the operations, cut the burn, and milk the cigar butt for everything that remains.
-
-At first, I questioned how there could be a revenue generating company that needs this much help.
-
-Companies require luck, and doing a true zero-to-one is non-trivial. Some people persevere their way into it, while others
-
-There are plenty of founders who got lucky, are tired, and would be happy to let go for the price for someone to come in and cleanup their mess in exchange for some liquidity. Let's see if [reddit post](https://www.reddit.com/r/SideProject/) on [r/SideProject](https://www.reddit.com/r/sideproject/) comes up with anything.
-
-There are also a lot of people in the older generation who might have built up a small business over years, or decades, and don't know what to do with. I don't think a reddit post would do, but I'm contemplating putting an ad in the paper :thinking_emoji:.
-
-For the longest time, I've also thought of starting another company in the construction space, after [my first one (GetSoils)](https://www.linkedin.com/company/getsoils/posts/?feedView=images&viewAsMember=true) didn't quite work out. Rather than selling AI tech to these companies, maybe buying them and automating internal processes E2E using AI-enabled tech is the play.
 
 ## Showing Up and Building Relationships
 
@@ -198,18 +199,21 @@ If you're an entrepenruer, reach out to Andrew and his team at [Never Enough](ht
 
 {{< rawhtml >}}
 <video controls width="100%">
+
   <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_1.mp4" type="video/mp4">
 </video>
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
 <video controls width="100%">
+
   <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_2.mp4" type="video/mp4">
 </video>
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
 <video controls width="100%">
+
   <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_3.mp4" type="video/mp4">
 </video>
 {{< /rawhtml >}}
