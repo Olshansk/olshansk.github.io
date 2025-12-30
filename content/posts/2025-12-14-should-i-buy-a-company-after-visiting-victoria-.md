@@ -3,10 +3,18 @@ title: "Should I buy a company after visiting Victoria?"
 date: 2025-12-14T13:03:10-0800
 draft: false
 description: ""
-tags: []
-categories: []
+tags: ["post"]
+categories:
+  [
+    "canada",
+    "victoria",
+    "experience",
+    "travel",
+    "investing",
+    "entrepreneurship",
+  ]
 medium_url: ""
-substack_url: ""
+substack_url: "TODO"
 ShowToc: true
 TocOpen: false
 ShowReadingTime: true
@@ -17,40 +25,45 @@ ShowWordCount: true
 
 I took a ferry from Seattle to Victoria, and all I could think about on the way back is: **Which company I should buy (not build) to generate free cash flow?**
 
-If you're a seasoned software engineer in the age of AI reading this, you're probably thinking how ridiculous this is.
+If you're a seasoned software engineer in the age of AI reading this, who lives to build, you're probably thinking how ridiculous this is.
 
-Well, [Andrew](https://x.com/awilkinson) planted a [tiny](https://tiny.com/) seed into my mind, and it has started germinating.
+Well, [Andrew Wilkinson](https://x.com/awilkinson) planted a [tiny](https://tiny.com/) seed into my mind, and it has started germinating.
 
-Strap in, because this post is about making plans without expectations, and how that extends into everything else in life.
+Strap in, because this post is about making plans without expectations, how that extends into everything else in life, and if you're a swiftie, I got something in there for you as well.
 
-- [Discovering Never Enough](#discovering-never-enough)
+- [Discovering "Never Enough"](#discovering-never-enough)
 - [Make plans without expectatiosn](#make-plans-without-expectatiosn)
+- [Reflecting on something I should've said better](#reflecting-on-something-i-shouldve-said-better)
 - [Should I buy a company?](#should-i-buy-a-company)
 - [Showing Up and Building Relationships](#showing-up-and-building-relationships)
 - [Making things happn](#making-things-happn)
 - [Travel Recommendations](#travel-recommendations)
 
-## Discovering Never Enough
+## Discovering "Never Enough"
 
-I first learnt about Andrew on [episode 63 of the Acquirer's Podcast](https://acquirersmultiple.com/2020/04/ep-63-the-acquirers-podcast-andrew-wilkinson-berkshire-com-how-tiny-is-building-the-berkshire-of-the-internet/) back in the heat of COVID lockdown.
+I first found out about Andrew on [episode 63 of the Acquirer's Podcast](https://acquirersmultiple.com/2020/04/ep-63-the-acquirers-podcast-andrew-wilkinson-berkshire-com-how-tiny-is-building-the-berkshire-of-the-internet/) back in the heat of COVID lockdown.
 
 As a long-time value investor and student of Warren Buffet, the analogy I'd use is that Andrew is the **"Oracle of Victoria"** in Canada, and [Tiny.com](https://tiny.com/) is the Berkshire Hathaway of Tiny businesses spanning from coffee makers like [Aeropress](https://aeropress.com/) to movie review sites like [Letterboxed](https://letterboxd.com/).
 
+As rotten as Rotten Tomatoes is though, I'm too deeply invested in my profile here 🍅
+
+![Rotten Tomatoes](/images/posts/should-i-buy-a-company-after-visiting-victoria/rotten_tomatoes.png)
+
 Somewhere along the way between 2020 and now, I started reading [Andrew's blog](https://www.neverenough.com/newsletter), listening to [his podcast](https://www.neverenough.com/podcast), finding him on a handful of others podcasts like [My First Million](https://www.mfmpod.com/), and sheleved his book: [Never Enough: From Barista to Billionaire](https://neverenough.co/).
 
-If you ever listen to any of his public appearances or read his block, he has an open invite to grab a coffee with anyone who makes their way to Victoria.
+If you ever listen to any of his public appearances or read his block, he has an open invite to grab a coffee. All you need to do is [fly out to Victoria](https://youtu.be/0T8bJuH60qU?si=DVW22pyse4z5_EBO&t=7625).
 
-I figured I'd take him up on tha toffer.
-
-https://www.youtube.com/watch?v=0T8bJuH60qU&t=974s
+Luckily, I just needed to take a ferry instead of a plane 🛳
 
 ## Make plans without expectatiosn
 
 Since Andrew's blog first came out, I replied to over half a dozen of his emails.
 
-No one has time for random messages, so one day I was direct with my ask. Paraphrasing some unnecessary comments I added: "Can we meet up if I visit Vancouver?"
+Even though my messages were sometimes witty, fun or insightful, busy people don't have time to reply to everyone's two cents.
 
-After a few followups, his assistant jumpig in, and lots of patience, I got invited to Victoria's Enetrepneruship Lunch Cub (ELC).
+One day, I was a lot more deliribrate and direct with my ask (I paraphrase): _"Can we meet up if I visit Vancouver?"_
+
+After a couple of followups, lots of patience, and a bit of luck, his assistant jumped in and I got invited to Victoria's Enetrepneruship Lunch Cub (ELC).
 
 Though I was originally hoping for a 1:1 coffee, lunch or sauna session, I figured there would be a ton of interesting people at this event and was pumped.
 
@@ -107,14 +120,28 @@ The next day, I wake up, head to the gym, and get a response! We set up a time t
 
 The conversation was a ton of fun and the hour flew by. Since I know a lot about Andrew's story, I got to share some of mine. We covered how Vyvanse is an open secret for anyone with ADHD, alongside other parts of our supplement stack. If you're an entrepenuer, you're likely a workaholic, which comes with having an addictive personality. This translates into other types of addictions in life, both good and bad.
 
----
+## Reflecting on something I should've said better
 
-Crypto Investors:
+- I mentioned of not enjoying talking to investors
+- In retrospect, I should have phrased it differently, and I reflected on why
 
-- Pump and dump
-- Goal: Creating value
-- Investors: Extract value
-- Not okay: Simply redistributing value
+There are two camps here:
+
+- Never say no to money when people are willing to give it to you (with the right terms)
+- Always have the conversation
+- You need to raise early
+
+My camp is:
+
+- Have the conversation with smart and genuine people
+- Say yes to money only if you need it
+- If you're doing the right thing, you should be able to raise quickly from the right people that share your vision
+
+I understand that an investor's sole goal is to create ROI, but personally, I only want to money from people who want to make money AND share my vision AND are cool enough that I'd always want to hang out with them: dinner, a walk, a sauna session?
+
+In crypto, I feel like I've gotten burn by investors who only care about a quick ROI through pump and dumps. They create the illusion of caring about the product behind the scenes, but it's all smoke and mirrors.
+
+_I'm not very experience on this front, so I'm sure I'm making quite a few mistakes here. I hope I'm not burning any bridges here..._
 
 ## Should I buy a company?
 
@@ -124,7 +151,7 @@ That's when he planted a seed: why not buy an existing company, cleanup the oper
 
 At first, I questioned how there could be a revenue generating company that needs this much help.
 
-Companies require luck, and doing a true zero-to-one is non-trivial. Some people perceverse their way into it, while others
+Companies require luck, and doing a true zero-to-one is non-trivial. Some people persevere their way into it, while others
 
 There are plenty of founders who got lucky, are tired, and would be happy to let go for the price for someone to come in and cleanup their mess in exchange for some liquidity. Let's see if [reddit post](https://www.reddit.com/r/SideProject/) on [r/SideProject](https://www.reddit.com/r/sideproject/) comes up with anything.
 
@@ -166,3 +193,23 @@ This is just an aggregated list of the things I did and enjoyed in case you're p
 If you're travelling from Seattle, I recommend getting a pacakge from [FRS Clipper](https://www.clippervacations.com/) that'll have the ferry there and back, as well as put you in a good hotel. I stayed at the [Best Western Plus Carlton Plaza Hotel](https://www.bestwestern.com/en_US/book/hotels-in-victoria/best-western-plus-carlton-plaza-hotel/propertyCode.62063.html) and loved it. The location, service, room and gym were all great. Clipper also validates your parking at [Republic Parking](https://maps.app.goo.gl/e7ccWQeV7fi3ctx26) so you only pay $10/day.
 
 If you're an entrepenruer, reach out to Andrew and his team at [Never Enough](https://www.neverenough.com/). You won't regret it.
+
+## Bonus: The Fate of Ophelia
+
+{{< rawhtml >}}
+<video controls width="100%">
+  <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_1.mov" type="video/quicktime">
+</video>
+{{< /rawhtml >}}
+
+{{< rawhtml >}}
+<video controls width="100%">
+  <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_2.mov" type="video/quicktime">
+</video>
+{{< /rawhtml >}}
+
+{{< rawhtml >}}
+<video controls width="100%">
+  <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_3.mov" type="video/quicktime">
+</video>
+{{< /rawhtml >}}

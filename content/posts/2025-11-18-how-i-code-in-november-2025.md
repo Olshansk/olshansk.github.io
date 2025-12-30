@@ -24,6 +24,9 @@ Other pro tips:
 - Resuming conversations is great.
 - People ask how I automate communication between agents. I just ask thhem to give me a blurb that I cpy opaste
 - Periodically tell CLAUDE to remember patterns. E.g. I really like emojis and colors in my log lines, so I build patterns along the way. "Teaching it" to your team is as simple as #memorize
+- Link to the person who create claude code
+- Codex has the worse UI
+- Gemini has the best UI
 
 There's no going back to a world where we write code.
 
