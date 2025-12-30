@@ -198,18 +198,18 @@ If you're an entrepenruer, reach out to Andrew and his team at [Never Enough](ht
 
 {{< rawhtml >}}
 <video controls width="100%">
-  <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_1.mov" type="video/quicktime">
+  <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_1.mp4" type="video/mp4">
 </video>
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
 <video controls width="100%">
-  <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_2.mov" type="video/quicktime">
+  <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_2.mp4" type="video/mp4">
 </video>
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
 <video controls width="100%">
-  <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_3.mov" type="video/quicktime">
+  <source src="/videos/posts/should-i-buy-a-company-after-visiting-victoria/fate_of_ophelia_3.mp4" type="video/mp4">
 </video>
 {{< /rawhtml >}}
