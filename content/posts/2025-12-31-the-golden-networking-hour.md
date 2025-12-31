@@ -1,6 +1,6 @@
 ---
-title: "The Golden Network Hour Call"
-date: 2025-11-19T21:31:04-0500
+title: "The Golden Networking Hour"
+date: 2025-12-31T21:31:04-0500
 draft: false
 description: ""
 tags: ["network", "pro tip"]
@@ -23,7 +23,7 @@ Scheduling a "call" or "meeting" for stuff like this introduces friction because
 
 I've discovered the solution to this and call it: **The Golden Networking Hour**.
 
-## The Golden Network Hour
+## The Golden Networking Hour
 
 I won't burry the lead.
 
