@@ -15,63 +15,66 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-The connotation around the word "meeting" or "call" is increasingly negative in today's white-collar workforce.
+Have you ever wondered what's the best time to have a call with someone you don't work with closely but want to catch up with?
 
-This creates a problem: there's an aversion and friction to calls when the goal of the call is not related to your immediate goals at work.
+You don't actually work together, but there might be an overlap in the future. You have an open line of communication, but you're not super close. You like catching up and sharing ideas, but it's not a priority during the work week.
 
-I've discovered what I refer to as the **"Golden Networking Hour"** as the solution to this.
+Scheduling a "call" or "meeting" for stuff like this introduces friction because it makes it feel like work, which isn't the point. You end up in this limbo state of wanting to do it, but never finding the time.
 
-It's when we are primed to have casual conversations and discussions separate from our day-to-day responsibilities.
+I've discovered the solution to this and call it: **The Golden Networking Hour**.
 
 ## The Golden Network Hour
 
 I won't burry the lead.
 
-**The ideal time to pick up the phone and call that individual you've been meanting to reach out to is between 4:30 - 5:30 pm on Fridays.**
+It's when we are primed to have casual, work adjacent, conversations and discussions separate from our day-to-day responsibilities. It's the ideal time to just pick up the phone and make that call.
 
-This is what I've found from personal experience:
+**It is on Friday between 4:30 - 5:30 pm.**
+
+Here is why:
 
 - You're still at work, but just wrapping things up rather than working on something critical or time sensative
-- Your team is likely packing up and beginning to head home
-- You're likely tired, but in a good mood that the weekend is about to start
-- You're (hopefully) not shipping anything or pushing to production
-- You (likely) enjoy work related discussions, and open to changing up context a little bit
+- Your team has either already left, packing up, or mentally in weekend mode
+- You're likely tired, but in a good mood that the weekend is about to start (if it was a productive week)
+- You're not shipping anything or pushing to production (hopefully)
+- You're down to change up your context and mindset by thinking or talking about something different from what you did all week.
+
+_That's it. Give it a shot. The rest of this post is just me rambling about my opinion of meetings for those of you who care._
 
 ---
 
-That's it. Give it a shot. The rest of this post is just me rambling about my opinion of meetings for those of you who care
+## Should you avoid scheduling a meeting?
 
-## Do you need a meeting?
+The rationale above is a major projection of who I am.
 
-I might have been projecting a bit above.
+As a slightly-on-the-spectrum ADHD-ridden outgoing introvert, who has taught himself to be an extrovert at times, social interaction is always draining.
 
-As an outgoing introvert, who learnt to navigate the social world, social interaction is always draining.
+Moreso than that, scheduled calls feel like "chains" weighing you down. There's nothing wrong with it, but it's not how I want to manage fun interactions.
 
-There's a common mantra that `Your greatest strength is your greatest weakness`.
+Increasingly, I've started biasing towards adhoc pick-up-the-phone and call when catching up with friends, or aligning with someone at work. It might result in a bit of ping-pong, but it's worth it.
 
-Part of knowing myself has led me to be a documentation-first individual that fosters documentation-driven culture.
+A huge caveat to this is that there are tons of situations where this is not applicable: team meetings, interviews, partner calls, etc. But, if it's an option, it's awesome.
 
-## When is a meeting not necessary
+## Strengths and Weaknesses
 
-- No agenda
-- COntinuting to do the same thing
+There's a common mantra that:
 
-## To Sum it up
+> Your greatest strength is your greatest weakness.
 
-If you ever want to have a casual call with me, just find my phone number and give me a call between 4-6 pm on Friday afternoone.
+The important thing is to be aware of it, recognize it, evaluate it, leverage it, and balance it.
 
-The number of times I hear "I had so many meetings today" instead of "I got so much done today" is astounding.
+One of the reasons teams I've led in the past have been very documentation-driven is because it's in my personal nature. I could provide additional reasons clear thinking, remote async work, scaling, etc. These are all true, but what's even more true is that the culture of an organization reflects the personality of its leaders.
 
-There's a time and place when ge
+For large meetings, an agenda and/or [a silent manifest](https://orghacking.com/the-silent-meeting-manifesto-gasca-4d86a9e5a8bc) are a must.
 
-https://x.com/dhh/status/1973326174391771531
-https://www.linkedin.com/posts/dharmesh_once-again-im-totally-with-dhh-dont-activity-7379380307852042240--dlA/
+If you don't need an agenda or a document, there's a big chance it can be done adhoc. You can have the call without the mental weight of a meeting weighing you down.
 
-## Rough Notes
+## Meeting in Person
 
-- Introvert
-- Ad hoc calls
-- Pick up the phone
-- No need for a camera
-- Just call, don't text
-- Schedules are chains
+On this topic, I've also wanted to add that a 2 hour coffee or walk-and-talk meeting in person is SO much better than any "quick 15 minute call".
+
+DHH summed it up [in this tweet](https://x.com/dhh/status/1973326174391771531):
+
+> When I politely decline scheduling a "quick call", it's not because I don't literally have the time — there's always room for 15 minutes here or half an hour there! — it's that I can't afford to spare the attention.
+
+If you're reading this, and you want to schedule a quick 15 minute call, I'd rather we meet in person for an hour instead.
