@@ -15,13 +15,31 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-The connotation around the word "meeting" or "call" is increasingly negative in today's white-collar ecosystem.
+The connotation around the word "meeting" or "call" is increasingly negative in today's white-collar workforce.
 
-This creates a problem: there's an aversion and friction to calls when the goal of the call is not directly to your immediate goals at work that week.
+This creates a problem: there's an aversion and friction to calls when the goal of the call is not related to your immediate goals at work.
 
-What I call the **"Golden Network Hour"** is the solution to this.
+I've discovered what I refer to as the **"Golden Networking Hour"** as the solution to this.
 
 It's when we are primed to have casual conversations and discussions separate from our day-to-day responsibilities.
+
+## The Golden Network Hour
+
+I won't burry the lead.
+
+**The ideal time to pick up the phone and call that individual you've been meanting to reach out to is between 4:30 - 5:30 pm on Fridays.**
+
+This is what I've found from personal experience:
+
+- You're still at work, but just wrapping things up rather than working on something critical or time sensative
+- Your team is likely packing up and beginning to head home
+- You're likely tired, but in a good mood that the weekend is about to start
+- You're (hopefully) not shipping anything or pushing to production
+- You (likely) enjoy work related discussions, and open to changing up context a little bit
+
+---
+
+That's it. Give it a shot. The rest of this post is just me rambling about my opinion of meetings for those of you who care
 
 ## Do you need a meeting?
 
@@ -37,10 +55,6 @@ Part of knowing myself has led me to be a documentation-first individual that fo
 
 - No agenda
 - COntinuting to do the same thing
-
-## The Golden Networking Hours
-
-4-6pm on Fridays
 
 ## To Sum it up
 

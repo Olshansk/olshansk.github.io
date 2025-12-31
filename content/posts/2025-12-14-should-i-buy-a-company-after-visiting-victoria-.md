@@ -34,10 +34,9 @@ Strap in, because this post is about making plans without expectations, how that
 - [Discovering "Never Enough"](#discovering-never-enough)
 - [Make plans without expectatiosn](#make-plans-without-expectatiosn)
 - [Should I buy a company?](#should-i-buy-a-company)
+- [Showing Up, Building Relationships, Enjoying Every Momenet and Making Things Happen](#showing-up-building-relationships-enjoying-every-momenet-and-making-things-happen)
 - [Reflecting on something I should've said better](#reflecting-on-something-i-shouldve-said-better)
-- [Showing Up and Building Relationships](#showing-up-and-building-relationships)
-- [Making things happn](#making-things-happn)
-- [Travel Recommendations](#travel-recommendations)
+- [Victoria Travel Recommendations](#victoria-travel-recommendations)
 - [Bonus: The Fate of Ophelia](#bonus-the-fate-of-ophelia)
 
 ## Discovering "Never Enough"
@@ -121,69 +120,81 @@ Since I know basically every Andrew has ever shared publically about himself via
 
 We dived into how Vyvanse is an open secret to "hapinness" for anyone with ADHD, alongside other parts of our supplement stack. At one point he took about a dozen pills out of his pocket and put them on the table. As someone who's been starting looking into Protein Powder, Creating and BCAA back in 2005, I thought: "This is my guy."
 
-If you're an entrepenuer, you're likely a workaholic, which comes with having an addictive personality. This translates into other types of addictions in life, both good and bad. I wrote a bit more about this topic [here](./../thoughts/addicti)
+If you're an entrepenuer, you're likely a workaholic, which comes with having an addictive personality. This translates into other types of addictions in life, both good and bad. I wrote a bit more about this topic [here](./../thoughts/2025-12-23-addiction-adhd-discipline-and-obsession.md).
 
-By the end of our conversation, Andrew could tell I have ambitions to build impactful companies founded on deep-tech, but I don't have the financial freedom I need to do that effectively.
+By the end of our conversation, Andrew could tell I have ambitions to build impactful companies founded on deep-tech, but he could also tell I don't have the financial freedom to do so effectively.
 
 That's when he planted a seed: why not buy an existing company, cleanup the operations, cut the burn, and milk the cigar butt for everything that remains.
 
 At first, I questioned how there could be a revenue generating company that needs this much help.
 
-Companies require luck, and doing a true zero-to-one is non-trivial. Some people persevere their way into it, while others
+Companies require founders with a vision, grit, persistence, tolernace for pain and an ability to adapt. They require timing, value, doing a real zero-to-one, with a sprinkle of luck.
 
-There are plenty of founders who got lucky, are tired, and would be happy to let go for the price for someone to come in and cleanup their mess in exchange for some liquidity. Let's see if [reddit post](https://www.reddit.com/r/SideProject/) on [r/SideProject](https://www.reddit.com/r/sideproject/) comes up with anything.
+Then I realized that there are plenty of founders who had a good run in a particular corner at a particular time, and would be happy to let go if the price (and several other things) are right. There are also a lot of people in the older generation who might have built up a small business over years, or decades, and don't know what to do with.
 
-There are also a lot of people in the older generation who might have built up a small business over years, or decades, and don't know what to do with. I don't think a reddit post would do, but I'm contemplating putting an ad in the paper :thinking_emoji:.
+In fact, for a software company, this is easier than ever today:
 
-For the longest time, I've also thought of starting another company in the construction space, after [my first one (GetSoils)](https://www.linkedin.com/company/getsoils/posts/?feedView=images&viewAsMember=true) didn't quite work out. Rather than selling AI tech to these companies, maybe buying them and automating internal processes E2E using AI-enabled tech is the play.
+1. Review your expenses and cleanup anything you don't need
+2. Move your cloud expenditures to bare metal
+3. Automate a few things with AI workflows
+4. Scale down the team to a bare minimum
+
+If you're starting with a product that generates revenue and provides value, the playbook is quite simple.
+
+This is basically what private equity does, but there's a huge opportunity for a consulting shop that focuses on this without any interest in scaling up the business.
+
+## Showing Up, Building Relationships, Enjoying Every Momenet and Making Things Happen
+
+This trip was very fun because it was one of those things where everything worked out as well as it could, even though I had no plan and accepted that my original goal was going to be unfilled.
+
+It was a reason to be grateful and reflect. I had a very rough plan, one simple goal, but no expectations.
+
+One of the weakensses I've adapted around over the last few years is being more adaptive, flexible and lettings things go.
+
+I wasn't planning on exploring Victoria, visiting Butchar Gardens, going to the comedy show, or having anyone accompany me on this mini adventure, but I was planning to meet Andrew.
+
+Up until the morning of the day I was supposed to leave, expectations didn't meet reality, but I enjoyed every moment nontheless.
+
+With that, I kept asking, texting and trying to make things happen. Ultimately, instead of doing a lunch with a lot of other people, I had the opportunity of spending an hour with Andrew in a 1:1 setting. I got to know him as a person beyond his public persona (which isn't so different), and he got to know me.
+
+I met a ton of other cool people along the way and couldn't have asked formore.
+
+If you're one of the people I met on this trip, and you somehow made it this deep into the post - thank you!
 
 ## Reflecting on something I should've said better
 
-- I mentioned of not enjoying talking to investors
-- In retrospect, I should have phrased it differently, and I reflected on why
+You know how sometimes you say something in a public setting that you realize you could have framed better after the fact?
 
-There are two camps here:
+Yea, I did that at Victoria's ELC...
 
-- Never say no to money when people are willing to give it to you (with the right terms)
-- Always have the conversation
-- You need to raise early
+One of the topics we were supposed to discuss was: **"What is something you want to do less off?"**
 
-My camp is:
+My pompous answer was: **"Spend less time talking to investors."**
 
-- Have the conversation with smart and genuine people
-- Say yes to money only if you need it
-- If you're doing the right thing, you should be able to raise quickly from the right people that share your vision
+It's a great way to dig your own grave as you sit in a circle surrounded by either present or future investors.
 
-I understand that an investor's sole goal is to create ROI, but personally, I only want to money from people who want to make money AND share my vision AND are cool enough that I'd always want to hang out with them: dinner, a walk, a sauna session?
+I figured I need to clear things up as someone who has some, but not extensive experience here.
 
-In crypto, I feel like I've gotten burn by investors who only care about a quick ROI through pump and dumps. They create the illusion of caring about the product behind the scenes, but it's all smoke and mirrors.
+I'm going to oversimplify by bucketing this into camps:
 
-_I'm not very experience on this front, so I'm sure I'm making quite a few mistakes here. I hope I'm not burning any bridges here..._
+1. Always be raising and never say no to money when people are willing to give it to you
+2. Focus on bootstrapping a sustainble company and raise fast to scale if/when you need tos
 
-## Showing Up and Building Relationships
+Both of these require relatinoship building to a parallel thread that never stops. If you do it with interesting and genuine people, it doesn't even feel like work.
 
-There's a well know proverb:
+However, having spent several years deep in the crypto industries, I've had a lot of conversations with people whose values misalign with mine, and been burnt by it.
 
-> "It's Not What You Know. It's Who You Know."
+I'm not interested in quick turnarounds. I'm not interested in pump and dump schemes. I'm not interested in zero-sum-businesses that redistribute value rather than creating net-new value.
 
-In my person opinion, it's not one or the other, but it's both. It's the only way to achieve anything great
+I've had tons of conversations where people want to invest without asking me what the product is. I periodically have conversations where people ask if I can build X for a quick pump-and-dump.
 
-There are two things I've changed my mind on over the past few years as I've been embarcking on my entrepreunrship journey:
+I'm all in for moving fast and focusing on near-term execution and revenue generation, but I believe ROI for investors should come when we've created real value.
 
-1. Relationships rule the world
-2. You can only build relationships in person
+_Hopefully I'm not burning any bridges here..._
 
-One thing I've changed my mind on over the past few years is the importance
+## Victoria Travel Recommendations
 
-## Making things happn
-
-- Make a plan, have goals, but don’t have expectations and make the best out of any situation.
-- One of my biggest learnings this year was “letting it go”. I would’ve been okay not seeing Andrew, but I’m very grateful we made the time for coffee
-- Be flexible. Adapt. Make the best out of every situation. Build relationships.
-
-## Travel Recommendations
-
-This is just an aggregated list of the things I did and enjoyed in case you're planning a trip to Victoria yourself.
+This is a quick list of the palces I visited for anyone who wants to repeat my trip.
 
 - **Comedy**: [Jump Comedy](https://www.jumpcomedy.com) and [Ok Dope](https://www.ok-dope.com/)
 - **Nature**: [Butchart Gardens](https://butchartgardens.com/)
