@@ -146,7 +146,7 @@ I had a rough plan, one simple goal, and no expectations.
 
 I wasn’t planning to explore Victoria, visit Butchart Gardens, go to a comedy show, or have anyone join me on this mini-adventure. I was planning to meet Andrew.
 
-Up until the morning I was supposed to leave, expectations didn’t match reality, but I enjoyed every moment nonethelessß.
+Up until the morning I was supposed to leave, expectations didn’t match reality, but I enjoyed every moment nonetheless.
 
 I kept asking, texting, and nudging things forward. Instead of a group lunch, I ended up with an hour-long one-on-one. I met a ton of interesting people along the way and couldn’t have asked for more.
 
