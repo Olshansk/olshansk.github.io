@@ -15,7 +15,7 @@ tags:
 categories:
   ["canada", "victoria", "experience", "travel", "capital", "life-design"]
 medium_url: ""
-substack_url: "TODO"
+substack_url: "https://olshansky.substack.com/p/should-i-buy-a-company-after-visiting"
 ShowToc: true
 TocOpen: false
 ShowReadingTime: true
