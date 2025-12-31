@@ -1,6 +1,6 @@
 ---
 title: "The Golden Networking Hour"
-date: 2025-12-31T21:31:04-0500
+date: 2025-12-31T10:04:41-0800
 draft: false
 description: "A simple rule of thumb for low-friction catch-up calls that don’t feel like meetings, and why Friday late afternoons are the sweet spot."
 tags: ["networking", "meetings", "work-culture", "productivity"]
