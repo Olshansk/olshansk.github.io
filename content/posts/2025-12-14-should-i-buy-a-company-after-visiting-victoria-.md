@@ -23,13 +23,13 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-I took a ferry from Seattle to Victoria, and all I could think about on the way back is: **Which company I should buy (not build) to generate free cash flow?**
+I took a ferry from Seattle to Victoria, and all I could think about on the way back was: **Which company should I buy (not build) to generate free cash flow?**
 
-If you're a seasoned software engineer in the age of AI reading this, who lives to build, you're probably thinking how ridiculous this is.
+If you're a seasoned software engineer in the age of AI who lives to build, you're probably thinking how ridiculous this is.
 
-Well, [Andrew Wilkinson](https://x.com/awilkinson) planted a [tiny](https://tiny.com/) seed into my mind, and it has started germinating.
+Well, [Andrew Wilkinson](https://x.com/awilkinson) planted a [tiny](https://tiny.com/) seed in my mind, and it has started germinating.
 
-Strap in, because this post is about making plans without expectations, how that extends into everything else in life, and if you're a swiftie, I got something in there for you as well.
+Strap in: this post is about making plans without expectations, how that extends into everything else in life, and if you're a swiftie, I got something special at the end for you as well.
 
 - [Discovering "Never Enough"](#discovering-never-enough)
 - [Make plans without expectatiosn](#make-plans-without-expectatiosn)
