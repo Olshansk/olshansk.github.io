@@ -19,7 +19,7 @@ hugo_server:  ## Run Hugo server (kills any existing server first)
 	@echo "Cleaning previous Hugo build artifacts..."
 	@rm -rf public resources/_gen
 	@echo "Starting Hugo server on port 1313..."
-	hugo server -D --port 1313
+	hugo server -D --buildFuture --port 1313
 
 .PHONY: test_workflow
 test_workflow:  ## Test GitHub workflow build locally (mirrors .github/workflows/hugo.yaml)
