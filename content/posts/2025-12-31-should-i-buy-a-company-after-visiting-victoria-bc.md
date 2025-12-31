@@ -49,7 +49,7 @@ As rotten as Rotten Tomatoes is, though, I'm too deeply invested in my profile t
 
 ![Rotten Tomatoes](/images/posts/should-i-buy-a-company-after-visiting-victoria/rotten_tomatoes.png)
 
-Somewhere along the way between 2020 and now, I started reading [Andrew's blog](https://www.neverenough.com/newsletter), listening to [his podcast](https://www.neverenough.com/podcast), finding him on a handful of other podcasts like [My First Million](https://www.mfmpod.com/), and shelving his book: [Never Enough: From Barista to Billionaire](https://neverenough.co/).
+Somewhere along the way between 2020 and now, I started reading [Andrew's blog](https://www.neverenough.com/newsletter), listening to [his podcast](https://www.neverenough.com/podcast), finding him on a handful of other podcasts like [My First Million](https://www.mfmpod.com/), and reading his book: [Never Enough: From Barista to Billionaire](https://neverenough.co/).
 
 If you ever listen to any of his public appearances or read his blog, he has an open invite to grab a coffee. All you need to do is [fly out to Victoria](https://youtu.be/0T8bJuH60qU?si=DVW22pyse4z5_EBO&t=7625).
 
@@ -69,39 +69,25 @@ Though I was originally hoping for a 1:1 with Andrew (coffee, lunch, or a sauna 
 
 I planned out the logistics, grabbed a Black Friday deal from [clippervacations.com](https://www.clippervacations.com) for a round-trip ferry and a two-night stay, and decided to make a mini-vacation out of it. Best part: I had no plans other than that lunch.
 
-I took the ferry Thursday morning and arrived in Victoria at 11am. As I walked to my hotel, the vibe felt like a Canadian version of Manchester.
+_What followed was a quick arrival montage._ I took the ferry Thursday morning and arrived at 11am. As I walked to my hotel, the vibe felt like a Canadian version of Manchester. Inside, I noticed a flyer for [Butchart Gardens](https://butchartgardens.com/). Turns out it’s one of Victoria’s most iconic landmarks, and they were running a Christmas special. I bought a ticket and had some time to kill. I explored the city, discovered [Fan Tan Alley](https://en.wikipedia.org/wiki/Fan_Tan_Alley), the narrowest commercial street in North America at just three feet wide, and eventually made my way to Butchart Gardens. I caught up with some friends over the phone while walking the grounds. The colors were mesmerizing, and the seasonal exhibits were unexpectedly funny.
 
-At the hotel, I saw a flyer for [Butchart Gardens](https://butchartgardens.com/). Turns out it's one of Victoria's most iconic landmarks, and they were running a Christmas special.
-
-I bought a ticket and had some time to kill. I explored the city and discovered [Fan Tan Alley](https://en.wikipedia.org/wiki/Fan_Tan_Alley), the narrowest commercial street in North America at just three feet wide.
-
-I went to Butchart Gardens and caught up with some friends over the phone while walking through the grounds. The colors were mesmerizing, and the seasonal exhibits were unexpectedly funny.
-
-The next morning, as I headed down to the gym, I woke up to a text from my friend Austin, the founder of [Shinzo Labs](https://shinzolabs.com). I had invited him to tag along for ELC, and he took me up on a last-minute offer to crash at my hotel. I worked out, he showed up, and we made our way to [Part and Parcel](https://www.partandparcel.ca).
+The next morning, heading down to the gym, I got a text from my friend Austin, the founder of [Shinzo Labs](https://shinzolabs.com). I had invited him to tag along for ELC, and he took me up on a last-minute offer to crash at my hotel. I worked out, he arrived, and we made our way to [Part and Parcel](https://www.partandparcel.ca).
 
 Along the way, we stumbled into [Epic Games & More](https://epicgamesvic.com/). It was an overwhelming blast of nostalgia, from video games to Pokémon cards. The world of collectibles continues to amaze me. It's a textbook example of the power of branding and human emotion in product design. Some Pokémon cards go for hundreds of dollars, and apparently Marvel vs. Capcom 2 for Xbox is now a collectible, which I might actually have lying around somewhere.
 
 When we arrived at Part and Parcel, Austin and I joked that we missed the memo that you need to be at least six feet tall to be part of ELC 🙃
 
-We dove straight into conversations with other entrepreneurs. One person had just moved from Vancouver to expand an in-person fitness brand focused on mobility, longevity, and not posting on Instagram. As someone who used to go to the ER every year until age 18, followed by a few career-ending injuries in my 20s, I loved that.
+We dove straight into conversations with other entrepreneurs. One person had just moved from Vancouver to expand an in-person fitness brand focused on mobility, longevity, and explicitly not posting on Instagram. As someone who used to land in the ER every year until age 18, followed by a few career-ending injuries in my 20s, that immediately resonated.
 
-The official event kicked off, and the first thing I heard was: **"Andrew won't be able to make it today."**
+Then the official event kicked off, and the first thing I heard was: **“Andrew won’t be able to make it today.”**
 
-My heart sank a bit. I had come all this way to meet him. Still, the group was so good that I decided to make the most of it.
+My heart sank. I’d come all this way to meet him. Still, it was obvious within minutes that the room was exceptional, so I decided to make the most of it.
 
-Newcomers introduced themselves, shared fun facts, and anyone could share a win. One guy mentioned that his SpaceX investment at a $30B valuation was looking pretty solid, a day after rumors surfaced about a potential $1.5T IPO. I paraphrase for effect, but you get the point.
+Newcomers introduced themselves, shared fun facts, and anyone could share a win. One person casually mentioned that their SpaceX investment at a $30B valuation was suddenly looking very smart. I’m paraphrasing, but the caliber of the room was clear.
 
-With around 30 to 40 people total, we split into groups of four to six. There were two rules:
+We broke into smaller groups with two simple rules: one conversation per table, and a prompt to guide it. I quickly realized I was surrounded by seasoned operators. People who had built real companies across healthcare, mental health, adtech, identity, and more. The conversations were candid, practical, and refreshingly grounded.
 
-1. One conversation per table
-2. Discuss the topic provided on the cards
-
-I quickly realized I was surrounded by extremely seasoned entrepreneurs. One was building a company with promising results in curing a form of cancer. Another had built a successful anxiety management app. Others had backgrounds in adtech, identity tech, and more. Everyone but one person had ADHD. We all mostly related, though that conversation ran a bit long.
-
-As we wrapped up, I asked Rajeev, who had been sitting next to me, if he knew how I could reach Andrew. He added me to the ELC WhatsApp group.
-
-I assumed the group would show names tied to numbers. It didn't. I tried Googling admin numbers but came up empty. I ended up sending a "Hey Andrew" message to a few people, including an admin, who eventually pointed me in the right direction. I sent Andrew a WhatsApp message and resumed the patience game.
-
+As things wrapped up, I asked Rajeev, who I’d been sitting next to, if he knew the best way to reach Andrew. He added me to the ELC WhatsApp group. After a short game of message roulette, I was eventually pointed in the right direction. I sent Andrew a note and settled back into the patience game.
 As Austin and I headed out, he mentioned that Andrew might be attending a comedy show that evening. I remembered Andrew mentioning a local comedian in his last newsletter who had a show that night. As a lover of comedy and occasional improv practitioner, I planned to attend regardless. I grabbed a ticket and spent a few hours working at a nearby Starbucks.
 
 We went to the [Late Night Show with Nash Park](https://www.lamppostsocial.com/events/the-late-night-show-with-nash-park-72445). The show had its highs and lows, but I appreciated every skit and would recommend it to anyone visiting the city.
@@ -161,34 +147,35 @@ If you're one of the people I met on this trip and somehow made it this far, tha
 
 ## Reflecting on something I should've said better
 
-You know that feeling when you say something in public and later realize it could have been framed better?
+You know that moment when you say something in public and only later realize it could have landed cleaner?
 
 Yeah. That happened at ELC.
 
-One of the discussion prompts was: **"What is something you want to do less of?"**
+One of the prompts was: **“What is something you want to do less of?”**
 
-My pompous answer: **"Spend less time talking to investors."**
+My answer: **“Spend less time talking to investors.”**
 
-A great way to dig your own grave while sitting in a circle of present and future investors.
+A bold choice, given I was sitting in a room full of current and future investors.
 
-I should clarify.
+What I should have said, more clearly, is this.
 
-I'll oversimplify by bucketing this into two camps:
+There are a few fundamentally different ways people approach capital:
 
-1. Always be raising and never say no to money
-2. Bootstrap a sustainable business and raise only when needed to scale
+1. Always be raising. Money is momentum. Take it when it’s offered.
+2. Build something durable first, then raise to accelerate.
+3. Optimize for financial independence and optionality, not scale at all costs.
 
-Both paths require constant relationship-building. Done with interesting, aligned people, it doesn't even feel like work.
+All three paths require relationship-building. When those relationships are aligned and genuine, they don’t feel like work.
 
-Having spent years deep in crypto, though, I've had many conversations with people whose values didn't align with mine, and I've been burned.
+My friction hasn’t been with investors as a category. It’s been with incentives.
 
-I'm not interested in pump-and-dumps, quick flips, or zero-sum games that redistribute value instead of creating it.
+Spending years in crypto exposed me to too many conversations centered on quick flips, pump-and-dumps, and zero-sum games that reshuffle value instead of creating it. I’ve had people want to invest without understanding the product. I’ve had others ask me to build things explicitly for short-term speculation.
 
-I've had people want to invest without asking what the product is. I've had others ask if I could build something explicitly for a quick pump.
+That’s not what I’m interested in.
 
-I move fast and care deeply about execution and revenue, but I believe investor returns should come after real value creation.
+I move fast. I care deeply about execution and revenue. But I believe investor returns should come _after_ real value creation, not before.
 
-Hopefully I didn't burn any bridges.
+If that closes some doors, they weren’t doors I wanted open.
 
 ## Victoria Travel Recommendations
 
