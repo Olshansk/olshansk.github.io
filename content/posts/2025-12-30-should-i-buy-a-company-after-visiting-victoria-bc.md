@@ -3,7 +3,15 @@ title: "Should I buy a company after visiting Victoria, BC?"
 date: 2025-12-30T13:03:10-0800
 draft: false
 description: "What started as a tiny trip to Victoria turned into a deeper question about capital, optionality, and how to buy time."
-tags: ["entrepreneurship", "investing", "leverage", "career", "optionalit"]
+tags:
+  [
+    "entrepreneurship",
+    "investing",
+    "leverage",
+    "career",
+    "optionality",
+    "travel",
+  ]
 categories:
   ["canada", "victoria", "experience", "travel", "capital", "life-design"]
 medium_url: ""
