@@ -15,6 +15,11 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+More rough notes:
+
+- Invisibile Tech: https://invisibletech.ai/ - Talent Marketplace
+- Call out Marcor et al
+
 ## tl;dr
 
 - Data has three Pillars: 1) Quantity 2) Quality 3) Granularity.
