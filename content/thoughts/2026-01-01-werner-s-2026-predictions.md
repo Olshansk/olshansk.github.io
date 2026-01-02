@@ -2,9 +2,10 @@
 title: "Werner's 2026 predictions"
 date: 2026-01-01T19:33:49-0800
 draft: false
-description: ""
+description: "Reading Werner Vogels predictions for 2026"
 tags:
   [
+    "Quote",
     "Tech",
     "Security",
     "Quantum",
