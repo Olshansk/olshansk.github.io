@@ -17,6 +17,10 @@ ShowWordCount: true
 
 Other pro tips:
 
+- For solo projects, you don't need code
+- When development, don’t look at the code until it works
+- The more people there are working on a codebase, the more time you should spend reviewing. Their agenda will pick up on bad patterns that you may or have not asked your agent to fix
+
 - Some paradigms is working with humans, except you don’t have to account for their lives, emotions or energy levels
 - Good code is key in some parts (critical workflows) or mature codebases with lots of people: https://bits.logic.inc/p/ai-is-forcing-us-to-write-good-code
 - E.g. We spend a lot of time there on ourbackend, but less so on the frontend (for now)
