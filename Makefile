@@ -143,6 +143,23 @@ resume_clean:  ## Clean LaTeX auxiliary files
 	@echo "Done!"
 
 #########################
+### AI Content Tools  ###
+#########################
+
+.PHONY: add_tags
+add_tags:  ## Auto-generate tags for content file (usage: make add_tags FILE=content/thoughts/my-post.md)
+	@if [ -z "$(FILE)" ]; then \
+		echo "Error: FILE is required. Usage: make add_tags FILE=content/thoughts/my-post.md"; \
+		exit 1; \
+	fi
+	@if [ ! -f "$(FILE)" ]; then \
+		echo "Error: File '$(FILE)' not found"; \
+		exit 1; \
+	fi
+	@echo "=== Generating tags for $(FILE) ==="
+	@claude --print "Read the file $(FILE) and analyze its content. Based on the content, suggest appropriate tags and update the file's front matter tags field. Use title case for tags (e.g., 'Machine Learning' not 'machine-learning'). Keep tags concise (1-3 words each) and relevant. Aim for 3-7 tags. Only update the tags field, do not modify any other content."
+
+#########################
 ### Code Maintenance  ###
 #########################
 
