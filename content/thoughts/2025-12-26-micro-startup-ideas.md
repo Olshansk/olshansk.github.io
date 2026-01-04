@@ -35,4 +35,6 @@ ShowWordCount: true
 - Telegram/Whatsapp voice note summarizer
 - Idea: service to store your 1password backups safely (e.g. deposit boxes). How do you safely store your 1Password recovery info?
 - Permit for the construction industry
-- Idea:
+- Reddit rag -> specify question + date + subreddit
+- Service to make your 1password backup secure
+- Ketone Gummies (with creatine & BCAAs)
