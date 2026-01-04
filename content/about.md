@@ -16,38 +16,11 @@ Hey, I’m Daniel, and I usually go by Olshansky 👋
 
 ## My Mission
 
-My mission is to enable every human being to achieve their full potential.
+My mission is to enable every human being to achieve their full potential. Starting with myself.
 
 As a 5'7 guy, being an NBA player is not within my potential, nor is it really a goal. But, a lot of other things are.
 
 Whether it's a lack of capital, focus, intrinstic motivation, neural plasticity, a physical accident, insufficient time, misalignment of priorities, or anything else, everyone should be able to achieve their full potential if they want to.
-
-## Mantras I live by
-
-I live by a few mantras:
-
-1. Anything can be learnt and mastered with enough time, effort and focus.
-2. Figure out what you _want-to do_ instead of what you _want-to want-to do_. **Now do it**.
-3. Learn your limit, push yourself to the limit, up your limit. Rinse and repeat.
-4. Live a life such that your future self inspires your present self.
-5. Expertise is building a toolbox of skills. Experience is having the intuition of knowing which tool to use.
-6. Strive to create generational impact while staying kind to the people around you.
-
-## Where am I from?
-
-Born in 🇷🇺 Moscow, grew up in 🇮🇱, and spent my formative years in 🇨🇦 before moving to the 🇺🇸 to pursue my career.
-
-I'm not a nomad, but I do move around a lot, so I'd classify my nationality as a North American Russian Jew.
-
-That said, I connect with people and ideas rather than geographies or backgrounds.
-
-## What drives me?
-
-I’m a lifelong learner 🧑‍🎓 with a goal of creating generational impact.
-
-Founders and generational brands inspire me to do my best work. I need to do the same for future generations.
-
-How do we do it? Human relationships. Personal connections. Surrounding yourself with the best people. Being in the right environment at the right time. Technological breakthroughs. Precise Engineering. Hard work. Operational excellence. Cultivating culture that pushes and enables individuals to do their best work. Finding a balance. Taking a break every once in a while.
 
 ## Where did I work?
 
@@ -60,7 +33,36 @@ None of it has (yet) moved the needle on a global scale, but I see all the work 
 - 2016 - 2020: **Magic Leap**; I helped build a shareable digital world for cross-reality experiences. I learnt how to navigate politics, what too much premature money can do, and how to innovate on the technical front.
 - 2020 - 2022: **Waymo**; I built data science infrastructure for the Planner Eval team. I built intuition around AI, ML, evals and how the smartest people in the world think.
 - 2021 - 2022: **GetSoils**; I built a construction soil marketplace. I learnt how hard it is to sell to old industries.
-- 2022 - Present: **Grove** & **Pocket Network**; I led a small team and a large ecosystem in the R&D of a blockchain that enables decentralized access to data and API discovery. I learnt that EQ is much more important than IQ when it comes to leadership.
+- 2022 - 2025: **Pocket Network (Grove Labs)**; I led a small team and a large ecosystem in the R&D of a blockchain that enables decentralized access to data and API discovery. I learnt that EQ is much more important than IQ when it comes to leadership.
+- 2025 - Present: **Grove**; We're building a platform to enable anything to tip anyone, anywhere.
+- Future: I plan to apply AI to the construction industry beyond basic automation and data management.
+
+## Mantras I live by
+
+I live by a few mantras:
+
+1. Anything can be learnt and mastered with enough time, effort and focus.
+2. Figure out what you _want-to do_ instead of what you _want-to want-to do_. **Now do it**.
+3. Learn your limit, push yourself to the limit, up your limit. Rinse and repeat.
+4. Live a life such that your future self inspires your present self.
+5. Expertise is building a toolbox of skills. Experience is having the intuition of knowing which tool to use.
+6. Strive to create generational impact while staying kind to the people around you.
+
+## What drives me?
+
+I’m a lifelong learner 🧑‍🎓 with a goal of creating generational impact.
+
+Founders and generational brands inspire me to do my best work. I need to do the same for future generations.
+
+How do we do it? Human relationships. Personal connections. Surrounding yourself with the best people. Being in the right environment at the right time. Technological breakthroughs. Precise Engineering. Hard work. Operational excellence. Cultivating culture that pushes and enables individuals to do their best work. Finding a balance. Taking a break every once in a while.
+
+## Where am I from?
+
+Born in 🇷🇺 Moscow, grew up in 🇮🇱, and spent my formative years in 🇨🇦 before moving to the 🇺🇸 to pursue my career.
+
+I'm not a nomad, but I do move around a lot, so I'd classify my nationality as a North American Russian Jew.
+
+That said, I connect with people and ideas rather than geographies or backgrounds.
 
 ## What do I believe is very important?
 
