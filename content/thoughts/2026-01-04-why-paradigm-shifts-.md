@@ -13,37 +13,47 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+In 2014, Alan Kay was a guest lecturer to my programming languages class at the University of Toronto.
+
+I thought it was cool, but definitely did not appreciate it as much as I should have.
+
+To this day, one of his infamous quotes still resonates with me:
+
+> "The best way to predict the future is to create it."
+
 ## A Pattern I Can’t Ignore
 
-I’ve been reflecting on my career up until this point.
+With the new year, I’ve been reflecting on my career up until this point.
 
 A pattern I can’t ignore is that I consistently choose to work on paradigm shifts.
 
 It’s been interesting, fun, fulfilling, adventurous, and a learning journey across every aspect of life.
 
-It has also taken longer than expected to translate into the outcomes I’m optimizing for. Still, I can tell the experience is compounding.
+The experience is compounding, but it has taken longer than expected to translate into the outcomes I’m optimizing for.
 
 - In 2011, as an intern, I worked on computer vision algorithms that ran on an iPhone
-- In 2014, as an undergraduate senior, I worked on GPU acceleration and distributed systems for fMRI
-- In 2016, I left Twitter to join Magic Leap and work on the augmented reality cloud. I turned down an offer from Google and walked away from a Stanford master’s program after taking the GREs.
-- In 2020, I moved to Waymo to work on planner evaluation for autonomous vehicles, turning down an offer from Meta and setting AR and VR aside for a while.
-- In 2021, I tried to change how the construction industry works by building an Airbnb for construction soil.
-- In 2022, I started building a blockchain to change how applications find and pay for the backend services they rely on.
-- In 2025, I started working on how tipping and payments will function between agents and humans in the future.
+- In 2014, as an undergraduate senior, I worked on GPU acceleration and distributed systems for fMRI analysis
+- In 2016, I left Twitter to join Magic Leap and work on the Augmented Reality cloud. I turned down an offer from Google and never finished my application for a Stanford computer vision master’s program even after taking the GREs.
+- In 2020, I moved to Waymo to work on Planner Evaluation for Autonomous Vehicles, turning down an offer from Meta's Reality Labs.
+- In 2021, I tried to change how the construction industry works by building an "Airbnb for construction soil".
+- In 2022, I started building a blockchain to fundamentally change how applications find and pay for the backend services they rely on
+- In 2025, I started working on how tipping and payments will function between agents and humans in the future
 
-This isn’t randomness. It’s a preference.
+This isn’t an accident. It’s a deliberate preference.
 
 ## The Cost of Working on the Frontier
 
-So far, I haven’t achieved the goals I originally set out to:
+So far, I haven’t achieved the goals that are always lingering:
 
-- Create a product that changes how people live or how work gets done, ideally both
-- Build the foundation for a company and brand I’m proud of and can grow over time
-- Put myself on a clear path toward long-term financial milestones
+- Create a product that changes how people live, how work gets done, and ideally both
+- Build the foundation for brand, company and team I’m proud of and can grow over time
+- Put myself on a clear path toward my long-term financial milestones
 
 If you can relate, you already know how tough this is.
 
-This path trades certainty for leverage. Writing this made that clearer to me than ever. Each attempt increases the surface area of what I understand, what I can recognize earlier, and what I can move faster on next time.
+This path trades certainty for leverage. Writing this helped me see that more clearly. Each attempt expands what I understand, what I can recognize earlier, and how quickly I can move the next time.
+
+Intuition is a muscle that can't be built over time. It's where experience dominates over expertise.
 
 Progress here is nonlinear. The feedback loops are long, but they compound.
 
@@ -61,7 +71,7 @@ Today, breakthroughs on paper are only one part of the equation. Building produc
 
 Paradigm shifts don’t have to be zero-to-one leaps.
 
-There are practical milestones along the way. Those milestones fund the work, sharpen the thesis, and make the long-term direction possible. Building something useful today can be the most effective way to buy leverage for tomorrow.
+There are practical milestones along the way. Those milestones fund the work, sharpen the thesis, and make the long-term direction possible. Building something useful today is often the most effective way to buy leverage for tomorrow.
 
 When Einstein was writing, he knew there was unexplored territory in physics. When Bill Gates started Microsoft, he knew cheaper computers would reshape daily life.
 
@@ -71,11 +81,7 @@ They weren’t guessing blindly. They were committing to where the world was mov
 
 Today, I’m convinced the construction industry will operate very differently ten years from now. There will be robots, vast amounts of visual data, and AI systems processing information that humans handle manually today.
 
-That belief shapes what I work on and how I choose to build.
-
-Alan Kay put it simply:
-
-> “The best way to predict the future is to create it.”
+That conviction shapes what I work on and how I choose to build.
 
 Or, as Ovechkin said:
 
