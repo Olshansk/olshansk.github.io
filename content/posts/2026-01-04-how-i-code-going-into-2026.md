@@ -1,6 +1,6 @@
 ---
-title: "How I code in 2025 - Having written my first line of code in 2004"
-date: 2025-11-18T09:08:01-0500
+title: "How I code going into 2026 - Having written my first line of code in 2004"
+date: 2026-01-04T09:08:01-0500
 draft: true
 description: ""
 tags: []
@@ -15,7 +15,43 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-Other pro tips:
+## Humane intro:
+
+- Beyond com for a sprite when I was 11
+- Turing in 9th grade
+- So computer science and Java in 2009
+- Didn’t take it seriously until my internship in 2011
+
+## My favorite blogs/references:
+
+- Simon Willison: Ahead of everyone all the time
+- Xiaw asian dude: Very real take without fluff
+- Andrew Wilson (irrational exuberance): Great content, but hard to read and a little dense
+
+## What do I want people to really take away?
+
+### Old / Present:
+
+- I don't write code by hand
+- I review code when I need to:
+- I don't look at code by hand
+- Creating commands if I repeat myself
+- Only skill I have is for makefiles
+
+### New / upcoming:
+
+- Review all the pro tips
+- Making use of CLAUDE better in shared environments
+- Trying out tools like conductor
+
+### Things that it's bad at:
+
+- Not seeing the bigger picure of an existing repo
+- Writing useless tests
+- Biasing to addition over deletion
+- Not good at desining and implementing end-to-end tests
+
+## Other pro tips:
 
 - For solo projects, you don't need code
 - When development, don’t look at the code until it works
@@ -44,6 +80,13 @@ This blog post is going to be pretty long and mainly act as a reference of tools
 
 If you're just a casual reader, the only section I recommend you don't skip is the first one
 
+- [Humane intro:](#humane-intro)
+- [My favorite blogs/references:](#my-favorite-blogsreferences)
+- [What do I want people to really take away?](#what-do-i-want-people-to-really-take-away)
+  - [Old / Present:](#old--present)
+  - [New / upcoming:](#new--upcoming)
+  - [Things that it's bad at:](#things-that-its-bad-at)
+- [Other pro tips:](#other-pro-tips)
 - [Orchesstrating an ensemble: Codex, Geminis \& Claudes](#orchesstrating-an-ensemble-codex-geminis--claudes)
 - [My Stack](#my-stack)
 - [All About I/O](#all-about-io)
