@@ -3,7 +3,7 @@ title: "Why do I work on paradigm shifts?"
 date: 2026-01-03T18:53:21-0800
 draft: false
 description: ""
-tags: []
+tags: ["Career", "Entrepreneurship", "Innovation", "Startups", "Technology", "Reflection"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
