@@ -3,7 +3,15 @@ title: "Why do I work on paradigm shifts?"
 date: 2026-01-03T18:53:21-0800
 draft: false
 description: ""
-tags: ["Career", "Entrepreneurship", "Innovation", "Startups", "Technology", "Reflection"]
+tags:
+  [
+    "Career",
+    "Entrepreneurship",
+    "Innovation",
+    "Startups",
+    "Technology",
+    "Reflection",
+  ]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
@@ -13,9 +21,9 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-In 2014, Alan Kay was a guest lecturer to my programming languages class at the University of Toronto.
+In 2014, Alan Kay was a guest lecturer in my programming languages class at the University of Toronto.
 
-I thought it was cool, but definitely did not appreciate it as much as I should have.
+I thought it was cool, but I definitely did not appreciate it as much as I should have.
 
 To this day, one of his infamous quotes still resonates with me:
 
@@ -33,11 +41,11 @@ The experience is compounding, but it has taken longer than expected to translat
 
 - In 2011, as an intern, I worked on computer vision algorithms that ran on an iPhone
 - In 2014, as an undergraduate senior, I worked on GPU acceleration and distributed systems for fMRI analysis
-- In 2016, I left Twitter to join Magic Leap and work on the Augmented Reality cloud. I turned down an offer from Google and never finished my application for a Stanford computer vision master’s program even after taking the GREs.
-- In 2020, I moved to Waymo to work on Planner Evaluation for Autonomous Vehicles, turning down an offer from Meta's Reality Labs.
-- In 2021, I tried to change how the construction industry works by building an "Airbnb for construction soil".
-- In 2022, I started building a blockchain to fundamentally change how applications find and pay for the backend services they rely on
-- In 2025, I started working on how tipping and payments will function between agents and humans in the future
+- In 2016, I left Twitter to join Magic Leap and work on the augmented reality cloud. I turned down an offer from Google and never finished my application for a Stanford computer vision master’s program, even after taking the GREs.
+- In 2020, I moved to Waymo to work on planner evaluation for autonomous vehicles, turning down an offer from Meta’s Reality Labs.
+- In 2021, I tried to change how the construction industry works by building an “Airbnb for construction soil.”
+- In 2022, I started building a blockchain to fundamentally change how applications find and pay for the backend services they rely on.
+- In 2025, I started working on how tipping and payments will function between agents and humans in the future.
 
 This isn’t an accident. It’s a deliberate preference.
 
@@ -45,15 +53,15 @@ This isn’t an accident. It’s a deliberate preference.
 
 So far, I haven’t achieved the goals that are always lingering:
 
-- Create a product that changes how people live, how work gets done, and ideally both
-- Build the foundation for brand, company and team I’m proud of and can grow over time
+- Create a product that changes how people live, how work gets done, or ideally both
+- Build the foundation for a brand, company, and team I’m proud of and can grow over time
 - Put myself on a clear path toward my long-term financial milestones
 
 If you can relate, you already know how tough this is.
 
 This path trades certainty for leverage. Writing this helped me see that more clearly. Each attempt expands what I understand, what I can recognize earlier, and how quickly I can move the next time.
 
-Intuition is a muscle that can't be built over time. It's where experience dominates over expertise.
+Intuition is a muscle that _can_ be built over time. It’s where experience starts to dominate over formal expertise.
 
 Progress here is nonlinear. The feedback loops are long, but they compound.
 
