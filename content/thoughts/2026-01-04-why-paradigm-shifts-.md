@@ -1,6 +1,6 @@
 ---
 title: "Why do I work on paradigm shifts?"
-date: 2026-01-04T18:53:21-0800
+date: 2026-01-03T18:53:21-0800
 draft: false
 description: ""
 tags: []
@@ -13,52 +13,74 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-I've been reflecting on my career up until this point.
+## A Pattern I Can’t Ignore
 
-A common pattern I keep seeing is that I always aim to work on paradigm shifts.
+I’ve been reflecting on my career up until this point.
 
-It’s been interesting, fun, fulfilling, adventurous, and a learning journey in every aspect of life.
+A pattern I can’t ignore is that I consistently choose to work on paradigm shifts.
 
-However, it hasn’t gotten me closer to achieving my goals.
+It’s been interesting, fun, fulfilling, adventurous, and a learning journey across every aspect of life.
+
+It has also taken longer than expected to translate into the outcomes I’m optimizing for. Still, I can tell the experience is compounding.
 
 - In 2011, as an intern, I worked on computer vision algorithms that ran on an iPhone
 - In 2014, as an undergraduate senior, I worked on GPU acceleration and distributed systems for fMRI
-- In 2016, I got bored working at Twitter and moved to Magic Leap to work on the augmented reality cloud. I turned down an offer from Google and gave up on my Stanford master’s application after taking the GREs.
-- In 2020, I moved to Waymo to work on planner evaluation for autonomous vehicles. I turned down an offer from Meta, hanging up the AR/VR hat for a bit.
-- In 2021, I tried to change how the construction industry works by building an Airbnb for construction soil
-- In 2022, I started building a blockchain to change how applications find and pay for the backend services they need
-- In 2025, I started trying to change how tipping will work between agents and humans in the future
+- In 2016, I left Twitter to join Magic Leap and work on the augmented reality cloud. I turned down an offer from Google and walked away from a Stanford master’s program after taking the GREs.
+- In 2020, I moved to Waymo to work on planner evaluation for autonomous vehicles, turning down an offer from Meta and setting AR and VR aside for a while.
+- In 2021, I tried to change how the construction industry works by building an Airbnb for construction soil.
+- In 2022, I started building a blockchain to change how applications find and pay for the backend services they rely on.
+- In 2025, I started working on how tipping and payments will function between agents and humans in the future.
 
-But so far, I haven’t achieved any of the goals I set out to:
+This isn’t randomness. It’s a preference.
 
-- Create a product that has either changed the lives of many, changed how we do things, or preferably both
-- Build the foundation for a company and brand that I’m proud of and can grow over time
-- Set myself on a path to achieve my financial milestones
+## The Cost of Working on the Frontier
 
-_If you can relate, you realize how tough this is._
+So far, I haven’t achieved the goals I originally set out to:
 
-Needing to work on paradigm shifts is a luxury. I’m not sure I deserve it.
+- Create a product that changes how people live or how work gets done, ideally both
+- Build the foundation for a company and brand I’m proud of and can grow over time
+- Put myself on a clear path toward long-term financial milestones
 
-It’s analogous to working at a big company versus building one yourself.
+If you can relate, you already know how tough this is.
 
-Why don’t I want to work at a big company? Because I need to be a founder.
+This path trades certainty for leverage. Writing this made that clearer to me than ever. Each attempt increases the surface area of what I understand, what I can recognize earlier, and what I can move faster on next time.
 
-Why do I want to be a founder? I can’t just be a cog. I need the freedom to pursue my own ideas, drive my vision, build a team that aligns with my culture, and get involved in every aspect of the business.
+Progress here is nonlinear. The feedback loops are long, but they compound.
 
-If I were alive 150 years ago, I’d probably be a scientist. They were the ones making paradigm shifts back then.
+## Why I’m Not Built for Incremental Work
 
-Today, writing and breakthroughs are only one piece of the puzzle. Building a company, a product, and gaining adoption are equally important.
+I don’t just need to work on paradigm shifts. I choose to.
 
-But even 150 years ago, there were business owners who didn’t work on paradigm shifts. So why insist on one?
+I don’t want to work at a large company because I need to be a founder. I can’t be a cog. I need the freedom to pursue my own ideas, set direction, shape culture, build teams, and stay involved across every layer of the business.
 
-Breakthroughs inspire me. Founders inspire me. Change inspires me. I want to inspire my future self. I know I’ll get bored and lose excitement if I’m not working on something new.
+If I were alive 150 years ago, I would probably be a scientist. Scientists were the ones pushing paradigms forward then.
 
-Paradigm shifts don’t have to be zero-to-one. There can be real, practical milestones along the way, but the long-term direction has to be different. Those milestones pay for and enable the paradigm shift.
+Today, breakthroughs on paper are only one part of the equation. Building products, companies, and adoption matter just as much.
 
-When Einstein was writing, he knew there was unexplored territory in physics. When Bill Gates started Microsoft, he knew cheaper computers would change how we operate day to day.
+## Paradigm Shifts Aren’t Reckless
 
-Today, I know the way the construction industry operates 10 years from now will be completely different. There will be some robots, a lot of visual data, and a lot of AI processing it instead of humans.
+Paradigm shifts don’t have to be zero-to-one leaps.
 
-So why paradigm shifts? Because, like Ovechkin:
+There are practical milestones along the way. Those milestones fund the work, sharpen the thesis, and make the long-term direction possible. Building something useful today can be the most effective way to buy leverage for tomorrow.
+
+When Einstein was writing, he knew there was unexplored territory in physics. When Bill Gates started Microsoft, he knew cheaper computers would reshape daily life.
+
+They weren’t guessing blindly. They were committing to where the world was moving.
+
+## Where This Is Going
+
+Today, I’m convinced the construction industry will operate very differently ten years from now. There will be robots, vast amounts of visual data, and AI systems processing information that humans handle manually today.
+
+That belief shapes what I work on and how I choose to build.
+
+Alan Kay put it simply:
+
+> “The best way to predict the future is to create it.”
+
+Or, as Ovechkin said:
 
 > I skate to where the puck is going to be, not where it has been.
+
+That’s the center of this for me.
+
+I want to build technology for where the world is moving, not where it is today. Building for today is how you generate the capital, leverage, and insight required to build for the future.
