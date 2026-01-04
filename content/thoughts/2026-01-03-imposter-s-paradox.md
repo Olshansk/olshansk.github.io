@@ -15,16 +15,20 @@ ShowWordCount: true
 
 If you're reading this, you've definitely heard of [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome).
 
-In fact, there’s a good chance you’ve experienced it at some point in your life. You might be feeling it right now.
+There’s a good chance you’ve felt it at some point. You might be feeling it right now.
 
-External validation is a good motivator, but it’s a double-edged sword. If the validation comes from someone willing to pay for your product, take it. If it comes through non-monetary means, be careful.
+External validation is a powerful motivator, but it’s a double-edged sword. If validation comes from someone willing to pay for your product, take it seriously. Money is signal. If it comes from applause, praise, or attention without commitment, treat it with caution. Those signals decay fast.
 
-Something I’ve realized about people who feel Impostor Syndrome frequently is that their internal voice is their own worst enemy. I’m likely projecting here, but I’ll keep going.
+People who experience Impostor Syndrome frequently tend to have a brutal internal narrator. Not humility. Not realism. A constant internal cross-examination.
 
-Conviction comes internally. Validation comes externally. Self-criticism is the motivator. Results are the reward.
+Here’s the part that matters.
 
-On one day, you might feel like you’re on top of the world and about to build the most successful company ever. Two hours later, you’re convinced there’s no path to success. It’s a daily rollercoaster.
+Conviction is internal. Validation is external. Self-criticism supplies the pressure. Results are the only thing that releases it.
 
-At the same time, you’re afraid everyone around you will see through your facade and expose your incompetence. Yet you also feel like everyone else is incompetent, and that you are uniquely positioned to create something that genuinely adds value to humanity.
+This creates a strange oscillation. In the morning, you are convinced you’re building something inevitable. By lunch, you’re certain there’s no viable path forward. Nothing material changed. Only the internal model did. This isn’t moodiness. It’s feedback sensitivity.
 
-**This conflicting internal voice isn’t Impostor Syndrome. It’s the Impostor’s Paradox.**
+The paradox shows up everywhere. You assume everyone will eventually discover your incompetence. At the same time, you look around and wonder how so many obviously mediocre systems, products, and companies exist at all. You feel that everyone around is incompetent, but you also challenge your abilities while being sure that you're the only one who can do it. You feel unqualified and uniquely qualified in the same breath.
+
+This tension has real consequences. It makes shipping harder than thinking. It biases you toward over-preparation and under-exposure. It delays decisions that only reality can resolve. The danger isn’t self-doubt. It’s letting the doubt replace contact with the world.
+
+**That conflicting internal voice isn’t Impostor Syndrome. It’s the Impostor’s Paradox.**
