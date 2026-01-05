@@ -29,7 +29,10 @@ It's been about 6 months since I have manually written a line of code, and it's 
 
 Some are struggling with the transition, but I don't find it bittersweet. From my perspective, we can finally just focus on what matters: product & engineering.
 
+## Table of Contents
+
 - [My First Lines of Code](#my-first-lines-of-code)
+- [Table of Contents](#table-of-contents)
 - [How I code going into 2026](#how-i-code-going-into-2026)
 - [Orchestrating Agent Personalitites](#orchestrating-agent-personalitites)
 - [My Tech Stack](#my-tech-stack)
@@ -38,16 +41,14 @@ Some are struggling with the transition, but I don't find it bittersweet. From m
   - [What are agents bad at on their own?](#what-are-agents-bad-at-on-their-own)
 - [All About I/O](#all-about-io)
 - [AI Driven Software Engineering](#ai-driven-software-engineering)
-- [Slash Commands](#slash-commands)
-- [TODOs](#todos)
+- [Use TODOs to Move Fast TODO Everything](#use-todos-to-move-fast-todo-everything)
 - [Documentation](#documentation)
 - [Makefiles](#makefiles)
 - [Skills Feedback Loop](#skills-feedback-loop)
-- [What is AI really **Good** at?](#what-is-ai-really-good-at)
 - [How will teams change?](#how-will-teams-change)
 - [A handful of random pro tips:](#a-handful-of-random-pro-tips)
-  - [My favorite blogs](#my-favorite-blogs)
-  - [TODO](#todo)
+- [My favorite blogs](#my-favorite-blogs)
+- [Personal Followups](#personal-followups)
 
 ## How I code going into 2026
 
@@ -183,41 +184,26 @@ Feels like we have a new term for coding these days.
 
 We've moved from **Prompt Engineering**, to **Vibe Coding**, to **Context Engineering**, and who knows what's next.
 
-Previously, we had everything from Coding
+Previously, we had everything from Coding, to Programming, to Software Engineering, Architecture and everything in between.
 
-AI Driven engineering is not vibe coding
+At the end of the end, the goal is a product people love and are willing to pay for. Everything in between is just a means to an end.
 
-- One is for backend, core Haines logic and production
-- The other is for front end (simple) and prototypes
-- Caveat is large frontend codebases that need to scale
+That's why I like to call it **AI Driven Software Engineering**.
 
-- Create an image of a tree show me, codex, Gemini and then Claude
-- 1 codex
-- 2 Gemini
-- 4 claude
-- In the future, many more
+## Use TODOs to Move Fast TODO Everything
 
-## Slash Commands
+A little while ago I published a blog post titled [Move Fast and Document Things](https://olshansky.substack.com/p/move-fast-and-document-things).
 
-My most commonly used slash commands:
+It's a simple tool that enables engineers to stay focused without tending to side quests, while getting the satisfcation of getting something of their mind:
 
-- I have a command for resolving merge conflicts
-- I have a command for reviewing code
-- I have a command for building context to prepare for code reviews
-- A helper to prepare for code reviews
-- A helper to clean code
-- A helper to write documentation the way you want it
+- It doesn't involved implenenting the side quest
+- It doesn't involve creating an issue or a document for it
+- It doesn't involve sharing it with everyone
+- It simply involves adding a `TODO_<REASON>`: <description>` in the codebase.
 
-## TODOs
-
-Make targets:
-
-- Add todos everywhere, more important than before
-- Link to my other blogs
+It makes sharing and picking up context really easy. You get the dopamine relief of getting it off your mind. You get to share youe thoughts, learnings and ideas with other engineers.
 
 ## Documentation
-
-https://olshansky.substack.com/p/move-fast-and-document-things
 
 Anyone who has ever worked with me know how much of a :pita: I am when it comes to documentation.
 
@@ -263,30 +249,15 @@ The only difference is that you could, **and should**, ask your agent to improve
 
 You can either tell it how to improve the script in detail, or use the contents of your conversation for that direction.
 
-## What is AI really **Good** at?
-
-- Ai is really good at following instructions
-- Scaffolding and solving micro problems
-- Solving local problems
-- Doing the things that "you have to do"
-
 ## How will teams change?
 
-Meta takeaways on how teams will change:
+This is a bigger topic. It requires a much bigger discussion so I'll keep it short.
 
-- You won’t need anyone who doesn’t have agency of their own
-- But, it’s a very great sounding board. No longer do we need to use people as rubber ducks, because we have digital gizmoducks
-- It’s still your job to get a picture of the product, codebase, and and user problem
+The divergence between prodcut managers and software engineers will grow smaller. You won't need product managers who cannot build prototypes on their own, and you don't need software engineers who do not have product taste. You'll still need domain experts in both.
 
-Engineering leaders
+All engineering leaders and managers will be hands on to varying degrees.
 
-- Often graduate from writing code to giving directions and making plans.
-- Periodically check in
-- Now that’s everyone
-
-- Some paradigms is working with humans, except you don’t have to account for their lives, emotions or energy levels
-- Good code is key in some parts (critical workflows) or mature codebases with lots of people: https://bits.logic.inc/p/ai-is-forcing-us-to-write-good-code
-- E.g. We spend a lot of time there on ourbackend, but less so on the frontend (for now)
+Best practices in engineering orgs will evolve from best practices of how to write code, to best practices of how to improve their agents.
 
 ## A handful of random pro tips:
 
@@ -298,27 +269,26 @@ To keep this short, I figured I'd just make a bullet point list of a bunch of mi
 4. **Logging** - Now that we don't have to write logs anymore, logs are so much more important because that's your windo into what's happening. I've fully longs log lines with emojis, colors and all the metadata.
 5. **Take your time** - When you know you're giving the agent a complex task, tell it to take it its, or to spend "At least X minutes" working on something before returning to you.
 6. **Be idiomatic** - Periodically tell CLAUDE to remember patterns. E.g. I really like emojis and colors in my log lines, so I build patterns along the way. "Teaching it" to your team is as simple as #memorize
-7. **Tell me why I'm wrong** -
-8. **What am I overlooking** -
-9. **Hotkeys** -
-10. **Simplify** - A simple note asking the agent to put effort into avoidign code branching, over-engineering and keeping things Elon-like simple goes a surpinsingly long way.
-11. **Resuming** -
-12. **Yoloing** - I bought a license to [Arq](https://www.arqbackup.com/) backup and have embraced [`--yolo`](https://developers.openai.com/codex/cli/reference/) mode.
+7. **Hotkeys** -
+8. **Simplify** - A simple note asking the agent to put effort into avoidign code branching, over-engineering and keeping things Elon-like simple goes a surpinsingly long way.
+9. **Resuming** - Every agent CLI has a `resume` option to pick up conversations where you left off. Use it.
+10. **Yoloing** - I bought a license to [Arq](https://www.arqbackup.com/) backup and have embraced [`--yolo`](https://developers.openai.com/codex/cli/reference/) mode.
+11. **Tell me why I'm wrong** -
+12. **What am I overlooking** -
 
-### My favorite blogs
+## My favorite blogs
 
 - Simon Willison: Ahead of everyone all the time
-- Xiaw asian dude: Very real take without fluff
+- xuanwo asian dude: Very real take without fluff
 - Andrew Wilson (irrational exuberance): Great content, but hard to read and a little dense
-- Sentry
-- Founder of claude code
+- [cra.mr](https://cra.mr/); founder of sentry
+- [Founder of claude code](https://x.com/bcherny/status/2007179832300581177)
 
-### TODO
+## Personal Followups
 
-- My personal list of things to review after the holidays is:
-- Review all the pro tips
+- https://x.com/bcherny/status/2007179832300581177
+- https://xuanwo.io/2025/09-2025-review/
+- Trying out tools like [conductor](https://www.conductor.build/)
+- https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/
 - Making use of CLAUDE better in shared environments
-- Trying out tools like conductor
-- Conductor
 - Find a way to do less copy-pasting of large chunks of text
-- Link to the person who create claude code
