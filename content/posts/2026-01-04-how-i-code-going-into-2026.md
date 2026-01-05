@@ -3,7 +3,7 @@ title: "How I code going into 2026"
 date: 2026-01-04T09:08:01-0500
 draft: true
 description: "RIP 22 years of writing code by hand (mostly)"
-tags: []
+tags: ["AI Coding", "Software Engineering", "Claude Code", "Developer Tools", "Productivity", "Code Review"]
 categories: ["Posts"]
 medium_url: ""
 substack_url: ""
@@ -35,18 +35,18 @@ Some people struggle with this transition. Personally, I don’t find it bitters
 
 - [How I code going into 2026](#how-i-code-going-into-2026)
 - [Orchestrating Agent Personalities](#orchestrating-agent-personalities)
-- [My Tech Stack](#my-tech-stack)
+- [My AI Tech Stack](#my-ai-tech-stack)
 - [Reviewing Code](#reviewing-code)
 - [Modes of Operation](#modes-of-operation)
 - [AI Driven Software Engineering](#ai-driven-software-engineering)
 - [Use TODOs to Move Fast TODO Everything](#use-todos-to-move-fast-todo-everything)
-- [Makefiles](#makefiles)
+- [Make everything with Makefiles](#make-everything-with-makefiles)
 - [Skills Feedback Loop](#skills-feedback-loop)
 - [Documentation](#documentation)
 - [How will teams change?](#how-will-teams-change)
-- [A handful of random pro tips:](#a-handful-of-random-pro-tips)
+- [A handful of random pro tips](#a-handful-of-random-pro-tips)
 - [My favorite blogs](#my-favorite-blogs)
-- [Closing](#closing)
+- [Closing Thoughts](#closing-thoughts)
 - [Personal Followups](#personal-followups)
 
 ## How I code going into 2026
@@ -89,7 +89,7 @@ A gap I haven’t been able to close yet is letting agents reliably kick off oth
 
 _Side note: I’d rank the CLI UX from best to worst as Gemini -> Claude -> Codex. This might be the only time Google is superior on product, and it’s because the target customer is a developer._
 
-## My Tech Stack
+## My AI Tech Stack
 
 - **CLI**: [iTerm2](https://iterm2.com/) with over a decade of configs, powered by the [Codex CLI](https://chatgpt.com/features/codex), [Gemini CLI](https://docs.cloud.google.com/gemini/docs/codeassist/gemini-cli), and [Claude Code](https://claude.com/product/claude-code).
 - **Desktop Apps**: [ChatGPT](https://chatgpt.com/) as my daily partner, [Google Gemini](https://gemini.google.com/) for images.
@@ -175,7 +175,7 @@ This goes much further with agents.
 
 Agents have full context of TODOs as they traverse a codebase, and you can even ask them to leave TODOs along the way for your next working session. **More software teams need to adopt this pattern.**
 
-## Makefiles
+## Make everything with Makefiles
 
 Anyone who has ever worked with me knows how much I love Makefiles. Maybe too much, but it’s a hill I’m comfortable standing on.
 
@@ -234,7 +234,7 @@ All engineering leaders and managers will be hands-on to varying degrees.
 
 Best practices in engineering orgs will evolve from best practices about how to write code, to best practices about how to improve agents.
 
-## A handful of random pro tips:
+## A handful of random pro tips
 
 To keep this short, here’s a list of micro “pro tips” I use day to day:
 
@@ -258,7 +258,7 @@ To keep this short, here’s a list of micro “pro tips” I use day to day:
 - [Boris Cherny](https://x.com/bcherny): Creator of Claude Code. Enough said.
 - [Andrej Karpathy](https://x.com/karpathy): One of the clearest voices on how LLMs work. Founder @EurekaLabsAI, ex-Director of AI at Tesla, co-founder at OpenAI. If you're reading this and don’t know who he is, I genuinely don’t know how that happens.
 
-## Closing
+## Closing Thoughts
 
 **The meta point here is simple: the bottleneck is shifting.**
 
