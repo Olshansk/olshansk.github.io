@@ -1,9 +1,17 @@
 ---
 title: "How I code going into 2026"
 date: 2026-01-04T09:08:01-0500
-draft: true
+draft: false
 description: "RIP 22 years of writing code by hand (mostly)"
-tags: ["AI Coding", "Software Engineering", "Claude Code", "Developer Tools", "Productivity", "Code Review"]
+tags:
+  [
+    "AI Coding",
+    "Software Engineering",
+    "Claude Code",
+    "Developer Tools",
+    "Productivity",
+    "Code Review",
+  ]
 categories: ["Posts"]
 medium_url: ""
 substack_url: ""
