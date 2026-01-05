@@ -1,13 +1,13 @@
 ---
-title: "How I code going into 2026 - Having written my first line of code in 2004"
+title: "How I code going into 2026"
 date: 2026-01-04T09:08:01-0500
 draft: true
-description: ""
+description: "RIP 22 years of writing code by hand"
 tags: []
 categories: ["Posts"]
 medium_url: ""
 substack_url: ""
-ShowToc: true
+ShowToc: false
 TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
@@ -15,7 +15,7 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-## My First Lines of Code
+## My First Lines of Code <!-- omit in toc -->
 
 At the age of 11 in 2003, I wrote my first line of code. I was a Game Master for DragonBall Z MMORPG on [byond.com](https://www.byond.com/). Other than creating a cool looking pixel art item, I don't remember the language it was in or any of the details.
 
@@ -29,22 +29,18 @@ It's been about 6 months since I have manually written a line of code, and it's 
 
 Some are struggling with the transition, but I don't find it bittersweet. From my perspective, we can finally just focus on what matters: product & engineering.
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
 
-- [My First Lines of Code](#my-first-lines-of-code)
-- [Table of Contents](#table-of-contents)
 - [How I code going into 2026](#how-i-code-going-into-2026)
 - [Orchestrating Agent Personalitites](#orchestrating-agent-personalitites)
 - [My Tech Stack](#my-tech-stack)
 - [Reviewing Code](#reviewing-code)
 - [Modes of Operation](#modes-of-operation)
-  - [What are agents bad at on their own?](#what-are-agents-bad-at-on-their-own)
-- [All About I/O](#all-about-io)
 - [AI Driven Software Engineering](#ai-driven-software-engineering)
 - [Use TODOs to Move Fast TODO Everything](#use-todos-to-move-fast-todo-everything)
-- [Documentation](#documentation)
 - [Makefiles](#makefiles)
 - [Skills Feedback Loop](#skills-feedback-loop)
+- [Documentation](#documentation)
 - [How will teams change?](#how-will-teams-change)
 - [A handful of random pro tips:](#a-handful-of-random-pro-tips)
 - [My favorite blogs](#my-favorite-blogs)
@@ -101,33 +97,23 @@ When I was 19 years old, my manager, [Ryan Perry](https://www.linkedin.com/in/ry
 
 I realized this was the case when I moved into engineering leadership, but little did I know the turn it would take.
 
-At the age of 19, on my first day On of my first of my
+For solo projects, I don't write any code by hand, nor do I review any of it unless there's a serious issue.
 
-- Ryan Perry, when I was 19: "You will review a lot more code than youw rite"
+For shared codebases, it really depends on how critical the business logic is and the maturity of the codebase.
 
-- Bandaids vs solutions
-- Deleting vs writing code
+There's a common saying:
 
-- I still review all the code
-- I don’t write any code by hand
-- Even if I need to rename something, I usually ask an LLM to do it.
+> "You are the average of the 5 people you spend the most time with."
 
-When do I look at the code?
+Extending this to agents:
 
-- It works and I'm ready to review
-- It's in a non working spiral and there's no need to keep burning tree
+> "Your agents are the average of the 5 people making the most contributions to your codebase."
 
-- For solo projects, you don't need code
-- When development, don’t look at the code until it works
-- The more people there are working on a codebase, the more time you should spend reviewing. Their agenda will pick up on bad patterns that you may or have not asked your agent to fix
-- Be careful of production code vs prototypes, different mindsets
+Very simply put, the amount of effort that an eng team will put into asking agents to set or follow patterns across docs, tools, interfaces, etc, is exactly how the agent will behave. This is where code reviewing agent work requires a very delicate balance.
 
-Once the product works
+The closer the work is to critical code paths, such as updating database rows related to payments, the more I review it. If it's your businesse's moat, you'll likely need
 
-- I start reviewing on githb
-- I tell it how to rename, refactor, rewrite
-- I go line by line
-- I structure it well
+If the code is realted to some frontend chaanges that are always moving, I don't review it at all, but ask another agent to ensure it's idiomatic, clean, and good enough.
 
 ## Modes of Operation
 
@@ -140,43 +126,6 @@ When it comes to software engineering with agents, I'd split it into the followi
 - **Pairing**: Me and one agent go at it together. I spend a lot of time reading every line of output it produces and thinks through. This is when there is one large chunk of work that needs my utmost focus.
 - **Orchestrating**: I'm the conductor making making the decisions. There are anywhere from 3-10 agents working on tasks of varying sizes. This is when there are a lot of little things that need to get done.
 - **Gizmoducking**: Like rubber ducking but with a much more intelligent duck. This is primarily used for planning, brainstorming, ideating or building context in a new domain.
-
-### What are agents bad at on their own?
-
-- See [this](https://bits.logic.inc/p/ai-is-forcing-us-to-write-good-code)
-
-- Not seeing the bigger picure of an existing repo
-- Writing useless tests
-- Biasing to addition over deletion
-- Not good at desining and implementing end-to-end tests
-- Solving global problems
-- Solving long term problems
-- Solving problems that require a lot of context
-- Knowing what problem to solve
-- Overdoing it with interfaces
-- Adding unncessary features. They're one-day nice-to-haves, but reducing the surface area of chanes, features, and code is how you prevent noise or feature creep.
-- Reimplmenting things rather than reusing, refactoring or consolidating things, if not prompting.
-
-There is a common saying:
-
-> "You are the average of the 5 people you spend the most time with."
-
-Extending this to agents:
-
-> "Your agents are the average of the 5 people making the most contributions to your codebase"
-
-- Clean interfaces
-- Following patterns
-- Reusing rather than reimplementing
-- Reducing the code surface area
-
-## All About I/O
-
-- I define the inputs and outputs
-- I use make commands
-- I have extensive integration tests
-- I only look in the code when something works, is stuck or it’s time for a major checkpoint
-- I don’t look at code for front end frameworks but also don’t work on big he’s
 
 ## AI Driven Software Engineering
 
@@ -202,22 +151,6 @@ It's a simple tool that enables engineers to stay focused without tending to sid
 - It simply involves adding a `TODO_<REASON>`: <description>` in the codebase.
 
 It makes sharing and picking up context really easy. You get the dopamine relief of getting it off your mind. You get to share youe thoughts, learnings and ideas with other engineers.
-
-## Documentation
-
-Anyone who has ever worked with me know how much of a :pita: I am when it comes to documentation.
-
-This is what I ask for:
-
-- Bullet Points
-- Copy-pasta friendly
-- Reduce cognitive overhead
-- No filler
-- The "how" should be at the end, optional or in an expandable section
-
-I've found AI to be good at editing documentation, but I personally hate the documentation it writes.
-
-It feels like the difference of how I was taught to write in school, with a focus on page and word counts rather than delivering value.
 
 ## Makefiles
 
@@ -249,6 +182,23 @@ The only difference is that you could, **and should**, ask your agent to improve
 
 You can either tell it how to improve the script in detail, or use the contents of your conversation for that direction.
 
+## Documentation
+
+Anyone who has ever worked with me know how much of a 🥙 I am when it comes to documentation.
+
+I'm equally as much a PITA (Pain In The Ass) when Ir eview documentation from agents.
+
+No one wants to read, and everyone just wants to copy-pasta (📠-🍝).
+
+Very simply, any documentation I ask AI to write involves:
+
+- Short sentences or bullet points
+- Copy-pasta friendly commands
+- Reduce cognitive overhead for agent and human readers
+- No filler or fluff
+- Start with a quickstart and only dive into "how" related details at the end
+- Bias to section headers when possible.
+
 ## How will teams change?
 
 This is a bigger topic. It requires a much bigger discussion so I'll keep it short.
@@ -264,31 +214,33 @@ Best practices in engineering orgs will evolve from best practices of how to wri
 To keep this short, I figured I'd just make a bullet point list of a bunch of micro "pro tips" I use on a day-to-day basis:
 
 1. **Planning** - Ask the LLM to build a plan and review it.
-2. **Thinking** - Tell the LLM to spend at least X minutes on a task, and not come back to you until it spent that much time deeply investigating a problem, solution or building a plan
-3. **Remembering** -
+2. **Thinking** - Tell the LLM to spend at least X minutes on a task, and not come back to you until it spent that much time deeply investigating a problem, solution or building a plan.
+3. **Remembering and compounding** - Whenever you have a long back-and-forth with an agent and you identify one of its gaps, ask it to either update its agents.md file, or update/create a new skill or slash command you can reuse. Small changes every day compound very quickly.
 4. **Logging** - Now that we don't have to write logs anymore, logs are so much more important because that's your windo into what's happening. I've fully longs log lines with emojis, colors and all the metadata.
 5. **Take your time** - When you know you're giving the agent a complex task, tell it to take it its, or to spend "At least X minutes" working on something before returning to you.
 6. **Be idiomatic** - Periodically tell CLAUDE to remember patterns. E.g. I really like emojis and colors in my log lines, so I build patterns along the way. "Teaching it" to your team is as simple as #memorize
-7. **Hotkeys** -
-8. **Simplify** - A simple note asking the agent to put effort into avoidign code branching, over-engineering and keeping things Elon-like simple goes a surpinsingly long way.
-9. **Resuming** - Every agent CLI has a `resume` option to pick up conversations where you left off. Use it.
-10. **Yoloing** - I bought a license to [Arq](https://www.arqbackup.com/) backup and have embraced [`--yolo`](https://developers.openai.com/codex/cli/reference/) mode.
-11. **Tell me why I'm wrong** -
-12. **What am I overlooking** -
+7. **Simplify** - A simple note asking the agent to put effort into avoidign code branching, reduce the code surface area, and over-engineering and keeping things Elon-like simple goes a surpinsingly long way.
+8. **Resuming** - Every agent CLI has a `resume` option to pick up conversations where you left off. Use it.
+9. **Yoloing** - I bought a license to [Arq](https://www.arqbackup.com/) backup and have embraced [`--yolo`](https://developers.openai.com/codex/cli/reference/) mode.
+10. **Ask for feedback** - Giving the agent permission to tell you what your blind spots are can be very helpfu. Ask it things like `tell me why I'm wrong` or `what am I overlooking`.
 
 ## My favorite blogs
 
-- Simon Willison: Ahead of everyone all the time
-- xuanwo asian dude: Very real take without fluff
-- Andrew Wilson (irrational exuberance): Great content, but hard to read and a little dense
-- [cra.mr](https://cra.mr/); founder of sentry
-- [Founder of claude code](https://x.com/bcherny/status/2007179832300581177)
+- [Simon Willison](https://simonwillison.net/): Founder of Django and leading independent researcher on AI. He coined things like [The Lethal Trifecta For AI Agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/), [Prompt Injection](https://simonwillison.net/series/prompt-injection/), the [Pelican on a bycicle](https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/) LLM benchmark, and so much more. He's been blogging for decades and you should [support him](https://github.com/sponsors/simonw/) if you read his stufff.
+- [Will Larson](https://andrew.wilson.io/): Great content, but hard to read and a little dense
+- [xuanwo asian dude](https://xuanwo.io/): Very real take without fluff
+- [cra.mr](https://cra.mr/): founder of sentry
+- [Boris Cherny](https://x.com/bcherny): Creator of Claude Code.
+- [Andrej Karpahy](https://x.com/karpathy): The leading voice on explaining how LLMs work. Founder @EurekaLabsAI, ex-director of AI at Tesla, co-founder at OpenAI.
 
 ## Personal Followups
 
-- https://x.com/bcherny/status/2007179832300581177
+These are a few of my personal TODOs to go through after the holidays:
+
+- [Boris Cherny's Thread on X](https://x.com/bcherny/status/2007179832300581177) on how to use Claude Code
 - https://xuanwo.io/2025/09-2025-review/
-- Trying out tools like [conductor](https://www.conductor.build/)
-- https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/
-- Making use of CLAUDE better in shared environments
-- Find a way to do less copy-pasting of large chunks of text
+- Play around with orchestration tools like [conductor](https://www.conductor.build/) to spawn multiple agents at once.
+- [The "definitive" guide on how to use Claude Code](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
+- Think through ways of how to make `CLAUDE.md` better in shared codebases
+- Think through ways of how to do less copy-pasting of large chunks of text
+- Spending a bit of time on the hotkeys (e.g. switching plan mode on/off) has been useful, but I haven't developed the muscle memory for it yet.
