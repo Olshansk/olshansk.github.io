@@ -17,17 +17,19 @@ ShowWordCount: true
 
 ## My First Lines of Code <!-- omit in toc -->
 
-At the age of 11 in 2003, I wrote my first line of code. I was a Game Master for a DragonBall Z MMORPG on [byond.com](https://www.byond.com/). Other than creating a cool-looking pixel art item, I do not remember the language or many of the details.
+**At the age of 11 in 2003**, I wrote my first line of code. I was a Game Master for a DragonBall Z MMORPG on [byond.com](https://www.byond.com/). Other than creating some cool-looking pixel art item, I don't really remember the language or any other details.
 
-At the age of 14 in 2007, I had to take a programming course as part of my high school’s [Math and Computer Science (MaCS)](https://schoolweb.tdsb.on.ca/wlmac/MaCS-Program) curriculum. We used a language called [Turing](<https://en.wikipedia.org/wiki/Turing_(programming_language)>), which is likely unknown to many.
+**At the age of 14 in 2007**, I had to take a programming course as part of my high school’s [Math and Computer Science (MaCS)](https://schoolweb.tdsb.on.ca/wlmac/MaCS-Program) curriculum. We used a language called [Turing](<https://en.wikipedia.org/wiki/Turing_(programming_language)>), which is likely unknown to many.
 
-At the age of 16 in 2009, I took the Advanced Placement (AP) Computer Science course after spending a full year coding in Java.
+**At the age of 16 in 2009**, I took the Advanced Placement (AP) Computer Science course after spending a full year learning Java in school.
 
-From there, I wrote code in a wide range of languages across academic and professional settings: Prolog, JavaScript, Objective-C, C++, Erlang, Elixir, Swift, Python, Go, and a few others that do not immediately come to mind. This spanned roles including iOS development at ModiFace, Android at Google, full stack at Twitter, backend ML infrastructure at Magic Leap, AI eval at Waymo, and blockchain R&D at Pocket Network.
+From there, I wrote code in a variety of languages spanning academic and professional settings: Prolog, JavaScript, Objective-C, C++, Erlang, Elixir, Swift, Python, Go, and probably a few others that don't pop to mind right away. This spanned roles including iOS development at ModiFace, Android at Google, full stack at Twitter, backend ML infrastructure at Magic Leap, AI eval at Waymo, blockchain R&D at Pocket Network, etc.
 
-It has been about six months since I manually wrote a line of code. It is hard to believe I may never write code by hand again. If I do not have access to the internet and leading frontier models, I simply will not be writing code.
+**It has been about 6 months since I manually wrote a full line of code from scratch, and it's amazing to realize I may never write code by hand again.**
 
-Some people struggle with this transition. I do not find it bittersweet. From my perspective, we can finally focus on what matters: product and engineering.
+If I don't have an internet connection and access to frontier models, I'd rather be writing, brainstorming, relaxing, or anything but coding.
+
+Some people struggle with this transition. Personally, I don't even find it bittersweet. We can finally focus on what matters: product and engineering.
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -44,198 +46,236 @@ Some people struggle with this transition. I do not find it bittersweet. From my
 - [How will teams change?](#how-will-teams-change)
 - [A handful of random pro tips:](#a-handful-of-random-pro-tips)
 - [My favorite blogs](#my-favorite-blogs)
+- [Closing](#closing)
 - [Personal Followups](#personal-followups)
 
 ## How I code going into 2026
 
-I wanted to capture how I do software engineering going into 2026. Partly to share my workflow, and partly to have something to reflect on in the future.
+I wanted to capture how I do software engineering going into 2026. Partly to share my workflow with others, and partly to have something to reflect on in the future.
 
-Prior to our pivot at [Grove](https://grove.city/) in October 2025, I had five senior engineers on my team. It is worth mentioning that I and the rest of the C-suite are fully hands-on across the entire stack.
+This is not a “tools list” post. This is the actual day-to-day: how I plan work, delegate to agents, review what matters, and keep projects moving without writing code by hand.
 
-Today, a pyramid of agents reports to me:
+Prior to our pivot at [Grove](https://grove.city/) in October 2025, I had 5 senior engineers on my team. They are all really good engineers whom I would hire again given the opportunity, but we had to make some tough cost and direction tradeoffs in the company. _It’s worth mentioning that I and the rest of the C-suite are hands-on across the entire stack._
+
+Today, the organization that reports to me is this pyramid of agents:
 
 ![Agent Directory](/images/posts/how-i-code-going-into-2026/agent_pyramid.jpeg)
 
-I no longer write code by hand from scratch at all.
+I’ll dive into tips and patterns, but 4 Claudes, 2 Geminis, and 1 Codex via the CLI captures the majority of how I operate day to day.
 
-I will dive into tips and patterns, but four Claudes, two Geminis, and one Codex via the CLI capture the majority of how I operate day to day.
+I no longer write any code by hand from scratch, at all.
 
 ## Orchestrating Agent Personalities
 
-Managing agents is not just about direction or automation. It is about orchestration.
+**Managing agents isn't just about specifying direction or building automation. It's about orchestration.**
 
-In a symphony, the conductor makes the decisions, but the musicians do the work. No matter how skilled they are, they follow the conductor’s direction.
+In a symphony, the conductor makes the decisions, but the musicians do the work. No matter how skilled the musicians are, they still need someone to set the rhythm.
 
-I do not believe this part will ever be automated away. It is the irreplaceable piece people now refer to as taste.
+I do not believe this part will ever be automated away. It’s the irreplaceable piece people now refer to as **taste**.
 
-A big part of orchestration is understanding strengths, weaknesses, and personalities. This is no different from working with humans, except agents do not get tired and are unencumbered by emotion.
+A big part of orchestrating agents is understanding their strengths, weaknesses, and personalities. It’s no different than learning how to work with a team of people, except they don’t get tired and aren’t encumbered by emotion.
 
-I have noticed that the personality and capabilities of each agent reflect the organizations that built them.
+I’ve also noticed that the “shape” and "personality" of each agent reflects the organization that built it.
 
-**Codex (OpenAI)**: The manager or director type. Strong at planning, scaffolding, and setting direction. Roughly an L8+ profile.
+**Codex (OpenAI)**: The manager, director, or VP type. Great for planning, scaffolding, and setting direction. In tech firms, this maps to L8+.
 
-**Gemini (Google)**: The architect or principal engineer. Strong at solving hard problems, from AI implementation to low-level optimization. Good at design docs, complex bug fixing, security issues, and refactor planning. Typically L6 or L7.
+**Gemini (Google)**: The architect or principal engineer type. Great at solving hard problems, from AI implementation to low-level optimizations. Strong at design docs, complex bugs, identifying security vulnerabilities, and laying out how code should be refactored. Usually L6 or L7.
 
-**Claude (Anthropic)**: The junior-to-senior engineer workhorse. This is the army that does most day-to-day execution across the stack, from scripts and integrations to APIs and mobile apps. Typically L4 or L5.
+**Claude (Anthropic)**: The day-to-day builder. This is the army of developers that ships most of the work across the stack, from scripts and integrations to implementing APIs and UI. Usually L4 or L5.
 
-People often ask how I split tasks across Codex, Gemini, and Claude. I do it manually. I am intentionally avoiding over-engineering this part for now.
+Some people have asked me how I split and assign tasks from Codex -> Gemini -> Claude. Right now, I don’t have a formal process. I do it manually, and I’m intentionally avoiding over-engineering this part.
 
-_Side note: CLI UX ranking from best to worst is Gemini, then Claude, then Codex. This may be the only time Google wins on product, and it is because the target user is a developer._
+A gap I haven't been able to close yet is letting agents reliability kickoff other agents, but I'm sure that's coming.
+
+_Side note: I’d rank the CLI UX from best to worst as Gemini -> Claude -> Codex. This might be the only time Google is superior on product, and it’s because the target customer is a developer._
 
 ## My Tech Stack
 
-- **CLI**: [iTerm2](https://iterm2.com/) with over a decade of configs, powered by the Codex CLI, Gemini CLI, and Claude Code.
-- **Desktop Apps**: ChatGPT as my daily partner, Google Gemini primarily for images.
-- **GitHub**: I strongly prefer reviewing code on GitHub. Beyond code review, it is an underrated suite: issues, pull requests, discussions, gists, workflows, permissions, secrets, and the CLI.
-- **IDE**: I was a big fan of Windsurf, but switched to [Antigravity](https://antigravity.dev/). The acquisition of the founding team seems to have brought parity.
+- **CLI**: [iTerm2](https://iterm2.com/) with over a decade of configs, powered by the [Codex CLI](https://chatgpt.com/features/codex), [Gemini CLI](https://docs.cloud.google.com/gemini/docs/codeassist/gemini-cli), and [Claude Code](https://claude.com/product/claude-code).
+- **Desktop Apps**: [ChatGPT](https://chatgpt.com/) as my daily partner, [Google Gemini](https://gemini.google.com/) for images.
+- **GitHub**: When I review code, I prefer to review it on [GitHub](https://github.com/). Beyond code review, GitHub is a suite we take for granted: Issues, Pull Requests, Code Reviews, Discussions, Gists, Actions, Permissions, Secrets, CLI, etc.
+- **IDE**: I was a big fan of Windsurf, but switched to [Antigravity](https://antigravity.dev/). It seems the acquisition of the founding team by Google brought parity to the IDE.
 
 ## Reviewing Code
 
-One topic I am unsure how will evolve is code review.
+One of the topics I’m curious to see evolve is reviewing code. I've seen a lot of companies working on it, but haven't invested the time experimenting with them myself.
 
-When I was 19, my manager Ryan Perry told me:
+When I was 19 years old, my manager, [Ryan Perry](https://www.linkedin.com/in/ryperry/), told me:
 
 > "You're going to spend a lot more time reading code than writing code."
 
-That became obvious in engineering leadership. I did not anticipate how extreme it would become.
+That became obvious when I moved into engineering leadership, but I didn’t anticipate the turn it would take.
 
-For solo projects, I neither write code by hand nor review it unless there is a serious issue.
+For solo projects, I don't review code at all unless there’s a serious issue and the agents are in a _doom loop_.
 
-For shared codebases, it depends on business criticality and maturity.
+For shared codebases, it depends on how critical the business logic is and how mature the codebase is. The more critical the logic and the more mature the codebase, the more time I spend reviewing the diff on GitHub line by line. Even when I see changes that need to be made, I ask the agent to do them rather than fixing it myself. I've been spending increasingly less time in the IDE unless I'm updating documentation.
 
-There is a saying:
+The closer the work is to critical code paths, like updating database rows related to payments, the more I review it.
 
-> "You are the average of the five people you spend the most time with."
+If the code is related to fast-moving frontend changes, I often don’t review it at all. Instead, I ask another agent to sanity-check that it’s idiomatic, clean, and good enough.
 
-Applied to agents:
+---
 
-> "Your agents are the average of the five contributors making the most changes to your codebase."
+There’s a common saying:
 
-Agents behave exactly as carefully as you teach them to. The closer code is to critical paths, such as payments or core business logic, the more I review it.
+> "You are the average of the 5 people you spend the most time with."
 
-For fast-moving frontend code, I often skip review entirely and ask another agent to ensure it is idiomatic, clean, and good enough.
+Extending this to agents:
+
+> "Your codebase is the average of the 5 key contributions to it."
+
+Very simply, agents behave exactly as carefully as you teach them to. Patterns across docs, tools, interfaces, testing discipline, error handling, and “what good looks like” all show up downstream in the code they generate.
+
+The human developers prompting agents to make changes determine how future human developers prompting agents will behave. Don't be lazy.
 
 ## Modes of Operation
 
-There is never a single answer to how you operate or how you split your time.
+There’s never a simple answer to “how do you operate” or “how do you split your time.”
 
-It depends on team state, product maturity, customer needs, and market conditions. Sometimes you wear one hat all week. Other times, many at once.
+It depends on the state of the team, the product, customer needs, and external market conditions. Sometimes you wear one hat for an entire week. Other times you juggle multiple hats at once.
 
-With agents, I operate in a few distinct modes:
+When it comes to software engineering with agents, I split it into a few modes:
 
-- **Pairing**: One agent and me. I read everything line by line. This is for high-focus, high-stakes work.
-- **Orchestrating**: I act as the conductor. Three to ten agents work in parallel on tasks of varying size.
-- **Gizmoducking**: Like rubber ducking, but the duck is much smarter. Used for planning, brainstorming, and building domain context.
+- **Pairing**: Me and one agent go at it together. I spend a lot of time reading every line it produces during its chain of thought. This is for one large chunk of work that needs my full focus.
+- **Orchestrating**: I’m the conductor making a ton of decisions at once. Anywhere from 3 to 10 agents work on tasks of varying sizes. This is for lots of parallelizable work.
+- **Gizmoducking**: Like rubber ducking, but with a much more intelligent duck. This is for planning, brainstorming, ideating, or building context in a new domain.
+
+![Gizmoduck](/images/posts/how-i-code-going-into-2026/gizmoduck.png)
+
+_If you appreciate all of the references in the image above, give this post a ♥️_
 
 ## AI Driven Software Engineering
 
-We keep inventing new terms.
+Feels like we have a new term for coding every month.
 
-Prompt engineering. Vibe coding. Context engineering. More will follow.
+We moved from **Prompt Engineering**, to **Vibe Coding**, to **Context Engineering**, and who knows what’s next.
 
-Previously, we had coding, programming, software engineering, architecture, and everything in between.
+Previously, we had everything from coding, to programming, software engineering, and everything in between.
 
-At the end of the day, the goal is a product people love and pay for. Everything else is just a means to that end.
+At the end of the day, the goal is a product people love and are willing to pay for. Everything in between is just a means to an end.
 
-That is why I call this **AI Driven Software Engineering**.
+That’s why I like to call it **AI Driven Software Engineering**.
+
+_I used to refer to it as **LLM-enabled Software Engineering**, but there is some much tooling and infrastructure around the LLM that it doesn't do it justice._
 
 ## Use TODOs to Move Fast TODO Everything
 
-I previously wrote [Move Fast and Document Things](https://olshansky.substack.com/p/move-fast-and-document-things).
+A little while ago I published a blog post titled [Move Fast and Document Things](https://olshansky.substack.com/p/move-fast-and-document-things).
 
-The core idea is simple: capture side thoughts without derailing execution.
+This is a simple tool that enables engineers to stay focused without tending to side quests, while still getting the satisfaction of getting something off their mind:
 
-- No implementation required
-- No issue or doc creation
-- No broadcast to the team
-- Just add `TODO_<REASON>: <description>` in the code
+- It doesn’t involve implementing the side quest
+- It doesn’t involve creating an issue or a doc for it
+- It doesn’t involve broadcasting it to everyone
+- It simply involves adding a `TODO_<REASON>: <description>` in the codebase
 
-This makes context sharing trivial. You get it out of your head, share intent, and leave breadcrumbs for later.
+It makes sharing and picking up context easy. You get the dopamine relief of getting it out of your head. You leave breadcrumbs for other engineers (and future you).
+
+This goes much further with agents.
+
+The agent will have full context of all TODOs as it traverses a codebase, and you can even ask it to leave TODOs a long the way for your next working session. **More software teams need to adopt this pattern.**
 
 ## Makefiles
 
-Anyone who has worked with me knows I love Makefiles. Possibly too much.
+Anyone who has ever worked with me knows how much I love my Makefiles. Maybe too much, but it's a hill I'm willing to die on.
 
-I treat them as a universal CLI. In every repo, the first thing I run is `make help`.
+Personally, I see it as a universal CLI if configured correctly. In any repo I work in, whenever I clone it, the first thing I do is run `make help` and it shows me all the commands available:
 
 ![Make targets](/images/posts/how-i-code-going-into-2026/make_targets.png)
 
-They are useful beyond humans:
+This is more powerful than just helping humans.
 
-- **Onboarding**: New contributors can run `make help` and start building immediately.
-- **Agents**: I instruct agents to run make targets, iterate, and test until conditions are met. I also ask them to create new targets.
-- **Smoke tests**: The same targets can drive end-to-end infrastructure checks.
+- **Quick onboarding**: Instead of reading a README, anyone new to the codebase can run `make help` to get started.
+- **Agents**: I can instruct agents to run specific make targets to build, test, and iterate until an E2E test passes. I can also ask them to create new targets so I don’t have to remember complex commands, flags, or environment variables.
+- **Smoke tests**: I can reuse the same targets for end-to-end smoke tests in infrastructure making it a two birds with one stone type situation.
 
-My bet is that Makefiles are due for a comeback.
+The agent angle is the part that feels under-discussed. Make targets become a stable interface between your intent and the messy reality of environments, dependencies, and “what do I run again?”
+
+My bet is that Makefiles are going to make a comeback. Let’s see. **More software teams need to adopt this pattern as well.**
 
 ## Skills Feedback Loop
 
-I keep my Gemini, Claude, and Codex prompts in a public [prompts repo](https://github.com/Olshansk/prompts).
+I keep my Gemini, Claude, and Codex prompts and skills in a public [prompts repo](https://github.com/Olshansk/prompts).
 
-The most mature skill is my [Makefile skill](https://github.com/Olshansk/prompts/tree/main/claude/skills/makefile), with templates for different project types. Another favorite is my [code review prepare](https://github.com/Olshansk/prompts/blob/main/claude/commands/cmd_code_review_prepare.md) prompt.
+The only mature skill I have right now is for my [Makefiles](https://github.com/Olshansk/prompts/tree/main/claude/skills/makefile), with templates for different types of projects. I also have a handful of others that I use regularly. One of my favorites is [code-review-prepare](https://github.com/Olshansk/prompts/blob/main/claude/commands/cmd_code_review_prepare.md).
 
-The key idea: prompts and skills are living artifacts.
+The most important piece: **prompts and skills are not one-and-done, they’re something you maintain and evoluve everyday**.
 
-They require continuous maintenance, just like docs, scripts, and internal tools. The difference is you can and should ask your agent to improve them at the end of every session.
+Documentation, scripts, tools, and best practices at any organization must be updated continuously. These are not any different.
+
+The only difference is that you can, and should, ask your agent to improve them at the end of every complex session.
+
+You can either tell it how to improve the script in detail, or use the contents of your conversation as the direction. **This is another pattern I believe more software teams should start adopting.**
 
 ## Documentation
 
-Anyone who has worked with me knows I am relentless about documentation.
+Anyone who has ever worked with me knows how much of a 🥙 I am when it comes to documentation.
 
-I am equally relentless when reviewing docs written by agents.
+I’m equally as much of a PITA (Pain In The Ass) when I review documentation from agents.
 
-Nobody wants to read. Everyone wants copy-paste.
+Nobody wants to read. Everybody just wants to copy-paste. 📠-🍝
 
-My documentation rules are simple:
+Very simply, any documentation I ask AI to write involves:
 
-- Short sentences or bullets
+- Short sentences or bullet points
 - Copy-paste friendly commands
-- Low cognitive overhead
-- No filler
-- Start with a quickstart
-- Bias toward section headers
+- Reduced cognitive overhead for both agents and humans
+- No filler or fluff
+- Start with a quickstart, only dive into “how” details at the end
+- Bias toward section headers when possible
 
 ## How will teams change?
 
-This deserves a longer piece, so I will keep it brief.
+This is a big topics deserving a post of its own, but I wanted to jot down a few quick thoughts.
 
-The gap between product managers and engineers will shrink. Product managers who cannot prototype will struggle. Engineers without product taste will struggle.
+The gap between product managers and software engineers will shrink. You won’t need product managers who cannot build prototypes, and you won’t need software engineers who do not have product taste. You’ll still need domain experts in both.
 
-Engineering leaders will be hands-on to varying degrees.
+All engineering leaders and managers will be hands-on to varying degrees.
 
-Best practices will shift from how to write code to how to improve agents.
+Best practices in engineering orgs will evolve from best practices about how to write code, to best practices about how to improve agents.
 
 ## A handful of random pro tips:
 
-A grab bag of things I do daily:
+To keep this short, here’s a list of micro “pro tips” I use day to day:
 
-1. **Planning**: Ask the model to produce a plan, then review it.
-2. **Thinking**: Tell the model to spend at least X minutes deeply investigating before responding.
-3. **Compounding**: When you find a gap, ask the agent to update its memory, skill, or command.
-4. **Logging**: Logs matter more now. I use emojis, colors, and rich metadata.
-5. **Take your time**: Explicitly tell agents to slow down for complex tasks.
-6. **Be idiomatic**: Teach patterns intentionally. Reinforcement compounds.
-7. **Simplify**: Ask agents to reduce branching, surface area, and over-engineering.
-8. **Resuming**: Use resume mode in agent CLIs.
-9. **Yoloing**: I use Arq backups and embrace `--yolo`.
-10. **Feedback**: Ask agents where you are wrong or what you are overlooking.
+1. **Planning**: Ask the model to build a plan, then review it before execution.
+2. **Take your time**: Tell the model to spend at least X minutes on a task, and not come back until that amount of time has elapsed.
+3. **Compounding**: When you find a gap during a long back-and-forth, ask the agent to update its `agents.md`/`claude.md`/, or update/create a skill or slash command you can reuse.
+4. **Logging**: Now that we don’t write much code, logs matter more. They are your window into what’s happening. I like long log lines with emojis, colors, and metadata. Agents are great at writing them.
+5. **Don't rush**: For complex tasks, explicitly tell the agent to slow down and spend time thinking.
+6. **Be idiomatic**: Periodically tell agents to remember patterns you care about and ask them what are the idiomatic patterns the pros use. If you have your own conventions, teach them.
+7. **Simplify**: Ask agents to reduce branching, reduce the code's surface area, and avoid over-engineering. A simple note here goes surprisingly far.
+8. **Resuming**: Every agent CLI has a `resume` option to pick up conversations where you left off. Use it.
+9. **Yoloing**: I bought a license to [Arq](https://www.arqbackup.com/) backup and have embraced [`--yolo`](https://developers.openai.com/codex/cli/reference/) mode.
+10. **Ask for feedback**: Give the agent permission to tell you what you’re missing. Ask it: `tell me why I'm wrong` or `what am I overlooking`.
 
 ## My favorite blogs
 
-- [Simon Willison](https://simonwillison.net/): Founder of Django and a leading independent AI researcher.
-- [Will Larson](https://andrew.wilson.io/): Excellent content, dense but worth the effort.
-- [xuanwo](https://xuanwo.io/): Direct and fluff-free.
-- [cra.mr](https://cra.mr/): Founder of Sentry.
-- [Boris Cherny](https://x.com/bcherny): Creator of Claude Code.
-- [Andrej Karpathy](https://x.com/karpathy): Clear explanations of how LLMs work.
+- [Simon Willison](https://simonwillison.net/): Founder of Django and a leading independent researcher on AI. He coined things like [The Lethal Trifecta for AI Agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/), [Prompt Injection](https://simonwillison.net/series/prompt-injection/), the [Pelican on a Bicycle](https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/) LLM benchmark, and more. He’s been blogging for decades and you should [support him](https://github.com/sponsors/simonw/) if you read his stuff.
+- [Will Larson](https://andrew.wilson.io/): The CTO who leads, codes and reflects on his journey and strategy. Great content, but dense.
+- [xuanwo](https://xuanwo.io/): An open source enthusiast who gets straight to the point without the fluff.
+- [cra.mr](https://cra.mr/): Founder of Sentry with the real and practical take.
+- [Boris Cherny](https://x.com/bcherny): Creator of Claude Code, do I need to say more?
+- [Andrej Karpathy](https://x.com/karpathy): One of the clearest voices on how LLMs work. Founder @EurekaLabsAI, ex-Director of AI at Tesla, co-founder at OpenAI. If you're reading this and don't know who he is, I'm speechless.
+
+## Closing
+
+**The meta point here is simple: the bottleneck is shifting.**
+
+It used to be “can you write code.” Then it became “can you design systems and lead teams.” Now it’s increasingly “can you translate intent into good work, repeatedly, through agents, without letting the codebase collapse into spaghetti.”
+
+If you can do that well, you ship faster. You keep quality high. You keep taste in the loop. You also stay dangerously hands-on as a leader, which is going to matter more than people want to admit.
+
+Anyway, this post is mostly a reference for future me. If it helped you, steal the parts that work and ignore the rest.
 
 ## Personal Followups
 
-Personal TODOs after the holidays:
+These are a few of my personal TODOs to go through after the holidays:
 
-- Boris Cherny’s thread on Claude Code
+- [Boris Cherny's thread on X](https://x.com/bcherny/status/2007179832300581177) on how to use Claude Code
 - https://xuanwo.io/2025/09-2025-review/
-- Experiment with orchestration tools like conductor
-- Improve shared `CLAUDE.md` patterns
-- Reduce large copy-paste blocks
-- Invest time in CLI hotkey muscle memory
+- Play around with orchestration tools like [conductor](https://www.conductor.build/) to spawn multiple agents at once
+- [The "definitive" guide on how to use Claude Code](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
+- Think through ways of how to make `CLAUDE.md` better in shared codebases
+- Think through ways of how to do less copy-pasting of large chunks of text
+- Spend a bit of time on hotkeys (switching plan mode on/off), since it’s useful but I don’t have the muscle memory yet
