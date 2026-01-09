@@ -16,26 +16,31 @@ ShowWordCount: true
 
 Open source is back. RSS is back.
 
-AI agents are making it possible, if you make your repo AI-first.
+AI agents make this possible, but only if you make your repo AI-first.
 
-One of my open source repos is becoming the de facto source for converting blogs into RSS feeds.
+Humans still decide what to do.
 
-As far as I know, it is what everyone uses as their primary Anthropic RSS newsfeed.
+One of my open source repos is becoming the de facto way people convert blogs into RSS.
 
-AI agents are making coding easier. Nothing new there.
+As far as I know, it powers most Anthropic RSS newsfeeds.
 
-More importantly, they are making open source contributions easier.
+I’m getting a surge of new contributors.
 
-You no longer need to onboard to a codebase.
+Agents make coding easier. That part is obvious.
 
-You do not need to know the language, framework, or tooling.
+What is less obvious is this: they make contributing easier.
 
-More importantly, you do not need to know the best practices.
+No onboarding.
+No language knowledge.
+No framework context.
+No best-practice lore.
 
-As long as you keep your CLAUDE.md and AGENTS.md up to date, with a decent README and some tooling, anyone can jump in.
+Keep your http://CLAUDE.md and http://AGENTS.md current, ship a decent README, and anyone can jump in.
+
+The idea still comes from a human. The agent just helps it land.
+
+As a bonus, it would be great if I could send people a useful micro-tip, wherever they already are.
+
+Luckily, it's what we're doing at [Grove](https://grove.city/).
 
 ![rss-feeds](/images/rss-feeds.png)
-
-The idea for a contribution, and kicking it off was still made by a human. They know what we need.
-
-This is where a small micro-tip would go a long way. It's what we're building at [Grove](https://grove.city/).
