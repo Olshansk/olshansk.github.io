@@ -38,3 +38,8 @@ ShowWordCount: true
 - Reddit rag -> specify question + date + subreddit
 - Service to make your 1password backup secure
 - Ketone Gummies (with creatine & BCAAs)
+- Breathing app: track hear rate and tell you when you need it. Also, speak to it to explain the state you need to be in and it customizes it for you. See https://www.reddit.com/r/breathwork/s/AHDqrjgTyB
+- Chrome extension: LLM in browser that checks email when I click send. Stop me if there's an issue.
+- In the browser; hot or not and let you share on socials
+- Sauna pants: I keep coming back to this.
+- Hair cut. Take photos. Describe what you want. Do it.
