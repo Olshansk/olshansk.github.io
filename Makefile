@@ -111,19 +111,8 @@ resume_deps:  ## Install LaTeX dependencies (BasicTeX via Homebrew)
 		echo "  echo 'export PATH=\"/Library/TeX/texbin:\$$PATH\"' >> ~/.zshrc"; \
 		echo "  source ~/.zshrc"; \
 		echo ""; \
-		echo "Then run: make resume"; \
+		echo "Then run: make resume_short"; \
 	fi
-
-.PHONY: resume
-resume:  ## Convert cv/resume.tex to PDF
-	@echo "=== Converting resume.tex to PDF ==="
-	@if ! command -v pdflatex >/dev/null 2>&1; then \
-		echo "Error: pdflatex not found. Run 'make resume_deps' first."; \
-		exit 1; \
-	fi
-	@cd cv && pdflatex -interaction=nonstopmode -halt-on-error resume.tex > /dev/null 2>&1 || \
-		(echo "Error: LaTeX compilation failed. Check cv/resume.log for details." && exit 1)
-	@echo "=== PDF generated at cv/resume.pdf ==="
 
 .PHONY: resume_short
 resume_short:  ## Convert cv/resume_short.tex to PDF
