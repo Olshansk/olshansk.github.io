@@ -14,40 +14,51 @@
 \usepackage[T1]{fontenc}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{anysize}
-\marginsize{1.4em}{1.4em}{0.9em}{0.9em}
 
-% Make itemize more compact
+% Wider sides, tighter top/bottom
+\marginsize{2.0em}{2.0em}{0.6em}{0.6em}
+
+% Slightly improved line spacing
 \setlength{\parskip}{0pt}
+\linespread{1.04}
+
+% Compact but readable bullets
 \let\olditemize\itemize
-\renewcommand{\itemize}{\olditemize\setlength{\itemsep}{-0.3em}\setlength{\topsep}{0pt}\setlength{\partopsep}{0pt}}
+\renewcommand{\itemize}{%
+  \olditemize
+  \setlength{\itemsep}{-0.2em}
+  \setlength{\topsep}{0pt}
+  \setlength{\partopsep}{0pt}
+}
 
 %----------------------------------------------------------------------------------------
 %   Resume Definitions
 %----------------------------------------------------------------------------------------
+
 \newenvironment{rSectionCompact}[1]{
   \medskip
-  \vspace{0.6em}
+  \vspace{0.7em}
   \textbf{\textcolor{Cerulean}{\MakeUppercase{#1}}}
-  \vspace{0.13em}
+  \vspace{0.18em}
   {\color{Blue}\hrule height 0.7pt}
-  \vspace{0.4em}
+  \vspace{0.55em}
   \begin{list}{}{
     \setlength{\leftmargin}{0em}
   }
   \item[]
 }{
-    \vspace{0.3em}
+    \vspace{0.4em}
     \end{list}
 }
 
 \newenvironment{rJobCompact}[2]{
   \normalsize
   \textcolor{Blue}{\textbf{#1}}\hfill\textit{#2}
-  \vspace{0.08em}
-  \begin{list}{$\bullet$}{\leftmargin=1.5em}
+  \vspace{0.14em}
+  \begin{list}{$\bullet$}{\leftmargin=1.6em}
   \itemsep -0.05em
 }{
-    \vspace{0.4em}
+    \vspace{0.65em} % <-- extra separation between roles
     \end{list}
 }
 
@@ -58,20 +69,23 @@
 %----------------------------------------------------------------------------------------
 
 \name{Daniel Olshansky}
-\address{} % Empty address to avoid default address formatting
+\address{}
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
 
-\vspace{-1.5em}
+\vspace{-2.0em}
 
 \begin{center}
     \small
-    olshansky.daniel@gmail.com $\diamond$ 415-735-5911 $\diamond$ \href{https://olshansky.info}{olshansky.info} $\diamond$ \includegraphics[scale=0.2]{github-icon.png} \href{https://github.com/olshansk}{@olshansk} $\diamond$ \includegraphics[scale=0.2]{twitter-icon.png} \href{https://twitter.com/olshansky}{@olshansky} $\diamond$ \includegraphics[scale=0.2]{linkedin-icon.png} \href{https://www.linkedin.com/in/dolshansky/}{dolshansky}
+    olshansky.daniel@gmail.com $\diamond$ 415-735-5911 $\diamond$ \href{https://olshansky.info}{olshansky.info} $\diamond$
+    \includegraphics[scale=0.2]{github-icon.png} \href{https://github.com/olshansk}{@olshansk} $\diamond$
+    \includegraphics[scale=0.2]{twitter-icon.png} \href{https://twitter.com/olshansky}{@olshansky} $\diamond$
+    \includegraphics[scale=0.2]{linkedin-icon.png} \href{https://www.linkedin.com/in/dolshansky/}{dolshansky}
 \end{center}
 
-\vspace{0.3em}
+\vspace{0.4em}
 
 %----------------------------------------------------------------------------------------
 %   About Me
@@ -79,11 +93,11 @@
 
 \begin{rSectionCompact}{About Me}
     \small
-    \textbf{Superpower}: Working, learning, reflecting, and adapting. \\[-0.2em]
-    \textbf{Approach}: Work is integrated into my life; I alternate between long stretches of deep focus and short bursts of intensity. I gather context throughout the day and make tough decisions by weighing execution against ideology; after a good night's sleep and a morning workout. \\[-0.2em]
-    \textbf{Mindset}: Physical training taught me the mind-body connection; mental training taught me self-awareness. I apply both to understanding people and context, creating environments that push people to do their best work. \\[-0.2em]
-    \textbf{Craft}: Deep software tech: building systems, tools, and infrastructure that leads to lasting impact by bridging engineering rigor with scientific curiosity. \\[-0.2em]
-    \textbf{Drive}: To build a generational company with a timeless brand that inspires future founders to push the frontier forward.
+    \textbf{Superpower}: Rapidly learning, synthesizing context, and adapting in complex systems. \\[-0.15em]
+    \textbf{Approach}: Work is integrated into my life. I alternate between sustained deep focus and short bursts of intensity, gathering context continuously and making hard tradeoffs between execution and ideology. \\[-0.15em]
+    \textbf{Mindset}: Physical training taught me discipline and the mind-body connection; mental training taught me self-awareness. I apply both to understanding people, incentives, and organizational dynamics. \\[-0.15em]
+    \textbf{Craft}: Deep software systems, tools, and infrastructure. I bridge engineering rigor with scientific curiosity to build durable leverage. \\[-0.15em]
+    \textbf{Drive}: Build a generational company with a timeless brand that expands what future founders believe is possible.
 \end{rSectionCompact}
 
 %----------------------------------------------------------------------------------------
@@ -93,39 +107,39 @@
 \begin{rSectionCompact}{Experience}
 
     \begin{rJobCompact}{CTO @ Grove}{2025 - Present}
-        \item \textbf{What I'm learning}: UX onboarding and user value has to be clear, simple and delivered immediately.
-        \item \textbf{What I'm doing}: Enabling creators to earn revenue for original content through micro-payments by Agents who crave data and Humans who crave experience.
-        \item \textbf{Result}: Stay tuned.
+        \item \textbf{Learning}: Onboarding and user value must be immediate, simple, and unmistakable.
+        \item \textbf{Doing}: Enabling creators to earn from original content via micro-payments by agents that crave data and humans that crave experience.
+        \item \textbf{Result}: In progress.
     \end{rJobCompact}
 
     \begin{rJobCompact}{Head of Protocol @ Pocket Network (CTO @ Grove Labs)}{2022 - 2024}
-        \item \textbf{What I learned}: Emotional intelligence matters more than raw intellect when leading teams and organizations.
-        \item \textbf{What I did}: Led R\&D for a permissionless API marketplace, connecting a small core team with a broad ecosystem to enable decentralized data access.
-        \item \textbf{Result}: Launched a \$100M+ protocol handling \$1B+ in daily network requests across dozens of exchanges and hundreds of stakeholders.
+        \item \textbf{Learning}: Emotional intelligence and incentive alignment matter more than raw intellect at scale.
+        \item \textbf{Doing}: Led R\&D for a permissionless API marketplace, aligning a small core team with a broad ecosystem to enable decentralized data access.
+        \item \textbf{Result}: Launched a \$100M+ protocol handling \$1B+ daily requests across dozens of exchanges and hundreds of stakeholders.
     \end{rJobCompact}
 
     \begin{rJobCompact}{Founder \& CEO @ GetSoils}{2021 - 2022}
-        \item \textbf{What I learned}: Selling new technology to legacy industries is far harder than building it.
-        \item \textbf{What I did}: Built a construction marketplace for excess soil from zero to one, connecting contractors and disposal sites.
-        \item \textbf{Result}: Validated market demand while uncovering critical lessons about adoption cycles in traditional industries.
+        \item \textbf{Learning}: Selling new technology into legacy, physical industries is harder than building it.
+        \item \textbf{Doing}: Built a construction marketplace for excess soil, aligning contractors, haulers, and disposal sites from zero to one.
+        \item \textbf{Result}: Validated demand while learning firsthand how incentives, regulation, and logistics shape adoption.
     \end{rJobCompact}
 
     \begin{rJobCompact}{Senior Software Engineer @ Waymo (Alphabet)}{2020 - 2022}
-        \item \textbf{What I learned}: Developed deep intuition around AI, ML, and evaluation frameworks. Learnt how to enable data science teams to focus on research instead of infrastructure.
-        \item \textbf{What I did}: Built the test-set corpus and labeling infrastructure that streamlined evaluations for the Planner Eval team.
-        \item \textbf{Result}: Created a data corpus spanning thousands of real and synthetic datasets, used by dozens of data scientists across the company to run hundreds of evaluations; this work laid the foundation for an organization-wide evaluation initiative.
+        \item \textbf{Learning}: Built intuition for AI, ML, and evaluation frameworks; learned how to let researchers focus on research.
+        \item \textbf{Doing}: Built test-set corpus and labeling infrastructure for the Planner Eval team.
+        \item \textbf{Result}: Created a corpus spanning thousands of real and synthetic datasets, enabling hundreds of evaluations and seeding an org-wide evaluation initiative.
     \end{rJobCompact}
 
     \begin{rJobCompact}{Lead Software Engineer @ Magic Leap}{2016 - 2020}
-        \item \textbf{What I learned}: How to collaborate across hardware, research, product, and gaming teams. How to navigate cross-organizational politics, and what happens when a company raises too much, too early.
-        \item \textbf{What I did}: Architected and built a cloud-based digital twin of the real world, leveraging raw sensor data for object recognition and both sparse and dense mapping to enable cross-reality experiences.
-        \item \textbf{Result}: Supported the launch of the Magic Leap One (ML1), released the first version of Magic Leap's Shared World SDK, and led a team of five engineers while contributing to more than \href{https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en}{fifteen patents}.
+        \item \textbf{Learning}: How hardware, research, product, and politics collide, especially in overcapitalized environments.
+        \item \textbf{Doing}: Architected a cloud-based digital twin using raw sensor data for object recognition and sparse and dense mapping.
+        \item \textbf{Result}: Supported the launch of Magic Leap One, shipped the Shared World SDK, led five engineers, and contributed to 15+ patents.
     \end{rJobCompact}
 
     \begin{rJobCompact}{Software Engineer @ Twitter}{2014 - 2015}
-        \item \textbf{What I learned}: How large organizations operate, how to design scalable systems, and how to evolve from simply coding to true engineering.
-        \item \textbf{What I did}: Designed and built features across the entire stack - mobile, web, and backend.
-        \item \textbf{Result}: Delivered GIF search, custom timelines, and follow-graph features for verified users; prototyped emoji reactions and new profile page functionality.
+        \item \textbf{Learning}: How large systems and organizations evolve from code into engineering.
+        \item \textbf{Doing}: Built features across mobile, web, and backend.
+        \item \textbf{Result}: Shipped GIF search, custom timelines, verified-user features, and early prototypes of emoji reactions and profile redesigns.
     \end{rJobCompact}
 
 \end{rSectionCompact}
@@ -138,9 +152,9 @@
     \textbf{University of Toronto} \hfill \textit{2010 - 2014} \\
     B.A.Sc in Engineering Science, Electrical \& Computer Engineering • GPA: 3.84 • Dean's List • N$\Psi$ 1T4
 
-    \vspace{0.2em}
+    \vspace{0.25em}
     \textbf{William Lyon Mackenzie CI} \hfill \textit{2006 - 2010} \\
-    \textbf{Awards}: Chemistry, Physics, Math, Highest GPA • \textbf{Extracurriculars}: Pres. of Programming Club; VP of Ping Pong Club
+    \textbf{Awards}: Chemistry, Physics, Math, Highest GPA • \textbf{Extracurriculars}: Pres. Programming Club; VP Ping Pong Club
 \end{rSectionCompact}
 
 %----------------------------------------------------------------------------------------
@@ -149,13 +163,13 @@
 
 \begin{rSectionCompact}{Additional Resources}
     \small
-    \textbf{Writing}: \href{https://olshansky.info/posts}{Posts}, \href{https://olshansky.info/thoughts}{Thoughts}, \href{https://olshansky.substack.com/}{Substack}, \href{https://olshansky.medium.com/}{Medium} \\
-    \textbf{Consuming}: \href{https://olshansky.info/book}{Books}, \href{https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e}{Podcasts}, \href{https://olshansky.info/movie}{Movies}, \href{https://olshansky.info/tv}{TV} \\
-    \textbf{Presenting}: \href{https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E}{YouTube playlist of Talks \& Interviews} \\
-    \textbf{Publishing}: \href{https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en&oi=sra}{Google Scholar}
+    \textbf{Writing}: Posts, Thoughts, Substack, Medium \\
+    \textbf{Consuming}: Books, Podcasts, Movies, TV \\
+    \textbf{Presenting}: Talks \& Interviews \\
+    \textbf{Publishing}: Google Scholar
 
-    \vspace{0.2em}
-    \textit{*Note: All items above are hyperlinked.}
+    \vspace{0.25em}
+    \textit{*All items are hyperlinked.}
 \end{rSectionCompact}
 
 \end{document}
