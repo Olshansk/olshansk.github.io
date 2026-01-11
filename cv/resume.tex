@@ -2,222 +2,181 @@
 %   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[
-    %a4paper, % Uncomment for A4 paper size (default is US letter)
-    11pt, % Default font size, can use 10pt, 11pt or 12pt
-]{resume} % Use the resume class
+\documentclass[10pt]{resume}
 
-% \usepackage{ebgaramond} % Use the EB Garamond font - commented out due to missing package
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{tabularx}
-% \usepackage{fullpage} % Commented out due to missing package
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{textcomp}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{tabularx}
-% \usepackage{enumitem} % Commented out due to missing package
-\usepackage{amssymb}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{anysize}
-\usepackage{booktabs}
-\marginsize{3.5em}{3.5em}{3.5em}{3.5em}
+
+% Wider sides, tighter top/bottom
+\marginsize{1.8em}{1.8em}{0.5em}{0.5em}
+
+% Slightly improved line spacing
+\setlength{\parskip}{0pt}
+\linespread{1.0}
+
+% Compact but readable bullets
+\let\olditemize\itemize
+\renewcommand{\itemize}{%
+  \olditemize
+  \setlength{\itemsep}{-0.25em}
+  \setlength{\topsep}{0pt}
+  \setlength{\partopsep}{0pt}
+}
 
 %----------------------------------------------------------------------------------------
 %   Resume Definitions
 %----------------------------------------------------------------------------------------
-\newenvironment{rSectionCustom}[1]{
-  \Large
-  \medskip
-  \textbf{\textcolor{Cerulean}{\MakeUppercase{#1}}}
-  \vspace{0.5em}
-  {\color{Blue}\hrule height 0.9pt}
-  \vspace{0.25em}
 
+\newenvironment{rSectionCompact}[1]{
+  \medskip
+  \vspace{0.45em}
+  \textbf{\textcolor{Cerulean}{\MakeUppercase{#1}}}
+  \vspace{0.12em}
+  {\color{Blue}\hrule height 0.6pt}
+  \vspace{0.35em}
   \begin{list}{}{
-    \setlength{\leftmargin}{1.5em}
+    \setlength{\leftmargin}{0em}
   }
   \item[]
 }{
-    \vspace{1em}
+    \vspace{0.25em}
     \end{list}
 }
 
-\newenvironment{rSubsection2}[4]{
+\newenvironment{rJobCompact}[2]{
   \normalsize
-  \hspace{-18pt}\textcolor{Blue}{\textbf{\large #1}}\hfill{#2}
-  \\
-  \hspace*{-18pt}\emph{#3}\hfill\emph{#4}
-  \begin{list}{$\cdot$}{\leftmargin=-0em}
-  \itemsep -0.5em \vspace{-0.25em}
+  \textcolor{Blue}{\textbf{#1}}\hfill\textit{#2}
+  \vspace{0.08em}
+  \begin{list}{$\bullet$}{\leftmargin=1.6em}
+  \itemsep -0.05em
 }{
-    \vspace{1em}
+    \vspace{0.35em} % <-- extra separation between roles
     \end{list}
 }
 
-\newenvironment{rSubsectionT}{
-  \normalsize
-}{}
-
- \newcommand{\Hquad}{\hspace{0.5em}}
+\newcommand{\Hquad}{\hspace{0.5em}}
 
 %----------------------------------------------------------------------------------------
 %   Personal Info
 %----------------------------------------------------------------------------------------
 
 \name{Daniel Olshansky}
+\address{}
 
-% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
-% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
-
-\address{olshansky.daniel@gmail.com \\ 415-735-5911 \\ \href{https://olshansky.info}{olshansky.info} \\ Bellevue, WA}
-
-%----------------------------------------------------------------------------------------
-%   Personal Links
 %----------------------------------------------------------------------------------------
 
 \begin{document}
 
+\vspace{-2.0em}
+
 \begin{center}
-    \includegraphics[scale=0.25]{github-icon.png} \href{https://github.com/olshansk}{@olshansk} \Hquad
-    \includegraphics[scale=0.25]{twitter-icon.png} \href{https://twitter.com/olshansky}{@olshansky}
-    \Hquad
-    \includegraphics[scale=0.25]{linkedin-icon.png} \href{https://www.linkedin.com/in/dolshansky/}{dolshansky}
-    \Hquad
-    \includegraphics[scale=0.25]{substack-icon.png} \href{https://olshansky.substack.com}{olshansky.substack.com}
-    \Hquad
-    \includegraphics[scale=0.25]{medium-icon.png} \href{https://olshansky.medium.com}{olshansky.medium.com}
+    \small
+    olshansky.daniel@gmail.com $\diamond$ 415-735-5911 $\diamond$ \href{https://olshansky.info}{olshansky.info} $\diamond$
+    \includegraphics[scale=0.2]{github-icon.png} \href{https://github.com/olshansk}{@olshansk} $\diamond$
+    \includegraphics[scale=0.2]{twitter-icon.png} \href{https://twitter.com/olshansky}{@olshansky} $\diamond$
+    \includegraphics[scale=0.2]{linkedin-icon.png} \href{https://www.linkedin.com/in/dolshansky/}{dolshansky}
 \end{center}
+
+\vspace{0.4em}
 
 %----------------------------------------------------------------------------------------
 %   About Me
 %----------------------------------------------------------------------------------------
 
-% {\color{RubineRed} \rule{\linewidth}{0.5mm}}
-
-% The background colour of text can also be \textcolor{red}{easily} set. For
-% instance, you can change use an \colorbox{BurntOrange}{orange background} and then continue typing.
-
-\begin{rSectionCustom}{About Me}
-    \begin{rSubsectionT}
-        As an engineer at heart with an acquired product mindset, I enjoy building swiftly and thinking deeply. I deliver the most impact in projects that involve cross-organizational collaborations, interspersed with periods of intensive, focused research and learning. Having worked across multiple domains — social media, augmented reality, autonomous vehicles, and blockchains — \textbf{my expertise is not in a specific domain, tool or language, but in my ability to immerse myself in whatever I’m working on and tackle any problem from first principles}.
-
-        Driven by intellectually stimulating environments with challenging science \& engineering problems, I thrive when surrounded by intrinsically motivated individuals who are constantly seeking to learn, innovate, and share knowledge. I firmly believe that with the right mindset, people, and ample focus, there are no limits to what we can achieve.
-
-        I enjoy writing, believe mermaid diagrams are a must in all documentation, and am adamant about the fact that all presentations need a joke at least every 10 minutes.
-    \end{rSubsectionT}
-\end{rSectionCustom}
+\begin{rSectionCompact}{About Me}
+    \small
+    \textbf{Mission}: Help every human achieve their full potential, starting with myself. \\[-0.15em]
+    \textbf{Motto}: Have my future self inspire my present self. \\[-0.15em]
+    \textbf{Drive}: Build a generational company with a timeless brand that expands what future founders believe is possible. \\[-0.15em]
+    \textbf{Superpower}: Rapidly learning, synthesizing context, and adapting in complex systems. \\[-0.15em]
+    \textbf{Approach}: Work is integrated into my life. I alternate between sustained deep focus and short bursts of intensity, gathering context continuously and making hard tradeoffs between execution and ideology. \\[-0.15em]
+    \textbf{Mindset}: Physical training taught me discipline and the mind-body connection; mental training taught me self-awareness. I apply both to understanding deep tech, people, incentives, and organizational dynamics. \\[-0.15em]
+    \textbf{Craft}: Deep software systems, tools, and infrastructure. I bridge engineering rigor with scientific curiosity to build durable leverage.
+\end{rSectionCompact}
 
 %----------------------------------------------------------------------------------------
-%   WORK EXPERIENCE SECTION
+%   Experience
 %----------------------------------------------------------------------------------------
 
-\begin{rSectionCustom}{Experience}
+\begin{rSectionCompact}{Experience}
 
-    \begin{rSubsection2}{Pocket Network}{November 2021 - Present}{Head of Protocol}{Bellevue, WA}
+    \begin{rJobCompact}{CTO @ \href{https://grove.city}{Grove}}{2025 - Present}
+        \item \textbf{Learning}: Onboarding and user value must be immediate, simple, and unmistakable.
+        \item \textbf{Doing}: Enable creators to earn from original content via micro-payments by agents that crave data and humans that crave experience.
+        \item \textbf{Result}: Stay Tuned.
+    \end{rJobCompact}
 
-        \item[] \textcolor{RoyalBlue}{\textbf{Summary}}: Led the protocol team, focusing on blockchain R\&D, OSS development and enabling 3rd party businesses
-        \begin{itemize}
-            \item Managed the development \& maintenance of a decentralized RPC Network Protocol handling \textbf{1.5B+ daily requests}
-            \item Architected, designed and published \textbf{multiple specifications} later presenting at \textbf{various conferences}
-            \item Designed and implemented \textbf{MVPs of all the L1 blockchain components} and developer tools
-            \item Rebuilt the entire protocol of \textbf{6 core protocol engineers} with the departure of the prior CTO, putting in places processes for hiring, on-boarding and working with external parties \& contributors
-        \end{itemize}
-        \vspace{0.5em}
-        \item[] \textcolor{RoyalBlue}{\textbf{Technologies \& Skills}}: Blockchain R\&D • Crypto-economics • Project Management • Engineering Management • Golang • Python • Merkle Tree • PostgreSQL • Kubernetes • Consensus • Libp2p
-    \end{rSubsection2}
+    \begin{rJobCompact}{Head of Protocol @ \href{https://pokt.nework}{Pocket Network} (CTO @ Grove Labs)}{2022 - 2025}
+        \item \textbf{Learning}: Emotional intelligence and incentive alignment matter more than raw intellect at scale.
+        \item \textbf{Doing}: Led R\&D for a permissionless API marketplace, aligning a small core team with a broad ecosystem to enable decentralized data access.
+        \item \textbf{Result}: Launched a \$100M+ protocol handling \$1B+ daily requests across dozens of exchanges and hundreds of stakeholders.
+    \end{rJobCompact}
 
-    \begin{rSubsection2}{Waymo (Alphabet Subsidiary)}{January 2020 - November 2021}{Senior Software Engineer, Planner Evaluation}{Mountain View, CA}
-        \item[] \textcolor{RoyalBlue}{\textbf{Summary}}: Supported the Planner Eval Data Science team to understand, visualize and track on-road risk evaluation
-        \begin{itemize}
-            \item Built labeling and test set tooling used by over a \textbf{hundred data scientists}, collaborating closely with a \textbf{dozen data scientists daily}
-            \item Spearheaded the cross-org Test Set initiative, establishing an org-wide system to catalogue and access \textbf{thousands of real and simulated annotated vehicle runs}
-            \item Engineered a \textbf{bespoke video rendering library} and labeling pipeline, enhancing simulated VRU risk evaluation
-        \end{itemize}
-        \vspace{0.5em}
-        \item[] \textcolor{RoyalBlue}{\textbf{Technologies \& Skills}}: Google Infrastructure • Python, C++, \& SQL Readability (i.e. approved proficiency) • Quantitative and Qualitative VRU Risk Analysis \& Assessment
-    \end{rSubsection2}
+    \begin{rJobCompact}{Founder \& CEO @ GetSoils}{2021 - 2022}
+        \item \textbf{Learning}: Creating paradigm shifts in legacy industries needs to be done by integrating from the inside out.
+        \item \textbf{Doing}: Built a construction marketplace for excess soil, aligning contractors, haulers, and disposal sites from zero to one.
+        \item \textbf{Result}: Onboarded dozens of users to an AirBnB for construction soil and sold a borehole mapping tool to enterprise clients.
+    \end{rJobCompact}
 
-    \begin{rSubsection2}{Magic Leap}{August 2016 - January 2020}{Lead Software Engineer, AR Cloud \& Connected Services}{Plantation, FL}
-        \item[] \textcolor{RoyalBlue}{\textbf{Summary}}: Led a team of \textbf{5 engineers} in the design and implementation of cloud and device management solutions for augmented-reality devices
-        \begin{itemize}
-            \item Contributed to more than \textbf{12 patents} in the field of cross-reality system interaction and localization
-            \item Drove cross-organizational efforts across \textbf{more than half a dozen teams} in designing and building cloud infrastructure that enabled on-device persistence coordinate frames and object recognition through sparse and dense map localization
-            \item Architected and implemented a device management system for building, tracking, shipping, and upgrading devices \textbf{from factory production to thousands end-users}
-            \end{itemize}
-        \vspace{0.5em}
-        \item[] \textcolor{RoyalBlue}{\textbf{Technologies}}: Elixir • Python • NATS • MQTT • PostgresSQL • AWS • Kubernetes • Sparse \& Dense Map Localization • Object Recognition
-    \end{rSubsection2}
+    \begin{rJobCompact}{Senior Software Engineer @ \href{https://waymo.com}{Waymo} (Alphabet)}{2020 - 2022}
+        \item \textbf{Learning}: Built intuition for AI, ML, and evaluation frameworks; enable researchers focus on research rather than engineering.
+        \item \textbf{Doing}: Built visualizations, labeling infrstructure and a test-set corpus for the Planner Eval team.
+        \item \textbf{Result}: Championed the org-wide test-set initiative for real and synthetic datasets, enabling hundreds of evaluation initiatives.
+    \end{rJobCompact}
 
-    \begin{rSubsection2}{Twitter}{July 2014 - August 2016}{Software Engineer, Full Stack}{San Francisco, CA}
-        \item[] \textcolor{RoyalBlue}{\textbf{Summary}}: Worked on a variety of backend systems, client APIs, data analytics, and features across multiple platforms.
-        \begin{itemize}
-            \item Designed and implemented robust and scalable backend systems and client APIs for the GIF Search and Stickers used by \textbf{10s of millions} of users daily
-            \item Built and maintained \textbf{dozens of automated Scalding jobs} for data collection and analysis, driving key product decisions through a deep understanding of user behavior.
-            \item Contributed to various feature across Android and Web platforms, including VIP accounts, profile pages, and notifications timelines.
-            \end{itemize}
-        \vspace{0.5em}
-        \item[] \textcolor{RoyalBlue}{\textbf{Technologies}}: Scala • Android • Web Development • Scalding • Twitter Infrastructure
-    \end{rSubsection2}
+    \begin{rJobCompact}{Lead Software Engineer @ Magic Leap}{2016 - 2020}
+        \item \textbf{Learning}: How hardware, research, product, and politics collide, especially in overcapitalized environments.
+        \item \textbf{Doing}: Architected a cloud-based digital twin using raw sensor data for object recognition, sparse and dense mapping.
+        \item \textbf{Result}: Supported the launch of Magic Leap One, shipped the Shared World SDK, led five engineers, and co-authored 15+ patents.
+    \end{rJobCompact}
 
-    \begin{rSubsection2}{Internships}{2013; 2012; 2011}{Software Engineer Intern}{Mountain View; San Francisco; Toronto}
-        \item[] \textcolor{RoyalBlue}{\textbf{Google}}: Developed, open-sourced \& released \textbf{6 videos} demoing animations on behalf of the Android core graphics team
-        \item[] \textcolor{RoyalBlue}{\textbf{Twitter}}: Developed the public \textbf{Twitter Safari extension} and an \textbf{internal iOS direct messaging}  app
-        \item[] \textcolor{RoyalBlue}{\textbf{ModiFace}}: Developed \& released \textbf{3 iOS applications} featuring computer vision algorithms built by ModiFace
-    \end{rSubsection2}
+    \begin{rJobCompact}{Software Engineer @ \href{https://twitter.com}{Twitter}}{2014 - 2015}
+        \item \textbf{Learning}: Went from being a coder to an engineer while learning how big organizations operate.
+        \item \textbf{Doing}: Built features across mobile, web, and backend on the VIT and Media teams.
+        \item \textbf{Result}: Shipped GIF search, custom timelines, verified-user features, and early prototypes of emoji reactions and profile redesigns.
+    \end{rJobCompact}
 
-
-
-\end{rSectionCustom}
-
-\vspace{-1.5em}
+\end{rSectionCompact}
 
 %----------------------------------------------------------------------------------------
-%   EDUCATION SECTION
+%   Education
 %----------------------------------------------------------------------------------------
 
-\begin{rSectionCustom}{Education}
-    \normalsize\textbf{University of Toronto} \hfill \textit{September 2010 - May 2014} \\
-        B.A.Sc in Engineering Science, Electrical \& Computer Engineering \hfill \emph{GPA: 3.84}
-\end{rSectionCustom}
+\begin{rSectionCompact}{Education}
+    \textbf{Internships} \hfill \textit{2011 - 2013} \\
+    ModiFace (mobile computer vision), Twitter (iOS), Google (Android)
 
+    \vspace{0.25em}
+    \textbf{University of Toronto} \hfill \textit{2010 - 2014} \\
+    B.A.Sc in Engineering Science, Electrical \& Computer Engineering • GPA: 3.84 • Dean's List • N$\Psi$ 1T4
 
-%----------------------------------------------------------------------------------------
-% AWARDS SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSectionCustom}{Awards and Achievements}
-    \begin{rSubsection2}{Scholar's Award}{Annually (2010 - 2014)}{University of Toronto}{}
-        \item[] Consistently ranked in the top 10\% of my class, receiving the Scholar's Award each year.
-    \end{rSubsection2}
-    \begin{rSubsection2}{School Medal}{June 2010}{William Lyon Mackenzie Collegiate Institute}{}
-        \item[] Awarded the school medal for the highest overall  average \& 3 awards for being top student in Math, Physics, \& Chemistry.
-    \end{rSubsection2}
-\end{rSectionCustom}
-
-\vspace{-3em}
+    \vspace{0.25em}
+    \textbf{William Lyon Mackenzie CI} \hfill \textit{2006 - 2010} \\
+    \textbf{Awards}: Chemistry, Physics, Math, Highest GPA, Scholar's Award, School Medal \\
+    \textbf{Extracurriculars}: Pres. Programming Club; VP Ping Pong Club
+\end{rSectionCompact}
 
 %----------------------------------------------------------------------------------------
-% SKILLS & Interests SECTION
+%   Additional Resources
 %----------------------------------------------------------------------------------------
 
-\begin{rSectionCustom}{Skills \& Interests}
-    \normalsize
-    \begin{tabularx}{\textwidth}{ @{} >{\bfseries}l @{\hspace{6pt}} X }
-        \toprule
-            Skills & Software Development, Technical Communication, Learning \& Teaching, Prompt Engineering \& Googling, Working Hard, Finding Intrinsic Motivation \\
-            Interests & Hiking, Value Investing, Calisthenics, Meditation, Curiosity \\
-            Languages & English, Russian, Hebrew \\
-        \bottomrule
-    \end{tabularx}
-\end{rSectionCustom}
+\begin{rSectionCompact}{Additional Resources}
+    \small
+    \textbf{Writing}: \href{https://olshansky.info/posts}{Posts}, \href{https://olshansky.info/thoughts}{Thoughts}, \href{https://olshansky.substack.com}{Substack}, \href{https://olshansky.medium.com}{Medium} \\
+    \textbf{Consuming}: \href{https://olshansky.info/book}{Books}, \href{https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e}{Podcasts}, \href{https://olshansky.info/movie}{Movies}, \href{https://olshansky.info/tv}{TV} \\
+    \textbf{Presenting}: \href{https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E}{Talks} \& \href{https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E}{Interviews} \\
+    \textbf{Publishing}: \href{https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en&oi=sra}{Google Scholar}
 
-%----------------------------------------------------------------------------------------
-% QED
-%----------------------------------------------------------------------------------------
+    \vspace{0.25em}
+    \textit{*All items are hyperlinked.}
+\end{rSectionCompact}
 
 \end{document}
