@@ -15,6 +15,20 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+- Resolve my imposter's syndrom: build something that:
+
+  - Actually provides real value
+  - Show that I was critical in building it
+  - Show I played a role in creating real value
+
+- Work on my weakness
+
+  - I don't have the potential to build the muscle for great audio/video content
+  - I do have the potential to build the muscle for product, leadership, etc.
+  - I somewhat have the muscle for tech already
+  - There's potential, maturity and something you don't want to do (at a high bar)
+  - I can build product and I can only learn it at a startupo
+
 - My goal is not a lifestyle, it’s a paradigm shift change
 - I build conviction internally with external input
 - Look at notes
