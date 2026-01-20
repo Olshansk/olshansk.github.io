@@ -3,7 +3,7 @@ title: "Mad scientists and high affect people"
 date: 2026-01-20T16:25:26-0500
 draft: false
 description: ""
-tags: []
+tags: ["Psychology", "Happiness", "Emotional Intelligence", "Self Improvement", "Compassion"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
