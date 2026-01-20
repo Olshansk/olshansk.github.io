@@ -44,6 +44,8 @@ The PANAS (Positive Affect Negative Affect Series) test is a way to categorize t
 
 ![PANAS Quadrants](/images/thoughts/2026-01-20-mad-scientists-quadrants.webp)
 
+**Personal Note**: If you're reading this and don't know me, I'm a Mad Scientist. No question. Through the highs and the low
+
 ## More Compassion, Less Empathy and Sympathy
 
 **Sympathy**: Passive understanding of another's pain. May lead to pity.
@@ -61,6 +63,8 @@ Here are the 4 steps to cultivate compassion:
 3. Develop emotional intelligence
 4. Embrace Forgiveness
 
+**Personal Note**: I try to do (1) almost every day, I should up the frequency of (2), I started doing (3) at 27, and I have some work to do on (4).
+
 ## The Happiness Paradox: Finding Joy by Letting Go of the Chase
 
 Hapiness is found in living a meaningful and purpos-driven life as opposite to an endless pursuit of pleasure and satisfaction.
@@ -69,6 +73,8 @@ Hapiness is found in living a meaningful and purpos-driven life as opposite to a
 2. Pursue Purpose, not Happiness
 3. Embrace the Journey, not the Destination
 4. Stop Measuring, Start Experiencing
+
+**Personal Note**: I'm improving on (1) every day, I'm pretty good at (2), I'm iterating on (3), and I have my work cut out for me on (4).
 
 ---
 
