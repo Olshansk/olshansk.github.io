@@ -4,7 +4,7 @@ date: {{DATE}}
 draft: false
 description: "{{DESCRIPTION}}"
 tags: []
-categories: []
+categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
 ShowReadingTime: true
