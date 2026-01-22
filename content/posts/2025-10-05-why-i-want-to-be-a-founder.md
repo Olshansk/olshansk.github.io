@@ -15,14 +15,29 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-- Resolve my imposter's syndrom: build something that:
+Question: as someone who talks to founders all the time, anything you see missing here?
 
+---
+
+The conversation yesterday made me think "Why not be a founding engineer?"
+
+Basically what I came down to it:
+
+- I have my own ideas, vision, and want to see it through
+- I have my own taste (culture) when it comes to building a product, brand, team, etc
+- I want to have the final call on direction, resource allocation and the team
+- I'll never stop building/engineering, but I need to be part of talking to customers, g2m, etc on a daily basis
+
+Things I don't enjoy doing every da: HR, Finance, Legal, Ops
+
+I also have enough experience, relationships and drive to do my own thing.
+
+- Resolve my imposter's syndrom: build something that:
   - Actually provides real value
   - Show that I was critical in building it
   - Show I played a role in creating real value
 
 - Work on my weakness
-
   - I don't have the potential to build the muscle for great audio/video content
   - I do have the potential to build the muscle for product, leadership, etc.
   - I somewhat have the muscle for tech already
