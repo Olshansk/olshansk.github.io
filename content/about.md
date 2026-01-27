@@ -43,6 +43,7 @@ I live by a few mantras:
 4. Live a life such that your future self inspires your present self.
 5. Expertise is building a toolbox of skills. Experience is having the intuition of knowing which tool to use.
 6. Strive to create generational impact while staying kind to the people around you.
+7. How you do one thing is how you do everything.
 
 ## What drives me?
 
