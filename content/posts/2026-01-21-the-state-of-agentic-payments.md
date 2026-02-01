@@ -130,4 +130,18 @@ Champions:
 
 ```
 
+
+agentic
 ```
+
+- X402
+- A2A
+- MCP
+- 8004
+- Under the Hood: Universal Commerce Protocol (UCP)
+- Look at the deck for more
+- Create tcp like diagrams that are very simple
+- Show a use case for each one
+- Is cryptography the foundation?
+- Easier to migrate to post quantum later when we need to
+- Simple Payment Systems with Unlinkability
