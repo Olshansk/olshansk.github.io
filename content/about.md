@@ -47,6 +47,7 @@ I live by a few mantras:
 4. Live a life such that your future self inspires your present self.
 5. Expertise is building a toolbox of skills. Experience is having the intuition of knowing which tool to use.
 6. Strive to create generational impact while staying kind to the people around you.
+7. How you do one thing is how you do everything.
 
 ## What drives me?
 
@@ -163,9 +164,9 @@ What do I want to do more of:
 
 ## Reach Out
 
-I don't like meetings. I love voice notes. I'm also down to do an adhoc call.
+I don't like "quick calls" ([here's why](https://www.linkedin.com/posts/dharmesh_once-again-im-totally-with-dhh-dont-activity-7379380307852042240--dlA/)). I love voice notes. Send me one [on WhatsApp](https://wa.me/4157355911) or email [olshansky.daniel@gmail.com](mailto:olshansky.daniel@gmail.com).
 
-Send me a voice note [on WhatsApp](https://wa.me/4157355911) or an email to [olshansky.daniel@gmail.com](mailto:olshansky.daniel@gmail.com).
+That said, I'm always down to meet in person—coffee, dinner, or a hike.
 
 ## Subscribe
 
