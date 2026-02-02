@@ -26,3 +26,9 @@ When changing the date of a post or thought, update ALL of:
 3. Media files: Rename in `static/images/{posts,thoughts}/`
 4. References: Update image/video paths in the markdown content
 5. Git: Unstage old filenames if they were previously staged
+
+## Book Notes Workflow (Snipd Exports)
+- When consolidating Snipd exports in `book_notes/`, unzip nested `ExportBlock-...-Part-1.zip` files before parsing.
+- Consolidate into a single markdown file (example: `book_notes/breaking-history-consolidated.md`).
+- Include source transcript under each snip as blockquotes with quoted lines: `> "..."`; preserve blank lines as `> ""` to keep paragraph breaks.
+- After consolidation, it is safe to delete the raw zip exports, `Private & Shared*` folders, and the `extracted/` staging directory.
