@@ -37,12 +37,14 @@ Table with columns:
 
 A2A (Google), UCP (Google, Shopify), AP2, x402 (Cloudflare, Coinbase), MCP (Anthropic), ERC-8004 (Ethereum)
 
-[x402](https://www.x402.org/)
-[A2A](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)
-[UCP](https://shopify.engineering/ucp)
-[MCP](https://modelcontextprotocol.io/docs/getting-started/intro)
-[ERC-8004](https://eips.ethereum.org/EIPS/eip-8004)
-? Stablecoins ?
+- [AXTP](https://accounts.atxp.ai/settings)
+- https://www.linkedin.com/posts/brijpandeyji_10-modern-ai-agent-protocols-you-should-know-activity-7331892357069484032-_Vpo/
+- [x402](https://www.x402.org/)
+- [A2A](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)
+- [UCP](https://shopify.engineering/ucp)
+- [MCP](https://modelcontextprotocol.io/docs/getting-started/intro)
+- [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004)
+- ? Stablecoins ?
 
 ## x402
 
