@@ -36,6 +36,10 @@
 {{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">Substack</a>" .Params.substack_url .Params.substack_url)) }}
 {{- end }}
 
+{{- if .Params.twitter_url -}}
+{{- $scratch.Add "meta" (slice (printf "<a href=\"%s\" target=\"_blank\" rel=\"noopener\" onclick=\"event.stopPropagation(); event.preventDefault(); window.open('%s', '_blank'); return false;\">Twitter</a>" .Params.twitter_url .Params.twitter_url)) }}
+{{- end }}
+
 {{- with ($scratch.Get "meta") }}
 {{- delimit . " · " | safeHTML -}}
 {{- end -}}
