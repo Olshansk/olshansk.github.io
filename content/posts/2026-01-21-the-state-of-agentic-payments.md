@@ -15,6 +15,14 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+Rough Notes:
+
+- Opinionated take on the state of agentic protocols
+- The protocols that matter and the ones that don't
+
+
+---
+
 At this point, there's no debate that the majority of internet traffic in the future will be agentic.
 
 Money makes the world go round, so agentic payments will be the foundation of making the web go round.
