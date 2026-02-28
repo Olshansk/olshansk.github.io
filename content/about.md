@@ -44,6 +44,7 @@ I live by a few mantras:
 5. Expertise is building a toolbox of skills. Experience is having the intuition of knowing which tool to use.
 6. Strive to create generational impact while staying kind to the people around you.
 7. How you do one thing is how you do everything.
+8. Patience with results. Impatience with action.
 
 ## What drives me?
 
@@ -94,6 +95,7 @@ Other people I learn from and who inspire me on a regular basis:
 - **Vitalik Buterin** — The weirdest thinker
 - **Ilya Sutskever** - A monk at heart
 - **Mitchell Hashimoto** — Your friendlist open source developer
+- **Naval Ravikant** — Philosopher-investor who thinks from first principles
 - **Simon Willison** — There's no better RSS feed
 - **Stephen Wolfram** — The definition of a polymath in modern times
 - **Edward Thorp** — Mathematician, investor, and blackjack pioneer
