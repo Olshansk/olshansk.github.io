@@ -149,12 +149,16 @@ What do I want to do more of:
 ### Writing
 
 - [Substack](https://olshansky.substack.com) — Newsletter and long-form writing
+- [Substack Notes](https://olshansky.substack.com/notes) — Reshares and short-form notes
 - [Medium](https://olshansky.medium.com) — Technical articles and thoughts
 
 ### Social
 
+- [GitHub](https://github.com/olshansk) — Open source projects and contributions
+- [X / Twitter](https://x.com/olshansky) — Quick thoughts and updates
 - [Reddit](https://www.reddit.com/user/Olshansk/) — r/u/Olshansk
 - [LinkedIn](https://www.linkedin.com/in/dolshansky/) — Professional profile
+- [LinkedIn Posts](https://www.linkedin.com/in/dolshansky/recent-activity/all/) — Recent activity and writing
 - [Telegram](https://t.me/dolshansky) — Direct messaging
 - [Instagram](https://instagram.com/olshansk) — Visual updates
 - [Strava](https://www.strava.com/athletes/65389405) — Fitness activities and runs

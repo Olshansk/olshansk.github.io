@@ -1,0 +1,40 @@
+.post-header-with-copy-markdown {
+    position: relative;
+    padding-right: 190px;
+}
+
+.copy-markdown-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--theme);
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 12px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.copy-markdown-button:hover {
+    background: var(--tertiary);
+}
+
+.copy-markdown-button[disabled] {
+    cursor: wait;
+    opacity: 0.75;
+}
+
+@media (max-width: 768px) {
+    .post-header-with-copy-markdown {
+        padding-right: 0;
+    }
+
+    .copy-markdown-button {
+        position: static;
+        display: inline-block;
+        margin-bottom: 12px;
+    }
+}
