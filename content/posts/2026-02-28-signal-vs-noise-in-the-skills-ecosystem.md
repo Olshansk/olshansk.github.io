@@ -1,7 +1,7 @@
 ---
 title: "Signal vs Noise in the Skills Ecosystem"
 date: 2026-02-28T13:00:00-0800
-draft: true
+draft: false
 description: ""
 tags:
   [
