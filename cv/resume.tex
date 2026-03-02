@@ -12,6 +12,9 @@
 \usepackage{textcomp}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\input{glyphtounicode}
+\pdfgentounicode=1
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{anysize}
 
@@ -21,6 +24,7 @@
 % Slightly improved line spacing
 \setlength{\parskip}{0pt}
 \linespread{1.0}
+\raggedbottom
 
 % Compact but readable bullets
 \let\olditemize\itemize
@@ -39,9 +43,9 @@
   \medskip
   \vspace{0.45em}
   \textbf{\textcolor{Cerulean}{\MakeUppercase{#1}}}
-  \vspace{0.12em}
+  \vspace{0.3em}
   {\color{Blue}\hrule height 0.6pt}
-  \vspace{0.35em}
+  \vspace{0.85em}
   \begin{list}{}{
     \setlength{\leftmargin}{0em}
   }
@@ -55,11 +59,16 @@
   \normalsize
   \textcolor{Blue}{\textbf{#1}}\hfill\textit{#2}
   \vspace{0.08em}
-  \begin{list}{$\bullet$}{\leftmargin=1.6em}
-  \itemsep -0.05em
+  \begin{list}{$\bullet$}{
+    \setlength{\leftmargin}{1.6em}
+    \setlength{\itemsep}{-0.05em}
+    \setlength{\topsep}{0pt}
+    \setlength{\partopsep}{0pt}
+    \setlength{\parsep}{0pt}
+  }
 }{
-    \vspace{0.2em} % <-- extra separation between roles
     \end{list}
+    \vspace{0.55em}
 }
 
 \newcommand{\Hquad}{\hspace{0.5em}}
@@ -93,13 +102,13 @@
 
 \begin{rSectionCompact}{About Me}
     \small
-    \textbf{Mission}: Help every human achieve their full potential, starting with myself. \\[-0.15em]
-    \textbf{Motto}: Have my future self inspire my present self. \\[-0.15em]
-    \textbf{Drive}: Build a generational company with a timeless brand that expands what future founders believe is possible. \\[-0.15em]
-    \textbf{Superpower}: Rapidly learning, synthesizing context, and adapting in complex systems. \\[-0.15em]
-    \textbf{Approach}: Work is integrated into my life. I alternate between sustained deep focus and short bursts of intensity, gathering context continuously and making hard tradeoffs between execution and ideology. \\[-0.15em]
-    \textbf{Mindset}: Physical training taught me discipline and the mind-body connection; mental training taught me self-awareness. I apply both to understanding deep tech, people, incentives, and organizational dynamics. \\[-0.15em]
-    \textbf{Craft}: Deep software systems, tools, and infrastructure. I bridge engineering rigor with scientific curiosity to build durable leverage.
+    \textbf{Mission}: Help every human achieve their full potential, starting with myself. \\[0.25em]
+    \textbf{Motto}: Have my future self inspire my present self. \\[0.25em]
+    \textbf{Drive}: Build generational products that broaden what we believe is possible. \\[0.25em]
+    \textbf{Superpower}: Rapidly learning, synthesizing context, and adapting in complex environments. \\[0.25em]
+    \textbf{Approach}: Sustained deep focus with short execution bursts, gather context continuously, and make explicit tradeoffs to align incentives. \\[0.25em]
+    \textbf{Mindset}: The mind-body connection is key. Physical \& mental discipline, self-awareness, and maintaining calm under pressure. \\[0.25em]
+    \textbf{Craft}: Bridge engineering rigor, research curiosity, and product judgment to build durable leverage.
 \end{rSectionCompact}
 
 %----------------------------------------------------------------------------------------
@@ -109,39 +118,39 @@
 \begin{rSectionCompact}{Experience}
 
     \begin{rJobCompact}{CTO @ \href{https://grove.city}{Grove}}{2025 - Present}
-        \item \textbf{What I learnt?} Onboarding and user value must be immediate, simple, and unmistakable.
-        \item \textbf{What I did?} Enable creators to earn from original content via micro-payments by agents that crave data and humans that crave experience.
-        \item \textbf{Result:} Stay Tuned.
+        \item \textbf{Learned:} Onboarding and user value must be immediate, simple, and unmistakable.
+        \item \textbf{Built:} Enabled creators to earn from original content via micropayments by agent consumers and human audiences.
+        \item \textbf{Impact:} Shipped onboarding and payment primitives; onboarding early creators and agent integrators.
     \end{rJobCompact}
 
-    \begin{rJobCompact}{Head of Protocol @ \href{https://pokt.nework}{Pocket Network} (CTO @ Grove Labs)}{2022 - 2025}
-        \item \textbf{What I learnt?} Emotional intelligence and incentive alignment matter more than raw intellect at scale.
-        \item \textbf{What I did?} Led R\&D for a permissionless API marketplace, aligning a small core team with a broad ecosystem to enable decentralized data access.
-        \item \textbf{Result:} Launched a \$100M+ protocol handling \$1B+ daily requests across dozens of exchanges and hundreds of stakeholders.
+    \begin{rJobCompact}{Head of Protocol @ \href{https://pokt.network}{Pocket Network} (CTO @ Grove Labs)}{2022 - 2025}
+        \item \textbf{Learned:} Emotional intelligence and incentive alignment matter more than raw intellect at scale.
+        \item \textbf{Built:} Led R\&D for a permissionless API marketplace; aligned a small core team with a broad ecosystem for decentralized data access.
+        \item \textbf{Impact:} Launched a \$100M+ protocol handling \$1B+ daily requests across dozens of exchanges and hundreds of stakeholders.
     \end{rJobCompact}
 
     \begin{rJobCompact}{Founder \& CEO @ GetSoils}{2021 - 2022}
-        \item \textbf{What I learnt?} Creating paradigm shifts in legacy industries needs to be done by integrating from the inside out.
-        \item \textbf{What I did?} Built a construction marketplace for excess soil, aligning contractors, haulers, and disposal sites from zero to one.
-        \item \textbf{Result:} Onboarded dozens of users to an AirBnB for construction soil and sold a borehole mapping tool to enterprise clients.
+        \item \textbf{Learned:} Disrupting legacy industries requires integrating from the inside out.
+        \item \textbf{Built:} A construction marketplace for excess soil, aligning contractors, haulers, and disposal sites from zero to one.
+        \item \textbf{Impact:} Onboarded dozens of users to an Airbnb for construction soil and sold a borehole mapping tool to enterprise clients.
     \end{rJobCompact}
 
     \begin{rJobCompact}{Senior Software Engineer @ \href{https://waymo.com}{Waymo} (Alphabet)}{2020 - 2022}
-        \item \textbf{What I learnt?} Built intuition for AI, ML, and evaluation frameworks; enable researchers focus on research rather than engineering.
-        \item \textbf{What I did?} Built visualizations, labeling infrstructure and a test-set corpus for the Planner Eval team.
-        \item \textbf{Result:} Championed the org-wide test-set initiative for real and synthetic datasets, enabling hundreds of evaluation initiatives.
+        \item \textbf{Learned:} AI, ML, and evaluation frameworks; how to free researchers from engineering overhead.
+        \item \textbf{Built:} Visualizations, labeling infrastructure, and a test-set corpus for the Planner Eval team.
+        \item \textbf{Impact:} Championed the org-wide test-set initiative for real and synthetic datasets, enabling hundreds of evaluation initiatives.
     \end{rJobCompact}
 
     \begin{rJobCompact}{Lead Software Engineer @ \href{https://magicleap.com}{Magic Leap}}{2016 - 2020}
-        \item \textbf{What I learnt?} How hardware, research, product, and politics collide, especially in overcapitalized environments.
-        \item \textbf{What I did?} Architected a cloud-based digital twin using raw sensor data for object recognition, sparse and dense mapping.
-        \item \textbf{Result:} Supported the launch of Magic Leap One, shipped the Shared World SDK, led five engineers, and co-authored 15+ patents.
+        \item \textbf{Learned:} How hardware, research, product, and politics collide, especially in overcapitalized environments.
+        \item \textbf{Built:} Architected a cloud-based digital twin using raw sensor data for object recognition, sparse and dense mapping.
+        \item \textbf{Impact:} Supported the launch of Magic Leap One, shipped the Shared World SDK, led 5 engineers, and co-authored 15+ patents.
     \end{rJobCompact}
 
     \begin{rJobCompact}{Software Engineer @ \href{https://twitter.com}{Twitter}}{2014 - 2015}
-        \item \textbf{What I learnt?} Went from being a coder to an engineer while learning how big organizations operate.
-        \item \textbf{What I did?} Built features across mobile, web, and backend on the VIT and Media teams.
-        \item \textbf{Result:} Shipped GIF search, custom timelines, verified-user features, and early prototypes of emoji reactions and profile redesigns.
+        \item \textbf{Learned:} Difference between coding and engineering. How large organizations operate.
+        \item \textbf{Built:} Features across mobile, web, and backend on the VIT and Media teams.
+        \item \textbf{Impact:} Shipped GIF search, custom timelines, vetted account features, and early prototypes of emoji reactions and account-page redesigns.
     \end{rJobCompact}
 
 \end{rSectionCompact}
@@ -170,10 +179,10 @@
 
 \medskip
 \vspace{0.45em}
-\textbf{\textcolor{Cerulean}{\MakeUppercase{Additional Resources}}} (\textit{\small *All items are hyperlinked})
-\vspace{0.12em}
+\textbf{\textcolor{Cerulean}{\MakeUppercase{Additional Resources}}} (\textit{\small all items below are hyperlinked})
+\vspace{0.3em}
 {\color{Blue}\hrule height 0.6pt}
-\vspace{0.35em}
+\vspace{0.85em}
 \small
 \textbf{Writing}: \href{https://olshansky.info/posts}{Posts}, \href{https://olshansky.info/thoughts}{Thoughts}, \href{https://olshansky.substack.com}{Substack}, \href{https://olshansky.medium.com}{Medium} \\
     \textbf{Consuming}: \href{https://olshansky.info/book}{Books}, \href{https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e}{Podcasts}, \href{https://olshansky.info/movie}{Movies}, \href{https://olshansky.info/tv}{TV} \\
