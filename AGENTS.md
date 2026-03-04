@@ -2,6 +2,10 @@
 
 Project-specific instructions for AI agents working on olshansky.info.
 
+## Makefile First
+
+**Always run `make help` before performing any operation manually.** The Makefile provides helpers for common tasks including content creation, tagging, resume generation, and more. Use these targets instead of running commands or creating files by hand.
+
 ## Resume Guidelines
 
 - **Resume must never exceed 1 page** - When updating `cv/resume.tex`, ensure the compiled PDF fits on a single page
