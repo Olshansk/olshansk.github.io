@@ -44,6 +44,7 @@ I live by a few mantras:
 5. Expertise is building a toolbox of skills. Experience is having the intuition of knowing which tool to use.
 6. Strive to create generational impact while staying kind to the people around you.
 7. How you do one thing is how you do everything.
+8. Patience with results. Impatience with action.
 
 ## What drives me?
 
@@ -94,6 +95,7 @@ Other people I learn from and who inspire me on a regular basis:
 - **Vitalik Buterin** — The weirdest thinker
 - **Ilya Sutskever** - A monk at heart
 - **Mitchell Hashimoto** — Your friendlist open source developer
+- **Naval Ravikant** — Philosopher-investor who thinks from first principles
 - **Simon Willison** — There's no better RSS feed
 - **Stephen Wolfram** — The definition of a polymath in modern times
 - **Edward Thorp** — Mathematician, investor, and blackjack pioneer
@@ -147,12 +149,16 @@ What do I want to do more of:
 ### Writing
 
 - [Substack](https://olshansky.substack.com) — Newsletter and long-form writing
+- [Substack Notes](https://olshansky.substack.com/notes) — Reshares and short-form notes
 - [Medium](https://olshansky.medium.com) — Technical articles and thoughts
 
 ### Social
 
+- [GitHub](https://github.com/olshansk) — Open source projects and contributions
+- [X / Twitter](https://x.com/olshansky) — Quick thoughts and updates
 - [Reddit](https://www.reddit.com/user/Olshansk/) — r/u/Olshansk
 - [LinkedIn](https://www.linkedin.com/in/dolshansky/) — Professional profile
+- [LinkedIn Posts](https://www.linkedin.com/in/dolshansky/recent-activity/all/) — Recent activity and writing
 - [Telegram](https://t.me/dolshansky) — Direct messaging
 - [Instagram](https://instagram.com/olshansk) — Visual updates
 - [Strava](https://www.strava.com/athletes/65389405) — Fitness activities and runs

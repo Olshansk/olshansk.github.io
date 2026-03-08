@@ -138,6 +138,15 @@ unsafe = true
 # Search page
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "Markdown"]
+
+[mediaTypes."text/markdown"]
+  suffixes = ["md"]
+
+[outputFormats.Markdown]
+  mediaType = "text/markdown"
+  isPlainText = true
+  baseName = "index"
 
 # Menu configuration
 # Hidden - Start Here page is for AI/SEO, not for direct navigation

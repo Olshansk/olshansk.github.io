@@ -185,3 +185,122 @@
     });
 </script>
 {{- end }}
+
+{{- if (eq .Kind "page") }}
+<script>
+    (() => {
+        const copyMarkdownButton = document.querySelector('.copy-markdown-button');
+        if (!copyMarkdownButton) {
+            return;
+        }
+
+        const defaultLabel = copyMarkdownButton.dataset.labelDefault || 'Copy as Markdown';
+        const copiedLabel = copyMarkdownButton.dataset.labelCopied || 'Copied!';
+        const failedLabel = copyMarkdownButton.dataset.labelFailed || 'Failed';
+
+        const setButtonText = (text) => {
+            copyMarkdownButton.textContent = text;
+        };
+
+        const resetButtonText = () => {
+            setButtonText(defaultLabel);
+        };
+
+        const copyTextToClipboard = async (text) => {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                await navigator.clipboard.writeText(text);
+                return;
+            }
+
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.setAttribute('readonly', '');
+            textarea.style.position = 'absolute';
+            textarea.style.left = '-9999px';
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+        };
+
+        const fetchMarkdownFromPage = async () => {
+            const markdownUrl = copyMarkdownButton.dataset.markdownUrl;
+            const response = await fetch(markdownUrl, { credentials: 'same-origin' });
+            if (!response.ok) {
+                throw new Error(`Failed to fetch markdown endpoint: ${response.status}`);
+            }
+            const markdown = await response.text();
+            if (!markdown.trim()) {
+                throw new Error('Markdown endpoint returned empty content');
+            }
+            return markdown;
+        };
+
+        const loadTurndown = async () => {
+            if (window.TurndownService) {
+                return window.TurndownService;
+            }
+
+            await new Promise((resolve, reject) => {
+                const script = document.createElement('script');
+                script.src = 'https://cdn.jsdelivr.net/npm/turndown@7.2.1/dist/turndown.min.js';
+                script.onload = resolve;
+                script.onerror = reject;
+                document.head.appendChild(script);
+            });
+
+            if (!window.TurndownService) {
+                throw new Error('Turndown did not load correctly');
+            }
+
+            return window.TurndownService;
+        };
+
+        const convertRenderedContentToMarkdown = async () => {
+            const postContent = document.querySelector('.post-content');
+            if (!postContent) {
+                throw new Error('No .post-content element found for fallback markdown conversion');
+            }
+
+            const TurndownService = await loadTurndown();
+            const turndown = new TurndownService({
+                headingStyle: 'atx',
+                codeBlockStyle: 'fenced',
+            });
+
+            const markdown = turndown.turndown(postContent.innerHTML).trim();
+            if (!markdown) {
+                throw new Error('Fallback markdown conversion returned empty content');
+            }
+
+            return markdown;
+        };
+
+        copyMarkdownButton.addEventListener('click', async () => {
+            if (copyMarkdownButton.disabled) {
+                return;
+            }
+
+            copyMarkdownButton.disabled = true;
+
+            try {
+                const markdown = await fetchMarkdownFromPage();
+                await copyTextToClipboard(markdown);
+                setButtonText(copiedLabel);
+            } catch (fetchError) {
+                try {
+                    const fallbackMarkdown = await convertRenderedContentToMarkdown();
+                    await copyTextToClipboard(fallbackMarkdown);
+                    setButtonText(copiedLabel);
+                } catch (fallbackError) {
+                    console.error('Copy as Markdown failed', { fetchError, fallbackError });
+                    setButtonText(failedLabel);
+                }
+            } finally {
+                setTimeout(resetButtonText, 2000);
+                copyMarkdownButton.disabled = false;
+            }
+        });
+    })();
+</script>
+{{- end }}
