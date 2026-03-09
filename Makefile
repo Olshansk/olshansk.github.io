@@ -125,7 +125,7 @@ add_tags:
 		exit 1; \
 	fi
 	@echo "=== Generating tags for $(FILE) ==="
-	@claude /add-tags $(FILE)
+	@echo "$(FILE)" > .file && claude /add-tags && rm -f .file
 
 .PHONY: edit_post
 edit_post:
@@ -138,7 +138,7 @@ edit_post:
 		exit 1; \
 	fi
 	@echo "=== Editing $(FILE) ==="
-	@claude /edit-post $(FILE)
+	@echo "$(FILE)" > .file && claude /edit-post && rm -f .file
 
 #################
 # Resume

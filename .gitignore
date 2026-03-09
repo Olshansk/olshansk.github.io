@@ -8,3 +8,6 @@ resources/_gen
 cv/*.aux
 cv/*.log
 cv/*.out
+
+# Temp file for passing args to claude commands
+.file
