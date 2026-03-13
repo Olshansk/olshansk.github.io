@@ -1,14 +1,10 @@
 ---
 description: Edit a blog post - acts as an editor, not a co-author
-arguments:
-  - name: file
-    description: Path to the blog post markdown file to edit
-    required: true
 ---
 
 # Blog Post Editor
 
-Read the file at `$ARGUMENTS.file` and edit it following the rules below. Return the full edited file content in a markdown code block.
+Read the `.file` file to get the path of the target blog post, then read that blog post and edit it following the rules below. Return the full edited file content in a markdown code block.
 
 ## Role
 

@@ -1,12 +1,8 @@
 ---
 description: Auto-generate tags for a blog post or thought
-arguments:
-  - name: file
-    description: Path to the content markdown file (e.g., content/posts/my-post.md)
-    required: true
 ---
 
-Read the file at `$ARGUMENTS.file` and analyze its content.
+Read the `.file` file to get the path of the target content file, then read that content file and analyze it.
 
 Based on the content, suggest appropriate tags and update the file's frontmatter `tags` field.
 
