@@ -33,7 +33,7 @@ Our workflow today looks roughly like this:
 
 ![Semi-automated code review workflow](/images/posts/2026-03-10-grove-api-workflow.png)
 
-**The key idea:** run the expensive thinking and testing locally while the feature is still fresh, not after pushing to CI.
+**The key idea**: Leverage tools off the shelf, semi (not completely) automate things specific to your domain, and do as much of it locally as possible.
 
 ---
 
@@ -59,14 +59,17 @@ This is just a quick show-and-tell of our lightweight workflow around Claude Cod
 
 ## The Stack
 
-Backend: Grove API
-Clients: Grove web client + Chrome extension
+Three repos:
+
+- **Grove API** (Backend)
+- **Grove App** (Frontend)
+- **Grove Extension** (Chrome Extension)
 
 The majority of these codebases were developed in an agent-first environment.
 
-The code in the frontend and extension is what some would refer to as “vibe coded.”
+The code in the frontend and extension is what some would refer to as _”vibe-coded”_.
 
-The backend is a bit more mature and reviewed in depth because it deals with transferring funds. **I still review the core logic line by line, but I haven't written a single line of it myself.**
+The backend is a bit more mature and reviewed in depth because it deals with fund management. **I still review the core logic line-by-line, but I haven't written a single line of it myself.**
 
 ---
 
@@ -76,11 +79,11 @@ We still run traditional CI, but the role has changed.
 
 Traditional CI only runs **linting and unit tests**.
 
-The heavier work happens locally while the feature is still fresh in context. The agent spins up the stack, runs E2E flows, and performs the review before a PR even exists.
+The heavier work happens locally, and integrate (not replace) the human. The agent spins up the stack, runs E2E flows, and performs the review before a PR even exists.
 
 This approach is similar to the direction described by [DHH when moving CI back to developer machines](https://world.hey.com/dhh/we-re-moving-continuous-integration-back-to-developer-machines-3ac6c611).
 
-Our end-to-end tests also double as **production smoke tests** that run on GitHub after deployment.
+Our end-to-end tests also double as **production smoke tests** that run on GitHub after deployment. 🔥
 
 ---
 
@@ -102,7 +105,7 @@ The command does a handful of things:
 
 Let's assume you just ~~vibe-coded~~ engineered a big new feature with the help of agents, and it's time to start reviewing your work.
 
-‼️ Like any `AGENTS.md` file, this is not one-and-done.
+‼️ Like any `AGENTS.md` file, this is not one-and-done. I use [`/session-commit`](https://github.com/Olshansk/agent-skills/blob/main/skills/session-commit/SKILL.md) to keep it updated.
 
 **Documentation is a living thing. It's the responsibility of both the human and the agent to update and review these commands and files regularly whenever something new is learned, a pattern emerges, or a change happens.**
 
@@ -147,13 +150,13 @@ This is one of my favorite parts of the API.
 
 It spins up a database, starts the server, and runs realistic end-to-end flows against it.
 
-Happy paths, sad paths, chaotic paths.
+Happy paths, sad paths, chaotic paths. 🎢
 
 Everything.
 
 If something fails, the agent tries to diagnose the root cause before surfacing it.
 
-**No “test failed” without context. It tells you _why_.**
+**No “test failed” without context. It tells you _why_.** 🔍
 
 Claude also fixes some of them (if trivial) along the way, and is instructed not to fix anything where the business logic change is questionable or requires another opinion.
 
@@ -183,7 +186,7 @@ If something feels too big or out of scope for the work, I ask the agents to add
 
 **Having that inline is a great way to give future agents context about the tech debt.**
 
-This is the last gate before a human looks at the PR.
+This is the last gate before a human looks at the PR. 🚧
 
 ![Sweep results with final summary and action items](/images/posts/2026-03-10-grove-api-6-sweep-results.png)
 
@@ -199,7 +202,7 @@ The skill reads the full diff, commit history, and review findings, then drafts 
 
 Here is what it looks like on GitHub:
 
-![The final PR description on GitHub](/images/posts/2026-03-10-grove-api-8-pr-description.png)
+<img src="/images/posts/2026-03-10-grove-api-8-pr-description.png" alt="The final PR description on GitHub" style="max-width: 75%;" />
 
 ---
 
@@ -208,19 +211,15 @@ Here is what it looks like on GitHub:
 This isn't intended to be a “how I code” post, but I wanted to call out some of the patterns I've found useful lately:
 
 - **Cross-referencing with other models**
-  Depending on the size and complexity, I like to cross-reference plans and bugs with Gemini and Codex. Gemini tends to be very idiomatic and strong at frontend work. Codex is great at architecture and challenging requirements.
+  Depending on the size and complexity, I like to cross-reference plans and bugs with Gemini and Codex. Gemini tends to be very idiomatic and strong at frontend work. Codex is great at architecture and challenging requirements. Not every change needs this, but for architectural decisions or tricky edge cases, **it's useful to get a second or third opinion from another model.**
 
 - **Manual review**
-  I don't review frontend code manually, but I still review mission-critical business logic line by line on GitHub. I leave comments (locally or remotely) and have agents pick them up.
-
-  **I focus heavily on reducing code surface area, regression testing important edge cases, naming, and ensuring TODOs with explanations are in place.**
+  I don't review frontend code manually, but I still review mission-critical business logic line-by-line on GitHub. I leave comments (locally or remotely) and have agents pick them up. **I focus heavily on reducing code surface area, regression testing important edge cases, naming, and ensuring TODOs with explanations are in place.**
 
 - [`/session-commit`](https://github.com/Olshansk/agent-skills/blob/main/skills/session-commit.md)
   I use this frequently to keep `AGENTS.md` updated based on learnings from the most recent agent session.
 
 Depending on how much work happened during this stage of the review, I might go back and start the process again.
-
-Not every change needs this, but for architectural decisions or tricky edge cases, **it's useful to get a second or third opinion from another model.**
 
 <!--
 ```mermaid
