@@ -13,6 +13,8 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
+cover:
+    image: "/images/posts/2026-03-10-grove-api-cover.png"
 ---
 
 _P.S. I took the images on my widescreen monitor while working on a real feature. If there's interest, I'm happy to put together smaller screenshots or a walkthrough video._
@@ -79,7 +81,7 @@ We still run traditional CI, but the role has changed.
 
 Traditional CI only runs **linting and unit tests**.
 
-The heavier work happens locally, and integrate (not replace) the human. The agent spins up the stack, runs E2E flows, and performs the review before a PR even exists.
+The heavier work happens locally and integrates (not replaces) the human. The agent spins up the stack, runs E2E flows, and reviews the branch before a PR even exists.
 
 This approach is similar to the direction described by [DHH when moving CI back to developer machines](https://world.hey.com/dhh/we-re-moving-continuous-integration-back-to-developer-machines-3ac6c611).
 
