@@ -18,7 +18,7 @@ goodreads_url = "https://www.goodreads.com/en/book/show/62697113-branding-that-m
   - [Building Brand Loyalty](#building-brand-loyalty)
 - [Favorite Moments, Fun Facts, Anecdotes and Food for Thought](#favorite-moments-fun-facts-anecdotes-and-food-for-thought)
   - [Halo Effect](#halo-effect)
-  - [AirBnB](#airbnb)
+  - [Airbnb](#airbnb)
   - [Asian culture as an example of adapting brand to regionality](#asian-culture-as-an-example-of-adapting-brand-to-regionality)
   - [Advice Column as a Lens into building brand strategy](#advice-column-as-a-lens-into-building-brand-strategy)
   - [Iron \& Gold Jewelry](#iron--gold-jewelry)
@@ -48,7 +48,7 @@ than a novel. A podcast episode or an essay could have been enough rather than
 writing a whole book.
 
 My only complaint about the book is that they referenced huge brands: Apple, Google,
-AirBnb, Coca-Cola, etc. Though those brands act as north starts, and leverage the same
+Airbnb, Coca-Cola, etc. Though those brands act as north starts, and leverage the same
 lessons, it would have been nice to reference smaller and more niche brands along
 the way as well. We need to see the stepping stones :)
 
@@ -147,7 +147,7 @@ The halo effect is real!
 
 [More info on wikipedia](https://en.wikipedia.org/wiki/Halo_effect).
 
-### AirBnB
+### Airbnb
 
 I'll keep this short because Brian Chesky is all the rage nowadays after Founder
 Mode came out.
@@ -161,7 +161,7 @@ to the place you're staying at.
 At this point, I prefer hotels because they're cheaper, simpler, have more
 amenities and are more comfortable.
 
-However, I do still associate AirBnB as the brand that creates a sense of belonging.
+However, I do still associate Airbnb as the brand that creates a sense of belonging.
 
 ### Asian culture as an example of adapting brand to regionality
 
