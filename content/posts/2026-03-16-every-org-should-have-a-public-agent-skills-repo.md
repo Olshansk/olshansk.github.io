@@ -1,6 +1,6 @@
 ---
-title: "The state of installing agent skills"
-date: 2026-02-28T12:08:07-0800
+title: "Every org should have a public agent-skills repo"
+date: 2026-03-16T12:00:00-0800
 draft: true
 description: "It's simpler than you think as long as you meet the user where they are"
 tags:
@@ -140,6 +140,27 @@ It's the whole game.
 
 Every org should have a public "agent-skills" repo similar to [Vercel's](https://github.com/vercel-labs/agent-skills).
 It's the easiest way to share institutional knowledge with every agent that touches your stack.
+
+<!-- TODO: Flesh out this section with the notes below
+
+Raw notes to work in:
+- Everyone is talking about agent skills
+- Link to my post about the skills dashboard
+- Developers have always had .rc files, sharing some configs, but:
+  - They're very context specific
+  - Hard to maintain
+  - They're personal
+- Skills is like a portfolio
+  - It's self contained
+  - There's a dashboard and leaderboard
+  - It's the easy way to share your bash helpers, etc
+- Here's how I configured my own so all the agents have them, but also so I can keep developing my own
+- Ask your agent what skills exist
+- Great way to showcase what you built without the distribution problem
+- I'm sure you can game it but distribution will be worth it in the longterm
+- Move joke into a thought
+- Quote buffet on weighing machine
+-->
 
 ## The Skills Ecosystem
 
