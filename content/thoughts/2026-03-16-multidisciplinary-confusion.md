@@ -1,5 +1,5 @@
 ---
-title: "Multidisciplinary Confusion"
+title: "Multidisciplinary Cognitive Confusion"
 date: 2026-03-16T10:31:19-0700
 draft: false
 description: ""
@@ -12,6 +12,13 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ---
+
+In the sphere of "bro-science" there's a concept of "muscle confusion".
+
+The general idea is that introducing variety into your training will lead to better results.
+This could come in the form of form of training, intensity, timing, speed, sets, etc.
+
+It got overpopularized and "memified", but I belive the core idea is sound.
 
 - Interdisciplinary
 - Cognitive confusion
