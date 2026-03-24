@@ -1,0 +1,99 @@
+<style>
+.reach-revenue-wrapper {
+  padding: 2rem 1rem 3rem 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.graph-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  border-left: 2px solid #333;
+  border-bottom: 2px solid #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.graph-axis-label {
+  position: absolute;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #333;
+}
+.y-axis-label {
+  top: -40px;
+  left: -35px;
+}
+.x-axis-label {
+  bottom: -40px;
+  right: -10px;
+}
+/* Arrows for axes */
+.graph-container::before {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: -7px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 12px solid #333;
+}
+.graph-container::after {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  right: -12px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 12px solid #333;
+}
+.graph-bubble {
+  position: absolute;
+  background-color: #d1f2d1;
+  border: 1px solid #7bc67b;
+  border-radius: 24px;
+  padding: 10px 18px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #111;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+.graph-bubble:hover {
+  transform: translate(-50%, 50%) scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+.bubble-infra {
+  background-color: #e0f7fa;
+  border: 1px dashed #4dd0e1;
+}
+@media (max-width: 600px) {
+  .graph-bubble {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+}
+</style>
+
+<div class="reach-revenue-wrapper">
+  <div class="graph-container">
+    <div class="graph-axis-label y-axis-label">Revenue</div>
+    
+    <div class="graph-bubble" style="left: 15%; bottom: 85%;">Courses</div>
+    <div class="graph-bubble" style="left: 35%; bottom: 85%;">Subscriptions</div>
+    <div class="graph-bubble" style="left: 80%; bottom: 85%;">Sponsors</div>
+    <div class="graph-bubble" style="left: 80%; bottom: 50%;">Ads</div>
+    <div class="graph-bubble" style="left: 35%; bottom: 15%;">Giveaways</div>
+    <div class="graph-bubble" style="left: 80%; bottom: 15%;">Free</div>
+
+    <div class="graph-bubble bubble-infra" style="left: 55%; bottom: 85%;">Pay to Unlock</div>
+    <div class="graph-bubble bubble-infra" style="left: 15%; bottom: 50%;">Pay per Crawl</div>
+    <div class="graph-bubble bubble-infra" style="left: 35%; bottom: 50%;">Pay for Preview</div>
+    <div class="graph-bubble bubble-infra" style="left: 55%; bottom: 50%;">Pay to Comment</div>
+    
+    <div class="graph-axis-label x-axis-label">Reach</div>
+  </div>
+</div>
