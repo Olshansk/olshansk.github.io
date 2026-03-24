@@ -15,11 +15,11 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-Reach used to be king. Then revenue entered the conversation.
+When it comes to digital content, **reach** used to be king. Then **revenue** entered the conversation.
 
-Companies like Substack and Patreon made earning a core feature. Medium followed.
+Companies like Substack and Patreon made revenue and subscriptions a first class primitive. Companies like Medium followed and Twitch followed. Now we're seeing YouTube, Reddit, X and others experiment with different models of integrated monetization.
 
-Now, with AI training and inferring on content, **credit and compensation** are front and center.
+Now, with AI training on and inferring from content, **credit** and **compensation** are front and center.
 
 **The opportunity is not about squeezing more out of the same revenue model. It's about unlocking new ones.**
 
@@ -33,26 +33,26 @@ That is a step in the right direction. But it is not the 3Cs. It is a tradeoff b
 
 Digg’s [recent reset](https://digg.com/) looks like a different story, but it is not. **If bots, spam, and synthetic engagement dominate the system, trust disappears and the product breaks.** Same root issue.
 
-The internet still runs on economics that assume human attention is scarce, content is static, and abuse is manageable.
-
-None of that is true anymore.
-
-- 🗑️ Slop leads to a low quality internet
-- 📢 Noise diffuses our attention
-- 🤖 Abuse extends beyond keyboard warriors
-- 👻 Engagement is cheap to fake
-- 🔗 Distribution is increasingly intermediated
-- 🎯 Attention is increasingly fragmented
-
-The infrastructure for agentic commerce is already here, just not evenly adopted.
-
-## The X to Spam Problem
-
-Near the beginning of February, [@nikitabier of X](https://x.com/nikitabier) called this out:
+[@nikitabier of X](https://x.com/nikitabier) called this out near the beginning of February:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Prediction: In less than 90 days, all channels that we thought were safe from spam &amp; automation will be so flooded that they will no longer be usable in any functional sense: iMessage, phone calls, Gmail. <br><br>And we will have no way to stop it.</p>&mdash; Nikita Bier (@nikitabier) <a href="https://twitter.com/nikitabier/status/2021632774013432061?ref_src=twsrc%5Etfw">February 11, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 And the team at X did not wait to start acting on it. Nikita followed up a month later saying [the financial incentive to spam on X will soon be negative](https://x.com/nikitabier/status/2034143577425776805).
+
+The internet still runs on economics that assume human attention is scarce, content is static, and abuse is manageable.
+
+None of that is true anymore.
+
+- 🗑️ **Slop** leads to a low quality internet
+- 🔇 **Noise** diffuses our attention
+- 🤖 **Abuse** extends beyond keyboard warriors
+- 🎭 **Engagement** is cheap to fake
+- 🚧 **Distribution** is increasingly intermediated
+- 🪞 **Attention** is increasingly fragmented
+
+Luckily, the tools to solve this problem is already here: **agentic payment infrastructure**.
+
+> _The infrastructure is already here, just not evenly adopted._
 
 ## Not Everyone Wants the Same Thing
 
@@ -69,19 +69,19 @@ All of this results in tradeoffs that compete with each other: monetization, exc
 
 But the current landscape forces everyone into the same set of tradeoffs:
 
-- Want reach? You give up revenue.
-- Want revenue? You gate content and lose reach.
-- Want engagement? You optimize for algorithms that reward volume over quality.
+- **Want reach?** You give up revenue.
+- **Want revenue?** You gate content and lose reach.
+- **Want engagement?** You optimize for algorithms that reward volume over quality.
 
-**The one thing we know for sure is that everyone is open to a solution that simultaneously maximizes Reach and Revenue.**
+> The one thing we know for sure is that no one says no to a solution that simultaneously maximizes Reach and Revenue without compromising on content quality.
 
 ## Business Models: The Reach vs. Revenue Landscape
 
 Here is the current landscape of business models on the Reach vs Revenue tradeoff matrix, including new models enabled by agentic payment infrastructure:
 
-{{< reach_revenue_graph_infra >}}
+It's not about giving up one revenue stream for another. It's about having more ways to earn. It's about increasing optionality. It's about growing the pie for everyone.
 
-**It's not about giving up one revenue stream for another. It's about having more ways to earn. It grows the pie for everyone.**
+{{< reach_revenue_graph_infra >}}
 
 ## What Options Do We Have?
 
@@ -89,7 +89,7 @@ Below is a non-exhaustive list of options companies like Medium could implement 
 
 ### 1. Pay to unlock
 
-**One article. One payment. No subscription.**
+_**One article. One payment. No subscription.**_
 
 Most paywalls require a monthly subscription. But what if you could pay to unlock just a single article or video for a small fee?
 
@@ -97,17 +97,19 @@ This creates a middle ground the web mostly skipped over: not free, not subscrip
 
 ### 2. Pay for preview
 
-**Bots pay to peek. Humans decide if it's worth it.**
+_**Bots pay to peek. Humans decide if it's worth it.**_
 
 You've likely seen a handful of articles where you get a preview (a few paragraphs) for free, but then you have to pay to read the rest.
 
 Paying to unlock solves for humans, but not for bots. What if you had to pay a couple of cents to see a preview?
 
-Any bot or AI lab training their models would have to pay to see if they even want to train on your content.
+Any bot or AI lab training their models would have to pay to see if they even want to train on your content. Then, they choose if they want to convert from paying for a preview to paying for the full article or not.
+
+It might not amount to much, but it's a different revenue model that ensures the creator gets something for their work.
 
 ### 3. Pay to comment
 
-**Put your money where your mouth is.**
+_**Put your money where your mouth is.**_
 
 Up until now, comments have been a binary toggle: open to everyone or completely off. Most platforms turned off comments a decade ago. That was the only available answer.
 
@@ -123,7 +125,7 @@ If posting is free, spam scales. If commenting requires a small payment or stake
 
 ### 4. Leave a tip
 
-**Let agents and humans say "thank you" with real value.**
+_**Let agents and humans say "thank you" with real value.**_
 
 We've all heard of Sentiment Analysis, but how about Sentiment Creation?
 
@@ -149,8 +151,8 @@ Protocols, standards, infrastructure, usage. It's all here. Simple, cheap, and a
 
 The building blocks exist. What's missing is adoption.
 
-**If you're interested in integrating a new revenue model into your platform, and not sure where to start, we're here to help. Send [us a message](mailto:hello@grove.city) and we'll help you out.**
+## A 🌿 from Grove
 
----
+**If you're interested in integrating a new revenue model into your platform, and not sure where to start, we're here to help. Send [us a message](mailto:hello@grove.city) and we'll help you out.**
 
 _We've got a lot of exciting product updates coming soon. Follow us on [X](https://x.com/BuildWithGrove) or create an account at [Grove.city](https://grove.city/) to get early access._
