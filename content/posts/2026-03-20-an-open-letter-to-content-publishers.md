@@ -44,7 +44,7 @@ None of that is true anymore.
 - 🔗 Distribution is increasingly intermediated
 - 🎯 Attention is increasingly fragmented
 
-The saving grace is that agentic commerce is emerging, and will play a big role in solving this problem. More on this later in the post.
+The infrastructure for agentic commerce is already here, just not evenly adopted.
 
 ## The X to Spam Problem
 
@@ -52,11 +52,7 @@ Near the beginning of February, [@nikitabier of X](https://x.com/nikitabier) cal
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Prediction: In less than 90 days, all channels that we thought were safe from spam &amp; automation will be so flooded that they will no longer be usable in any functional sense: iMessage, phone calls, Gmail. <br><br>And we will have no way to stop it.</p>&mdash; Nikita Bier (@nikitabier) <a href="https://twitter.com/nikitabier/status/2021632774013432061?ref_src=twsrc%5Etfw">February 11, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-And the team at X did not wait to start acting on it:
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The financial incentive to spam on X will decline enormously over the next 30 days and soon be negative.</p>&mdash; Nikita Bier (@nikitabier) <a href="https://twitter.com/nikitabier/status/2034143577425776805?ref_src=twsrc%5Etfw">March 18, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-X money might also play a role here but it's too early to tell.
+And the team at X did not wait to start acting on it. Nikita followed up a month later saying [the financial incentive to spam on X will soon be negative](https://x.com/nikitabier/status/2034143577425776805).
 
 ## Not Everyone Wants the Same Thing
 
@@ -81,15 +77,11 @@ But the current landscape forces everyone into the same set of tradeoffs:
 
 ## Business Models: The Reach vs. Revenue Landscape
 
-Here is the current landscape of existing business models on the Reach vs Revenue tradeoff matrix:
-
-{{< reach_revenue_graph_baseline >}}
-
-With agentic payment infrastructure, and a world of agent consumers and AI labs, there are new revenue business models:
+Here is the current landscape of business models on the Reach vs Revenue tradeoff matrix, including new models enabled by agentic payment infrastructure:
 
 {{< reach_revenue_graph_infra >}}
 
-**The key is that it's not about giving up one revenue stream for another. It's about having more ways to earn. It grows the pie for everyone.**
+**It's not about giving up one revenue stream for another. It's about having more ways to earn. It grows the pie for everyone.**
 
 ## What Options Do We Have?
 
@@ -135,7 +127,7 @@ If posting is free, spam scales. If commenting requires a small payment or stake
 
 We've all heard of Sentiment Analysis, but how about Sentiment Creation?
 
-Imagine frontier labs had a _tipping-jar_ they would give to agents that can leave a tip during training or inference runs if they deemed your content useful? I'd probably tweet about it every time it happened.
+Imagine if frontier labs gave their agents a _tipping jar_ — leaving a small tip during training or inference whenever they deemed content useful. I'd probably tweet about it every time it happened.
 
 This has been tried many times, but never really took off because there is no sustainable long-term business model for it. What we've seen is that this won't survive as a standalone product but can live side-by-side with the business models above by leveraging the same infrastructure.
 
@@ -154,6 +146,8 @@ Protocols, standards, infrastructure, usage. It's all here. Simple, cheap, and a
 - 🤝 Google's [Agent to Agent (A2A)](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)
 - 🧠 Anthropic's [MCP](https://modelcontextprotocol.io/docs/getting-started/intro)
 - ...and probably a handful of others I've forgotten
+
+The building blocks exist. What's missing is adoption.
 
 **If you're interested in integrating a new revenue model into your platform, and not sure where to start, we're here to help. Send [us a message](mailto:hello@grove.city) and we'll help you out.**
 
