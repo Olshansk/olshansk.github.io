@@ -21,7 +21,7 @@ Revenue was always a focus for the platform, not the users. That changed as comp
 
 Now, with AI training and inferring on content, the conversation is doubling down on revenue generation, with more focus on credit and compensation.
 
-**The opportunity, however, is not in simply the ability to earn-more, but the ability to have more-ways-to-earn.**
+**The opportunity is not about squeezing more out of the same revenue model. It's about unlocking new ones.**
 
 ## The future of content publishing needs configurable revenue models, not just policy toggles
 
@@ -93,9 +93,17 @@ Any bot or AI lab training their models would have to pay to see if they even wa
 
 ### 3. Pay to comment
 
-If posting is free, spam scales.
+Up until now, comments have been a binary toggle: open to everyone or completely off. Most platforms turned off comments a decade ago. That was the only available answer.
 
-If commenting requires a small payment or stake, low-effort abuse becomes more expensive. Quality goes up. Moderation gets easier. Community trust improves.
+What if there was a middle ground? Pay to comment.
+
+Are you a keyboard warrior who is willing to give $0.05 to share your frustration? If you're willing to pay, go for it.
+
+Are you a supporter who wants to express your gratitude and get the author's attention? A small economic attribution goes further than a cold email.
+
+Are you a bot that's spamming the internet? Well, if you're willing to pay, maybe some people would be okay with it.
+
+If posting is free, spam scales. If commenting requires a small payment or stake, low-effort abuse becomes more expensive. Quality goes up. Moderation gets easier. Community trust improves.
 
 ### 4. Leave a tip
 
