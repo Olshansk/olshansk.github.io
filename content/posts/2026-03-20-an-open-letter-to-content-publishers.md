@@ -19,7 +19,7 @@ cover:
 
 When it comes to digital content, **reach** used to be king. Then **revenue** entered the conversation.
 
-Companies like Substack and Patreon made revenue and subscriptions a first class primitive. Companies like Medium followed and Twitch followed. Now we're seeing YouTube, Reddit, X and others experiment with different models of integrated monetization.
+Companies like Substack and Patreon made revenue and subscriptions a first-class primitive. Companies like Medium followed, and Twitch followed. Now we're seeing YouTube, Reddit, X, and others experiment with different models of integrated monetization.
 
 Now, with AI training on and inferring from content, **credit** and **compensation** are front and center.
 
@@ -39,20 +39,20 @@ Digg’s [recent reset](https://digg.com/) looks like a different story, but it 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Prediction: In less than 90 days, all channels that we thought were safe from spam &amp; automation will be so flooded that they will no longer be usable in any functional sense: iMessage, phone calls, Gmail. <br><br>And we will have no way to stop it.</p>&mdash; Nikita Bier (@nikitabier) <a href="https://twitter.com/nikitabier/status/2021632774013432061?ref_src=twsrc%5Etfw">February 11, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-And the team at X did not wait to start acting on it. Nikita followed up a month later saying [the financial incentive to spam on X will soon be negative](https://x.com/nikitabier/status/2034143577425776805).
+And the team at X did not wait to start acting on it. Nikita followed up a month later, saying [the financial incentive to spam on X will soon be negative](https://x.com/nikitabier/status/2034143577425776805).
 
 The internet still runs on economics that assume human attention is scarce, content is static, and abuse is manageable.
 
 None of that is true anymore.
 
-- 🗑️ **Slop** leads to a low quality internet
+- 🗑️ **Slop** leads to a low-quality internet
 - 🔇 **Noise** diffuses our attention
 - 🤖 **Abuse** extends beyond keyboard warriors
 - 🎭 **Engagement** is cheap to fake
 - 🚧 **Distribution** is increasingly intermediated
 - 🪞 **Attention** is increasingly fragmented
 
-Luckily, the tools to solve this problem is already here: **agentic payment infrastructure**.
+Luckily, the tools to solve this problem are already here: **agentic payment infrastructure**.
 
 > _The infrastructure is already here, just not evenly adopted._
 
@@ -131,9 +131,9 @@ _**Let agents and humans say "thank you" with real value.**_
 
 We've all heard of Sentiment Analysis, but how about Sentiment Creation?
 
-Imagine if frontier labs gave their agents a _tipping jar_ — leaving a small tip during training or inference whenever they deemed content useful. I'd probably tweet about it every time it happened.
+Imagine if Frontier Labs gave their agents a _tipping jar_ - leaving a small tip during training or inference whenever they deemed content useful. I'd probably tweet about it every time it happened.
 
-This has been tried many times, but never really took off because there is no sustainable long-term business model for it. What we've seen is that this won't survive as a standalone product but can live side-by-side with the business models above by leveraging the same infrastructure.
+This has been tried many times, but it never really took off because there is no sustainable long-term business model for it. What we've seen is that this won't survive as a standalone product but can live side-by-side with the business models above by leveraging the same infrastructure.
 
 ## Is the infrastructure for this ready today?
 
