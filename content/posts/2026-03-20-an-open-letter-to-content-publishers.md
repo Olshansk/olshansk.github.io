@@ -35,7 +35,7 @@ That is a step in the right direction. But it is not the 3Cs. It is a tradeoff b
 
 Digg’s [recent reset](https://digg.com/) looks like a different story, but it is not. **If bots, spam, and synthetic engagement dominate the system, trust disappears and the product breaks.** Same root issue.
 
-[@nikitabier of X](https://x.com/nikitabier) called this out near the beginning of February:
+[@nikitabier of X](https://x.com/nikitabier/status/2021632774013432061) called this out near the beginning of February:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Prediction: In less than 90 days, all channels that we thought were safe from spam &amp; automation will be so flooded that they will no longer be usable in any functional sense: iMessage, phone calls, Gmail. <br><br>And we will have no way to stop it.</p>&mdash; Nikita Bier (@nikitabier) <a href="https://twitter.com/nikitabier/status/2021632774013432061?ref_src=twsrc%5Etfw">February 11, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
