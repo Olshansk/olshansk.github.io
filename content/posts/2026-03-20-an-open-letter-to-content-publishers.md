@@ -13,6 +13,8 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
+cover:
+    image: "/images/posts/2026-03-20-an-open-letter-to-content-publishers.png"
 ---
 
 When it comes to digital content, **reach** used to be king. Then **revenue** entered the conversation.
@@ -156,3 +158,13 @@ The building blocks exist. What's missing is adoption.
 **If you're interested in integrating a new revenue model into your platform, and not sure where to start, we're here to help. Send [us a message](mailto:hello@grove.city) and we'll help you out.**
 
 _We've got a lot of exciting product updates coming soon. Follow us on [X](https://x.com/BuildWithGrove) or create an account at [Grove.city](https://grove.city/) to get early access._
+
+
+
+
+<!-- Tentative titles by platform:
+- X: "An Open Letter to Content Publishers"
+- LinkedIn: "The Revenue Models Content Publishers Are Missing"
+- Medium: "Dear Medium: Your Writers Deserve More Than a Toggle"
+- Hacker News: "Agentic Payment Infrastructure and New Revenue Models for Content Publishers"
+-->
