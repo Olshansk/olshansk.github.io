@@ -23,9 +23,9 @@ Your inbox is full. Your DMs are overflowing. Agents are spamming your replies. 
 
 ## The problem with open DMs
 
-If you're a creator, influencer, or business owner, you've been here before: dozens of cold messages, spam, and "quick questions" that aren't quick. Everyone wants a coffee chat. The signal gets buried under noise.
+If you're a creator, influencer, or business owner, you've been here before: dozens of cold messages, spam, and _"quick questions"_ that aren't quick. Everyone wants a coffee chat. The signal gets buried under noise.
 
-Most platforms give you two options: open DMs to everyone, or close them entirely.
+**Most platforms give you two options**: open DMs to everyone, or close them entirely.
 
 Open means chaos. Closed means missed opportunities.
 
@@ -33,7 +33,9 @@ Neither is great.
 
 ## Introducing Tip to Talk
 
-Today we're launching **Tip to Talk** on [Grove.city](https://grove.city) - a simple way for creators to get paid for their attention.
+Today, we're launching **Tip to Talk** on [Grove.city](https://grove.city):
+
+> A simple way for creators to get paid for their attention.
 
 Here's how it works:
 
@@ -59,9 +61,9 @@ The desire to pay for someone's attention isn't new - it just hasn't been easy.
 
 > "Take a human desire, preferably one that has been around for a really long time… identify that desire and use modern technology to take out steps"
 >
-> - Ev Williams
+> — Ev Williams
 
-At Grove, we're building this in as a core feature. Tipping to get a message across is a fundamental primitive of a wallet-first, agent-friendly Linktree.
+At Grove, we're building this in as a core feature. **Tipping to get a message across is a fundamental primitive of a wallet-first, agent-friendly Linktree.**
 
 ## How to set it up
 
