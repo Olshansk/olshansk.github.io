@@ -2,12 +2,12 @@
 title: "Why Grove Is the 10x Better Linktree"
 date: 2026-04-03T11:26:32-0700
 draft: false
-description: "A wallet-first home for your identity, content, and money."
+description: "A wallet-first personal landing page for your content, support, and money."
 tags: ["Grove", "Linktree", "Creators", "Web3", "Product"]
 categories: ["Posts"]
 medium_url: ""
 substack_url: ""
-ShowToc: true
+ShowToc: false
 TocOpen: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
@@ -17,31 +17,28 @@ cover:
   image: "/images/posts/2026-04-03-why-grove-is-better-than-linktree-home.png"
 ---
 
-Your home is a mirror of who you are. You invite people over to share your space, your interests, your life.
+Your home mirrors you. You invite people over to share your space, your interests, your life.
 
-Your digital home should be no different.
+Your personal landing page should be no different.
 
 **Linktree is like a parking lot.** People come, only to leave as soon as they get what they need.
 
-**Grove is the home for your digital identity.** People come, they stay, they support you, and they come back when they want to reach you again.
+**Grove is your personal landing page.** People come, they stay, they support you, and they come back when they want to reach you again.
 
-## The short version
+It should do more than just hold a list of links:
 
-Your personal digital landing page should do more than a collection of links.
-
-It should:
-
-- **✅ Prove you are a real person**
+- **✅ Prove you're a real person**
 - **💸 Turn your attention into revenue**
 - **🎁 Let people support you instantly**
-- **💬 Let people talk to you and learn what you talk about**
+- **💬 Let people talk to you**
+- **🧠 Show what you care about**
 - **🏠 Feel like a homepage, not a parking lot**
 
-That is what Grove is for 🌿
+That's what Grove is for 🌿
 
 ## What it looks like
 
-It's a shift from a flat list of links to a home for identity, content, and money.
+It's a shift from a flat list of links to a home for your content, support, and money.
 
 <img src="/images/posts/2026-04-03-why-grove-is-better-than-linktree-comparison.png" alt="Linktree comparison" style="max-width: 100%;" />
 
@@ -57,35 +54,21 @@ Now the page itself matters.
 
 People are not just clicking through.
 
-They are deciding whether to trust you, follow you, pay you, or talk to you.
+They're deciding whether to trust you, follow you, pay you, or talk to you.
 
-They are deciding whether your attention is worth their time and money, and vice versa.
+They're deciding whether your attention is worth their time and money, and vice versa.
 
 ## What Grove does differently
 
-There are two things Grove does that a plain link page cannot.
+Grove does two things a plain link page can't.
 
-### 1. It verifies real accounts
-
-Anyone can paste a URL.
-
-That does not prove ownership.
-
-Grove lets you **connect and verify** accounts like X, GitHub, and YouTube so people know they are looking at the real you.
-
-In a world of impersonation and AI-generated everything, that is not a feature.
-
-It is the baseline.
-
-### 2. It puts money on the page
-
-This is the big one.
+### 1. It puts money upfront and center 🪪
 
 Grove is **wallet-first**.
 
-Money is not hidden behind a redirect.
+> Money isn't hidden behind a redirect.
 
-It is part of the profile.
+It's part of the profile.
 
 That unlocks a few things immediately:
 
@@ -93,13 +76,23 @@ That unlocks a few things immediately:
 - **✉️ Messages** - if someone wants your attention, they can tip to reach you.
 - **⚡ Instant settlement** - no waiting, no thresholds, no mystery balance somewhere else, no eggregious fees.
 
+### 2. It verifies who you are across multiple platforms ✅
+
+Anyone can paste a URL.
+
+That doesn't prove ownership.
+
+Grove lets you **connect and verify** accounts like X, GitHub, YouTube and more so people know they're looking at the real you.
+
+In a world of impersonation and AI-generated everything, that's not a feature. **It's the baseline.**
+
 ## Tip to Talk is the clearest example
 
 We built [Tip to Talk](https://grove.city/news/tip-to-talk-getting-paid-for-your-attention-is-all-you-need) because attention has real monetary value.
 
 > If you want my attention, pay for it.
 
-That sounds blunt. It is also the point.
+That sounds blunt. It's also the point.
 
 We all get hit with spam, cold DMs, _"quick questions"_ that are never quick, and people asking for free time, free advice, or free introductions.
 
@@ -112,9 +105,7 @@ That keeps the inbox open without making it free.
 
 ## "Isn't this just Patreon?"
 
-Not really.
-
-Patreon solved recurring support.
+Not really. Patreon solved recurring support.
 
 Grove is built for **direct, lightweight, just-in-time action**.
 
@@ -124,23 +115,19 @@ That means:
 - 🙏 No commitment just to say thanks
 - ⚡ No extra friction for a $5 moment
 
-Most people are happy to pay when they want to show appreciation. They just do not want five more recurring subscriptions.
+Most people are happy to pay when they want to show appreciation. They just don't want five more recurring subscriptions.
 
 > It's awkward to not tip in person. It's also awkward to cancel a recurring Patreon subscription.
 
-Grove lets you send a message, show appreciation, instantly, and move on.
-
-That's it.
+Grove lets you send a message, show appreciation, instantly, and move on. **That's it.**
 
 ## Where do I start?
 
-**Linktree is a list of links.** 🔗🪾
+Linktree is a list of links. 🔗🪾
 
-**Grove is a profile that verifies you, pays you, and grows with you.** 🌿
+Grove is a profile that verifies you, pays you, and grows with you. 🌿
 
-If you already have a Linktree, move over.
-
-If you do not, start here anyway.
+**If you already have a Linktree, move over. If you don't, sign up up anyway.**
 
 Check it out at [Grove.city](https://grove.city).
 
