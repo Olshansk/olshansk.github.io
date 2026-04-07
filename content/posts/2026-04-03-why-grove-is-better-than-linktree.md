@@ -13,15 +13,17 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
+cover:
+  image: "/images/posts/2026-04-03-why-grove-is-better-than-linktree-home.png"
 ---
 
 Your home is a mirror of who you are. You invite people over to share your space, your interests, your life.
 
 Your digital home should be no different.
 
-**Linktree is like a parking lot. People come, only to leave as soon as they get what they need.**
+**Linktree is like a parking lot.** People come, only to leave as soon as they get what they need.
 
-**Grove is the home for your digital identity. People come, they stay, they support you, and they come back when they want to reach you again.**
+**Grove is the home for your digital identity.** People come, they stay, they support you, and they come back when they want to reach you again.
 
 ## The short version
 
@@ -39,15 +41,9 @@ That is what Grove is for 🌿
 
 ## What it looks like
 
-The first image is the Grove profile itself.
+It's a shift from a flat list of links to a home for identity, content, and money.
 
-![Grove profile screenshot](/images/posts/2026-04-03-why-grove-is-better-than-linktree-home.png)
-
-The second is the side-by-side comparison.
-
-![Linktree comparison](/images/posts/2026-04-03-why-grove-is-better-than-linktree-comparison.png)
-
-It shows the shift from a flat list of links to a home for identity, content, and money.
+<img src="/images/posts/2026-04-03-why-grove-is-better-than-linktree-comparison.png" alt="Linktree comparison" style="max-width: 100%;" />
 
 ## Why the old model is not enough
 
@@ -124,9 +120,9 @@ Grove is built for **direct, lightweight, just-in-time action**.
 
 That means:
 
-- No subscription fatigue
-- No commitment just to say thanks
-- No extra friction for a $5 moment
+- 😌 No subscription fatigue
+- 🙏 No commitment just to say thanks
+- ⚡ No extra friction for a $5 moment
 
 Most people are happy to pay when they want to show appreciation. They just do not want five more recurring subscriptions.
 
@@ -138,9 +134,9 @@ That's it.
 
 ## Where do I start?
 
-**Linktree is a list of links.**
+**Linktree is a list of links.** 🔗🪾
 
-**Grove is a profile that verifies you, pays you, and grows with you.**
+**Grove is a profile that verifies you, pays you, and grows with you.** 🌿
 
 If you already have a Linktree, move over.
 
