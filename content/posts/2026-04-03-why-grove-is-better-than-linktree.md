@@ -2,7 +2,7 @@
 title: "Why Grove Is the 10x Better Linktree"
 date: 2026-04-03T11:26:32-0700
 draft: false
-description: "A wallet-first personal landing page for your content, support, and money."
+description: "A wallet-first personal homepage for your content, your audience, and your money."
 tags: ["Grove", "Linktree", "Creators", "Web3", "Product"]
 categories: ["Posts"]
 medium_url: ""
@@ -40,7 +40,7 @@ That's what Grove is for 🌿
 
 It's a shift from a flat list of links to a home for your content, support, and money.
 
-<img src="/images/posts/2026-04-03-why-grove-is-better-than-linktree-comparison.png" alt="Linktree comparison" style="max-width: 100%;" />
+<img src="/images/posts/2026-04-03-why-grove-is-better-than-linktree-comparison.png" alt="A wallet-first personal homepage for your content, your audience, and your money." style="max-width: 100%;" />
 
 ## Why the old model is not enough
 
@@ -62,7 +62,7 @@ They're deciding whether your attention is worth their time and money, and vice 
 
 Grove does two things a plain link page can't.
 
-### 1. It puts money upfront and center 🪪
+### 1. It puts money front and center 🪪
 
 Grove is **wallet-first**.
 
@@ -73,7 +73,7 @@ It's part of the profile.
 That unlocks a few things immediately:
 
 - **💸 Tips** - someone likes your work, they can pay you on the spot.
-- **✉️ Messages** - if someone wants your attention, they can tip to reach you.
+- **✉️ Messages** - if someone wants your attention, they can pay to reach you.
 - **⚡ Instant settlement** - no waiting, no thresholds, no mystery balance somewhere else, no eggregious fees.
 
 ### 2. It verifies who you are across multiple platforms ✅
@@ -96,10 +96,10 @@ That sounds blunt. It's also the point.
 
 We all get hit with spam, cold DMs, _"quick questions"_ that are never quick, and people asking for free time, free advice, or free introductions.
 
-Tip to Talk makes the trade explicit:
+**Tip to Talk makes the trade explicit:**
 
-- If you need someone's attention, pay to reach them.
-- If someone wants yours, they can pay to earn it.
+- If you need someone's attention, **pay to reach them**.
+- If someone wants yours, **they can pay to earn it**.
 
 That keeps the inbox open without making it free.
 
@@ -125,9 +125,9 @@ Grove lets you send a message, show appreciation, instantly, and move on. **That
 
 Linktree is a list of links. 🔗🪾
 
-Grove is a profile that verifies you, pays you, and grows with you. 🌿
+Grove is a digital home that verifies you and pays you. 🌿
 
-**If you already have a Linktree, move over. If you don't, sign up up anyway.**
+**If you already have a Linktree, move over. If you don't, sign up anyway.**
 
 Check it out at [Grove.city](https://grove.city).
 
