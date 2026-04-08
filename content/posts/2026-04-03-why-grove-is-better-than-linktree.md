@@ -40,7 +40,7 @@ That's what Grove is for 🌿
 
 It's a shift from a flat list of links to a home for your content, support, and money.
 
-<img src="/images/posts/2026-04-03-why-grove-is-better-than-linktree-comparison.png" alt="A wallet-first personal homepage for your content, your audience, and your money." style="max-width: 100%;" />
+<img src="/images/posts/linktree_vs_grove_image.png" alt="A wallet-first personal homepage for your content, your audience, and your money." style="max-width: 100%;" />
 
 ## Why the old model is not enough
 
@@ -74,7 +74,7 @@ That unlocks a few things immediately:
 
 - **💸 Tips** - someone likes your work, they can pay you on the spot.
 - **✉️ Messages** - if someone wants your attention, they can pay to reach you.
-- **⚡ Instant settlement** - no waiting, no thresholds, no mystery balance somewhere else, no eggregious fees.
+- **⚡ Instant settlement** - no waiting, no thresholds, no mystery balance somewhere else, no egregious fees.
 
 ### 2. It verifies who you are across multiple platforms ✅
 
