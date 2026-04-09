@@ -13,11 +13,11 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-Programming used to be a _generative_ process. The act of creation & _generation_ enabled an entry into the state of flow, when the difficulty of the task accutely matched with the skill of the developer. This state is naturally and intrinsically rewarding.
+Programming used to be a _generative_ process. The act of creation & _generation_ enabled an entry into the state of flow, when the difficulty of the task acutely matched with the skill of the developer. This state is naturally and intrinsically rewarding.
 
 The same concept applies to writing.
 
-Reviewing or editing - be it code, text, or other - is a _verification_ process. Every step is a blockade that creates friction and interupttions on every step. It prevents the ability of getting into a state of flow. In turn, it is not rewarding from a natural and intrinsic point of view, but only as a means to an end where the result may be rewarding.
+Reviewing or editing - be it code, text, or other - is a _verification_ process. Every step is a blockade that creates friction and interruptions. It prevents the ability of getting into a state of flow. In turn, it is not rewarding from a natural and intrinsic point of view, but only as a means to an end where the result may be rewarding.
 
 One paper from 2025 references the infamous book by Mihaly Csikszentmihalyi on Flow:
 
@@ -25,15 +25,15 @@ One paper from 2025 references the infamous book by Mihaly Csikszentmihalyi on F
 
 In a world of agentic coding, _verification_ becomes the main activity of software engineers.
 
-Even if we avoid the disruption of life, work, or the urge to always kick off another agent to _generate_ something, even if we are only focused on _verifying_ one task a time, can flow be achieved?
+Even if we avoid the disruption of life, work, or the urge to always kick off another agent to _generate_ something, even if we are only focused on _verifying_ one task at a time, can flow be achieved?
 
-_Verificaition_ is rewarding because it can be a means to a good end. But, can we gamify it? **Can we make verification fun?**
+_Verification_ is rewarding because it can be a means to a good end. But, can we gamify it? **Can we make verification fun?**
 
 I'm not going to present an answer here, but have a gut feeling that there might be lessons to learn from games. Those who work on QA at gaming studios treat it as a job, but also have fun doing it.
 
-For software, will it be a new UX? A new modaility? Completely automated a way?
+For software, will it be a new UX? A new modality? Completely automated away?
 
-Do software developers become artists who sculpt code? Orchestators who direct code? Soldiers who command code? Architects who envision systems of code? Gardeners who tend to code? Sitters who nurture code?
+Do software developers become artists who sculpt code? Orchestrators who direct code? Soldiers who command code? Architects who envision systems of code? Gardeners who tend to code? Sitters who nurture code?
 
 Maybe we become gamers who simply play with code?
 
