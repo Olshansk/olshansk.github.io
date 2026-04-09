@@ -13,7 +13,15 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-Programming used to be a _generative_ process. The act of creation & _generation_ enabled an entry into the state of flow, when the difficulty of the task acutely matched with the skill of the developer. This state is naturally and intrinsically rewarding.
+Games like Overwatch use Matchmaking Rating (MMR) algorithms to ensure players are matched against each other as close to _the same skill level_ as possible:
+
+> In an ideal situation, both teams would have 50% win probability, causing the result to entirely depend on the players' performance. [3]
+
+This is a precondition for flow: the difficulty of the task must acutely match the skill of the player. When it does, the experience becomes naturally and intrinsically rewarding.
+
+## Cognitive Friction in Verification
+
+Programming used to be a _generative_ process. The act of creation & _generation_ enabled an entry into the state of flow in the same way.
 
 The same concept applies to writing.
 
@@ -22,6 +30,8 @@ Reviewing or editing - be it code, text, or other - is a _verification_ process.
 One paper from 2025 references the infamous book by Mihaly Csikszentmihalyi on Flow:
 
 > From a theoretical standpoint, verification burden disrupts cognitive flow by introducing frequent interruptions [36]. This undermines users’ sense of immersion and engagement, thereby impeding trust in tools [107].
+
+## Flow in Verification?
 
 In a world of agentic coding, _verification_ becomes the main activity of software engineers.
 
@@ -39,6 +49,6 @@ Maybe we become gamers who simply play with code?
 
 ---
 
-[1] **What Needs Attention? Prioritizing Drivers of Developers’
-Trust and Adoption of Generative AI** (2025); *https://arxiv.org/abs/2505.17418*
+[1] **What Needs Attention? Prioritizing Drivers of Developers’ Trust and Adoption of Generative AI** (2025); *https://arxiv.org/abs/2505.17418*
 [2] **Flow: The Psychology of Optimal Experience** (1990); *https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202*
+[3] **Overwatch Matchmaking**; *https://overwatch.fandom.com/wiki/Matchmaking*
