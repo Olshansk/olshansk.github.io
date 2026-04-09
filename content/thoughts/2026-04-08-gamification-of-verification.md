@@ -50,5 +50,7 @@ Maybe we become gamers who simply play with code?
 ---
 
 [1] **What Needs Attention? Prioritizing Drivers of Developers’ Trust and Adoption of Generative AI** (2025); *https://arxiv.org/abs/2505.17418*
+
 [2] **Flow: The Psychology of Optimal Experience** (1990); *https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202*
+
 [3] **Overwatch Matchmaking**; *https://overwatch.fandom.com/wiki/Matchmaking*
