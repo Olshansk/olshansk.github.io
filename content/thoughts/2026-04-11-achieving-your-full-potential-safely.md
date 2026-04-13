@@ -2,8 +2,8 @@
 title: "Achieving your full potential, safely"
 date: 2026-04-11T08:21:20-0700
 draft: false
-description: ""
-tags: []
+description: "How AI safety intersects with network protocols, sensor data, construction, and cryptoeconomics — and why it has to be studied empirically."
+tags: ["AI Safety", "Anthropic", "Network Protocols", "Sensor Data", "Construction", "Cryptoeconomics", "Mission"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
@@ -28,8 +28,6 @@ ShowWordCount: true
 
 I was recently talking to someone about the importance of AI safety in today's rapidly changing world. They asked me: _"So what's your mission? What would be on Daniel's desk Monday morning to tackle this?"_
 
-Below is the result of thinking about it for a couple of days and capturing how my work up until this point relates to this question. It is a first draft that I plan to transition to a proper post later.
-
 ## Why this matters
 
 It's not a simple question, especially for someone who lives to work, with appropriate (necessary) breaks in between. My experience spans immigrating between countries with very disparate cultures, facing a handful of harsh personal realities in life, working on bleeding-edge tech that is still too early for mainstream adoption, and tackling problems in [industries that haven't changed in decades](https://a16z.com/every-building-youve-ever-been-in-was-designed-by-software-built-in-1997/).
@@ -48,7 +46,7 @@ My mission hasn't changed. In fact, AI is the most powerful accelerant for this.
 
 > "That means making products that are genuinely useful, speaking honestly about risks and benefits, and working with anyone serious about getting this right."
 
-The hard problem in AI safety is not _just_ abstract alignment in the lab, but learning empirically from systems that are useful enough to deploy in high-stakes physical environments. Tying this into things I've seen first hand, I believe critical but adverserial environments, like cryptoeconomics, or high-stakes real-world environments like constructions, are critical places to study emergent behavior before it reaches the real world in practice. Moving a level up from theory, the technical stack spanning APIs, RPCs, raw sensor data, and physical peripherals, can result in small failures that will compound into irreversible harm.
+The hard problem in AI safety is not _just_ abstract alignment in the lab, but learning empirically from systems that are useful enough to deploy in high-stakes physical environments. Tying this into things I've seen first hand, I believe critical but adversarial environments, like cryptoeconomics, or high-stakes real-world environments like constructions, are critical places to study emergent behavior before it reaches the real world in practice. Moving a level up from theory, the technical stack spanning APIs, RPCs, raw sensor data, and physical peripherals, can result in small failures that will compound into irreversible harm.
 
 That means safety work can be organized by surface area and stakes: protocols first, then resources, then sensors, then actuators.
 
@@ -84,7 +82,7 @@ I've always liked Charlie Munger perspective of those who choose to take a multi
 
 Multidisciplinary thinking helps engage different parts of the brain, building neural connections, surfacing a wide range of perspectives, and triggering new ideas. It's not only helpful, but it's also a fun way to live life.
 
-Multidiscplinary also doesn't mean different topics, but also taking on different roles in different circumstances. Knowing when to step up, and when to step down. When to lead, and when to follow. When to ideate, and when to execute. It is a skill that can only be learned through trial and error.
+Multidisciplinary also doesn't mean different topics, but also taking on different roles in different circumstances. Knowing when to step up, and when to step down. When to lead, and when to follow. When to ideate, and when to execute. It is a skill that can only be learned through trial and error.
 
 The world changes, organizational priorities shift, urgent matters pop up from users, customers, or other inputs. Day-to-day and week-to-week priorities are always in flux. But over the span of months and years, higher order goals remain constant while the underlying details shift and adapt.
 
@@ -96,7 +94,7 @@ We use natural language to communicate with AI. AI uses digital binary represent
 
 As I said earlier, an air-gapped AI on a separate server is arguably safer than one connected to the internet. But it's also less useful. It's like a car that doesn't move, safe but pointless. The moment you connect it, every API endpoint becomes an attack surface, and every protocol decision becomes a trust decision.
 
-Across Google, Twitter, Magic Leap, Waymo, and Pocket Network, the pattern was the same: APIs aren't just plumbing, they're the trust layer. Every protocol decision is a trust decision, and every endpoint is an attack surface. When you operate a live protocol with individuals running infrastructure trying to game your system, you learn about the importance of incentives, and technical barriers that need to exist to prevent abuse.
+Across Google, Twitter, Magic Leap, Waymo, and Pocket Network, the pattern was the same: APIs aren't just plumbing, they're the trust layer. When you operate a live protocol with individuals running infrastructure trying to game your system, you learn about the importance of incentives, and technical barriers that need to exist to prevent abuse.
 
 As agentic infrastructure matures, this only intensifies. Natural language lets anyone talk to AI, but underneath, it's still APIs all the way down. There is no limit to the scope of this work, and it needs to be studied safely, because protocols are where safety and utility collide.
 
