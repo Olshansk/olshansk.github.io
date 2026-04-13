@@ -13,11 +13,9 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-I was recently asked: _"What's on Daniel Olshansky's desk Monday Morning?"_
+I was recently asked: _"What's your mission? What would be on your desk?"_
 
-It's not a simple question, especially for someone who lives to work, with appropriate breaks in between.
-
-In essence, it's a different way of asking _"What do you want to do with your life?"_
+It's not a simple question, especially for someone who lives to work, with appropriate breaks in between. Evaluating the priorities of a given day or week is one thing. Planning out goals, milestones, and missions spans months and years.
 
 A few years ago, before AI entered its current phase of exponential improvement, I formulated my mission in life as: _"To enable every human to achieve their full potential."_
 
@@ -33,9 +31,13 @@ Anthropic's [Core Views on AI Safety](https://www.anthropic.com/news/core-views-
 
 > "That means making products that are genuinely useful, speaking honestly about risks and benefits, and working with anyone serious about getting this right."
 
-The rest of this post is my attempt to answer _"what's on my desk"_ concretely. It boils down to three convictions:
+"Safe AI" means studying it in maximally adversarial environments, deploying it in real-life useful environments, and recognizing that the work to make it useful and scalable is a necessary precursor to making it safe. You can't study what you haven't built, and you can't secure what nobody uses.
 
-1. **AI communicates with the world through APIs and network protocols.** An air-gapped AI on a disconnected server is arguably safe, but it's also useless — like a car that doesn't move. The protocols that connect AI to humans, to other AIs, and to external systems are where safety and utility collide. This is where I've spent most of my career.
+Today, AI is given access to vast amounts of data for training and compute for inference. In the near future, aside from ongoing engagement with humans, it will have access to real financial resources, raw streaming sensor data, and robotic peripherals in the real world. That's where the safety questions get serious.
+
+This post is my attempt to lay out what I'd focus on. It boils down to three convictions:
+
+1. **AI communicates with the world through APIs and network protocols.** An air-gapped AI on a disconnected server is arguably safe, but it's also useless — like a car that doesn't move. The protocols that connect AI to humans, to other AIs, and to external systems are where safety and utility collide.
 
 2. **AI perceives and acts on the physical world through sensor data.** When AI processes drone imagery to detect landslides, or navigates a car through traffic, the stakes become physical. Industries like construction, which have waited decades for a technology upgrade, are about to get one — the question is whether it'll be done safely.
 
@@ -53,7 +55,7 @@ The balance is delicate: AI needs to be abundantly available, but with appropria
 
 Grandiose mission statements are easy to come up with. They're critical for guiding action, but action still needs to be taken in small, granular, incremental steps.
 
-What follows is a slightly more tactical approach to what I'd want on my desk. For better or for worse, it is quite broad in its discipline. It builds on top of my prior work, interests, experience, and expertise.
+What follows is a slightly more tactical approach. For better or for worse, it is quite broad in its discipline. It builds on top of my prior work, interests, experience, and expertise.
 
 Charlie Munger captures the rationale behind the multidisciplinary "ADD" I, and some other founders, have:
 
@@ -61,7 +63,7 @@ Charlie Munger captures the rationale behind the multidisciplinary "ADD" I, and 
 
 Multidisciplinary thinking helps engage different parts of the brain, building neural connections, surfacing a wide range of perspectives, and triggering new ideas. It's not only helpful, but it's also a fun way to live life.
 
-What's on my desk on Monday? I genuinely don't know, because every week is dynamic. The world changes, organizational priorities shift, urgent matters pop up from users, customers, or other inputs. However, over the span of months or years, higher order efforts remain constant while the underlying details shift and adapt. I can tell you what I'd like to achieve over the course of several years — and the four sections that follow are where I'd focus that effort.
+The world changes, organizational priorities shift, urgent matters pop up from users, customers, or other inputs. Day-to-day and week-to-week priorities are always in flux. But over the span of months and years, higher order goals remain constant while the underlying details shift and adapt. The four sections that follow are where I'd focus that effort.
 
 ## Network Protocols — How AI talks to the world
 
@@ -69,9 +71,9 @@ We use natural language to communicate with AI. AI uses digital binary represent
 
 An air-gapped AI on a separate server is arguably safer than one connected to the internet. But it's also less useful. It's like a car that doesn't move — safe, but pointless. The moment you connect it, every API endpoint becomes an attack surface, and every protocol decision becomes a trust decision.
 
-This is where I've spent most of my career. At Google, I worked with protobufs and gRPC. At Twitter, it was the API platform. At Magic Leap, we built the first version of a digital twin of the real world in the cloud — my title was literally "Augmented Reality Cloud API Engineer." At Waymo, APIs were the common language across organizations. At Pocket Network, our vision was a permissionless API marketplace, and we spent years ensuring and evaluating API quality in a distributed, adversarial environment driven by economic incentives.
+At Google, teams wrestled with how protobufs and gRPC shape the trust boundaries between services at scale. At Twitter, the API platform was the surface through which every external developer — and eventually every bot — interacted with the product. At Magic Leap, the challenge was building spatial computing APIs that bridged the physical and digital world — the first version of a digital twin in the cloud. At Waymo, APIs were the common language across organizations, and the quality of those interfaces directly determined the quality of the safety-critical systems downstream. At Pocket Network, the vision was a permissionless API marketplace — studying how to ensure and evaluate API quality in a distributed, adversarial environment driven by economic incentives.
 
-As agentic infrastructure matures, I believe APIs will play a critical role in how the digital economy operates. LLMs have enabled anyone to interface with AI, but this is an abstraction layer atop APIs, in the same way that APIs are an abstraction layer of the networking stack. There is no limit to the scope of this work — and it needs to be done safely, because protocols are where safety and utility meet head on.
+The pattern across all of these: APIs aren't just plumbing. They're the trust layer. As agentic infrastructure matures, APIs will play a critical role in how the digital economy operates. LLMs have enabled anyone to interface with AI, but natural language is an abstraction layer atop APIs, in the same way that APIs are an abstraction layer of the networking stack. There is no limit to the scope of this work — and it needs to be studied safely, because protocols are where safety and utility meet head on.
 
 In a [recent interview at the World Economics Forum](https://transcriptmate.com/interviews/dario-amodei/dario-amodei-on-ai-s-impact-opportunity-risk-and-societal-adaptation?utm_source=chatgpt.com), Dario said:
 
@@ -85,7 +87,7 @@ We see it with self-driving cars, drones, robots, and we already have cameras al
 
 Processing and making decisions off of input is one thing. Having "limbs" — physical or metaphorical — to act on it in the real world is another. The gap between perception and action is where some of the hardest safety problems live.
 
-During my time at Magic Leap and Waymo, I spent years working on systems that ingest and process raw sensor data. Spatial sensors, lidar, camera, radar — building reliable pipelines to turn noisy signals into ground truth. At Waymo, rigorous evaluation design was everything. A misclassified object isn't a bad recommendation — it's a potential fatality.
+At Magic Leap, teams built systems that ingest spatial sensor data to reconstruct the physical world in real time — the raw signal processing that makes mixed reality possible. At Waymo, the challenge was turning noisy lidar, camera, and radar data into reliable ground truth. Rigorous evaluation design was everything. A misclassified object in that environment isn't a bad recommendation — it's a potential fatality.
 
 As AI systems become more capable at processing sensor data, it becomes harder for humans to evaluate whether their decisions are correct. Anthropic's [Core Views on AI Safety](https://www.anthropic.com/news/core-views-on-ai-safety) captures this well:
 
@@ -101,7 +103,11 @@ This is precisely the problem with increasingly capable AI perceiving and acting
 
 AI WILL be adopted in this industry very soon. Whether it's digital or in-person, AI will be heavily involved here and it has to be safe and reliable. When AI analyzes drone data to identify potential landslides, it's not a chatbot making a suggestion — it's a system informing decisions about physical infrastructure where human lives are at stake.
 
-I engage with this directly. At [calgeo.org](https://calgeo.org), I help set AI policy for the geotechnical engineering community in California. They're worried about safety and policy — rightfully so. At [breakingground.tech](https://breakingground.tech), I'm building products for the industry. I fine-tuned a geotechnical model that outperformed general-purpose models on domain-specific tasks out of the box. But more than the model itself, it unlocked conversations where I can see how big the problem and opportunity is.
+More traditional industries, unlike software, tend to react to new technology in extremely binary ways. It's either _"not useful at all"_ or _"extremely dangerous."_ Experts dismiss it, novices fear it, and there's very little spectrum in between. Software teams adopt incrementally — they A/B test, roll out to 1% of traffic, iterate. Construction teams don't have that luxury. A bridge either stands or it doesn't.
+
+When I was building GetSoils — essentially an AirBnB for construction soil — it was my first exposure to the aversion of adopting new technology in established industries. And that was simple, harmless tech. Working with AI, which will be inevitable, will require entirely new measures. If the relationship between AI and humans in these industries isn't symbiotic, or the AI isn't aligned to the domain, the consequences won't be a bad user experience — they'll be devastating.
+
+At [calgeo.org](https://calgeo.org), I've seen how the geotechnical engineering community in California is grappling with AI policy — the conversations are shaped by this binary framing, and rightfully so. At [breakingground.tech](https://breakingground.tech), I've been building products for the industry and fine-tuned a geotechnical model that outperformed general-purpose models on domain-specific tasks out of the box. But more than the model itself, it unlocked conversations where I can see how big the problem and opportunity is.
 
 The industry is still stuck in the "summarize an email" era of AI adoption, often limited to the Microsoft suite. But the gap between where they are and where they're about to be is enormous. And this gap is exactly where Anthropic's empirical approach matters most:
 
@@ -115,28 +121,24 @@ Give AI funds, and see what it does. Give it access to sensor data, and see what
 
 The moment an AI agent has access to financial resources, you've entered a new domain of risk. AI blackmailing humans. [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack) — an AI creating thousands of fake identities to game a system. The [Byzantine General Problem](https://en.wikipedia.org/wiki/Byzantine_fault) — how do you achieve consensus when some participants may be malicious, and some of those participants are AI?
 
-I've spent years building in this exact environment. At Pocket Network, we designed protocols that leverage economic incentives in adversarial networks — fees, staking, and slashing as primitives for honest behavior. We published a paper on [Relay Mining](https://arxiv.org/abs/2305.09315) and spent a lot of time ensuring API quality in a permissionless, distributed, adversarial environment. At Grove, we're building micropayment infrastructure where agents and humans transact.
+At Pocket Network, the team designed protocols that leverage economic incentives in adversarial networks — fees, staking, and slashing as primitives for honest behavior. The [Relay Mining](https://arxiv.org/abs/2305.09315) paper studied how to ensure API quality in a permissionless, distributed, adversarial environment. At Grove, the challenge is micropayment infrastructure where agents and humans transact — and where the line between a legitimate transaction and an adversarial one is often indistinguishable in real time.
 
 Economic incentives are the most powerful behavioral shaping force we know. When AI has access to financial resources, the incentive landscape becomes vastly more complex and dangerous. What reward functions emerge when AIs compete for resources? What exploits does an agent find when it has a wallet? What happens when multiple AI agents cooperate or defect in economic games?
 
-These aren't hypothetical questions — they're research questions that need empirical answers. Studying how AI behaves in adversarial economic environments is a natural extension of alignment research, and it's where my experience maps most directly to what I believe Anthropic will need to study.
+These aren't hypothetical questions — they're research questions that need empirical answers. Having worked with adversarial humans, adversarial organizations, and misaligned incentive structures, I can say with confidence: there is never a clean solution, only tradeoffs. The cryptoeconomics community has been navigating these tradeoffs with human participants for over a decade. AI agents are the next participants, and the stakes are orders of magnitude higher.
 
 ## Putting it all together
 
-All of the above may seem like disparate, independent topics. In reality, they're components of a greater whole — the full picture of how AI will interact with the real world.
+These four areas aren't disparate — they're the same problem at different layers of the stack.
 
-AI will communicate over the internet using APIs and protocols. It will perceive the world through cameras, lidar, and drones. It will make decisions about physical infrastructure in industries like construction. And it will have economic agency through access to financial systems.
+An AI agent analyzing drone imagery of a construction site to assess landslide risk is using sensor data, communicating over APIs, informing decisions in an industry that reacts in binary, and — soon enough — transacting with economic incentives to get the job done. Every layer is a new trust boundary. Every trust boundary is a new safety question.
 
-The progression isn't arbitrary — it's a widening of stakes. Digital connections lead to physical perception, which leads to real industry impact, which leads to economic agency. Each layer adds complexity, and each layer adds risk.
+The progression is a widening of stakes: digital connections lead to physical perception, which leads to real industry impact, which leads to economic agency. Each layer adds complexity, each layer adds risk, and none of them can be studied in isolation from the others.
 
-Each of these needs to be built, tested, studied, understood, and decomposed in isolation. A problem always needs to be broken down into primitive components and then reassembled to solve it holistically. This isn't just a multidisciplinary approach — it requires many people, working empirically, at an organization that takes both usefulness and safety seriously.
+This is inherently multidisciplinary work. It requires many people, working empirically, at an organization that treats both usefulness and safety as non-negotiable.
 
 ## Closing thoughts
 
-Anthropic is the modern-day Bell Labs.
+We're building the most powerful tools in human history. The question isn't whether they'll be used — it's whether the people who don't yet know they need them will be able to use them safely.
 
-What Bell Labs did for communication, Anthropic is doing for intelligence. Both need to be useful, and both can be used unsafely. Bell Labs didn't just invent the transistor and the laser — they studied, standardized, and made communication work reliably for everyone. They built products, they did research, and they shaped policy. That's the kind of organization where multidisciplinary work isn't a nice-to-have — it's the only way the mission gets done.
-
-The question on my desk Monday morning is the same one that'll be there in a year, and in a decade: _How do I help every human achieve their full potential, safely?_
-
-I don't have a Monday answer. I have a career-long one. And I believe Anthropic is where I can do my best work pursuing it.
+That's what I'd want to spend the next several years on.
