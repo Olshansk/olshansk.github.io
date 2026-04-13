@@ -19,243 +19,124 @@ It's not a simple question, especially for someone who lives to work, with appro
 
 In essence, it's a different way of asking _"What do you want to do with your life?"_
 
-A few years ago, before AI entered its current phase of exponential improvement, I formulated my mission in life as: _"To enable every human achieve their full potential."_
+A few years ago, before AI entered its current phase of exponential improvement, I formulated my mission in life as: _"To enable every human to achieve their full potential."_
 
 This doesn't mean that _"anyone can do anything"_, nor does it mean that _"everyone will do everything"_. Rather, it means that each human, if they choose to, should have the opportunity and ability to achieve their full potential. They would need to bring the will, drive, and effort, but should not be limited by tools, circumstances, resources, support or factors that are outside of their control.
 
-For now, I'm still working on acheiving my personal full potential. The path to doing so enables and involves others as well. As I progress through my career and life, I anticipate that the balance will continue shifting more and more towards enabling others.
+For now, I'm still working on achieving my own full potential. The path to doing so enables and involves others as well. As I progress through my career and life, I anticipate that the balance will continue shifting more and more towards enabling others.
 
-This post isn't about my mission, but rather how the recent and future advances in Artificial Intelligence play into this.
+This post isn't about my mission, but rather how the recent and future advances in Artificial Intelligence play into it.
 
-My mission hasn't changed. In fact, AI is the most powerful accelerant for doing this. However, it introduced a new set of risks that need to be taken into account. A lot of individuals talk about ensuring this can be done in a safe manner. The more I learn about Anthropic, their culture, and their approach, the more I realize that they're the only organization that embodies this and is actively doing something about it.
+My mission hasn't changed. In fact, AI is the most powerful accelerant for this. However, it introduced a new set of risks that need to be taken into account. A lot of individuals talk about ensuring this can be done in a safe manner. The more I learn about Anthropic, their culture, and their approach, the more I realize that they're the only organization that embodies this and is actively doing something about it.
+
+Anthropic's [Core Views on AI Safety](https://www.anthropic.com/news/core-views-on-ai-safety) captures a principle I keep coming back to:
+
+> "That means making products that are genuinely useful, speaking honestly about risks and benefits, and working with anyone serious about getting this right."
+
+The rest of this post is my attempt to answer _"what's on my desk"_ concretely. It boils down to three convictions:
+
+1. **AI communicates with the world through APIs and network protocols.** An air-gapped AI on a disconnected server is arguably safe, but it's also useless — like a car that doesn't move. The protocols that connect AI to humans, to other AIs, and to external systems are where safety and utility collide. This is where I've spent most of my career.
+
+2. **AI perceives and acts on the physical world through sensor data.** When AI processes drone imagery to detect landslides, or navigates a car through traffic, the stakes become physical. Industries like construction, which have waited decades for a technology upgrade, are about to get one — the question is whether it'll be done safely.
+
+3. **AI will have access to financial resources and economic incentives.** Give an agent money, and you enter the domain of cryptoeconomics: adversarial networks, Byzantine fault tolerance, and sybil resistance. The question isn't whether AI will participate in economies — it's whether the incentive structures will be aligned.
 
 ## Achieving your potential requires guardrails
 
-- AI will have access to the physical world, through sensors
-- AI will have access to
-- We have laws, rules, and other mechanisms to keep society in check.
-- We have self discpline
-- There is a fine balance between being enabled, and being restricted to achieve potential
-- AI needs to be available abundantly, but with guardrails
-- The issue is that everything is a tradeoff, and tradeoffs means optimizing upside while understanding that there are consequences. As humans, we have a subconscious need for our actions to have consequences. Actions taken by AI will also consenquences, but on a scale that's uncomparable to what any single individual can have. How you do so safely is difficul to answer.
+As humans, we have laws, social norms, self-discipline, and consequences to keep society functioning. These aren't just restrictions — they're enablers. You can drive anywhere you want, but only if you follow traffic laws. You can say almost anything, but social norms help you keep your friends.
+
+AI will need something analogous. Actions taken by AI have consequences, but on a scale that's incomparable to what any single individual can have. A human making a bad decision affects a few people. An AI making a bad decision at scale affects millions.
+
+The balance is delicate: AI needs to be abundantly available, but with appropriate guardrails. Safe AI needs to be able to do anything, but not everything. Universally available, but aligned to the individual. The issue is that everything is a tradeoff, and tradeoffs mean optimizing for upside while understanding that there are consequences. How you do so safely is difficult to answer — but it has to be answered empirically, not theoretically.
 
 ## Getting practical about the mission
 
-Grandiose mission statements are easy to come up with. They're critical in communication and guiding action, but action still needs to be taken in small, granular, incremental steps.
+Grandiose mission statements are easy to come up with. They're critical for guiding action, but action still needs to be taken in small, granular, incremental steps.
 
-This post is a result of trying to answer _"what would be on my desk"_ to do so.
+What follows is a slightly more tactical approach to what I'd want on my desk. For better or for worse, it is quite broad in its discipline. It builds on top of my prior work, interests, experience, and expertise.
 
-Any single day day or week is hard to predict, because work isn't done in a vaccum. The world is changing rapidly, organizational priorities shift, urgent matters pop up from users, customers or other inter/intra organizational inputs. However, over the span of months or years, higher order efforts remain constant with the underlying details shifting and adapting.
+Charlie Munger captures the rationale behind the multidisciplinary "ADD" I, and some other founders, have:
 
-What follows is a slightly more tactical approach to answer this question. For better or for worse, it is quite broad in its discpline. It builds on top of my prior work, interests, experience and expertise.
+> "If you skillfully follow the multidisciplinary path, you will never wish to come back. It would be like cutting off your hands."
 
-The following quote by Charlie Munger captures why the rationale behind the multidiscplinary "ADD" I, and some other founders have:
+Multidisciplinary thinking helps engage different parts of the brain, building neural connections, surfacing a wide range of perspectives, and triggering new ideas. It's not only helpful, but it's also a fun way to live life.
 
-> “If you skillfully follow the multidisciplinary path, you will never wish to come back. It would be like cutting off your hands.”
+What's on my desk on Monday? I genuinely don't know, because every week is dynamic. The world changes, organizational priorities shift, urgent matters pop up from users, customers, or other inputs. However, over the span of months or years, higher order efforts remain constant while the underlying details shift and adapt. I can tell you what I'd like to achieve over the course of several years — and the four sections that follow are where I'd focus that effort.
 
-I'd add that multidsicplinary thinking does help engage different parts of the brain, building neural connections, floating a wide range of perspective, and triggering new ideas. It's not only helpful, but is also a fun way to live life.
+## Network Protocols — How AI talks to the world
 
-## The day-to-day
+We use natural language to communicate with AI. AI uses digital binary representations to encode and train itself. But networking protocols and their abstractions — APIs, RPCs, and the rest of the stack — are how AIs communicate with humans, between themselves, and with the external world.
 
-The day to day is a hotpot of a lot of differnet things.
+An air-gapped AI on a separate server is arguably safer than one connected to the internet. But it's also less useful. It's like a car that doesn't move — safe, but pointless. The moment you connect it, every API endpoint becomes an attack surface, and every protocol decision becomes a trust decision.
 
-Usually, there's at least one high priority item that comes your way.
+This is where I've spent most of my career. At Google, I worked with protobufs and gRPC. At Twitter, it was the API platform. At Magic Leap, we built the first version of a digital twin of the real world in the cloud — my title was literally "Augmented Reality Cloud API Engineer." At Waymo, APIs were the common language across organizations. At Pocket Network, our vision was a permissionless API marketplace, and we spent years ensuring and evaluating API quality in a distributed, adversarial environment driven by economic incentives.
 
-Once those are are done, I like to do some thinking, some writing, read what others are saying and make progress on real deliverables.
+As agentic infrastructure matures, I believe APIs will play a critical role in how the digital economy operates. LLMs have enabled anyone to interface with AI, but this is an abstraction layer atop APIs, in the same way that APIs are an abstraction layer of the networking stack. There is no limit to the scope of this work — and it needs to be done safely, because protocols are where safety and utility meet head on.
 
-Sometimes they're about responding to a customer, sometimes about enabling or supporting someone on the team, sometimes about experiment with a new approach that may or may not result in a fruitful outcome.
+In a [recent interview at the World Economics Forum](https://transcriptmate.com/interviews/dario-amodei/dario-amodei-on-ai-s-impact-opportunity-risk-and-societal-adaptation?utm_source=chatgpt.com), Dario said:
 
-You do some writing, some reading of what other people are saying, some tasks to get to, some conversations, building new relationships, shipping products, and doing research.
+> "I think the most useful thing we can do is describe to the world what we're seeing and, and provide data to the world. And then, and then, you know, it's, it's left to the public in, in a democracy to, to, you know, to take that data and, and to use it and to use it to drive policy. We can't drive policy on our own."
 
-- some reading of what other people are saying
-- Some tasks to get to
-- Do some writing
-- Have a conversation
-- Build a new relationship
-- Ship a product
-- Do some research
+Providing data to the world is exactly what protocols enable. The question is how to do it in a way that's transparent, reliable, and doesn't create new attack vectors.
 
-## Cryptoeconomics - A primitive of incentives & disincentives
+## Sensor Data — How AI perceives the physical world
 
-- Find reference to AI blackmailing a human
-- Mention sybil attacks
-- Mention the Byzantine General Problem
-- Give AI funds, and see what it does. Give it access to sensor data, and see what it does. Connect it with humans who make infrastructural decisions, and see how they interact.
+We see it with self-driving cars, drones, robots, and we already have cameras alongside every road on earth, in orbit, and in many other places. It's only a matter of time before a connected AI cluster will have access to all of it.
 
-## Network Protocols -
+Processing and making decisions off of input is one thing. Having "limbs" — physical or metaphorical — to act on it in the real world is another. The gap between perception and action is where some of the hardest safety problems live.
 
-- APIs are a language
-- RPCs are the medium
--
-- Airgapping a server is like a car that doesn’t move. Safe, but not useful.\* AI can manipulate humans into connecting it though.
-- Sybil attacks
-- Byzantine General Problem
+During my time at Magic Leap and Waymo, I spent years working on systems that ingest and process raw sensor data. Spatial sensors, lidar, camera, radar — building reliable pipelines to turn noisy signals into ground truth. At Waymo, rigorous evaluation design was everything. A misclassified object isn't a bad recommendation — it's a potential fatality.
 
-RPC, APIs, and other protocols.
-
-We use natural language to communicate with AI. AI uses digital binary representations to encode and train itself. Networking Protocols and their abstractions are how AIs communicate with humans, between themselves and the external world.
-
-For example, an air gapped AI on a separate server is arugabley safer than an AI that has access to the internet. But, it's also less useful.
-
-In a [recent interview on the world economics](https://transcriptmate.com/interviews/dario-amodei/dario-amodei-on-ai-s-impact-opportunity-risk-and-societal-adaptation?utm_source=chatgpt.com) forum, Dario said
-
-> I think the most useful thing we can do is describe to the world what we're seeing and, and provide data to the world. And then, and then, you know, it's, it's left to the public in, in a democracy to, to, you know, to take that data and, and to use it and to use it to drive policy. We can't drive policy on our own.
-
-## Sensor Data - A peripheral to the real world
-
-We see it with Self Driving cars, drones, robots, and we already have cameras alongside every on earth, in orbit and many other places.
-
-It's only a matter of time before a connected AI cluster will have access to all of it.
-
-Processing and making decisions off of input is one thing. Having \_\_\_ or "metaphorical" limbs to act on it in the real world is another
-
-During my time at Magic Leap and Waymo, I spent a lot of time working on sensor that ingest and process raw sensors data.
-
-## Construction - An industry that's lagging behind
-
-- Can I link to the a16z blog post here?
-- What happens when you apply it in an industry like geotech and construction
-- Calgeo.tech
-- They're using AI to analyze drone data to identify potential landslides
-
-Anthropic's [Core Views on AI Safety](https://www.anthropic.com/news/core-views-on-ai-safety) from March 2023 goes into depth on their emperically driven approach to AI safety. In particular, I think there's a clear callout on how it tends to Alignment Science:.
-
-It's a great read, and is just as relevant today, more than 3 years later, as when it was first published. This will only increase.
+As AI systems become more capable at processing sensor data, it becomes harder for humans to evaluate whether their decisions are correct. Anthropic's [Core Views on AI Safety](https://www.anthropic.com/news/core-views-on-ai-safety) captures this well:
 
 > "To use an analogy, it is easy for a chess grandmaster to detect bad moves in a novice but very hard for a novice to detect bad moves in a grandmaster."
 
-> Many of our most serious safety concerns might only arise with near-human-level systems, and it’s difficult or intractable to make progress on these problems without access to such AIs.
+This is precisely the problem with increasingly capable AI perceiving and acting on the physical world. The better it gets, the harder it is for us to catch its mistakes — and the stakes are measured in human lives, not user metrics.
 
-https://www.anthropic.com/news/core-views-on-ai-safety
+## Construction — Where it all converges in a lagging industry
 
-> That means making products that are genuinely useful, speaking honestly about risks and benefits, and working with anyone serious about getting this right.
+[This a16z post](https://www.a16z.news/p/charts-of-the-week-ventures-300b) shows how behind the construction industry is:
 
-This a16z blog is howing how behind construction is. AI WILL be adopted in this industry VERY soon. Whether it's digital, or in person, AI will be heavily involved here and it has to be safe and secure.
+> "Whatever the mix of causes, construction is a $2 trillion industry that's been waiting 60 years for its technology upgrade. That's a major contributor to the housing affordability crisis – and one of the largest opportunities for robotics, prefabrication, and AI-driven construction tech to make a dent."
 
-> Whatever the mix of causes, construction is a $2 trillion industry that’s been waiting 60 years for its technology upgrade. That’s a major contributor to the housing affordability crisis – and one of the largest opportunities for robotics, prefabrication, and AI-driven construction tech to make a dent.
+AI WILL be adopted in this industry very soon. Whether it's digital or in-person, AI will be heavily involved here and it has to be safe and reliable. When AI analyzes drone data to identify potential landslides, it's not a chatbot making a suggestion — it's a system informing decisions about physical infrastructure where human lives are at stake.
 
-https://www.a16z.news/p/charts-of-the-week-ventures-300b
+I engage with this directly. At [calgeo.org](https://calgeo.org), I help set AI policy for the geotechnical engineering community in California. They're worried about safety and policy — rightfully so. At [breakingground.tech](https://breakingground.tech), I'm building products for the industry. I fine-tuned a geotechnical model that outperformed general-purpose models on domain-specific tasks out of the box. But more than the model itself, it unlocked conversations where I can see how big the problem and opportunity is.
 
-https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership
+The industry is still stuck in the "summarize an email" era of AI adoption, often limited to the Microsoft suite. But the gap between where they are and where they're about to be is enormous. And this gap is exactly where Anthropic's empirical approach matters most:
 
-## Putting it all together - Researching & Understandign how AI behaves
+> "Many of our most serious safety concerns might only arise with near-human-level systems, and it's difficult or intractable to make progress on these problems without access to such AIs."
 
-- Find quote of dario talking about how to build safe AI by studying its brain
+You can't theorize about safety in construction from a lab. You have to build and deploy to understand the risks — and do so with an organization that treats empirical study of AI behavior as a first principle.
 
-All of the above may seem like disparate independent topics. In reality, they're part of a greater whole.
+## Cryptoeconomics — What happens when you give an agent money
 
-AI will have access to raw global sensor data, it will communicate over the internet over RPCs using APIs, it will leverage cryptoeconomics to incentivize/disincentivize behavior of other AIs or humans, and have peripherals to act on the real world in key industries like construction.
+Give AI funds, and see what it does. Give it access to sensor data, and see what it does. Connect it with humans who make infrastructural decisions, and see how they interact.
 
-Each of these needs to be build, tested, studied, understood and decomposed in isolation. A problem always needs to be broken down into primtive components, and then reassembled to solve the problem hollisticly. This isn't just a multidisciplinary approach, but will also require many people.
+The moment an AI agent has access to financial resources, you've entered a new domain of risk. AI blackmailing humans. [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack) — an AI creating thousands of fake identities to game a system. The [Byzantine General Problem](https://en.wikipedia.org/wiki/Byzantine_fault) — how do you achieve consensus when some participants may be malicious, and some of those participants are AI?
 
-## Closing Thoughts
+I've spent years building in this exact environment. At Pocket Network, we designed protocols that leverage economic incentives in adversarial networks — fees, staking, and slashing as primitives for honest behavior. We published a paper on [Relay Mining](https://arxiv.org/abs/2305.09315) and spent a lot of time ensuring API quality in a permissionless, distributed, adversarial environment. At Grove, we're building micropayment infrastructure where agents and humans transact.
 
-Anthropic is the modern day bell labs. What bell labs did for communication, ai will do for intelligence. Both need to be useful, and can be use unsafely.
+Economic incentives are the most powerful behavioral shaping force we know. When AI has access to financial resources, the incentive landscape becomes vastly more complex and dangerous. What reward functions emerge when AIs compete for resources? What exploits does an agent find when it has a wallet? What happens when multiple AI agents cooperate or defect in economic games?
 
-You
+These aren't hypothetical questions — they're research questions that need empirical answers. Studying how AI behaves in adversarial economic environments is a natural extension of alignment research, and it's where my experience maps most directly to what I believe Anthropic will need to study.
 
-## Email
+## Putting it all together
 
-Thank you for writing, thank you for what you’re doing, and thank you for enduring.
+All of the above may seem like disparate, independent topics. In reality, they're components of a greater whole — the full picture of how AI will interact with the real world.
 
-I, and most people, can’t even begin to comprehend what you’re going through. Likely never will.
+AI will communicate over the internet using APIs and protocols. It will perceive the world through cameras, lidar, and drones. It will make decisions about physical infrastructure in industries like construction. And it will have economic agency through access to financial systems.
 
-Every decision has tradeoffs. Whether it’s made by a human, a democracy or a superintelligence AI. People like to cherry pick the negative consequences and just focus on that.
+The progression isn't arbitrary — it's a widening of stakes. Digital connections lead to physical perception, which leads to real industry impact, which leads to economic agency. Each layer adds complexity, and each layer adds risk.
 
-Though I don’t know you personally, just cherry picked all the positives consequences of what you’ve done in my mind. It painted a picture of unparalleled, somewhat turbulent, positive world change that catalyzed long-term economic prosperity.
+Each of these needs to be built, tested, studied, understood, and decomposed in isolation. A problem always needs to be broken down into primitive components and then reassembled to solve it holistically. This isn't just a multidisciplinary approach — it requires many people, working empirically, at an organization that takes both usefulness and safety seriously.
 
-How do you balance safety and utility? There isn't gong to be a right answer, there is only going to be a tradeoff.
+## Closing thoughts
 
-- I'd love to work with the team to publish research on how it behaves in cryptoeconmic environments; the API team is the best starting point
-- I'd love to see Claude Cowork adopted in the consturction industry, but thye're still stuck in the "Summarize an email" era and often limited to eh Microsoft suite
-- I don't know what I'd do every week, but how I'd love to help Anthropic go broad and deep across multiple discplines.
+Anthropic is the modern-day Bell Labs.
 
-I've always pursued my interests and curiosities with the
+What Bell Labs did for communication, Anthropic is doing for intelligence. Both need to be useful, and both can be used unsafely. Bell Labs didn't just invent the transistor and the laser — they studied, standardized, and made communication work reliably for everyone. They built products, they did research, and they shaped policy. That's the kind of organization where multidisciplinary work isn't a nice-to-have — it's the only way the mission gets done.
 
-## Rough Notes
+The question on my desk Monday morning is the same one that'll be there in a year, and in a decade: _How do I help every human achieve their full potential, safely?_
 
-What’s on my desk on Monday? I don’t know because every week is dynamic. I can tell you what I’d like to achieve over my tenure during my first few years.
-
-This post will be long. It’ll be multidisciplinary, both a pro and a con. I do like connecting different topics.
-
-What else?
-
-What would I want to research?
-
-- what happens when you give an agent money
-
-- Do you limit the networking connection? The human? The sensor data?
-
-===============================
-
-- Link to the a16z blog post
-- Link to the Anthropic blog post
-
-- How do you achieve your full potential?
-- You need to be able to push yourself, to your limits, understand your limits and push past them
-
-Achieving your full potential, does mean everyone can do everything. It also doesn't mean anyone can do anything. It means anyone can do what they are maximally capable of as a function of their environment, resources, support, over a sufficiently long time horizon.
-
-Artificial Intelligence
-
-So what do we do about it?
-
-Well, Dario said that to be
-
-How do we do so?
-
-Dario: "We need to study its brain"
-
-But, what else?
-
-- How does it interact with humans, today or in the future
-- How does it interact with other AIs
-- How does it interact with the external world
-
-Neuralink. Chat. Persuation.
-
-But, it also interacts with the internet via language.
-
-- You need to be able to fail
-
-What’s on my desk on Monday? I don’t know because every week is dynamic. I can tell you what I’d like to achieve over my tenure during my first few years.
-
-This post will be long. It’ll be multidisciplinary, both a pro and a con. I do like connecting different topics.
-
-Combining my declines and experience. I’m multisciplinsry because it helps me connect different ideas.
-
-APIs and construction seem different but they’re the sameZ On the surface they’re the same, in reality, they’re commentary
-
-Put simply, in focus,
-Once facilitates the transfer of data
-One facilitates the creation and evaluation of data
-
-My mission in life is to help huma achieve their full potential. This requires having the right tools, resources, and support.
-
-More often that not, personal experiences shape this.
-
-I had amazing parents who focused on my education even though resources were limited. Everyone should have this.
-
-I’ve had “career ending” physical injuries, but it couldn’t been much worse. AI can be used to improve the human condition, fix nerve pain, help regrow limbs.
-
-Similarly, I’ve built software in adversarial environments.
-
-The right tools and resources can be dangerous, but they’re should als be abundant. AI needs to be safe and reliable, but it should als be a feasible.
-
-To help everyone achieve their full potential, they need to be able to do anything and everything, but with the right guardrails in place.
-
-Creating a safe and reliable AI is a much more complex mission, to which I can help, but not contribute to on my own.
-
-How do I do it? By making tradeoffs, decisions, priorities, building and working with smart people.
-
-Dario said that
-
-Even the safest the most reliable Eye will need to make trade-offs because there’s no such thing absolute good decision.
-
-Daria said that the best way to get to build it is by building products they use it so that’s where we’re going
-
-Do build safe Aai, you need to use it.
-
-I want to increase adoption elsewhere
-
-Safe AI needs to be able to do anything, but not everything. Unlimited resources, appropriate guardrails. Abundant and accessible, but limited. Universally available, but aligned to the individual.
+I don't have a Monday answer. I have a career-long one. And I believe Anthropic is where I can do my best work pursuing it.
