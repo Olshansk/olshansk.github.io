@@ -2,7 +2,7 @@
 title: "Achieving your full potential, safely"
 date: 2026-04-11T08:21:20-0700
 draft: false
-description: "How AI safety intersects with network protocols, sensor data, construction, and cryptoeconomics — and why it has to be studied empirically."
+description: "Making useful and safe AI — from cryptoeconomic incentives to raw sensor data in construction."
 tags: ["AI Safety", "Anthropic", "Network Protocols", "Sensor Data", "Construction", "Cryptoeconomics", "Mission"]
 categories: ["Thoughts"]
 ShowToc: true
