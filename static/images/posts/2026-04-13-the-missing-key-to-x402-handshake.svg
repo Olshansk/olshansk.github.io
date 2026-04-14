@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400" role="img" aria-labelledby="title desc">
+  <title id="title">x402 API Key Handshake: Buying an API Key</title>
+  <desc id="desc">A client-server handshake showing x402 payment-required negotiation, signed transaction verification, and then authenticated API requests with a key.</desc>
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .text { font-family: Arial, Helvetica, sans-serif; fill: #222222; }
+      .title { font-size: 34px; font-weight: 700; }
+      .label { font-size: 24px; font-weight: 700; }
+      .small { font-size: 20px; }
+      .box { fill: #ffffff; stroke: #4bb69e; stroke-width: 3; rx: 8; }
+      .line { stroke: #4bb69e; stroke-width: 4; }
+      .arrow { stroke: #333333; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+      .dashed { stroke-dasharray: 8 8; }
+      .note { fill: #f0f0f0; rx: 6; }
+      .noteText { font-size: 19px; font-weight: 700; fill: #555555; }
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#333333"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="1400"/>
+  <text class="text title" x="600" y="58" text-anchor="middle">x402 API Key Handshake: Buying an API Key</text>
+  <line x1="0" y1="88" x2="1200" y2="88" stroke="#e6e6e6" stroke-width="2"/>
+
+  <rect class="box" x="40" y="150" width="120" height="48"/>
+  <text class="text label" x="100" y="183" text-anchor="middle">Client</text>
+
+  <rect class="box" x="1040" y="150" width="120" height="48"/>
+  <text class="text label" x="1100" y="183" text-anchor="middle">Server</text>
+
+  <line class="line" x1="100" y1="220" x2="100" y2="1250"/>
+  <line class="line" x1="1100" y1="220" x2="1100" y2="1250"/>
+
+  <path class="arrow" d="M100,300 L1100,380"/>
+  <text class="text small" x="600" y="350" text-anchor="middle">GET /service/api_key (SYN)</text>
+
+  <path class="arrow dashed" d="M1100,430 L100,500"/>
+  <text class="text small" x="600" y="470" text-anchor="middle">402 PAYMENT-REQUIREMENT { min-deposit } (SYN-ACK)</text>
+
+  <path class="arrow" d="M100,570 L1100,650"/>
+  <text class="text small" x="600" y="620" text-anchor="middle">GET /service/api_key { SIGNED-TX } (ACK)</text>
+
+  <rect class="note" x="175" y="720" width="850" height="58"/>
+  <text class="text noteText" x="600" y="758" text-anchor="middle">Verify, settle, confirm and credit onchain account balance</text>
+
+  <path class="arrow dashed" d="M1100,860 L100,930"/>
+  <text class="text small" x="600" y="900" text-anchor="middle">200 OK { API-KEY }</text>
+
+  <path class="arrow" d="M100,1040 L1100,1120"/>
+  <text class="text small" x="600" y="1090" text-anchor="middle">GET / POST /service/CRUD { API-KEY } (DATA)</text>
+
+  <rect class="note" x="165" y="1165" width="870" height="58"/>
+  <text class="text noteText" x="600" y="1203" text-anchor="middle">Verify &amp; debit onchain account balance per request</text>
+
+  <path class="arrow dashed" d="M1100,1280 L100,1330"/>
+  <text class="text small" x="600" y="1310" text-anchor="middle">200 OK (DATA)</text>
+
+  <rect class="box" x="40" y="1320" width="120" height="48"/>
+  <text class="text label" x="100" y="1353" text-anchor="middle">Client</text>
+
+  <rect class="box" x="1040" y="1320" width="120" height="48"/>
+  <text class="text label" x="1100" y="1353" text-anchor="middle">Server</text>
+</svg>
