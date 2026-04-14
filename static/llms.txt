@@ -72,10 +72,8 @@ Full-text search across all content: [/search/](https://olshansky.info/search/)
 
 ## Posts
 
+- [Why Grove Is the 10x Better Linktree (2026-04-03)](https://olshansky.info/posts/2026-04-03-why-grove-is-better-than-linktree/)
 - [Getting Paid For Your Attention Is All You Need (2026-03-27)](https://olshansky.info/posts/2026-03-27-tip-to-talk/)
-- [Culture Venn Diagram: Dont be different for different sake (2026-03-27)](https://olshansky.info/posts/2026-03-27-culture-venn-diagram-dont-be-different-for-different-sake/)
-- [A very opinionated view on the state of agentic payments (2026-03-27)](https://olshansky.info/posts/2026-03-27-a-very-opinionated-view-on-the-state-of-agentic-payments/)
-- [Why frontier labs need to care about agentic payments (2026-03-26)](https://olshansky.info/posts/2026-03-26-why-frontier-labs-need-to-care-about-agentic-payments/)
 - [Sculpting Code (2026-03-25)](https://olshansky.info/posts/2026-03-25-sculpting-code/)
 - [An Open Letter to Content Publishers (2026-03-20)](https://olshansky.info/posts/2026-03-20-an-open-letter-to-content-publishers/)
 - [The Bridge Between DeFi & TradFi (2026-03-13)](https://olshansky.info/posts/2026-03-13-the-bridge-between-defi-tradfi/)
@@ -84,7 +82,6 @@ Full-text search across all content: [/search/](https://olshansky.info/search/)
 - [Signal vs Noise in the Skills Ecosystem (2026-02-28)](https://olshansky.info/posts/2026-02-28-signal-vs-noise-in-the-skills-ecosystem/)
 - [One agent skill to replace a $5M raise (2026-02-27)](https://olshansky.info/posts/2026-02-27-one-agent-skill-to-replace-a-5m-raise/)
 - [ClawDock: Dockerizing OpenClaw So It Doesn't Eat Your Machine (2026-02-11)](https://olshansky.info/posts/2026-02-11-clawdock/)
-- [The State of Agentic Payment Protocols (2026-01-21)](https://olshansky.info/posts/2026-01-21-the-state-of-agentic-payments/)
 - [Main Quest: Mission and Motto (2026-01-10)](https://olshansky.info/posts/2026-01-10-main-quest-mission-and-motto/)
 - [Why Micro-Tipping Is the Fuel for Original Content on the Open Web (2026-01-04)](https://olshansky.info/posts/2026-01-04-why-tip-/)
 - [How I code going into 2026 (2026-01-04)](https://olshansky.info/posts/2026-01-04-how-i-code-going-into-2026/)
@@ -168,9 +165,14 @@ Full-text search across all content: [/search/](https://olshansky.info/search/)
 
 ## Thoughts
 
-- [Thoughts on MPP (2026-03-26)](https://olshansky.info/thoughts/2026-03-26-thoughts-on-mpp/)
+- [Achieving your full potential, safely (2026-04-11)](https://olshansky.info/thoughts/2026-04-11-achieving-your-full-potential-safely/)
+- [Q Day is closer than you think (2026-04-09)](https://olshansky.info/thoughts/2026-04-09-q-day-is-closer-than-you-think/)
+- [Cached knowledge is not intelligence (2026-04-09)](https://olshansky.info/thoughts/2026-04-09-cached-knowledge-is-not-intelligence/)
+- [Is there a path to Gamification of Verification? (2026-04-08)](https://olshansky.info/thoughts/2026-04-08-gamification-of-verification/)
+- [Unique Thoughts of the Day (2026-04-07)](https://olshansky.info/thoughts/2026-04-07-unique-thoughts-of-the-day/)
+- [TIL: The Smartphone IS the Internet (2026-04-07)](https://olshansky.info/thoughts/2026-04-07-til-the-smartphone-is-the-internet/)
+- [Exhaustion vs Burnout (2026-04-06)](https://olshansky.info/thoughts/2026-04-06-exhaustion-vs-burnout/)
 - [Think-to-Talk vs Talk-to-Think (2026-03-26)](https://olshansky.info/thoughts/2026-03-26-think-to-talk-vs-talk-to-think/)
-- [The Moat is State (2026-03-23)](https://olshansky.info/thoughts/2026-03-23-the-moat-is-state/)
 - [Discovery vs Invention (2026-03-17)](https://olshansky.info/thoughts/2026-03-17-discovery-vs-invention/)
 - [Documenting Workflows (2026-03-10)](https://olshansky.info/thoughts/2026-03-10-documenting-workflows/)
 - [AI Predicting Cybersecurity Threats (2026-03-10)](https://olshansky.info/thoughts/2026-03-10-ai-predicting-cybersecurity-threats/)
@@ -804,6 +806,7 @@ Full-text search across all content: [/search/](https://olshansky.info/search/)
 
 ## TV Show Reviews
 
+- [Billionaire's Bunker - ⭐⭐⭐🌟](https://olshansky.info/tv/2026-04-04-billionaire-s-bunker/)
 - [Frankenstein - ⭐️⭐️⭐️⭐️](https://olshansky.info/tv/2026-02-07-frankenstein/)
 - [Foundation: Season 3 - ⭐⭐⭐⭐⭐](https://olshansky.info/tv/2026-01-22-foundation-season-3/)
 - [Pluribus: Season 1](https://olshansky.info/tv/2025-12-31-pluribus-season-1/)
