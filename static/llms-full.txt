@@ -72,6 +72,127 @@ Full-text search across all content: [/search/](https://olshansky.info/search/)
 
 ## Posts
 
+### Why Grove Is the 10x Better Linktree (2026-04-03)
+
+Your home mirrors you. You invite people over to share your space, your interests, your life.
+
+Your personal landing page should be no different.
+
+**Linktree is like a parking lot.** People come, only to leave as soon as they get what they need.
+
+**Grove is your personal landing page.** People come, they stay, they support you, and they come back when they want to reach you again.
+
+It should do more than just hold a list of links:
+
+- **✅ Prove you're a real person**
+- **💸 Turn your attention into revenue**
+- **🎁 Let people support you instantly**
+- **💬 Let people talk to you**
+- **🧠 Show what you care about**
+- **🏠 Feel like a homepage, not a parking lot**
+
+That's what Grove is for 🌿
+
+## What it looks like
+
+It's a shift from a flat list of links to a home for your content, support, and money.
+
+<img src="/images/posts/linktree_vs_grove_image.png" alt="A wallet-first personal homepage for your content, your audience, and your money." style="max-width: 100%;" />
+
+## Why the old model is not enough
+
+Linktree solved a real problem:
+
+> "I need one place to put my links."
+
+That worked when the internet was mostly about sending people somewhere else.
+
+Now the page itself matters.
+
+People are not just clicking through.
+
+They're deciding whether to trust you, follow you, pay you, or talk to you.
+
+They're deciding whether your attention is worth their time and money, and vice versa.
+
+## What Grove does differently
+
+Grove does two things a plain link page can't.
+
+### 1. It puts money front and center 🪪
+
+Grove is **wallet-first**.
+
+> Money isn't hidden behind a redirect.
+
+It's part of the profile.
+
+That unlocks a few things immediately:
+
+- **💸 Tips** - someone likes your work, they can pay you on the spot.
+- **✉️ Messages** - if someone wants your attention, they can pay to reach you.
+- **⚡ Instant settlement** - no waiting, no thresholds, no mystery balance somewhere else, no egregious fees.
+
+### 2. It verifies who you are across multiple platforms ✅
+
+Anyone can paste a URL.
+
+That doesn't prove ownership.
+
+Grove lets you **connect and verify** accounts like X, GitHub, YouTube and more so people know they're looking at the real you.
+
+In a world of impersonation and AI-generated everything, that's not a feature. **It's the baseline.**
+
+## Tip to Talk is the clearest example
+
+We built [Tip to Talk](https://grove.city/news/tip-to-talk-getting-paid-for-your-attention-is-all-you-need) because attention has real monetary value.
+
+> If you want my attention, pay for it.
+
+That sounds blunt. It's also the point.
+
+We all get hit with spam, cold DMs, _"quick questions"_ that are never quick, and people asking for free time, free advice, or free introductions.
+
+**Tip to Talk makes the trade explicit:**
+
+- If you need someone's attention, **pay to reach them**.
+- If someone wants yours, **they can pay to earn it**.
+
+That keeps the inbox open without making it free.
+
+## "Isn't this just Patreon?"
+
+Not really. Patreon solved recurring support.
+
+Grove is built for **direct, lightweight, just-in-time action**.
+
+That means:
+
+- 😌 No subscription fatigue
+- 🙏 No commitment just to say thanks
+- ⚡ No extra friction for a $5 moment
+
+Most people are happy to pay when they want to show appreciation. They just don't want five more recurring subscriptions.
+
+> It's awkward to not tip in person. It's also awkward to cancel a recurring Patreon subscription.
+
+Grove lets you send a message, show appreciation, instantly, and move on. **That's it.**
+
+## Where do I start?
+
+Linktree is a list of links. 🔗🪾
+
+Grove is a digital home that verifies you and pays you. 🌿
+
+**If you already have a Linktree, move over. If you don't, sign up anyway.**
+
+Check it out at [Grove.city](https://grove.city).
+
+
+**What comes next?** Discovery, agent support, and better ways for people to find and pay creators. The goal is simple: make Grove the best way to present yourself online with modern technology that actually serves you.
+
+---
+
 ### Getting Paid For Your Attention Is All You Need (2026-03-27)
 
 **What if your attention had a price?**
@@ -148,46 +269,6 @@ Whether it's a human or an AI agent, if someone wants your attention, they shoul
 Create your account at [Grove.city](https://grove.city), enable Tip to Talk, and share your profile. We'd love to hear how you use it.
 
 Follow us on [X](https://x.com/gaborgrove) for more updates.
-
----
-
-### Culture Venn Diagram: Dont be different for different sake (2026-03-27)
-
-- Ven diagram of overlap
-- Culture fit
-- Culture add
-- Culture overlap
-- You don’t want to perfect circles
-- You don’t want no overlap
-
----
-
-### A very opinionated view on the state of agentic payments (2026-03-27)
-
-- Trewirtes don’t work
-- Look at Twitter and stripe
-- Purist approaches don’t work
-- Look at most crypt projects
-- Khalshi and Polymarket work
-- Pure approaches MAY work out in the longterm
-- Waymo today has more market share than Tesla because there are millions of edge cases not accounted for by an e2e solution
-- You need the ugly incorrect interim solution
-- MPP looks like people who missed 2014-2020 in crypt
-- This is how I think x402 should be adopted
-- Why frontier labs should care about agentic payments
-- Sybil attacks
-- https://threadreaderapp.com/thread/2036953755288314013.html?utm_source=tldrcrypto
-- https://x.com/olshansky/status/2037253629711966525
-
----
-
-### Why frontier labs need to care about agentic payments (2026-03-26)
-
-- Licensing deals
-- Micro payments
-- API keys
-- Human companies
-- 
 
 ---
 
@@ -1011,164 +1092,6 @@ _NOTE: This is just the first version of clawdock. More coming soon._
 💡 All commands guide you through next steps!
 📚 Docs: https://docs.openclaw.ai
 ```
-
----
-
-### The State of Agentic Payment Protocols (2026-01-21)
-
-New links to research:
-
-- Cloudflare: https://x.com/Bankless/status/2036085216008089708?s=20
-- OWS: https://x.com/moonpay/status/2036081106303222258
-- https://xkcd.com/927/
-
-Tempo links:
-
-- https://x.com/stripe/status/2034257912973963374?s=46&t=8olZxrFxcm2TYFP8K5upkg
-- https://x.com/patrickc/status/2034766417573118069
-- https://x.com/0xCygaar/status/2034689648023183524
-- https://wallet.tempo.xyz/welcome
-
-Rough Notes:
-
-- Opinionated take on the state of agentic protocols
-- The protocols that matter and the ones that don't
-
-
-At this point, there's no debate that the majority of internet traffic in the future will be agentic.
-
-Money makes the world go round, so agentic payments will be the foundation of making the web go round.
-
-This post will likely be stale and oudated by the end of the year, but I wanted to cover what the state of agentic payment protocols is today.
-
-The protocols I reference are aren't necesarily just for "agent payments", but they capture all the post-2023 trends in agentic communication.
-
-The new OSI stack is already here. DNS, HTTP, TCP, TLS, aren't going anywhere, and neither are x402, A2A, UCP, MCP, ERC-8004.
-
-That stack is not theoretical anymore. Cloudflare is shipping pay-per-crawl, Coinbase is pushing x402, Stripe is expanding multi-party payment flows, and Google is driving A2A and adjacent interoperability work. The ecosystem is converging on the same idea from different angles: agents need a payment and permission layer as much as they need a communication layer.
-
-## Overview
-
-Table with columns:
-
-- Protocol
-- Industry Champions
-- Current Volume
-- Use cases
-- Release date
-
-A2A (Google), UCP (Google, Shopify), AP2, x402 (Cloudflare, Coinbase), MCP (Anthropic), ERC-8004 (Ethereum)
-
-- [AXTP](https://accounts.atxp.ai/settings)
-- https://www.linkedin.com/posts/brijpandeyji_10-modern-ai-agent-protocols-you-should-know-activity-7331892357069484032-_Vpo/
-- [x402](https://www.x402.org/)
-- [A2A](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)
-- [UCP](https://shopify.engineering/ucp)
-- [MCP](https://modelcontextprotocol.io/docs/getting-started/intro)
-- [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004)
-- ? Stablecoins ?
-
-## x402
-
-Stats:
-
-- 75M transactions and $24M of volume
-
-Key Value Props:
-
-- Internet-native payments
-- Instant, low-cost transactions.
-- No API keys, no subscriptions, no middlemen.
-- AI-first, developer-friendly, and blockchain-agnostic
-
-Champions:
-
-- Cloudflare
-- Coinbase
-
-```mermaid
-sequenceDiagram
-    participant Client
-    participant Server
-    participant Chain as Blockchain
-
-    Client->>Server: GET /resource
-    Server-->>Client: 402 Payment Required
-
-    Client->>Server: GET /resource + Payment Signature
-    Server->>Server: Verify Payment Signature
-    Server->>Chain: Submit tx
-    Chain-->>Server: Tx confirmed (settled)
-
-    Server-->>Client: 200 OK + Content
-```
-
-## A2A
-
-Stats:
-
--
-
-Key Value Props:
-
-Champions:
-
-- Google
-
-- Add a quick diagram
-
-## MCP
-
-- Add a quick diagram
-
-## ERC-8004
-
-- Add a quick diagram
-
-## Rough Notes
-
-- **x402** – a machine-native payment rail using HTTP 402 for autonomous agent payments without API keys or subscriptions. It’s basically solving value transfer between agents and services.
-- **A2A** (Google’s Agent-to-Agent) – a communication interoperability protocol enabling agents to exchange tasks, capabilities, and state securely across different vendors.
-- **UCP** (Universal Commerce Protocol) – Shopify’s effort in standardizing commerce (payments, orders, fulfillment) likely in web & marketplace contexts (not AI-agent specific).
-- **MCP** (Model Context Protocol) – Model Context Protocol, which defines context sharing and structured metadata flow for agent ecosystems.
-- **ERC-8004** – a proposed trust and discovery layer for autonomous agents on chain, with identity, reputation, and validation registries.
-
-1. **X402**
-2. **A2A**
-3. **MCP**
-4. **8004**
-5. **Under the Hood: Universal Commerce Protocol (UCP)**
-6. **Look at the deck for more**
-7. **Create tcp like diagrams that are very simple**
-8. **Show a use case for each one**
-9. **Is cryptography the foundation?**
-10. **Easier to migrate to post quantum later when we need to**
-
-11. **Under the Hood: Universal Commerce Protocol (UCP)**
-12. **Look at the deck for more**
-
-13. **Create tcp like diagrams that are very simple**
-14. **Show a use case for each one**
-15. **Is cryptography the foundation?**
-16. **Easier to migrate to post quantum later when we need to**
-
-```
-
-
-agentic
-```
-
-- X402
-- A2A
-- MCP
-- 8004
-- Under the Hood: Universal Commerce Protocol (UCP)
-- Look at the deck for more
-- Create tcp like diagrams that are very simple
-- Show a use case for each one
-- Is cryptography the foundation?
-- Easier to migrate to post quantum later when we need to
-- Simple Payment Systems with Unlinkability
 
 ---
 
@@ -9431,51 +9354,363 @@ So who do I think won the debate? Bill Nye. Who do I think raised the better arg
 
 ## Thoughts
 
-### Thoughts on MPP (2026-03-26)
+### Achieving your full potential, safely (2026-04-11)
 
-_Nothing we need to worry about today with MPP. I don't see a world where there's ever anything to worry about. Maybe to consider in terms of technical strategy._
+## Table of Contents
 
-_Cool product. It's like combining x402, Lightning Network, state channels, XRP, EVM all into one chain, and stamping Stripe's + Paradigm's brands on it._
+- [Table of Contents](#table-of-contents)
+- [Why this matters](#why-this-matters)
+- [Achieving your potential requires guardrails](#achieving-your-potential-requires-guardrails)
+- [Getting practical about the mission](#getting-practical-about-the-mission)
+- [1. Network Protocols - How AI talks to the world](#1-network-protocols---how-ai-talks-to-the-world)
+- [2. Sensor Data - How AI perceives the physical world](#2-sensor-data---how-ai-perceives-the-physical-world)
+- [3. Construction - Where it all converges in a lagging industry](#3-construction---where-it-all-converges-in-a-lagging-industry)
+- [4. Cryptoeconomics - What happens when you give an agent money](#4-cryptoeconomics---what-happens-when-you-give-an-agent-money)
+- [Putting it all together](#putting-it-all-together)
+- [Closing thoughts](#closing-thoughts)
 
-_x402 felt like a simple, novel, game changer. Like the first time I read the Bitcoin whitepaper._
+I was recently talking to someone about the importance of AI safety in today's rapidly changing world. They asked me: _"So what's your mission? What would be on Daniel's desk Monday morning to tackle this?"_
 
-_If/when I'm inspired, might do an X post on it._
+## Why this matters
+
+It's not a simple question, especially for someone who lives to work, with appropriate (necessary) breaks in between. My experience spans immigrating between countries with very disparate cultures, facing a handful of harsh personal realities in life, working on bleeding-edge tech that is still too early for mainstream adoption, and tackling problems in [industries that haven't changed in decades](https://a16z.com/every-building-youve-ever-been-in-was-designed-by-software-built-in-1997/).
+
+A few years ago, before AI entered its current phase of exponential improvement, I formulated my mission in life as: _"To enable every human in achieving their full potential."_
+
+This doesn't mean that _"anyone can do anything"_, nor does it mean that _"everyone will do everything"_. Rather, it means that each human, if they choose to, should have the opportunity and ability to achieve their full potential. They would need to bring the will, drive, and effort, but should not be limited by tools, circumstances, resources, support or other factors that are outside of their control.
+
+For now, I'm still working on achieving my own full potential. The path to doing so enables and involves others as well. As I progress through my career and life, I anticipate that the balance will continue shifting more and more towards enabling others.
+
+This post isn't about my mission, but rather how the recent and future advances in Artificial Intelligence play into it.
+
+My mission hasn't changed. In fact, AI is the most powerful accelerant for this. However, it introduced a new set of risks that need to be taken into account. A lot of individuals talk about ensuring this can be done in a safe manner. The more I learn about Anthropic, their culture, and their approach, the more I am convinced that they're one of very few organizations that truly embodies this principle and is actively doing something about it.
+
+[A recent statement from Dario Amodei](https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership) captures this as it relates to AI being a force for human progress, not peril:
+
+> "That means making products that are genuinely useful, speaking honestly about risks and benefits, and working with anyone serious about getting this right."
+
+The hard problem in AI safety is not _just_ abstract alignment in the lab, but learning empirically from systems that are useful enough to deploy in high-stakes physical environments. Tying this into things I've seen first hand, I believe critical but adversarial environments, like cryptoeconomics, or high-stakes real-world environments like constructions, are critical places to study emergent behavior before it reaches the real world in practice. Moving a level up from theory, the technical stack spanning APIs, RPCs, raw sensor data, and physical peripherals, can result in small failures that will compound into irreversible harm.
+
+That means safety work can be organized by surface area and stakes: protocols first, then resources, then sensors, then actuators.
+
+This post is my attempt to lay out what I'd focus on across multiple Mondays.
+
+In an Anthropic like style, I'll first boil it down to a few convictions:
+
+1. **AI communicates with the world through APIs and network protocols.** An air-gapped AI on a disconnected server is _arguably safe_, but it's also not useful, like a car that doesn't move. The protocols that connect AI to humans, to other AIs, and to external systems are where safety and utility collide. Today it's digital networking protocols, in the future it'll be biological interfaces. Both are forms of [Remote Procedure Calls (RPCs)](https://en.wikipedia.org/wiki/Remote_procedure_call) that will communicate via [Application Programming Interfaces (APIs)](https://en.wikipedia.org/wiki/API).
+
+2. **AI perceives and acts on the physical world through sensor data.** When AI processes drone imagery to detect landslides, or navigates a car through traffic, the stakes become physical. Industries like construction, which have waited decades for a technology upgrade, are about to get one, and there are people in the industry already concerned about whether it'll be done safely.
+
+3. **AI will have access to financial resources and economic incentives.** Give an agent money, and you enter the domain of cryptoeconomics: adversarial networks, [Byzantine Fault Tolerance](https://en.wikipedia.org/wiki/Byzantine_fault), and [Sybil Resistance](https://en.wikipedia.org/wiki/Sybil_attack). The question isn't whether AI will participate in economies, it's whether the incentive structures will be aligned.
+
+4. **AI acts on the world through peripherals and actuators.** A model that can see but not move is limited. The moment it can trigger tools, machines, robots, or other downstream systems, the safety envelope changes again; this one builds on top of the three previous points.
+
+## Achieving your potential requires guardrails
+
+As humans, we have laws, social norms, self-discipline, and consequences to keep society functioning. These aren't just restrictions, they're enablers. You can drive anywhere you want, but only if you follow traffic laws. You can say almost anything, but there are different ways to say the same things, some of which are more constructive than others.
+
+AI will need something analogous. Actions taken by AI have consequences, but on a scale that's incomparable to what any single individual can have. A human making a bad decision affects a few people. An AI making a bad decision at scale affects millions. Unfortunately, AI will also be making tradeoffs.
+
+The balance is delicate: AI needs to be abundantly available, but with appropriate guardrails. Safe AI will be able to do anything, but should not be able to do everything. Universally available, but aligned to the individual. The issue is that everything is a tradeoff, and tradeoffs mean optimizing for upside while understanding that there are consequences. **How you do so safely is difficult to answer, but it has to be answered empirically, not theoretically.**
+
+## Getting practical about the mission
+
+Grandiose mission statements are easy to come up with. They're critical for guiding action, but action still needs to be taken in small, granular, incremental steps.
+
+What follows is a slightly more tactical approach. For better or for worse, it is quite broad in its discipline. It builds on top of my prior work, interests, experience, and expertise. I have a gut feeling that the last 12 multidisciplinary years of my career have been the foundation for what's to come.
+
+I've always liked Charlie Munger perspective of those who choose to take a multidisciplinary approach to life:
+
+> "If you skillfully follow the multidisciplinary path, you will never wish to come back. It would be like cutting off your hands."
+
+Multidisciplinary thinking helps engage different parts of the brain, building neural connections, surfacing a wide range of perspectives, and triggering new ideas. It's not only helpful, but it's also a fun way to live life.
+
+Multidisciplinary also doesn't mean different topics, but also taking on different roles in different circumstances. Knowing when to step up, and when to step down. When to lead, and when to follow. When to ideate, and when to execute. It is a skill that can only be learned through trial and error.
+
+The world changes, organizational priorities shift, urgent matters pop up from users, customers, or other inputs. Day-to-day and week-to-week priorities are always in flux. But over the span of months and years, higher order goals remain constant while the underlying details shift and adapt.
+
+Going back to the beginning, the four sections that follow are where I'd focus my efforts across multiple Mondays.
+
+## 1. Network Protocols - How AI talks to the world
+
+We use natural language to communicate with AI. AI uses digital binary representations to encode and train itself. Networking protocols and their abstractions, APIs, RPCs, and the rest of the stack, are how AIs communicate with humans, between themselves, and with the external world.
+
+As I said earlier, an air-gapped AI on a separate server is arguably safer than one connected to the internet. But it's also less useful. It's like a car that doesn't move, safe but pointless. The moment you connect it, every API endpoint becomes an attack surface, and every protocol decision becomes a trust decision.
+
+Across Google, Twitter, Magic Leap, Waymo, and Pocket Network, the pattern was the same: APIs aren't just plumbing, they're the trust layer. When you operate a live protocol with individuals running infrastructure trying to game your system, you learn about the importance of incentives, and technical barriers that need to exist to prevent abuse.
+
+As agentic infrastructure matures, this only intensifies. Natural language lets anyone talk to AI, but underneath, it's still APIs all the way down. There is no limit to the scope of this work, and it needs to be studied safely, because protocols are where safety and utility collide.
+
+## 2. Sensor Data - How AI perceives the physical world
+
+We see it with self-driving cars, drones, robots, and we already have cameras alongside every road on earth, in orbit, and in many other places. It's only a matter of time before a connected AI cluster will have access to all of it.
+
+Processing and making decisions off of input is one thing. Having "limbs", physical or metaphorical, to act on it in the real world is another. The gap between perception and action is where some of the hardest safety problems live.
+
+Whether it's reconstructing physical space from spatial sensors or turning noisy lidar and camera data into ground truth for autonomous vehicles, the pattern is the same: rigorous evaluation design is everything. A misclassified object isn't a bad recommendation, it can be a fatality.
+
+As AI systems become more capable at processing sensor data, it becomes harder for humans to evaluate whether their decisions are correct. Anthropic's [Core Views on AI Safety](https://www.anthropic.com/news/core-views-on-ai-safety) captures this well:
+
+> "To use an analogy, it is easy for a chess grandmaster to detect bad moves in a novice but very hard for a novice to detect bad moves in a grandmaster."
+
+This is precisely the problem with increasingly capable AI perceiving and acting on the physical world. The better it gets, the harder it is for us to catch its mistakes, and the stakes are measured in human lives, not user metrics.
+
+## 3. Construction - Where it all converges in a lagging industry
+
+[This a16z post](https://www.a16z.news/p/charts-of-the-week-ventures-300b) shows how behind the construction industry is:
+
+> "Whatever the mix of causes, construction is a $2 trillion industry that's been waiting 60 years for its technology upgrade. That's a major contributor to the housing affordability crisis – and one of the largest opportunities for robotics, prefabrication, and AI-driven construction tech to make a dent."
+
+**AI WILL** be adopted in this industry very soon. Whether it's digital or in-person, AI will be heavily involved here in both the design and build phases, where it has to be useful, safe, and reliable. When AI analyzes drone data to identify potential landslides, it's not a chatbot making a suggestion, it's a system informing decisions about physical infrastructure where human lives are at stake.
+
+More traditional industries, unlike software, tend to react to new technology in extremely binary ways. It's either _"not useful at all"_ or _"extremely dangerous."_ Experts dismiss it, novices fear it, and there's very little spectrum in between. Software teams adopt incrementally but quickly. They tinker, experiment, roll things out and iterate in public. Construction teams don't have that luxury. A bridge either stands or it doesn't.
+
+Building [GetSoils](https://getsoils.com) (essentially an AirBnB for construction soil) was my first exposure to how resistant established industries are to new technology - and that was simple, harmless tech. Through [calgeo.org](https://calgeo.org) and [breakingground.tech](https://breakingground.tech), I've seen both the policy conversations and the product gaps firsthand. AI that isn't aligned to the domain won't just produce a bad user experience, it'll create havoc.
+
+The industry is still stuck in the "summarize an email" era of AI adoption, often limited to the Microsoft suite. But the gap between where they are and where they're about to be is enormous. And this gap is exactly where Anthropic's empirical approach matters most:
+
+> "Many of our most serious safety concerns might only arise with near-human-level systems, and it's difficult or intractable to make progress on these problems without access to such AIs."
+
+**You can't theorize about safety in construction from a lab. You have to build and deploy to understand the risks, and do so with an organization that treats empirical study of AI behavior as a first principle.**
+
+## 4. Cryptoeconomics - What happens when you give an agent money
+
+Give it access to sensor data, and see what it does. Connect it with humans who make infrastructural decisions, and see how they interact. Give AI funds, and see how it behaves.
+
+The moment an AI agent has access to financial resources, you've entered a new domain of risk. AI blackmailing humans. [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack), an AI creating thousands of fake identities to game a system. The [Byzantine General Problem](https://en.wikipedia.org/wiki/Byzantine_fault), how do you achieve consensus when some participants may be intentionally malicious, and some of those participants are AI?
+
+The crypto ecosystem has been navigating these tradeoffs for over a decade. Fees, staking, and slashing as primitives for honest behavior; [Relay Mining](https://arxiv.org/abs/2305.10672) as a framework for ensuring quality in adversarial networks; micropayment infrastructure where the line between a legitimate transaction and an adversarial one is indistinguishable in real time. AI agents are the next participants, and the stakes are orders of magnitude higher.
+
+Economic incentives are a powerful behavioral shaping force. When AI has access to financial resources, the incentive landscape becomes vastly more complex and dangerous. What reward functions emerge when AIs compete for resources? What exploits does an agent find when it has a wallet? What happens when multiple AI agents cooperate or defect in economic games?
+
+These aren't hypothetical questions, they're research questions that need empirical answers.
+
+In a [recent interview at the World Economics Forum](https://transcriptmate.com/interviews/dario-amodei/dario-amodei-on-ai-s-impact-opportunity-risk-and-societal-adaptation?utm_source=chatgpt.com), Dario said:
+
+> "I think the most useful thing we can do is describe to the world what we're seeing and, and provide data to the world. And then, and then, you know, it's, it's left to the public in, in a democracy to, to, you know, to take that data and, and to use it and to use it to drive policy. We can't drive policy on our own."
+
+Providing data to the world is exactly what protocols enable. The question is how to do it in a way that's transparent, reliable, and doesn't create new attack vectors.
+
+## Putting it all together
+
+These four areas aren't disparate, they're related problems at different layers of the stack.
+
+An AI agent analyzing drone imagery of a construction site to assess landslide risk is using sensor data, communicating over APIs, informing decisions in an industry that reacts in binary, and soon enough transacting with economic incentives to get the job done. Every layer is a new trust boundary. Every trust boundary is a new safety question.
+
+The progression is a widening of stakes: digital connections lead to physical perception, which leads to real industry impact, which leads to economic agency. Each layer adds complexity, each layer adds risk, and none of them can be studied in isolation from the others.
+
+This is inherently multidisciplinary work. It requires many people, working empirically, research driven, aligned on a shared mission, at an organization that treats both usefulness and safety as non-negotiable.
+
+## Closing thoughts
+
+We're building the most powerful tools in human history. The question isn't whether they'll be used, it's whether the people who don't yet know they need them will be able to use them safely.
+
+AI will help every human achieve their full potential, but only if this is done safely.
+
+How we get there is what's likely going to be on my desk Monday morning.
+
+---
+
+### Q Day is closer than you think (2026-04-09)
+
+This is the single best perspective on the shift and risk in quantum computing.
+
+It has the perfect balance of technical detail, background, skepticism, realism, and, most importantly, risk tradeoffs.
+
+This quote captures it all:
+
+> The job is not to be skeptical of things we're not experts in. The job is to mitigate credible threats, and there are credible experts telling us about an imminent threat.
+
+In summary, it might be that in 10 years the predictions will turn out to be wrong, but at this point they might also be right soon, and that risk is now unacceptable.
+
+I've been skeptical of Q Day for a very long time. But in the same way that I was wrong about the timelines around AGI, it seems I was wrong here too.
+
+[Read more here](https://words.filippo.io/crqc-timeline/).
+
+If this happens in the next 5 to 10 years, digital security is wiped out, and with it, our economy is thrown into chaos. The risk is a revolution unlike anything we've seen before. Luckily, it's preventable.
+
+---
+
+### Cached knowledge is not intelligence (2026-04-09)
+
+Intelligence is often conflated with _"cached knowledge."_
+
+A conversation with an expert is one data point at one point.
+
+Evaluating intelligence requires collecting many data points over a sufficient time horizon, while also observing its rate of change.
 
 
-#AllOpinionsAreMyOwn #WillLetYouKnowIfMyOpinionsChange #IShouldProbablyTweetThis
+Have you ever spoken to expert? Sometime who has been deep in the weeds on one topic for 20 years?
+
+If it's a topic you know nothing about, you walk away thinking: _"That individual is a genius."_
+
+They might be. But, you also have to understand the disparity between how much they know about they topic, and how much exposure you've had to it.
+
+In addition, being able to speaking about a topic clearly and eloquently requires one of two things:
+
+1. A lot of preparation
+2. The topic being your primary day-to-day function
+
+There are exceptions, but I'd argue they're few and far in between.
+
+What's the takeaway? Don't make immediate judgements of someone on the spot. This goes both ways.
+
+First impressions are a skill, and require the right context and topic.
+
+---
+
+### Is there a path to Gamification of Verification? (2026-04-08)
+
+Games like Overwatch use Matchmaking Rating (MMR) algorithms to ensure players are matched against each other as close to _the same skill level_ as possible:
+
+> In an ideal situation, both teams would have 50% win probability, causing the result to entirely depend on the players' performance. [3]
+
+This is a precondition for flow: the difficulty of the task must acutely match the skill of the player. When it does, the experience becomes naturally and intrinsically rewarding.
+
+## Cognitive Friction in Verification
+
+Programming used to be a _generative_ process. The act of creation & _generation_ enabled an entry into the state of flow in the same way.
+
+The same concept applies to writing.
+
+Reviewing or editing - be it code, text, or other - is a _verification_ process. Every step is a blockade that creates friction and interruptions. It prevents the ability of getting into a state of flow. In turn, it is not rewarding from a natural and intrinsic point of view, but only as a means to an end where the result may be rewarding.
+
+One paper from 2025 references the infamous book by Mihaly Csikszentmihalyi on Flow:
+
+> From a theoretical standpoint, verification burden disrupts cognitive flow by introducing frequent interruptions [36]. This undermines users’ sense of immersion and engagement, thereby impeding trust in tools [107].
+
+## Flow in Verification?
+
+In a world of agentic coding, _verification_ becomes the main activity of software engineers.
+
+Even if we avoid the disruption of life, work, or the urge to always kick off another agent to _generate_ something, even if we are only focused on _verifying_ one task at a time, can flow be achieved?
+
+_Verification_ is rewarding because it can be a means to a good end. But, can we gamify it? **Can we make verification fun?**
+
+I'm not going to present an answer here, but have a gut feeling that there might be lessons to learn from games. Those who work on QA at gaming studios treat it as a job, but also have fun doing it.
+
+For software, will it be a new UX? A new modality? Completely automated away?
+
+Do software developers become artists who sculpt code? Orchestrators who direct code? Soldiers who command code? Architects who envision systems of code? Gardeners who tend to code? Sitters who nurture code?
+
+Maybe we become gamers who simply play with code?
 
 
-## People in crypto who haven't really been in crypto
+[1] **What Needs Attention? Prioritizing Drivers of Developers’ Trust and Adoption of Generative AI** (2025); *https://arxiv.org/abs/2505.17418*
 
-<!-- TODO: Expand on this -->
+[2] **Flow: The Psychology of Optimal Experience** (1990); *https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202*
 
-## You need variable gas
+[3] **Overwatch Matchmaking**; *https://overwatch.fandom.com/wiki/Matchmaking*
 
-<!-- TODO: Expand on this -->
+---
 
-## Sessions are great but not at the base layer
+### Unique Thoughts of the Day (2026-04-07)
 
-<!-- TODO: Expand on this -->
+On a semi-frequent basis, I ask myself: `What important truth do very few people agree with you on?`
 
-## Pure tech is simpler at the protocol
+It's a well-known question by Peter Thiel.
 
-<!-- TODO: Expand on this -->
+The key is that it is not static. The world changes. We change. So should the answer to this question.
 
-## MPP has too many features for a v1
+It's akin to a favorite movie, book or food. I have a "top list", but I give a different answer every time I'm asked.
 
-<!-- TODO: Expand on this -->
+This morning, these were top of mind.
 
-## x402 is far from ideal, but it's simple — you build layers on top of it, not into it
+## Software Sculpting
 
-<!-- TODO: Expand on this -->
+I believe the future of software engineering will be software sculpting.
 
-## If you've been a software engineer long enough, you learn that just because a tool is available doesn't mean you should use it
+It's not about writing, vibing, or reviewing code. Those are all different modalities that will coexist. For the purpose of this point, I'm putting product, building, architecture, and systems aside.
 
-<!-- TODO: Expand on this -->
+Sculpting is about forming the layout of source code without writing it. Giving it structure, taste. Making it easy to comprehend and reducing cognitive load for agents and humans alike. Making it extensible and testable without writing it character by character.
 
-## I have a very strong opinion on Postgres triggers
+The shape of software always mattered more than the characters. It's just easier to shape it now.
 
-<!-- TODO: Expand on this -->
+## AI in ~~Construction~~ Geotech
+
+Construction is way too behind. My parents and friends are in the industry, and they're still stuck in the "this can write an email for me" stage.
+
+Construction is also a big word with many sub-disciplines. not enough people are thinking about AI in GeoTech and the opportunity is huge. It's also much easier than people imagine. Lots of structured data, and not much competition.
+
+## Mind-Body Connection
+
+Underrated in its importance in any physical or mental endeavor.
+
+Once Neuralink matures enough, we'll have an app that basically tells you how much you're focusing on a task to help you calibrate your mind and maximize your productivity.
+
+Meditation and focus are the closest equivalent we have to this today.
+
+It could even give you a feedback signal at the gym. There are studies showing that two really good sets may be enough, but you have to be an experienced lifter for this. You need to really focus on muscle engagement, and that takes time. A neural feedback loop could shortcut years of learning to "feel" the muscle.
+
+## Daily Neural Plasticity Vitamins
+
+There will be a "Vitamin D" equivalent to this in the future.
+
+Learning new things is the closest we have to this right now. Learning a new language, going into a new domain, a new physical skill like juggling or slack lines.
+
+All of the above helps, but there will be an easier way. In the same way that Vitamin D, though it does not replace sunlight, is a good supplement for it.
+
+Microdosing psilocybin works well here too, but that comes with its own set of issues and is not a perfect solution.
+
+---
+
+### TIL: The Smartphone IS the Internet (2026-04-07)
+
+This really made me feel old and out of touch. [I tweeted about it too](https://x.com/olshansky/status/2041652117107273935).
+
+I don't always read Hacker News comments, but when I do, they're 🔥
+
+Someone [posted an article](https://www.0xsid.com/blog/wont-download-your-app) titled _"I won't download your app. The web version is a-ok"_ on [Hacker News](https://news.ycombinator.com/item?id=47661439), and a comment in the thread reframed my perspective:
+
+> The "Smartphone is the internet", while for most of us, the "Smartphone is an extension of the internet from our desktops."
+> ...
+> [The] very first touchpoint with "the internet" for younger folks is a smartphone display. They even do homework on these small screens!
+
+For those of us who grew up with desktops, the smartphone is a convenient add-on. We remember saying _"I'll be down in the basement at the computer to surf the net a little bit."_ The internet lived on a desk.
+
+But for younger generations, **the smartphone IS the internet**. It's not an extension of anything. It's the first and only touchpoint. They do homework on those small screens. They don't think in terms of tabs, file systems, or keyboard shortcuts. They think in terms of apps.
+
+This flips the "just use the web version" argument on its head. For power users on HN, the web is the native experience and apps are the unnecessary wrapper. For a huge portion of the world, it's the opposite: the app is the native experience, and the web is the clunky fallback.
+
+A few things that jumped out from the thread:
+
+- **The generational divide is real**: Users 30+ see certain tasks as "big screen tasks." Younger users don't have that mental model at all.
+- **Economics matter**: Smartphones are cheaper than computers. For many people globally, it's the only device they own.
+- **Skill gaps follow**: If you've never used a desktop, you lack keyboard proficiency, multi-tab workflows, and file system intuition. Not because you're less capable, but because you never needed them.
+- **HN is not representative**: The tech-savvy crowd that rails against apps is a tiny minority. Most consumers don't share the same instincts about permissions, data collection, or open web principles.
+
+It's a good reminder that the way _we_ experience technology is not universal, and building for the world means meeting people where they already are.
+
+---
+
+### Exhaustion vs Burnout (2026-04-06)
+
+*Burnout is a term that's overused but underdefined.*
+
+**Burnout** is tireless work without a tangible result.
+
+**Exhaustion** is tireless work in the name of tangible progress.
+
+Both require the same amount of effort, both consume the same amount of energy, but only one yields outcomes.
+
+Obviously, everyone needs breaks; you can't be exhausted on an ongoing basis. But burnout is a lot more mental and emotional rather than physical.
+
+A team does all the hard work, and if they're good, they will be exhausted no matter what. But the differentiator between exhaustion and burnout is whether leadership set the direction to ensure there are tangible results: rewards, usage, revenue, customers, or anything else that leads to 📈.
+
+
+Remember Diem, Meta's stablecoin effort? Think of all the effort Meta put into it in 2020-2021. I'm sure they worked no less than everyone succeeding in the space today, but regulatory headwinds killed the project.
+
+Remember Leap Motion? The physical device that goes on your desk and tracks your hand movements to control your computer. Their team kicked off an industry, but everyone forgot.
+
+Apple's Vision Pro is a phenomenal piece of engineering, that likely required dozens of breakthroughs. It's considered a flop...
+
+This list is endless.
+
+"Working smart" rather than "working hard" is easy to say, but hard to do. **The hard part is ensuring work (smart and/or hard) yields results.**
+
+*They look the same on the surface, but very different underneath.*
+
+![Exhaustion vs Burnout](/images/thoughts/2026-04-06-exhaustion-vs-burnout.png)
 
 ---
 
@@ -9500,20 +9735,6 @@ It's also one of the reasons there's no info on anything at [ssi.inc](https://ss
 And there's probably an LLM analogy here too. **Chain-of-thought** is just _"think to talk"_ for machines.
 
 Extended thinking, reasoning tokens, "slow mode", etc... They're all just ways of forcing the model to be more of an introvert before it opens its mouth.
-
----
-
-### The Moat is State (2026-03-23)
-
-- Experience is state
-- An agent harness is state
-- Brand is state
-- Data is state
-- Stateless sis easy
-- Foundation models are stateless
-- APIs are stateless
-- A simple service or proxy is stateless
-- Stripe is not starless, today
 
 ---
 
@@ -24317,6 +24538,22 @@ I couldn't really connect with the characters from the start so when the climax 
 
 
 ## TV Show Reviews
+
+### Billionaire's Bunker - ⭐⭐⭐🌟
+
+Trash TV that I actually enjoyed, and I can't explain why.
+
+I'll never recommend this show to anyone, but I do plan to watch season 2.
+
+They've got good looking actors, that capture your attention just enough.
+
+You realize the characters are one-dimensional and flat, but their chemistry and interaction is engaging.
+
+This isn't so different from watching a show like Love Island or Dating in the Dark, but it has a fun science fiction twist, and a much bigger budget.
+
+I'm a bit embarrassed to admit that I liked it, but it is what it is.
+
+---
 
 ### Frankenstein - ⭐️⭐️⭐️⭐️
 
