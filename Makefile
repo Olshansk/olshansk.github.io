@@ -32,6 +32,10 @@ help:
 	@printf "  \033[36mresume_clean\033[0m       Remove LaTeX auxiliary files\n"
 	@printf "  \033[36mresume_deps\033[0m        Install LaTeX dependencies (BasicTeX)\n"
 	@printf "\n"
+	@printf "\033[1m=== 🤖 LLMs ===\033[0m\n"
+	@printf "  \033[36mllms\033[0m               Generate llms.txt and llms-full.txt (skip if up to date)\n"
+	@printf "  \033[36mllms_regenerate\033[0m    Force regenerate llms.txt and llms-full.txt\n"
+	@printf "\n"
 	@printf "\033[1m=== 🛠️  Maintenance ===\033[0m\n"
 	@printf "  \033[36mtodo\033[0m               Find all TODO comments in codebase\n"
 	@printf "\n"
@@ -186,6 +190,18 @@ resume_deps:
 		echo ""; \
 		echo "Then run: make resume_generate"; \
 	fi
+
+#################
+# LLMs
+#################
+
+.PHONY: llms
+llms:
+	@./scripts/generate_llms.sh
+
+.PHONY: llms_regenerate
+llms_regenerate:
+	@./scripts/generate_llms.sh --force
 
 #################
 # Maintenance
