@@ -103,13 +103,13 @@ Those are the boring parts that make a system shippable.
 
 ## x402 vs MPP vs x402 w/ key
 
-| Dimension | x402 | MPP | x402 w/ key |
-| --- | --- | --- | --- |
-| Core idea | Pay per request over HTTP 402 | A fuller machine payments flow | x402 plus a practical key or session layer |
-| What it optimizes for | Neutrality and simplicity | Product completeness and operational control | Adoption in real systems |
-| Strength | Clean base protocol | More turnkey for operators | Simple base, shippable experience |
-| Weakness | Too pure for ongoing access | Heavier for a v1 primitive | Adds a layer above the protocol |
-| My read | Best primitive | Interesting product | Most practical path to usage |
+| Dimension             | x402                          | MPP                                          | x402 w/ key                                |
+| --------------------- | ----------------------------- | -------------------------------------------- | ------------------------------------------ |
+| Core idea             | Pay per request over HTTP 402 | A fuller machine payments flow               | x402 plus a practical key or session layer |
+| What it optimizes for | Neutrality and simplicity     | Product completeness and operational control | Adoption in real systems                   |
+| Strength              | Clean base protocol           | More turnkey for operators                   | Simple base, shippable experience          |
+| Weakness              | Too pure for ongoing access   | Heavier for a v1 primitive                   | Adds a layer above the protocol            |
+| My read               | Best primitive                | Interesting product                          | Most practical path to usage               |
 
 The way I read it:
 
@@ -213,3 +213,13 @@ Because it is the start of one.
 - [x402 Foundation](https://www.linuxfoundation.org/x402foundation)
 - [Stripe x402 docs](https://docs.stripe.com/payments/machine/x402)
 - [Cloudflare agentic payments / MPP](https://developers.cloudflare.com/agents/agentic-payments/mpp/)
+
+Other ideas:
+
+- x402 waitlist
+- x402 license keys
+- x402 sessions
+- x402 JWTs
+- x402 API keys
+- It's not about "no keys" it's about "getting keys"
+- This came out of experience of being "pure"
