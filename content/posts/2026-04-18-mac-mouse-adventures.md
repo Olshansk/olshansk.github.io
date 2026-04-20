@@ -25,6 +25,7 @@ ShowWordCount: true
 
 ## Learnings
 
+- Fixing pixel vs step scrolls with my mouse
 - The difference between a trackpad or magic mouse and how these work
 - Scroll vs segment
 -
