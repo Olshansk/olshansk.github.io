@@ -2,7 +2,7 @@
 title: "Why every developer needs their own agent skills"
 date: 2026-04-18T22:06:46-0700
 draft: false
-description: "And how I code in April of 2026"
+description: "And how I code in April of 2026."
 tags: []
 categories: []
 medium_url: ""
@@ -23,19 +23,19 @@ Recent AI development has pushed us into a _"Show, don't tell"_ era.
 
 It's finally possible to capture and extend the best practices and preferences of any individual to an organization.
 
-Developers and operators now have an easy way to show their portfolio. Telemetry is still missing, but it'll come.
+Everyone now has an easy way to showcase their skills and _"operating portfolios"_. Telemetry is still missing, but it'll come.
 
 ## Agent Skills - They are actually useful
 
-_TL;DR: Skills succeeded where rigid docs failed — they're codified know-how that's actually fun to use._
+_tl;dr: Skills succeeded where rigid docs failed. They're codified know-how that's actually fun to use._
 
 What started as sharing markdown files across teams turned into an [open standard](https://agentskills.io/home) maintained by Anthropic.
 
-Remember finding yourself in a situation where somebody puts together documentation explaining _"The official way to do X?"_
+Remember finding yourself in a situation where somebody puts together _**the document**_ explaining _"The official way to do X?"_
 
-It never worked. The docs were often long, verbose, boring, and quickly got outdated because they were not fun to maintain. The cognitive load of reading them was too high and unenjoyable.
+It never worked. The docs were often long, verbose, boring, and quickly got outdated because they were not enjoyable to maintain. The cognitive load of reading them was too high and forced.
 
-The exceptions were docs that _codified_ existing procedures and acted as required reading for onboarding. If it wasn't part of the process, it didn't happen.
+The exceptions were docs that _codified existing procedures_ and acted as required reading for onboarding. If it wasn't part of the process, it didn't happen.
 
 Nowadays, using another person's skill is as simple as learning Kung Fu in The Matrix.
 
@@ -43,7 +43,7 @@ Nowadays, using another person's skill is as simple as learning Kung Fu in The M
 
 ## Skills Contexts - Applicable in all contexts
 
-_TL;DR: Skills work across people, repos, teams, and runtimes — anywhere a markdown file can go._
+_tl;dr: Skills work across people, repos, teams, and runtimes. Anywhere a markdown file can go, a skill can be used._
 
 Skills are a one-size-fits-all solution that easily transfers across different contexts. They can be:
 
@@ -58,22 +58,21 @@ Sharing, explaining or teaching how you do something was either an abstract conv
 
 Skills are widespread in the software engineering community, but it's not just for developers. Anyone can share skills in any domain.
 
-**The clearest example of this is the 77.5K GitHub stars** on [Garry Tan's gstack](https://github.com/garrytan/gstack). If I do end up meeting the CEO of Y Combinator one day, we'll be able to talk about things that aren't transferable between organizations. Could be strategy, novel ideas, or life. It won't be about the cookie-cutter advice that you can get anywhere because that problem is officially solved.
+**The clearest example of this is the 77.5K GitHub stars** on [Garry Tan's gstack](https://github.com/garrytan/gstack). If you have a meeting with the CEO of Y Combinator, there is no longer a reason to ask for generic advice — you already have his playbook as an in-house operator. No more cookie-cutter conversations, only discussions around novel ideas, strategic direction, or life advice.
 
 The context in which skills are accessed also doesn't matter. Since it's just a markdown file, it can be tailored to be used on a server, a local machine, a CLI, a browser, a desktop app, a phone, etc.
 
-As one concrete example for the power of using skills locally, I'll point to [DHH](https://x.com/dhh)'s [blog on local CI](https://world.hey.com/dhh/we-re-moving-continuous-integration-back-to-developer-machines-3ac6c611) from 2024. Putting aside all the conversations around the cost of token usage, I've spoken to friends operating organizations ranging from 50 people to 5,000 people, and everyone's CI/CD costs are going through the roof given the increase in PRs. The barrier to moving CI back to developer machines was always the setup cost — every engineer needing the same reproducible environment. A skill that codifies the exact local workflow lowers that barrier to a one-line install; _I'm oversimplifying but you get the point_.
+As one concrete technical example for the power of using skills locally, I'll point to [DHH](https://x.com/dhh)'s [blog on local CI](https://world.hey.com/dhh/we-re-moving-continuous-integration-back-to-developer-machines-3ac6c611) from 2024. Putting aside all the conversations around the cost of token usage, I've spoken to friends operating organizations ranging from 50 people to 5,000 people, and everyone's CI/CD costs are going through the roof given the increase in PRs. The barrier to moving CI back to developer machines was always the setup cost — every engineer needing the same reproducible environment. A skill that codifies the exact local workflow lowers that barrier to a one-line install; _I'm oversimplifying the nuances but you get the point_.
 
 ## Skills Telemetry - Don't tell, just show
 
-_TL;DR: Skills are the portfolio; telemetry is what turns them into proof-of-value._
+_tl;dr: Skills are the portfolio; telemetry is what turns them into proof-of-value._
 
 Rather than asking how an individual or an entity does X, we should be able to point to **github.com/{user}/agent-skills**. I adopted the pattern started by [Vercel](https://github.com/vercel-labs/agent-skills) and keep my personal skills up to date at [Olshansk/agent-skills](https://github.com/Olshansk/agent-skills).
 
 If you want to get Sequoia's feedback on your deck, or Linus Torvalds' feedback on your code, or Airbnb's feedback on your product design, you should be able to leverage their agent skills.
 
-The missing piece of the puzzle is the telemetry.
-That's the part that turns a portfolio into proof-of-value.
+> The missing piece of the puzzle is the telemetry. That's the part that turns a portfolio into proof-of-value.
 
 Marketing and vanity metrics like stars are a good start, but they don't show real usage:
 
@@ -81,29 +80,31 @@ Marketing and vanity metrics like stars are a good start, but they don't show re
 - How often is it being used?
 - What is the distribution of that usage across different contexts?
 
-That's why the marketplace question matters. Whoever becomes the canonical source of truth will also own the telemetry layer — downloads, usage frequency, context distribution — the data we actually need to separate signal from noise.
+That's why the marketplace question matters. Whoever becomes the canonical source of truth will also own the telemetry layer. Downloads, usage frequency, and context distribution are all pieces of the puzzle needed to separate signal from noise.
 
-There are too many "skill marketplaces" popping up, but it's only a matter of time until one becomes the canonical source of truth. It's too early to tell, but I believe Vercel is leading the charge here with [skills.sh](https://skills.sh/). I can already see `npx skills add github.com/{user}/{repo}` in more places in the wild, which leverages their [CLI for the open agent ecosystem](https://github.com/vercel-labs/skills).
+There are lots of "skill marketplaces" popping up, but one will emerge as the canonical source of truth. In my opinion, Vercel is leading the charge with [skills.sh](https://skills.sh/). I can already see `npx skills add github.com/{user}/{repo}` in more places in the wild, leveraging their [CLI for the open agent ecosystem](https://github.com/vercel-labs/skills).
 
-A couple of months ago I published [Signal vs Noise in the Skills Ecosystem](https://olshansky.info/posts/2026-02-28-signal-vs-noise-in-the-skills-ecosystem). Between February and April, the ecosystem has grown significantly:
+A couple of months ago I published [Signal vs Noise in the Skills Ecosystem](https://olshansky.info/posts/2026-02-28-signal-vs-noise-in-the-skills-ecosystem). Between early March and mid April, the usage has grown significantly:
 
-![Before and after skills ecosystem](/images/posts/2026-04-18-before-and-after-skills-ecosystem.png)
+_The dashboard updates daily if you want to follow along: [Skills.sh Ecosystem Dashboard](https://skills-dashboard.olshansky.info)._
 
-The dashboard updates daily if you want to follow along: [Skills.sh Ecosystem Dashboard](https://skills-dashboard.olshansky.info).
+<img src="/images/posts/2026-04-18-before-and-after-skills-ecosystem.png" alt="Before and after skills ecosystem" style="max-width: 80%; display: block; margin: 0 auto;" />
 
----
+## Closing Note
 
-If you're an individual with your set of skills, publish them under an `agent-skills` repo! If you're an organization that's willing to open source your best practices, do the same. I only have a couple dozen downloads myself, but it's fun to know that someone else discovered - and is hopefully benefiting from - the skills I published; [skills.sh/?q=olshansk](https://skills.sh/?q=olshansk).
+If you're an individual with your set of skills, publish them under an `agent-skills` repo! If you're an organization that's willing to open source your best practices, do the same.
 
-If you're curious about a few of my most recent changes in my day-to-day workflow, along with some other ideas, check out the sections below.
+I only have a couple dozen downloads myself, but it's fun to know that someone else discovered - and is hopefully benefiting from - the skills I published; [skills.sh/?q=olshansk](https://skills.sh/?q=olshansk).
 
-Otherwise, [subscribe to my substack](https://olshansky.substack.com/) to get notified of future posts, or my [rss feed](https://olshansky.info/index.xml) for a firehose of everything that pops into my mind.
+[Subscribe to my substack](https://olshansky.substack.com/) to get notified of future posts, or my [rss feed](https://olshansky.info/index.xml) for a firehose of everything that pops into my mind.
+
+Otherwise, if you're curious about a few of my most recent changes in my day-to-day workflow, along with some other ideas, check out the sections below.
 
 ---
 
 ## How I Code in April of 2026
 
-_TL;DR: Seven habits I've settled into over the past few months._
+_tl;dr: Seven habits I've settled into over the past few months._
 
 1. 🔀 **Forking sessions**: I've been using `/resume`, but recently learned about `/rewind` and `/fork` to take a single conversation in different directions. Not all agent CLIs have feature parity here, but it's just a matter of time.
 2. 💬 **GitHub Comments**: Leave comments on GitHub -> Tell the agent using the `gh` CLI to pull all the comments and tend to them -> Rinse & repeat. Same as a human workflow, but you can be more verbose and direct since agents won't take it personally.
@@ -121,9 +122,9 @@ My 2026 agent-era follow-up joke is:
 
 > Agents have helped us solve off-by-1 errors. Unfortunately, we replaced them with AI slop. Two hard problems remain.
 
-### How I Think Coding will Evolve in April of 2026
+## How I Think Coding will Evolve in April of 2026
 
-_TL;DR: Three ideas I think are underexplored right now._
+_tl;dr: Three ideas I think are underexplored right now._
 
 A lot of engineering effort is going into democratizing and scaling the usage of skills. I personally believe that a large, orthogonal opportunity lies in understanding cognitive human behavior and building on that effort.
 
@@ -133,4 +134,4 @@ A lot of engineering effort is going into democratizing and scaling the usage of
 
 > "Automation comes last. The big mistake in [my factories] was that I began by trying to automate every step. We should have waited until all the requirements had been questioned, parts and processes deleted, and the bugs were shaken out."
 
-- Elon Musk
+_- Elon Musk_
