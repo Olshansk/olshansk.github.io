@@ -63,9 +63,11 @@ Marketing and vanity metrics like stars are a good start, but they don't show re
 
 There are too many "skill marketplaces" popping up, but it's only a matter of time until one becomes the canonical source of truth. It's too early to tell, but I believe Vercel is leading the charge here with [skills.sh](https://skills.sh/). I can begin seeing `npx skills add github.com/{user}/{repo}` in more places in the wild, which leverages their [CLI for the open agent ecosystem](https://github.com/vercel-labs/skills).
 
-A couple of months ago I published [Signal vs Noise in the Skills Ecosystem](https://olshansky.info/posts/2026-02-28-signal-vs-noise-in-the-skills-ecosystem). Between February and April, this
+A couple of months ago I published [Signal vs Noise in the Skills Ecosystem](https://olshansky.info/posts/2026-02-28-signal-vs-noise-in-the-skills-ecosystem). Between February and April, the ecosystem has grown significantly:
 
-The dashboards updates daily if you're interested in following along: [Skills.sh Ecosystem Dashboard](https://skills-dashboard.olshansky.info).
+![Before and after skills ecosystem](/images/posts/2026-04-18-before-and-after-skills-ecosystem.png)
+
+The dashboard updates daily if you're interested in following along: [Skills.sh Ecosystem Dashboard](https://skills-dashboard.olshansky.info).
 
 ---
 
