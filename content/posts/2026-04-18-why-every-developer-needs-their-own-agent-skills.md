@@ -19,9 +19,11 @@ Recent AI development has pushed us into a _"Show, don't tell"_ era.
 
 **Got an idea?** Show a prototype.
 **Frustrated by a bug?** Send a fix.
-**Need to explain something?** Put together some materials.
+**Need to explain something?** Put together a slick one-pager.
 
 It's finally possible to capture and extend the best practices and preferences of any individual to an organization.
+
+Developers and operators now have an easy way to show their portfolio. Telemetry is still missing, but it'll come.
 
 ## Agent Skills - They are actually useful
 
