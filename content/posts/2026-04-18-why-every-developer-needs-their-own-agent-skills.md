@@ -15,7 +15,7 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-The great thing about recent AI development is that we're entering into a _"Show, don't tell"_ era.
+Recent AI development has pushed us into a _"Show, don't tell"_ era.
 
 **Got an idea?** Show a prototype.
 **Frustrated by a bug?** Send a fix.
@@ -33,7 +33,7 @@ It never worked. The docs were often long, verbose, boring, and quickly got outd
 
 The exceptions were docs that _codified_ existing procedures and acted as required reading for onboarding. If it wasn't part of the process, it didn't happen.
 
-Nowadays, using another person's skill is as simple as learning Kung Fu in the matrix.
+Nowadays, using another person's skill is as simple as learning Kung Fu in The Matrix.
 
 ![I know kung fu](/images/posts/2026-04-18-i-know-kung-fu.jpg)
 
@@ -49,7 +49,7 @@ Skills are widespread in the software engineering community, but it's not just f
 
 The context in which skills are accessed also doesn't matter. Since it's just a markdown file, it can be tailored to be used on a server, a local machine, a CLI, a browser, a desktop app, a phone, etc.
 
-As one concrete example for the power of using skills locally, I'll reference [DHH](https://x.com/dhh)'s [blog on local CI](https://world.hey.com/dhh/we-re-moving-continuous-integration-back-to-developer-machines-3ac6c611) from 2024. Putting aside all the conversations around the cost of token usage, I've spoken to friends operating organizations ranging from 50 people to 5,000 people, and everyone's CI/CD costs are going through the roof given the increase in PRs. Rather than building complex decentralized systems that coordinate, we can just download a skill that runs locally; _I'm oversimplifying but you get the point_.
+As one concrete example for the power of using skills locally, I'll point to [DHH](https://x.com/dhh)'s [blog on local CI](https://world.hey.com/dhh/we-re-moving-continuous-integration-back-to-developer-machines-3ac6c611) from 2024. Putting aside all the conversations around the cost of token usage, I've spoken to friends operating organizations ranging from 50 people to 5,000 people, and everyone's CI/CD costs are going through the roof given the increase in PRs. The barrier to moving CI back to developer machines was always the setup cost — every engineer needing the same reproducible environment. A skill that codifies the exact local workflow lowers that barrier to a one-line install; _I'm oversimplifying but you get the point_.
 
 ## Skills Telemetry - Don't tell, just show
 
@@ -58,22 +58,25 @@ Rather than asking how an individual or an entity does X, we should be able to p
 If you want to get Sequoia's feedback on your deck, or Linus Torvalds' feedback on your code, or Airbnb's feedback on your product design, you should be able to leverage their agent skills.
 
 The missing piece of the puzzle is the telemetry.
+That's the part that turns a portfolio into proof-of-value.
 
 Marketing and vanity metrics like stars are a good start, but they don't show real usage. How many unique downloads does a skill have? How often is it being used? What is the distribution of that usage across different contexts?
 
-There are too many "skill marketplaces" popping up, but it's only a matter of time until one becomes the canonical source of truth. It's too early to tell, but I believe Vercel is leading the charge here with [skills.sh](https://skills.sh/). I can begin seeing `npx skills add github.com/{user}/{repo}` in more places in the wild, which leverages their [CLI for the open agent ecosystem](https://github.com/vercel-labs/skills).
+That's why the marketplace question matters. Whoever becomes the canonical source of truth will also own the telemetry layer — downloads, usage frequency, context distribution — the data we actually need to separate signal from noise.
+
+There are too many "skill marketplaces" popping up, but it's only a matter of time until one becomes the canonical source of truth. It's too early to tell, but I believe Vercel is leading the charge here with [skills.sh](https://skills.sh/). I can already see `npx skills add github.com/{user}/{repo}` in more places in the wild, which leverages their [CLI for the open agent ecosystem](https://github.com/vercel-labs/skills).
 
 A couple of months ago I published [Signal vs Noise in the Skills Ecosystem](https://olshansky.info/posts/2026-02-28-signal-vs-noise-in-the-skills-ecosystem). Between February and April, the ecosystem has grown significantly:
 
 ![Before and after skills ecosystem](/images/posts/2026-04-18-before-and-after-skills-ecosystem.png)
 
-The dashboard updates daily if you're interested in following along: [Skills.sh Ecosystem Dashboard](https://skills-dashboard.olshansky.info).
+The dashboard updates daily if you want to follow along: [Skills.sh Ecosystem Dashboard](https://skills-dashboard.olshansky.info).
 
 ---
 
 If you're an individual with your set of skills, publish them under an `agent-skills` repo! If you're an organization that's willing to open source your best practices, do the same. I only have a couple dozen downloads myself, but it's fun to know that someone else discovered - and is hopefully benefiting from - the skills I published; [skills.sh/?q=olshansk](https://skills.sh/?q=olshansk).
 
-If you're curious for a few of my most recent changes in my day-to-day workflow, along with some other ideas, checkout the sections below.
+If you're curious about a few of my most recent changes in my day-to-day workflow, along with some other ideas, check out the sections below.
 
 Otherwise, [subscribe to my substack](https://olshansky.substack.com/) to get notified of future posts, or my [rss feed](https://olshansky.info/index.xml) for a firehose of everything that pops into my mind.
 
@@ -81,7 +84,7 @@ Otherwise, [subscribe to my substack](https://olshansky.substack.com/) to get no
 
 ## How I Code in April of 2026
 
-1. **Forking sessions**: I've been using `/resume`, but recently learnt about `/rewind` and `/fork` to take a single conversation in different directions. Not all agent CLIs have feature parity here, but it's just a matter of time.
+1. **Forking sessions**: I've been using `/resume`, but recently learned about `/rewind` and `/fork` to take a single conversation in different directions. Not all agent CLIs have feature parity here, but it's just a matter of time.
 2. **GitHub Comments**: Leave comments on GitHub -> Tell the agent using the `gh` CLI to pull all the comments and tend to them -> Rinse & repeat. Same as a human workflow, but you can be more verbose and direct since agents won't take it personally.
 3. **Less is more**: I went through a phase of kicking off an agent for every idea, but reverted back to a more focused approach. I've found that reading, reviewing and working with the agents on one task at a time is more productive than trying to do everything at once. It also creates an opportunity to improve the quality of any skills I used during the work session.
 4. **Preferred agents**: Gemini searches. Codex plans and reviews. Claude implements. There's a lot of nuance here that I'm not writing out, but I believe it has to do with the culture that each frontier lab brings into its models. I might write a full post on some of the details here, but wouldn't be surprised if everything changes, _again_ by the time that I do.
@@ -91,7 +94,7 @@ Otherwise, [subscribe to my substack](https://olshansky.substack.com/) to get no
 
 Do you remember the infamous programmer joke from [Leon Bambrick](https://x.com/secretGeek/status/7269997868) in 2010?
 
-> "There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors."
+> "There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-one errors."
 
 My 2026 agent-era follow-up joke is:
 
@@ -99,7 +102,7 @@ My 2026 agent-era follow-up joke is:
 
 ### How I Think Coding will Evolve in April of 2026
 
-A lot of engineering effort is going into democratizing and scaling the usage of skills. I personally believe that a large, orthogonal, opportunity lies in understanding cognitive human behaviour to compound on that effort.
+A lot of engineering effort is going into democratizing and scaling the usage of skills. I personally believe that a large, orthogonal opportunity lies in understanding cognitive human behavior and building on that effort.
 
 1. **Gamification of verification**: I published [a thought on this idea](https://olshansky.info/thoughts/2026-04-08-gamification-of-verification) that I can't let go of. The act of generation is rewarding. The act of verification is not. Writing code was always "the fun part" delegated to more junior engineers, while the act of verification was a chore delegated to more senior engineers. We'll need to find a way to make the process of QA and verification as fun and engaging as generation was for things to be sustainable. I don't know what this experience or modality will look like yet, but it'll take shape over time.
 2. **Interactive skills**: Online surveys and questionnaires are more tolerable when there's just a few questions per page. The same thing applies to reviewing the output of agentic CLIs. I've started making some (not yet public) skills that interact with the human step-by-step to make it easy and engaging. It's beginning to feel like old-school CLI games rather than work. I believe there's a big opportunity here.
