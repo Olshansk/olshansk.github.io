@@ -25,6 +25,8 @@ It's finally possible to capture and extend the best practices and preferences o
 
 ## Agent Skills - They are actually useful
 
+_TL;DR: Skills succeeded where rigid docs failed — they're codified know-how that's actually fun to use._
+
 What started as sharing markdown files across teams turned into an [open standard](https://agentskills.io/home) maintained by Anthropic.
 
 Remember finding yourself in a situation where somebody puts together documentation explaining _"The official way to do X?"_
@@ -39,7 +41,16 @@ Nowadays, using another person's skill is as simple as learning Kung Fu in The M
 
 ## Skills Contexts - Applicable in all contexts
 
-Skills are a one-size-fits-all solution that easily transfers across different contexts. Skills can be personal, repository specific, product specific, team specific or company specific. They can be closed or open source.
+_TL;DR: Skills work across people, repos, teams, and runtimes — anywhere a markdown file can go._
+
+Skills are a one-size-fits-all solution that easily transfers across different contexts. They can be:
+
+- 👤 Personal
+- 📁 Repo-specific
+- 📦 Product-specific
+- 👥 Team-specific
+- 🏢 Company-specific
+- 🔓 Open or closed source
 
 Sharing, explaining or teaching how you do something was either an abstract conversation or a non-trivial commitment of time. That is not the case anymore.
 
@@ -53,6 +64,8 @@ As one concrete example for the power of using skills locally, I'll point to [DH
 
 ## Skills Telemetry - Don't tell, just show
 
+_TL;DR: Skills are the portfolio; telemetry is what turns them into proof-of-value._
+
 Rather than asking how an individual or an entity does X, we should be able to point to **github.com/{user}/agent-skills**. I adopted the pattern started by [Vercel](https://github.com/vercel-labs/agent-skills) and keep my personal skills up to date at [Olshansk/agent-skills](https://github.com/Olshansk/agent-skills).
 
 If you want to get Sequoia's feedback on your deck, or Linus Torvalds' feedback on your code, or Airbnb's feedback on your product design, you should be able to leverage their agent skills.
@@ -60,7 +73,11 @@ If you want to get Sequoia's feedback on your deck, or Linus Torvalds' feedback 
 The missing piece of the puzzle is the telemetry.
 That's the part that turns a portfolio into proof-of-value.
 
-Marketing and vanity metrics like stars are a good start, but they don't show real usage. How many unique downloads does a skill have? How often is it being used? What is the distribution of that usage across different contexts?
+Marketing and vanity metrics like stars are a good start, but they don't show real usage:
+
+- How many unique downloads does a skill have?
+- How often is it being used?
+- What is the distribution of that usage across different contexts?
 
 That's why the marketplace question matters. Whoever becomes the canonical source of truth will also own the telemetry layer — downloads, usage frequency, context distribution — the data we actually need to separate signal from noise.
 
@@ -84,13 +101,15 @@ Otherwise, [subscribe to my substack](https://olshansky.substack.com/) to get no
 
 ## How I Code in April of 2026
 
-1. **Forking sessions**: I've been using `/resume`, but recently learned about `/rewind` and `/fork` to take a single conversation in different directions. Not all agent CLIs have feature parity here, but it's just a matter of time.
-2. **GitHub Comments**: Leave comments on GitHub -> Tell the agent using the `gh` CLI to pull all the comments and tend to them -> Rinse & repeat. Same as a human workflow, but you can be more verbose and direct since agents won't take it personally.
-3. **Less is more**: I went through a phase of kicking off an agent for every idea, but reverted back to a more focused approach. I've found that reading, reviewing and working with the agents on one task at a time is more productive than trying to do everything at once. It also creates an opportunity to improve the quality of any skills I used during the work session.
-4. **Preferred agents**: Gemini searches. Codex plans and reviews. Claude implements. There's a lot of nuance here that I'm not writing out, but I believe it has to do with the culture that each frontier lab brings into its models. I might write a full post on some of the details here, but wouldn't be surprised if everything changes, _again_ by the time that I do.
-5. **Terminal**: I've moved from [iTerm2](https://iterm2.com/) to [ghostty](https://github.com/ghostty/ghostty). The performance comparison is night and day.
-6. **Deep Breaths**: I've started noticing how much shallow breathing I do when I work with agents. Two deep breaths have become a game changer for me.
-7. **Naming is important**: Naming and documenting TODOs is more important than ever. No matter how intelligent AI becomes, it still needs context. No matter how much context it can search or take in, there'll be cost and latency tradeoffs. There's no reason we shouldn't help agents be efficient and productive through proper naming and documenting TODOs or techdebt along the way. What I wrote in [Move Fast and Document Things](https://olshansky.substack.com/p/move-fast-and-document-things) is more true than ever.
+_TL;DR: Seven habits I've settled into over the past few months._
+
+1. 🔀 **Forking sessions**: I've been using `/resume`, but recently learned about `/rewind` and `/fork` to take a single conversation in different directions. Not all agent CLIs have feature parity here, but it's just a matter of time.
+2. 💬 **GitHub Comments**: Leave comments on GitHub -> Tell the agent using the `gh` CLI to pull all the comments and tend to them -> Rinse & repeat. Same as a human workflow, but you can be more verbose and direct since agents won't take it personally.
+3. 🎯 **Less is more**: I went through a phase of kicking off an agent for every idea, but reverted back to a more focused approach. I've found that reading, reviewing and working with the agents on one task at a time is more productive than trying to do everything at once. It also creates an opportunity to improve the quality of any skills I used during the work session.
+4. 🤖 **Preferred agents**: Gemini searches. Codex plans and reviews. Claude implements. There's a lot of nuance here that I'm not writing out, but I believe it has to do with the culture that each frontier lab brings into its models. I might write a full post on some of the details here, but wouldn't be surprised if everything changes, _again_ by the time that I do.
+5. 🖥️ **Terminal**: I've moved from [iTerm2](https://iterm2.com/) to [ghostty](https://github.com/ghostty/ghostty). The performance comparison is night and day.
+6. 🧘 **Deep Breaths**: I've started noticing how much shallow breathing I do when I work with agents. Two deep breaths have become a game changer for me.
+7. 🏷️ **Naming is important**: Naming and documenting TODOs is more important than ever. No matter how intelligent AI becomes, it still needs context. No matter how much context it can search or take in, there'll be cost and latency tradeoffs. There's no reason we shouldn't help agents be efficient and productive through proper naming and documenting TODOs or techdebt along the way. What I wrote in [Move Fast and Document Things](https://olshansky.substack.com/p/move-fast-and-document-things) is more true than ever.
 
 Do you remember the infamous programmer joke from [Leon Bambrick](https://x.com/secretGeek/status/7269997868) in 2010?
 
@@ -102,11 +121,13 @@ My 2026 agent-era follow-up joke is:
 
 ### How I Think Coding will Evolve in April of 2026
 
+_TL;DR: Three ideas I think are underexplored right now._
+
 A lot of engineering effort is going into democratizing and scaling the usage of skills. I personally believe that a large, orthogonal opportunity lies in understanding cognitive human behavior and building on that effort.
 
-1. **Gamification of verification**: I published [a thought on this idea](https://olshansky.info/thoughts/2026-04-08-gamification-of-verification) that I can't let go of. The act of generation is rewarding. The act of verification is not. Writing code was always "the fun part" delegated to more junior engineers, while the act of verification was a chore delegated to more senior engineers. We'll need to find a way to make the process of QA and verification as fun and engaging as generation was for things to be sustainable. I don't know what this experience or modality will look like yet, but it'll take shape over time.
-2. **Interactive skills**: Online surveys and questionnaires are more tolerable when there's just a few questions per page. The same thing applies to reviewing the output of agentic CLIs. I've started making some (not yet public) skills that interact with the human step-by-step to make it easy and engaging. It's beginning to feel like old-school CLI games rather than work. I believe there's a big opportunity here.
-3. **Semi-automated skills**: Extending the point above is the idea of semi-automation. Automating something 100% is hard, and often unnecessary. [Elon Musk's](https://www.corporate-rebels.com/blog/musks-algorithm-to-cut-bureaucracy) 5-step algorithm involves automation only when `"all the requirements had been questioned, parts and processes deleted, and the bugs were shaken out".` I agree, but with skills we can get 90% of the benefit with 10% of the effort, by keeping the human-in-the-loop.
+1. 🎮 **Gamification of verification**: I published [a thought on this idea](https://olshansky.info/thoughts/2026-04-08-gamification-of-verification) that I can't let go of. The act of generation is rewarding. The act of verification is not. Writing code was always "the fun part" delegated to more junior engineers, while the act of verification was a chore delegated to more senior engineers. We'll need to find a way to make the process of QA and verification as fun and engaging as generation was for things to be sustainable. I don't know what this experience or modality will look like yet, but it'll take shape over time.
+2. 🕹️ **Interactive skills**: Online surveys and questionnaires are more tolerable when there's just a few questions per page. The same thing applies to reviewing the output of agentic CLIs. I've started making some (not yet public) skills that interact with the human step-by-step to make it easy and engaging. It's beginning to feel like old-school CLI games rather than work. I believe there's a big opportunity here.
+3. ⚙️ **Semi-automated skills**: Extending the point above is the idea of semi-automation. Automating something 100% is hard, and often unnecessary. [Elon Musk's](https://www.corporate-rebels.com/blog/musks-algorithm-to-cut-bureaucracy) 5-step algorithm involves automation only when `"all the requirements had been questioned, parts and processes deleted, and the bugs were shaken out".` I agree, but with skills we can get 90% of the benefit with 10% of the effort, by keeping the human-in-the-loop.
 
 > "Automation comes last. The big mistake in [my factories] was that I began by trying to automate every step. We should have waited until all the requirements had been questioned, parts and processes deleted, and the bugs were shaken out."
 
