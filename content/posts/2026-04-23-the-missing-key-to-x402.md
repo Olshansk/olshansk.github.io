@@ -1,6 +1,6 @@
 ---
 title: "The Missing Key to x402"
-date: 2026-04-13T12:38:32-0700
+date: 2026-04-23T12:38:32-0700
 draft: false
 description: "x402 is the right base layer. The missing piece is a practical key and session story that makes it shippable."
 tags: ["x402", "MPP", "Payments", "Protocols"]
@@ -15,7 +15,11 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
-I think x402 is the right base layer. 🔑 The missing piece is not another protocol. It is a practical key layer on top of it.
+The missing base layer to internet-native payments was x402. It's here, and [as of 04/02](https://x.com/coinbase/status/2039689438922522728), it's part of the [Linux Foundation](https://www.linuxfoundation.org/x402foundation).
+
+But, it's missing one key piece to unlock the whole puzzle: An API Key management layer on top of the base layer.
+
+## What is x402?
 
 x402 is good because it is boring in the right way. It is simple, neutral, and easy to explain. That matters more than people admit.
 
@@ -54,9 +58,9 @@ I want the protocol to stay small, because the moment you stuff too much into th
 
 Stripe’s machine payments page makes the whole thing easier to see.
 
-![Stripe supports machine payments across these networks.](/images/posts/2026-04-13-stripe-machine-payments.svg)
+![Stripe supports machine payments across these networks.](/images/posts/2026-04-23-stripe-machine-payments.png)
 
-*Stripe’s own table makes the split obvious: x402 on Base and Solana, MPP on Tempo, and MPP again on Stripe card networks. The protocol is not the product surface.*
+_Stripe’s own table makes the split obvious: x402 on Base and Solana, MPP on Tempo, and MPP again on Stripe card networks. The protocol is not the product surface._
 
 Here is the shape of it:
 
@@ -78,9 +82,9 @@ That is the bar I am comparing x402 against.
 
 ## What it looks like
 
-<img src="/images/posts/2026-04-13-the-missing-key-to-x402-handshake.svg" alt="x402 API key handshake showing payment required, signed transaction verification, and then authenticated API access" style="max-width: 100%; border-radius: 12px;" />
+<img src="/images/posts/2026-04-23-the-missing-key-to-x402-handshake.jpeg" alt="x402 API key handshake showing payment required, signed transaction verification, and then authenticated API access" style="max-width: 100%; border-radius: 12px;" />
 
-*This is the part I want people to keep in their head: pay once, verify, issue a key or session, then use the key for normal API traffic and renew it when needed.*
+_This is the part I want people to keep in their head: pay once, verify, issue a key or session, then use the key for normal API traffic and renew it when needed._
 
 That is much closer to how actual products work. This is also why I think the "pure" version of the protocol is only half the story.
 
