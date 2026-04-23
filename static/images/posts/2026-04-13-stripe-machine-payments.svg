@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Stripe supports machine payments across these networks</title>
+  <desc id="desc">A table showing Base and Solana use x402 with USDC, while Tempo and Stripe card networks use MPP.</desc>
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 34px; fill: #3f4a63; }
+      .head { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; fill: #5d6a82; letter-spacing: 0.04em; }
+      .cell { font-family: Arial, Helvetica, sans-serif; font-size: 26px; fill: #4a4f5c; }
+      .link { fill: #5d74d8; }
+      .grid { stroke: #e6ecf5; stroke-width: 2; }
+      .rowfill { fill: #fafcff; }
+      .rowalt { fill: #ffffff; }
+      .card { fill: #f7f9fd; stroke: #e6ecf5; stroke-width: 2; rx: 16; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="900"/>
+  <text class="title" x="36" y="52">Stripe supports machine payments across these networks.</text>
+
+  <text class="head" x="56" y="140">NETWORK</text>
+  <text class="head" x="740" y="140">PROTOCOLS</text>
+  <text class="head" x="1180" y="140">CURRENCY</text>
+
+  <rect class="card" x="32" y="154" width="1536" height="592" rx="14"/>
+
+  <rect class="rowfill" x="32" y="154" width="1536" height="148" rx="14"/>
+  <rect class="rowalt" x="32" y="302" width="1536" height="148"/>
+  <rect class="rowfill" x="32" y="450" width="1536" height="148"/>
+  <rect class="rowalt" x="32" y="598" width="1536" height="148" rx="14"/>
+
+  <line class="grid" x1="32" y1="302" x2="1568" y2="302"/>
+  <line class="grid" x1="32" y1="450" x2="1568" y2="450"/>
+  <line class="grid" x1="32" y1="598" x2="1568" y2="598"/>
+
+  <text class="cell" x="56" y="246">Base</text>
+  <text class="cell" x="740" y="246">x402</text>
+  <text class="cell" x="1180" y="246">USDC</text>
+
+  <text class="cell" x="56" y="394">Solana</text>
+  <text class="cell" x="740" y="394">x402</text>
+  <text class="cell" x="1180" y="394">USDC</text>
+
+  <text class="cell" x="56" y="542">Tempo</text>
+  <text class="cell" x="740" y="542">MPP</text>
+  <text class="cell" x="1180" y="542">USDC</text>
+
+  <text class="cell link" x="56" y="690">Stripe card networks</text>
+  <text class="cell" x="740" y="690">MPP</text>
+  <text class="cell link" x="1180" y="690">Stripe currencies</text>
+</svg>

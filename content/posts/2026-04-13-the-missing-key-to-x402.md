@@ -27,11 +27,29 @@ It is simple, neutral, and easy to explain.
 
 That matters more than people admit.
 
+The whitepaper’s pitch is straightforward: machine-native software should be able to pay for API access, data, and digital services without a lot of ceremony.
+
+That is the right ambition.
+
+I just do not think the protocol alone is the whole product story.
+
 Simple protocols get adopted.
 
 Overbuilt protocols get discussed.
 
 That is the tradeoff.
+
+It also feels like the kind of thing PayPal could have shipped years ago and somehow never did.
+
+That is part of why it works.
+
+It has the shape of TCP.
+
+Not because it is a transport protocol, obviously.
+
+Because it is a small, neutral primitive that other things can stack on top of without arguing about the whole product.
+
+That is what makes the standard feel real instead of decorative.
 
 ## Why I think this
 
@@ -69,6 +87,40 @@ I want the protocol to stay small, because the moment you stuff too much into th
 That can be useful.
 
 It is just not the thing I want at the bottom.
+
+## Why the Stripe page matters
+
+Stripe’s machine payments page makes the whole thing easier to see.
+
+![Stripe supports machine payments across these networks.](/images/posts/2026-04-13-stripe-machine-payments.svg)
+
+Here is the shape of it:
+
+- Base and Solana use x402 with USDC
+- Tempo uses MPP with USDC
+- Stripe card networks use MPP with Stripe currencies
+
+That table is doing a lot of work.
+
+It says the same thing I am saying here: the protocol layer is not the entire story.
+
+The surface area above it matters.
+
+I have a ton of respect for the Stripe team, but MPP feels like what a lot of the crypto industry has done before.
+
+Disguise a business strategy as a protocol by giving it a very nice API, SDK, and documentation.
+
+The difference is that Stripe has the branding and the distribution.
+
+x402 still feels more neutral to me.
+
+In the same vein, only a few things in crypto have ever really felt neutral to me:
+
+- Bitcoin
+- Ethereum
+- Zcash
+
+That is the bar I am comparing x402 against.
 
 ## What it looks like
 
@@ -154,6 +206,16 @@ You can already see the shapes:
 - Projects.dev-style permissionless API key purchase
 - gateway systems that aggregate and batch nanopayments
 
+You can also see why Cloudflare pay-per-crawl is interesting, but still not the same thing.
+
+It is a product offering.
+
+It uses the same underlying payment idea.
+
+But it is not itself a neutral protocol the way x402 is trying to be.
+
+That distinction matters.
+
 ## Why the key layer matters
 
 People hear "protocol" and sometimes assume keys are a compromise.
@@ -210,6 +272,10 @@ Because it is practical.
 ## Where MPP fits
 
 MPP is a cool product.
+
+I do not mean that as a backhanded compliment.
+
+It is a real product surface built by a team with real distribution.
 
 It feels like someone combined:
 
@@ -271,8 +337,10 @@ Because it is the start of one.
 ## Links
 
 - [x402](https://www.x402.org/)
+- [x402 whitepaper](https://www.x402.org/x402-whitepaper.pdf)
 - [x402 Foundation](https://www.linuxfoundation.org/x402foundation)
 - [Stripe x402 docs](https://docs.stripe.com/payments/machine/x402)
+- [MPP specification](https://mpp.dev/)
 - [Cloudflare agentic payments / MPP](https://developers.cloudflare.com/agents/agentic-payments/mpp/)
 
 Other ideas:
