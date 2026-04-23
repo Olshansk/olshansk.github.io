@@ -15,6 +15,36 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ---
 
+Off the top of my head:
+
+- x402 is great, neutral, simple.
+- What is it?
+  - A 20 year old part of the protocol
+  - 200 is OK, 500 is an internal server error, 402 is "payment required"
+  - - x402 is part of the linux foundation
+- In my opinion, it's an actual protocol/standard others can incoporate because:
+  - It's limited in features & scope
+  - You can build & extend on top of it
+  - It is opinionated in a very small number of ways
+- The core value prop:
+  - You can pay for things on the internet
+  - You don't need an API key
+- What is my thesis?
+  - There will be - more than one - common paradigm on top of x402
+  - One of those will be: permissionlessley buying an api key
+- Show the diagram here
+- What are other examples?
+  - Stripe tempo has session
+  - Projects.dev could use it
+  - Circle gaeway nanopayments aggregates and batches
+- But, we need to meet the world where it is, and gradually iterate
+  - API keys keep the onus on the provider
+  - JWT make sessions simple
+  - Being able to pay-req-request or pay-per-crwl is great, but there's
+  - It's not just about payments, there's scoping, identity, access control, etc...
+
+--
+
 I believe x402 is the right base layer. 🔑
 
 I also believe the missing piece is not another protocol.
