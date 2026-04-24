@@ -17,212 +17,112 @@ ShowWordCount: true
 
 The missing base layer to internet-native payments was x402. It's here, and [as of 04/02](https://x.com/coinbase/status/2039689438922522728), it's part of the [Linux Foundation](https://www.linuxfoundation.org/x402foundation).
 
-But, it's missing one key piece to unlock the whole puzzle: An API Key management layer on top of the base layer.
+But, it's missing one key piece to unlock the whole puzzle: **A key management systemon top of the base layer**.
 
 ## What is x402?
 
-x402 is good because it is boring in the right way. It is simple, neutral, and easy to explain. That matters more than people admit.
+[x402 is an open protocol](https://www.x402.org/) that builds on top of a more than twenty year old IETF standard: [HTTP's 402 Payment Required](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402) status code.
 
-The whitepaper’s pitch is straightforward: machine-native software should be able to pay for API access, data, and digital services without a lot of ceremony. That is the right ambition. I just do not think the protocol alone is the whole product story.
+x402 is good because it is boring in the right way. It is simple, neutral, and very easy to explain.
 
-Simple protocols get adopted. Overbuilt protocols get discussed. That is the tradeoff.
+The [whitepaper’s pitch](https://x402.org/whitepaper) is straightforward:
 
-It also feels like the kind of thing PayPal could have shipped years ago and somehow never did. That is part of why it works. It has the shape of TCP.
+> Enable machine-native processes (e.g. AI agents, Web Services, etc.) to autonomously pay for API access, data, and digital services by leveraging the HTTP 402 ”Payment Required” and internet-native payment rails (e.g. stablecoins, blockchains, etc.).
 
-Not because it is a transport protocol, obviously. Because it is a small, neutral primitive that other things can stack on top of without arguing about the whole product. That is what makes the standard feel real instead of decorative.
+Having spent years deep in the crypto industry, one of the most important lessons I learnt is that **simple protocols get adopted, while overdesigned protocols get discussed**. That is the tradeoff. In my opinion, it's why Bitcoin took off. It remains one of the most [approacble whitepapers](https://bitcoin.org/bitcoin.pdf) I've ever read. Just re-read it a handful of times and you'll undersand it.
 
-## Why I think this
+_In fact, I see a world where PayPal could have come up with either or both of x402 and Bitcoin, but for now, let's get back on track..._
 
-The clean x402 story is easy to explain:
+## How does x402 work?
 
-1. A client asks for a resource.
-2. The server replies `402 Payment Required`.
-3. The client pays.
-4. The server returns the resource.
+The full x402 story is very easy to explain:
 
-That is a good base layer. 💡 It is also incomplete in practice.
+1. A client asks for a resource; _such as a PDF_.
+2. The server replies `402 Payment Required`; _including a price and a destination address for payment_.
+3. The client pays; _along with the crypto digital equivalent of a signed check_.
+4. The server returns the resource; _after validating and setting the check_.
 
-If you want this to work in real systems, you eventually need something that behaves more like a relationship than a one-off payment. Real systems need:
+That is the perfect base layer. It can't be any simpler.
 
-- scoped access
-- sessions
-- rotation and revocation
-- custody that is easier than "manage a hot key forever"
-- a clean path from payment to ongoing usage
+However, in the same way that the [OSI Model](https://en.wikipedia.org/wiki/OSI_model) needed a mature and ever-evolving **Application Layer** on top of the **Transport Layer**, x402 will need a mature and ever-evolving **Key Management Layer** on top of the **Payment Layer**.
 
-That is the missing key. Not a different protocol. Not more ceremony in the base layer. Just the thing that makes x402 usable once you leave the whiteboard.
+The [last page](https://www.x402.org/x402-whitepaper.pdf) of the x402 whitepaper touts the following benefits:
 
-I want the protocol to stay small, because the moment you stuff too much into the base layer, you stop having a primitive and start having an opinionated product. That can be useful. It is just not the thing I want at the bottom.
+- Instant, low-cost transactions.
+- No API keys, no subscriptions, no middlemen.
+- AI-first, developer-friendly, and blockchain-agnostic.
 
-## Why the Stripe page matters
+## So what is x402 Missing?
 
-Stripe’s machine payments page makes the whole thing easier to see.
+Something I've learnt in the world of software development is that rewrites almost never work. You have to meet the world where it is, integrate with existing systems, and incrementally build towards the future you want to see. That is the only way to get from _"this works on paper"_ to _"this works in production."_
 
-![Stripe supports machine payments across these networks.](/images/posts/2026-04-23-stripe-machine-payments.png)
+It's been decades, and we still haven't [reached 50% IPv6 adoption](https://www.google.com/intl/en/ipv6/statistics.html) as of writing this post.
 
-_Stripe’s own table makes the split obvious: x402 on Base and Solana, MPP on Tempo, and MPP again on Stripe card networks. The protocol is not the product surface._
+If you want this to work in real systems, you need to account for how existing systems work, including things like:
 
-Here is the shape of it:
+- Scoped access keys
+- Sessions keys
+- Rotation and revocation of keys
+- Admin key management
 
-- Base and Solana use x402 with USDC
-- Tempo uses MPP with USDC
-- Stripe card networks use MPP with Stripe currencies
+Then, the moment you enter the world of crypto, you learn that "custody hot keys" is a setup for a nightmare. You start to learn about multi-sig, hardware wallets, ring signatures, and we haven't even gotten started with smart contracts.
 
-That table is doing a lot of work. It says the same thing I am saying here: the protocol layer is not the entire story. The surface area above it matters.
+## What does it look like?
 
-I have a ton of respect for the Stripe team, but MPP feels like what a lot of the crypto industry has done before: disguise a business strategy as a protocol by giving it a very nice API, SDK, and documentation. The difference is that Stripe has the branding and the distribution.
+The missing key to the puzzle is not a change to the protocol, but building infrastructure on top of it that makes it usable where the world is today, not where it's going to be.
 
-x402 still feels more neutral to me. In the same vein, only a few things in crypto have ever really felt neutral to me:
-
-- Bitcoin
-- Ethereum
-- Zcash
-
-That is the bar I am comparing x402 against.
-
-## What it looks like
+In fact, I really that the protocol stay small and simple. It enables the ecosystem to introduce small, composable, layered primitives. I anticipate the OSI model will need to get updated soon.
 
 <img src="/images/posts/2026-04-23-the-missing-key-to-x402-handshake.jpeg" alt="x402 API key handshake showing payment required, signed transaction verification, and then authenticated API access" style="max-width: 100%; border-radius: 12px;" />
 
-_This is the part I want people to keep in their head: pay once, verify, issue a key or session, then use the key for normal API traffic and renew it when needed._
+**What's the takeaway?** In addition to enabling permissionless purchase of resources on the internet, enabling permissionless purchase of API keys is the next logical step. It is the missing piece that turns a one-off payment into an ongoing relationship with existing service.
 
-That is much closer to how actual products work. This is also why I think the "pure" version of the protocol is only half the story.
+It doesn't feel as "pure", but it works. Keys are not a cop-out. They are the mechanism that turns a payment event into an ongoing service relationship.
 
-Keys are not a cop-out. They are the mechanism that turns a payment event into an ongoing service relationship.
+This enables lots of different paradigms:
 
-That means you can:
+- **Authentication**: Authenticate without processing payments with every call
+- **Authorize**: Scope access instead of giving away the whole kitchen
+- **Rotate/Revoke**: Rotate or revoke access without redesigning the protocol
+- **Integrate**: Enable payments and top ups in the same way that you manage balances in existing services
 
-- authenticate without re-paying every single call
-- scope access instead of giving away the whole kitchen
-- rotate or revoke access without redesigning the protocol
-- map payment to usage in a way operators can actually reason about
+Buying keys with x402 doesn't have to be limited to API Keys. This could extend to session keys, license keys, support JWTs, or even just a more traditional pay-per-use model. The point is that the key management layer is what turns the protocol from a one-off payment into an ongoing relationship with a service.
 
 Those are the boring parts that make a system shippable. And boring is good here.
 
-The thing people usually want from a protocol is not elegance. It is a path from "this works on paper" to "this works in production."
+## How are others solving it?
 
-## What x402 can become
+First, what is the core problem of using off-the-shelf x402 for real systems? **Hyperscale**.
 
-My thesis is that x402 will not have just one common pattern on top of it. It will probably have several. One of them will be permissionless API key purchase.
+When you're servicing millions of requests per second, you can't go through a signature ceremony with every request. There's a long list of problems to solve including, but not limited, to, rate limiting requests, verifying payments, preventing abuse, protecting against denial-of-service, etc.
 
-That is the one that feels the most obvious to me because it meets the world where it is already.
+Two of the biggest efforts in the spaces targeting to solve this are:
 
-Most providers still want:
+- [Circle's Nonpayments Gateway](https://www.circle.com/nanopayments)
+- [Stripe's Machine Payments Protocol (MPP)](https://docs.stripe.com/payments/machine/x402)
 
-- a key they can issue
-- a session they can revoke
-- a scope they can understand
-- a billing relationship they can explain to their own team
+Circle has a very simple solution built on top of x402: batch thousands on nano transactions into one x402 transaction. It's not a new protocol, it's a [Gateway](<https://en.wikipedia.org/wiki/Gateway_(telecommunications)>) based approach to solving this problem.
 
-So the point is not "no keys." The point is "better keys." Or more precisely: keys that can be bought, scoped, rotated, and tracked without turning every integration into a custom project.
+Stripe has a more complex solution, also build on top of x402: [MPP](https://docs.stripe.com/payments/machine). It entangles the open layers of x402, along with a new protocol, full of features, with first-class support for it's [own blockchain](https://tempo.xyz/) and card network:
 
-That also opens the door for other patterns. Not everything has to be pay-per-request. Pay-per-request is useful. Pay-per-crawl is useful. Pay-then-session is useful. Aggregate, batch, and settle is useful.
+![Stripe supports machine payments across these networks.](/images/posts/2026-04-23-stripe-machine-payments.png)
 
-Different products are going to want different things on top of the same primitive. That is what makes x402 interesting.
+This works, but the line between open protocol and a product offering gets blurry.
 
-You can already see the shapes:
+> x402 feels pure and neutral, like Bitcoin, Ethereum, or Zcash. MPP works, but feels bloated and blurs the line between an open protocol and a product offering.
 
-- Stripe Tempo-style sessions
-- Projects.dev-style permissionless API key purchase
-- gateway systems that aggregate and batch nanopayments
+One of the great things about MPP are [sessions](https://developers.cloudflare.com/agents/agentic-payments/mpp/#payment-intents): _"A streaming payment over a payment channel. Use for pay-as-you-go or per-token billing with sub-cent costs and sub-millisecond latency."_
 
-That is the part people skip when they stay abstract. In practice, the payment event is only one piece. The service still has to decide how identity, scope, and renewal should work, and that is where the real product lives.
+I'd argue that in the same way that Cloudflare introduced [Pay Per Crawl](https://developers.cloudflare.com/ai-crawl-control/features/pay-per-crawl/what-is-pay-per-crawl/) as a product, and not a protocol, a lot of MPP could be an SDK on top of x402 as opposed to a protocol.
 
-You can also see why Cloudflare pay-per-crawl is interesting, but still not the same thing. It is a product offering. It uses the same underlying payment idea. But it is not itself a neutral protocol the way x402 is trying to be. That distinction matters.
+If you've been in the crypto indutry long enough, you've seen this many times.
 
-## Why the key layer matters
+## Where do we go from here?
 
-People hear "protocol" and sometimes assume keys are a compromise. I think that is backwards.
+We find a delicate balance between building, waiting, and seeing what is a real problem that needs solving.
 
-Keys are what let you move from a one-off payment to a real relationship with a service. That means:
+It's clear that stablecoins are here to stay. It's clear that agents will become more prevalent on the internet. The key is to distinguish between signal and noise of where the market is today. The big players can keep funding these efforts in the same way that Meta continues to fund the _Metaverse_, but smaller companies need to follow the customer that comes back.
 
-- you can authenticate without re-paying every single call
-- you can scope access instead of giving away the whole kitchen
-- you can rotate or revoke access without redesigning the protocol
-- you can map payment to usage in a way operators can actually reason about
+The key infrastructure layer I outlined above is how [Grove](www.grove.city) is built today. When we started, out thesis was that agents will pay humans. In reality, if you dive deep into [x402scan.com](https://www.x402scan.com/) or [agentic.market](https://agentic.market/), you'll find a lot of tinkering, but not a market. If we had visibility into the numbers behind [projects.dev](https://projects.dev/), I'm sure we'd find the same thing.
 
-There is also a more boring reason this matters. API keys keep the burden where it already lives: with the provider. JWTs make sessions simple. And both of those are familiar.
-
-If you are trying to get adoption, familiar is not a weakness. Familiar is the bridge.
-
-The world is full of things that are theoretically neat and operationally miserable. I would rather have a primitive that is slightly incomplete and easy to build on than a "complete" protocol that becomes hard to keep small.
-
-## x402 vs MPP vs x402 w/ key
-
-| Dimension             | x402                          | MPP                                          | x402 w/ key                                |
-| --------------------- | ----------------------------- | -------------------------------------------- | ------------------------------------------ |
-| Core idea             | Pay per request over HTTP 402 | A fuller machine payments flow               | x402 plus a practical key or session layer |
-| What it optimizes for | Neutrality and simplicity     | Product completeness and operational control | Adoption in real systems                   |
-| Strength              | Clean base protocol           | More turnkey for operators                   | Simple base, shippable experience          |
-| Weakness              | Too pure for ongoing access   | Heavier for a v1 primitive                   | Adds a layer above the protocol            |
-| My read               | Best primitive                | Interesting product                          | Most practical path to usage               |
-
-The way I read it:
-
-- x402 is the fork and knife. 🍴
-- MPP is the full meal kit.
-- x402 w/ key is the fork and knife plus the table, receipt, and access system that makes dinner actually work.
-
-That last version is the one I actually want people to remember. Not because it is clever. Because it is practical.
-
-## Where MPP fits
-
-MPP is a cool product. I do not mean that as a backhanded compliment. It is a real product surface built by a team with real distribution.
-
-It feels like someone combined:
-
-- x402
-- Lightning-style payment flows
-- state-channel thinking
-- wallet/key management
-- and a Stripe-shaped product surface
-
-That can be useful. It is not an insult. It is a design choice. There are real teams and real customers who want more of the system bundled together.
-
-The reason I still prefer x402 as the base layer is that I want the protocol to stay boring and the product to do the work above it. But if I'm choosing a base protocol, I want the smallest thing that can actually standardize. I want the complexity to live above the protocol, not inside it.
-
-That is why x402 still feels like the better primitive to me. ✅ Not because it solves everything. Because it solves the right first thing. If you get the first thing right, the rest of the stack has somewhere sensible to attach.
-
-## The real takeaway
-
-The market does not just need a payment protocol. It needs a payment protocol that can survive contact with real systems:
-
-- sessions
-- keys
-- retries
-- revocation
-- billing
-- access control
-
-That is the missing layer.
-
-So my take is simple:
-
-- keep x402 simple
-- do not stuff everything into the base protocol
-- build the key/session layer on top
-
-That is how you get something neutral enough to standardize and practical enough to ship. 🌿 And that is why this is interesting to me in the first place.
-
-Not because the protocol is the end of the story. Because it is the start of one.
-
-And that is the main thing I want the reader to walk away with: x402 is not being judged on whether it can do everything by itself. It should be judged on whether it creates a clean base for the things people actually want to build next.
-
-## Links
-
-- [x402](https://www.x402.org/)
-- [x402 whitepaper](https://www.x402.org/x402-whitepaper.pdf)
-- [x402 Foundation](https://www.linuxfoundation.org/x402foundation)
-- [Stripe x402 docs](https://docs.stripe.com/payments/machine/x402)
-- [MPP specification](https://mpp.dev/)
-- [Cloudflare agentic payments / MPP](https://developers.cloudflare.com/agents/agentic-payments/mpp/)
-
-Other ideas:
-
-- x402 waitlist
-- x402 license keys
-- x402 sessions
-- x402 JWTs
-- x402 API keys
-- It is not about "no keys". It is about getting keys the right way.
-- This came out of the experience of wanting something pure and then having to ship it.
+To summarize, I'm extremeley bullish on everything above. x402 will profolirate. MPP will be a great product. Agents will be consuming resources on the internet. I simply want to call out that in order to move the needle, we need to introduce layers that integrate the old system with the new, because it'll be a while. That is the missing key to x402.
