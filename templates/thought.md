@@ -3,7 +3,7 @@ title: "{{TITLE}}"
 date: {{DATE}}
 draft: false
 description: "{{DESCRIPTION}}"
-tags: []
+tags: ["Thoughts"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

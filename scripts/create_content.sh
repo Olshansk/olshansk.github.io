@@ -24,7 +24,7 @@ SANITIZED_TITLE=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/
 # Set content directory and template based on type
 case "$CONTENT_TYPE" in
     "thought")
-        CONTENT_DIR="content/thoughts"
+        CONTENT_DIR="content/posts"
         TEMPLATE="templates/thought.md"
         ;;
     "post")

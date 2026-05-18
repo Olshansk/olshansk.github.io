@@ -92,7 +92,8 @@ new_post:
 		echo "Error: TITLE is required. Usage: make new_post TITLE=\"My Post\""; \
 		exit 1; \
 	fi
-	@./scripts/create_content.sh post "$(TITLE)"
+	@OUTPUT=$$(./scripts/create_content.sh post "$(TITLE)" | grep "^Created:" | sed 's/^Created: //'); \
+	echo "$$OUTPUT" > .file && claude /add-tags && rm -f .file
 
 .PHONY: new_movie
 new_movie:
