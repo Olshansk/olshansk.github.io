@@ -28,7 +28,7 @@ help:
 	@printf "                     make edit_post FILE=\"content/posts/my-post.md\"\n"
 	@printf "\n"
 	@printf "\033[1m=== 📄 Resume ===\033[0m\n"
-	@printf "  \033[36mresume_generate\033[0m    Generate cv/resume.pdf from LaTeX\n"
+	@printf "  \033[36mresume_generate\033[0m    Generate cv/DanielOlshanskyResume.pdf from LaTeX\n"
 	@printf "  \033[36mresume_clean\033[0m       Remove LaTeX auxiliary files\n"
 	@printf "  \033[36mresume_deps\033[0m        Install LaTeX dependencies (BasicTeX)\n"
 	@printf "\n"
@@ -150,15 +150,15 @@ edit_post:
 
 .PHONY: resume_generate
 resume_generate:
-	@echo "=== Converting resume.tex to PDF ==="
+	@echo "=== Converting DanielOlshanskyResume.tex to PDF ==="
 	@if ! command -v pdflatex >/dev/null 2>&1; then \
 		echo "Error: pdflatex not found. Run 'make resume_deps' first."; \
 		exit 1; \
 	fi
-	@cd cv && pdflatex -interaction=nonstopmode -halt-on-error resume.tex > /dev/null 2>&1 || \
-		(echo "Error: LaTeX compilation failed. Check cv/resume.log for details." && exit 1)
-	@cp cv/resume.pdf static/pdfs/resume.pdf
-	@echo "=== PDF generated at cv/resume.pdf and static/pdfs/resume.pdf ==="
+	@cd cv && pdflatex -interaction=nonstopmode -halt-on-error DanielOlshanskyResume.tex > /dev/null 2>&1 || \
+		(echo "Error: LaTeX compilation failed. Check cv/DanielOlshanskyResume.log for details." && exit 1)
+	@cp cv/DanielOlshanskyResume.pdf static/pdfs/DanielOlshanskyResume.pdf
+	@echo "=== PDF generated at cv/DanielOlshanskyResume.pdf and static/pdfs/DanielOlshanskyResume.pdf ==="
 
 .PHONY: resume_clean
 resume_clean:

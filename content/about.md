@@ -162,7 +162,7 @@ What do I want to do more of:
 - [Telegram](https://t.me/dolshansky) — Direct messaging
 - [Instagram](https://instagram.com/olshansk) — Visual updates
 - [Strava](https://www.strava.com/athletes/65389405) — Fitness activities and runs
-- [CV](/pdfs/resume.pdf) — Professional resume
+- [CV](/pdfs/DanielOlshanskyResume.pdf) — Professional resume
 
 ## Reach Out
 

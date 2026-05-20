@@ -20,7 +20,7 @@ Life: Russia (Moscow) -> Israel (Haifa) -> Canada (Toronto) -> USA (San Francisc
 Career: University of Toronto > Twitter > Magic Leap > Waymo > GetSoils > Pocket Network (Grove Labs) > Grove. Future plans involve applying AI to the construction industry.
 
 - [About Page](https://olshansky.info/about/): Full bio, mission, inspirations, and contact info
-- [CV / Resume](https://olshansky.info/pdfs/resume.pdf): Professional resume (1 page)
+- [CV / Resume](https://olshansky.info/pdfs/DanielOlshanskyResume.pdf): Professional resume (1 page)
 
 ### Mantras
 
