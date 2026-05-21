@@ -88,6 +88,9 @@ unsafe = true
     imageTitle = "Daniel Olshansky"
 
     [[params.profileMode.buttons]]
+      name = "Resume"
+      url = "/pdfs/DanielOlshanskyResume.pdf"
+    [[params.profileMode.buttons]]
       name = "Writing"
       url = "posts"
     [[params.profileMode.buttons]]
