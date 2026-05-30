@@ -15,15 +15,13 @@ help:
 	@printf "  \033[36mtest_workflow\033[0m      Test GitHub Actions build locally\n"
 	@printf "\n"
 	@printf "\033[1m=== 📝 Content ===\033[0m\n"
-	@printf "  \033[36mnew_thought\033[0m        Create thought post\n"
-	@printf "                     make new_thought TITLE=\"...\"\n"
 	@printf "  \033[36mnew_post\033[0m           Create blog post\n"
 	@printf "                     make new_post TITLE=\"...\"\n"
 	@printf "  \033[36mnew_book\033[0m           Create book review\n"
 	@printf "  \033[36mnew_movie\033[0m          Create movie review\n"
 	@printf "  \033[36mnew_tv_show\033[0m        Create TV show review\n"
 	@printf "  \033[36madd_tags\033[0m           Auto-generate tags for content file\n"
-	@printf "                     make add_tags FILE=\"content/thoughts/my-post.md\"\n"
+	@printf "                     make add_tags FILE=\"content/posts/my-post.md\"\n"
 	@printf "  \033[36medit_post\033[0m          Edit/proofread a blog post\n"
 	@printf "                     make edit_post FILE=\"content/posts/my-post.md\"\n"
 	@printf "\n"
@@ -78,21 +76,14 @@ test_workflow:
 # Content
 #################
 
-.PHONY: new_thought
-new_thought:
-	@if [ -z "$(TITLE)" ]; then \
-		echo "Error: TITLE is required. Usage: make new_thought TITLE=\"My Thought\""; \
-		exit 1; \
-	fi
-	@./scripts/create_content.sh thought "$(TITLE)"
-
 .PHONY: new_post
 new_post:
 	@if [ -z "$(TITLE)" ]; then \
 		echo "Error: TITLE is required. Usage: make new_post TITLE=\"My Post\""; \
 		exit 1; \
 	fi
-	@./scripts/create_content.sh post "$(TITLE)"
+	@OUTPUT=$$(./scripts/create_content.sh post "$(TITLE)" | grep "^Created:" | sed 's/^Created: //'); \
+	echo "$$OUTPUT" > .file && claude /add-tags && rm -f .file
 
 .PHONY: new_movie
 new_movie:
@@ -121,7 +112,7 @@ new_book:
 .PHONY: add_tags
 add_tags:
 	@if [ -z "$(FILE)" ]; then \
-		echo "Error: FILE is required. Usage: make add_tags FILE=content/thoughts/my-post.md"; \
+		echo "Error: FILE is required. Usage: make add_tags FILE=content/posts/my-post.md"; \
 		exit 1; \
 	fi
 	@if [ ! -f "$(FILE)" ]; then \
