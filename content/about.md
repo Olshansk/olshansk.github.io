@@ -101,6 +101,10 @@ Want more of: improv 🎭, comedy clubs 🎤, new physical skills 🤹, podcasti
 
 > “Most people overestimate what they can do in one year and underestimate what they can do in ten years.” — Bill Gates
 
+> "The trick is to fix the problem you have, rather than the problem you want." — Bram Cohen
+
+> "Any domain can be mastered through interest, time and focus."
+
 ## Links & Resources
 
 ### Interesting Content

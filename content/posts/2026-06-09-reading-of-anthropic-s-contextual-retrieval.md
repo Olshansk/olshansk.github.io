@@ -71,7 +71,7 @@ I want to reiterate the steps from the blog post, but at a high level, the idea 
 2. Find BM25 matches via TF-IDF encodings
 3. Group, remove duplicates, and do RAG
 
-<img src="/images/posts/2026-06-09-reading-of-anthropic-s-contextual-retrieval-standard-rag.png" alt="Standard RAG pipeline: a corpus is chunked, embedded into a vector database and indexed with TF-IDF during preprocessing, then queried, rank-fused, and passed to a generative model at runtime." style="max-width: 90%; display: block; margin: 0 auto;" />
+<img src="/images/posts/2026-06-09-reading-of-anthropic-s-contextual-retrieval-standard-rag.png" alt="Standard RAG pipeline: a corpus is chunked, embedded into a vector database and indexed with TF-IDF during preprocessing, then queried, rank-fused, and passed to a generative model at runtime." style="max-width: 90%; display: block; margin-left: auto; margin-right: auto; transform: none;" />
 
 ### Introducing Contextual Retrieval - Context Prefix
 
@@ -82,7 +82,7 @@ The overarching premise of the idea behind contextual retrieval is:
 
 The idea is simple yet powerful. Use an LLM to generate a small amount of contextual text (50-100 tokens) for every chunk, before embedding it or creating the BM25 index.
 
-<img src="/images/posts/2026-06-09-reading-of-anthropic-s-contextual-retrieval-contextual-retrieval.png" alt="Contextual Retrieval preprocessing: each chunk is run through a prompt that situates it within the document, producing 50–100 tokens of context that are prepended to the chunk before embedding and TF-IDF indexing." style="max-width: 90%; display: block; margin: 0 auto;" />
+<img src="/images/posts/2026-06-09-reading-of-anthropic-s-contextual-retrieval-contextual-retrieval.png" alt="Contextual Retrieval preprocessing: each chunk is run through a prompt that situates it within the document, producing 50–100 tokens of context that are prepended to the chunk before embedding and TF-IDF indexing." style="max-width: 90%; display: block; margin-left: auto; margin-right: auto; transform: none;" />
 
 ## Prompt Caching - Reduce costs
 
