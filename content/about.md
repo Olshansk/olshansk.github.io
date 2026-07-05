@@ -23,13 +23,12 @@ Capital, focus, motivation, plasticity, time, alignment — whatever the constra
 Engineering and research across social, AR, autonomous vehicles, crypto, and construction. None of it has (yet) moved the needle on a global scale — I treat it all as setup for what’s next.
 
 - 2010–2014: **University of Toronto** — Engineering Science; _NΨ 1T4_
-- 2014–2015: **Twitter** — Mobile; shipped things like Gif Search. Learned how big corps operate.
+- 2014–2016: **Twitter** — Mobile; shipped things like Gif Search. Learned how big corps operate.
 - 2016–2020: **Magic Leap** — Shareable digital worlds for cross-reality. Learned politics, premature capital, and how to ship hard tech.
 - 2020–2022: **Waymo** — Data science infra for Planner Eval. Built intuition around AI/ML and how the sharpest people think.
 - 2021–2022: **GetSoils** — Construction soil marketplace. Learned how hard old industries are to sell into.
-- 2022–2025: **Pocket Network (Grove Labs)** — Led a small team and a large ecosystem building a decentralized data/API access network. Learned EQ > IQ in leadership.
-- 2025: **Agentic Payments** — Building rails for AI agents to transact: discover, pay, tip, and settle on behalf of humans and other agents.
-- 2025–Present: **AI × Construction** — Applying AI to the construction industry beyond basic automation and data management.
+- 2022–2025: **Pocket Network (Grove Labs)** — Led a small team and a large ecosystem building a decentralized data/API access network. Learned EQ > IQ in leadership. Toward the end, pivoted to **Agentic Payments** — rails for AI agents to discover, pay, tip, and settle on behalf of humans and other agents.
+- 2025–Present: **Breaking Ground (AI × Construction)** — Applying AI to the construction industry beyond basic automation and data management.
 
 ## Mantras I live by
 
@@ -93,7 +92,7 @@ Want more of: improv 🎭, comedy clubs 🎤, new physical skills 🤹, podcasti
 
 > "Humans over machines."
 
-> "Show me the incentive and I'll show you the future."
+> "Show me the incentive and I'll show you the result." — Charlie Munger
 
 > "The best way to predict the future is to invent it."
 
