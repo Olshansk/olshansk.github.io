@@ -90,7 +90,15 @@ Want more of: improv 🎭, comedy clubs 🎤, new physical skills 🤹, podcasti
 
 ## Some of my favorite quotes
 
-> "Humans over machines."
+### My quotes
+
+> "Figure out what you want-to do vs what you want-to want-to do. Now do it." — Me
+
+> "Expertise is a toolbox and experience is knowing which tool to use." — Me
+
+> "Feedback is not just about what or how you say something, but when you say it." — Me
+
+### Others' quotes
 
 > "Show me the incentive and I'll show you the result." — Charlie Munger
 
