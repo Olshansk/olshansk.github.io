@@ -36,9 +36,7 @@ A combination of these qualities has previously led me to presume that someone n
 
 After this recent storm, I find myself defaulting to empathy. It's not just a willingness but a deep desire to help. It is much more likely that someone is capable and doing their absolute best, but is either missing the proper support system or getting unlucky too many times in a row.
 
-It took a long and painful time to get here, but I made it.
-
-I'm not the sort of person who can say, "I'm so glad it happened."
+It took a long and painful time to get here, but I made it. I'm not the sort of person who can say: "I'm so glad it happened."
 
 It did turn out for the best. I'm more than grateful for the result. It taught me a lot of hard lessons. It helped me reconnect with old friends. But I don't wish this upon anyone.
 
