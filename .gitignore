@@ -11,3 +11,8 @@ cv/*.out
 
 # Temp file for passing args to claude commands
 .file
+
+.projects/cache
+.projects/vault
+.env
+.env.local

@@ -12,6 +12,8 @@ Hey, I’m Daniel, and I usually go by Olshansky 👋
 
 📄 **[Resume / CV](/pdfs/DanielOlshanskyResume.pdf)** — the one-pager if you’re in a hurry.
 
+I have a couple of hidden pages with [quotes](/quotes/) & [side project ideas](/tix/), if you’re curious.
+
 ## My Mission
 
 Enable every human being to achieve their full potential. Starting with myself.
