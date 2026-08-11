@@ -1,0 +1,47 @@
+name: Validate captures
+
+on:
+  pull_request:
+    paths:
+      - ".agents/skills/add-quote/**"
+      - ".agents/skills/add-tix/**"
+      - "content/ideas.md"
+      - "content/quotes.md"
+      - "scripts/add_quote.py"
+      - "scripts/add_tix.py"
+      - "scripts/capture_markdown.py"
+      - "tests/test_captures.py"
+      - "Makefile"
+
+permissions:
+  contents: read
+
+jobs:
+  capture-tests:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.139.3
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run capture tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Check Make help
+        run: |
+          make help | grep -F "add_quote"
+          make help | grep -F "add_tix"
+      - name: Build site
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: hugo --gc --minify --baseURL "http://www.olshansky.info/"

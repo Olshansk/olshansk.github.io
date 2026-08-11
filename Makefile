@@ -24,6 +24,10 @@ help:
 	@printf "                     make add_tags FILE=\"content/posts/my-post.md\"\n"
 	@printf "  \033[36medit_post\033[0m          Edit/proofread a blog post\n"
 	@printf "                     make edit_post FILE=\"content/posts/my-post.md\"\n"
+	@printf "  \033[36madd_quote\033[0m          Add a dated quote\n"
+	@printf "                     make add_quote TEXT=\"...\" AUTHOR=\"...\" DATE=YYYY-MM-DD\n"
+	@printf "  \033[36madd_tix\033[0m            Add a dated TIX entry\n"
+	@printf "                     make add_tix TEXT=\"...\" TITLE=\"...\" DATE=YYYY-MM-DD\n"
 	@printf "\n"
 	@printf "\033[1m=== 📄 Resume ===\033[0m\n"
 	@printf "  \033[36mresume_generate\033[0m    Generate cv/DanielOlshanskyResume.pdf from LaTeX\n"
@@ -134,6 +138,20 @@ edit_post:
 	fi
 	@echo "=== Editing $(FILE) ==="
 	@echo "$(FILE)" > .file && claude /edit-post && rm -f .file
+
+.PHONY: add_quote
+add_quote: export CAPTURE_TEXT := $(TEXT)
+add_quote: export CAPTURE_AUTHOR := $(AUTHOR)
+add_quote: export CAPTURE_DATE := $(DATE)
+add_quote:
+	@python3 scripts/add_quote.py
+
+.PHONY: add_tix
+add_tix: export CAPTURE_TEXT := $(TEXT)
+add_tix: export CAPTURE_TITLE := $(TITLE)
+add_tix: export CAPTURE_DATE := $(DATE)
+add_tix:
+	@python3 scripts/add_tix.py
 
 #################
 # Resume

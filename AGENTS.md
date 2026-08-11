@@ -31,6 +31,15 @@ When changing the date of a post or thought, update ALL of:
 4. References: Update image/video paths in the markdown content
 5. Git: Unstage old filenames if they were previously staged
 
+## Quotes and TIX Captures
+
+- Use `make add_quote TEXT="..." AUTHOR="..." DATE=YYYY-MM-DD`; do not edit `content/quotes.md` directly.
+- Use `make add_tix TEXT="..." TITLE="..." DATE=YYYY-MM-DD`; do not edit `content/ideas.md` directly.
+- Pass dates explicitly in ISO format so cloud-runner timezones cannot change the intended date.
+- Preserve quote text verbatim and never invent an attribution.
+- Organize TIX voice/text captures in the `add-tix` skill; the Make target only performs deterministic insertion.
+- Routine capture pull requests must change only their corresponding destination file.
+
 ## Book Notes Workflow (Snipd Exports)
 - When consolidating Snipd exports in `book_notes/`, unzip nested `ExportBlock-...-Part-1.zip` files before parsing.
 - Consolidate into a single markdown file (example: `book_notes/breaking-history-consolidated.md`).

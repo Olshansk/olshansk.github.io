@@ -13,6 +13,8 @@ ShowPostNavLinks = false
 
 A running log of ideas, observations, and questions — captured as they occur.
 
+<!-- captures:start -->
+
 <div class="year-header">
   <h2 class="year-title">04/15/2026</h2>
 </div>

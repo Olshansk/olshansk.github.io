@@ -9,6 +9,10 @@ ShowPostNavLinks = false
 
 A running log of quotes worth remembering.
 
+<!-- captures:start -->
+
+<!-- captures:end -->
+
 > "Weak people revenge. Strong people forgive. Intelligent people ignore."
 
 > "All models are wrong, but some models are useful."<br>
