@@ -24,7 +24,9 @@ jobs:
   capture-tests:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.139.3
+      # Keep in sync with hugo.yaml and local dev; >=0.141.0 is required for the
+      # built-in `x` shortcode used in content/posts/2026-03-27-tip-to-talk.md.
+      HUGO_VERSION: 0.157.0
     steps:
       - name: Install Hugo CLI
         run: |
