@@ -1,0 +1,19 @@
+[project]
+name = "olshansky-blog-tooling"
+version = "0.0.0"
+description = "Python tooling for olshansky.info: capture scripts for quotes and TIX entries."
+requires-python = ">=3.12"
+# Runtime capture scripts are intentionally stdlib-only so they stay trivial to run anywhere.
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+# One-off historical migrations under migration_scripts/; not needed for the site build.
+migration = ["html2text>=2024.2.26", "requests>=2.32"]
+
+[tool.uv]
+# There is no importable package here, only scripts — do not build or install this project.
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

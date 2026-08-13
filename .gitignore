@@ -20,3 +20,6 @@ cv/*.out
 # Python cache files
 __pycache__/
 *.py[cod]
+
+# uv-managed virtualenv (uv.lock IS committed)
+.venv/

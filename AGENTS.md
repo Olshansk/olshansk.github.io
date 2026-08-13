@@ -40,6 +40,15 @@ When changing the date of a post or thought, update ALL of:
 - Organize TIX voice/text captures in the `add-tix` skill; the Make target only performs deterministic insertion.
 - Routine capture pull requests must change only their corresponding destination file.
 
+## Python (uv)
+
+- All Python in this repo runs through `uv`; never call `python3`, `pip`, or a `.venv/bin` binary directly.
+- Run scripts with `uv run python scripts/<name>.py` and tools with `uv run <tool>` (for example `uv run pytest`).
+- `make test` runs the capture tests; `make py_sync` rebuilds the environment from `uv.lock`.
+- Commit `uv.lock`; CI installs with `uv sync --locked` so a stale lockfile fails the build instead of silently resolving.
+- Capture scripts in `scripts/` are deliberately stdlib-only — add a dependency only if it is genuinely needed.
+- Legacy one-offs in `migration_scripts/` need the optional group: `uv run --group migration python migration_scripts/<name>.py`.
+
 ## Book Notes Workflow (Snipd Exports)
 - When consolidating Snipd exports in `book_notes/`, unzip nested `ExportBlock-...-Part-1.zip` files before parsing.
 - Consolidate into a single markdown file (example: `book_notes/breaking-history-consolidated.md`).
