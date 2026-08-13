@@ -4,7 +4,7 @@ title = "People We Meet on Vacation"
 date = "2026-08-13T14:37:30-0700"
 description = "Olshansky's review of People We Meet on Vacation"
 tags = [
-    "tv",
+    "movie",
     "romance",
     "romantic comedy",
 ]
