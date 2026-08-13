@@ -38,6 +38,10 @@ help:
 	@printf "  \033[36mllms\033[0m               Generate llms.txt and llms-full.txt (skip if up to date)\n"
 	@printf "  \033[36mllms_regenerate\033[0m    Force regenerate llms.txt and llms-full.txt\n"
 	@printf "\n"
+	@printf "\033[1m=== 🐍 Python (uv) ===\033[0m\n"
+	@printf "  \033[36mpy_sync\033[0m            Sync the uv environment from uv.lock\n"
+	@printf "  \033[36mtest\033[0m               Run capture tests with pytest\n"
+	@printf "\n"
 	@printf "\033[1m=== 🛠️  Maintenance ===\033[0m\n"
 	@printf "  \033[36mtodo\033[0m               Find all TODO comments in codebase\n"
 	@printf "\n"
@@ -144,14 +148,26 @@ add_quote: export CAPTURE_TEXT := $(TEXT)
 add_quote: export CAPTURE_AUTHOR := $(AUTHOR)
 add_quote: export CAPTURE_DATE := $(DATE)
 add_quote:
-	@python3 scripts/add_quote.py
+	@uv run python scripts/add_quote.py
 
 .PHONY: add_tix
 add_tix: export CAPTURE_TEXT := $(TEXT)
 add_tix: export CAPTURE_TITLE := $(TITLE)
 add_tix: export CAPTURE_DATE := $(DATE)
 add_tix:
-	@python3 scripts/add_tix.py
+	@uv run python scripts/add_tix.py
+
+#################
+# Python (uv)
+#################
+
+.PHONY: py_sync
+py_sync:
+	@uv sync
+
+.PHONY: test
+test:
+	@uv run pytest
 
 #################
 # Resume
