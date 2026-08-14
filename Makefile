@@ -58,7 +58,7 @@ hugo_server:
 	@echo "Cleaning previous Hugo build artifacts..."
 	@rm -rf public resources/_gen
 	@echo "Starting Hugo server on port 1313..."
-	hugo server -D --port 1313
+	hugo server -D --port 1313 --baseURL "http://localhost:1313/"
 
 .PHONY: test_workflow
 test_workflow:
