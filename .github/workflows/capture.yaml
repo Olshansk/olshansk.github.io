@@ -1,0 +1,56 @@
+name: Validate captures
+
+on:
+  pull_request:
+    paths:
+      - ".agents/skills/add-quote/**"
+      - ".agents/skills/add-tix/**"
+      - "content/ideas.md"
+      - "content/quotes.md"
+      - "scripts/add_quote.py"
+      - "scripts/add_tix.py"
+      - "scripts/capture_markdown.py"
+      - "tests/test_captures.py"
+      - "Makefile"
+      - "pyproject.toml"
+      - "uv.lock"
+      - ".python-version"
+      - ".github/workflows/capture.yaml"
+
+permissions:
+  contents: read
+
+jobs:
+  capture-tests:
+    runs-on: ubuntu-latest
+    env:
+      # Must match the HUGO_VERSION in vercel.json so CI builds what production builds.
+      # >=0.141.0 is required for the built-in `x` shortcode used in
+      # content/posts/2026-03-27-tip-to-talk.md.
+      HUGO_VERSION: 0.150.0
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Sync Python environment
+        run: uv sync --locked
+      - name: Run capture tests
+        run: uv run pytest
+      - name: Check Make help
+        run: |
+          make help | grep -F "add_quote"
+          make help | grep -F "add_tix"
+      - name: Build site
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: hugo --gc --minify --baseURL "http://www.olshansky.info/"

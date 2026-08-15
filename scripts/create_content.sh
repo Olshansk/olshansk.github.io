@@ -10,7 +10,7 @@ TITLE="$2"
 
 if [ -z "$CONTENT_TYPE" ] || [ -z "$TITLE" ]; then
     echo "Usage: $0 <content_type> <title>"
-    echo "Content types: thought, post, movie, tv_show, book"
+    echo "Content types: post, movie, tv_show, book"
     exit 1
 fi
 
@@ -23,10 +23,6 @@ SANITIZED_TITLE=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/
 
 # Set content directory and template based on type
 case "$CONTENT_TYPE" in
-    "thought")
-        CONTENT_DIR="content/thoughts"
-        TEMPLATE="templates/thought.md"
-        ;;
     "post")
         CONTENT_DIR="content/posts"
         TEMPLATE="templates/post.md"
@@ -45,7 +41,7 @@ case "$CONTENT_TYPE" in
         ;;
     *)
         echo "Error: Unknown content type '$CONTENT_TYPE'"
-        echo "Valid types: thought, post, movie, tv_show, book"
+        echo "Valid types: post, movie, tv_show, book"
         exit 1
         ;;
 esac

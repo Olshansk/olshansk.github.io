@@ -1,0 +1,169 @@
+<style>
+.reach-revenue-wrapper {
+  padding: 3rem 1rem 1rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.graph-container {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+/* The Reach Axis (Horizontal line at 25% height) */
+.reach-axis-line {
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+}
+/* The Revenue Axis (Vertical line, ends at Reach axis) */
+.revenue-axis-line {
+  position: absolute;
+  bottom: 25%; /* Ends at Reach axis */
+  left: 0;
+  width: 2px;
+  height: 75%; /* Covers upper part */
+  background-color: #333;
+}
+.graph-axis-label {
+  position: absolute;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #333;
+}
+.y-axis-label {
+  top: -40px;
+  left: -35px;
+}
+.x-axis-label {
+  bottom: -40px;
+  right: -10px;
+}
+/* Arrows */
+.revenue-axis-line::before {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: -5px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 12px solid #333;
+}
+.reach-axis-line::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -12px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 12px solid #333;
+}
+.graph-bubble {
+  position: absolute;
+  background-color: #dcfce7;
+  border: 1px solid #22c55e;
+  border-radius: 24px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #111;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+  z-index: 2;
+}
+.graph-bubble:hover {
+  transform: translate(-50%, 50%) scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+.bubble-infra {
+  background-color: #ecfeff;
+  border: 1px dashed #06b6d4;
+}
+.graph-legend {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #555;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.legend-swatch {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+.swatch-existing {
+  background-color: #dcfce7;
+  border: 1px solid #22c55e;
+}
+.swatch-infra {
+  background-color: #ecfeff;
+  border: 1px dashed #06b6d4;
+}
+@media (max-width: 600px) {
+  .graph-bubble {
+    padding: 6px 10px;
+    font-size: 0.75rem;
+  }
+  .reach-revenue-wrapper {
+    padding-bottom: 2rem;
+  }
+  .graph-legend {
+    top: -60px;
+  }
+}
+</style>
+
+<div class="reach-revenue-wrapper">
+  <div class="graph-container">
+    <div class="revenue-axis-line">
+      <div class="graph-axis-label y-axis-label">Revenue</div>
+    </div>
+    
+    <div class="reach-axis-line">
+      <div class="graph-axis-label x-axis-label">Reach</div>
+    </div>
+    
+    <!-- Existing Models - Shifted Left and compacted -->
+    <div class="graph-bubble" style="left: 35%; bottom: 95%;">Sponsors</div>
+    <div class="graph-bubble" style="left: 10%; bottom: 85%;">Courses</div>
+    <div class="graph-bubble" style="left: 20%; bottom: 75%;">Subscriptions</div>
+    <div class="graph-bubble" style="left: 60%; bottom: 58%;">Ads</div>
+    <div class="graph-bubble" style="left: 85%; bottom: 30%;">Free</div>
+    <div class="graph-bubble" style="left: 60%; bottom: 15%;">Giveaways</div>
+
+    <!-- New Models - Shifted Left and compacted -->
+    <div class="graph-bubble bubble-infra" style="left: 50%; bottom: 70%;">Pay to Unlock</div>
+    <div class="graph-bubble bubble-infra" style="left: 15%; bottom: 55%;">Pay per Crawl</div>
+    <div class="graph-bubble bubble-infra" style="left: 40%; bottom: 45%;">Pay for Preview</div>
+    <div class="graph-bubble bubble-infra" style="left: 70%; bottom: 46%;">Leave a Tip</div>
+    <div class="graph-bubble bubble-infra" style="left: 60%; bottom: 35%;">Pay to Comment</div>
+
+    <div class="graph-legend">
+      <div class="legend-item">
+        <span>Existing Models</span>
+        <div class="legend-swatch swatch-existing"></div>
+      </div>
+      <div class="legend-item">
+        <span>New Agentic Models</span>
+        <div class="legend-swatch swatch-infra"></div>
+      </div>
+    </div>
+  </div>
+</div>
+

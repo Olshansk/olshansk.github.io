@@ -15,20 +15,32 @@ help:
 	@printf "  \033[36mtest_workflow\033[0m      Test GitHub Actions build locally\n"
 	@printf "\n"
 	@printf "\033[1m=== 📝 Content ===\033[0m\n"
-	@printf "  \033[36mnew_thought\033[0m        Create thought post\n"
-	@printf "                     make new_thought TITLE=\"...\"\n"
 	@printf "  \033[36mnew_post\033[0m           Create blog post\n"
 	@printf "                     make new_post TITLE=\"...\"\n"
 	@printf "  \033[36mnew_book\033[0m           Create book review\n"
 	@printf "  \033[36mnew_movie\033[0m          Create movie review\n"
 	@printf "  \033[36mnew_tv_show\033[0m        Create TV show review\n"
 	@printf "  \033[36madd_tags\033[0m           Auto-generate tags for content file\n"
-	@printf "                     make add_tags FILE=\"content/thoughts/my-post.md\"\n"
+	@printf "                     make add_tags FILE=\"content/posts/my-post.md\"\n"
+	@printf "  \033[36medit_post\033[0m          Edit/proofread a blog post\n"
+	@printf "                     make edit_post FILE=\"content/posts/my-post.md\"\n"
+	@printf "  \033[36madd_quote\033[0m          Add a dated quote\n"
+	@printf "                     make add_quote TEXT=\"...\" AUTHOR=\"...\" DATE=YYYY-MM-DD\n"
+	@printf "  \033[36madd_tix\033[0m            Add a dated TIX entry\n"
+	@printf "                     make add_tix TEXT=\"...\" TITLE=\"...\" DATE=YYYY-MM-DD\n"
 	@printf "\n"
 	@printf "\033[1m=== 📄 Resume ===\033[0m\n"
-	@printf "  \033[36mresume_generate\033[0m    Generate cv/resume.pdf from LaTeX\n"
+	@printf "  \033[36mresume_generate\033[0m    Generate cv/DanielOlshanskyResume.pdf from LaTeX\n"
 	@printf "  \033[36mresume_clean\033[0m       Remove LaTeX auxiliary files\n"
 	@printf "  \033[36mresume_deps\033[0m        Install LaTeX dependencies (BasicTeX)\n"
+	@printf "\n"
+	@printf "\033[1m=== 🤖 LLMs ===\033[0m\n"
+	@printf "  \033[36mllms\033[0m               Generate llms.txt and llms-full.txt (skip if up to date)\n"
+	@printf "  \033[36mllms_regenerate\033[0m    Force regenerate llms.txt and llms-full.txt\n"
+	@printf "\n"
+	@printf "\033[1m=== 🐍 Python (uv) ===\033[0m\n"
+	@printf "  \033[36mpy_sync\033[0m            Sync the uv environment from uv.lock\n"
+	@printf "  \033[36mtest\033[0m               Run capture tests with pytest\n"
 	@printf "\n"
 	@printf "\033[1m=== 🛠️  Maintenance ===\033[0m\n"
 	@printf "  \033[36mtodo\033[0m               Find all TODO comments in codebase\n"
@@ -46,7 +58,7 @@ hugo_server:
 	@echo "Cleaning previous Hugo build artifacts..."
 	@rm -rf public resources/_gen
 	@echo "Starting Hugo server on port 1313..."
-	hugo server -D --port 1313
+	hugo server -D --port 1313 --baseURL "http://localhost:1313/"
 
 .PHONY: test_workflow
 test_workflow:
@@ -72,21 +84,14 @@ test_workflow:
 # Content
 #################
 
-.PHONY: new_thought
-new_thought:
-	@if [ -z "$(TITLE)" ]; then \
-		echo "Error: TITLE is required. Usage: make new_thought TITLE=\"My Thought\""; \
-		exit 1; \
-	fi
-	@./scripts/create_content.sh thought "$(TITLE)"
-
 .PHONY: new_post
 new_post:
 	@if [ -z "$(TITLE)" ]; then \
 		echo "Error: TITLE is required. Usage: make new_post TITLE=\"My Post\""; \
 		exit 1; \
 	fi
-	@./scripts/create_content.sh post "$(TITLE)"
+	@OUTPUT=$$(./scripts/create_content.sh post "$(TITLE)" | grep "^Created:" | sed 's/^Created: //'); \
+	echo "$$OUTPUT" > .file && claude -p --permission-mode acceptEdits "/add-tags" && rm -f .file
 
 .PHONY: new_movie
 new_movie:
@@ -115,7 +120,7 @@ new_book:
 .PHONY: add_tags
 add_tags:
 	@if [ -z "$(FILE)" ]; then \
-		echo "Error: FILE is required. Usage: make add_tags FILE=content/thoughts/my-post.md"; \
+		echo "Error: FILE is required. Usage: make add_tags FILE=content/posts/my-post.md"; \
 		exit 1; \
 	fi
 	@if [ ! -f "$(FILE)" ]; then \
@@ -123,7 +128,46 @@ add_tags:
 		exit 1; \
 	fi
 	@echo "=== Generating tags for $(FILE) ==="
-	@claude --print "Read the file $(FILE) and analyze its content. Based on the content, suggest appropriate tags and update the file's front matter tags field. Use title case for tags (e.g., 'Machine Learning' not 'machine-learning'). Keep tags concise (1-3 words each) and relevant. Aim for 3-7 tags. Only update the tags field, do not modify any other content."
+	@echo "$(FILE)" > .file && claude /add-tags && rm -f .file
+
+.PHONY: edit_post
+edit_post:
+	@if [ -z "$(FILE)" ]; then \
+		echo "Error: FILE is required. Usage: make edit_post FILE=content/posts/my-post.md"; \
+		exit 1; \
+	fi
+	@if [ ! -f "$(FILE)" ]; then \
+		echo "Error: File '$(FILE)' not found"; \
+		exit 1; \
+	fi
+	@echo "=== Editing $(FILE) ==="
+	@echo "$(FILE)" > .file && claude /edit-post && rm -f .file
+
+.PHONY: add_quote
+add_quote: export CAPTURE_TEXT := $(TEXT)
+add_quote: export CAPTURE_AUTHOR := $(AUTHOR)
+add_quote: export CAPTURE_DATE := $(DATE)
+add_quote:
+	@uv run python scripts/add_quote.py
+
+.PHONY: add_tix
+add_tix: export CAPTURE_TEXT := $(TEXT)
+add_tix: export CAPTURE_TITLE := $(TITLE)
+add_tix: export CAPTURE_DATE := $(DATE)
+add_tix:
+	@uv run python scripts/add_tix.py
+
+#################
+# Python (uv)
+#################
+
+.PHONY: py_sync
+py_sync:
+	@uv sync
+
+.PHONY: test
+test:
+	@uv run pytest
 
 #################
 # Resume
@@ -131,15 +175,15 @@ add_tags:
 
 .PHONY: resume_generate
 resume_generate:
-	@echo "=== Converting resume.tex to PDF ==="
+	@echo "=== Converting DanielOlshanskyResume.tex to PDF ==="
 	@if ! command -v pdflatex >/dev/null 2>&1; then \
 		echo "Error: pdflatex not found. Run 'make resume_deps' first."; \
 		exit 1; \
 	fi
-	@cd cv && pdflatex -interaction=nonstopmode -halt-on-error resume.tex > /dev/null 2>&1 || \
-		(echo "Error: LaTeX compilation failed. Check cv/resume.log for details." && exit 1)
-	@cp cv/resume.pdf static/pdfs/resume.pdf
-	@echo "=== PDF generated at cv/resume.pdf and static/pdfs/resume.pdf ==="
+	@cd cv && pdflatex -interaction=nonstopmode -halt-on-error DanielOlshanskyResume.tex > /dev/null 2>&1 || \
+		(echo "Error: LaTeX compilation failed. Check cv/DanielOlshanskyResume.log for details." && exit 1)
+	@cp cv/DanielOlshanskyResume.pdf static/pdfs/DanielOlshanskyResume.pdf
+	@echo "=== PDF generated at cv/DanielOlshanskyResume.pdf and static/pdfs/DanielOlshanskyResume.pdf ==="
 
 .PHONY: resume_clean
 resume_clean:
@@ -171,6 +215,18 @@ resume_deps:
 		echo ""; \
 		echo "Then run: make resume_generate"; \
 	fi
+
+#################
+# LLMs
+#################
+
+.PHONY: llms
+llms:
+	@./scripts/generate_llms.sh
+
+.PHONY: llms_regenerate
+llms_regenerate:
+	@./scripts/generate_llms.sh --force
 
 #################
 # Maintenance
