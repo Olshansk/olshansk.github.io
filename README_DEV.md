@@ -20,7 +20,15 @@
 
 ## Deployment
 
-[olshansky.info](https://olshansky.info)
+Live site: [olshansky.info](https://olshansky.info)
+
+Deployed by **Vercel** on every push to `main`; pull requests get preview deployments.
+
+- Dashboard: [vercel.com/olshansky/olshansk-github-io](https://vercel.com/olshansky/olshansk-github-io)
+- Build config: [`vercel.json`](vercel.json) — this is the source of truth for `HUGO_VERSION`.
+
+GitHub Pages is no longer used. When bumping Hugo, update `vercel.json` and
+`.github/workflows/capture.yaml` together so CI validates the version production builds.
 
 ## Development
 

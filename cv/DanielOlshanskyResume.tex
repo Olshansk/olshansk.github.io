@@ -1,0 +1,194 @@
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{resume}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{anysize}
+
+% Wider sides, tighter top/bottom
+\marginsize{3.6em}{3.6em}{0.5em}{0.5em}
+
+% Slightly improved line spacing
+\setlength{\parskip}{0pt}
+\linespread{1.0}
+\raggedbottom
+
+% Compact but readable bullets
+\let\olditemize\itemize
+\renewcommand{\itemize}{%
+  \olditemize
+  \setlength{\itemsep}{-0.25em}
+  \setlength{\topsep}{0pt}
+  \setlength{\partopsep}{0pt}
+}
+
+%----------------------------------------------------------------------------------------
+%   Resume Definitions
+%----------------------------------------------------------------------------------------
+
+\newenvironment{rSectionCompact}[1]{
+  \medskip
+  \vspace{0.5em}
+  \textbf{\textcolor{Cerulean}{\MakeUppercase{#1}}}
+  \vspace{0.3em}
+  {\color{Blue}\hrule height 0.6pt}
+  \vspace{0.6em}
+  \begin{list}{}{
+    \setlength{\leftmargin}{0em}
+  }
+  \item[]
+}{
+    \vspace{0.35em}
+    \end{list}
+}
+
+\newenvironment{rJobCompact}[2]{
+  \normalsize
+  \textcolor{Blue}{\textbf{#1}}\hfill\textit{#2}
+  \vspace{0.08em}
+  \begin{list}{$\bullet$}{
+    \setlength{\leftmargin}{1.6em}
+    \setlength{\itemsep}{-0.05em}
+    \setlength{\topsep}{0pt}
+    \setlength{\partopsep}{0pt}
+    \setlength{\parsep}{0pt}
+  }
+}{
+    \end{list}
+    \vspace{0.55em}
+}
+
+\newcommand{\Hquad}{\hspace{0.5em}}
+
+%----------------------------------------------------------------------------------------
+%   Personal Info
+%----------------------------------------------------------------------------------------
+
+\name{Daniel Olshansky}
+\address{}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\vspace{-2.0em}
+
+\begin{center}
+    \small
+    olshansky.daniel@gmail.com $\diamond$ 415-735-5911 $\diamond$ \href{https://olshansky.info}{olshansky.info} $\diamond$
+    \includegraphics[scale=0.2]{github-icon.png} \href{https://github.com/olshansk}{@olshansk} $\diamond$
+    \includegraphics[scale=0.2]{twitter-icon.png} \href{https://twitter.com/olshansky}{@olshansky} $\diamond$
+    \includegraphics[scale=0.2]{linkedin-icon.png} \href{https://www.linkedin.com/in/dolshansky/}{dolshansky}
+\end{center}
+
+\vspace{0.4em}
+
+%----------------------------------------------------------------------------------------
+%   About Me
+%----------------------------------------------------------------------------------------
+
+\begin{rSectionCompact}{About Me}
+    \small
+    Software engineer with 12+ years of experience across artificial intelligence, mixed reality, autonomous vehicles, and consensus \& payment protocols, including 3+ years of formal engineering management.
+    My expertise is at the intersection of backend, distributed systems, data, APIs, and tooling, with a focus on bridging research and production.
+    I thrive in zero-to-one environments, clarify ambiguity, adapt to new domains, while architecting \& productionizing systems that enable individuals to focus on their strengths.
+\end{rSectionCompact}
+
+%----------------------------------------------------------------------------------------
+%   Experience
+%----------------------------------------------------------------------------------------
+
+\begin{rSectionCompact}{Experience}
+
+    \begin{rJobCompact}{\href{https://breakingground.tech}{BreakingGround} (Founder, AI Consulting)}{2026 - Present}
+        \item \textbf{Context:} Building on GetSoils (2021 - 2022), a construction-soil marketplace for geotech firms (IP sold).
+        \item \textbf{Results:} Part-time AI consulting for geotech: fine-tuning VLMs (Thinking Machines' Tinker) for soil analysis, datasette.io based data exploration, workflow automation, and data governance.
+    \end{rJobCompact}
+
+    \begin{rJobCompact}{\href{https://pokt.network}{Pocket Network} (Head of Protocol) \& \href{https://grove.city}{Grove Labs} (CTO)}{2022 - May 2026}
+        \item \textbf{Context:} Rose from Consensus Protocol Engineer to CTO, leading the R\&D of a decentralized protocol while coordinating alignment among hundreds of ecosystem stakeholders.
+        \item \textbf{Built:} A permissionless API marketplace enabling decentralized data access at scale through a verifiable rate limiter.
+        \item \textbf{Impact:} Scaled a \$100M+ protocol serving 1B+ daily requests across hundreds of services, providers, and exchanges.
+        \item \textbf{Pivoted:} Handed off the Network to the foundation and built a wallet-first Agentic Payments platform for content creators — thousands of dollars in micropayments across a few dozen true fans, but the market proved too early.
+    \end{rJobCompact}
+
+    \begin{rJobCompact}{Senior Software Engineer, Planner Eval @ \href{https://waymo.com}{Waymo} (Alphabet)}{2020 - 2022}
+        \item \textbf{Context:} Evaluated autonomous vehicle motion planning across real-world, simulated, golden, and adversarial environments at scale.
+        \item \textbf{Built:} Reproducible evaluation tooling, labeling infrastructure, golden datasets, and 3D visualization systems for simulation and planner analysis.
+        \item \textbf{Impact:} Led the org-wide test set initiative supporting mission-critical safety evals used by 50+ data scientists across 6+ teams and millions of dollars in simulation infrastructure.
+    \end{rJobCompact}
+
+    \begin{rJobCompact}{Lead Software Engineer, Augmented Reality Cloud @ \href{https://magicleap.com}{Magic Leap}}{2016 - 2020}
+        \item \textbf{Context:} Founding member of the Magic Leap cloud team building device management infrastructure and the AR cloud.
+        \item \textbf{Built:} OTA update systems and cloud infrastructure transforming raw sensor data into object recognition, sparse/dense mapping, and multiplayer localization capabilities.
+        \item \textbf{Impact:} Supported thousands of ML1 devices, enabled critical internal research initiatives, contributed to demos raising hundreds of millions of dollars, and co-authored 15+ patents.
+    \end{rJobCompact}
+
+    \begin{rJobCompact}{Software Engineer @ \href{https://twitter.com}{Twitter}}{2014 - 2016}
+        \item \textbf{Context:} First engineering role out of college at a large-scale consumer platform, growing from implementation-focused engineer into full-stack systems builder.
+        \item \textbf{Built:} Full-stack features across data pipelines, mobile, web, and backend systems on the VIT and Media teams.
+        \item \textbf{Impact:} Shipped GIF search, custom timelines, and vetted account features used by tens of millions of daily users.
+    \end{rJobCompact}
+
+\end{rSectionCompact}
+
+%----------------------------------------------------------------------------------------
+%   Education
+%----------------------------------------------------------------------------------------
+
+\begin{rSectionCompact}{Education}
+    \textbf{Internships} \hfill \textit{2011 - 2013} \\
+    ModiFace 2011 (mobile computer vision), Twitter 2012 (iOS), Google 2013 (Android)
+
+    \vspace{0.25em}
+    \textbf{University of Toronto} \hfill \textit{2010 - 2014} \\
+    B.A.Sc in Engineering Science, Electrical \& Computer Engineering • GPA: 3.84 • Dean's List • N$\Psi$ 1T4 \\
+    Thesis: Accelerating PCA for fMRI analysis using GPUs and MapReduce
+
+\end{rSectionCompact}
+
+%----------------------------------------------------------------------------------------
+%   Additional Resources
+%----------------------------------------------------------------------------------------
+
+\medskip
+\vspace{0.9em}
+\textbf{\textcolor{Cerulean}{\MakeUppercase{Additional Resources}}} (\textit{\small all items below are hyperlinked})
+\vspace{0.3em}
+{\color{Blue}\hrule height 0.6pt}
+\vspace{0.85em}
+\small
+\noindent
+\begin{minipage}[t]{0.62\linewidth}
+    \textbf{Writing}: \href{https://olshansky.info/posts}{Posts}, \href{https://olshansky.info/thoughts}{Thoughts}, \href{https://olshansky.substack.com}{Substack}, \href{https://olshansky.medium.com}{Medium} \\
+    \textbf{Presenting}: \href{https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E}{Talks} \& \href{https://www.youtube.com/playlist?list=PLeHvNSh0enXSflgNf-YC6jW6K3Fh4cS5E}{Interviews}
+\end{minipage}%
+\begin{minipage}[t]{0.38\linewidth}
+    \textbf{Consuming}: \href{https://olshansky.info/book}{Books}, \href{https://olshansky.notion.site/768504560fd54cdaa7e24b6c3f31a21e}{Podcasts}, \href{https://olshansky.info/movie}{Movies}, \href{https://olshansky.info/tv}{TV} \\
+    \textbf{Publishing}: \href{https://scholar.google.com/citations?user=pkPj80UAAAAJ&hl=en&oi=sra}{Google Scholar}
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%   Technical Experience
+%----------------------------------------------------------------------------------------
+
+\begin{rSectionCompact}{Technical Experience}
+    \small
+    Python $\cdot$ Go $\cdot$ Java $\cdot$ Scala $\cdot$ C/C++ $\cdot$ Elixir $\cdot$ iOS $\cdot$ Android $\cdot$ PostgreSQL $\cdot$ SQLite $\cdot$ Datasette $\cdot$ Redis $\cdot$ Kubernetes $\cdot$ GCP $\cdot$ MQTT $\cdot$ MapReduce $\cdot$ Distributed Systems $\cdot$ Consensus Algorithms $\cdot$ API Design $\cdot$ Developer Experience $\cdot$ Agentic Payments $\cdot$ Evals $\cdot$ Data Labeling $\cdot$ Test Sets $\cdot$ VLMs $\cdot$ RAG $\cdot$ Tinker $\cdot$ x402 $\cdot$ Stablecoin $\cdot$ Agentic Infra \& Tools
+\end{rSectionCompact}
+
+
+\end{document}
