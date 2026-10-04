@@ -3,7 +3,7 @@ title: "Three Lessons I learnt at Waymo"
 date: 2025-10-14T08:16:37-0700
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
