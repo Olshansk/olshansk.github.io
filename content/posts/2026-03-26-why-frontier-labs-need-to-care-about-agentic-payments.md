@@ -3,7 +3,7 @@ title: "Why frontier labs need to care about agentic payments"
 date: 2026-03-26T23:08:21-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
