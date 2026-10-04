@@ -3,7 +3,7 @@ title: "Nobody Wants This: Season 2"
 date: 2025-11-30T11:10:11-0800
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
