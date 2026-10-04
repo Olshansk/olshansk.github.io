@@ -3,7 +3,7 @@ title: "Nothing has changed"
 date: 2025-12-08T21:57:09-0800
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
