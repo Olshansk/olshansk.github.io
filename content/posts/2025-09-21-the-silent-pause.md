@@ -3,7 +3,7 @@ title: "the-silent-pause"
 date: 2025-09-21T15:07:34-0700
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
