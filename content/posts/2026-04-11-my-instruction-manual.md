@@ -3,7 +3,7 @@ title: "My Instruction Manual"
 date: 2026-04-11T21:34:02-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
