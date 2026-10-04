@@ -3,7 +3,7 @@ title: "Visible vs Invisible Strength"
 date: 2026-04-28T10:07:52-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
