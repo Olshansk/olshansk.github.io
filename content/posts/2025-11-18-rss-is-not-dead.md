@@ -3,7 +3,7 @@ title: "RSS is not Dead"
 date: 2025-11-18T09:06:45-0500
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
