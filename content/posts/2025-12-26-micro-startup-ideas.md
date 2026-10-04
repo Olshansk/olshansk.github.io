@@ -3,7 +3,7 @@ title: "Micro Startup Ideas"
 date: 2025-12-26T14:58:14-0800
 draft: true
 description: "All my micro startup ideas"
-tags: ["thoughts"]
+tags: ["Post"]
 categories: ["living", "living post", "startup", "ideas"]
 ShowToc: true
 TocOpen: false
