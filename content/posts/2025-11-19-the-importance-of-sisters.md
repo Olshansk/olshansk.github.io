@@ -3,7 +3,7 @@ title: "The Importance of Sisters"
 date: 2025-11-19T21:31:40-0500
 draft: true
 description: ""
-tags: ["reflection", "leadership"]
+tags: ["Thought", "reflection", "leadership"]
 categories: ["post"]
 medium_url: ""
 substack_url: ""
