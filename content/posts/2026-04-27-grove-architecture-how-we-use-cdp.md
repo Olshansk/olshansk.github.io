@@ -3,7 +3,7 @@ title: "Grove Architecture: How we use CDP"
 date: 2026-04-27T10:43:43-0700
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
