@@ -3,7 +3,7 @@ title: "A thought on stock buybacks..."
 date: 2025-11-05T16:42:55-0500
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
