@@ -3,7 +3,7 @@ title: "Policy vs Enforcement"
 date: 2026-04-06T15:55:05-0700
 draft: true
 description: ""
-tags: ["AI", "Agents", "Workflows"]
+tags: ["Thought", "AI", "Agents", "Workflows"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
