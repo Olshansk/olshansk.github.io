@@ -3,7 +3,7 @@ title: "Chips on my shoulder"
 date: 2026-01-03T18:53:53-0800
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
