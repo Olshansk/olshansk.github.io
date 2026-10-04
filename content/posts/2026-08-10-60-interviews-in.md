@@ -3,7 +3,7 @@ title: "Tech Interviews in 2026"
 date: 2026-08-10T13:11:50-0500
 draft: true
 description: ""
-tags: ["Thought", "Interviewing", "Career", "Job Search", "Hiring", "Reflection", "Work", "Communication", "Ownership"]
+tags: ["Post", "Interviewing", "Career", "Job Search", "Hiring", "Reflection", "Work", "Communication", "Ownership"]
 categories: []
 medium_url: ""
 substack_url: ""
