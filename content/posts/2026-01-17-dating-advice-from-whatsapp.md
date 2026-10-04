@@ -3,7 +3,7 @@ title: "Dating Advice from WhatsApp"
 date: 2026-01-17T14:01:51-0500
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
