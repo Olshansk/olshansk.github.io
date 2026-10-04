@@ -3,7 +3,7 @@ title: "Is it worth building a data center in Canada?"
 date: 2025-10-18T14:43:13-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
