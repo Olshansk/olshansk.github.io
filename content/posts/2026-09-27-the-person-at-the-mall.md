@@ -3,7 +3,7 @@ title: "The person at the mall"
 date: 2026-09-27T12:00:00-07:00
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
