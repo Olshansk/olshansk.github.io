@@ -3,7 +3,7 @@ title: "What am I looking for?"
 date: 2026-01-19T16:24:03-0500
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
