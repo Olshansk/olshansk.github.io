@@ -3,7 +3,7 @@ title: "Meet people where they are"
 date: 2026-01-21T10:24:06-0500
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
