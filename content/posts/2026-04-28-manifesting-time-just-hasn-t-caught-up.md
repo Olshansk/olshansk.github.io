@@ -3,7 +3,7 @@ title: "Manifesting, Time Just hasn't Caught Up"
 date: 2026-04-28T10:19:13-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
