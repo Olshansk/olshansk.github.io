@@ -3,7 +3,7 @@ title: "A very opinionated view on the state of agentic payments"
 date: 2026-03-27T10:41:20-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
