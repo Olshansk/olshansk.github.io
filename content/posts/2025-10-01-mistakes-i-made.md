@@ -3,7 +3,7 @@ title: "Mistakes I made"
 date: 2025-10-01T12:14:51-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
