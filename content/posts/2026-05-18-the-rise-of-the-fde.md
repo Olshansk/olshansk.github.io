@@ -3,7 +3,7 @@ title: "The rise of the FDE"
 date: 2026-05-18T12:08:35-0700
 draft: true
 description: ""
-tags: ["Thoughts"]
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
