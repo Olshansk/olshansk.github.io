@@ -3,7 +3,7 @@ title: "A Day in the Life of the Unnamed"
 date: 2025-09-13T12:00:00-07:00
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
