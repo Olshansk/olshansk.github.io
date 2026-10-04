@@ -3,7 +3,7 @@ title: "The start of every claude code conversation"
 date: 2025-10-17T11:17:29-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
