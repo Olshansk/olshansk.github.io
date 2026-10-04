@@ -3,7 +3,7 @@ title: "Dating in your 30s"
 date: 2026-03-07T17:02:57-0800
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
