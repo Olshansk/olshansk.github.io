@@ -3,7 +3,7 @@ title: "Catching up on Hashimoto's blogs"
 date: 2025-11-29T20:26:25-0500
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
