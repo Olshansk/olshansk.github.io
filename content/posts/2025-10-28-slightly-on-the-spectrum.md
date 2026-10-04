@@ -3,7 +3,7 @@ title: "Slightly on the spectrum"
 date: 2025-10-28T20:24:59-0700
 draft: true
 description: ""
-tags: ["autism", "work", "adhd"]
+tags: ["Thought", "autism", "work", "adhd"]
 categories: ["thoughts"]
 ShowToc: true
 TocOpen: false
