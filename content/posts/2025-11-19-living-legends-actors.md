@@ -3,7 +3,7 @@ title: "Living Legends: Actors"
 date: 2025-11-19T21:33:04-0500
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
