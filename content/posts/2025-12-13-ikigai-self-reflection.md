@@ -3,7 +3,7 @@ title: "Ikigai: A Self-Reflection"
 date: 2025-12-13
 draft: true
 description: "Finding the intersection of passion, mission, profession, and vocation"
-tags: ["reflection", "career", "life"]
+tags: ["Post", "reflection", "career", "life"]
 categories: []
 medium_url: ""
 substack_url: ""
