@@ -3,7 +3,7 @@ title: "Investment Thesis for 2025 and 2026"
 date: 2026-01-17T14:07:11-0500
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
