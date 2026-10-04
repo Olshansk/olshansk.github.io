@@ -3,7 +3,7 @@ title: "What the triangle of sadness tells us about the impact AI will have on j
 date: 2026-04-10T11:01:18-0700
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
