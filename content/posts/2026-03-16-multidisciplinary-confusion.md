@@ -3,7 +3,7 @@ title: "Multidisciplinary Cognitive Confusion"
 date: 2026-03-16T10:31:19-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
