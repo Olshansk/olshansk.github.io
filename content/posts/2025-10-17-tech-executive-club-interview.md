@@ -3,7 +3,7 @@ title: "Tech Executive Club Interview"
 date: 2025-10-17T10:57:45-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
