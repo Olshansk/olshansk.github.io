@@ -3,7 +3,7 @@ title: "AEO and personal domains"
 date: 2025-09-30T15:06:52-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
