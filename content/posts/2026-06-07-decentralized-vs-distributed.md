@@ -3,7 +3,7 @@ title: "Decentralized vs Distributed"
 date: 2026-06-07T10:00:00-0400
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
