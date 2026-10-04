@@ -3,7 +3,7 @@ title: "Rich vs Poor"
 date: 2025-09-27T16:41:20-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
