@@ -3,7 +3,7 @@ title: "The many application networking layers"
 date: 2025-10-08T13:10:25-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
