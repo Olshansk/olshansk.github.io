@@ -3,7 +3,7 @@ title: "Xuanwo's All in on AI blog in 2025"
 date: 2026-01-01T19:57:04-0800
 draft: true
 description: "Reading Xuanwo's All in on AI blog at the end of 2025"
-tags: ["Tech", "AI", "Open Source", "Xuanwo", "AI Safety", "AI Governance"]
+tags: ["Thought", "Tech", "AI", "Open Source", "Xuanwo", "AI Safety", "AI Governance"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
