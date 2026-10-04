@@ -3,14 +3,7 @@ title: "Every org should have a public agent-skills repo"
 date: 2026-03-16T12:00:00-0800
 draft: true
 description: "It's simpler than you think as long as you meet the user where they are"
-tags:
-  [
-    "AI Coding",
-    "Agent Skills",
-    "Claude Code",
-    "Developer Tools",
-    "Agentic Coding",
-  ]
+tags: ["Post", "AI Coding", "Agent Skills", "Claude Code", "Developer Tools", "Agentic Coding"]
 categories: ["Posts"]
 medium_url: ""
 substack_url: ""
