@@ -3,7 +3,7 @@ title: "Pushing yourself to the limit"
 date: 2026-05-30T16:15:44-0400
 draft: true
 description: ""
-tags: ["Thought", "Personal Growth", "Mindset", "Discipline"]
+tags: ["Post", "Personal Growth", "Mindset", "Discipline"]
 categories: []
 medium_url: ""
 substack_url: ""
