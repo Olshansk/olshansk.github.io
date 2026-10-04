@@ -3,7 +3,7 @@ title: "A tech exec in the IRS"
 date: 2025-10-25T19:57:43-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
