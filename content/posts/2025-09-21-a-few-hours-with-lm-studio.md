@@ -3,7 +3,7 @@ title: "a-few-hours-with-lm-studio"
 date: 2025-09-21T15:30:46-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
