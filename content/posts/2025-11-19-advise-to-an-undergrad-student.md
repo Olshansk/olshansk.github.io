@@ -3,7 +3,7 @@ title: "Advise to an undergrad student"
 date: 2025-11-19T21:34:13-0500
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
