@@ -3,7 +3,7 @@ title: "The Moat is State"
 date: 2026-03-23T09:56:54-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
