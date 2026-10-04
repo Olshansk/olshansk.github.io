@@ -3,7 +3,7 @@ title: "Say Hello to Claude Companion"
 date: 2026-03-07T17:12:38-0800
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
