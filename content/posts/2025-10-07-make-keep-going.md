@@ -3,7 +3,7 @@ title: "make keep_going"
 date: 2025-10-07T15:42:09-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
