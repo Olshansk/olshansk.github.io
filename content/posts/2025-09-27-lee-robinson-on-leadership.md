@@ -3,7 +3,7 @@ title: "Lee Robinson on Leadership"
 date: 2025-09-27T16:41:45-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
