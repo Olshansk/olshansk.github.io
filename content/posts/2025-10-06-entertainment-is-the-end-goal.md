@@ -3,7 +3,7 @@ title: "Entertainment is the end goal"
 date: 2025-10-06T09:41:24-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
