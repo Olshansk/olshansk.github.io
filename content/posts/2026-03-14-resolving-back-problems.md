@@ -3,7 +3,7 @@ title: "Resolving back problems"
 date: 2026-03-14T15:48:40-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
