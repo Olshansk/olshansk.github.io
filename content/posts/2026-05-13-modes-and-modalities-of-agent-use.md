@@ -3,7 +3,7 @@ title: "Modes and Modalities of Agent Use"
 date: 2026-05-13T10:53:57-0700
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
