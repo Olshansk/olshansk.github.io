@@ -3,7 +3,7 @@ title: "Why I want to be a founder"
 date: 2025-10-05T19:31:04-0700
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
