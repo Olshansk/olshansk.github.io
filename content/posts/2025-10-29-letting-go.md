@@ -3,7 +3,7 @@ title: "Letting go"
 date: 2025-10-29T09:44:23-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
