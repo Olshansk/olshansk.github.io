@@ -3,7 +3,7 @@ title: "Most founders never achieve their full potential"
 date: 2026-01-04T15:48:02-0800
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
