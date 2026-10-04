@@ -3,7 +3,7 @@ title: "Close All Your Tabs"
 date: 2025-12-10T10:03:09-0800
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
