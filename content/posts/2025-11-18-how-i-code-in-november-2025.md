@@ -3,7 +3,7 @@ title: "How I code in November 2025"
 date: 2025-11-18T09:08:01-0500
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
