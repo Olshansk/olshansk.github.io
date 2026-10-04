@@ -3,7 +3,7 @@ title: "The State of Agentic Payment Protocols"
 date: 2026-01-21T10:34:22-0500
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
