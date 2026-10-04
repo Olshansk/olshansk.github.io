@@ -3,7 +3,7 @@ title: "Engineering Management Was Preparation for Managing Agents"
 date: 2026-04-02T12:48:52-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
