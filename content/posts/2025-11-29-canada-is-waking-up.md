@@ -3,7 +3,7 @@ title: "Canada is waking up"
 date: 2025-11-29T18:25:43-0500
 draft: true
 description: ""
-tags: ["canada", "tech"]
+tags: ["Thought", "canada", "tech"]
 categories: ["posts"]
 medium_url: ""
 substack_url: ""
