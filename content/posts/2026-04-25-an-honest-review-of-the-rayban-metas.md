@@ -3,7 +3,7 @@ title: "An honest review of the rayban metas"
 date: 2026-04-25T14:04:20-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
