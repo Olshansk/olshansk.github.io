@@ -3,7 +3,7 @@ title: "Five Lessons from Agentic Backend Development"
 date: 2026-01-21T10:27:20-0500
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
