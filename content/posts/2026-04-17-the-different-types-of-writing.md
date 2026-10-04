@@ -3,7 +3,7 @@ title: "The different types of writing"
 date: 2026-04-17T09:45:05-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
