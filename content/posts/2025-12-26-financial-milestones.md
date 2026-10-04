@@ -3,7 +3,7 @@ title: "Financial Milestones"
 date: 2025-12-26T14:36:13-0800
 draft: true
 description: ""
-tags: ["thoughts"]
+tags: ["Thought"]
 categories: ["living", "living post", "milestones", "goals", "thoughts"]
 ShowToc: true
 TocOpen: false
