@@ -3,7 +3,7 @@ title: "Grove Companion: "
 date: 2026-04-27T10:56:18-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
