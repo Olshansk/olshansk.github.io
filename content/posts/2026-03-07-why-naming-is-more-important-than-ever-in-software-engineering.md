@@ -3,7 +3,7 @@ title: "Why naming is more important than ever in software engineering"
 date: 2026-03-07T15:08:25-0800
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
