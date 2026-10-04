@@ -3,7 +3,7 @@ title: "Moravec's Paradox"
 date: 2026-03-31T09:54:18-0700
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
