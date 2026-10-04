@@ -3,7 +3,7 @@ title: "Time is a one way door"
 date: 2025-12-04T10:10:52-0800
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
