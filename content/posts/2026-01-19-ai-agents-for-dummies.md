@@ -3,7 +3,7 @@ title: "AI Agents for Dummies"
 date: 2026-01-19T16:56:42-0500
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
