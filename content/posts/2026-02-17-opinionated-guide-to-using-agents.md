@@ -3,7 +3,7 @@ title: "Opinionated Guide to using agents"
 date: 2026-02-17T10:29:56-0500
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
