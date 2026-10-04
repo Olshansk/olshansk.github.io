@@ -3,7 +3,7 @@ title: "The Four Pillars of AI"
 date: 2026-05-29T19:03:27-0400
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 ShowToc: true
 TocOpen: false
