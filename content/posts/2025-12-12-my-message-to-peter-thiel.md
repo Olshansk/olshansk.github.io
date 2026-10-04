@@ -3,7 +3,7 @@ title: "My message to Peter Thiel"
 date: 2025-12-12T15:57:56-0800
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
