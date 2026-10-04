@@ -3,7 +3,7 @@ title: "How and why did I start writing?"
 date: 2026-03-29T16:39:04-0700
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
