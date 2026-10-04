@@ -3,7 +3,7 @@ title: "Ledger - A Stripe System Design Problem"
 date: 2026-06-23T14:49:25-0400
 draft: true
 description: "A system design problem: build a bookkeeping service that tracks money sent and received on behalf of a merchant."
-tags: []
+tags: ["Post"]
 categories: ["System Design"]
 medium_url: ""
 substack_url: ""
