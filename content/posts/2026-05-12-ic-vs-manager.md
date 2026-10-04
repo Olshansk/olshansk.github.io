@@ -3,7 +3,7 @@ title: "Managers vs Individual Contributors"
 date: 2026-04-28T10:07:24-0700
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
