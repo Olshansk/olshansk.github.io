@@ -3,7 +3,7 @@ title: "Static vs Kinetic Operators"
 date: 2025-09-27T15:31:53-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
