@@ -3,7 +3,7 @@ title: "tipping is an end to a means"
 date: 2026-02-26T11:49:27-0800
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
