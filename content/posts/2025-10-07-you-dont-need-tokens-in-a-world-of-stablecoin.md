@@ -3,7 +3,7 @@ title: "Your Blockchain Doesn't Need A Token"
 date: 2025-10-07T15:41:28-0700
 draft: true
 description: ""
-tags: ["blockchain", "token", "crypto", "stablecoin"]
+tags: ["Post", "blockchain", "token", "crypto", "stablecoin"]
 categories: []
 ShowToc: true
 TocOpen: false
