@@ -3,7 +3,7 @@ title: "macOS Screenshot To Clipboard"
 date: 2026-03-06T22:12:39-0800
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
