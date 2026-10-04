@@ -3,7 +3,7 @@ title: "The Train Theory of Relationships"
 date: 2025-12-10T09:32:22-0800
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
