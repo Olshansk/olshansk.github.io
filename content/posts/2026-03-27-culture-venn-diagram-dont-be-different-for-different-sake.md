@@ -3,7 +3,7 @@ title: "Culture Venn Diagram: Dont be different for different sake"
 date: 2026-03-27T10:57:03-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 medium_url: ""
 substack_url: ""
