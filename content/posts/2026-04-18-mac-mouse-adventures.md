@@ -3,7 +3,7 @@ title: "Mac Mouse Adventures"
 date: 2026-04-18T21:09:37-0700
 draft: true
 description: ""
-tags: []
+tags: ["Post"]
 categories: []
 medium_url: ""
 substack_url: ""
