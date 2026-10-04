@@ -3,7 +3,7 @@ title: "Tiers of development"
 date: 2026-04-28T10:07:37-0700
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false
