@@ -3,7 +3,7 @@ title: "Luck Surface Area"
 date: 2025-11-08T12:49:48-0500
 draft: true
 description: ""
-tags: []
+tags: ["Thought"]
 categories: []
 ShowToc: true
 TocOpen: false
