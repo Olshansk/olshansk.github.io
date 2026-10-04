@@ -3,7 +3,7 @@ title: "yuri-milners-four-laws"
 date: 2025-09-27T14:25:50-0700
 draft: true
 description: ""
-tags: ["thought", "quote", "reflection"]
+tags: ["Post", "quote", "reflection"]
 categories: []
 ShowToc: true
 TocOpen: false
