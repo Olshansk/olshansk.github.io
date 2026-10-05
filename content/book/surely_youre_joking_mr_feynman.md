@@ -1,253 +1,142 @@
----
-title: "Surely You’re Joking, Mr. Feynman!"
-date: 2023-09-16T12:00:00-07:00
-draft: true
-description: ""
-tags: []
-categories: []
-medium_url: ""
-substack_url: ""
-ShowToc: true
-TocOpen: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
----
++++
+author = "Daniel Olshansky"
+title = "Surely You’re Joking, Mr. Feynman!"
+date = "2026-10-04T00:00:00-07:00"
+draft = false
+description = "Long-overdue notes on curiosity, learning, and having fun with physics."
+tags = ["book"]
++++
 
-Feynman Review - Book Review
+*I’ve been meaning to publish these notes for over two years. They’re not as polished as I’d like, but I’d rather get them out than keep waiting.*
 
-If I could have dinner with anyone in the history of the world, it would be Feynamn. I’ve never dived deep into his work or research, but read some short articles and have followed what others ssay of him.
+If I could have dinner with anyone in the history of the world, it would be Feynman. I’ve never dived deep into his work or research, but I’ve read some short articles and followed what others say about him.
 
--
+## Notes
 
-Chapter 2 / 12:28
-Note: he fixes radios by thinking
+These are my audiobook notes, not direct quotes. A few transcriptions are unclear; I’ve kept those as written rather than guessed at their meaning. The [complete original notes](https://github.com/Olshansk/olshansk.github.io/blob/main/writing_notes/review-surely-youre-joking-mr-feynman/original.md) are also preserved, including repeated notes and empty timestamp markers.
 
----
+### Chapter 2
 
-## Chapter 2 / 12:59
+- **12:28:** He fixes radios by thinking.
 
-Chapter 4 / 02:52
-Note: a pact to teach each other in college when falling behind
+### Chapter 4
 
----
+- **02:52:** A pact to teach each other in college when falling behind.
 
-Chapter 4 / 05:38
-Note: look at wires to figure out bc where's downtown is
+- **05:38:** Look at the wires to figure out where downtown is.
 
----
+- **08:47:** He did not know how to pronounce Bernoulli’s equation.
 
-Chapter 4 / 08:47
-Note: did not knowhow to pronounce bernoulies equation
+- **14:46:** People’s knowledge is fragile because they don’t learn by understanding.
 
----
+### Chapter 5
 
-Chapter 4 / 14:46
-Note: people knowledge us fragile because they don't learn by understanding
+- **00:24:** Original transcription (unclear): `people only reneged conclusion if you don't have evidence`
 
----
+### Chapter 8
 
-Chapter 5 / 00:24
-Note: people only reneged conclusion if you don't have evidence
+- **02:00:** He said yes to both lemon and milk in his tea.
 
----
+### Chapter 10
 
-## Chapter 8 / 01:54
+- **00:15:** The book *Process and Reality*.
 
-Chapter 8 / 02:00
-Note: said yes to lemon and milk in tea
+- **00:37:** Feynman was afraid to interrupt.
 
----
+- **00:38:** Feynman was afraid to interrupt and ask questions.
 
-Chapter 10 / 00:15
-Note: process and reality book
+- **00:39:** Feynman was afraid to interrupt and ask questions.
 
----
+### Chapter 11
 
-## Chapter 10 / 00:33
+- **06:35:** His first technical seminar had von Neumann, Pauli, Einstein, and many more!
 
-Chapter 10 / 00:37
-Note: feynman afraid to interruot
+### Chapter 15
 
----
+- **03:33:** He always watched different things.
 
-Chapter 10 / 00:38
-Note: feynman afraid to interrupt and ask questions
+### Chapter 16
 
----
+- **04:49:** Feynman chose the Army over Bell Labs at one point.
 
-Chapter 10 / 00:39
-Note: feynman afraid to interrupt and ask q
+- **07:10:** Build a system using polar coordinates instead of Euclidean coordinates. What if the gunner and the station are in different locations?
 
----
+### Chapter 18
 
-Chapter 11 / 06:35
-Note: his fist technical seminar had von neoman, pali, Einstein Ah's many mites!
+- **26:22:** He played around with the censor in the mail office while exchanging coded messages with his wife.
 
----
+- **31:59:** Airplanes had bus stops back then.
 
-Chapter 15 / 03:33
-Note: always watched different things
+- **53:06:** He only cried several months after his wife died.
 
----
+- **56:46:** Walks with von Neumann: you don’t need to be responsible for the world we’re in. Be irresponsible.
 
-Chapter 16 / 04:49
-Note: feynman chose rhe arny over bell labs at one point
+- **57:14:** Niels Bohr used the name Nicholas Baker.
 
----
+### Chapter 19
 
-Chapter 16 / 07:10
-Note: build aysten using polar coordinates instead if eucledian - what if gunner and ststion are at dufferent losations?
+- **14:33:** He got really good at opening everyone’s safes for fun.
 
----
+### Chapter 20
 
-## Chapter 16 / 09:32
+- **00:17:** Half of the people didn’t bother to change the default safe code.
 
-## Chapter 18 / 13:03
+### Chapter 21
 
-Chapter 18 / 26:22
-Note: played around with the censor in the mail office while sending coded messages with his wife
+- **00:27:** He liked to teach because, when he didn’t have ideas, at least he was doing something productive.
 
----
+- **00:28:** He liked to pretend to be crazy—for fun and to fuck with people.
 
-Chapter 18 / 31:59
-Note: aieplaonws had bus stops back then
+- **12:45:** No one believed he was a professor, so he had to lie.
 
----
+- **18:26:** No ideas when burned out.
 
-Chapter 18 / 53:06
-Note: only cried swveeal monhs after widw died
+- **18:32:** He liked physics because he played with it.
 
----
+- **20:40:** He worked on equations for a wobbling plate for fun.
 
-Chapter 18 / 56:46
-Note: walks with con noymen -dont nees to be reapoaible for the world were in - ve irraponsible
+### Chapter 26
 
----
+- **32:11:** He noticed that students memorized things without understanding them.
 
-Chapter 18 / 57:14
-Note: neils bore uswd be nicholas baker
+### Chapter 28
 
----
+- **06:08:** Original transcription (unclear): `jwouneows were oike dishinf - you talk tonpeople ans then somerjong intersting happena`
 
-Chapter 19 / 14:33
-Note: got really good at ppening everyones safes for fun
+### Chapter 29
 
----
+- **07:43:** Original transcription (unclear): `caltrch is where he was surrounded by people telling him summer things`
 
-Chapter 20 / 00:17
-Note: half if people didnt bither ro change the safe code default
+### Chapter 30
 
----
+- **00:05:** He rejected a salary three times higher at a different university.
 
-Chapter 21 / 00:27
-Note: likes to tesch because when he doesnt have ideas st leat hes doing something productive
+- **16:47:** He asked a lot of stupid questions in the beginning because he needed to understand.
 
----
+### Chapter 34
 
-Chapter 21 / 00:28
-Note: liked to pretend to be crazy - for fun and to fuxk eith people
+- **01:12:** A funny story about 13 signatures and not being willing to sign a single one more to cash a check when giving a talk.
 
----
+### Chapter 37
 
-Chapter 21 / 12:45
-Note: no one believed him he was a professor so he had to lie
+- **04:43:** He hung up on the person who told him he had won the Nobel Prize.
 
----
+### Chapter 39
 
-Chapter 21 / 18:26
-Note: no idwas when burn out
+- **12:18:** He studied the Mayan calendar, played drums, and always continued having fun.
 
----
+### Chapter 40
 
-Chapter 21 / 18:32
-Note: kiked ohysics because he played with it
+- **04:01:** He used sensory deprivation tanks because he was afraid of taking drugs and messing up his ability to think.
 
----
+- **04:39:** He eventually took ketamine.
 
-Chapter 21 / 20:40
-Note: did wabble rquations sikilar to plate for fun
+- **08:13:** He learned to meditate and have hallucinations by moving his ego inside a sensory deprivation chamber.
 
----
+- **09:41:** Front and back of the head—he understood it all.
 
-Chapter 26 / 32:11
-Note: identified rhat students memorize but dont underatand things
+- **09:53:** Earlier in the book, when he was having fun, he was burned out. He just didn’t use the proper terms.
 
----
+- **36:05:** Cargo cult science.
 
-Chapter 28 / 06:08
-Note: jwouneows were oike dishinf - you talk tonpeople ans then somerjong intersting happena
-
----
-
-## Chapter 28 / 06:14
-
-## Chapter 28 / 06:22
-
-Chapter 29 / 07:43
-Note: caltrch is where he was surrounded by people telling him summer things
-
----
-
-Chapter 30 / 00:05
-Note: rejectwd a salary 3x more at a sicfwrent ujiveraity
-
----
-
-Chapter 30 / 16:47
-Note: a ska a lot if stupid quesrions in the beginning be ause he needs to hnderstand
-
----
-
-Chapter 34 / 01:12
-Note: funny story about 13 signatures and not being willing to sogn s single more (to cash check) when giving s tall
-
----
-
-Chapter 37 / 04:43
-Note: hing up on the person who fold him he win The none prize
-
----
-
-Chapter 39 / 12:18
-Note: studied the mayan calendqr - played drums and always continued having dun
-
----
-
-Chapter 40 / 04:01
-Note: used sensiey deprication tanks bechae he was afraid if taking drugs abd messing yo the ability to think
-
----
-
-Chapter 40 / 04:39
-Note: took ketamine eventual
-
----
-
-## Chapter 40 / 08:07
-
-Chapter 40 / 08:13
-Note: learnt ti medidtate and have hallucinating by moving ego inside sensory deprivation c he amber
-
----
-
-Chapter 40 / 09:41
-Note: front and vaxk if head - he ynserstood it all
-
----
-
-Chapter 40 / 09:53
-Note: earlier in the vook wheb he was having fun - it was burnt pit - he nudt didn't use thr proper terms
-
----
-
-Chapter 40 / 36:05
-Note: cargo cart scirnce
-
----
-
-Chapter 40 / 38:41
-Note: feynmans recomendstion: be in a place where you can maintain scientific integorty, free from dinancial or totle pbligations, and do good work
-
----
+- **38:41:** Feynman’s recommendation: be in a place where you can maintain scientific integrity, free from financial or title obligations, and do good work.
