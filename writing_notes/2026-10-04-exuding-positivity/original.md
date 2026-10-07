@@ -1,0 +1,3 @@
+Okay, the thought of the day today is the power, exuding, call it exuding positivity, and talk about how, I felt down over the last few days. I just overworking myself, which kind of mentality right now, but I hurt myself in certain situations, from to events, even drinking a little bit, writing a little bit, spending a bit of time in nature, catching up with people, really deep relationships as well as with older ones that I've known for a while, all the more positive energy, more positive.
+
+The importance of bidreictionao positive energy results in real value. It’s not karma - it’s positivity
