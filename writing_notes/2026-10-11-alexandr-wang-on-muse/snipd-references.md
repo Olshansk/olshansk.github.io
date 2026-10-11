@@ -62,4 +62,3 @@ Official episode: https://www.davidsenra.com/episode/alexandr-wang
 
 - Mark Zuckerberg deliberates extensively, then commits completely and moves without fear once he chooses a direction.
 - His belief that in a changing world the biggest risk is inaction keeps Meta dynamic instead of bureaucratic.
-
