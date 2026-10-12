@@ -1,0 +1,1 @@
+Met with a friend of mine yesterday, who, they decomposed dating into four really cool quadrants: how intense you are, how quirky you are, how fancy you are, and how adventurous slash athletic slash active you are. I just feel like it captures a lot of things very easily. Create a new blog saying The Quadrants of Dating.
