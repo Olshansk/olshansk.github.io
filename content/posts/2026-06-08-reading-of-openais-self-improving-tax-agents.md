@@ -3,7 +3,7 @@ title: "Reading of OpenAI's Self-Improving Tax Agents"
 date: 2026-06-08T09:35:55-0400
 draft: false
 description: "Thoughts and ideas while reading OpenAI's 'Building self-improving tax agents with Codex'."
-tags: ["Thought", "AI", "OpenAI", "AI Agents", "Self Improvement", "Machine Learning", "Evals", "Codex", "Forward Deployed Engineers"]
+tags: ["blog", "Thought", "AI", "OpenAI", "AI Agents", "Self Improvement", "Machine Learning", "Evals", "Codex", "Forward Deployed Engineers"]
 categories: []
 medium_url: ""
 substack_url: ""

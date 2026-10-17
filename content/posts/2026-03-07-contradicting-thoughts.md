@@ -3,7 +3,7 @@ title: "Contradicting Thoughts"
 date: 2026-03-07T16:47:19-0800
 draft: false
 description: ""
-tags: ["Self Reflection", "Mindset", "Philosophy", "Personal Growth", "Duality", "thought"]
+tags: ["blog", "Self Reflection", "Mindset", "Philosophy", "Personal Growth", "Duality", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

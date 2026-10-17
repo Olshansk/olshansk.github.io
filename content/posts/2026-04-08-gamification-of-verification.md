@@ -3,7 +3,7 @@ title: "Is there a path to Gamification of Verification?"
 date: 2026-04-08T16:11:36-0700
 draft: false
 description: ""
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

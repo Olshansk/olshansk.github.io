@@ -3,7 +3,7 @@ title: "Desperation vs urgency"
 date: 2026-01-01T03:22:17+0000
 draft: false
 description: ""
-tags: ["Startups", "Sales", "Entrepreneurship", "Go-to-market", "Marketing", "thought"]
+tags: ["blog", "Startups", "Sales", "Entrepreneurship", "Go-to-market", "Marketing", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

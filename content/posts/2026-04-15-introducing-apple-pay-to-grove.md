@@ -3,7 +3,7 @@ title: "Grove partners with Coinbase Developer Platform to bring Apple Pay to Co
 date: 2026-04-15T10:20:18-0700
 draft: false
 description: "We partnered with Coinbase Developer Platform to bring Apple Pay to Grove so fans can tip creators in seconds."
-tags: ["Grove", "Creators", "Apple Pay", "Coinbase", "Micropayments", "Web3", "Product"]
+tags: ["blog", "Grove", "Creators", "Apple Pay", "Coinbase", "Micropayments", "Web3", "Product"]
 categories: ["Posts"]
 medium_url: ""
 substack_url: ""

@@ -3,7 +3,7 @@ title: "Founder Aura"
 date: 2026-01-08T09:40:32-0800
 draft: false
 description: ""
-tags: ["Leadership", "Startups", "Founder Mode", "Executive Presence", "thought"]
+tags: ["blog", "Leadership", "Startups", "Founder Mode", "Executive Presence", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

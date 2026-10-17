@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Disney - Reverting To The Mean"
 date = "2023-01-04T19:54:30.448Z"
 description = "To Infinity & Beyond"
-tags = [
+tags = ["blog",
     "ai", "research", "investment", "productivity", "book", "personal"
 ]
 substack_url = "https://olshansky.substack.com/p/disney-reverting-to-the-mean"

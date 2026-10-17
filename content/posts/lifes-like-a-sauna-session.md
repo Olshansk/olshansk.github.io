@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Life's like a sauna session"
 date = "2023-02-26T04:08:47.113Z"
 description = ""
-tags = [
+tags = ["blog",
     "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/lifes-like-a-sauna-session"

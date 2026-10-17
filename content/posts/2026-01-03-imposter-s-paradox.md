@@ -3,7 +3,7 @@ title: "Imposter's Paradox"
 date: 2026-01-03T16:11:53-0800
 draft: false
 description: ""
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

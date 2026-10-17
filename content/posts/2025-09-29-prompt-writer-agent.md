@@ -3,7 +3,7 @@ title: "My Claude Code Agent for Writing Prompts"
 date: 2025-09-28T14:55:44-0700
 draft: false
 description: "The only agent you'll ever need to write, maintain and update prompts."
-tags: ["ai", "prompts", "tools", "agents"]
+tags: ["blog", "ai", "prompts", "tools", "agents"]
 categories: []
 medium_url: ""
 substack_url: ""

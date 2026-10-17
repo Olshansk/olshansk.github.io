@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Why Pocket is Rolling with Rollkit"
 date = "2023-09-29T23:39:57.222Z"
 description = "A historical and technical deep dive leading to the next steps in the Pocket Network Protocol"
-tags = [
+tags = ["blog",
     "crypto", "ai", "startup", "tech", "research", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/why-pocket-is-rolling-with-rollkit"

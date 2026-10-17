@@ -3,7 +3,7 @@ title: "Sculpting Code"
 date: 2026-03-25T13:09:36-0700
 draft: false
 description: "Writing code has gone away, but sculpting code is here to stay."
-tags: ["coding", "ai", "software engineering", "vibe coding", "code quality", "code review"]
+tags: ["blog", "coding", "ai", "software engineering", "vibe coding", "code quality", "code review"]
 categories: ["code"]
 medium_url: ""
 substack_url: ""

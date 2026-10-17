@@ -4,7 +4,7 @@ date: 2025-09-16T18:19:06-07:00
 draft: false
 categories: ["Thoughts", "Technology", "Blockchain"]
 aliases: ["/thoughts/2025-09-16-tempo-vs-libra/"]
-tags: ["thought"]
+tags: ["blog", "thought"]
 ---
 
 **Stripe** is building a new blockchain: **Tempo**.

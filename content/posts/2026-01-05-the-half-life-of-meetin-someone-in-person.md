@@ -3,7 +3,7 @@ title: "The half-life of meeting someone in person"
 date: 2026-01-05T08:49:14-0800
 draft: false
 description: ""
-tags: ["Relationships", "Remote Work", "Networking", "In Person", "Work Life", "thought"]
+tags: ["blog", "Relationships", "Remote Work", "Networking", "In Person", "Work Life", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

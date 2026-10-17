@@ -3,7 +3,7 @@ title: "5P;1R — Celestia (LazyLedger) White Paper"
 date: 2022-08-13T20:30:40-07:00
 draft: false
 description: "This is a post in a series of articles I’m writing called “5 points & 1 resource” (think tl;dr but 5p;1r), where I summarize a list of…"
-tags: ["celestia", "lazyledger", "white"]
+tags: ["blog", "celestia", "lazyledger", "white"]
 categories: ["cryptocurrency", "technology", "machine-learning", "business"]
 medium_url: "https://medium.com/@olshansky/5p-1r-celestia-lazyledger-white-paper-9915e83a079b"
 ShowToc: true

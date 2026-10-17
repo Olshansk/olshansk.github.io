@@ -3,6 +3,7 @@ title: "Some TILs"
 date: 2024-12-22T05:21:16-07:00
 draft: false
 tags:
+  - blog
   - "python"
   - "crypto"
   - "ai"

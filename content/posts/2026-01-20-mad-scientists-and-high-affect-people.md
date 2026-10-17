@@ -4,7 +4,7 @@ date: 2026-01-20T00:01:00-0500
 draft: false
 description: ""
 tags:
-  [
+  ["blog",
     "Psychology",
     "Happiness",
     "Emotional Intelligence",

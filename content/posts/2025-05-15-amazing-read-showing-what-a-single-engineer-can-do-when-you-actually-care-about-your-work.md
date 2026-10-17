@@ -2,7 +2,7 @@
 title: "Amazing read showing what a single engineer can do when you actually care about your work."
 date: 2025-05-15T14:35:32-07:00
 draft: false
-tags: ["amazing", "read", "showing", "thought"]
+tags: ["blog", "amazing", "read", "showing", "thought"]
 categories: ["general"]
 medium_url: "https://medium.com/@olshansky/amazing-read-showing-what-a-single-engineer-can-do-when-you-actually-care-about-your-work-c08b594c0ef0"
 ShowToc: true

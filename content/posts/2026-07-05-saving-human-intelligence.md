@@ -3,7 +3,7 @@ title: "Saving Human Intelligence"
 date: 2026-07-05T00:00:00-0400
 draft: false
 description: "The path to Safe AI may involve just as much focus on saving human intelligence as it does on building safe superintelligence. Wall-E, not Skynet."
-tags: ["ai", "learning", "human-potential"]
+tags: ["blog", "ai", "learning", "human-potential"]
 categories: ["AI"]
 medium_url: ""
 substack_url: ""

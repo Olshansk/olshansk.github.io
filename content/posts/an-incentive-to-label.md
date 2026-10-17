@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "An Incentive to Label"
 date = "2023-04-02T21:27:01.964Z"
 description = "tl;dr The incentive to label is to have a disincentive to label poorly"
-tags = [
+tags = ["blog",
     "crypto", "ai", "tech", "research", "productivity", "book"
 ]
 substack_url = "https://olshansky.substack.com/p/an-incentive-to-label"

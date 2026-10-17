@@ -4,7 +4,7 @@ date: 2026-01-03T18:53:21-0800
 draft: false
 description: ""
 tags:
-  [
+  ["blog",
     "Career",
     "Entrepreneurship",
     "Innovation",

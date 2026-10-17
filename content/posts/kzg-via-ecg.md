@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "KZG via ECG"
 date = "2023-01-22T02:34:00.164Z"
 description = "A Source of Entropy for KZG Ceremonies"
-tags = [
+tags = ["blog",
     "crypto", "ai", "tech", "research", "investment", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/kzg-via-ecg"

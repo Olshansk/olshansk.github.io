@@ -4,7 +4,7 @@ date: 2026-01-26T09:59:09-0500
 draft: false
 description: ""
 tags:
-  ["Fine Tuning", "AI", "Machine Learning", "Enterprise AI", "Data Strategy", "thought"]
+  ["blog", "Fine Tuning", "AI", "Machine Learning", "Enterprise AI", "Data Strategy", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

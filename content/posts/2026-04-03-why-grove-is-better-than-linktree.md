@@ -3,7 +3,7 @@ title: "Why Grove Is the 10x Better Linktree"
 date: 2026-04-03T11:26:32-0700
 draft: false
 description: "A wallet-first personal homepage for your content, your audience, and your money."
-tags: ["Grove", "Linktree", "Creators", "Web3", "Product"]
+tags: ["blog", "Grove", "Linktree", "Creators", "Web3", "Product"]
 categories: ["Posts"]
 medium_url: ""
 substack_url: ""

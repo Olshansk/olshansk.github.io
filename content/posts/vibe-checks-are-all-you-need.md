@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Vibe Checks Are All You Need"
 date = "2024-05-29T20:49:40.748Z"
 description = "Saying the quite part out loud"
-tags = [
+tags = ["blog",
     "ai", "tech", "productivity", "book", "personal"
 ]
 substack_url = "https://olshansky.substack.com/p/vibe-checks-are-all-you-need"

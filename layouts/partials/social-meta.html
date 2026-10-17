@@ -1,6 +1,7 @@
 {{ $title := .Title }}
 {{ $author := "Daniel Olshansky" }}
 {{ if eq .Section "reading" }}
+  {{ $author = "" }}
   {{ with .Params.author }}
     {{ if reflect.IsSlice . }}{{ $author = delimit . ", " }}{{ else }}{{ $author = . }}{{ end }}
   {{ end }}

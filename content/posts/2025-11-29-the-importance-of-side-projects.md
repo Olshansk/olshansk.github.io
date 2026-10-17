@@ -3,7 +3,7 @@ title: "The Importance of Side Projects"
 date: 2025-11-29T18:10:19-0500
 draft: false
 description: ""
-tags: ["project", "side", "thinker", "thought"]
+tags: ["blog", "project", "side", "thinker", "thought"]
 categories: ["thoughts"]
 ShowToc: true
 TocOpen: false

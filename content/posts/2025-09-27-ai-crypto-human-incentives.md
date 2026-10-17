@@ -4,6 +4,7 @@ date: 2025-09-27T09:15:00-0700
 draft: false
 description: ""
 tags:
+  - blog
   - "post"
   - "ai"
   - "crypto"

@@ -3,7 +3,7 @@ title: "TIL: The Smartphone IS the Internet"
 date: 2026-04-07T16:00:28-0700
 draft: false
 description: ""
-tags: ["TIL", "internet", "smartphones", "generational divide", "thought"]
+tags: ["blog", "TIL", "internet", "smartphones", "generational divide", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

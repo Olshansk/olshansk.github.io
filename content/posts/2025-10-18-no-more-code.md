@@ -3,7 +3,7 @@ title: "No more writing code"
 date: 2025-10-18T14:40:47-0700
 draft: false
 description: ""
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: ["ai", "code", "thoughts"]
 ShowToc: true
 TocOpen: false

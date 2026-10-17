@@ -3,7 +3,7 @@ title: "Investment Mindset"
 date: 2026-05-01T11:35:50-0700
 draft: false
 description: "Why I invest even though I know I can't beat the market."
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

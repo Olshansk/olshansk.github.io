@@ -6,7 +6,7 @@ categories: ["Technology"]
 summary: "Reading this statement made me think why fiction, in the form of films, TV, books, games, plays and more have such a big place in our…"
 medium_url: "https://medium.com/@olshansky/false-rumors-spread-faster-and-wider-than-true-information-f5edb69810ba"
 aliases: ["/thoughts/false-rumors-spread-faster-and-wider-than-true-inf/"]
-tags: ["thought"]
+tags: ["blog", "thought"]
 ---
 
 \*> False rumors spread faster and wider than true information

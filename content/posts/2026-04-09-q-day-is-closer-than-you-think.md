@@ -3,7 +3,7 @@ title: "Q Day is closer than you think"
 date: 2026-04-09T09:44:46-0700
 draft: false
 description: ""
-tags: ["Quantum Computing", "Cryptography", "Security", "Risk Management", "Q Day", "thought"]
+tags: ["blog", "Quantum Computing", "Cryptography", "Security", "Risk Management", "Q Day", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

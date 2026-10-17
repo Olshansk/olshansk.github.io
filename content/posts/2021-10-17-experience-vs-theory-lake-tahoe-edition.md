@@ -3,7 +3,7 @@ title: "Experience vs Theory: Lake Tahoe Edition"
 date: 2021-10-17T17:36:12-07:00
 draft: false
 description: "I remember thinking I had the foundation to tackle any problem that came my way around the time that I was graduating from College. Having…"
-tags: ["experience", "theory", "lake"]
+tags: ["blog", "experience", "theory", "lake"]
 categories: ["machine-learning"]
 medium_url: "https://medium.com/@olshansky/experience-vs-theory-lake-tahoe-edition-6be9216e2f57"
 ShowToc: true

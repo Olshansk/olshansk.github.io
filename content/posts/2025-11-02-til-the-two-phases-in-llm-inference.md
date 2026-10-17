@@ -3,7 +3,7 @@ title: "TIL: The two phases in LLM inference"
 date: 2025-11-02T16:48:07-0800
 draft: false
 description: ""
-tags: ["LLM", "Inference", "Performance", "swillison", "TIL", "thought"]
+tags: ["blog", "LLM", "Inference", "Performance", "swillison", "TIL", "thought"]
 categories: ["thoughts"]
 ShowToc: true
 TocOpen: false

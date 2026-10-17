@@ -3,7 +3,7 @@ title: "Every Mantra has a Counter-Mantra"
 date: 2024-12-02T00:21:51.520Z
 draft: false
 description: "Including this one"
-tags: ["ai", "startup", "research", "productivity", "book", "personal"]
+tags: ["blog", "ai", "startup", "research", "productivity", "book", "personal"]
 categories: ["business", "productivity"]
 substack_url: "https://olshansky.substack.com/p/every-mantra-has-a-counter-mantra"
 ShowToc: true

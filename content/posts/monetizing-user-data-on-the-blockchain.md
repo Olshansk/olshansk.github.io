@@ -2,7 +2,7 @@
 title: "Monetizing User Data on the Blockchain"
 date: 2018-07-20T14:31:19-07:00
 draft: false
-tags: ["blockchain", "smart-contracts", "data-privacy", "cryptography", "web3"]
+tags: ["blog", "blockchain", "smart-contracts", "data-privacy", "cryptography", "web3"]
 categories: ["Technology", "Blockchain", "Privacy"]
 summary: "Note: This is a repost of a blog published in early 2018."
 medium_url: "https://medium.com/@olshansky/monetizing-user-data-on-the-blockchain-3584351a752e"

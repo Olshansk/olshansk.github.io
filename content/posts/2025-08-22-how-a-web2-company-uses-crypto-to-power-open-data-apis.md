@@ -3,7 +3,7 @@ title: "How a Web2 Company Uses Crypto to Power Open Data APIs"
 date: 2025-08-22T16:18:09-07:00
 draft: false
 description: "There is a big opportunity to build the “Google home page” for finding and accessing APIs for any open data sources and services."
-tags: ["web2", "company"]
+tags: ["blog", "web2", "company"]
 categories: ["cryptocurrency", "technology", "machine-learning", "business"]
 substack_url: "https://olshansky.substack.com/p/how-a-web2-company-uses-crypto-to"
 ShowToc: true

@@ -3,7 +3,7 @@ title: "Same problem, different perspectives"
 date: 2026-08-14T14:53:23-0700
 draft: false
 description: ""
-tags: []
+tags: ["blog", ]
 categories: []
 medium_url: ""
 substack_url: ""

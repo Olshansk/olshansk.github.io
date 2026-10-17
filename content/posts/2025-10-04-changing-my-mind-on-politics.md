@@ -3,7 +3,7 @@ title: "Changing my mind on politics"
 date: 2025-10-04T15:06:57-0700
 draft: false
 description: ""
-tags: ["thought", "changed my mind", "politics"]
+tags: ["blog", "thought", "changed my mind", "politics"]
 categories: []
 ShowToc: true
 TocOpen: false

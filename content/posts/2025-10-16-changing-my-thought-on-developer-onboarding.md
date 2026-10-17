@@ -3,7 +3,7 @@ title: "Changing my mind on developer onboarding: code vs product"
 date: 2025-10-16T10:22:39-0700
 draft: false
 description: ""
-tags: ["leadership", "development", "career", "engineering", "product", "thought"]
+tags: ["blog", "leadership", "development", "career", "engineering", "product", "thought"]
 categories: []
 ShowToc: true
 TocOpen: false

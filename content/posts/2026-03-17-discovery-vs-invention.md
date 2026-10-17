@@ -3,7 +3,7 @@ title: "Discovery vs Invention"
 date: 2026-03-17T09:48:33-0700
 draft: false
 description: ""
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

@@ -4,7 +4,7 @@ date: 2017-03-13T05:11:44.831Z
 draft: false
 description: "One of the biggest disappoints I experienced after purchasing my Google Home is discovering that it cannot function as a Bluetooth speaker…"
 medium_url: "https://medium.com/@olshansky/google-home-as-a-bluetooth-speaker-for-apple-users-e7f9b9881daf"
-tags: ["google-home", "apple", "bluetooth", "technology", "airplay"]
+tags: ["blog", "google-home", "apple", "bluetooth", "technology", "airplay"]
 ---
 
 One of the biggest disappoints I experienced after purchasing my Google Home is discovering that it cannot function as a Bluetooth speaker. As a Mac & iPhone user, most of my use cases were pretty well supported. I could talk to Google Home to play the news, podcasts or music. I could also manually cast a Chrome tab or use an application such as Spotify that has native Google Cast support. There were a couple use cases though where the Google Home and iPhone didn't play so well.

@@ -3,7 +3,7 @@ title: "I’m having some trouble with the truffle console."
 date: 2017-07-31T03:17:44-07:00
 draft: false
 description: "When I type “Vo” and click tab, it autocompletes to Voting as expecting."
-tags: ["having", "some", "trouble", "thought"]
+tags: ["blog", "having", "some", "trouble", "thought"]
 categories: ["general"]
 medium_url: "https://medium.com/@olshansky/im-having-some-trouble-with-the-truffle-console-3a385403433c"
 ShowToc: true

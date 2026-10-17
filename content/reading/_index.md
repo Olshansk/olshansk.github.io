@@ -1,8 +1,10 @@
 ---
-title: "Reading"
-description: "#TodayIRead — excerpts worth keeping, with links to their sources."
+title: "Quotes & Excerpts"
+description: "Quotes and excerpts worth keeping, with credited sources."
 ---
 
-Quotes from things I'm reading. The words belong to the credited authors; I'm collecting them here.
+Quotes and excerpts from things I'm reading. The words belong to the credited authors.
 
-[Subscribe to the reading RSS feed](/reading/index.xml) · [Read my own writing](/posts/)
+[All quotes & excerpts RSS](/reading/index.xml) · [Quotes RSS](/tags/quote/index.xml) · [Excerpts RSS](/tags/excerpt/index.xml)
+
+[Legacy quotes log](/quotes/) · [My blog](/posts/) · [Everything RSS](/index.xml)

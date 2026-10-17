@@ -3,7 +3,7 @@ title: "Main Quest: Mission and Motto"
 date: 2026-01-10T11:34:51-0800
 draft: false
 description: ""
-tags: ["Personal Development", "Life Philosophy", "Mission", "Entrepreneurship", "Self Reflection"]
+tags: ["blog", "Personal Development", "Life Philosophy", "Mission", "Entrepreneurship", "Self Reflection"]
 categories: ["Posts"]
 ShowToc: true
 TocOpen: false

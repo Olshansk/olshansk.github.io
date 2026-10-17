@@ -5,7 +5,7 @@ draft: false
 description: "One of the major selling points of cryptocurrencies is that everything is decentralized and trust no longer lies in single a third party…"
 medium_url: "https://medium.com/@olshansky/cryptocurrencies-its-all-about-incentive-77ac47a6adc4"
 tags:
-  ["cryptocurrency", "bitcoin", "ethereum", "incentives", "economics", "tokens"]
+  ["blog", "cryptocurrency", "bitcoin", "ethereum", "incentives", "economics", "tokens"]
 ---
 
 ![Cryptocurrency concept image](/images/posts/2017-07-23-cryptocurrencies-all-about-incentive-image-01.jpeg)

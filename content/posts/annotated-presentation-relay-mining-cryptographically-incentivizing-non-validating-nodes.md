@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Annotated Presentation: Relay Mining - Cryptographically Incentivizing Non-Validating Nodes"
 date = "2024-07-15T04:45:55.115Z"
 description = "EthCC 7"
-tags = [
+tags = ["blog",
     "crypto", "ai", "nuclear", "startup", "tech", "research"
 ]
 substack_url = "https://olshansky.substack.com/p/annotated-presentation-relay-mining"

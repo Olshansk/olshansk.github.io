@@ -3,7 +3,7 @@ title: "AGI is not evenly distributed"
 date: 2026-02-22T12:02:53-0800
 draft: false
 description: ""
-tags: ["AGI", "AI Adoption", "Human Potential", "Superintelligence", "Technology Distribution", "thought"]
+tags: ["blog", "AGI", "AI Adoption", "Human Potential", "Superintelligence", "Technology Distribution", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

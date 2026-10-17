@@ -3,7 +3,7 @@ title: "Are recent trends in company IPOs signaling an imminent recession?"
 date: 2015-12-06T19:37:02-07:00
 draft: false
 description: "Commodities are tanking, the fed is still contemplating an increase in interest rates, and several countries are either in or on the verge…"
-tags: ["recent", "trends"]
+tags: ["blog", "recent", "trends"]
 categories: ["machine-learning", "business"]
 medium_url: "https://medium.com/@olshansky/are-recent-trends-in-company-ipos-signaling-an-imminent-recession-7366d99a3246"
 ShowToc: true

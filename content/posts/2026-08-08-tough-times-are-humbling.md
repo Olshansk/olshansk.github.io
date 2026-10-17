@@ -3,7 +3,7 @@ title: "Tough Times Are Humbling"
 date: 2026-08-08T12:00:00-0400
 draft: false
 description: "A reflection on humility, support systems, luck, and learning not to take difficult seasons so hard."
-tags: ["reflection", "mindset", "resilience", "gratitude", "thought"]
+tags: ["blog", "reflection", "mindset", "resilience", "gratitude", "thought"]
 categories: ["Thoughts"]
 ShowToc: false
 TocOpen: false

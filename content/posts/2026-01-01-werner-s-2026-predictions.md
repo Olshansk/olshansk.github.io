@@ -4,8 +4,8 @@ date: 2026-01-01T19:33:49-0800
 draft: false
 description: "Reading Werner Vogels predictions for 2026"
 tags:
-  [
-    "Quote",
+  ["blog",
+    "quotations",
     "Tech",
     "Security",
     "Quantum",

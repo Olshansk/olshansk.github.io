@@ -5,6 +5,7 @@ draft: false
 categories: ["Technology"]
 summary: "Claude, please provide the following:"
 medium_url: "https://medium.com/@olshansky/how-you-should-end-every-claude-project-conversation-0a88c744ef0d"
+tags: ["blog"]
 ---
 
 ### **How You Should End Every Claude Project Conversation**

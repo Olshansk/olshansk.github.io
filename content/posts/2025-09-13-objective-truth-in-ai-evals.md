@@ -4,7 +4,7 @@ date: 2025-09-13T18:19:06-07:00
 draft: false
 categories: ["Thoughts", "Technology"]
 aliases: ["/thoughts/2025-09-13-objective-truth-in-ai-evals/"]
-tags: ["thought"]
+tags: ["blog", "thought"]
 ---
 
 One of the biggest mistakes in AI evals is treating them as objective truth.

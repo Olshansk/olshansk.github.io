@@ -60,13 +60,14 @@ def test_reading_feed_contains_complete_quote_and_attribution(site):
     assert all(author in content for author in AUTHORS)
 
 
-def test_reading_stays_out_of_main_feed_and_posts(site):
-    for path in ("index.xml", "posts/index.xml"):
+def test_everything_feed_includes_reading_but_blog_feed_does_not(site):
+    for path in ("posts/index.xml",):
         items = ET.parse(site / path).findall("./channel/item")
         assert items
         assert any("/posts/" in item.findtext("link") for item in items)
         assert all("/reading/" not in item.findtext("link") for item in items)
     assert SLUG not in (site / "posts/index.html").read_text()
+    assert SLUG in (site / "index.xml").read_text()
 
 
 def test_reading_and_tag_are_discoverable(site):
@@ -74,3 +75,17 @@ def test_reading_and_tag_are_discoverable(site):
     assert SLUG in (site / "reading/index.html").read_text()
     assert '/reading/index.xml' in (site / "reading/index.html").read_text()
     assert SLUG in (site / "tags/todayiread/index.html").read_text()
+
+
+def test_separate_content_feeds_and_existing_blog_tags(site):
+    quote_items = ET.parse(site / "tags/quote/index.xml").findall("./channel/item")
+    excerpt_items = ET.parse(site / "tags/excerpt/index.xml").findall("./channel/item")
+    blog_items = ET.parse(site / "tags/blog/index.xml").findall("./channel/item")
+    assert quote_items and excerpt_items and blog_items
+    assert all("/quotes/" in item.findtext("link") for item in quote_items)
+    assert all("/reading/" in item.findtext("link") for item in excerpt_items)
+    assert all("/posts/" in item.findtext("link") for item in blog_items)
+    assert SLUG in (site / "tags/excerpt/index.html").read_text()
+    assert all(item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") for item in quote_items + excerpt_items + blog_items)
+    blog_links = {item.findtext("link") for item in ET.parse(site / "posts/index.xml").findall("./channel/item")}
+    assert blog_links == {item.findtext("link") for item in blog_items}

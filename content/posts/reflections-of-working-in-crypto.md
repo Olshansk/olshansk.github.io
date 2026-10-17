@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Reflections of working in Crypto"
 date = "2024-09-01T01:17:18.490Z"
 description = "Liquidity is key. Marketing is just memes. It's all a gamble. It's still early."
-tags = [
+tags = ["blog",
     "crypto", "ai", "startup", "research", "investment", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/reflections-of-working-in-crypto"

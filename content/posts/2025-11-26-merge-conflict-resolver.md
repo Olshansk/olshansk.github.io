@@ -3,7 +3,7 @@ title: "Poor Man's Merge Conflict Resolver"
 date: 2025-11-26T10:40:19-0500
 draft: false
 description: "A claude tool to help resolve merge conflicts"
-tags: ["claude", "merge conflict resolver", "git", "coding", "ai"]
+tags: ["blog", "claude", "merge conflict resolver", "git", "coding", "ai"]
 categories: ["post"]
 medium_url: ""
 substack_url: ""

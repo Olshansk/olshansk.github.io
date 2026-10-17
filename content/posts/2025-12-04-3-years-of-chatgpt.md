@@ -3,7 +3,7 @@ title: "3 Years of ChatGPT"
 date: 2025-12-04T10:05:49-0800
 draft: false
 description: ""
-tags: []
+tags: ["blog", ]
 categories: []
 medium_url: ""
 substack_url: "https://olshansky.substack.com/publish/post/180108507"

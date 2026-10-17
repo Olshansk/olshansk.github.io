@@ -3,7 +3,7 @@ title: "Why You Shouldn’t Build a Blockchain"
 date: 2026-08-13T20:01:10-0700
 draft: false
 description: "What I learned after spending four years building one"
-tags: ["Crypto", "Blockchain", "Distributed Systems", "Decentralization", "Reflection", "Agentic Commerce"]
+tags: ["blog", "Crypto", "Blockchain", "Distributed Systems", "Decentralization", "Reflection", "Agentic Commerce"]
 categories: ["Posts"]
 substack_url: "https://olshansky.substack.com/p/why-you-shouldnt-build-a-blockchain"
 cover:

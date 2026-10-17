@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "No RSS Feed? No Problem. Using Claude Sync, Claude Projects and GitHub Copilot Workspace to automate everything"
 date = "2025-01-08T00:50:14.843Z"
 description = "For anyone frustrated by missing RSS feeds in 2025."
-tags = [
+tags = ["blog",
     "ai", "tech", "productivity", "book", "personal"
 ]
 substack_url = "https://olshansky.substack.com/p/no-rss-feed-no-problem-using-claude"

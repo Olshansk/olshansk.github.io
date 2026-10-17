@@ -3,7 +3,7 @@ title: "If you're looking for ..."
 date: 2026-04-14T11:34:31-0700
 draft: false
 description: "Four modes of growth: reading, writing, listening, and speaking."
-tags: ["Personal Growth", "Communication", "Writing", "Reading", "Reflection", "thought"]
+tags: ["blog", "Personal Growth", "Communication", "Writing", "Reading", "Reflection", "thought"]
 categories: ["Thoughts"]
 ShowToc: false
 TocOpen: false

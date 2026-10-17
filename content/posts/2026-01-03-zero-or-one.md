@@ -3,7 +3,7 @@ title: "Zero or One"
 date: 2026-01-03T15:42:43-0800
 draft: false
 description: ""
-tags: ["Startups", "Peter Thiel", "Entrepreneurship", "Mindset", "thought"]
+tags: ["blog", "Startups", "Peter Thiel", "Entrepreneurship", "Mindset", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

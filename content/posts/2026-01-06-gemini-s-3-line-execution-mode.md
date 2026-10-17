@@ -3,7 +3,7 @@ title: "Gemini's 3 line execution mode"
 date: 2026-01-06T16:02:04-0800
 draft: false
 description: ""
-tags: ["Gemini", "LLM", "Context Window", "AI Agents", "Observation", "thought"]
+tags: ["blog", "Gemini", "LLM", "Context Window", "AI Agents", "Observation", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

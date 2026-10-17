@@ -1,5 +1,6 @@
 +++
 title = "Quotes"
+tags = ["quote"]
 author = "Daniel Olshansky"
 ShowToc = false
 ShowReadingTime = false

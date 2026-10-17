@@ -4,7 +4,7 @@ date: 2019-01-27T23:13:21.105Z
 draft: false
 description: "One of my favorite features of elixir is being able to start a shell that loads the entire context of my project:"
 medium_url: "https://medium.com/@olshansky/testiex-easier-test-driven-development-in-elixir-761cd1a9f11"
-tags: ["elixir", "testing", "tdd", "development", "programming", "thought"]
+tags: ["blog", "elixir", "testing", "tdd", "development", "programming", "thought"]
 aliases: ["/thoughts/2019-01-27-testiex-elixir-test-driven-development/"]
 ---
 

@@ -3,7 +3,7 @@ title: "The Key Lesson I Learned After Nearly a Decade in Crypto"
 date: 2025-11-09T10:10:24-0700
 draft: false
 description: "Why Pragmatism Beats Idealism in the Crypto Industry"
-tags: ["Crypto", "Reflection", "Experience"]
+tags: ["blog", "Crypto", "Reflection", "Experience"]
 categories: ["posts"]
 ShowToc: true
 TocOpen: false

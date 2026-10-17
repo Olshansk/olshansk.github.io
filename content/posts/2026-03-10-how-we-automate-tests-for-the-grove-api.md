@@ -3,7 +3,7 @@ title: "What Semi-Automated Code Reviews with Claude Code Look Like at Grove"
 date: 2026-03-10T17:52:21-0700
 draft: false
 description: "Streamlining code reviews for a content earnings platform with agents."
-tags: ["AI", "Claude Code", "Testing", "Automation", "Developer Tools", "Grove"]
+tags: ["blog", "AI", "Claude Code", "Testing", "Automation", "Developer Tools", "Grove"]
 categories: ["Posts"]
 medium_url: ""
 substack_url: ""

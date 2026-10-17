@@ -3,7 +3,7 @@ author: "Daniel Olshansky"
 title: "Creative Copay Coupons"
 date: "2023-10-16T23:16:36.171Z"
 description: 'The pharmaceutical "Creativity" behind Copay Coupons'
-tags: ["ai", "thought"]
+tags: ["blog", "ai", "thought"]
 substack_url: "https://olshansky.substack.com/p/creative-copay-coupons"
 aliases: ["/thoughts/creative-copay-coupons/"]
 ---

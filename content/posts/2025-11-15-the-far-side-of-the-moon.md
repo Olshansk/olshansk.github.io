@@ -3,7 +3,7 @@ title: "The Far Side of the Moon"
 date: 2025-11-15T21:04:40-0500
 draft: false
 description: "Review of Ex Machina's Production presented on the Canadian Stage"
-tags: ["play", "robert lepage", "review", "canadian stage"]
+tags: ["blog", "play", "robert lepage", "review", "canadian stage"]
 categories: ["posts"]
 medium_url: ""
 substack_url: ""

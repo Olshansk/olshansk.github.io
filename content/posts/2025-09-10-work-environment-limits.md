@@ -4,7 +4,7 @@ date: 2025-09-10T18:19:06-07:00
 draft: false
 categories: ["Life", "Thoughts", "Mantra"]
 aliases: ["/thoughts/2025-09-10-work-environment-limits/"]
-tags: ["thought"]
+tags: ["blog", "thought"]
 ---
 
 Work in an environment that teaches you what your limits but doesn't push you past them.

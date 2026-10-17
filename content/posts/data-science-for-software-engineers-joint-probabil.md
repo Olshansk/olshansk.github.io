@@ -2,7 +2,7 @@
 title: "Data Science for Software Engineers — Joint Probability Matrices"
 date: 2020-05-25T23:31:48-07:00
 draft: false
-tags: ["ai", "data-science", "machine-learning", "python"]
+tags: ["blog", "ai", "data-science", "machine-learning", "python"]
 categories: ["Data Science", "Technology", "AI"]
 summary: "Joint Probability Matrices — An 'Extension of the Confusion Matrix' for Continuous Variables"
 medium_url: "https://medium.com/@olshansky/data-science-for-software-engineers-joint-probability-matrices-f4fcb94d1483"

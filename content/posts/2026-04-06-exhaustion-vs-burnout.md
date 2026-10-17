@@ -3,7 +3,7 @@ title: "Exhaustion vs Burnout"
 date: 2026-04-06T09:53:37-0700
 draft: false
 description: ""
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

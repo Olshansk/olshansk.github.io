@@ -4,7 +4,7 @@ date: 2025-11-02T16:39:16-0800
 draft: false
 description: ""
 tags:
-  ["AI", "Engineering", "Entrepreneurship", "Andrej", "Dwarkesh", "Karpathy", "thought"]
+  ["blog", "AI", "Engineering", "Entrepreneurship", "Andrej", "Dwarkesh", "Karpathy", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

@@ -15,6 +15,7 @@ help:
 	@printf "  \033[36mtest_workflow\033[0m      Test GitHub Actions build locally\n"
 	@printf "\n"
 	@printf "\033[1m=== 📝 Content ===\033[0m\n"
+	@printf "  new_blog / new_quote / new_excerpt  Create one entry and its draft PR\n"
 	@printf "  \033[36mnew_post\033[0m           Create blog post\n"
 	@printf "                     make new_post TITLE=\"...\"\n"
 	@printf "  \033[36mnew_reading\033[0m        Create a TodayIRead quote draft\n"
@@ -249,3 +250,14 @@ todo:
 		--exclude-dir=vendor \
 		--exclude="*.log" \
 		--color=always || echo "No TODO items found"
+
+# Each invocation creates one isolated content branch and draft PR.
+.PHONY: new_blog new_quote new_excerpt
+new_blog new_quote new_excerpt: export TITLE := $(TITLE)
+new_blog new_quote new_excerpt: export TEXT := $(TEXT)
+new_blog new_quote new_excerpt: export BODY_FILE := $(BODY_FILE)
+new_blog new_quote new_excerpt: export SOURCE := $(SOURCE)
+new_blog new_quote new_excerpt: export AUTHOR := $(AUTHOR)
+new_blog new_quote new_excerpt: export DATE := $(DATE)
+new_blog new_quote new_excerpt:
+	@uv run python scripts/content_pr.py $(patsubst new_%,%,$@)

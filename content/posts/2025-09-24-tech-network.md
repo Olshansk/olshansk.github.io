@@ -3,7 +3,7 @@ title: "Come for the Tech, Stay for the Community"
 date: 2025-09-24T10:10:43-0700
 draft: false
 description: ""
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: []
 ShowToc: true
 TocOpen: false

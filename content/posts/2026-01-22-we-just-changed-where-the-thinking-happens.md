@@ -3,7 +3,7 @@ title: "We just changed where the thinking happens"
 date: 2026-01-22T09:37:57-0500
 draft: false
 description: ""
-tags: ["AI", "Developer Tools", "Workflow", "Productivity", "IDE", "thought"]
+tags: ["blog", "AI", "Developer Tools", "Workflow", "Productivity", "IDE", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

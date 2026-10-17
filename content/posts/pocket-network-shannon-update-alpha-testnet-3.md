@@ -2,7 +2,7 @@
 title: "Pocket Network Shannon Update — Alpha TestNet #3"
 date: 2024-08-16T17:51:07-07:00
 draft: false
-tags: ["docker", "google", "grove", "ai", "shannon"]
+tags: ["blog", "docker", "google", "grove", "ai", "shannon"]
 categories: ["DevOps", "Blockchain", "Pocket Network"]
 summary: "Enable Gateways by streamlining access to a decentralized supply network 🌿"
 medium_url: "https://medium.com/@olshansky/pocket-network-shannon-update-alpha-testnet-3-eca539a9e111"

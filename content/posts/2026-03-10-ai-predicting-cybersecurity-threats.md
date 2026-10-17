@@ -3,7 +3,7 @@ title: "AI Predicting Cybersecurity Threats"
 date: 2026-03-10T20:18:25-0700
 draft: false
 description: ""
-tags: ["AI", "Cybersecurity", "thought"]
+tags: ["blog", "AI", "Cybersecurity", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

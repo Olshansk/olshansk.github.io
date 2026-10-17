@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Chrome: Use Apps, Not Tabs"
 date = "2023-12-24T22:58:38.778Z"
 description = "A quick 1-minute quick guide on how to avoid death by a thousand tabs"
-tags = [
+tags = ["blog",
     "ai", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/use-apps-not-tabs"

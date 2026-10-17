@@ -3,7 +3,7 @@ title: "Human Attention Is the Bottleneck"
 date: 2026-10-17T10:56:48-0700
 draft: false
 author: ["Nathan Wilmers", "Regina Catipon", "Maxim Massenkoff", "Peter McCrory"]
-tags: ["TodayIRead"]
+tags: ["TodayIRead", "excerpt"]
 ShowToc: false
 ShowReadingTime: false
 ShowWordCount: false

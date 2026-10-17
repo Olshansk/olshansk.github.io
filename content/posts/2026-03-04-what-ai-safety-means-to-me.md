@@ -3,7 +3,7 @@ title: "What AI Safety Means to Me"
 date: 2026-03-04T10:16:59-0800
 draft: false
 description: ""
-tags: ["AI Safety", "AI Adoption", "Big Tech", "Education", "Cognitive Decline", "thought"]
+tags: ["blog", "AI Safety", "AI Adoption", "Big Tech", "Education", "Cognitive Decline", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

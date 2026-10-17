@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Steering the Future: Navigating AI Superintelligence"
 date = "2023-05-23T00:48:52.457Z"
 description = "A response to OpenAI's Governance of Superintelligence by OpenAI's Superintelligence"
-tags = [
+tags = ["blog",
     "crypto", "ai", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/steering-the-future-navigating-ai"

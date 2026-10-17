@@ -3,7 +3,7 @@ title: "“Map data is only available to an app that is running on a device phys
 date: 2018-06-21T22:44:05-07:00
 draft: false
 description: "If I stand outside the door of someone who is running the app inside, wouldn’t I be able to get a sparse map cloud of their house?"
-tags: ["map", "data", "only", "thought"]
+tags: ["blog", "map", "data", "only", "thought"]
 categories: ["machine-learning"]
 medium_url: "https://medium.com/@olshansky/map-data-is-only-available-to-an-app-that-is-running-on-a-device-physically-inside-the-location-a7d0c73899c7"
 ShowToc: true

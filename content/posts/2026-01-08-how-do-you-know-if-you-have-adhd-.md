@@ -3,7 +3,7 @@ title: "How do you know if you have ADHD?"
 date: 2026-01-08T09:19:52-0800
 draft: false
 description: ""
-tags: ["ADHD", "Mental Health", "Medication", "Diagnosis", "Self Discovery", "thought"]
+tags: ["blog", "ADHD", "Mental Health", "Medication", "Diagnosis", "Self Discovery", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

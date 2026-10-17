@@ -4,7 +4,7 @@ date: 2017-12-27T19:35:51.920Z
 draft: false
 description: "It's difficult to objectively quantify Bitcoin's adoption rate since there are too many factors to consider. Should it be the number of…"
 medium_url: "https://medium.com/@olshansky/bitcoins-price-isn-t-a-bubble-it-s-an-adoption-curve-f52695df2b01"
-tags: ["bitcoin", "cryptocurrency", "adoption", "bubble", "analysis", "data"]
+tags: ["blog", "bitcoin", "cryptocurrency", "adoption", "bubble", "analysis", "data"]
 ---
 
 It's difficult to objectively quantify Bitcoin's adoption rate since there are too many factors to consider. Should it be the number of people holding Bitcoin? Bitcoin's market cap? The number of brokerages with support for Bitcoin futures? The number of businesses accepting it as form of payment? A very different story can be told depending on the angle from which you look at it.

@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "You and Your Research"
 date = "2023-04-30T22:26:39.928Z"
 description = "Takeaways from a seminar by Richard Hamming"
-tags = [
+tags = ["blog",
     "ai", "startup", "tech", "research", "productivity", "book"
 ]
 substack_url = "https://olshansky.substack.com/p/you-and-your-research"

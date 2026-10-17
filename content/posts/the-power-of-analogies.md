@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "The Power of Analogies"
 date = "2024-10-23T14:35:36.107Z"
 description = "7 Simple analogies explaining what the Web3 protocol we work on does"
-tags = [
+tags = ["blog",
     "crypto", "ai", "productivity", "book", "personal"
 ]
 substack_url = "https://olshansky.substack.com/p/the-power-of-analogies"

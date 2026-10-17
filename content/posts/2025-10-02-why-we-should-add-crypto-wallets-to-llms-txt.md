@@ -3,7 +3,7 @@ title: "Why Now Is the Best Time to Start Your Own Website"
 date: 2025-10-02T14:05:05-0700
 draft: false
 description: "Why hosting your own content matters more than ever in the age of LLMs, licensing, and AI-driven discovery."
-tags: ["ai", "crypto", "seo", "web"]
+tags: ["blog", "ai", "crypto", "seo", "web"]
 categories: []
 ShowToc: true
 TocOpen: false

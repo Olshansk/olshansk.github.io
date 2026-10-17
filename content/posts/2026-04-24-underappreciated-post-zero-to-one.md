@@ -3,7 +3,7 @@ title: "What you underappreciate post zero-to-one"
 date: 2026-04-24T09:49:55-0700
 draft: false
 description: "Three things you underappreciate when joining a project that has passed the zero-to-one stage."
-tags: ["Startups", "Business", "Career", "Reflection", "thought"]
+tags: ["blog", "Startups", "Business", "Career", "Reflection", "thought"]
 categories: ["Thoughts"]
 ShowToc: false
 TocOpen: false

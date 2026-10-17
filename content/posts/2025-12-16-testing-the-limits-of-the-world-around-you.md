@@ -3,7 +3,7 @@ title: “Testing the limits of the world around you”
 date: 2025-12-16T22:25:03-0800
 draft: false
 description: “”
-tags: [“founders”, “entrepreneurs”, “risk”, “self-awareness”, “shamelessness”, “self-reflection”, “thought”]
+tags: ["blog", “founders”, “entrepreneurs”, “risk”, “self-awareness”, “shamelessness”, “self-reflection”, “thought”]
 categories: [“thoughts”]
 ShowToc: true
 TocOpen: false

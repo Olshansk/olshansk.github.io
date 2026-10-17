@@ -3,7 +3,7 @@ title: "Why every developer needs their own agent skills"
 date: 2026-04-18T22:06:46-0700
 draft: false
 description: "And how I code in April of 2026."
-tags: []
+tags: ["blog", ]
 categories: []
 medium_url: ""
 substack_url: ""

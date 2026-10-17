@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Move Fast & Document Things"
 date = "2024-09-22T19:45:01.728Z"
 description = "Actionable tips for software teams to build sustainable codebases of any size and reduce day-to-day frustrations"
-tags = [
+tags = ["blog",
     "ai", "nuclear", "startup", "tech", "research", "investment"
 ]
 substack_url = "https://olshansky.substack.com/p/move-fast-and-document-things"

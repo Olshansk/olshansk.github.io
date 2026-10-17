@@ -3,7 +3,7 @@ title: "Recalling The Halo Effect"
 date: 2026-05-29T22:50:10-0400
 draft: false
 description: ""
-tags: ["Thought", "Psychology", "Cognitive Bias", "Self-Awareness", "Mental Models"]
+tags: ["blog", "Thought", "Psychology", "Cognitive Bias", "Self-Awareness", "Mental Models"]
 categories: []
 ShowToc: true
 TocOpen: false
