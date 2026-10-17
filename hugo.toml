@@ -94,6 +94,9 @@ unsafe = true
       name = "Writing"
       url = "posts"
     [[params.profileMode.buttons]]
+      name = "Reading"
+      url = "reading"
+    [[params.profileMode.buttons]]
       name = "Books"
       url = "book"
     [[params.profileMode.buttons]]
@@ -169,6 +172,11 @@ unsafe = true
   name = "Books"
   weight = 3
   url = "/book/"
+
+[[menu.main]]
+  name = "Reading"
+  weight = 7
+  url = "/reading/"
 
 [[menu.main]]
   name = "Movies"

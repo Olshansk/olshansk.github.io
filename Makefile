@@ -17,6 +17,8 @@ help:
 	@printf "\033[1m=== 📝 Content ===\033[0m\n"
 	@printf "  \033[36mnew_post\033[0m           Create blog post\n"
 	@printf "                     make new_post TITLE=\"...\"\n"
+	@printf "  \033[36mnew_reading\033[0m        Create a TodayIRead quote draft\n"
+	@printf "                     make new_reading TITLE=\"...\"\n"
 	@printf "  \033[36mnew_book\033[0m           Create book review\n"
 	@printf "  \033[36mnew_movie\033[0m          Create movie review\n"
 	@printf "  \033[36mnew_tv_show\033[0m        Create TV show review\n"
@@ -92,6 +94,10 @@ new_post:
 	fi
 	@OUTPUT=$$(./scripts/create_content.sh post "$(TITLE)" | grep "^Created:" | sed 's/^Created: //'); \
 	echo "$$OUTPUT" > .file && claude -p --permission-mode acceptEdits "/add-tags" && rm -f .file
+
+.PHONY: new_reading
+new_reading:
+	@./scripts/create_content.sh reading "$(TITLE)"
 
 .PHONY: new_movie
 new_movie:
