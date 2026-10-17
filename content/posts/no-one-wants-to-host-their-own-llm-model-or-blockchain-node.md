@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "No one wants to host their own LLM Model or Blockchain Node"
 date = "2024-02-19T19:21:30.049Z"
 description = ""
-tags = [
+tags = ["blog",
     "crypto", "ai", "startup", "tech", "research", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/no-one-wants-to-host-their-own-llm"

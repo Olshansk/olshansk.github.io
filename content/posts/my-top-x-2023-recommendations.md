@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "My Top `X` 2023 Recommendations"
 date = "2024-01-07T03:54:26.723Z"
 description = "A list of things people got tired of me talking about in 2023"
-tags = [
+tags = ["blog",
     "crypto", "ai", "startup", "tech", "research", "investment"
 ]
 substack_url = "https://olshansky.substack.com/p/my-top-x-2023-recommendations"

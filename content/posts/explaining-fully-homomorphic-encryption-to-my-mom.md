@@ -2,7 +2,7 @@
 title: "Explaining Fully Homomorphic Encryption to My mom"
 date: 2025-08-26T03:45:34-07:00
 draft: false
-tags: ["homomorphic", "crypto", "ai", "encryption"]
+tags: ["blog", "homomorphic", "crypto", "ai", "encryption"]
 categories: ["Cryptography", "Technology", "Security"]
 summary: "Baking bread by reading & following the recipe VS Baking bread without ever seeing the recipe"
 medium_url: "https://medium.com/@olshansky/explaining-fully-homomorphic-encryption-to-my-mom-c14ebb724910"

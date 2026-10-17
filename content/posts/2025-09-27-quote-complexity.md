@@ -3,7 +3,7 @@ title: "Quoting Alan Perlis: On Complexity"
 date: 2025-09-27T15:22:58-0700
 draft: false
 description: ""
-tags: ["thought", "quote"]
+tags: ["blog", "thought", "quotations"]
 categories: []
 ShowToc: true
 TocOpen: false

@@ -3,7 +3,7 @@ title: "Reading of Anthropic's Contextual Retrieval"
 date: 2026-06-09T09:58:49-0400
 draft: false
 description: ""
-tags: ["Thought", "AI", "RAG", "Information Retrieval", "Anthropic"]
+tags: ["blog", "Thought", "AI", "RAG", "Information Retrieval", "Anthropic"]
 categories: []
 medium_url: ""
 substack_url: ""

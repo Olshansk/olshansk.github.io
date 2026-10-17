@@ -3,7 +3,7 @@ title: "The Bridge Between DeFi & TradFi"
 date: 2026-03-13T10:12:46-0700
 draft: false
 description: "A 53-second demo of round-tripping between traditional banking and onchain, and why building it was way harder than it looks."
-tags: ["DeFi", "TradFi", "Crypto", "Coinbase", "Base", "Grove"]
+tags: ["blog", "DeFi", "TradFi", "Crypto", "Coinbase", "Base", "Grove"]
 categories: ["Posts"]
 ShowToc: false
 TocOpen: false

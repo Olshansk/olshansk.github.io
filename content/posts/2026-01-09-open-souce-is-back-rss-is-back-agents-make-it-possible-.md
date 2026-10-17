@@ -4,7 +4,7 @@ date: 2026-01-09T10:45:12-0800
 draft: false
 description: ""
 tags:
-  ["Open Source", "RSS", "AI Agents", "Developer Experience", "Documentation", "thought"]
+  ["blog", "Open Source", "RSS", "AI Agents", "Developer Experience", "Documentation", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

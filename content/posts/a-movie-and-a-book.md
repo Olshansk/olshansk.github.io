@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "A Movie and A Book"
 date = "2023-08-05T21:34:51.226Z"
 description = "Barbie & The Art of Learning"
-tags = [
+tags = ["blog",
     "ai", "nuclear", "productivity", "book", "personal"
 ]
 substack_url = "https://olshansky.substack.com/p/a-movie-and-a-book"

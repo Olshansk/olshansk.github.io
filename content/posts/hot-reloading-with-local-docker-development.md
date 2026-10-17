@@ -2,7 +2,7 @@
 title: "Hot Reloading with Local Docker Development"
 date: 2020-07-19T21:01:38-07:00
 draft: false
-tags: ["docker", "python", "development", "devops", "fastapi"]
+tags: ["blog", "docker", "python", "development", "devops", "fastapi"]
 categories: ["Programming", "DevOps", "Technology"]
 summary: "tl;dr You can find the source code for a bare-bones dockerized python HTTP server with hot reloading using fastapi on this Github page."
 medium_url: "https://medium.com/@olshansky/hot-reloading-with-local-docker-development-1ec5dbaa4a65"

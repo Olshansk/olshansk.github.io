@@ -3,7 +3,7 @@ title: "Leadership: Start vs Scale"
 date: 2026-08-15T18:31:13-0700
 draft: false
 description: "The ingredients are the same, but the recipe is different."
-tags: ["Thought", "Leadership", "Management", "Startups", "Scaling"]
+tags: ["blog", "Thought", "Leadership", "Management", "Startups", "Scaling"]
 categories: []
 medium_url: ""
 substack_url: ""

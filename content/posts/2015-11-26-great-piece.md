@@ -3,7 +3,7 @@ title: "Great piece!"
 date: 2015-11-26T19:04:54-07:00
 draft: false
 description: "My takeaway was that as long all your needs are met, money just acts as insurance. Nothing changes when you get home / auto / health…"
-tags: ['great', 'piece', "thought"]
+tags: ["blog", 'great', 'piece', "thought"]
 categories: ['general']
 medium_url: "https://medium.com/@olshansky/great-piece-c43b3078f78"
 ShowToc: true

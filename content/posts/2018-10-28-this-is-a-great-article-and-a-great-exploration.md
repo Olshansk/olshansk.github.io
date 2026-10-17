@@ -2,7 +2,7 @@
 title: "This is a great article and a great exploration."
 date: 2018-10-28T18:59:46-07:00
 draft: false
-tags: ['this', 'great', 'article', "thought"]
+tags: ["blog", 'this', 'great', 'article', "thought"]
 categories: ['machine-learning']
 medium_url: "https://medium.com/@olshansky/this-is-a-great-article-and-a-great-exploration-dad81e575014"
 ShowToc: true

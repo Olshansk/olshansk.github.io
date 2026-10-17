@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "N₂O: Revisiting the best Nuclear Investment Vehicle"
 date = "2025-02-09T19:35:20.939Z"
 description = "Edition #2 of Nuclear Newsletter by Olshansky (N₂O): What is the best ETF to invest in if you're bullish on nuclear and uranium?"
-tags = [
+tags = ["blog",
     "ai", "nuclear", "tech", "research", "investment", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/no-revisiting-the-best-nuclear-investment"

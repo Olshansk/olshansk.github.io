@@ -40,6 +40,17 @@ When changing the date of a post or thought, update ALL of:
 - Organize TIX voice/text captures in the `add-tix` skill; the Make target only performs deterministic insertion.
 - Routine capture pull requests must change only their corresponding destination file.
 
+## TodayIRead excerpts
+
+- For a supplied reading excerpt and source URL, use `make new_reading TITLE="..."` to create an individual entry under `content/reading/`, tagged `TodayIRead`.
+- Preserve the excerpt verbatim and link the source with its author(s). Set frontmatter `author` to the credited source author(s), not Daniel.
+- Check for duplicate excerpt/source pairs first. Add commentary only when requested.
+- The user's standing instruction is to publish these quote-and-link captures through a PR after checks pass, unless they explicitly ask for a draft. This does not authorize publishing other blog drafts.
+- `/index.xml` includes all published content. `/posts/index.xml` is blog-only. `/reading/index.xml` combines quotes and excerpts; `/tags/quote/index.xml` and `/tags/excerpt/index.xml` separate them. Keep reading entries out of the Posts list.
+- Use `make new_blog`, `make new_quote`, or `make new_excerpt` for new captures. Each target is authorized to commit only its entry in an isolated branch and open its own draft PR. Never merge automatically. `new_blog` preserves `draft: true`.
+- Use tags `blog`, `quote`, and `excerpt`; retain `TodayIRead` on excerpts. The older `new_post`, `new_reading`, and `add_quote` targets remain local helpers.
+- `make add_quote` remains the helper for the existing general-purpose `content/quotes.md` log.
+
 ## Python (uv)
 
 - All Python in this repo runs through `uv`; never call `python3`, `pip`, or a `.venv/bin` binary directly.

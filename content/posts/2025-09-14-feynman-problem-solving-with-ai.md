@@ -4,7 +4,7 @@ date: 2025-09-14T18:19:06-07:00
 draft: false
 categories: ["Thoughts", "Technology"]
 aliases: ["/thoughts/2025-09-14-feynman-problem-solving-with-ai/"]
-tags: ["thought"]
+tags: ["blog", "thought"]
 ---
 
 **Feynman's Problem Solving Playbook**:

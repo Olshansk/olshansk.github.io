@@ -3,7 +3,7 @@ title: "Money and Intelligence"
 date: 2025-11-26T09:32:08-0500
 draft: false
 description: "A thought on money and intelligence."
-tags: ["curiosity", "money", "ai", "thought"]
+tags: ["blog", "curiosity", "money", "ai", "thought"]
 categories: ["thoughts"]
 ShowToc: true
 TocOpen: false

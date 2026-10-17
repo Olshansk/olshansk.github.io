@@ -3,7 +3,7 @@ title: "Reflecting on Venting"
 date: 2025-10-28T20:35:31-0700
 draft: false
 description: ""
-tags: ["reflection", "leadership", "mindset", "psychology", "thought"]
+tags: ["blog", "reflection", "leadership", "mindset", "psychology", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

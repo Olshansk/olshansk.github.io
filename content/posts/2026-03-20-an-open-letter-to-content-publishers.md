@@ -3,7 +3,7 @@ title: "An Open Letter to Content Publishers"
 date: 2026-03-20T17:54:57-0700
 draft: false
 description: ""
-tags: []
+tags: ["blog", ]
 categories: []
 medium_url: ""
 substack_url: ""

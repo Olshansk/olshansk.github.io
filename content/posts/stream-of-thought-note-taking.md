@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Stream-of-Thought Note Taking"
 date = "2024-10-14T01:27:01.510Z"
 description = "A tool for humans to put their thoughts on paper"
-tags = [
+tags = ["blog",
     "ai", "research", "productivity", "book"
 ]
 substack_url = "https://olshansky.substack.com/p/stream-of-thought-note-taking"

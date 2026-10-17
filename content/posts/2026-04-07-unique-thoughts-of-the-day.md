@@ -3,7 +3,7 @@ title: "Unique Thoughts of the Day"
 date: 2026-04-07T09:20:44-0700
 draft: false
 description: ""
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

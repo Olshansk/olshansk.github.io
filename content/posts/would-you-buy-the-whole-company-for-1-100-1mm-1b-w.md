@@ -2,7 +2,7 @@
 title: "Would you buy the whole company for $1? $100? $1MM? $1B? Why price matters."
 date: 2021-01-02T20:03:18-07:00
 draft: false
-tags: ["ai", "thought"]
+tags: ["blog", "ai", "thought"]
 categories: ["Technology", "AI"]
 summary: "For lack of a better word, 2020 has been very interesting for financial markets. Volatility hit all-time highs, some fortunes were wiped…"
 medium_url: "https://medium.com/@olshansky/would-you-buy-the-whole-company-for-1-100-1mm-1b-why-price-matters-8a085155ec14"

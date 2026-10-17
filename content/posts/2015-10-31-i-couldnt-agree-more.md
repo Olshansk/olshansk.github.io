@@ -3,7 +3,7 @@ title: "I couldn’t agree more."
 date: 2015-10-31T18:47:57-07:00
 draft: false
 description: "Having grown up in a reform Jewish household, I always enjoyed the holidays and just having a reason to get together as a community and…"
-tags: ['couldn', 'agree', 'more', "thought"]
+tags: ["blog", 'couldn', 'agree', 'more', "thought"]
 categories: ['machine-learning']
 medium_url: "https://medium.com/@olshansky/i-couldn-t-agree-more-f5ddfe3bac8a"
 ShowToc: true

@@ -3,7 +3,7 @@ title: "The Missing Key to x402"
 date: 2026-04-23T12:38:32-0700
 draft: false
 description: "x402 is the right base layer. The missing piece is a practical key and session story that makes it shippable."
-tags: ["x402", "MPP", "Payments", "Protocols"]
+tags: ["blog", "x402", "MPP", "Payments", "Protocols"]
 categories: []
 medium_url: ""
 substack_url: ""

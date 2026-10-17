@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Why was Sam Altman fired from OpenAI?"
 date = "2023-11-18T20:32:16.134Z"
 description = "tl;dr AGI (Artificial General Intelligence) may be closer than we think."
-tags = [
+tags = ["blog",
     "ai", "startup", "tech", "productivity", "book"
 ]
 substack_url = "https://olshansky.substack.com/p/why-was-sam-altman-fired-from-openai"

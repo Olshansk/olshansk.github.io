@@ -3,7 +3,7 @@ title: "This post convinced me to go down the Claude Code Learning Curve."
 date: 2025-03-10T02:32:33-07:00
 draft: false
 description: "Thanks for all the insights!"
-tags: ['this', 'post', 'convinced', "thought"]
+tags: ["blog", 'this', 'post', 'convinced', "thought"]
 categories: ['technology', 'machine-learning']
 medium_url: "https://medium.com/@olshansky/im-convinced-thanks-for-all-the-insights-4ad076f73a38"
 ShowToc: true

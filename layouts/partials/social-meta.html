@@ -1,4 +1,11 @@
 {{ $title := .Title }}
+{{ $author := "Daniel Olshansky" }}
+{{ if eq .Section "reading" }}
+  {{ $author = "" }}
+  {{ with .Params.author }}
+    {{ if reflect.IsSlice . }}{{ $author = delimit . ", " }}{{ else }}{{ $author = . }}{{ end }}
+  {{ end }}
+{{ end }}
 {{ if .IsHome }}
   {{ $title = "Daniel Olshansky - Software Engineer, AI Developer, Tech Blog" }}
 {{ else if .Title }}
@@ -25,7 +32,7 @@
 {{ end }}
 <meta property="og:site_name" content="{{ .Site.Title }}">
 {{ if .IsPage }}
-<meta property="article:author" content="Daniel Olshansky">
+<meta property="article:author" content="{{ $author }}">
 <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
 <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
 {{ with .Params.tags }}
@@ -38,7 +45,7 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="{{ if $image }}summary_large_image{{ else }}summary{{ end }}">
 <meta name="twitter:site" content="@{{ .Site.Params.social.twitter }}">
-<meta name="twitter:creator" content="@{{ .Site.Params.social.twitter }}">
+{{ if ne .Section "reading" }}<meta name="twitter:creator" content="@{{ .Site.Params.social.twitter }}">{{ end }}
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $description }}">
 {{ with $image }}
@@ -47,7 +54,7 @@
 
 <!-- Additional meta tags for SEO -->
 <link rel="canonical" href="{{ .Permalink }}">
-<meta name="author" content="Daniel Olshansky">
+<meta name="author" content="{{ $author }}">
 <meta name="description" content="{{ $description }}">
 {{ with .Params.keywords }}
 <meta name="keywords" content="{{ delimit . ", " }}">

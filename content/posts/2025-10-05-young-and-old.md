@@ -3,7 +3,7 @@ title: "Young and Old"
 date: 2025-10-05T17:45:58-0700
 draft: false
 description: ""
-tags: ["politics", "thought", "life", "opinion"]
+tags: ["blog", "politics", "thought", "life", "opinion"]
 categories: ["thought"]
 ShowToc: true
 TocOpen: false

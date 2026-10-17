@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "24 Hours of ChatGPT"
 date = "2022-12-02T00:15:48.451Z"
 description = "A timeline of ChatGPT use cases that show what the rest of this decade looks like"
-tags = [
+tags = ["blog",
     "crypto", "ai", "startup", "tech", "investment", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/24-hours-of-chatgpt"

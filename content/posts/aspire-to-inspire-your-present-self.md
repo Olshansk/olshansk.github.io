@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Aspire to Inspire Your Present Self"
 date = "2025-01-01T20:38:30.866Z"
 description = "By Listening to a Podcast of Your Future Self"
-tags = [
+tags = ["blog",
     "crypto", "ai", "nuclear", "startup", "tech", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/aspire-to-inspire-your-present-self"

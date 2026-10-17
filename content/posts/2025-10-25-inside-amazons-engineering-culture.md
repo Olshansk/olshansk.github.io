@@ -4,7 +4,7 @@ date: 2025-10-25T19:59:06-0700
 draft: false
 description: ""
 tags:
-  [
+  ["blog",
     "Amazon",
     "Leadership",
     "Engineering Culture",

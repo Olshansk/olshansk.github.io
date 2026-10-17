@@ -3,7 +3,7 @@ title: "Achieving your full potential, safely"
 date: 2026-04-11T08:21:20-0700
 draft: false
 description: "Making useful and safe AI - from cryptoeconomic incentives to raw sensor data in construction."
-tags: ["AI Safety", "Anthropic", "Network Protocols", "Sensor Data", "Construction", "Cryptoeconomics", "Mission"]
+tags: ["blog", "AI Safety", "Anthropic", "Network Protocols", "Sensor Data", "Construction", "Cryptoeconomics", "Mission"]
 categories: []
 medium_url: ""
 substack_url: ""

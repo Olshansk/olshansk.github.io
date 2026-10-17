@@ -3,7 +3,7 @@ title: "5P;1R — Ethereum’s Modified Merkle Patricia Trie"
 date: 2022-04-23T15:31:50-07:00
 draft: false
 description: "This is the second of a series of articles I’m trying out called “5 points & 1 resource” (think tl;dr but 5p;1r) where I summarize a list…"
-tags: ["ethereum", "modified", "merkle"]
+tags: ["blog", "ethereum", "modified", "merkle"]
 categories: ["cryptocurrency", "technology", "machine-learning"]
 medium_url: "https://medium.com/@olshansky/5p-1r-ethereums-modified-merkle-patricia-trie-6956f5888398"
 ShowToc: true

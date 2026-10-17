@@ -4,7 +4,7 @@ date: 2026-03-26T11:38:15-0700
 draft: false
 description: ""
 tags:
-  [
+  ["blog",
     "Communication",
     "Introversion",
     "Founder Culture",

@@ -3,7 +3,7 @@ title: "Three reasons I work out"
 date: 2026-02-22T12:02:59-0800
 draft: false
 description: ""
-tags: ["Fitness", "Motivation", "Personal Growth", "Lifestyle", "Health", "Habits", "thought"]
+tags: ["blog", "Fitness", "Motivation", "Personal Growth", "Lifestyle", "Health", "Habits", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

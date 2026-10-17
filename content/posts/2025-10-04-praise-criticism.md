@@ -3,7 +3,7 @@ title: "Praise, Criticize, Praise"
 date: 2025-10-04T15:12:50-0700
 draft: false
 description: ""
-tags: ["thought", "praise", "criticism"]
+tags: ["blog", "thought", "praise", "criticism"]
 categories: []
 ShowToc: true
 TocOpen: false

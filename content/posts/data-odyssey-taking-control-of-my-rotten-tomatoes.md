@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Data Odyssey: Taking Control of my Rotten Tomatoes"
 date = "2023-07-02T20:10:33.625Z"
 description = "Episode I: Rise of the Independent Critic"
-tags = [
+tags = ["blog",
     "ai", "tech", "productivity", "book", "personal"
 ]
 substack_url = "https://olshansky.substack.com/p/data-odyssey-taking-control-of-my"

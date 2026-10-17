@@ -4,7 +4,7 @@ date: 2025-10-26T14:00:26-0700
 draft: false
 description: ""
 tags:
-  [
+  ["blog",
     "startups",
     "leadership",
     "founders",

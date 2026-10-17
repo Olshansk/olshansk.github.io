@@ -3,7 +3,7 @@ title: "Programming Humour"
 date: 2026-03-08T16:23:50-0700
 draft: false
 description: ""
-tags: ["Programming", "Humor", "Software Engineering", "AI", "Computer Science", "thought"]
+tags: ["blog", "Programming", "Humor", "Software Engineering", "AI", "Computer Science", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

@@ -3,7 +3,7 @@ title: "What did I learn from GetSoils?"
 date: 2025-10-13T20:42:09-0700
 draft: false
 description: ""
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: []
 ShowToc: true
 TocOpen: false

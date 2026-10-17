@@ -3,7 +3,7 @@ title: "Canadian Real Estate or American Stock?"
 date: 2015-05-26T01:49:03-07:00
 draft: false
 description: "tl;dr Investing in the S&P 500 is more profitable than buying a condo in Toronto with a 25% downpayment and renting it out while still…"
-tags: ["canadian", "real", "estate"]
+tags: ["blog", "canadian", "real", "estate"]
 categories: ["technology", "machine-learning", "business"]
 medium_url: "https://medium.com/@olshansky/canadian-real-estate-or-american-stock-6cc59f750e43"
 ShowToc: true

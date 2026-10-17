@@ -3,7 +3,7 @@ title: "Cached knowledge is not intelligence"
 date: 2026-04-09T09:06:58-0700
 draft: false
 description: ""
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

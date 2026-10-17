@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "The 4-Week Project Checklist"
 date = "2022-10-19T20:03:22.056Z"
 description = ""
-tags = [
+tags = ["blog",
     "ai", "productivity", "book"
 ]
 substack_url = "https://olshansky.substack.com/p/the-4-week-project-checklist"

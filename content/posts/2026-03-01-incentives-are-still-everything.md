@@ -3,7 +3,7 @@ title: "It's (still) all about incentives"
 date: 2026-03-01T10:00:00-0800
 draft: false
 description: ""
-tags: ["Incentives", "Career", "Reflection", "Crypto", "AI", "Micro-Tipping"]
+tags: ["blog", "Incentives", "Career", "Reflection", "Crypto", "AI", "Micro-Tipping"]
 categories: ["Posts"]
 ShowToc: true
 TocOpen: false

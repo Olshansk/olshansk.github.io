@@ -3,7 +3,7 @@ title: "An open letter to llms.txt"
 date: 2025-10-05T18:46:51-0700
 draft: false
 description: ""
-tags: ["llms", "ai", "letter", "open", "idea"]
+tags: ["blog", "llms", "ai", "letter", "open", "idea"]
 categories: ["post"]
 medium_url: ""
 substack_url: ""

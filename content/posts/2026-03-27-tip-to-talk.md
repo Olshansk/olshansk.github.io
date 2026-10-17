@@ -3,7 +3,7 @@ title: "Getting Paid For Your Attention Is All You Need"
 date: 2026-03-27T10:00:00-0700
 draft: false
 description: "Tip to Talk: a new way for creators to earn by requiring a tip to receive a message."
-tags: ["Grove", "Creators", "Micropayments", "Web3", "Product"]
+tags: ["blog", "Grove", "Creators", "Micropayments", "Web3", "Product"]
 categories: ["Posts"]
 medium_url: ""
 substack_url: ""

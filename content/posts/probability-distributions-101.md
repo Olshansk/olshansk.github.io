@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Probability Distributions 101"
 date = "2023-02-20T02:52:21.438Z"
 description = "A (re)primer on basic probably distributions"
-tags = [
+tags = ["blog",
     "crypto", "ai", "investment", "productivity", "book", "personal"
 ]
 substack_url = "https://olshansky.substack.com/p/probability-distributions-101"

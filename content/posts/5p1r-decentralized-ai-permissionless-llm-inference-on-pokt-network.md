@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "5P;1R Decentralized AI: Permissionless LLM Inference on POKT Network"
 date = "2024-06-22T04:17:26.863Z"
 description = "You don’t always need NVIDIA GPUs for inference"
-tags = [
+tags = ["blog",
     "crypto", "ai", "nuclear", "research", "productivity", "book"
 ]
 substack_url = "https://olshansky.substack.com/p/5p1r-decentralized-ai-permissionless"

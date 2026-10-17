@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "5P;1R Stackr: Micro-Rollups"
 date = "2024-04-04T19:53:25.578Z"
 description = "Modular Micro-Services for Web3 (build app-specific rollups on Ethereum in web2 programming languages)"
-tags = [
+tags = ["blog",
     "crypto", "ai", "startup", "tech", "research", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/5p1r-stackr-micro-rollups"

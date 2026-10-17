@@ -3,7 +3,7 @@ title: "There is no such thing as Perfect Intelligence"
 date: 2026-08-10T13:06:20-0500
 draft: false
 description: ""
-tags: ["Thought", "AI", "Intelligence", "AGI", "Philosophy"]
+tags: ["blog", "Thought", "AI", "Intelligence", "AGI", "Philosophy"]
 categories: []
 medium_url: ""
 substack_url: ""

@@ -3,7 +3,7 @@ title: "Living Legends: Finance & Investing"
 date: 2025-12-26T14:02:51-0800
 draft: false
 description: "First edition of a series on the key individuals who laid the foundations shaping entire industries"
-tags: ["posts"]
+tags: ["blog", "posts"]
 categories:
   ["finance", "investing", "living-legends", "history", "life lessons"]
 medium_url: ""

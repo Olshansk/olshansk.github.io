@@ -3,7 +3,7 @@ title: "What happens after universal high income?"
 date: 2026-01-20T08:55:41-0500
 draft: false
 description: ""
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "A life-changing trip to Mexico on the Day of the Dead"
 date = "2021-11-29T16:04:52.834Z"
 description = "My personal journey into joining the Crypto space full-time at Pocket"
-tags = [
+tags = ["blog",
     "crypto", "ai", "startup", "tech", "research", "investment"
 ]
 substack_url = "https://olshansky.substack.com/p/a-life-changing-trip-to-mexico-on"

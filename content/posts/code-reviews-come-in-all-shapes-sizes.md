@@ -3,7 +3,7 @@ author: "Daniel Olshansky"
 title: "Code Reviews Come in all Shapes & Sizes"
 date: "2022-04-08T22:57:53.672Z"
 description: ""
-tags: ["crypto", "ai", "tech", "productivity", "book", "personal", "thought"]
+tags: ["blog", "crypto", "ai", "tech", "productivity", "book", "personal", "thought"]
 substack_url: "https://olshansky.substack.com/p/code-reviews-come-in-all-shapes-and"
 aliases: ["/thoughts/code-reviews-come-in-all-shapes-sizes/"]
 ---

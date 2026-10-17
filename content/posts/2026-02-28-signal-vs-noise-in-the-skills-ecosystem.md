@@ -4,7 +4,7 @@ date: 2026-02-28T13:00:00-0800
 draft: false
 description: ""
 tags:
-  [
+  ["blog",
     "AI Coding",
     "Agent Skills",
     "Claude Code",

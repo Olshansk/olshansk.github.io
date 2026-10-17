@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Help a Family Create a Memory"
 date = "2023-12-28T18:41:44.216Z"
 description = ""
-tags = [
+tags = ["blog",
     "ai", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/help-a-family-create-a-memory"

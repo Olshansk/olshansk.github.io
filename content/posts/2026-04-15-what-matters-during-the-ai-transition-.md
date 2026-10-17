@@ -3,7 +3,7 @@ title: "What matters during the AI Transition?"
 date: 2026-04-15T10:03:48-0700
 draft: false
 description: "Reflections from an AI agents summit - business fundamentals, what drives people, and a personal mission."
-tags: ["AI", "Mission", "Business", "Personal Growth", "thought"]
+tags: ["blog", "AI", "Mission", "Business", "Personal Growth", "thought"]
 categories: ["Thoughts"]
 ShowToc: false
 TocOpen: false

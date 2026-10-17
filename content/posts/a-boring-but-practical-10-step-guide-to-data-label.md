@@ -2,7 +2,7 @@
 title: "A Boring but Practical 10-Step Guide to Data Labeling & Evaluation"
 date: 2025-03-03T01:42:57-07:00
 draft: false
-tags: ["ai", "data-science", "machine-learning", "thought"]
+tags: ["blog", "ai", "data-science", "machine-learning", "thought"]
 categories: ["Technology", "AI"]
 summary: "Below is a very terse and opinionated set of steps to data labeling and model evaluation."
 medium_url: "https://medium.com/@olshansky/the-unsexy-truth-a-10-step-guide-to-data-labeling-that-actually-works-47f75828fd16"

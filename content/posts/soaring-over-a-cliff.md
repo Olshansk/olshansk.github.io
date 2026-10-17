@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Soaring Over A Cliff"
 date = "2022-12-02T18:39:14.994Z"
 description = "A full year at Pocket"
-tags = [
+tags = ["blog",
     "crypto", "ai", "startup", "research", "productivity", "book"
 ]
 substack_url = "https://olshansky.substack.com/p/soaring-over-a-cliff"

@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Infracon V1 - 6 Months In Deep Pockets"
 date = "2022-06-13T22:29:04.897Z"
 description = "A reflection of my first six months, topped off with my experience at Pocket’s inaugural conference."
-tags = [
+tags = ["blog",
     "crypto", "ai", "nuclear", "startup", "research", "productivity"
 ]
 substack_url = "https://olshansky.substack.com/p/infracon-v1-6-months-in-deep-pockets"

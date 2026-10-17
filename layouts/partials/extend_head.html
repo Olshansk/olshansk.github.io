@@ -5,7 +5,7 @@
 {{- partial "structured-person.html" . -}}
 {{- partial "structured-website.html" . -}}
 {{- partial "seo-breadcrumbs.html" . -}}
-{{- if .IsPage -}}
+{{- if and .IsPage (ne .Section "reading") -}}
   {{- partial "structured-article.html" . -}}
 {{- end -}}
 

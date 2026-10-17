@@ -3,7 +3,7 @@ author: "Daniel Olshansky"
 title: "From PC (Personal Computer) to PGPT (Personal GPT)"
 date: "2024-04-27T18:18:23.137Z"
 description: ""
-tags: ["ai", "productivity", "book", "personal", "thought"]
+tags: ["blog", "ai", "productivity", "book", "personal", "thought"]
 substack_url: "https://olshansky.substack.com/p/from-pc-personal-computer-to-pgpt"
 aliases: ["/thoughts/from-pc-personal-computer-to-pgpt-personal-gpt/"]
 ---

@@ -3,7 +3,7 @@ title: "Three references for aspiring entrepnrenuers"
 date: 2026-01-08T20:12:36-0800
 draft: false
 description: ""
-tags: ["Entrepreneurship", "Product Market Fit", "Startups", "SaaS", "Career", "thought"]
+tags: ["blog", "Entrepreneurship", "Product Market Fit", "Startups", "SaaS", "Career", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

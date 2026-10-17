@@ -5,7 +5,7 @@ draft: false
 description: "You can try out all of the code in this article yourself using this Google Colaboratory notebook."
 medium_url: "https://medium.com/@olshansky/python-3-9-statsprofile-my-first-oss-contribution-to-cpython-9dd6847eb802"
 tags:
-  ["python", "cpython", "opensource", "profiling", "performance", "programming"]
+  ["blog", "python", "cpython", "opensource", "profiling", "performance", "programming"]
 ---
 
 _You can try out all of the code in this article yourself using [this Google Colaboratory notebook](https://colab.research.google.com/drive/1GBxS6UnJOLyztivEheHBEDOHFFqpRG2y#scrollTo=Vmky1qQQzvVt)._

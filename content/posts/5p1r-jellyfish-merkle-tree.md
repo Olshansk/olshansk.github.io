@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "5P;1R Jellyfish Merkle Tree"
 date = "2022-09-15T14:25:52.816Z"
 description = ""
-tags = [
+tags = ["blog",
     "crypto", "ai", "tech", "research", "productivity", "book"
 ]
 substack_url = "https://olshansky.substack.com/p/5p1r-jellyfish-merkle-tree"

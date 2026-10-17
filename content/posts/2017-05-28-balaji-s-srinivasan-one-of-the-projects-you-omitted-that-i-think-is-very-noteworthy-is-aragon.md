@@ -2,7 +2,7 @@
 title: "Balaji S. Srinivasan One of the projects you omitted that I think is very noteworthy is Aragon."
 date: 2017-05-28T00:18:48-07:00
 draft: false
-tags: ['balaji', 'srinivasan', "thought"]
+tags: ["blog", 'balaji', 'srinivasan', "thought"]
 categories: ['cryptocurrency', 'business']
 medium_url: "https://medium.com/@olshansky/balaji-s-srinivasan-one-of-the-projects-you-omitted-that-i-think-is-very-noteworthy-is-aragon-f78009082200"
 ShowToc: true

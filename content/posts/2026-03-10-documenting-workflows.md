@@ -3,7 +3,7 @@ title: "Documenting Workflows"
 date: 2026-03-10T10:00:00-0700
 draft: false
 description: ""
-tags: ["AI", "Productivity", "Workflows", "Agents", "thought"]
+tags: ["blog", "AI", "Productivity", "Workflows", "Agents", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

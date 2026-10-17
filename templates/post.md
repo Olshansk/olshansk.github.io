@@ -1,9 +1,9 @@
 ---
 title: "{{TITLE}}"
 date: {{DATE}}
-draft: false
+draft: true
 description: "{{DESCRIPTION}}"
-tags: []
+tags: ["blog"]
 categories: []
 medium_url: ""
 substack_url: ""

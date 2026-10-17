@@ -3,7 +3,7 @@ author = "Daniel Olshansky"
 title = "Why I’m Allocating 10% of My Portfolio to Uranium"
 date = "2024-05-06T01:05:42.234Z"
 description = "As the AI revolution kicks off, we’ll need nuclear energy to fuel it."
-tags = [
+tags = ["blog",
     "crypto", "ai", "nuclear", "startup", "tech", "research"
 ]
 substack_url = "https://olshansky.substack.com/p/why-im-allocating-10-of-my-portfolio"

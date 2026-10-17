@@ -4,6 +4,7 @@ date: 2025-09-19T18:19:06-07:00
 ShowToc: true
 draft: false
 categories: ["Technology", "Blockchain"]
+tags: ["blog"]
 ---
 
 Just read the CLARITY Act and was impressed by how much technical detail Congress baked in.

@@ -3,7 +3,7 @@ title: "AgentEx vs DevEx"
 date: 2026-04-29T10:54:54-0700
 draft: false
 description: ""
-tags: ["thought"]
+tags: ["blog", "thought"]
 categories: ["Thoughts"]
 ShowToc: true
 TocOpen: false

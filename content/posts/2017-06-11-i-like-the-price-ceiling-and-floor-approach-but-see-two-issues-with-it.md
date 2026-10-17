@@ -3,7 +3,7 @@ title: "I like the price ceiling and floor approach but see two issues with it."
 date: 2017-06-11T23:00:15-07:00
 draft: false
 description: "If we’re selling a DAO token with equal voting rights, and a majority is required to make some decision, then someone could come in and…"
-tags: ["like", "price", "thought"]
+tags: ["blog", "like", "price", "thought"]
 categories: ["machine-learning", "business"]
 medium_url: "https://medium.com/@olshansky/i-like-the-price-ceiling-and-floor-approach-but-see-two-issues-with-it-729e9d720b37"
 ShowToc: true

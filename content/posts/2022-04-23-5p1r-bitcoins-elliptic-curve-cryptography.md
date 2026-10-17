@@ -3,7 +3,7 @@ title: "5P;1R — Bitcoin’s Elliptic Curve Cryptography"
 date: 2022-04-23T15:26:37-07:00
 draft: false
 description: "This is the first of a potential series of articles I want to call “5 points & 1 resource” (think tl;dr but 5p;1r) where I summarize a…"
-tags: ["bitcoin", "elliptic", "curve"]
+tags: ["blog", "bitcoin", "elliptic", "curve"]
 categories: ["cryptocurrency", "technology", "machine-learning"]
 medium_url: "https://medium.com/@olshansky/5p-1r-bitcoins-elliptic-curve-cryptography-196fc74a1bf1"
 ShowToc: true

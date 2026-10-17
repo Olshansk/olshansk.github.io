@@ -4,7 +4,7 @@ date: 2026-01-04T09:08:01-0500
 draft: false
 description: "RIP 22 years of writing code by hand (mostly)"
 tags:
-  [
+  ["blog",
     "AI Coding",
     "Software Engineering",
     "Claude Code",

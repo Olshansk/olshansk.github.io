@@ -4,7 +4,7 @@ date: 2017-06-16T02:45:36.623Z
 draft: false
 description: "This post was originally written as a follow up email to this tweet where one of the hosts of The Investor's Podcast ran a poll regarding people's thoughts on Bitcoin."
 medium_url: "https://medium.com/@olshansky/ethereum-is-to-bitcoin-as-the-us-is-to-gold-b35131565392"
-tags: ["ethereum", "bitcoin", "cryptocurrency", "blockchain", "economics"]
+tags: ["blog", "ethereum", "bitcoin", "cryptocurrency", "blockchain", "economics"]
 ---
 
 This post was originally written as a follow up email to [this tweet](https://twitter.com/PrestonPysh/status/868983834255147009) where one of the hosts of [The Investor's Podcast](http://theinvestorspodcast.com) ran a poll regarding people's thoughts on Bitcoin.

@@ -3,7 +3,7 @@ title: "Empirical vs Generative Data"
 date: 2025-11-16T10:55:41-0500
 draft: false
 description: ""
-tags: ["data", "synthetic", "empirical", "generative", "thought"]
+tags: ["blog", "data", "synthetic", "empirical", "generative", "thought"]
 categories: ["thoughts"]
 ShowToc: true
 TocOpen: false
