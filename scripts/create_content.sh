@@ -10,7 +10,7 @@ TITLE="$2"
 
 if [ -z "$CONTENT_TYPE" ] || [ -z "$TITLE" ]; then
     echo "Usage: $0 <content_type> <title>"
-    echo "Content types: post, movie, tv_show, book"
+    echo "Content types: post, reading, movie, tv_show, book"
     exit 1
 fi
 
@@ -27,6 +27,10 @@ case "$CONTENT_TYPE" in
         CONTENT_DIR="content/posts"
         TEMPLATE="templates/post.md"
         ;;
+    "reading")
+        CONTENT_DIR="content/reading"
+        TEMPLATE="templates/reading.md"
+        ;;
     "movie")
         CONTENT_DIR="content/movie"
         TEMPLATE="templates/movie.md"
@@ -41,7 +45,7 @@ case "$CONTENT_TYPE" in
         ;;
     *)
         echo "Error: Unknown content type '$CONTENT_TYPE'"
-        echo "Valid types: post, movie, tv_show, book"
+        echo "Valid types: post, reading, movie, tv_show, book"
         exit 1
         ;;
 esac

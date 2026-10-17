@@ -3,6 +3,7 @@
 - [Source Code](#source-code)
 - [Deployment](#deployment)
 - [Development](#development)
+- [Reading quotes](#reading-quotes)
 - [Resources](#resources)
   - [TODO / Ideas](#todo--ideas)
   - [General](#general)
@@ -35,6 +36,25 @@ GitHub Pages is no longer used. When bumping Hugo, update `vercel.json` and
 ```bash
 hugo server
 ```
+
+## Reading quotes
+
+`/reading/` collects sourced excerpts under the `TodayIRead` tag, separate from original writing in `/posts/`.
+Each excerpt has its own dated permalink, and `/reading/index.xml` includes the complete quote and attribution.
+Reading entries are excluded from the main `/index.xml` feed; other existing feed content is unchanged.
+
+Create a draft using the local date:
+
+```bash
+TZ=America/Los_Angeles make new_reading TITLE="Human Attention Is the Bottleneck"
+```
+
+Replace the template comment with the exact excerpt as a Markdown blockquote and a linked attribution containing the source title and author(s).
+Set the frontmatter `author` to the source author(s) so metadata credits the quoted work.
+Preserve spelling, punctuation, and paragraph breaks; do not add commentary unless requested.
+Check for an existing entry with the same excerpt and source before creating another.
+Use `draft: false` when publication is authorized, then run `make test` and `make test_workflow` before opening a PR.
+Ordinary blog drafts retain their separate publishing workflow.
 
 ## Resources
 
