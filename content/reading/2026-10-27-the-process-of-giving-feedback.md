@@ -3,7 +3,7 @@ title: "The Process of Giving Feedback"
 date: "2026-10-27"
 draft: true
 author: ["A Learning a Day"]
-tags: ["TodayIRead", "Today I Read"]
+tags: ["TodayIQuoted", "Today I Quoted"]
 source: "https://alearningaday.blog/2026/10/25/the-process-of-giving-feedback/"
 ShowToc: false
 ShowReadingTime: false
