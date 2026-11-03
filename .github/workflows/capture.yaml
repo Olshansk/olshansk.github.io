@@ -24,6 +24,8 @@ on:
       - "layouts/partials/social-meta.html"
       - "hugo.toml"
       - "Makefile"
+      - "scripts/finish-branch.sh"
+      - "scripts/test-finish-branch.sh"
       - "pyproject.toml"
       - "uv.lock"
       - ".python-version"
@@ -55,8 +57,8 @@ jobs:
           enable-cache: true
       - name: Sync Python environment
         run: uv sync --locked
-      - name: Run capture tests
-        run: uv run pytest
+      - name: Run tooling tests
+        run: make test
       - name: Check Make help
         run: |
           make help | grep -F "add_quote"
