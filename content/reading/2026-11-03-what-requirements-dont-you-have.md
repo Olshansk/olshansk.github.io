@@ -1,5 +1,5 @@
 ---
-title: "What requirements don't you have?"
+title: "What requirements can you have later?"
 date: "2026-11-03T12:00:00-08:00"
 draft: true
 author: "Daniel Olshansky"
@@ -9,19 +9,16 @@ source: "https://www.seangoedecke.com/what-requirements-dont-you-have/"
 source_author: "Sean Goedecke"
 ---
 
-The short block post with a very hidden entitled Survey a treasure pro of gold we talk.
+This [short post](https://www.seangoedecke.com/what-requirements-dont-you-have/) by Sean Goedecke is a hidden treasure obscured by a simple title: `What requirements don't you have?`
 
-Really talk about requirements but knowing what not what requires to draw so much harder. When you work with enterprises, knowing which requirement is to challenge isn’t just knowledge, but it is a compromise, negotiation, it’s built on trust and as much as your side and done.
+He had a few cool callouts:
+- `Statsd` uses UDP becomes dropping some data is fine in high volume/throughput analytics environments.
+- `S3` doesn't support multi-key atomic updates.
+- `uvicorn` has not shared mutable state between servers
+- `sqlite` is just a file
 
-A few cool moments and callouts :)
-Bullet point UV corn is a single process for handling servers.
-Bullet point Citty singer Feil.
-Stats Steve allows dropping data point this really simplifies life and work.
+We all know things need to be kept simple, yet we find ourselves overcomplicating it. Sometimes, it' human nature and we just need to catch our peers, and ourselves, in the act. 
 
-Another thing that I started thinking about is the import of code review again, but I found that I just I just review file structure to make sure that we have a proper biggest files in the Director systems and I’m in Christian begin to believe that we should focus on figuring out what to delete this. Is it just one there’s no options right it’s just the one.
+The harder part goes beyond the requirements we set for ourselves. It extends into requirements we get from our users, or clients. The larger the client, the less maleable the requirements. This is where understanding, challengining, compromising and aligning on requirements is critical. And, it's not always a binary scale of accepting or rejecting a requirement. More often than not, it's about building a roadmap of milestones so you do not sacrifice delivery in liu of requirements, and only focus on the ones that are critical at any point in time. In some ways, we're reinventing agile. In other ways, it's incentive alignment to creat a win-win scenario.
 
-Source: [Sean Goedecke — What requirements don’t you have?](https://www.seangoedecke.com/what-requirements-dont-you-have/)
-
-<!-- Editorial notes (separate from source text): "Unclear dictation is retained above rather than reconstructed. In particular, the opening sentence, the three product callouts, and parts of the final paragraph need clarification.\n\nSource-based editorial notes (not verbatim dictation): the article discusses Unicorn running separate server instances in separate processes, SQLite operating from a single file, and StatsD using UDP without guaranteed delivery. These likely explain “UV corn,” “Citty singer Feil,” and “Stats Steve,” respectively. Unicorn is not Uvicorn. The source does not establish what every garbled phrase was intended to mean." -->
-
-<!-- Original dictation (JSON): "The short block post with a very hidden entitled Survey a treasure pro of gold we talk.\n\nReally talk about requirements but knowing what not what requires to draw so much harder. When you work with enterprises, knowing which requirement is to challenge isn’t just knowledge, but it is a compromise, negotiation, it’s built on trust and as much as your side and done.\n\nA few cool moments and callouts :)\nBullet point UV corn is a single process for handling servers.\nBullet point Citty singer Feil.\nStats Steve allows dropping data point this really simplifies life and work.\n\nAnother thing that I started thinking about is the import of code review again, but I found that I just I just review file structure to make sure that we have a proper biggest files in the Director systems and I’m in Christian begin to believe that we should focus on figuring out what to delete this. Is it just one there’s no options right it’s just the one." -->
+So when requirements come up, don't always accept them at face value. Also, don't reject them outright. Identify which are critical for the business, and then stagger them accoringly to balance everything from customer asks, to security and deliverying value as fast as possible. 
