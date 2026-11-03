@@ -47,6 +47,10 @@ help:
 	@printf "\n"
 	@printf "\033[1m=== 🛠️  Maintenance ===\033[0m\n"
 	@printf "  \033[36mtodo\033[0m               Find all TODO comments in codebase\n"
+	@printf "  \033[36mfinish-branch\033[0m      Squash the current branch PR into main and delete the branch\n"
+	@printf '                     Optional OFFLINE=1: squash locally without network (default: 0)\n'
+	@printf '                     Optional MESSAGE="subject": offline commit subject (default: latest commit)\n'
+	@printf "  \033[36mtest-finish-branch\033[0m Test branch-finishing guards locally\n"
 	@printf "\n"
 
 #################
@@ -173,7 +177,7 @@ py_sync:
 	@uv sync
 
 .PHONY: test
-test:
+test: test-finish-branch
 	@uv run pytest
 
 #################
@@ -238,6 +242,18 @@ llms_regenerate:
 #################
 # Maintenance
 #################
+
+.PHONY: finish-branch test-finish-branch
+OFFLINE ?= 0
+# Only export the literal subject through the target-specific environment value.
+unexport MESSAGE
+finish-branch: export FINISH_OFFLINE := $(value OFFLINE)
+finish-branch: export FINISH_MESSAGE := $(value MESSAGE)
+finish-branch:
+	@bash scripts/finish-branch.sh
+
+test-finish-branch:
+	@bash scripts/test-finish-branch.sh
 
 .PHONY: todo
 todo:

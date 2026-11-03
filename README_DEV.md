@@ -3,6 +3,7 @@
 - [Source Code](#source-code)
 - [Deployment](#deployment)
 - [Development](#development)
+  - [Finish a branch](#finish-a-branch)
 - [Reading quotes](#reading-quotes)
 - [Resources](#resources)
   - [TODO / Ideas](#todo--ideas)
@@ -36,6 +37,60 @@ GitHub Pages is no longer used. When bumping Hugo, update `vercel.json` and
 ```bash
 hugo server
 ```
+
+### Finish a branch
+
+From a clean feature branch, with its commits pushed and an existing PR targeting `main`:
+
+```bash
+make finish-branch
+```
+
+Requires Bash, Git, and an authenticated GitHub CLI (`gh`).
+The command requires an open, non-draft PR with its head matching the local commit.
+It squash-merges the PR into one commit, verifies the merge on `origin/main`,
+switches to `main`, fast-forwards it, then deletes the local and remote feature branch.
+GitHub CLI supplies the squash commit message.
+
+Required checks, reviews, and Git hooks still apply. Fork PRs are unsupported.
+A queued merge stops before cleanup and retains the feature branch. Once GitHub
+merges it, verify `origin/main` and finish cleanup manually.
+Local main with unpublished commits is rejected before merging.
+If the merge completes but local cleanup fails, follow the reported error before
+retrying cleanup. A remote branch that changed after merging is retained.
+Remote deletion uses an exact-commit lease; main is never force-pushed.
+Merging into `main` triggers the site's Vercel deployment.
+
+To finish locally while offline:
+
+```bash
+make finish-branch OFFLINE=1
+```
+
+Optionally set the single commit's subject:
+
+```bash
+make finish-branch OFFLINE=1 MESSAGE="feat: describe the finished change"
+```
+
+- `OFFLINE` is optional, defaults to `0` (GitHub PR workflow), and accepts `0` or `1`.
+- `MESSAGE` is optional and applies only to `OFFLINE=1`. It defaults to the latest
+  feature commit's subject and is passed literally through the environment.
+- Offline mode needs Bash and Git 2.38 or later, committed work, and local `main`.
+  It checks for conflicts, creates one squash commit on the existing local main,
+  and deletes only the local feature branch. No remote or GitHub CLI is required.
+- It does not fetch, push, merge a PR, or delete a remote branch. Local main may
+  differ from GitHub. Standard local Git hooks still run.
+- Conflicts stop before switching branches. A failed commit retains the source
+  branch and staged squash on main; fix and commit, or run `git reset --merge HEAD`
+  and switch back to the retained feature branch.
+- Offline commits are unpublished. When online, fetch and reconcile with
+  `origin/main` before publishing through a PR. The original remote feature branch
+  and PR, if present, require separate review and cleanup.
+
+Run `make test-finish-branch` to test offline squashes with network commands blocked,
+plus PR merge verification and cleanup with a local bare remote and mocked GitHub CLI.
+These checks also run as part of `make test` and CI.
 
 ## Reading quotes
 
