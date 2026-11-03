@@ -3,28 +3,24 @@ title: "Thoughts on the new card review"
 date: "2026-11-03T12:00:00-08:00"
 draft: true
 author: "Daniel Olshansky"
-tags: ["TI"]
-capture_kind: "TI"
+tags: ["TIR"]
+capture_kind: "TIR"
 ---
 
-Thoughts on the new card review
+I did a quick reflection of how I've been approaching code reviews recently.
 
-Directories and files are assistance and social service. That’s right that’s what we use to structure it files like a decoration or the inputs that’s what we used to do so.
+I recognized that I've been approaching code much more as a system than before. In particular, a code repository is a system that can be broken down into:
 
-The important thing is not overcomplicated. What’s on the inside which should I removing code is so much more important than writing it
+**Components**: packages/directories that group the tasks.
+**Sub-components**: files that logically separate the business logic.
+**Details**: the contents of those files driving the implementation.
+**Connections**: interfaces in the forms of APIs & MCPs.
+**Inputs**: configurations in the form of yaml, json, env variables, user inputs.
+**Outputs**: artifacts that can take different shapes and sizes.
+**Supporting infrastructure**: documentation, testing, tooling, etc to hold all of the above in place and maintain it. 
 
-Files and the system, you
+The key differentiator today is that I don't spend time on the details. For the rest, I still review it, but it's often assisted by AI rather than scrolling through a UI.
 
-APS and MCP’s are the doors.
+There is a lot of detail I'm overlooking, and in some cases, you still need to look in the code. Nuance and circumstance matter.
 
-Now working on the connectors.
-
-What’s inside the actual code that we just need to make a simple as possible and avoid complexities?
-
-Mention that this was inspired by the block was Rohan
-
-Spent a little time of of course we have data sources that support, but also Chase part need to be decoupled, separated, isolated from the business logic to make the system configuration because that is what makes agents complicated house stream.
-
-<!-- Editorial notes (separate from source text): "Unresolved dictation: “card review,” “assistance and social service,” “decoration or the inputs,” “Files and the system, you,” “APS,” “the block was Rohan,” “Chase part,” and “agents complicated house stream.” Rohan's identity and the inspiring post are unknown; no attribution or link has been inferred. The requested TI classification is preserved without expanding the abbreviation." -->
-
-<!-- Original dictation (JSON): "Thoughts on the new card review\n\nDirectories and files are assistance and social service. That’s right that’s what we use to structure it files like a decoration or the inputs that’s what we used to do so.\n\nThe important thing is not overcomplicated. What’s on the inside which should I removing code is so much more important than writing it\n\nFiles and the system, you\n\nAPS and MCP’s are the doors.\n\nNow working on the connectors.\n\nWhat’s inside the actual code that we just need to make a simple as possible and avoid complexities?\n\nMention that this was inspired by the block was Rohan\n\nSpent a little time of of course we have data sources that support, but also Chase part need to be decoupled, separated, isolated from the business logic to make the system configuration because that is what makes agents complicated house stream." -->
+However, for the vast majority of cases, code is just a system. With AI, we just don't need to worry about the details.
