@@ -2,6 +2,7 @@
 # Use real temporary repositories; replace only the GitHub API boundary.
 set -euo pipefail
 script="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/finish-branch.sh"
+project=$(dirname "$(dirname "$script")")
 test_root=$(mktemp -d)
 trap 'result=$?; if [[ $result != 0 && -f "$test_root/output" ]]; then cat "$test_root/output" >&2; git status --short >&2; fi; rm -rf "$test_root"' EXIT
 mkdir -p "$test_root/bin" "$test_root/hooks"
@@ -62,7 +63,11 @@ git config user.email test@example.invalid
 # Fixture-only hook directories do not alter the user's managed Git hooks.
 git config core.hooksPath "$test_root/hooks"
 git --git-dir=../remote.git config core.hooksPath "$test_root/hooks"
-git commit --quiet --allow-empty -m base
+mkdir scripts
+cp "$project/Makefile" Makefile
+cp "$script" scripts/finish-branch.sh
+git add Makefile scripts
+git commit --quiet -m base
 git push --quiet origin main
 base=$(git rev-parse HEAD)
 git switch --quiet -c feature/finish
@@ -78,7 +83,7 @@ reject() {
     local label=$1 message=$2
     shift 2
     : > "$FAKE_GH_LOG"
-    if "$@" bash "$script" > "$test_root/output" 2>&1; then
+    if "$@" bash "$script" online > "$test_root/output" 2>&1; then
         printf 'FAIL: %s unexpectedly succeeded\n' "$label" >&2
         exit 1
     fi
@@ -89,6 +94,15 @@ reject() {
     fi
     printf 'PASS: %s rejected before merge\n' "$label"
 }
+
+for invalid_mode in '' invalid; do
+    if BLOCK_NETWORK=1 bash "$script" "$invalid_mode" > "$test_root/output" 2>&1; then
+        printf 'FAIL: invalid mode accepted\n' >&2
+        exit 1
+    fi
+    grep -Fq 'Use make finish-branch-online or make finish-branch-offline' "$test_root/output"
+done
+printf 'PASS: explicit online or offline mode required\n'
 
 git switch --quiet main
 reject 'main branch' 'Check out a feature branch' env
@@ -113,7 +127,7 @@ git switch --quiet feature/finish
 reject 'unpublished main' 'Local main has unpublished commits' env
 git branch --force main "$base" >/dev/null
 
-if env FAKE_GH_MERGE_FAIL=1 bash "$script" > "$test_root/output" 2>&1; then
+if env FAKE_GH_MERGE_FAIL=1 bash "$script" online > "$test_root/output" 2>&1; then
     printf 'FAIL: GitHub merge rejection was ignored\n' >&2
     exit 1
 fi
@@ -121,7 +135,7 @@ fi
 [[ "$(git rev-parse origin/main)" == "$base" ]]
 printf 'PASS: merge rejection preserves feature branch and main\n'
 
-if env FAKE_GH_STATE=OPEN bash "$script" > "$test_root/output" 2>&1; then
+if env FAKE_GH_STATE=OPEN bash "$script" online > "$test_root/output" 2>&1; then
     printf 'FAIL: queued PR triggered cleanup\n' >&2
     exit 1
 fi
@@ -131,7 +145,7 @@ grep -Fq 'PR is not merged yet' "$test_root/output"
 printf 'PASS: queued PR retains both feature refs and current checkout\n'
 
 : > "$FAKE_GH_LOG"
-bash "$script" > "$test_root/output" 2>&1
+make finish-branch-online > "$test_root/output" 2>&1
 expected="pr merge feature/finish --repo $(git remote get-url origin) --squash --match-head-commit $head"
 grep -Fxq "$expected" "$FAKE_GH_LOG"
 [[ "$(git branch --show-current)" == main ]]
@@ -144,7 +158,6 @@ grep -Fxq "$expected" "$FAKE_GH_LOG"
 printf 'PASS: verified squash updates main, preserves content, and deletes both feature refs\n'
 
 # Offline fixtures run the public Make target with Git/GitHub network calls denied.
-project=$(dirname "$(dirname "$script")")
 offline_setup() {
     local label=$1
     mkdir -p "$test_root/$label"
@@ -173,7 +186,7 @@ offline_setup() {
 offline_reject() {
     local label=$1 message=$2
     shift 2
-    if env BLOCK_NETWORK=1 make finish-branch OFFLINE=1 "$@" > "$test_root/output" 2>&1; then
+    if env BLOCK_NETWORK=1 make finish-branch-offline "$@" > "$test_root/output" 2>&1; then
         printf 'FAIL: %s unexpectedly succeeded\n' "$label" >&2
         exit 1
     fi
@@ -195,7 +208,7 @@ git --git-dir="$test_root/offline-remote.git" config core.hooksPath "$test_root/
 git remote add origin "$test_root/offline-remote.git"
 git push --quiet origin main feature/offline
 subject='feat: literal $(shell touch SHOULD_NOT_EXIST) and `backticks`'
-BLOCK_NETWORK=1 make finish-branch OFFLINE=1 MESSAGE="$subject" > "$test_root/output" 2>&1
+BLOCK_NETWORK=1 make finish-branch-offline MESSAGE="$subject" > "$test_root/output" 2>&1
 [[ "$(git branch --show-current)" == main ]]
 [[ "$(git log -1 --format=%s)" == "$subject" ]]
 [[ ! -e SHOULD_NOT_EXIST ]]
@@ -209,7 +222,7 @@ BLOCK_NETWORK=1 make finish-branch OFFLINE=1 MESSAGE="$subject" > "$test_root/ou
 printf 'PASS: offline Make target squashes two commits, preserves main changes, deletes local branch only, and treats MESSAGE literally\n'
 
 offline_setup offline-no-remote
-BLOCK_NETWORK=1 make finish-branch OFFLINE=1 > "$test_root/output" 2>&1
+BLOCK_NETWORK=1 make finish-branch-offline > "$test_root/output" 2>&1
 [[ "$(git branch --show-current)" == main ]]
 [[ "$(git log -1 --format=%s)" == 'feat: offline finished' ]]
 [[ ! -s "$OFFLINE_NETWORK_LOG" ]]
@@ -233,7 +246,6 @@ offline_setup offline-guards
 printf 'unfinished\n' > dirty.txt
 offline_reject 'offline uncommitted work' 'Commit or stash local changes'
 rm dirty.txt
-offline_reject 'invalid offline mode' 'OFFLINE must be 0' OFFLINE=invalid
 git branch --delete main >/dev/null
 offline_reject 'missing local main' 'Create a local main branch'
 git branch main "$head"

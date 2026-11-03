@@ -47,9 +47,9 @@ help:
 	@printf "\n"
 	@printf "\033[1m=== 🛠️  Maintenance ===\033[0m\n"
 	@printf "  \033[36mtodo\033[0m               Find all TODO comments in codebase\n"
-	@printf "  \033[36mfinish-branch\033[0m      Squash the current branch PR into main and delete the branch\n"
-	@printf '                     Optional OFFLINE=1: squash locally without network (default: 0)\n'
-	@printf '                     Optional MESSAGE="subject": offline commit subject (default: latest commit)\n'
+	@printf "  \033[36mfinish-branch-online\033[0m   Squash-merge the PR, update main, and delete the branch\n"
+	@printf "  \033[36mfinish-branch-offline\033[0m  Squash into local main and delete only the local branch\n"
+	@printf '                         Optional MESSAGE="subject" (offline only; default: latest commit)\n'
 	@printf "  \033[36mtest-finish-branch\033[0m Test branch-finishing guards locally\n"
 	@printf "\n"
 
@@ -243,14 +243,12 @@ llms_regenerate:
 # Maintenance
 #################
 
-.PHONY: finish-branch test-finish-branch
-OFFLINE ?= 0
+.PHONY: finish-branch-online finish-branch-offline test-finish-branch
 # Only export the literal subject through the target-specific environment value.
 unexport MESSAGE
-finish-branch: export FINISH_OFFLINE := $(value OFFLINE)
-finish-branch: export FINISH_MESSAGE := $(value MESSAGE)
-finish-branch:
-	@bash scripts/finish-branch.sh
+finish-branch-online finish-branch-offline: export FINISH_MESSAGE := $(value MESSAGE)
+finish-branch-online finish-branch-offline:
+	@bash scripts/finish-branch.sh $(patsubst finish-branch-%,%,$@)
 
 test-finish-branch:
 	@bash scripts/test-finish-branch.sh

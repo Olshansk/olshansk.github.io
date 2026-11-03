@@ -43,7 +43,7 @@ hugo server
 From a clean feature branch, with its commits pushed and an existing PR targeting `main`:
 
 ```bash
-make finish-branch
+make finish-branch-online
 ```
 
 Requires Bash, Git, and an authenticated GitHub CLI (`gh`).
@@ -64,17 +64,16 @@ Merging into `main` triggers the site's Vercel deployment.
 To finish locally while offline:
 
 ```bash
-make finish-branch OFFLINE=1
+make finish-branch-offline
 ```
 
 Optionally set the single commit's subject:
 
 ```bash
-make finish-branch OFFLINE=1 MESSAGE="feat: describe the finished change"
+make finish-branch-offline MESSAGE="feat: describe the finished change"
 ```
 
-- `OFFLINE` is optional, defaults to `0` (GitHub PR workflow), and accepts `0` or `1`.
-- `MESSAGE` is optional and applies only to `OFFLINE=1`. It defaults to the latest
+- `MESSAGE` is optional and applies only to `finish-branch-offline`. It defaults to the latest
   feature commit's subject and is passed literally through the environment.
 - Offline mode needs Bash and Git 2.38 or later, committed work, and local `main`.
   It checks for conflicts, creates one squash commit on the existing local main,

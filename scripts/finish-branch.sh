@@ -7,9 +7,9 @@ fail() {
     exit 1
 }
 
-offline=${FINISH_OFFLINE-0}
-[[ "$offline" == 0 || "$offline" == 1 ]] || fail 'OFFLINE must be 0 (GitHub PR) or 1 (local squash).'
-[[ "$offline" == 1 || -z "${FINISH_MESSAGE:-}" ]] || fail 'MESSAGE applies only to OFFLINE=1.'
+mode=${1:-}
+[[ $# == 1 && ( "$mode" == online || "$mode" == offline ) ]] || fail 'Use make finish-branch-online or make finish-branch-offline.'
+[[ "$mode" == offline || -z "${FINISH_MESSAGE:-}" ]] || fail 'MESSAGE applies only to finish-branch-offline.'
 branch=$(git symbolic-ref --quiet --short HEAD) || fail 'Check out the branch you want to finish.'
 [[ "$branch" != main ]] || fail 'Check out a feature branch, not main.'
 cd "$(git rev-parse --show-toplevel)"
@@ -18,7 +18,7 @@ for state in MERGE_HEAD CHERRY_PICK_HEAD REVERT_HEAD rebase-merge rebase-apply; 
     [[ ! -e "$(git rev-parse --git-path "$state")" ]] || fail 'Finish the current Git operation first.'
 done
 head=$(git rev-parse HEAD)
-if [[ "$offline" == 1 ]]; then
+if [[ "$mode" == offline ]]; then
     git show-ref --verify --quiet refs/heads/main || fail 'Create a local main branch before using offline mode.'
     git merge-base --is-ancestor "$head" main && fail 'The feature branch is already merged into local main.'
     message=${FINISH_MESSAGE:-$(git log -1 --format=%s)}
