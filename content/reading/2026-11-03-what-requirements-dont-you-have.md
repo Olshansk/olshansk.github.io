@@ -15,7 +15,7 @@ He had a few cool callouts:
 
 - `StatsD` uses UDP because dropping some data is fine in high-volume/high-throughput analytics environments.
 - `S3` doesn't support multi-key atomic updates.
-- `uvicorn` has no shared mutable state between servers.
+- `Unicorn` has no shared mutable state between server instances.
 - `SQLite` is just a file.
 
 We all know things need to be kept simple, yet we find ourselves overcomplicating them. Sometimes, it's human nature, and we just need to catch our peers, and ourselves, in the act.
