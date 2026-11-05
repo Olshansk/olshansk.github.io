@@ -1,6 +1,6 @@
 {{ $title := .Title }}
 {{ $author := "Daniel Olshansky" }}
-{{ if eq .Section "reading" }}
+{{ if eq .Section "tix" }}
   {{ $author = "" }}
   {{ with .Params.author }}
     {{ if reflect.IsSlice . }}{{ $author = delimit . ", " }}{{ else }}{{ $author = . }}{{ end }}
@@ -45,7 +45,7 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="{{ if $image }}summary_large_image{{ else }}summary{{ end }}">
 <meta name="twitter:site" content="@{{ .Site.Params.social.twitter }}">
-{{ if ne .Section "reading" }}<meta name="twitter:creator" content="@{{ .Site.Params.social.twitter }}">{{ end }}
+{{ if ne .Section "tix" }}<meta name="twitter:creator" content="@{{ .Site.Params.social.twitter }}">{{ end }}
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $description }}">
 {{ with $image }}

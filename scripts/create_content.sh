@@ -28,7 +28,7 @@ case "$CONTENT_TYPE" in
         TEMPLATE="templates/post.md"
         ;;
     "reading")
-        CONTENT_DIR="content/reading"
+        CONTENT_DIR="content/tix"
         TEMPLATE="templates/reading.md"
         ;;
     "movie")

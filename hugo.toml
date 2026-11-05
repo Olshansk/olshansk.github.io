@@ -94,8 +94,8 @@ unsafe = true
       name = "Writing"
       url = "posts"
     [[params.profileMode.buttons]]
-      name = "Quotes & Excerpts"
-      url = "reading"
+      name = "TIX"
+      url = "tix"
     [[params.profileMode.buttons]]
       name = "Books"
       url = "book"
@@ -174,9 +174,9 @@ unsafe = true
   url = "/book/"
 
 [[menu.main]]
-  name = "Quotes & Excerpts"
+  name = "TIX"
   weight = 7
-  url = "/reading/"
+  url = "/tix/"
 
 [[menu.main]]
   name = "Movies"

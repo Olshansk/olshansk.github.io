@@ -9,4 +9,4 @@ _I started mirroring my medium & substack posts here in 09/2025. I migrated my o
 
 **If you find a malformed post, [let me know](https://olshansky.info/about/#reach-out).**
 
-[Blog RSS](/posts/index.xml) · [Quotes & excerpts](/reading/) · [Everything RSS](/index.xml)
+[RSS](/posts/index.xml)

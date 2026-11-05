@@ -5,6 +5,7 @@ draft: false
 author: "Daniel Olshansky"
 tags: ["TodayIRead", "Today I Read"]
 capture_kind: "TIR"
+entry_type: "reading"
 source: "https://www.seangoedecke.com/what-requirements-dont-you-have/"
 source_author: "Sean Goedecke"
 ---

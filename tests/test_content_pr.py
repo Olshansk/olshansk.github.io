@@ -16,7 +16,7 @@ def test_excerpt_preserves_multiline_text_and_source():
         "TITLE": 'A "quoted" title', "TEXT": '“Exact words.”\n\nSecond paragraph.',
         "SOURCE": "https://example.com/source", "AUTHOR": "Original Author", "DATE": "2026-10-17",
     })
-    assert str(path) == "content/reading/2026-10-17-a-quoted-title.md"
+    assert str(path) == "content/tix/2026-10-17-a-quoted-title.md"
     assert '> “Exact words.”\n>\n> Second paragraph.' in rendered
     assert 'author: ["Original Author"]' in rendered
     assert 'tags: ["excerpt", "TodayIRead"]' in rendered
@@ -86,7 +86,7 @@ def test_pr_isolated_and_only_entry_staged(monkeypatch, tmp_path):
     monkeypatch.setattr(content_pr, "run", fake_run)
     assert content_pr.main() == 0
     staged = [args for args, cwd in commands if args[:2] == ("git", "add")]
-    assert staged == [("git", "add", "--", "content/reading/2026-10-17-a-quote.md")]
+    assert staged == [("git", "add", "--", "content/tix/2026-10-17-a-quote.md")]
     assert any(args[:3] == ("gh", "pr", "create") and "--draft" in args for args, _ in commands)
     assert all(cwd != content_pr.ROOT for args, cwd in commands if args[:2] == ("git", "commit"))
     assert not any("merge" in args for args, _ in commands)
