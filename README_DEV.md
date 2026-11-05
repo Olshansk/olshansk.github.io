@@ -40,6 +40,12 @@ hugo server
 
 ### Finish a branch
 
+For a reviewed blog/TIX batch, follow the repository's
+[close-out-tix skill](.agents/skills/close-out-tix/SKILL.md). It covers the final
+proofreading pass, draft preservation, exact PR/branch mapping, validation,
+squash merge, local and remote cleanup, and pulling main. It also handles
+shared unpublished local-main commits without dropping their changes.
+
 From a clean feature branch, with its commits pushed and an existing PR targeting `main`:
 
 ```bash
