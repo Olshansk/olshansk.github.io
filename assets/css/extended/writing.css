@@ -38,7 +38,6 @@
   color: var(--idea-ink);
 }
 .writing-entry {
-  border-inline-start: 3px solid var(--writing-accent);
   padding: 24px 28px;
 }
 .writing-entry .entry-header h2 {
@@ -60,16 +59,41 @@
   line-height: 1.8;
   font-variant-numeric: tabular-nums;
 }
+body:has(.writing-page) { background: var(--code-bg); }
+body.dark:has(.writing-page) { background: var(--theme); }
+.main:has(> .writing-page) {
+  max-width: calc(var(--main-width) + var(--gap) * 2 + 64px);
+}
+.writing-page {
+  padding: 32px;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
 .writing-page .post-header {
-  margin-bottom: 32px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid var(--border);
+  margin: 0 0 32px;
+  padding: 0;
+}
+.writing-page .post-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.writing-page .copy-markdown-button {
+  position: static;
+  margin: 0;
+}
+.writing-page .post-title {
+  font-size: clamp(30px, 3vw, 38px);
+  line-height: 1.25;
 }
 .writing-page .post-meta {
   display: block;
-  border-top: 0;
-  margin-top: 16px;
-  padding-top: 0;
+  margin-top: 20px;
+  padding-top: 14px;
 }
 .writing-page .post-content {
   line-height: 1.8;
@@ -99,6 +123,7 @@
   }
   #menu li + li { margin-inline-start: 0; }
   #menu a { font-size: 14px; }
+  .writing-page { padding: 20px; }
   .writing-entry { padding: 20px; }
   .writing-entry .entry-header h2 { font-size: 22px; }
 }
