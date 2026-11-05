@@ -1,9 +1,10 @@
 {{- define "main" }}
 
-<article class="post-single">
+<article class="post-single{{ if in (slice "posts" "tix") .Section }} writing-page{{ end }}">
   <header class="post-header post-header-with-copy-markdown">
     {{ partial "breadcrumbs.html" . }}
     {{ partial "copy_markdown_button.html" . }}
+    {{ if in (slice "posts" "tix") .Section }}{{ partial "entry_badge.html" . }}{{ end }}
     <h1 class="post-title">
       {{ .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}

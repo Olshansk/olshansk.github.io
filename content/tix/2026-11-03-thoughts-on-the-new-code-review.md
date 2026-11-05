@@ -5,6 +5,7 @@ draft: false
 author: "Daniel Olshansky"
 tags: ["TIR"]
 capture_kind: "TIR"
+entry_type: "idea"
 ---
 
 I did a quick reflection on how I've been approaching code reviews recently.

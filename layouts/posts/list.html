@@ -21,7 +21,7 @@
 
 {{- if $paginator.Pages }}
 
-<main class="main">
+<div class="writing-list">
 
 {{- $currentYear := "" }}
 {{- range $index, $page := $paginator.Pages }}
@@ -40,24 +40,7 @@
     </div>
 {{- end }}
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>
-      <a href="{{ $page.Permalink }}" aria-label="{{ $page.Title | plainify }}">{{ $page.Title }}</a>
-    </h2>
-  </header>
-  {{- if (not ($page.Param "hideSummary")) }}
-  <div class="entry-content">
-    <p>{{ $page.Summary | plainify | htmlUnescape }}{{ if $page.Truncated }}...{{ end }}</p>
-  </div>
-  {{- end }}
-  {{- if not ($page.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" $page -}}
-  </footer>
-  {{- end }}
-  <a class="entry-link" aria-label="post link to {{ $page.Title | plainify }}" href="{{ $page.Permalink }}"></a>
-</article>
+{{ partial "writing_entry.html" $page }}
 
 {{- end }}
 
@@ -65,7 +48,7 @@
 </div> <!-- Close final year section -->
 {{- end }}
 
-</main>
+</div>
 
 {{- end }}
 

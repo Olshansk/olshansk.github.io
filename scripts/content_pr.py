@@ -60,7 +60,7 @@ def build_entry(kind: str, values: dict[str, str]) -> tuple[Path, str]:
         if attribution:
             body += "\n\n— " + attribution
     header = "\n".join(f"{key}: {json.dumps(value, ensure_ascii=False)}" for key, value in fields.items())
-    section = "posts" if kind == "blog" else "reading"
+    section = "posts" if kind == "blog" else "tix"
     return Path("content") / section / f"{day}-{slug}.md", f"---\n{header}\n---\n\n{body}\n"
 
 
@@ -93,7 +93,7 @@ def main() -> int:
             raise ValueError(f"Entry already exists: {path}")
         if kind != "blog":
             body = content.split("---\n\n", 1)[1]
-            for existing in (worktree / "content/reading").glob("*.md"):
+            for existing in (worktree / "content/tix").glob("*.md"):
                 if body.strip() in existing.read_text():
                     raise ValueError(f"Duplicate capture: {existing.name}")
         destination.parent.mkdir(parents=True, exist_ok=True)

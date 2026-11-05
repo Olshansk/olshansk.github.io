@@ -33,7 +33,7 @@ def site(tmp_path_factory):
 
 
 def test_quote_and_source_render_with_original_author_metadata(site):
-    page = (site / "reading" / SLUG / "index.html").read_text()
+    page = (site / "tix" / SLUG / "index.html").read_text()
     blockquote = re.search(r"<blockquote[^>]*>(.*?)</blockquote>", page, re.S).group(1)
     assert html.unescape(re.sub(r"<[^>]+>", "", blockquote)).strip() == QUOTE
     assert f'href="{SOURCE}"' in page
@@ -50,9 +50,9 @@ def test_quote_and_source_render_with_original_author_metadata(site):
 
 
 def test_reading_feed_contains_complete_quote_and_attribution(site):
-    items = ET.parse(site / "reading/index.xml").findall("./channel/item")
+    items = ET.parse(site / "tix/index.xml").findall("./channel/item")
     assert items
-    assert all("/reading/" in item.findtext("link") for item in items)
+    assert all("/tix/" in item.findtext("link") for item in items)
     item = next(item for item in items if SLUG in item.findtext("link"))
     content = item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded")
     assert QUOTE in html.unescape(re.sub(r"<[^>]+>", "", content))
@@ -65,15 +65,15 @@ def test_everything_feed_includes_reading_but_blog_feed_does_not(site):
         items = ET.parse(site / path).findall("./channel/item")
         assert items
         assert any("/posts/" in item.findtext("link") for item in items)
-        assert all("/reading/" not in item.findtext("link") for item in items)
+        assert all("/tix/" not in item.findtext("link") for item in items)
     assert SLUG not in (site / "posts/index.html").read_text()
     assert SLUG in (site / "index.xml").read_text()
 
 
 def test_reading_and_tag_are_discoverable(site):
-    assert '/reading/' in (site / "index.html").read_text()
-    assert SLUG in (site / "reading/index.html").read_text()
-    assert '/reading/index.xml' in (site / "reading/index.html").read_text()
+    assert '/tix/' in (site / "index.html").read_text()
+    assert SLUG in (site / "tix/index.html").read_text()
+    assert '/tix/index.xml' in (site / "tix/index.html").read_text()
     assert SLUG in (site / "tags/todayiread/index.html").read_text()
 
 
@@ -83,9 +83,39 @@ def test_separate_content_feeds_and_existing_blog_tags(site):
     blog_items = ET.parse(site / "tags/blog/index.xml").findall("./channel/item")
     assert quote_items and excerpt_items and blog_items
     assert all("/quotes/" in item.findtext("link") for item in quote_items)
-    assert all("/reading/" in item.findtext("link") for item in excerpt_items)
+    assert all("/tix/" in item.findtext("link") for item in excerpt_items)
     assert all("/posts/" in item.findtext("link") for item in blog_items)
     assert SLUG in (site / "tags/excerpt/index.html").read_text()
     assert all(item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") for item in quote_items + excerpt_items + blog_items)
     blog_links = {item.findtext("link") for item in ET.parse(site / "posts/index.xml").findall("./channel/item")}
     assert blog_links == {item.findtext("link") for item in blog_items}
+
+
+def test_tix_cutover_and_single_visible_feed_link(site):
+    assert not (site / "reading").exists()
+    for section in ("tix", "posts"):
+        page = (site / section / "index.html").read_text()
+        main = re.search(r'<main[^>]*>(.*?)</main>', page, re.S).group(1)
+        feeds = re.findall(r'<a[^>]+href="([^"]+index.xml)"', main)
+        assert feeds == [f"/{section}/index.xml"]
+        assert '/reading/' not in page
+
+
+def test_types_and_metadata_are_distinct_on_list_and_detail(site):
+    listing = (site / "tix/index.html").read_text()
+    expected = {
+        "2026-11-03-thoughts-on-the-new-code-review": "Idea",
+        "2026-11-03-what-requirements-dont-you-have": "Reading",
+        SLUG: "Excerpt",
+    }
+    for slug, label in expected.items():
+        card = next(card for card in re.findall(r'<article.*?</article>', listing, re.S) if slug in card)
+        detail = (site / "tix" / slug / "index.html").read_text()
+        for page in (card, detail):
+            assert f'>{label}</span>' in page
+            assert '<time datetime=' in page
+        if label != "Excerpt":
+            assert 'class="meta-reading-time"' in card
+            assert 'class="meta-word-count"' in card
+    # Blog cards receive the same visual label and metadata treatment.
+    assert 'entry-badge-blog' in (site / "posts/index.html").read_text()

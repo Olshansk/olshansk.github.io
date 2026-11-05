@@ -4,7 +4,7 @@
 - [Deployment](#deployment)
 - [Development](#development)
   - [Finish a branch](#finish-a-branch)
-- [Reading quotes](#reading-quotes)
+- [Today I X](#today-i-x)
 - [Resources](#resources)
   - [TODO / Ideas](#todo--ideas)
   - [General](#general)
@@ -97,9 +97,16 @@ Run `make test-finish-branch` to test offline squashes with network commands blo
 plus PR merge verification and cleanup with a local bare remote and mocked GitHub CLI.
 These checks also run as part of `make test` and CI.
 
-## Reading quotes
+## Today I X
 
-The blog lives at `/posts/`; quotes and excerpts share `/reading/`.
+The blog lives at `/posts/`; Today I X lives at `/tix/`. X is a placeholder for
+anything worth capturing: something read, quoted, found, or thought about.
+Each section shows one RSS link. Entries display a type badge above the title
+and separate, smaller monospace date, reading time, and word-count metadata.
+
+Use frontmatter `entry_type` for an explicit label (e.g. `idea`, `reading`,
+`quote`, `excerpt`, `found`, or `note`). Otherwise the badge follows content tags
+and capture markers. This replaces the former `/reading/` section and URLs.
 The existing `/quotes/` log remains available and is tagged `quote`.
 `blog`, `quote`, and `excerpt` are reserved content tags; the two blog posts previously using the topic tag `quote` now use `quotations` to keep the feeds separate.
 
@@ -107,7 +114,7 @@ The existing `/quotes/` log remains available and is tagged `quote`.
 |---|---|---|
 | Everything published | `/index.xml` | All tags |
 | Blog | `/posts/index.xml` | `blog` |
-| Quotes and excerpts | `/reading/index.xml` | `quote`, `excerpt` |
+| Today I X | `/tix/index.xml` | Quotes, excerpts, readings, ideas, finds, and notes |
 | Quotes (including the legacy log) | `/tags/quote/index.xml` | `quote` |
 | Excerpts | `/tags/excerpt/index.xml` | `excerpt`, plus `TodayIRead` |
 

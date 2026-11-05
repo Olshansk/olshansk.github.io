@@ -1,0 +1,19 @@
+{{- define "main" }}
+<header class="page-header writing-section-header">
+  {{ partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  <div class="post-description">{{ .Description }}</div>
+  <a class="section-rss" href="{{ ( .OutputFormats.Get "RSS" ).RelPermalink }}">RSS</a>
+</header>
+{{- with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
+{{- $paginator := .Paginate .RegularPages }}
+{{- range $paginator.Pages }}
+  {{ partial "writing_entry.html" . }}
+{{- end }}
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer"><nav class="pagination">
+  {{ with $paginator.Prev }}<a class="prev" href="{{ .URL }}">Previous</a>{{ end }}
+  {{ with $paginator.Next }}<a class="next" href="{{ .URL }}">Next</a>{{ end }}
+</nav></footer>
+{{- end }}
+{{- end }}
