@@ -1,7 +1,7 @@
 ---
 title: "{{TITLE}}"
 date: {{DATE}}
-draft: true
+draft: false
 tags: ["TodayIRead", "excerpt"]
 ShowToc: false
 ShowReadingTime: false
@@ -10,4 +10,4 @@ ShowPostNavLinks: false
 ---
 
 <!-- Add the exact excerpt as a blockquote, followed by linked source attribution.
-Set author to the source author(s), not the curator. Keep draft: true until ready to publish. -->
+Set author to the source author(s), not the curator. Keep draft: false so the entry publishes when merged. -->

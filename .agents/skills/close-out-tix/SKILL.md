@@ -26,9 +26,11 @@ Do not include other queued or discarded entries unless the request covers them.
    Separate optional structural or substantive suggestions from corrections;
    preserve the author's voice, claims, title, dates, tags, and assets.
 
-**Preserve content `draft: true` unless publication is explicitly requested.**
-Marking a GitHub PR ready is separate from changing its content's draft flag.
-Merging to `main` triggers normal site deployment, but draft posts remain hidden.
+**Content selected for merge/publication must use `draft: false`.** The user's
+standing preference is non-draft content. Convert any selected entry's
+`draft: true` to `draft: false` before validating and merging; Hugo hides
+`draft: true`. A GitHub PR's draft/ready state is separate from this frontmatter.
+Do not change unrelated existing drafts. Inspection-only requests remain read-only.
 
 ## Validate and push
 
@@ -37,9 +39,12 @@ Merging to `main` triggers normal site deployment, but draft posts remain hidden
   changes or add the local tracker to a commit. Keep the tracker excluded through
   `.git/info/exclude`, not the shared `.gitignore`.
 - Use the Hugo version pinned in `vercel.json` and CI. Run `make test`,
-  `make test_workflow`, and `git diff --check`. For draft content, also run
-  `HUGO_BUILDDRAFTS=true HUGO_BUILDFUTURE=true make test_workflow` and inspect the
-  generated page. Use `uv` for Python and keep `uv.lock` unchanged during checks.
+  `make test_workflow`, and `git diff --check`. Build without draft/future
+  overrides and verify each selected entry's page, section listing, and feed
+  in the generated output. Entries under `content/reading/` appear in Reading
+  and its feed, not the Posts list. A future date can also hide an entry;
+  report it rather than silently changing its date. Use `uv` for Python and
+  keep `uv.lock` unchanged during checks.
 - Commit only the approved changes. Push with an explicit local-source to
   existing-PR-head refspec, without force-pushing. Verify GitHub's live head is
   exactly the validated SHA, then wait for fresh checks on that SHA.
@@ -92,4 +97,6 @@ A queued merge is still pending and does not permit cleanup.
   both locally and remotely. Remote-tracking refs alone do not prove deletion.
 - Update the existing local tracker with reviewed/validated head, push result,
   squash SHA, separate local/remote cleanup results, final main SHA, and any
-  remaining blocker. Report the outcome and whether the content remains draft.
+  remaining blocker. Report the outcome, content draft flags, generated URLs,
+  and live deployment verification. A successful build alone does not establish
+  that the selected content is visible.

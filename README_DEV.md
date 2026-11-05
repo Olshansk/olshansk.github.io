@@ -42,7 +42,7 @@ hugo server
 
 For a reviewed blog/TIX batch, follow the repository's
 [close-out-tix skill](.agents/skills/close-out-tix/SKILL.md). It covers the final
-proofreading pass, draft preservation, exact PR/branch mapping, validation,
+proofreading pass, publishable frontmatter, exact PR/branch mapping, validation,
 squash merge, local and remote cleanup, and pulling main. It also handles
 shared unpublished local-main commits without dropping their changes.
 
@@ -114,9 +114,9 @@ The existing `/quotes/` log remains available and is tagged `quote`.
 Each new capture target creates its own branch from `origin/main`, commits only its entry, runs capture tests and a production Hugo build, and opens a custom draft PR.
 Requires authenticated `gh`, Git push access, Hugo, and uv.
 The working checkout is left on its current branch. Each run reports its retained PR worktree for follow-up edits or failure recovery.
-The targets never merge PRs. Blog entries also retain `draft: true` until explicitly approved for publication.
+The targets never merge PRs. All new entries use `draft: false` so they publish when merged; GitHub PRs remain draft for review. The close-out skill converts selected content to `draft: false` and checks its page in a normal production build before merging. Unrelated existing drafts remain untouched.
 
-Create a blog draft from a Markdown body file (without frontmatter):
+Create a blog entry from a Markdown body file (without frontmatter):
 
 ```bash
 make new_blog TITLE="My post" BODY_FILE=/absolute/path/body.md

@@ -1,7 +1,7 @@
 ---
 title: "Thoughts on the new code review"
 date: "2026-11-03T12:00:00-08:00"
-draft: true
+draft: false
 author: "Daniel Olshansky"
 tags: ["TIR"]
 capture_kind: "TIR"

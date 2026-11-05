@@ -18,7 +18,7 @@ help:
 	@printf "  new_blog / new_quote / new_excerpt  Create one entry and its draft PR\n"
 	@printf "  \033[36mnew_post\033[0m           Create blog post\n"
 	@printf "                     make new_post TITLE=\"...\"\n"
-	@printf "  \033[36mnew_reading\033[0m        Create a TodayIRead quote draft\n"
+	@printf "  \033[36mnew_reading\033[0m        Create a publishable TodayIRead entry\n"
 	@printf "                     make new_reading TITLE=\"...\"\n"
 	@printf "  \033[36mnew_book\033[0m           Create book review\n"
 	@printf "  \033[36mnew_movie\033[0m          Create movie review\n"

@@ -45,9 +45,9 @@ When changing the date of a post or thought, update ALL of:
 - For a supplied reading excerpt and source URL, use `make new_reading TITLE="..."` to create an individual entry under `content/reading/`, tagged `TodayIRead`.
 - Preserve the excerpt verbatim and link the source with its author(s). Set frontmatter `author` to the credited source author(s), not Daniel.
 - Check for duplicate excerpt/source pairs first. Add commentary only when requested.
-- The user's standing instruction is to publish these quote-and-link captures through a PR after checks pass, unless they explicitly ask for a draft. This does not authorize publishing other blog drafts.
+- The user's standing instruction is to create blog and TIX/reading content with `draft: false`, so it publishes when its PR is merged. Existing unrelated drafts are not part of a selected publishing batch.
 - `/index.xml` includes all published content. `/posts/index.xml` is blog-only. `/reading/index.xml` combines quotes and excerpts; `/tags/quote/index.xml` and `/tags/excerpt/index.xml` separate them. Keep reading entries out of the Posts list.
-- Use `make new_blog`, `make new_quote`, or `make new_excerpt` for new captures. Each target is authorized to commit only its entry in an isolated branch and open its own draft PR. Never merge automatically. `new_blog` preserves `draft: true`.
+- Use `make new_blog`, `make new_quote`, or `make new_excerpt` for new captures. Each target is authorized to commit only its entry in an isolated branch and open its own draft PR. Never merge automatically. Content uses `draft: false`; a draft GitHub PR is a separate review state.
 - Use tags `blog`, `quote`, and `excerpt`; retain `TodayIRead` on excerpts. The older `new_post`, `new_reading`, and `add_quote` targets remain local helpers.
 - `make add_quote` remains the helper for the existing general-purpose `content/quotes.md` log.
 
@@ -57,8 +57,10 @@ When changing the date of a post or thought, update ALL of:
   [close-out-tix](.agents/skills/close-out-tix/SKILL.md). Verify the selected
   posts against the local tracker, proofread, validate, squash-merge, remove
   their exact local and remote branches, and finish on updated `main`.
-- Preserve content draft flags unless publication is explicitly requested.
-  Inspection and push-only requests do not authorize merging or cleanup.
+- Before closing out a selected content PR for merge/publication, set its content
+  frontmatter to `draft: false` and verify the page in a normal production build.
+  Hugo `draft: true` hides content. Inspection and push-only requests do not
+  authorize merging, publication, or cleanup; leave unrelated drafts untouched.
 
 ## Python (uv)
 

@@ -1,6 +1,7 @@
 """Validate capture text preservation and isolated PR submission boundaries."""
 
 import importlib.util
+import subprocess
 from pathlib import Path
 
 import pytest
@@ -22,13 +23,36 @@ def test_excerpt_preserves_multiline_text_and_source():
     assert '— Original Author, <https://example.com/source>' in rendered
 
 
-def test_blog_file_remains_a_draft(tmp_path):
+def test_blog_file_is_publishable(tmp_path):
     source = tmp_path / "body.md"
     source.write_text("# My heading\n\nOriginal prose.")
     path, rendered = content_pr.build_entry("blog", {"TITLE": "My post", "BODY_FILE": str(source)})
     assert path.parent == Path("content/posts")
-    assert 'draft: true' in rendered
+    assert 'draft: false' in rendered
     assert source.read_text() in rendered
+
+
+def test_new_entries_appear_in_normal_production_build(tmp_path):
+    content = tmp_path / "content"
+    destination = tmp_path / "public"
+    paths = []
+    for kind in ("blog", "quote", "excerpt"):
+        path, rendered = content_pr.build_entry(kind, {
+            "TITLE": f"Publishable {kind}", "TEXT": "Complete original text.",
+            "DATE": "2026-01-01", "SOURCE": "https://example.com/source", "AUTHOR": "Source Author",
+        })
+        entry = content / path.relative_to("content")
+        entry.parent.mkdir(parents=True, exist_ok=True)
+        entry.write_text(rendered)
+        paths.append(path)
+    subprocess.run([
+        "hugo", "--environment", "production", "--buildDrafts=false", "--buildFuture=false",
+        "--contentDir", str(content), "--destination", str(destination),
+    ], cwd=content_pr.ROOT, check=True, capture_output=True, text=True)
+    for path in paths:
+        section = path.parent.name
+        assert (destination / section / path.stem / "index.html").is_file()
+        assert path.stem in (destination / section / "index.xml").read_text()
 
 
 @pytest.mark.parametrize("values", [

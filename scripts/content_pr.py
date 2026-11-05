@@ -46,7 +46,7 @@ def build_entry(kind: str, values: dict[str, str]) -> tuple[Path, str]:
         raise ValueError("Excerpts require SOURCE and AUTHOR")
     if source and (urlsplit(source).scheme not in {"http", "https"} or not urlsplit(source).netloc):
         raise ValueError("SOURCE must be an absolute HTTP(S) URL")
-    fields = {"title": title, "date": day, "draft": kind == "blog", "tags": [kind]}
+    fields = {"title": title, "date": day, "draft": False, "tags": [kind]}
     if kind != "blog":
         fields.update(ShowToc=False, ShowReadingTime=False, ShowWordCount=False, ShowPostNavLinks=False)
         if kind == "excerpt":

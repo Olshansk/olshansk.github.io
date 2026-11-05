@@ -1,7 +1,7 @@
 ---
 title: "{{TITLE}}"
 date: {{DATE}}
-draft: true
+draft: false
 description: "{{DESCRIPTION}}"
 tags: ["blog"]
 categories: []
