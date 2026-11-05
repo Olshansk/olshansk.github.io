@@ -51,6 +51,15 @@ When changing the date of a post or thought, update ALL of:
 - Use tags `blog`, `quote`, and `excerpt`; retain `TodayIRead` on excerpts. The older `new_post`, `new_reading`, and `add_quote` targets remain local helpers.
 - `make add_quote` remains the helper for the existing general-purpose `content/quotes.md` log.
 
+## Close out reviewed content
+
+- For an explicitly requested proofreading and PR close-out batch, use
+  [close-out-tix](.agents/skills/close-out-tix/SKILL.md). Verify the selected
+  posts against the local tracker, proofread, validate, squash-merge, remove
+  their exact local and remote branches, and finish on updated `main`.
+- Preserve content draft flags unless publication is explicitly requested.
+  Inspection and push-only requests do not authorize merging or cleanup.
+
 ## Python (uv)
 
 - All Python in this repo runs through `uv`; never call `python3`, `pip`, or a `.venv/bin` binary directly.

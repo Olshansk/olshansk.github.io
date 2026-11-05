@@ -47,6 +47,10 @@ help:
 	@printf "\n"
 	@printf "\033[1m=== 🛠️  Maintenance ===\033[0m\n"
 	@printf "  \033[36mtodo\033[0m               Find all TODO comments in codebase\n"
+	@printf "  \033[36mfinish-branch-online\033[0m   Squash-merge the PR, update main, and delete the branch\n"
+	@printf "  \033[36mfinish-branch-offline\033[0m  Squash into local main and delete only the local branch\n"
+	@printf '                         Optional MESSAGE="subject" (offline only; default: latest commit)\n'
+	@printf "  \033[36mtest-finish-branch\033[0m Test branch-finishing guards locally\n"
 	@printf "\n"
 
 #################
@@ -173,7 +177,7 @@ py_sync:
 	@uv sync
 
 .PHONY: test
-test:
+test: test-finish-branch
 	@uv run pytest
 
 #################
@@ -238,6 +242,16 @@ llms_regenerate:
 #################
 # Maintenance
 #################
+
+.PHONY: finish-branch-online finish-branch-offline test-finish-branch
+# Only export the literal subject through the target-specific environment value.
+unexport MESSAGE
+finish-branch-online finish-branch-offline: export FINISH_MESSAGE := $(value MESSAGE)
+finish-branch-online finish-branch-offline:
+	@bash scripts/finish-branch.sh $(patsubst finish-branch-%,%,$@)
+
+test-finish-branch:
+	@bash scripts/test-finish-branch.sh
 
 .PHONY: todo
 todo:
