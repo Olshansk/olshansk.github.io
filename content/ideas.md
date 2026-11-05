@@ -2,8 +2,7 @@
 title = "Today I X"
 description = "A running log of ideas, observations, and questions."
 date = "2026-08-10"
-url = "/tix/"
-aliases = ["/ideas/"]
+url = "/ideas/"
 author = "Daniel Olshansky"
 ShowToc = false
 ShowReadingTime = false

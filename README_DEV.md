@@ -108,6 +108,7 @@ Use frontmatter `entry_type` for an explicit label (e.g. `idea`, `reading`,
 `quote`, `excerpt`, `found`, or `note`). Otherwise the badge follows content tags
 and capture markers. This replaces the former `/reading/` section and URLs.
 The existing `/quotes/` log remains available and is tagged `quote`.
+The older ideas log remains at `/ideas/`; only the TIX section owns `/tix/`.
 `blog`, `quote`, and `excerpt` are reserved content tags; the two blog posts previously using the topic tag `quote` now use `quotations` to keep the feeds separate.
 
 | Content | RSS | Tag |

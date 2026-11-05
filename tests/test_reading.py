@@ -119,3 +119,12 @@ def test_types_and_metadata_are_distinct_on_list_and_detail(site):
             assert 'class="meta-word-count"' in card
     # Blog cards receive the same visual label and metadata treatment.
     assert 'entry-badge-blog' in (site / "posts/index.html").read_text()
+
+
+def test_legacy_ideas_log_has_its_own_route(site):
+    # Both pages must contain their content; a redirect alias is not enough.
+    legacy = (site / "ideas/index.html").read_text()
+    assert "A running log of ideas, observations, and questions" in legacy
+    tix = (site / "tix/index.html").read_text()
+    assert "Today I X. The X is whatever caught my attention" in tix
+    assert 'entry-badge-idea' in tix
