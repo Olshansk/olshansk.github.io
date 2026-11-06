@@ -1,6 +1,6 @@
 +++
 title = "Quotes"
-tags = ["quote"]
+tags = ["TIX", "TodayIQuoted"]
 author = "Daniel Olshansky"
 ShowToc = false
 ShowReadingTime = false

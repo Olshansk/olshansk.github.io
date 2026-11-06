@@ -1,24 +1,16 @@
-{{- /* Explicit types take precedence over legacy tags and capture markers. */ -}}
-{{- $kind := .Params.entry_type | default "" | lower -}}
-{{- if not $kind -}}
-  {{- $tags := apply (.Params.tags | default slice) "lower" "." -}}
-  {{- $capture := .Params.capture_kind | default "" | upper -}}
-  {{- if or (in $tags "quote") (eq $capture "TIQ") -}}
-    {{- $kind = "quote" -}}
-  {{- else if in $tags "excerpt" -}}
-    {{- $kind = "excerpt" -}}
-  {{- else if or (in $tags "idea") (eq $capture "TII") -}}
-    {{- $kind = "idea" -}}
-  {{- else if or (in $tags "found") (eq $capture "TIF") -}}
-    {{- $kind = "found" -}}
-  {{- else if or (in $tags "todayiread") (in $tags "today i read") (eq $capture "TIR") -}}
-    {{- $kind = "reading" -}}
-  {{- else if in $tags "thought" -}}
-    {{- $kind = "thought" -}}
-  {{- else if eq .Section "posts" -}}
-    {{- $kind = "blog" -}}
-  {{- else -}}
-    {{- $kind = "note" -}}
-  {{- end -}}
+{{- $tags := apply (.Params.tags | default slice) "lower" "." -}}
+{{- $kind := "note" -}}
+{{- if in $tags "todayiquoted" -}}
+  {{- $kind = "quote" -}}
+{{- else if in $tags "todayiideated" -}}
+  {{- $kind = "idea" -}}
+{{- else if in $tags "todayifound" -}}
+  {{- $kind = "found" -}}
+{{- else if in $tags "todayiread" -}}
+  {{- $kind = "reading" -}}
+{{- else if in $tags "thought" -}}
+  {{- $kind = "thought" -}}
+{{- else if eq .Section "posts" -}}
+  {{- $kind = "blog" -}}
 {{- end -}}
 {{- return $kind -}}

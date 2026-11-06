@@ -19,7 +19,7 @@ def test_excerpt_preserves_multiline_text_and_source():
     assert str(path) == "content/tix/2026-10-17-a-quoted-title.md"
     assert '> “Exact words.”\n>\n> Second paragraph.' in rendered
     assert 'author: ["Original Author"]' in rendered
-    assert 'tags: ["excerpt", "TodayIRead"]' in rendered
+    assert 'tags: ["TIX", "TodayIRead"]' in rendered
     assert '— Original Author, <https://example.com/source>' in rendered
 
 
@@ -53,6 +53,11 @@ def test_new_entries_appear_in_normal_production_build(tmp_path):
         section = path.parent.name
         assert (destination / section / path.stem / "index.html").is_file()
         assert path.stem in (destination / section / "index.xml").read_text()
+        if section == "tix":
+            page = (destination / section / path.stem / "index.html").read_text()
+            action = "TodayIQuoted" if "quote" in path.stem else "TodayIRead"
+            assert '>#TIX</span>' in page
+            assert f'>#{action}</span>' in page
 
 
 @pytest.mark.parametrize("values", [

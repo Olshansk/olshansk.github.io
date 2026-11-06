@@ -104,20 +104,26 @@ anything worth capturing: something read, quoted, found, or thought about.
 Each section shows one RSS link. Entries display a type badge above the title
 and separate, smaller monospace date, reading time, and word-count metadata.
 
-Use frontmatter `entry_type` for an explicit label (e.g. `idea`, `reading`,
-`quote`, `excerpt`, `found`, or `note`). Otherwise the badge follows content tags
-and capture markers. This replaces the former `/reading/` section and URLs.
-The existing `/quotes/` log remains available and is tagged `quote`.
-The older ideas log remains at `/ideas/`; only the TIX section owns `/tix/`.
-`blog`, `quote`, and `excerpt` are reserved content tags; the two blog posts previously using the topic tag `quote` now use `quotations` to keep the feeds separate.
+Every TIX entry uses exactly two tags: `TIX`, then one CamelCase `TodayI…`
+action. Store the values without `#`; listing badges and article tag links render
+it (e.g. `#TIX #TodayIRead` or `#TIX #TodayIIdeated`). Use `TodayIQuoted` for
+quotes and `TodayIFound` for discoveries. Tags are the classification source;
+do not add duplicate `TIR`, `Today I Read`, `quote`, or `excerpt` tags, or
+`capture_kind`/`entry_type` fields. Blog tags are unchanged.
 
-| Content | RSS | Tag |
+This replaces the former `/reading/` section and URLs. The older quote and
+ideas logs remain at `/quotes/` and `/ideas/`, using the same classification
+contract. Only the TIX section owns `/tix/`.
+
+| Content | RSS | Tags |
 |---|---|---|
 | Everything published | `/index.xml` | All tags |
 | Blog | `/posts/index.xml` | `blog` |
-| Today I X | `/tix/index.xml` | Quotes, excerpts, readings, ideas, finds, and notes |
-| Quotes (including the legacy log) | `/tags/quote/index.xml` | `quote` |
-| Excerpts | `/tags/excerpt/index.xml` | `excerpt`, plus `TodayIRead` |
+| Today I X entries | `/tix/index.xml` | `TIX`, plus the action |
+| All TIX content, including legacy logs | `/tags/tix/index.xml` | `TIX` |
+| Quotes, including the legacy log | `/tags/todayiquoted/index.xml` | `TIX`, `TodayIQuoted` |
+| Reading notes and excerpts | `/tags/todayiread/index.xml` | `TIX`, `TodayIRead` |
+| Ideas, including the legacy log | `/tags/todayiideated/index.xml` | `TIX`, `TodayIIdeated` |
 
 Each new capture target creates its own branch from `origin/main`, commits only its entry, runs capture tests and a production Hugo build, and opens a custom draft PR.
 Requires authenticated `gh`, Git push access, Hugo, and uv.

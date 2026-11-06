@@ -42,13 +42,15 @@ When changing the date of a post or thought, update ALL of:
 
 ## Today I X and reading excerpts
 
-- For a supplied reading excerpt and source URL, use `make new_reading TITLE="..."` to create an individual entry under `content/tix/`, tagged `TodayIRead`.
+- For a supplied reading excerpt and source URL, use `make new_reading TITLE="..."` to create an individual entry under `content/tix/`, tagged `["TIX", "TodayIRead"]`.
 - Preserve the excerpt verbatim and link the source with its author(s). Set frontmatter `author` to the credited source author(s), not Daniel.
 - Check for duplicate excerpt/source pairs first. Add commentary only when requested.
 - The user's standing instruction is to create blog and TIX/reading content with `draft: false`, so it publishes when its PR is merged. Existing unrelated drafts are not part of a selected publishing batch.
-- `/index.xml` includes all published content. `/posts/index.xml` is blog-only. `/tix/index.xml` includes all Today I X entries; `/tags/quote/index.xml` and `/tags/excerpt/index.xml` separate them. Keep TIX entries out of the Posts list. Use `entry_type` for an explicit visual type label; preserve source attribution.
+- `/index.xml` includes all published content. `/posts/index.xml` is blog-only. `/tix/index.xml` includes all Today I X entries; `/tags/todayiquoted/index.xml` and `/tags/todayiread/index.xml` filter quotes and readings. Keep TIX entries out of the Posts list; preserve source attribution.
 - Use `make new_blog`, `make new_quote`, or `make new_excerpt` for new captures. Each target is authorized to commit only its entry in an isolated branch and open its own draft PR. Never merge automatically. Content uses `draft: false`; a draft GitHub PR is a separate review state.
-- Use tags `blog`, `quote`, and `excerpt`; retain `TodayIRead` on excerpts. The older `new_post`, `new_reading`, and `add_quote` targets remain local helpers.
+- Every TIX entry has exactly two classification tags: `TIX` first, then one CamelCase `TodayI…` action, such as `TodayIRead`, `TodayIIdeated`, `TodayIQuoted`, or `TodayIFound`. Classify original ideas as `TodayIIdeated`; classify reading notes and excerpts as `TodayIRead`.
+- Store tag values without `#`; render them with `#` on listing badges and article tag links (e.g. `#TIX #TodayIIdeated`). Do not create abbreviated or spaced variants such as `TIR` or `Today I Read`, or redundant `quote`/`excerpt` tags. Tags are the only classification source; do not add `capture_kind` or `entry_type` fields.
+- Blog captures keep `blog` and their existing topic tags. The older `new_post`, `new_reading`, and `add_quote` targets remain local helpers.
 - `make add_quote` remains the helper for the existing general-purpose `content/quotes.md` log.
 
 ## Close out reviewed content

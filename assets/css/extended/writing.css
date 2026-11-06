@@ -20,6 +20,7 @@
 .entry-badge {
   display: inline-block;
   margin-bottom: 12px;
+  margin-inline-end: 6px;
   padding: 3px 10px;
   border-radius: 4px;
   background: var(--badge-bg);
@@ -29,7 +30,7 @@
   line-height: 1.6;
   letter-spacing: .04em;
 }
-.entry-badge-quote, .entry-badge-excerpt {
+.entry-badge-quote {
   background: var(--quote-bg);
   color: var(--quote-ink);
 }
