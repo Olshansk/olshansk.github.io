@@ -3,9 +3,7 @@ title: "Thoughts on the new code review"
 date: "2026-11-03T12:00:00-08:00"
 draft: false
 author: "Daniel Olshansky"
-tags: ["TIR"]
-capture_kind: "TIR"
-entry_type: "idea"
+tags: ["TIX", "TodayIIdeated"]
 ---
 
 I did a quick reflection on how I've been approaching code reviews recently.

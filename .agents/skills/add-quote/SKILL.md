@@ -15,6 +15,8 @@ Use this workflow when the user invokes `add-quote` or asks to capture a quote.
 - Never invent, research, or correct an attribution unless the user explicitly asks for verification.
 - Resolve relative dates in the user's timezone and pass an explicit ISO `YYYY-MM-DD` date. Use the current date when none is requested.
 
+The quote log uses `["TIX", "TodayIQuoted"]`. Follow the two-tag contract in `AGENTS.md`; the templates add `#` for display.
+
 ## Execute
 
 Run:

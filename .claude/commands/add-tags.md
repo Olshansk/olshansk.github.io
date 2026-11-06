@@ -6,6 +6,12 @@ Read the `.file` file to get the path of the target content file, then read that
 
 Based on the content, suggest appropriate tags and update the file's frontmatter `tags` field.
 
+## TIX entries
+
+For `content/tix/`, `content/ideas.md`, and `content/quotes.md`, use exactly two tags: `TIX` and one CamelCase `TodayI…` action. Use `TodayIRead` for reading notes/excerpts, `TodayIIdeated` for original ideas, `TodayIQuoted` for quotes, and `TodayIFound` for discoveries. Preserve an existing valid action when it matches the content. Store tags without `#`; the templates add it for display. Remove duplicate, spaced, and abbreviated classifications. Do not add topic tags or the length-based type tags below to TIX entries.
+
+The remaining rules apply to other content.
+
 ## Rules
 
 - Use title case for tags (e.g., "Machine Learning" not "machine-learning")

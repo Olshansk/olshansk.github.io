@@ -2,7 +2,7 @@
 title: "{{TITLE}}"
 date: {{DATE}}
 draft: false
-tags: ["TodayIRead", "excerpt"]
+tags: ["TIX", "TodayIRead"]
 ShowToc: false
 ShowReadingTime: false
 ShowWordCount: false

@@ -17,6 +17,8 @@ Use this workflow when the user invokes `add-tix` or asks to capture an idea in 
 - If the input is already polished, preserve it rather than rewriting it.
 - Resolve relative dates in the user's timezone and pass an explicit ISO `YYYY-MM-DD` date. Use the current date when none is requested.
 
+The ideas log uses `["TIX", "TodayIIdeated"]`. Individual TIX entries follow the same two-tag contract in `AGENTS.md`; the templates add `#` for display.
+
 ## Execute
 
 After organizing the capture into an optional title and body, run:

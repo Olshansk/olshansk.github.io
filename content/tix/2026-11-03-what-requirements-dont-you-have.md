@@ -3,9 +3,7 @@ title: "What requirements can you have later?"
 date: "2026-11-03T12:00:00-08:00"
 draft: false
 author: "Daniel Olshansky"
-tags: ["TodayIRead", "Today I Read"]
-capture_kind: "TIR"
-entry_type: "reading"
+tags: ["TIX", "TodayIRead"]
 source: "https://www.seangoedecke.com/what-requirements-dont-you-have/"
 source_author: "Sean Goedecke"
 ---

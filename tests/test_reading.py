@@ -78,14 +78,14 @@ def test_reading_and_tag_are_discoverable(site):
 
 
 def test_separate_content_feeds_and_existing_blog_tags(site):
-    quote_items = ET.parse(site / "tags/quote/index.xml").findall("./channel/item")
-    excerpt_items = ET.parse(site / "tags/excerpt/index.xml").findall("./channel/item")
+    quote_items = ET.parse(site / "tags/todayiquoted/index.xml").findall("./channel/item")
+    excerpt_items = ET.parse(site / "tags/todayiread/index.xml").findall("./channel/item")
     blog_items = ET.parse(site / "tags/blog/index.xml").findall("./channel/item")
     assert quote_items and excerpt_items and blog_items
     assert all("/quotes/" in item.findtext("link") for item in quote_items)
     assert all("/tix/" in item.findtext("link") for item in excerpt_items)
     assert all("/posts/" in item.findtext("link") for item in blog_items)
-    assert SLUG in (site / "tags/excerpt/index.html").read_text()
+    assert SLUG in (site / "tags/todayiread/index.html").read_text()
     assert all(item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") for item in quote_items + excerpt_items + blog_items)
     blog_links = {item.findtext("link") for item in ET.parse(site / "posts/index.xml").findall("./channel/item")}
     assert blog_links == {item.findtext("link") for item in blog_items}
@@ -104,17 +104,18 @@ def test_tix_cutover_and_single_visible_feed_link(site):
 def test_types_and_metadata_are_distinct_on_list_and_detail(site):
     listing = (site / "tix/index.html").read_text()
     expected = {
-        "2026-11-03-thoughts-on-the-new-code-review": "Idea",
-        "2026-11-03-what-requirements-dont-you-have": "Reading",
-        SLUG: "Excerpt",
+        "2026-11-03-thoughts-on-the-new-code-review": "TodayIIdeated",
+        "2026-11-03-what-requirements-dont-you-have": "TodayIRead",
+        SLUG: "TodayIRead",
     }
     for slug, label in expected.items():
         card = next(card for card in re.findall(r'<article.*?</article>', listing, re.S) if slug in card)
         detail = (site / "tix" / slug / "index.html").read_text()
         for page in (card, detail):
-            assert f'>{label}</span>' in page
+            assert '>#TIX</span>' in page
+            assert f'>#{label}</span>' in page
             assert '<time datetime=' in page
-        if label != "Excerpt":
+        if slug != SLUG:
             assert 'class="meta-reading-time"' in card
             assert 'class="meta-word-count"' in card
     # Blog cards receive the same visual label and metadata treatment.
@@ -128,3 +129,24 @@ def test_legacy_ideas_log_has_its_own_route(site):
     tix = (site / "tix/index.html").read_text()
     assert "Today I X. The X is whatever caught my attention" in tix
     assert 'entry-badge-idea' in tix
+
+
+def test_canonical_hashtags_and_taxonomy_replace_old_variants(site):
+    expected = {
+        "tix/2026-11-03-thoughts-on-the-new-code-review": "TodayIIdeated",
+        "tix/2026-11-03-what-requirements-dont-you-have": "TodayIRead",
+        f"tix/{SLUG}": "TodayIRead",
+        "quotes": "TodayIQuoted",
+        "ideas": "TodayIIdeated",
+    }
+    for route, action in expected.items():
+        page = (site / route / "index.html").read_text()
+        footer = re.search(r'<ul class="post-tags">(.*?)</ul>', page, re.S).group(1)
+        labels = re.findall(r'<a[^>]*>(.*?)</a>', footer)
+        assert labels == ["#TIX", f"#{action}"]
+        links = re.findall(r'href="([^"]+)"', footer)
+        assert links[0].endswith("/tags/tix/")
+        assert links[1].endswith(f"/tags/{action.lower()}/")
+        assert route.split("/")[-1] in (site / "tags/tix/index.html").read_text()
+    for old_tag in ("tir", "today-i-read", "quote", "excerpt"):
+        assert not (site / "tags" / old_tag).exists()

@@ -1,5 +1,6 @@
 +++
 title = "Today I X"
+tags = ["TIX", "TodayIIdeated"]
 description = "A running log of ideas, observations, and questions."
 date = "2026-08-10"
 url = "/ideas/"

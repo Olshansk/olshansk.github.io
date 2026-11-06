@@ -49,8 +49,7 @@ def build_entry(kind: str, values: dict[str, str]) -> tuple[Path, str]:
     fields = {"title": title, "date": day, "draft": False, "tags": [kind]}
     if kind != "blog":
         fields.update(ShowToc=False, ShowReadingTime=False, ShowWordCount=False, ShowPostNavLinks=False)
-        if kind == "excerpt":
-            fields["tags"].append("TodayIRead")
+        fields["tags"] = ["TIX", "TodayIRead" if kind == "excerpt" else "TodayIQuoted"]
         # An empty source author must not inherit the site's curator as attribution.
         fields["author"] = [author]
         body = "\n".join("> " + line if line else ">" for line in body.split("\n"))
@@ -109,7 +108,7 @@ def main() -> int:
         body_file = worktree.parent / "pr-body.md"
         body_file.write_text(
             f"Add the {kind} entry **{title}** at `{path}`.\n\n"
-            f"Content tag: `{kind}`. Only this entry is included.\n\n"
+            f"Capture type: `{kind}`. Only this entry is included.\n\n"
             "Validation: `make test`, production Hugo build, and `git diff --check`.\n"
         )
         stamp = datetime.now(ZoneInfo("America/Los_Angeles")).strftime("%d/%m/%y")

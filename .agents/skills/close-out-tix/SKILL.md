@@ -41,7 +41,7 @@ Do not change unrelated existing drafts. Inspection-only requests remain read-on
 - Use the Hugo version pinned in `vercel.json` and CI. Run `make test`,
   `make test_workflow`, and `git diff --check`. Build without draft/future
   overrides and verify each selected entry's page, section listing, and feed
-  in the generated output. Entries under `content/reading/` appear in Reading
+  in the generated output. Entries under `content/tix/` appear in TIX
   and its feed, not the Posts list. A future date can also hide an entry;
   report it rather than silently changing its date. Use `uv` for Python and
   keep `uv.lock` unchanged during checks.
@@ -100,3 +100,7 @@ A queued merge is still pending and does not permit cleanup.
   remaining blocker. Report the outcome, content draft flags, generated URLs,
   and live deployment verification. A successful build alone does not establish
   that the selected content is visible.
+
+## TIX classification
+
+Follow `AGENTS.md`: each TIX entry uses `TIX` and one CamelCase action tag (e.g. `TodayIRead` or `TodayIIdeated`), stored without `#` and displayed with it. Remove redundant or abbreviated classifications before close-out.
