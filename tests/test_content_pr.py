@@ -2,6 +2,7 @@
 
 import importlib.util
 import subprocess
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import pytest
@@ -58,6 +59,11 @@ def test_new_entries_appear_in_normal_production_build(tmp_path):
             action = "TodayIQuoted" if "quote" in path.stem else "TodayIRead"
             assert '>#TIX</span>' in page
             assert f'>#{action}</span>' in page
+
+    # Individual quotes belong in TodayIQuoted; excerpts must remain separate.
+    quote_items = ET.parse(destination / "tags/todayiquoted/index.xml").findall("./channel/item")
+    assert len(quote_items) == 1
+    assert quote_items[0].findtext("link").endswith("/tix/2026-01-01-publishable-quote/")
 
 
 @pytest.mark.parametrize("values", [

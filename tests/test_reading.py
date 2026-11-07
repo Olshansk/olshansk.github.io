@@ -82,7 +82,8 @@ def test_separate_content_feeds_and_existing_blog_tags(site):
     excerpt_items = ET.parse(site / "tags/todayiread/index.xml").findall("./channel/item")
     blog_items = ET.parse(site / "tags/blog/index.xml").findall("./channel/item")
     assert quote_items and excerpt_items and blog_items
-    assert all("/quotes/" in item.findtext("link") for item in quote_items)
+    # Quotes include the legacy log and individual TodayIQuoted captures.
+    assert all(any(route in item.findtext("link") for route in ("/quotes/", "/tix/")) for item in quote_items)
     assert all("/tix/" in item.findtext("link") for item in excerpt_items)
     assert all("/posts/" in item.findtext("link") for item in blog_items)
     assert SLUG in (site / "tags/todayiread/index.html").read_text()
