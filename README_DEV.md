@@ -99,6 +99,11 @@ These checks also run as part of `make test` and CI.
 
 ## Today I X
 
+Use [$olsh-tix-prep](.agents/skills/olsh-tix-prep/SKILL.md) to pull the checkout
+and all branches, check repository health, and get the three most recent open
+TIX PRs to review. It ranks by entry date, then PR creation time, and reports
+draft status and check results without merging or changing content.
+
 The blog lives at `/posts/`; Today I X lives at `/tix/`. X is a placeholder for
 anything worth capturing: something read, quoted, found, or thought about.
 Each section shows one RSS link. Entries display a type badge above the title

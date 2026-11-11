@@ -1,0 +1,4 @@
+interface:
+  display_name: "olsh-tix-prep"
+  short_description: "Sync branches and prepare the latest TIX reviews"
+  default_prompt: "Use $olsh-tix-prep to pull this repo and all branches, check for issues, and return the three most recent TIX PRs I should review."

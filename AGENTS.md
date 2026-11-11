@@ -55,6 +55,9 @@ When changing the date of a post or thought, update ALL of:
 
 ## Close out reviewed content
 
+- For repository sync, health checks, and the three most recent TIX PRs to
+  review, use [olsh-tix-prep](.agents/skills/olsh-tix-prep/SKILL.md). Preparation
+  does not authorize content edits, PR merges, or branch deletion.
 - For an explicitly requested proofreading and PR close-out batch, use
   [close-out-tix](.agents/skills/close-out-tix/SKILL.md). Verify the selected
   posts against the local tracker, proofread, validate, squash-merge, remove
