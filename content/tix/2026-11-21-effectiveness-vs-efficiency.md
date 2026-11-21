@@ -8,12 +8,12 @@ source: "https://tim.blog/2026/11/20/timeless-principles/"
 source_author: "Tim Ferriss"
 ---
 
-Effectiveness is what you do. Efficiency is how you do it. Both matter, but you have to pick what to do before you get better at doing it.
+Effectiveness is what you do. Efficiency is how you do it. Both are equally important, but you have to pick what to do before you get better at doing it.
 
 A few things I took away from [Tim Ferriss's episode #890](https://tim.blog/2026/11/20/timeless-principles/), where Zuhairah Washington interviewed him:
 
 - **Diversify your identity.** Ferriss can have a bad week of writing and still make progress at rock climbing. That gives him another way to judge how the week went, rather than letting his work decide for him.
-- **Say no and name the trade-off.** Before saying yes to something new, ask what it would make you spend less time on.
+- **Say no and name the trade-off.** Every yes has a trade-off: before saying yes to something new, ask what it would make you spend less time on.
 - **Eliminate before you automate.** Before asking how AI could do a task faster, ask whether anyone needs to do it at all.
 - **Put longer email replies on the calendar.** If it takes two minutes, reply now. If it takes 15 or 30, block the time instead of marking the email unread and finding it again later.
 - **Put time off on the calendar too.** A date makes you figure out what can wait, what someone else can handle, and what actually needs you.
